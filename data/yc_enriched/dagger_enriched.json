@@ -1,0 +1,1484 @@
+{
+  "slug": "dagger",
+  "name": "Dagger",
+  "yc_id": 12093,
+  "batch": "Winter 2019",
+  "website": "https://dagger.io",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:46:53.461288",
+    "website": "https://dagger.io",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 2601.24,
+      "final_url": "https://dagger.io/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:46:56.062542"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "dagger.io",
+      "registrar": "Gandi SAS",
+      "creation_date": "2017-01-08T00:30:01",
+      "expiration_date": "2026-01-08T00:30:14",
+      "domain_age_days": 3204,
+      "domain_age_years": 8.8,
+      "name_servers": [
+        "ns-1457.awsdns-54.org",
+        "ns-1728.awsdns-24.co.uk",
+        "ns-200.awsdns-25.com",
+        "ns-626.awsdns-14.net"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/dagger_io",
+      "linkedin": "https://www.linkedin.com/company/dagger-io/",
+      "github": "https://github.com/dagger/dagger",
+      "facebook": null,
+      "instagram": null,
+      "youtube": "https://www.youtube.com/@dagger-io"
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": true,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 33,
+      "server": "Netlify"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:21:58.272999",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:21:42.921208",
+    "place_data": {
+      "status": "not_found",
+      "query": "San Francisco, CA, USA; London, England, United Kingdom; Seattle, WA, USA; Portland, OR, USA; Boulder, CO, USA; Lyon, Auvergne-Rh\u00f4ne-Alpes, France; Buenos Aires, CABA, Argentina; Bogot\u00e1, Bogota, Colombia; Vancouver, WA, USA; Montevideo, Montevideo Department, Uruguay; Ponta Delgada, Azores, Portugal; Remote",
+      "methods_tried": [
+        "static_db",
+        "nominatim",
+        "geonames"
+      ]
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:21:45.311845",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/dagger"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 100,
+        "packages": [
+          {
+            "name": "@dagger.io/dagger",
+            "description": "A client package for running [Dagger](https://dagger.io/) pipelines.",
+            "version": "0.19.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@dagger.io/dagger"
+          },
+          {
+            "name": "dagger-env",
+            "description": "A type-safe, reusable environment configuration abstraction for Dagger modules.",
+            "version": "0.6.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/dagger-env"
+          },
+          {
+            "name": "@vibe-kit/dagger",
+            "description": "Local sandbox provider for Vibekit using Dagger",
+            "version": "0.0.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@vibe-kit/dagger"
+          },
+          {
+            "name": "@tilt-ts/dagger",
+            "description": "Dagger integration for @tilt-ts/core",
+            "version": "6.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@tilt-ts/dagger"
+          },
+          {
+            "name": "@dagger-team/js-dagger-shared",
+            "description": "Shared resources for dagger public & private packages",
+            "version": "0.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@dagger-team/js-dagger-shared"
+          },
+          {
+            "name": "@dagger-team/js-dagger-client",
+            "description": "Client library for dagger. Includes worker and Task logging scripts",
+            "version": "0.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@dagger-team/js-dagger-client"
+          },
+          {
+            "name": "dagger",
+            "description": "Dagger is one half of a minimal API server layer for node.js, with emphasis on minimal.",
+            "version": "0.0.17",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/dagger"
+          },
+          {
+            "name": "@jahands/dagger-helpers",
+            "description": "dagger.io helpers for my own projects - not meant for public use",
+            "version": "0.7.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@jahands/dagger-helpers"
+          },
+          {
+            "name": "@maticnetwork/dagger",
+            "description": "Library to connect with dagger server and manage subscriptions for Ethereum and Matic",
+            "version": "0.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@maticnetwork/dagger"
+          },
+          {
+            "name": "@dagger-js/core",
+            "description": "Core utilities for Dagger dependency injection",
+            "version": "2.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@dagger-js/core"
+          },
+          {
+            "name": "eth-dagger",
+            "description": "Library to connect with dagger server and manage subscriptions for Ethereum",
+            "version": "0.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/eth-dagger"
+          },
+          {
+            "name": "@maticnetwork/eth-dagger",
+            "description": "Library to connect with dagger server and manage subscriptions for Ethereum",
+            "version": "0.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@maticnetwork/eth-dagger"
+          },
+          {
+            "name": "@vibe-kit/dagger-local",
+            "description": "Local sandbox provider for Vibekit using Dagger",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@vibe-kit/dagger-local"
+          },
+          {
+            "name": "emoji-dagger-knife",
+            "description": "returns the dagger-knife emoji",
+            "version": "1.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/emoji-dagger-knife"
+          },
+          {
+            "name": "jsdoc-to-markdown",
+            "description": "Generates markdown API documentation from jsdoc annotated source code",
+            "version": "9.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/jsdoc-to-markdown"
+          },
+          {
+            "name": "dagger-form",
+            "description": "![build](https://travis-ci.com/TimCN/dagger-form.svg?token=2roYfA5scVnWFqksjzzF&branch=master)  ![Codecov](https://img.shields.io/codecov/c/github/TimCN/dagger-form?token=6c12fdc0f36346449b0622f0790ef5e1)     react form",
+            "version": "0.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/dagger-form"
+          },
+          {
+            "name": "@hyper.fun/fluentui-emoji-dagger-color",
+            "description": "\ud83d\udc49  https://hyper.fun/c/fluentui-emoji-dagger-color/2.0.0",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@hyper.fun/fluentui-emoji-dagger-color"
+          },
+          {
+            "name": "daggraph",
+            "description": "A dagger dependency graph generator",
+            "version": "0.3.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/daggraph"
+          },
+          {
+            "name": "nihilbeatae",
+            "description": "Library to connect with dagger server and manage subscriptions for Ethereum",
+            "version": "1.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/nihilbeatae"
+          },
+          {
+            "name": "dagger-di",
+            "description": "Dagger Dependency Injection",
+            "version": "1.0.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/dagger-di"
+          },
+          {
+            "name": "@miyi/dagger.js",
+            "description": "a new cdn link for the prototype of dagger -v1.0.0",
+            "version": "0.9.22",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@miyi/dagger.js"
+          },
+          {
+            "name": "@hyper.fun/fluentui-emoji-dagger-flat",
+            "description": "\ud83d\udc49  https://hyper.fun/c/fluentui-emoji-dagger-flat/2.0.0",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@hyper.fun/fluentui-emoji-dagger-flat"
+          },
+          {
+            "name": "@hyper.fun/fluentui-emoji-dagger-high-contrast",
+            "description": "\ud83d\udc49  https://hyper.fun/c/fluentui-emoji-dagger-high-contrast/2.0.0",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@hyper.fun/fluentui-emoji-dagger-high-contrast"
+          },
+          {
+            "name": "daggerjs",
+            "description": "Dagger is one half of a minimal API server layer for node.js, with emphasis on minimal.",
+            "version": "0.0.11",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/daggerjs"
+          },
+          {
+            "name": "generator-android-tv-boilerplate",
+            "description": "Android Boilerplate project using RxJava, Dagger 2, Espresso, Mockito + more! for Android TV",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/generator-android-tv-boilerplate"
+          },
+          {
+            "name": "dagger-compiler",
+            "description": "Dependency injection for Node like Dagger2 for Android",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/dagger-compiler"
+          },
+          {
+            "name": "@jwbutler/space-dagger-engine",
+            "description": null,
+            "version": "0.8.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@jwbutler/space-dagger-engine"
+          },
+          {
+            "name": "nx-dagger",
+            "description": "Generate custom dagger function for compiling monorepo based on Nx targets",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/nx-dagger"
+          },
+          {
+            "name": "dagger-finance-uikit",
+            "description": "Set of UI components for dagger Finance projects",
+            "version": "1.1.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/dagger-finance-uikit"
+          },
+          {
+            "name": "@a11ywatch/core",
+            "description": "a11ywatch central API",
+            "version": "0.8.17",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@a11ywatch/core"
+          },
+          {
+            "name": "@tigerbrokers/dagger",
+            "description": "Automatic login switch server of Tigerbrokers",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@tigerbrokers/dagger"
+          },
+          {
+            "name": "generator-android-app",
+            "description": "Generate an Android app (Kotlin or Java) that uses Dagger, Retrofit, Room, Jetpack and Glide. https://github.com/alphamu/yo-android-app.git",
+            "version": "0.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/generator-android-app"
+          },
+          {
+            "name": "@miyi/code-img",
+            "description": "a dagger component where you can custom define the image, and upon clicking it the code gets pushed to monaco ",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@miyi/code-img"
+          },
+          {
+            "name": "doloresnulla",
+            "description": "Library to connect with dagger server and manage subscriptions for Ethereum",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/doloresnulla"
+          },
+          {
+            "name": "jsdoc2vuepress",
+            "description": "Simple jsdoc2md wrapper to create ready to use markdown files for vuepress",
+            "version": "1.1.12",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/jsdoc2vuepress"
+          },
+          {
+            "name": "jetpack-compose-cli",
+            "description": "A Boilerplate code generator for creating Android project. Using fully Kotlin and MVI pattern that refer to Android Jetpack. Because Im tired to setup Hilt and other stuffs everytime initializing a new project.",
+            "version": "1.0.14",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/jetpack-compose-cli"
+          },
+          {
+            "name": "@liquid-labs/jsdoc-to-markdown",
+            "description": "Enhanced jsdoc2md to generate markdown API documentation from jsdoc annotated source code",
+            "version": "9.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@liquid-labs/jsdoc-to-markdown"
+          },
+          {
+            "name": "dagger.js",
+            "description": "Dagger.js application server framework",
+            "version": "1.0.32",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/dagger.js"
+          },
+          {
+            "name": "3663u7",
+            "description": "3663u7",
+            "version": "3.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/3663u7"
+          },
+          {
+            "name": "totamconsequuntur",
+            "description": "Library to connect with dagger server and manage subscriptions for Ethereum",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/totamconsequuntur"
+          },
+          {
+            "name": "3o0tcv",
+            "description": "3o0tcv",
+            "version": "2.3.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/3o0tcv"
+          },
+          {
+            "name": "6swcjf",
+            "description": "6swcjf",
+            "version": "3.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/6swcjf"
+          },
+          {
+            "name": "7jsr3b",
+            "description": "7jsr3b",
+            "version": "2.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/7jsr3b"
+          },
+          {
+            "name": "@x-cmd-pkg/dagger",
+            "description": "publish release of x-cmd organization",
+            "version": "0.0.0-v0.10.1-win.x64.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@x-cmd-pkg/dagger"
+          },
+          {
+            "name": "generator-android-starter",
+            "description": "Yeoman android starter essentials",
+            "version": "0.9.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/generator-android-starter"
+          },
+          {
+            "name": "oldschooljs",
+            "description": "Allows you to interact with the OSRS Hiscores, Wiki, Items, & more.",
+            "version": "2.6.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/oldschooljs"
+          },
+          {
+            "name": "dagger-cli",
+            "description": "Scaffolding cli tool for Dagger.js projects",
+            "version": "1.0.11",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/dagger-cli"
+          },
+          {
+            "name": "@jokocide/dagger",
+            "description": null,
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@jokocide/dagger"
+          },
+          {
+            "name": "create-dagger-bun",
+            "description": "To install dependencies:",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/create-dagger-bun"
+          },
+          {
+            "name": "pitcher",
+            "description": "Code generated dependency injection for Typescript",
+            "version": "0.2.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/pitcher"
+          },
+          {
+            "name": "jdxvra",
+            "description": "jdxvra",
+            "version": "3.2.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/jdxvra"
+          },
+          {
+            "name": "generator-android-mvp-starter",
+            "description": "An MVP Boilerplate to save me having to create the same project over from scratch every time! :)",
+            "version": "3.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/generator-android-mvp-starter"
+          },
+          {
+            "name": "node-dagger",
+            "description": "Status reporting library for getdagger.com (NOTE: This is a prototype and should not be used until futher notice)",
+            "version": "0.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/node-dagger"
+          },
+          {
+            "name": "daggerai",
+            "description": "A simple and powerful Typescript based agent framework to help businesses thrive in the AI Agent revolution.",
+            "version": "0.0.23",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/daggerai"
+          },
+          {
+            "name": "@paladin-bladesmith/dagger",
+            "description": null,
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@paladin-bladesmith/dagger"
+          },
+          {
+            "name": "xvszzl",
+            "description": "xvszzl",
+            "version": "3.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/xvszzl"
+          },
+          {
+            "name": "haywire",
+            "description": "Type safe dependency injection",
+            "version": "0.1.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/haywire"
+          },
+          {
+            "name": "@deniskursakov/dagger",
+            "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@deniskursakov/dagger"
+          },
+          {
+            "name": "fab-cards",
+            "description": "TypeScript representations of Flesh and Blood cards",
+            "version": "8.0.147",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/fab-cards"
+          },
+          {
+            "name": "@peakman/dagger.js",
+            "description": "A html-based runtime web frontend framework",
+            "version": "0.9.21",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@peakman/dagger.js"
+          },
+          {
+            "name": "generator-android-square-stack",
+            "description": "Yeoman generator for Android+Square libs",
+            "version": "0.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/generator-android-square-stack"
+          },
+          {
+            "name": "core-annotations",
+            "description": "Flexible annotation parser for Node",
+            "version": "1.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/core-annotations"
+          },
+          {
+            "name": "q-di",
+            "description": "Asynchronous dependency injection using Q promises",
+            "version": "0.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/q-di"
+          },
+          {
+            "name": "karambit-inject",
+            "description": "A compile-time and type-safe dependency injector for Typescript.",
+            "version": "3.1.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/karambit-inject"
+          },
+          {
+            "name": "generator-android-hipster",
+            "description": "Android generator based on MVP, Dagger2, RxJava, Java & Kotlin Stack and usefull libraries for Android",
+            "version": "1.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/generator-android-hipster"
+          },
+          {
+            "name": "create-android-app",
+            "description": "CLI for creating android project",
+            "version": "1.0.23",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/create-android-app"
+          },
+          {
+            "name": "dagger-multicall",
+            "description": "Make multiple Ethereum network requests in a single HTTP query. ethcall for ethers v5.",
+            "version": "0.2.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/dagger-multicall"
+          },
+          {
+            "name": "generator-mvp-kotlin",
+            "description": "Generator for new Android project to save me from creating basic file over & over again with MVP architecture.",
+            "version": "0.5.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/generator-mvp-kotlin"
+          },
+          {
+            "name": "advanced-rpg-table",
+            "description": "A simple embeddable table and random generator for use with html.",
+            "version": "2.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/advanced-rpg-table"
+          },
+          {
+            "name": "generator-kotlin-android",
+            "description": "An Kotlin MVP Boilerplate to save me having to create the same project over from scratch every time! :)",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/generator-kotlin-android"
+          },
+          {
+            "name": "monoid-map",
+            "description": "An map as a monoid",
+            "version": "0.1.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/monoid-map"
+          },
+          {
+            "name": "@animus-bi/scab",
+            "description": "A CLI that scaffolds up projects of various kinds",
+            "version": "0.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@animus-bi/scab"
+          },
+          {
+            "name": "@rawkode.academy/dagger",
+            "description": null,
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@rawkode.academy/dagger"
+          },
+          {
+            "name": "generator-libgdx",
+            "description": "A generator for easy project setup of Libgdx projects",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/generator-libgdx"
+          },
+          {
+            "name": "@palo-it/lynx-pipelines",
+            "description": "THIS PACKAGE IS NOT STABLE.",
+            "version": "0.0.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@palo-it/lynx-pipelines"
+          },
+          {
+            "name": "wp5rbn",
+            "description": "wp5rbn",
+            "version": "2.3.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/wp5rbn"
+          },
+          {
+            "name": "daggerlib",
+            "description": "API for working with Coffman-Graham style Directed Acyclic Graphs",
+            "version": "1.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/daggerlib"
+          },
+          {
+            "name": "osgearthwasm",
+            "description": "osgEarth ported to WebAssembly to run it on the web platform",
+            "version": "0.1.17",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/osgearthwasm"
+          },
+          {
+            "name": "mp92za",
+            "description": "mp92za",
+            "version": "3.3.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/mp92za"
+          },
+          {
+            "name": "calic7",
+            "description": "calic7",
+            "version": "2.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/calic7"
+          },
+          {
+            "name": "v9egah",
+            "description": "v9egah",
+            "version": "2.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/v9egah"
+          },
+          {
+            "name": "gg-team-pointlessly-dagger",
+            "description": "Paket dibuat oleh Bot GG Team AI",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/gg-team-pointlessly-dagger"
+          },
+          {
+            "name": "drabs",
+            "description": "Drips and drabs of helper utilities.",
+            "version": "0.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/drabs"
+          },
+          {
+            "name": "pauli-algebra",
+            "description": "Pauli algebra",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/pauli-algebra"
+          },
+          {
+            "name": "html5-setattribute-extended",
+            "description": "HTML5 Extended setAttribute",
+            "version": "0.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/html5-setattribute-extended"
+          },
+          {
+            "name": "fluoride",
+            "description": "Fluoride is a compile-time dependency injection framework for TypeScript.",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/fluoride"
+          },
+          {
+            "name": "dagger.demo.modules",
+            "description": "the demo resource for dagger.js",
+            "version": "1.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/dagger.demo.modules"
+          },
+          {
+            "name": "generator-suitcore",
+            "description": "android boilerplate for general application development",
+            "version": "2.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/generator-suitcore"
+          },
+          {
+            "name": "vue-setattribute-extended",
+            "description": "setAttribute extended names",
+            "version": "0.0.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/vue-setattribute-extended"
+          },
+          {
+            "name": "spurs",
+            "description": "javaScript utils for daily projects",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/spurs"
+          },
+          {
+            "name": "generator-suitcore-kotlin-mvp",
+            "description": "android boilerplate for general application development",
+            "version": "1.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/generator-suitcore-kotlin-mvp"
+          },
+          {
+            "name": "generator-suitcore-code-base",
+            "description": "android boilerplate for general application development",
+            "version": "1.2.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/generator-suitcore-code-base"
+          },
+          {
+            "name": "f8cck2",
+            "description": "f8cck2",
+            "version": "1.1.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/f8cck2"
+          },
+          {
+            "name": "generator-aac-mvvm",
+            "description": "Yeomen Generator for Barebones Android Project with Android Architecture component in MVVM Pattern using Databinding Support",
+            "version": "1.0.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/generator-aac-mvvm"
+          },
+          {
+            "name": "dowload_ebok_morkt_motiv_en_kommissarie_gamache_deckare_by_louise_penny_hg0rf",
+            "description": "\uff24\uff4f\uff57\uff4e\uff4c\uff4f\uff41\uff44 \uff45\uff42\uff4f\uff4f\uff4b \uff50\uff44\uff46 \uff4d\uff4f\uff42\uff49 \uff45\uff50\uff55\uff42 Louise Penny M\u00f6rkt motiv (En kommissarie Gamache-deckare) is available now",
+            "version": "4.0.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/dowload_ebok_morkt_motiv_en_kommissarie_gamache_deckare_by_louise_penny_hg0rf"
+          },
+          {
+            "name": "generator-android-clean-architecture-boilerplate",
+            "description": "An Android clean architecture boilerplate to save us having to create the same project over from scratch every time! :)",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/generator-android-clean-architecture-boilerplate"
+          },
+          {
+            "name": "@island.is/pipes-core",
+            "description": "Pipes is dev-friendly, testable pipelines library for local & CI/CD platforms, written in Typescript.",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@island.is/pipes-core"
+          },
+          {
+            "name": "@okiba/core",
+            "description": "A complete collection of Okiba core features",
+            "version": "1.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@okiba/core"
+          },
+          {
+            "name": "uypz10",
+            "description": "uypz10",
+            "version": "1.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/uypz10"
+          },
+          {
+            "name": "full-text-search-uidb",
+            "description": "A lightweight, fast, and efficient full-text search library for JavaScript arrays of objects. Supports multi-field search, fuzzy matching, and customizable options. Ideal for React, Angular, and other web projects.",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/full-text-search-uidb"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 3,
+        "packages": [
+          {
+            "name": "dagger",
+            "version": "2.3.1",
+            "downloads": 80809,
+            "url": "https://rubygems.org/gems/dagger"
+          },
+          {
+            "name": "ruby-dagger",
+            "version": "0.4.0",
+            "downloads": 17990,
+            "url": "https://rubygems.org/gems/ruby-dagger"
+          },
+          {
+            "name": "dagger_ruby",
+            "version": "0.7.0",
+            "downloads": 1579,
+            "url": "https://rubygems.org/gems/dagger_ruby"
+          }
+        ]
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 10,
+        "packages": [
+          {
+            "name": "dagger",
+            "description": "A rust UI library.",
+            "version": "0.1.0",
+            "downloads": 1449,
+            "url": "https://crates.io/crates/dagger"
+          },
+          {
+            "name": "dagger-rs",
+            "description": "A dagger sdk for rust, written in rust",
+            "version": "0.0.0",
+            "downloads": 15780,
+            "url": "https://crates.io/crates/dagger-rs"
+          },
+          {
+            "name": "dagger_layout",
+            "description": "A UI layouting library for dagger.",
+            "version": "0.1.0",
+            "downloads": 1752,
+            "url": "https://crates.io/crates/dagger_layout"
+          },
+          {
+            "name": "dagger_macros",
+            "description": "Macros for dagger.",
+            "version": "0.1.0",
+            "downloads": 1796,
+            "url": "https://crates.io/crates/dagger_macros"
+          },
+          {
+            "name": "dagger-sdk",
+            "description": "A dagger sdk for rust, written in rust",
+            "version": "0.19.2",
+            "downloads": 87744,
+            "url": "https://crates.io/crates/dagger-sdk"
+          },
+          {
+            "name": "dagger-cuddle-please",
+            "description": "A set of components for running cuddle-please in dagger",
+            "version": "0.2.0",
+            "downloads": 3216,
+            "url": "https://crates.io/crates/dagger-cuddle-please"
+          },
+          {
+            "name": "dagger-rust",
+            "description": "A common set of components for dagger-sdk, which enables patterns such as build, test and publish",
+            "version": "0.2.0",
+            "downloads": 3321,
+            "url": "https://crates.io/crates/dagger-rust"
+          },
+          {
+            "name": "dagger-codegen",
+            "description": "dagger sdk codegen library",
+            "version": "0.0.0",
+            "downloads": 10527,
+            "url": "https://crates.io/crates/dagger-codegen"
+          },
+          {
+            "name": "dagger-core",
+            "description": "dagger sdk core library",
+            "version": "0.0.0",
+            "downloads": 29566,
+            "url": "https://crates.io/crates/dagger-core"
+          },
+          {
+            "name": "dagger-balatro",
+            "description": "A simple Balatro CLI mod manager inspired by `mini.deps`. Focuses on `lovely` and `smods` mods.",
+            "version": "0.1.0-prealpha1",
+            "downloads": 349,
+            "url": "https://crates.io/crates/dagger-balatro"
+          }
+        ]
+      },
+      "total_packages": 113,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:21:47.166447"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:21:47.166476",
+    "batch_network": {
+      "batch": "Winter 2019",
+      "total_batch_mates": 194,
+      "active_batch_mates": 124,
+      "batch_success_rate": 63.9,
+      "notable_batch_mates": [
+        {
+          "name": "Searchlight",
+          "slug": "searchlight",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Talent AI improving quality of hire"
+        },
+        {
+          "name": "Fuzzbuzz",
+          "slug": "fuzzbuzz",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Fuzzing as a Service"
+        },
+        {
+          "name": "ZeroStorefront",
+          "slug": "zerostorefront",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "#1 Data platform for restaurants. Acquired by Thanx"
+        },
+        {
+          "name": "Geosite",
+          "slug": "geosite",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Geosite is an enterprise SaaS platform for spatial data."
+        },
+        {
+          "name": "Insight",
+          "slug": "insight",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The first extensible browser for iOS"
+        },
+        {
+          "name": "InterPrime",
+          "slug": "interprime",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Safe & Secure Cash Management for Businesses"
+        },
+        {
+          "name": "Preflight",
+          "slug": "preflight",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "No-code Web Apps testing for everyone"
+        },
+        {
+          "name": "Windsor",
+          "slug": "windsor",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "AI Powered Personalized Videos"
+        },
+        {
+          "name": "Ascen",
+          "slug": "ascen",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "EOR for the staffing industry"
+        },
+        {
+          "name": "Convex",
+          "slug": "convex",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Software for the commercial services industry. "
+        }
+      ],
+      "batch_size": 195
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "status": "Active",
+          "batch": "Winter 2012",
+          "one_liner": "High Performance Computing Built for the Cloud"
+        },
+        {
+          "name": "Marft",
+          "slug": "marft",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Marft creates embeddable machine learning models for application\u2026"
+        },
+        {
+          "name": "Pixelapse",
+          "slug": "pixelapse",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Github for designers. We automatically keep track of revisions of\u2026"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Palantir for sales people"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Smart search for the modern team."
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Authy is a Two-Factor Authentication platform for developers"
+        },
+        {
+          "name": "Flutter",
+          "slug": "flutter",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Flutter combined computer vision technology with the built-in webcams\u2026"
+        },
+        {
+          "name": "SolidStage",
+          "slug": "solidstage",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Sysadmin as a service. We make deploying, configuring, monitoring,\u2026"
+        },
+        {
+          "name": "Clutch",
+          "slug": "clutch",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "An easy to integrate library for native iOS applications designed to\u2026"
+        },
+        {
+          "name": "OneSignal",
+          "slug": "onesignal",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Engage customers through personalized omni-channel messaging"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "San Francisco",
+      "location": "San Francisco, CA, USA; London, England, United Kingdom; Seattle, WA, USA; Portland, OR, USA; Boulder, CO, USA; Lyon, Auvergne-Rh\u00f4ne-Alpes, France; Buenos Aires, CABA, Argentina; Bogot\u00e1, Bogota, Colombia; Vancouver, WA, USA; Montevideo, Montevideo Department, Uruguay; Ponta Delgada, Azores, Portugal; Remote",
+      "companies_in_city": 2007,
+      "active_in_city": 1339,
+      "nearby_companies": [
+        {
+          "name": "42Floors",
+          "slug": "42floors",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "PlanGrid",
+          "slug": "plangrid",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "MyVR",
+          "slug": "myvr",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Couple",
+          "slug": "couple",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HackPad",
+          "slug": "hackpad",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Gusto",
+          "slug": "gusto",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "FamilyLeaf",
+          "slug": "familyleaf",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Chute",
+          "slug": "chute",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Make School",
+          "slug": "make-school",
+          "batch": "Winter 2012",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Exec",
+          "slug": "exec",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Public"
+        },
+        {
+          "name": "LendUp",
+          "slug": "lendup",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tilt",
+          "slug": "tilt",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fond",
+          "slug": "fond",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Ultralight",
+        "slug": "ultralight",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Basilica",
+        "slug": "basilica",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Elph",
+        "slug": "elph",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Glide",
+        "slug": "glide",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Cosmic",
+        "slug": "cosmic",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Searchlight",
+        "slug": "searchlight",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "JuziBot",
+        "slug": "juzibot",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Overview",
+        "slug": "overview",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Fuzzbuzz",
+        "slug": "fuzzbuzz",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Flockjay",
+        "slug": "flockjay",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 4947,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:21:47.184049"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:21:47.184060",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:21:47.568465",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:21:47.664650",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 22,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:42:28.120231",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increased adoption of DevOps practices",
+        "Growing demand for cloud-native CI/CD solutions",
+        "Shift towards Infrastructure-as-Code (IaC)"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Technology (container-native architecture, SDKs)",
+      "differentiation": "Programmable CI/CD engine that runs pipelines in containers, allowing for portability and superior caching.",
+      "competitive_advantages": [
+        "Portability across different environments",
+        "Improved caching for faster builds"
+      ],
+      "competitive_vulnerabilities": [
+        "Complexity of adoption for non-technical users",
+        "Potential vendor lock-in with Dagger's SDKs"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "series-a",
+      "growth_indicators": [
+        "Adoption rate among developers",
+        "Community engagement and contributions"
+      ],
+      "growth_bottlenecks": [
+        "Developer education and onboarding",
+        "Integration with existing CI/CD tools"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Competition from established CI/CD providers",
+        "Difficulty in attracting and retaining top engineering talent",
+        "Evolving containerization standards"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong technical foundation with container-native architecture",
+        "Addresses a significant pain point in modern software development",
+        "Potential to become a standard for portable CI/CD"
+      ],
+      "concerns": [
+        "Market adoption speed",
+        "Ability to compete with larger, well-funded players"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "CircleCI",
+        "GitLab CI"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on developer experience and ease of use",
+        "Expand integrations with popular CI/CD tools and platforms"
+      ],
+      "expansion_opportunities": [
+        "Offer enterprise-grade features and support",
+        "Develop a marketplace for pre-built pipeline components"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 706,
+      "completion": 632,
+      "total": 1338,
+      "estimated_cost": 0.000243
+    }
+  },
+  "phase8_complete": true
+}

@@ -1,0 +1,574 @@
+{
+  "slug": "shogun",
+  "name": "Shogun",
+  "yc_id": 1732,
+  "batch": "Winter 2018",
+  "website": "https://getshogun.com/",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:40:30.806488",
+    "website": "https://getshogun.com/",
+    "website_status": {
+      "reachable": false,
+      "error": "connection_error"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "getshogun.com",
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "error": "HTTPSConnectionPool(host='getshogun.com', port=443): Max retries exceeded with url: / (Caused by Nam"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:19:26.677193",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:19:15.979854",
+    "place_data": {
+      "status": "not_found",
+      "query": "San Carlos, CA, USA; Palo Alto, CA, USA; Remote",
+      "methods_tried": [
+        "static_db",
+        "nominatim",
+        "geonames"
+      ]
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:16.319083",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:16.319090",
+    "batch_network": {
+      "batch": "Winter 2018",
+      "total_batch_mates": 145,
+      "active_batch_mates": 83,
+      "batch_success_rate": 57.2,
+      "notable_batch_mates": [
+        {
+          "name": "Newfront",
+          "slug": "newfront-insurance",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "Modern insurance brokerage."
+        },
+        {
+          "name": "Mayhem",
+          "slug": "mayhem",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Mayhem is the easiest way to play with your gaming community."
+        },
+        {
+          "name": "Pulse",
+          "slug": "pulse-2",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "We're crowdsourced Gartner so IT executives can learn directly from\u2026"
+        },
+        {
+          "name": "Bear Flag Robotics",
+          "slug": "bear-flag-robotics",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Autonomous driving technology for farm tractors."
+        },
+        {
+          "name": "ClearBrain",
+          "slug": "clearbrain",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Causal Analytics for Growth Teams"
+        },
+        {
+          "name": "Sepsis Scout",
+          "slug": "sepsis-scout",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Wearables and AI to predict and prevent sepsis outside the hospital"
+        },
+        {
+          "name": "onederful",
+          "slug": "onederful",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Dental Insurance API"
+        },
+        {
+          "name": "CodeStream",
+          "slug": "codestream",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "CodeStream is a Developer Collaboration Platform designed to\u2026"
+        },
+        {
+          "name": "Glimpse K12",
+          "slug": "glimpse-k12",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Glimpse eliminates ineffective spending in schools."
+        },
+        {
+          "name": "Squad",
+          "slug": "squad",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Squad is an app for live communities to have shared experiences\u2026"
+        }
+      ],
+      "batch_size": 146
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "status": "Active",
+          "batch": "Winter 2012",
+          "one_liner": "High Performance Computing Built for the Cloud"
+        },
+        {
+          "name": "Marft",
+          "slug": "marft",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Marft creates embeddable machine learning models for application\u2026"
+        },
+        {
+          "name": "Pixelapse",
+          "slug": "pixelapse",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Github for designers. We automatically keep track of revisions of\u2026"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Palantir for sales people"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Smart search for the modern team."
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Authy is a Two-Factor Authentication platform for developers"
+        },
+        {
+          "name": "Flutter",
+          "slug": "flutter",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Flutter combined computer vision technology with the built-in webcams\u2026"
+        },
+        {
+          "name": "SolidStage",
+          "slug": "solidstage",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Sysadmin as a service. We make deploying, configuring, monitoring,\u2026"
+        },
+        {
+          "name": "Clutch",
+          "slug": "clutch",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "An easy to integrate library for native iOS applications designed to\u2026"
+        },
+        {
+          "name": "OneSignal",
+          "slug": "onesignal",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Engage customers through personalized omni-channel messaging"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "San Carlos",
+      "location": "San Carlos, CA, USA; Palo Alto, CA, USA; Remote",
+      "companies_in_city": 11,
+      "active_in_city": 7,
+      "nearby_companies": [
+        {
+          "name": "Screenleap",
+          "slug": "screenleap-inc",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Presto",
+          "slug": "presto",
+          "batch": "Summer 2010",
+          "industry": "B2B",
+          "status": "Public"
+        },
+        {
+          "name": "InnoVein",
+          "slug": "innovein",
+          "batch": "Winter 2016",
+          "industry": "Healthcare",
+          "status": "Inactive"
+        },
+        {
+          "name": "Inevitable Tech",
+          "slug": "inevitable-tech",
+          "batch": "Winter 2016",
+          "industry": "Industrials",
+          "status": "Inactive"
+        },
+        {
+          "name": "Sinovia Technologies",
+          "slug": "sinovia-technologies",
+          "batch": "Winter 2017",
+          "industry": "Industrials",
+          "status": "Active"
+        },
+        {
+          "name": "Clear Gene",
+          "slug": "clear-gene",
+          "batch": "Summer 2018",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Dorian Therapeutics",
+          "slug": "dorian-therapeutics",
+          "batch": "Summer 2018",
+          "industry": "Healthcare",
+          "status": "Acquired"
+        },
+        {
+          "name": "Asher Bio",
+          "slug": "asher-bio",
+          "batch": "Summer 2019",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Altay Therapeutics",
+          "slug": "altay-therapeutics",
+          "batch": "Winter 2020",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Eugit Therapeutics",
+          "slug": "eugit-therapeutics",
+          "batch": "Summer 2022",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Diffuse Bio",
+          "slug": "diffuse-bio",
+          "batch": "Winter 2023",
+          "industry": "Healthcare",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "low"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "CodeStream",
+        "slug": "codestream",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "NewCraft",
+        "slug": "newcraft",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Draftbit",
+        "slug": "draftbit",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "EnvKey",
+        "slug": "envkey",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Haiku",
+        "slug": "haiku",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "miru",
+        "slug": "miru",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Storyline",
+        "slug": "storyline",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Pagedraw",
+        "slug": "pagedraw",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Voicery",
+        "slug": "voicery",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Iambiq Technologies",
+        "slug": "iambiq-technologies",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 2902,
+      "network_density_score": 71.2,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": false,
+      "calculated_at": "2025-10-17T10:19:16.326065"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:16.326072",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:16.643300",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:16.759111",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 90,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:44:24.309073",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Headless commerce adoption",
+        "Direct-to-consumer brand growth",
+        "Mobile-first shopping experiences"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Strong platform integrations with Shopify/BigCommerce and established customer base of 20,000+ merchants",
+      "differentiation": "Dual product offering combining page builder and frontend solutions for comprehensive ecommerce experience optimization",
+      "competitive_advantages": [
+        "Deep ecommerce platform integrations",
+        "Proven customer base with notable brands",
+        "Remote-first global talent access"
+      ],
+      "competitive_vulnerabilities": [
+        "Platform dependency risk",
+        "Competition from native platform tools"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "low"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "Large customer base of 20,000+",
+        "Team scaling to 90 employees",
+        "Brand name customers"
+      ],
+      "growth_bottlenecks": [
+        "Platform dependency limitations",
+        "International expansion complexity"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "low",
+      "overall_risk_score": 4,
+      "key_risks": [
+        "Shopify/BigCommerce policy changes",
+        "Native platform feature competition",
+        "Economic downturn affecting ecommerce spend"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Large addressable market",
+        "Strong customer traction",
+        "Experienced team with 6+ years execution"
+      ],
+      "concerns": [
+        "Platform dependency concentration",
+        "Competitive pressure from native solutions"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Gorgias",
+        "Klaviyo"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Expand platform integrations beyond Shopify/BigCommerce",
+        "Develop proprietary analytics and optimization features"
+      ],
+      "expansion_opportunities": [
+        "International market expansion",
+        "Adjacent verticals beyond ecommerce"
+      ]
+    },
+    "tokens_used": {
+      "input": 749,
+      "output": 547,
+      "total": 1296,
+      "estimated_cost": 0.010452
+    }
+  },
+  "phase8_complete": true
+}

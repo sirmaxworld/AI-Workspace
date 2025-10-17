@@ -1,0 +1,130 @@
+{
+  "slug": "bifrost",
+  "name": "Bifrost",
+  "yc_id": 25569,
+  "batch": "Winter 2022",
+  "website": "https://www.hapi.finance/",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T01:12:00.734089",
+    "website": "https://www.hapi.finance/",
+    "website_status": {
+      "reachable": false,
+      "error": "connection_error"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "hapi.finance",
+      "error": "Whois command returned no output"
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "error": "HTTPSConnectionPool(host='www.hapi.finance', port=443): Max retries exceeded with url: / (Caused by "
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:38:54.125124",
+  "phase1_complete": true,
+  "phase2_complete": false,
+  "phase3_complete": false,
+  "phase4_complete": false,
+  "phase5_complete": false,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:23.210935",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "medium",
+      "market_stage": "emerging",
+      "key_trends": [
+        "Increasing adoption of cryptocurrency",
+        "Growing awareness of digital asset inheritance",
+        "Demand for secure and decentralized estate planning solutions"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Smart contract technology and early mover advantage in a niche market.",
+      "differentiation": "On-chain dead man's switch for automated crypto asset transfer.",
+      "competitive_advantages": [
+        "First-mover advantage in a specialized niche",
+        "Decentralized and trustless execution"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on blockchain security and smart contract integrity",
+        "Regulatory uncertainty surrounding crypto assets and inheritance"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "medium",
+      "capital_intensity": "low"
+    },
+    "growth_assessment": {
+      "growth_stage": "seed",
+      "growth_indicators": [
+        "User adoption rate of crypto inheritance solutions",
+        "Partnerships with crypto wallets and exchanges"
+      ],
+      "growth_bottlenecks": [
+        "Regulatory hurdles",
+        "User education and trust in smart contract solutions"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "high",
+      "overall_risk_score": 7,
+      "key_risks": [
+        "Smart contract vulnerabilities",
+        "Fluctuations in cryptocurrency values",
+        "Lack of regulatory clarity"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Addresses a growing need in the crypto space",
+        "Leverages blockchain technology for secure asset transfer",
+        "Potential for high margins with a SaaS model"
+      ],
+      "concerns": [
+        "Inactive status raises questions about viability",
+        "Limited market traction and user adoption"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Casa",
+        "Ledger"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Re-evaluate market demand and competitive landscape",
+        "Focus on user education and building trust",
+        "Explore partnerships with established crypto platforms"
+      ],
+      "expansion_opportunities": [
+        "Integration with DeFi protocols",
+        "Offering estate planning services for other digital assets (NFTs, etc.)"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 658,
+      "completion": 620,
+      "total": 1278,
+      "estimated_cost": 0.000235
+    }
+  },
+  "phase8_complete": true
+}

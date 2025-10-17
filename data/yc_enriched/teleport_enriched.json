@@ -1,0 +1,993 @@
+{
+  "slug": "teleport",
+  "name": "Teleport",
+  "yc_id": 862,
+  "batch": "Summer 2015",
+  "website": "https://goteleport.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:35:35.547375",
+    "website": "https://goteleport.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 854.18,
+      "final_url": "https://goteleport.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:35:36.401564"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "goteleport.com",
+      "registrar": "NAMECHEAP INC",
+      "creation_date": "2018-04-07T18:39:57",
+      "expiration_date": "2027-04-07T18:39:57",
+      "domain_age_days": 2749,
+      "domain_age_years": 7.5,
+      "name_servers": [
+        "A.NS.GOTELEPORT.COM",
+        "B.NS.GOTELEPORT.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/goteleport",
+      "linkedin": "https://www.linkedin.com/company/go-teleport",
+      "github": "https://github.com/gravitational/teleport/discussions/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": "https://youtube.com/gravitational"
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": true,
+      "x_frame_options": true,
+      "x_content_type_options": true,
+      "x_xss_protection": true,
+      "referrer_policy": false,
+      "security_score": 83,
+      "server": "cloudflare"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:15:53.915540",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:15:43.503983",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "Oakland, CA, USA",
+      "coordinates": {
+        "latitude": 37.8044,
+        "longitude": -122.2712
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:14:20.286759",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:15:43.504022",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/gravitational"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 33,
+        "packages": [
+          {
+            "name": "@behaver/gravitational-deflection",
+            "description": "This package is used to calculate gravitational deflection",
+            "version": "1.1.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@behaver/gravitational-deflection"
+          },
+          {
+            "name": "d3-force-gravity",
+            "description": "Implement gravitational attraction (or force-field-like repulsion) using d3-force",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/d3-force-gravity"
+          },
+          {
+            "name": "astro-physics-engine",
+            "description": "A TypeScript library for N-body gravitational physics simulation with 2D & 3D vector math, conservation laws, and orbital mechanics",
+            "version": "0.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/astro-physics-engine"
+          },
+          {
+            "name": "trias",
+            "description": "Advanced text classification and prediction module with multi-language support, clustering, and gravitational groups",
+            "version": "0.1.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/trias"
+          },
+          {
+            "name": "gwbootstrap",
+            "description": "Extensions to standard Bootstrap stylesheets for gravitational wave observatories",
+            "version": "1.3.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/gwbootstrap"
+          },
+          {
+            "name": "three-g",
+            "description": "THREE.js galaxy primitives with GPU Barnes-Hut physics",
+            "version": "2.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/three-g"
+          },
+          {
+            "name": "syzygys",
+            "description": "A feed aggregator, like Planet",
+            "version": "0.0.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/syzygys"
+          },
+          {
+            "name": "@kajws/galaxy-js",
+            "description": "A JavaScript port of the classic galaxy screensaver with 3D particle simulation",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@kajws/galaxy-js"
+          },
+          {
+            "name": "clusterpost-lib",
+            "description": "Library implementing the API of clusterpost-server application",
+            "version": "2.9.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/clusterpost-lib"
+          },
+          {
+            "name": "airtable-json",
+            "description": "A clean way to get Airtable data into JavaScript.",
+            "version": "2.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/airtable-json"
+          },
+          {
+            "name": "d3-force-magnetic",
+            "description": "A natural attraction/repulsion force type for the d3-force simulation engine.",
+            "version": "1.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/d3-force-magnetic"
+          },
+          {
+            "name": "link-tasks",
+            "description": "Tasks to link node_modules",
+            "version": "0.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/link-tasks"
+          },
+          {
+            "name": "@gravitational-marketing/ckeditor5-build-markdown",
+            "description": "The classic editor build of CKEditor 5 \u2013 utilizing markdown.",
+            "version": "1.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@gravitational-marketing/ckeditor5-build-markdown"
+          },
+          {
+            "name": "keplerian-core",
+            "description": "Core numerical engine for KeplerianLab, providing physics calculations for orbital mechanics.",
+            "version": "0.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/keplerian-core"
+          },
+          {
+            "name": "datasets-cavendish-density-of-earth",
+            "description": "Dataset from Cavendish's experiments which measured the density of the earth relative to the density of water.",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/datasets-cavendish-density-of-earth"
+          },
+          {
+            "name": "dot-link",
+            "description": "dot-event node_module linking operation",
+            "version": "0.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/dot-link"
+          },
+          {
+            "name": "n-body_simulation",
+            "description": "A simple library to simulate the gravitational interaction between multiple particles in 2D space using the N-body algorithm.",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/n-body_simulation"
+          },
+          {
+            "name": "@mmomtchev/orbitron",
+            "description": "Generator of orbital animations using NASA/JPL Horizons API",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mmomtchev/orbitron"
+          },
+          {
+            "name": "aframe-nbody-system",
+            "description": "An N-Body system for A-Frame.",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/aframe-nbody-system"
+          },
+          {
+            "name": "@trifle/anybody-problem",
+            "description": null,
+            "version": "1.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@trifle/anybody-problem"
+          },
+          {
+            "name": "@gravity-simulator/barnes-hut-tree-builder",
+            "description": "A module to build quadtrees for the barnes-hut algorithm with high performance, implemented using WebAssembly (WIP)",
+            "version": "0.0.31",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@gravity-simulator/barnes-hut-tree-builder"
+          },
+          {
+            "name": "@dot-event/link",
+            "description": "dot-event node_module linking operation",
+            "version": "0.6.33",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@dot-event/link"
+          },
+          {
+            "name": "sweph-napi",
+            "description": "Swiss Ephemeris with N-API",
+            "version": "0.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sweph-napi"
+          },
+          {
+            "name": "react-surfer-slider",
+            "description": "Cool animated photo / article slider",
+            "version": "0.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-surfer-slider"
+          },
+          {
+            "name": "spash",
+            "description": "Universal spacetime locator. Maps every location in the observable universe to a string.",
+            "version": "2.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/spash"
+          },
+          {
+            "name": "esg",
+            "description": "Calculate the gravity of a spherical body.",
+            "version": "3.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/esg"
+          },
+          {
+            "name": "nodegarden",
+            "description": "JavaScript node garden",
+            "version": "0.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/nodegarden"
+          },
+          {
+            "name": "doge-bois",
+            "description": "Discord Jam 2 Game Entry",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/doge-bois"
+          },
+          {
+            "name": "coffee-physics-ts",
+            "description": "A simple, lightweight physics engine ported from CoffeeScript to TypeScript",
+            "version": "1.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/coffee-physics-ts"
+          },
+          {
+            "name": "gravity.js",
+            "description": "WebGL Gravity experiment in the Solar System\r ![alt tag](https://valentinvichnal.github.io/gravity.js/gravity-1.jpg)",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/gravity.js"
+          },
+          {
+            "name": "animalclicks",
+            "description": "This is an npm package for adding animal effects to their clicks in their website.",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/animalclicks"
+          },
+          {
+            "name": "physlib",
+            "description": "### A physics library for JavaScript & TypeScript.",
+            "version": "0.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/physlib"
+          },
+          {
+            "name": "condtree",
+            "description": "A novel approach to manage complex conditional logic in JavaScript using an intuitive tree structure.",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/condtree"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 10,
+        "packages": [
+          {
+            "name": "gravitation",
+            "description": "Gravitation is a high-throughput network messaging client and server",
+            "version": "0.1.0",
+            "downloads": 1731,
+            "url": "https://crates.io/crates/gravitation"
+          },
+          {
+            "name": "particular",
+            "description": "N-body simulation library written in Rust featuring BarnesHut and GPU accelerated algorithms.",
+            "version": "0.7.0",
+            "downloads": 23150,
+            "url": "https://crates.io/crates/particular"
+          },
+          {
+            "name": "bigbang",
+            "description": "An optimized framework for n-(hard)-body gravitational simulation",
+            "version": "0.0.11",
+            "downloads": 18600,
+            "url": "https://crates.io/crates/bigbang"
+          },
+          {
+            "name": "breath",
+            "description": "a tools for commiting rust with git or hg source code",
+            "version": "0.2.0",
+            "downloads": 2691,
+            "url": "https://crates.io/crates/breath"
+          },
+          {
+            "name": "cmn",
+            "description": "A Rust library for accessing a collection of mathematical and cryptographic constants",
+            "version": "0.0.4",
+            "downloads": 7470,
+            "url": "https://crates.io/crates/cmn"
+          },
+          {
+            "name": "egm2008",
+            "description": "Earth Gravitational Model (EGM2008)",
+            "version": "0.1.0",
+            "downloads": 7494,
+            "url": "https://crates.io/crates/egm2008"
+          },
+          {
+            "name": "gwrs",
+            "description": "A Rust library for studying data from ground-based gravitational-wave detectors.",
+            "version": "0.1.3",
+            "downloads": 1560,
+            "url": "https://crates.io/crates/gwrs"
+          },
+          {
+            "name": "nbody_barnes_hut",
+            "description": "Facilitates 2D/3D n-body simulations in O(nlogn) time",
+            "version": "0.1.0",
+            "downloads": 2276,
+            "url": "https://crates.io/crates/nbody_barnes_hut"
+          },
+          {
+            "name": "teams",
+            "description": "a free software to ensure better project management for teams",
+            "version": "4.0.1",
+            "downloads": 3420,
+            "url": "https://crates.io/crates/teams"
+          },
+          {
+            "name": "anise",
+            "description": "Core of the ANISE library",
+            "version": "0.6.9",
+            "downloads": 72200,
+            "url": "https://crates.io/crates/anise"
+          }
+        ]
+      },
+      "total_packages": 43,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:15:44.749859"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:15:44.749866",
+    "batch_network": {
+      "batch": "Summer 2015",
+      "total_batch_mates": 104,
+      "active_batch_mates": 46,
+      "batch_success_rate": 44.2,
+      "notable_batch_mates": [
+        {
+          "name": "Triplebyte",
+          "slug": "triplebyte",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Intelligent technical hiring."
+        },
+        {
+          "name": "Jopwell",
+          "slug": "jopwell",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Career advancement for Black, Latinx & Native American professionals."
+        },
+        {
+          "name": "L.",
+          "slug": "l",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "L. makes award-winning personal care products with organic materials."
+        },
+        {
+          "name": "OpenInvest",
+          "slug": "openinvest",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Values based personalization at scale for asset and wealth management"
+        },
+        {
+          "name": "Second Measure",
+          "slug": "second-measure",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Unlock the power of transaction data."
+        },
+        {
+          "name": "SourceDNA",
+          "slug": "sourcedna",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Bringing transparency to the app stores and helping developers build\u2026"
+        },
+        {
+          "name": "Convox",
+          "slug": "convox",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Open-source tools for deploying, managing, and monitoring cloud\u2026"
+        },
+        {
+          "name": "Cymmetria",
+          "slug": "cymmetria",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Shifting the asymmetry of cyber security."
+        },
+        {
+          "name": "Eden",
+          "slug": "eden",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Workplace software for people-centric companies. "
+        },
+        {
+          "name": "Foxpass",
+          "slug": "foxpass",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Making enterprise security practices available for all companies."
+        }
+      ],
+      "batch_size": 105
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Amiato",
+          "slug": "amiato",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "The BI bridge for unstructured data. We automatically bridge the gap\u2026"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Simple multiplayer game servers."
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Backlift allows front-end only developers to build entire websites\u2026"
+        },
+        {
+          "name": "Documents.Me",
+          "slug": "documents-me",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Client-side encryption for your devices and the cloud."
+        },
+        {
+          "name": "Apollo",
+          "slug": "apollo",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Apollo helps engineering teams accelerate delivery"
+        },
+        {
+          "name": "Proxino",
+          "slug": "proxino",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Javascript proxy."
+        },
+        {
+          "name": "PhoneSys",
+          "slug": "phonesys",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "The Phone System for Sales Teams."
+        },
+        {
+          "name": "Cryptoseal",
+          "slug": "cryptoseal",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Server key management, VPN as a Service, Privacy VPN.  Sold to\u2026"
+        },
+        {
+          "name": "Citus Data",
+          "slug": "citus-data",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Real-time. Big data. PostgreSQL"
+        },
+        {
+          "name": "Realm",
+          "slug": "realm",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Better data structures = no DB."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Oakland",
+      "location": "Oakland, CA, USA",
+      "companies_in_city": 38,
+      "active_in_city": 23,
+      "nearby_companies": [
+        {
+          "name": "Fivetran",
+          "slug": "fivetran",
+          "batch": "Winter 2013",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Chargehound",
+          "slug": "chargehound",
+          "batch": "Winter 2014",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Edyn",
+          "slug": "edyn",
+          "batch": "Winter 2014",
+          "industry": "Industrials",
+          "status": "Inactive"
+        },
+        {
+          "name": "Final",
+          "slug": "final",
+          "batch": "Winter 2015",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "The Human Utility",
+          "slug": "the-human-utility",
+          "batch": "Winter 2015",
+          "industry": "Unspecified",
+          "status": "Active"
+        },
+        {
+          "name": "SourceDNA",
+          "slug": "sourcedna",
+          "batch": "Summer 2015",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Shotput",
+          "slug": "shotput",
+          "batch": "Summer 2015",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Patchwork Security",
+          "slug": "patchwork-security",
+          "batch": "Winter 2016",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Hingeto",
+          "slug": "hingeto",
+          "batch": "Winter 2016",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Perlara",
+          "slug": "perlara",
+          "batch": "Winter 2016",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Emote",
+          "slug": "emote",
+          "batch": "Summer 2016",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Suiteness",
+          "slug": "suiteness",
+          "batch": "Summer 2016",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Elemeno Health",
+          "slug": "elemeno-health",
+          "batch": "Summer 2016",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "UtilityScore (formerly Pando)",
+          "slug": "utilityscore",
+          "batch": "Summer 2016",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "boxouse",
+          "slug": "boxouse",
+          "batch": "Winter 2017",
+          "industry": "Real Estate and Construction",
+          "status": "Inactive"
+        },
+        {
+          "name": "Rev Genomics",
+          "slug": "rev-genomics",
+          "batch": "Summer 2017",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Mighty Buildings",
+          "slug": "mighty-buildings",
+          "batch": "Winter 2018",
+          "industry": "Real Estate and Construction",
+          "status": "Active"
+        },
+        {
+          "name": "Promise",
+          "slug": "promise",
+          "batch": "Winter 2018",
+          "industry": "Government",
+          "status": "Active"
+        },
+        {
+          "name": "tEQuitable",
+          "slug": "tequitable",
+          "batch": "Winter 2018",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Elpha",
+          "slug": "elpha",
+          "batch": "Summer 2019",
+          "industry": "Consumer",
+          "status": "Inactive"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "SourceDNA",
+        "slug": "sourcedna",
+        "batch": "Summer 2015",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Convox",
+        "slug": "convox",
+        "batch": "Summer 2015",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Shotput",
+        "slug": "shotput",
+        "batch": "Summer 2015",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Bitmovin",
+        "slug": "bitmovin",
+        "batch": "Summer 2015",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Fivetran",
+        "slug": "fivetran",
+        "batch": "Winter 2013",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Triplebyte",
+        "slug": "triplebyte",
+        "batch": "Summer 2015",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "teaBOT",
+        "slug": "teabot",
+        "batch": "Summer 2015",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Ironclad",
+        "slug": "ironclad",
+        "batch": "Summer 2015",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Jopwell",
+        "slug": "jopwell",
+        "batch": "Summer 2015",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Gemnote",
+        "slug": "gemnote",
+        "batch": "Summer 2015",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 2888,
+      "network_density_score": 68.4,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:15:44.761503"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:15:44.761509",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:15:45.134878",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:15:45.245820",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 200,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:33.685736",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Zero Trust Security adoption",
+        "Cloud-native infrastructure",
+        "DevSecOps integration"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Open source with a strong community, integrations with key infrastructure components.",
+      "differentiation": "Unified access platform for multiple infrastructure types (servers, Kubernetes, databases, etc.)",
+      "competitive_advantages": [
+        "Simplified access management",
+        "Enhanced security and compliance"
+      ],
+      "competitive_vulnerabilities": [
+        "Complexity of managing open-source projects",
+        "Potential for feature overlap with larger cloud providers"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "Increasing adoption of cloud-native technologies",
+        "Growing demand for secure remote access solutions"
+      ],
+      "growth_bottlenecks": [
+        "Sales cycle length with enterprise customers",
+        "Competition from established players"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Security vulnerabilities in open-source code",
+        "Shifting infrastructure trends",
+        "Integration challenges with legacy systems"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong open-source community",
+        "Unified access platform",
+        "Addresses a critical security need"
+      ],
+      "concerns": [
+        "Competition from larger players",
+        "Reliance on open-source contributions"
+      ],
+      "exit_potential": "IPO/acquisition",
+      "comparable_companies": [
+        "HashiCorp",
+        "CyberArk"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Expand enterprise sales team",
+        "Strengthen integrations with leading cloud providers"
+      ],
+      "expansion_opportunities": [
+        "Develop more advanced security features",
+        "Expand into adjacent markets like identity management"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 650,
+      "completion": 585,
+      "total": 1235,
+      "estimated_cost": 0.000224
+    }
+  },
+  "phase8_complete": true
+}

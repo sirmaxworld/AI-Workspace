@@ -1,0 +1,813 @@
+{
+  "slug": "rigetti-computing",
+  "name": "Rigetti Computing",
+  "yc_id": 700,
+  "batch": "Summer 2014",
+  "website": "http://rigetti.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:34:23.047203",
+    "website": "http://rigetti.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 874.82,
+      "final_url": "https://www.rigetti.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:34:23.922042"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "rigetti.com",
+      "registrar": "Amazon Registrar, Inc.",
+      "creation_date": "2013-02-16T00:42:40",
+      "expiration_date": "2026-02-16T00:42:40",
+      "domain_age_days": 4625,
+      "domain_age_years": 12.7,
+      "name_servers": [
+        "NS-1308.AWSDNS-35.ORG",
+        "NS-1828.AWSDNS-36.CO.UK",
+        "NS-262.AWSDNS-32.COM",
+        "NS-811.AWSDNS-37.NET"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/rigetti",
+      "linkedin": "https://www.linkedin.com/company/rigetti-computing/",
+      "github": "https://github.com/rigetti",
+      "facebook": null,
+      "instagram": null,
+      "youtube": "https://www.youtube.com/channel/UC4opLNY6fMaSfVtmO3UWmjQ"
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": true,
+      "x_content_type_options": true,
+      "x_xss_protection": true,
+      "referrer_policy": true,
+      "security_score": 83,
+      "server": "nginx-rc"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:15:00.242200",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:14:45.537243",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "Berkeley, CA, USA",
+      "coordinates": {
+        "latitude": 37.8715,
+        "longitude": -122.273
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:14:31.126738",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:14:45.537273",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/rigetti"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 8,
+        "packages": [
+          {
+            "name": "qcs-cli-test",
+            "description": "The Rigetti QCS Command Line Interface (CLI)",
+            "version": "0.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/qcs-cli-test"
+          },
+          {
+            "name": "qcs-cli",
+            "description": "The Rigetti QCS Command Line Interface (CLI)",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/qcs-cli"
+          },
+          {
+            "name": "qps-client",
+            "description": "Quantum Programming Studio client",
+            "version": "0.9.76",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/qps-client"
+          },
+          {
+            "name": "quantum-quail",
+            "description": "Quantum computer programming",
+            "version": "3.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/quantum-quail"
+          },
+          {
+            "name": "jsquil",
+            "description": "Replace pyQuil library with NodeJS",
+            "version": "2.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/jsquil"
+          },
+          {
+            "name": "@mseep/mcp-on-vercel",
+            "description": "## \ud83d\udcd1 \u00cdndice",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mseep/mcp-on-vercel"
+          },
+          {
+            "name": "quantum-peep",
+            "description": "Quantum computer programming",
+            "version": "3.2.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/quantum-peep"
+          },
+          {
+            "name": "@qcs/jupyterlab-forest-extension",
+            "description": "Extends JupyterLab to display the state of Rigetti Forest software and services",
+            "version": "0.6.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@qcs/jupyterlab-forest-extension"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 9,
+        "packages": [
+          {
+            "name": "rigetti-pyo3",
+            "description": "Utilities for creating a Python wrapper for a Rust library.",
+            "version": "0.4.4",
+            "downloads": 111351,
+            "url": "https://crates.io/crates/rigetti-pyo3"
+          },
+          {
+            "name": "qcs",
+            "description": "High level interface for running Quil on a QPU",
+            "version": "0.25.14",
+            "downloads": 375599,
+            "url": "https://crates.io/crates/qcs"
+          },
+          {
+            "name": "qcs-api",
+            "description": "Auto-generated bindings to the QCS OpenAPI",
+            "version": "0.2.1",
+            "downloads": 53534,
+            "url": "https://crates.io/crates/qcs-api"
+          },
+          {
+            "name": "qcs-api-client-openapi",
+            "description": "Auto-generated bindings to the QCS OpenAPI",
+            "version": "0.13.6",
+            "downloads": 183648,
+            "url": "https://crates.io/crates/qcs-api-client-openapi"
+          },
+          {
+            "name": "quil-rs",
+            "description": "Rust tooling for Quil (Quantum Instruction Language)",
+            "version": "0.33.0",
+            "downloads": 421455,
+            "url": "https://crates.io/crates/quil-rs"
+          },
+          {
+            "name": "qcs-api-client-common",
+            "description": "Common code for QCS API clients",
+            "version": "0.12.6",
+            "downloads": 121063,
+            "url": "https://crates.io/crates/qcs-api-client-common"
+          },
+          {
+            "name": "qcs-api-client-grpc",
+            "description": "gRPC client for the QCS API",
+            "version": "0.12.6",
+            "downloads": 126351,
+            "url": "https://crates.io/crates/qcs-api-client-grpc"
+          },
+          {
+            "name": "quil-py",
+            "description": "Python bindings for quil-rs",
+            "version": "0.17.0",
+            "downloads": 76133,
+            "url": "https://crates.io/crates/quil-py"
+          },
+          {
+            "name": "quantrs2-device",
+            "description": "Quantum device connectors for the QuantRS2 framework",
+            "version": "0.1.0-beta.2",
+            "downloads": 2813,
+            "url": "https://crates.io/crates/quantrs2-device"
+          }
+        ]
+      },
+      "total_packages": 17,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:14:46.958590"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:14:46.958599",
+    "batch_network": {
+      "batch": "Summer 2014",
+      "total_batch_mates": 77,
+      "active_batch_mates": 24,
+      "batch_success_rate": 31.2,
+      "notable_batch_mates": [
+        {
+          "name": "Zip Phone",
+          "slug": "zip-phone",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Whatsapp for voice"
+        },
+        {
+          "name": "Parenthoods",
+          "slug": "parenthoods",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Communities for expecting and new parents. "
+        },
+        {
+          "name": "Bitaccess",
+          "slug": "bitaccess",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "We make bitcoin simple. "
+        },
+        {
+          "name": "Carlypso",
+          "slug": "carlypso",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Used car marketplace"
+        },
+        {
+          "name": "Checkr",
+          "slug": "checkr",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "People infrastructure for the future of work"
+        },
+        {
+          "name": "Clara Labs",
+          "slug": "clara-labs",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Clara is a human-in-the-loop assistant that helps automate repetitive\u2026"
+        },
+        {
+          "name": "Craft Coffee",
+          "slug": "craft-coffee",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Better coffee for less money"
+        },
+        {
+          "name": "PersistIQ",
+          "slug": "persistiq",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "PersistIQ is a free email automation platform to send a small batch\u2026"
+        },
+        {
+          "name": "GovPredict",
+          "slug": "govpredict",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The system of record for government affairs."
+        },
+        {
+          "name": "Blockspring",
+          "slug": "blockspring",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Automate data collection for spreadsheets and productivity tools."
+        }
+      ],
+      "batch_size": 78
+    },
+    "industry_network": {
+      "industries": [
+        "Industrials",
+        "Manufacturing and Robotics"
+      ],
+      "total_industry_peers": 318,
+      "active_industry_peers": 246,
+      "direct_competitors": [
+        {
+          "name": "CircuitHub",
+          "slug": "circuithub",
+          "status": "Active",
+          "batch": "Winter 2012",
+          "one_liner": "On-Demand Electronics Manufacturing"
+        },
+        {
+          "name": "Octopart",
+          "slug": "octopart",
+          "status": "Acquired",
+          "batch": "Winter 2007",
+          "one_liner": "Octopart is a search engine for electronic components"
+        },
+        {
+          "name": "View3",
+          "slug": "view3",
+          "status": "Inactive",
+          "batch": "Winter 2007",
+          "one_liner": ""
+        },
+        {
+          "name": "MadeSolid",
+          "slug": "madesolid",
+          "status": "Inactive",
+          "batch": "Winter 2014",
+          "one_liner": "Functional 3D printing materials."
+        },
+        {
+          "name": "Alchemy",
+          "slug": "alchemy",
+          "status": "Active",
+          "batch": "Summer 2014",
+          "one_liner": "Nanotechnology-enabled coatings for automotive and defence sectors"
+        },
+        {
+          "name": "Beep",
+          "slug": "beep",
+          "status": "Inactive",
+          "batch": "Summer 2014",
+          "one_liner": "Cellular networks for IoT."
+        },
+        {
+          "name": "Reduced Energy Microsystems",
+          "slug": "reduced-energy-microsystems",
+          "status": "Inactive",
+          "batch": "Summer 2015",
+          "one_liner": "Building the lowest-power silicon for embedded deep learning and\u2026"
+        },
+        {
+          "name": "Gecko Robotics",
+          "slug": "gecko-robotics",
+          "status": "Active",
+          "batch": "Winter 2016",
+          "one_liner": "AI + Robotics for the Built World"
+        },
+        {
+          "name": "Multiply Labs",
+          "slug": "multiply-labs",
+          "status": "Active",
+          "batch": "Summer 2016",
+          "one_liner": "Robotic production capacity for the pharma manufacturing industry"
+        },
+        {
+          "name": "Robby Technologies",
+          "slug": "robby-technologies",
+          "status": "Inactive",
+          "batch": "Summer 2016",
+          "one_liner": "We are building a fleet of autonomous mobile robots that travel on\u2026"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Berkeley",
+      "location": "Berkeley, CA, USA",
+      "companies_in_city": 32,
+      "active_in_city": 17,
+      "nearby_companies": [
+        {
+          "name": "LeadGenius",
+          "slug": "leadgenius",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "SpoonRocket",
+          "slug": "spoonrocket",
+          "batch": "Summer 2013",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Bikanta",
+          "slug": "bikanta",
+          "batch": "Summer 2014",
+          "industry": "Healthcare",
+          "status": "Inactive"
+        },
+        {
+          "name": "Owners Circle",
+          "slug": "owners-circle",
+          "batch": "Summer 2014",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Spoil",
+          "slug": "spoil",
+          "batch": "Winter 2015",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Vernox",
+          "slug": "vernox",
+          "batch": "Summer 2015",
+          "industry": "Real Estate and Construction",
+          "status": "Inactive"
+        },
+        {
+          "name": "Leada",
+          "slug": "leada",
+          "batch": "Summer 2015",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "Blitz Esports",
+          "slug": "blitz-esports",
+          "batch": "Summer 2015",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Synvivia",
+          "slug": "synvivia",
+          "batch": "Summer 2016",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Lendsnap",
+          "slug": "lendsnap",
+          "batch": "Summer 2016",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Indee Labs",
+          "slug": "indee-labs",
+          "batch": "Winter 2017",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Zendar",
+          "slug": "zendar",
+          "batch": "Summer 2017",
+          "industry": "Industrials",
+          "status": "Active"
+        },
+        {
+          "name": "Correlia Biosystems",
+          "slug": "correlia-biosystems",
+          "batch": "Winter 2018",
+          "industry": "Healthcare",
+          "status": "Inactive"
+        },
+        {
+          "name": "Jido Maps",
+          "slug": "jido-maps",
+          "batch": "Winter 2018",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "JITX",
+          "slug": "jitx",
+          "batch": "Summer 2018",
+          "industry": "Industrials",
+          "status": "Active"
+        },
+        {
+          "name": "YourChoice Therapeutics",
+          "slug": "yourchoice-therapeutics",
+          "batch": "Winter 2019",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Voyage Biomedical",
+          "slug": "voyage-biomedical",
+          "batch": "Summer 2019",
+          "industry": "Healthcare",
+          "status": "Acquired"
+        },
+        {
+          "name": "Million Marker",
+          "slug": "million-marker",
+          "batch": "Summer 2019",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Scout",
+          "slug": "scout",
+          "batch": "Winter 2020",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Drapr",
+          "slug": "drapr",
+          "batch": "Summer 2020",
+          "industry": "Consumer",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Alchemy",
+        "slug": "alchemy",
+        "batch": "Summer 2014",
+        "industry": "Industrials",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Beep",
+        "slug": "beep",
+        "batch": "Summer 2014",
+        "industry": "Industrials",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "JITX",
+        "slug": "jitx",
+        "batch": "Summer 2018",
+        "industry": "Industrials",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Azalea Robotics Corporation",
+        "slug": "azalea-robotics-corporation",
+        "batch": "Summer 2024",
+        "industry": "Industrials",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Bikanta",
+        "slug": "bikanta",
+        "batch": "Summer 2014",
+        "industry": "Healthcare",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Owners Circle",
+        "slug": "owners-circle",
+        "batch": "Summer 2014",
+        "industry": "Fintech",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Tule",
+        "slug": "tule",
+        "batch": "Summer 2014",
+        "industry": "Industrials",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Helion Energy",
+        "slug": "helion-energy",
+        "batch": "Summer 2014",
+        "industry": "Industrials",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Oklo",
+        "slug": "oklo",
+        "batch": "Summer 2014",
+        "industry": "Industrials",
+        "status": "Public",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "CircuitHub",
+        "slug": "circuithub",
+        "batch": "Winter 2012",
+        "industry": "Industrials",
+        "status": "Active",
+        "similarity_score": 5,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 427,
+      "network_density_score": 47.2,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:14:46.967341"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:14:46.967345",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:14:47.284468",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:14:47.378920",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 51,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:52.009995",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "emerging",
+      "key_trends": [
+        "Quantum computing hardware advancements",
+        "Increased government and private investment",
+        "Development of quantum algorithms and software"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Proprietary quantum computing hardware and software stack, early mover advantage.",
+      "differentiation": "Full-stack approach to quantum computing, from hardware to software.",
+      "competitive_advantages": [
+        "Early mover in quantum computing",
+        "Integrated hardware and software platform"
+      ],
+      "competitive_vulnerabilities": [
+        "High capital expenditure",
+        "Technology immaturity and instability"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "Hardware, SaaS (access to quantum computing resources), professional services",
+      "scalability": "medium",
+      "capital_intensity": "high"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "Partnerships with industry leaders",
+        "Increased quantum computing power",
+        "Growing customer base"
+      ],
+      "growth_bottlenecks": [
+        "Quantum hardware stability and error correction",
+        "Talent acquisition",
+        "Market education"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "high",
+      "technology_risk": "high",
+      "execution_risk": "medium",
+      "overall_risk_score": 7,
+      "key_risks": [
+        "Quantum computing technology not reaching commercial viability",
+        "Competition from other quantum computing companies",
+        "High cost of development and deployment"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Pioneering quantum computing company",
+        "Strong technical team",
+        "Large potential market"
+      ],
+      "concerns": [
+        "Uncertainty of quantum computing timeline",
+        "High capital requirements"
+      ],
+      "exit_potential": "IPO/acquisition/strategic",
+      "comparable_companies": [
+        "IonQ",
+        "D-Wave Systems"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on improving quantum hardware stability and error correction",
+        "Expand partnerships with industry leaders",
+        "Develop quantum algorithms for specific applications"
+      ],
+      "expansion_opportunities": [
+        "Develop quantum computing solutions for specific industries (e.g., healthcare, finance)",
+        "Expand into international markets"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 699,
+      "completion": 521,
+      "total": 1220,
+      "estimated_cost": 0.000209
+    }
+  },
+  "phase8_complete": true
+}

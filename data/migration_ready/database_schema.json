@@ -1,0 +1,103 @@
+{
+  "database_architecture": {
+    "database": "PostgreSQL",
+    "vector_extension": "pgvector",
+    "memory_system": "mem0 (local)",
+    "purpose": "YC company enrichment data with vector embeddings for semantic search"
+  },
+  "tables": {
+    "companies": {
+      "description": "Core company information from Y Combinator",
+      "primary_key": "slug",
+      "fields": {
+        "slug": "TEXT PRIMARY KEY",
+        "name": "TEXT NOT NULL",
+        "yc_id": "INTEGER",
+        "batch": "TEXT",
+        "website": "TEXT",
+        "one_liner": "TEXT",
+        "long_description": "TEXT",
+        "industry": "TEXT",
+        "team_size": "INTEGER",
+        "status": "TEXT",
+        "enrichment_version": "TEXT",
+        "enriched_at": "TIMESTAMP"
+      }
+    },
+    "web_data": {
+      "description": "Web enrichment data (Phase 1)",
+      "foreign_key": "company_slug -> companies.slug",
+      "fields": {
+        "company_slug": "TEXT REFERENCES companies(slug)",
+        "website_status": "JSONB",
+        "domain_info": "JSONB",
+        "social_links": "JSONB",
+        "security_headers": "JSONB",
+        "enriched_at": "TIMESTAMP"
+      }
+    },
+    "github_data": {
+      "description": "GitHub enrichment data (Phase 2-4)",
+      "foreign_key": "company_slug -> companies.slug",
+      "fields": {
+        "company_slug": "TEXT REFERENCES companies(slug)",
+        "repositories": "JSONB",
+        "total_stars": "INTEGER",
+        "total_repos": "INTEGER",
+        "enriched_at": "TIMESTAMP"
+      }
+    },
+    "ai_insights": {
+      "description": "AI-generated strategic insights (Phase 8)",
+      "foreign_key": "company_slug -> companies.slug",
+      "fields": {
+        "company_slug": "TEXT REFERENCES companies(slug)",
+        "model_used": "TEXT",
+        "market_analysis": "JSONB",
+        "competitive_positioning": "JSONB",
+        "business_model": "JSONB",
+        "growth_assessment": "JSONB",
+        "risk_analysis": "JSONB",
+        "investment_thesis": "JSONB",
+        "recommendations": "JSONB",
+        "tokens_used": "JSONB",
+        "enriched_at": "TIMESTAMP"
+      }
+    },
+    "company_embeddings": {
+      "description": "Vector embeddings for semantic search",
+      "extension_required": "pgvector",
+      "fields": {
+        "company_slug": "TEXT REFERENCES companies(slug)",
+        "embedding_type": "TEXT (description/insights/combined)",
+        "embedding": "vector(1536)",
+        "model_used": "TEXT",
+        "created_at": "TIMESTAMP"
+      },
+      "indexes": [
+        "CREATE INDEX ON company_embeddings USING ivfflat (embedding vector_cosine_ops)"
+      ]
+    }
+  },
+  "data_format": {
+    "source_files": "*_enriched.json",
+    "structure": {
+      "root_level": [
+        "slug",
+        "name",
+        "yc_id",
+        "batch",
+        "website"
+      ],
+      "web_data": "JSONB nested object",
+      "github_data": "JSONB nested object",
+      "ai_insights": "JSONB nested object with 7 sections"
+    }
+  },
+  "migration_notes": {
+    "embedding_generation": "Use OpenAI text-embedding-3-small for company descriptions and AI insights",
+    "mem0_integration": "Store conversation history and user preferences locally",
+    "vector_search": "Enable similarity search across company descriptions and insights",
+    "indexing_strategy": "Use IVFFlat index for vector columns (rebuild after bulk insert)"
+  }
+}

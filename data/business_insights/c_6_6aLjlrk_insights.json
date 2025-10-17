@@ -1,0 +1,317 @@
+{
+  "market_intelligence": {
+    "target_markets": [
+      {
+        "market_description": "Entrepreneurs and business owners who need AI automation for repetitive tasks",
+        "demographics": [
+          "startup founders",
+          "business professionals",
+          "product managers"
+        ],
+        "pain_points": [
+          "manual booking tasks",
+          "repetitive compliance work",
+          "time-consuming research",
+          "scheduling coordination"
+        ],
+        "market_size_indicators": "Multiple agencies doing manual work that could be automated"
+      },
+      {
+        "market_description": "Financial services companies needing compliance automation",
+        "demographics": [
+          "banks",
+          "fintech companies",
+          "financial institutions"
+        ],
+        "pain_points": [
+          "manual financial crime compliance",
+          "enhanced due diligence research",
+          "alert clearing"
+        ],
+        "market_size_indicators": "Every financial institution needs compliance automation"
+      }
+    ],
+    "problems_validated": [
+      {
+        "problem": "Manual booking of flights, hotels, and restaurants is time-consuming",
+        "severity": "High - people would pay $5 per booking to automate",
+        "current_solutions": "Manual research and booking",
+        "market_gap": "No AI agents that understand personal preferences and can handle complex booking decisions"
+      },
+      {
+        "problem": "Financial crime compliance requires extensive manual research",
+        "severity": "High - regulatory requirement with significant manual effort",
+        "current_solutions": "Manual web searches and document review",
+        "market_gap": "Limited AI automation for compliance workflows"
+      }
+    ]
+  },
+  "products_tools": [
+    {
+      "name": "Greenlight",
+      "category": "ai-tool",
+      "use_case": "Enhanced due diligence and financial crime compliance - searches web and returns information with one button click",
+      "sentiment": "positive",
+      "pricing": "not mentioned",
+      "metrics": "not mentioned"
+    },
+    {
+      "name": "Granola",
+      "category": "ai-tool",
+      "use_case": "Personal note-taking app",
+      "sentiment": "positive",
+      "pricing": "not mentioned",
+      "metrics": "not mentioned"
+    },
+    {
+      "name": "Superhuman",
+      "category": "saas",
+      "use_case": "Email management with AI search capabilities",
+      "sentiment": "positive",
+      "pricing": "not mentioned",
+      "metrics": "not mentioned"
+    },
+    {
+      "name": "Arc Dia Browser",
+      "category": "ai-tool",
+      "use_case": "AI browser that browses and explains actions - user types request and it executes while explaining steps",
+      "sentiment": "positive",
+      "pricing": "not mentioned",
+      "metrics": "not mentioned"
+    },
+    {
+      "name": "Sling Money",
+      "category": "fintech",
+      "use_case": "Financial product using AI for customer service and compliance",
+      "sentiment": "neutral",
+      "pricing": "not mentioned",
+      "metrics": "not mentioned"
+    }
+  ],
+  "business_strategies": [
+    {
+      "strategy_type": "monetization",
+      "strategy": "Mission-driven pricing philosophy: 'We don't make services to make money, we make money to make better services'",
+      "implementation": "Decide your company philosophy before setting pricing strategy - mercenary vs mission-driven approach",
+      "expected_results": "Most successful companies follow mission-driven approach",
+      "case_study": "Walt Disney and Facebook both used this philosophy"
+    },
+    {
+      "strategy_type": "operations",
+      "strategy": "Build or buy agencies to create AI agent businesses",
+      "implementation": "Start with existing agency operations, then automate with AI",
+      "expected_results": "Agencies are good businesses right now, AI agents are the new agencies",
+      "case_study": "Manual agency work can be automated with AI agents"
+    }
+  ],
+  "problems_solutions": [
+    {
+      "problem": "Building effective AI agents for complex tasks",
+      "category": "product",
+      "solution": "Framework: single clear action, instant feedback, bounded decisions, zero friction",
+      "steps": [
+        "Start with one action that matters",
+        "Add LLM understanding",
+        "Build tight feedback loops",
+        "Learn from every interaction",
+        "Expand slowly"
+      ],
+      "tools_needed": [
+        "LLM",
+        "feedback system",
+        "user interaction tracking"
+      ],
+      "difficulty": "advanced",
+      "time_estimate": "not mentioned"
+    },
+    {
+      "problem": "Finding specific information in email history",
+      "category": "technical",
+      "solution": "Use AI search with natural language queries and iterative refinement",
+      "steps": [
+        "Describe what you remember in natural language",
+        "Refine query based on initial results",
+        "Use AI to understand context and personal details"
+      ],
+      "tools_needed": [
+        "AI-powered email search",
+        "LLM for query understanding"
+      ],
+      "difficulty": "beginner",
+      "time_estimate": "not mentioned"
+    }
+  ],
+  "startup_ideas": [
+    {
+      "idea": "AI agent for booking flights, hotels, and restaurants",
+      "target_market": "Busy professionals and entrepreneurs",
+      "problem_solved": "Time-consuming manual booking and research",
+      "business_model": "Pay per booking - $5 per transaction mentioned",
+      "validation": "Train on user's past booking history and preferences",
+      "investment_needed": "not mentioned"
+    },
+    {
+      "idea": "AI agents replacing manual agency work",
+      "target_market": "Businesses currently using agencies for repetitive tasks",
+      "problem_solved": "High cost and manual nature of agency work",
+      "business_model": "SaaS or per-task pricing model",
+      "validation": "Focus on specific niches like SaaS or fintech agencies",
+      "investment_needed": "not mentioned"
+    }
+  ],
+  "mistakes_to_avoid": [
+    {
+      "mistake": "Not deciding your company philosophy before pricing strategy",
+      "consequences": "Inconsistent decision-making and unclear value proposition",
+      "prevention": "Choose between mercenary vs mission-driven approach early",
+      "example": "Companies can be successful either way but need to be consistent"
+    }
+  ],
+  "growth_tactics": [],
+  "ai_workflows": [
+    {
+      "workflow_name": "Financial Crime Compliance Automation",
+      "tools_used": [
+        "Greenlight",
+        "web scraping",
+        "AI analysis"
+      ],
+      "steps": [
+        "Click one button",
+        "AI searches web for relevant information",
+        "Returns compiled due diligence report"
+      ],
+      "automation_level": "fully-automated",
+      "use_case": "Enhanced due diligence and compliance checking"
+    },
+    {
+      "workflow_name": "Personalized AI Search",
+      "tools_used": [
+        "LLM",
+        "email history",
+        "personal data"
+      ],
+      "steps": [
+        "Input natural language query",
+        "AI searches personal data",
+        "Refine query based on results",
+        "Get accurate match"
+      ],
+      "automation_level": "semi-automated",
+      "use_case": "Finding specific contacts or information in personal data"
+    }
+  ],
+  "metrics_kpis": [],
+  "trends_signals": [
+    {
+      "trend": "AI agents replacing manual agency work",
+      "category": "technology",
+      "stage": "early",
+      "opportunity": "Automate repetitive tasks currently done by human agencies"
+    },
+    {
+      "trend": "AI browsers that explain their actions",
+      "category": "technology",
+      "stage": "early",
+      "opportunity": "Transparent AI that shows its reasoning process"
+    }
+  ],
+  "actionable_quotes": [
+    {
+      "quote": "We don't make services to make money, we make money to make better services",
+      "context": "Discussion about pricing philosophy and company mission",
+      "category": "strategy",
+      "actionability": "Define your company's core philosophy before setting pricing strategy"
+    },
+    {
+      "quote": "Start with one action that matters, add LLM understanding, build tight feedback loops, learn from every interaction, and expand slowly",
+      "context": "Framework for building AI agents",
+      "category": "tactical",
+      "actionability": "Use this step-by-step approach when building AI agent products"
+    },
+    {
+      "quote": "I'd pay five bucks for each one of them",
+      "context": "Willingness to pay for AI agents that book flights, hotels, restaurants",
+      "category": "strategy",
+      "actionability": "Price AI automation services based on time/effort saved"
+    }
+  ],
+  "key_statistics": [],
+  "comment_insights": [
+    {
+      "type": "validation",
+      "insight": "Audience highly values the guest's expertise and wants more similar content",
+      "evidence": "This is fantastic! Honestly, how does Greg know everyone? Every person he gets on the pod is LEGIT!",
+      "engagement": 12,
+      "author": "@SeeLifeBro",
+      "relevance": "Shows strong audience engagement with expert product people"
+    },
+    {
+      "type": "use_case",
+      "insight": "Viewers are skeptical about AI agents handling complex personal tasks",
+      "evidence": "He started with 3 things he would pay an agent to do: book a flight, hotel, restaurant. Those are exactly 3 things I would never trust an agent to do well at all. There are so many variables to consid",
+      "engagement": 3,
+      "author": "@vitalis",
+      "relevance": "Reveals market resistance and trust issues with AI automation for personal tasks"
+    },
+    {
+      "type": "trend",
+      "insight": "International audience engagement, particularly from Kenya",
+      "evidence": "Proud to be a Kenyan. We love technology of course",
+      "engagement": 1,
+      "author": "@jeffnariesokoth8626",
+      "relevance": "Shows global reach and interest in AI/tech content from emerging markets"
+    }
+  ],
+  "top_validated_comments": [
+    {
+      "comment": "This is fantastic! Honestly, how does Greg know everyone? Every person he gets on the pod is LEGIT! #SIP",
+      "likes": 12,
+      "author": "@SeeLifeBro",
+      "insight_type": "market_validation",
+      "business_value": "Strong audience validation for bringing expert product people as guests"
+    },
+    {
+      "comment": "Why am I only discovering this pod now ? Just pure, massive value",
+      "likes": 6,
+      "author": "@el_arthur_c",
+      "insight_type": "market_validation",
+      "business_value": "Content provides significant value to target audience of entrepreneurs"
+    },
+    {
+      "comment": "Props for providing a summary in the description!",
+      "likes": 5,
+      "author": "@GabriieleAI",
+      "insight_type": "use_case",
+      "business_value": "Audience appreciates structured, accessible content format"
+    }
+  ],
+  "comment_derived_trends": [
+    {
+      "trend": "High appreciation for expert product people and practical frameworks",
+      "supporting_comments": [
+        "This is fantastic! Honestly, how does Greg know everyone?",
+        "Why am I only discovering this pod now ? Just pure, massive value"
+      ],
+      "frequency": "multiple high-engagement comments",
+      "business_implication": "Strong market demand for expert product management and AI startup content"
+    },
+    {
+      "trend": "Global audience interested in AI and technology",
+      "supporting_comments": [
+        "Proud to be a Kenyan. We love technology",
+        "on TIME STAMP 18:26, When he said they went viral in Kenya"
+      ],
+      "frequency": "2 comments mentioning Kenya specifically",
+      "business_implication": "International market opportunity for AI tools and startup content"
+    }
+  ],
+  "meta": {
+    "video_id": "c_6_6aLjlrk",
+    "title": "The framework for building AI startups from a product design genius",
+    "extracted_at": "2025-10-17T01:11:02.178784",
+    "model": "claude-sonnet-4-20250514",
+    "transcript_length": 38346,
+    "processing_time_seconds": 49.32681488990784
+  }
+}

@@ -1,0 +1,1389 @@
+{
+  "slug": "triplit",
+  "name": "Triplit",
+  "yc_id": 22704,
+  "batch": "Winter 2021",
+  "website": "https://www.triplit.dev",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:58:44.596542",
+    "website": "https://www.triplit.dev",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 1135.33,
+      "final_url": "https://www.triplit.dev/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:58:45.731883"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "triplit.dev",
+      "registrar": null,
+      "creation_date": null,
+      "expiration_date": null,
+      "domain_age_days": null,
+      "domain_age_years": null,
+      "name_servers": []
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/triplit_dev",
+      "linkedin": null,
+      "github": "https://github.com/aspen-cloud/triplit",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 16,
+      "server": "Vercel"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:26:33.204843",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:26:11.546141",
+    "place_data": {
+      "status": "success",
+      "method": "nominatim",
+      "formatted_address": "Remote, Coos County, Oregon, United States",
+      "coordinates": {
+        "latitude": 43.0059455,
+        "longitude": -123.8925908
+      },
+      "place_types": [
+        "hamlet"
+      ],
+      "retrieved_at": "2025-10-17T10:18:39.619180",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:26:11.546175",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/aspen-cloud"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 100,
+        "packages": [
+          {
+            "name": "@google-cloud/storage",
+            "description": "Cloud Storage Client Library for Node.js",
+            "version": "7.17.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/storage"
+          },
+          {
+            "name": "@google-cloud/promisify",
+            "description": "A simple utility for promisifying functions and classes.",
+            "version": "5.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/promisify"
+          },
+          {
+            "name": "react-aspen",
+            "description": "Most performant solution for rendering nested trees in React apps",
+            "version": "1.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-aspen"
+          },
+          {
+            "name": "@google-cloud/projectify",
+            "description": "A simple utility for replacing the projectid token in objects.",
+            "version": "5.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/projectify"
+          },
+          {
+            "name": "@google-cloud/paginator",
+            "description": "A result paging utility used by Google node.js modules",
+            "version": "6.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/paginator"
+          },
+          {
+            "name": "@aspen.cloud/cli",
+            "description": "Command Line Utility for developing and deploying apps for Aspen Spaces",
+            "version": "0.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aspen.cloud/cli"
+          },
+          {
+            "name": "@google-cloud/firestore",
+            "description": "Firestore Client Library for Node.js",
+            "version": "7.11.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/firestore"
+          },
+          {
+            "name": "@google-cloud/logging",
+            "description": "Cloud Logging Client Library for Node.js",
+            "version": "11.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/logging"
+          },
+          {
+            "name": "aspen-tree-model",
+            "description": "State container for aspen trees",
+            "version": "1.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/aspen-tree-model"
+          },
+          {
+            "name": "@google-cloud/common",
+            "description": "Common components for Cloud APIs Node.js Client Libraries",
+            "version": "6.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/common"
+          },
+          {
+            "name": "google-auth-library",
+            "description": "Google APIs Authentication Client Library for Node.js",
+            "version": "10.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/google-auth-library"
+          },
+          {
+            "name": "@google-cloud/run",
+            "description": "Cloud Run Admin API",
+            "version": "3.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/run"
+          },
+          {
+            "name": "@opentelemetry/resource-detector-alibaba-cloud",
+            "description": "OpenTelemetry resource detector for Alibaba Cloud",
+            "version": "0.31.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@opentelemetry/resource-detector-alibaba-cloud"
+          },
+          {
+            "name": "aspen-core",
+            "description": "Sync dynamic nested objects with their flattened representation",
+            "version": "1.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/aspen-core"
+          },
+          {
+            "name": "@aws-cdk/cloud-assembly-schema",
+            "description": "Schema for the protocol between CDK framework and CDK CLI",
+            "version": "48.15.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-cdk/cloud-assembly-schema"
+          },
+          {
+            "name": "firebase",
+            "description": "Firebase JavaScript library for web and Node.js",
+            "version": "12.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/firebase"
+          },
+          {
+            "name": "@google-cloud/pubsub",
+            "description": "Cloud Pub/Sub Client Library for Node.js",
+            "version": "5.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/pubsub"
+          },
+          {
+            "name": "@firebase/firestore-compat",
+            "description": "The Cloud Firestore component of the Firebase JS SDK.",
+            "version": "0.4.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@firebase/firestore-compat"
+          },
+          {
+            "name": "@firebase/firestore",
+            "description": "The Cloud Firestore component of the Firebase JS SDK.",
+            "version": "4.9.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@firebase/firestore"
+          },
+          {
+            "name": "@google-cloud/cloud-sql-connector",
+            "description": "A JavaScript library for connecting securely to your Cloud SQL instances",
+            "version": "1.8.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/cloud-sql-connector"
+          },
+          {
+            "name": "@aspen.cloud/aspen-sdk",
+            "description": "**Aspen is currently in private beta** to get a client id please request one [here](https://form.jotform.com/201044739342046)",
+            "version": "0.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aspen.cloud/aspen-sdk"
+          },
+          {
+            "name": "googleapis",
+            "description": "Google APIs Client Library for Node.js",
+            "version": "164.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/googleapis"
+          },
+          {
+            "name": "aspen-cli",
+            "description": "Aspen Cloud CLI",
+            "version": "0.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/aspen-cli"
+          },
+          {
+            "name": "@google-cloud/secret-manager",
+            "description": "Secrets client for Node.js",
+            "version": "6.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/secret-manager"
+          },
+          {
+            "name": "@google-cloud/tasks",
+            "description": "Cloud Tasks API client for Node.js",
+            "version": "6.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/tasks"
+          },
+          {
+            "name": "@aspen.cloud/agent-typings",
+            "description": "Typings for Aspen Agents",
+            "version": "0.1.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aspen.cloud/agent-typings"
+          },
+          {
+            "name": "@google-cloud/opentelemetry-cloud-trace-exporter",
+            "description": "OpenTelemetry Google Cloud Trace Exporter allows the user to send collected traces to Google Cloud Trace.",
+            "version": "3.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/opentelemetry-cloud-trace-exporter"
+          },
+          {
+            "name": "@google-cloud/translate",
+            "description": "Cloud Translation API Client Library for Node.js",
+            "version": "9.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/translate"
+          },
+          {
+            "name": "@ckeditor/ckeditor5-cloud-services",
+            "description": "CKEditor 5's Cloud Services integration layer.",
+            "version": "47.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ckeditor/ckeditor5-cloud-services"
+          },
+          {
+            "name": "@google-cloud/resource-manager",
+            "description": "Cloud Resource Manager Client Library for Node.js",
+            "version": "6.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/resource-manager"
+          },
+          {
+            "name": "@datadog/datadog-ci-plugin-cloud-run",
+            "description": "Datadog CI plugin for `cloud-run` commands",
+            "version": "4.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@datadog/datadog-ci-plugin-cloud-run"
+          },
+          {
+            "name": "@google-cloud/logging-winston",
+            "description": "Cloud Logging transport for Winston",
+            "version": "6.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/logging-winston"
+          },
+          {
+            "name": "@google-cloud/opentelemetry-cloud-monitoring-exporter",
+            "description": "OpenTelemetry Google Cloud Monitoring Exporter allows the user to send collected metrics to Google Cloud Monitoring.",
+            "version": "0.21.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/opentelemetry-cloud-monitoring-exporter"
+          },
+          {
+            "name": "@google-cloud/precise-date",
+            "description": "A simple utility for precise-dateing functions and classes.",
+            "version": "5.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/precise-date"
+          },
+          {
+            "name": "@google-cloud/functions-framework",
+            "description": "FaaS (Function as a service) framework for writing portable Node.js functions",
+            "version": "4.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/functions-framework"
+          },
+          {
+            "name": "@aspen.cloud/aspendb",
+            "description": "Your unified, personal database to store data for many applications. ",
+            "version": "0.3.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aspen.cloud/aspendb"
+          },
+          {
+            "name": "@sap/cf-tools",
+            "description": "Cloud Foundry API tools",
+            "version": "3.2.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap/cf-tools"
+          },
+          {
+            "name": "@google-cloud/kms",
+            "description": "Google Cloud Key Management Service (KMS) API client for Node.js",
+            "version": "5.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/kms"
+          },
+          {
+            "name": "@google-cloud/bigquery",
+            "description": "Google BigQuery Client Library for Node.js",
+            "version": "8.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/bigquery"
+          },
+          {
+            "name": "gcp-metadata",
+            "description": "Get the metadata from a Google Cloud Platform environment",
+            "version": "8.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/gcp-metadata"
+          },
+          {
+            "name": "@google-cloud/opentelemetry-resource-util",
+            "description": "Resource util used by other @google-cloud/opentelemetry* packages",
+            "version": "3.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/opentelemetry-resource-util"
+          },
+          {
+            "name": "@types/lodash",
+            "description": "TypeScript definitions for lodash",
+            "version": "4.17.20",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@types/lodash"
+          },
+          {
+            "name": "@strapi/cloud-cli",
+            "description": "Commands to interact with the Strapi Cloud",
+            "version": "5.28.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@strapi/cloud-cli"
+          },
+          {
+            "name": "@google-cloud/functions",
+            "description": "Functions client for Node.js",
+            "version": "4.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/functions"
+          },
+          {
+            "name": "@google-cloud/vision",
+            "description": "Google Cloud Vision API client for Node.js",
+            "version": "5.3.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/vision"
+          },
+          {
+            "name": "@google-cloud/container",
+            "description": "Google Container Engine API client for Node.js",
+            "version": "6.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/container"
+          },
+          {
+            "name": "@google-cloud/sql",
+            "description": "Sql client for Node.js",
+            "version": "0.21.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/sql"
+          },
+          {
+            "name": "@google-cloud/monitoring",
+            "description": "Stackdriver Monitoring API client for Node.js",
+            "version": "5.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/monitoring"
+          },
+          {
+            "name": "@google-cloud/profiler",
+            "description": "Adds support for Cloud Profiler to Node.js applications",
+            "version": "6.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/profiler"
+          },
+          {
+            "name": "@google-cloud/trace-agent",
+            "description": "Node.js Support for StackDriver Trace",
+            "version": "8.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/trace-agent"
+          },
+          {
+            "name": "@genkit-ai/google-cloud",
+            "description": "Genkit AI framework plugin for Google Cloud Platform including Firestore trace/state store and deployment helpers for Cloud Functions for Firebase.",
+            "version": "1.21.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@genkit-ai/google-cloud"
+          },
+          {
+            "name": "@google-cloud/text-to-speech",
+            "description": "Cloud Text-to-Speech API client for Node.js",
+            "version": "6.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/text-to-speech"
+          },
+          {
+            "name": "nx-cloud",
+            "description": "Distributed caching and task execution for Lerna and Nx",
+            "version": "19.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/nx-cloud"
+          },
+          {
+            "name": "@google-cloud/documentai",
+            "description": "Document AI client for Node.js",
+            "version": "9.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/documentai"
+          },
+          {
+            "name": "firebase-functions",
+            "description": "Firebase SDK for Cloud Functions",
+            "version": "6.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/firebase-functions"
+          },
+          {
+            "name": "@nrwl/nx-cloud",
+            "description": "Distributed caching and task execution for Lerna and Nx",
+            "version": "19.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@nrwl/nx-cloud"
+          },
+          {
+            "name": "cypress-cloud",
+            "description": "---",
+            "version": "1.13.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/cypress-cloud"
+          },
+          {
+            "name": "mta-local",
+            "description": "[![CircleCI](https://circleci.com/gh/SAP/cloud-mta.svg?style=svg&circle-token=ecedd1dce3592adcd72ee4c61481972c32dcfad7)](https://circleci.com/gh/SAP/cloud-mta) [![Go Report Card](https://goreportcard.com/badge/github.com/SAP/cloud-mta)](https://goreportca",
+            "version": "1.0.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/mta-local"
+          },
+          {
+            "name": "@google-cloud/spanner",
+            "description": "Cloud Spanner Client Library for Node.js",
+            "version": "8.2.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/spanner"
+          },
+          {
+            "name": "@google-cloud/aiplatform",
+            "description": "Vertex AI client for Node.js",
+            "version": "5.9.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/aiplatform"
+          },
+          {
+            "name": "@sap-cloud-sdk/util",
+            "description": "SAP Cloud SDK for JavaScript general utilities",
+            "version": "4.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap-cloud-sdk/util"
+          },
+          {
+            "name": "regex-parser",
+            "description": "A module that parses a string as regular expression and returns the parsed value.",
+            "version": "2.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/regex-parser"
+          },
+          {
+            "name": "@google-cloud/logging-min",
+            "description": "Cloud Logging Client Library for Node.js",
+            "version": "11.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/logging-min"
+          },
+          {
+            "name": "@google-cloud/speech",
+            "description": "Cloud Speech Client Library for Node.js",
+            "version": "7.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/speech"
+          },
+          {
+            "name": "@google-cloud/recaptcha-enterprise",
+            "description": "reCAPTCHA Enterprise API client for Node.js",
+            "version": "6.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/recaptcha-enterprise"
+          },
+          {
+            "name": "@google-cloud/datastore",
+            "description": "Cloud Datastore Client Library for Node.js",
+            "version": "10.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/datastore"
+          },
+          {
+            "name": "aws-amplify",
+            "description": "AWS Amplify is a JavaScript library for Frontend and mobile developers building cloud-enabled applications.",
+            "version": "6.15.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/aws-amplify"
+          },
+          {
+            "name": "@ckeditor/ckeditor5-easy-image",
+            "description": "Easy Image feature for CKEditor 5.",
+            "version": "47.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ckeditor/ckeditor5-easy-image"
+          },
+          {
+            "name": "@sap/adp-cf",
+            "description": "cf service logic for all yeoman generators",
+            "version": "1.1.74",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap/adp-cf"
+          },
+          {
+            "name": "sonarqube-scanner",
+            "description": "SonarQube/SonarCloud Scanner for the JavaScript world",
+            "version": "4.3.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sonarqube-scanner"
+          },
+          {
+            "name": "@sap-cloud-sdk/http-client",
+            "description": "SAP Cloud SDK for JavaScript http-client",
+            "version": "4.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap-cloud-sdk/http-client"
+          },
+          {
+            "name": "@sap-cloud-sdk/resilience",
+            "description": "SAP Cloud SDK for JavaScript resilience",
+            "version": "4.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap-cloud-sdk/resilience"
+          },
+          {
+            "name": "@sap-cloud-sdk/connectivity",
+            "description": "SAP Cloud SDK for JavaScript connectivity",
+            "version": "4.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap-cloud-sdk/connectivity"
+          },
+          {
+            "name": "anser",
+            "description": "A low level parser for ANSI sequences.",
+            "version": "2.3.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/anser"
+          },
+          {
+            "name": "@types/lodash-es",
+            "description": "TypeScript definitions for lodash-es",
+            "version": "4.17.12",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@types/lodash-es"
+          },
+          {
+            "name": "protocols",
+            "description": "Get the protocols of an input url.",
+            "version": "2.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/protocols"
+          },
+          {
+            "name": "@types/d3-cloud",
+            "description": "TypeScript definitions for d3-cloud",
+            "version": "1.2.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@types/d3-cloud"
+          },
+          {
+            "name": "remove-trailing-spaces",
+            "description": "Remove the trailing spaces from a string.",
+            "version": "1.0.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/remove-trailing-spaces"
+          },
+          {
+            "name": "firebase-functions-test",
+            "description": "A testing companion to firebase-functions.",
+            "version": "3.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/firebase-functions-test"
+          },
+          {
+            "name": "parse-path",
+            "description": "Parse paths (local paths, urls: ssh/git/etc)",
+            "version": "7.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/parse-path"
+          },
+          {
+            "name": "@google-cloud/scheduler",
+            "description": "Cloud Scheduler API client for Node.js",
+            "version": "5.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/scheduler"
+          },
+          {
+            "name": "@google-cloud/opentelemetry-cloud-trace-propagator",
+            "description": "OpenTelemetry propagation package for Google Cloud Trace format",
+            "version": "0.21.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/opentelemetry-cloud-trace-propagator"
+          },
+          {
+            "name": "d3-cloud",
+            "description": "Generate word clouds in JavaScript.",
+            "version": "1.2.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/d3-cloud"
+          },
+          {
+            "name": "@strapi/plugin-cloud",
+            "description": "Instructions to deploy your local project to Strapi Cloud",
+            "version": "5.28.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@strapi/plugin-cloud"
+          },
+          {
+            "name": "git-url-parse",
+            "description": "A high level git url parser for common git providers.",
+            "version": "16.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/git-url-parse"
+          },
+          {
+            "name": "@types/webpack-sources",
+            "description": "TypeScript definitions for webpack-sources",
+            "version": "3.2.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@types/webpack-sources"
+          },
+          {
+            "name": "@googleapis/sqladmin",
+            "description": "sqladmin",
+            "version": "33.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@googleapis/sqladmin"
+          },
+          {
+            "name": "parse-url",
+            "description": "An advanced url parser supporting git urls too.",
+            "version": "10.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/parse-url"
+          },
+          {
+            "name": "@firebase/messaging",
+            "description": "This is the Firebase Cloud Messaging component of the Firebase JS SDK.",
+            "version": "0.12.23",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@firebase/messaging"
+          },
+          {
+            "name": "@ibm-cloud/watsonx-ai",
+            "description": "IBM watsonx.ai Node.js SDK",
+            "version": "1.7.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ibm-cloud/watsonx-ai"
+          },
+          {
+            "name": "@firebase/storage",
+            "description": "This is the Cloud Storage component of the Firebase JS SDK.",
+            "version": "0.14.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@firebase/storage"
+          },
+          {
+            "name": "aspen-decorations",
+            "description": "Complex styling for react-aspen w/ inheritance and negations",
+            "version": "1.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/aspen-decorations"
+          },
+          {
+            "name": "@google-cloud/logging-bunyan",
+            "description": "Cloud Logging stream for Bunyan",
+            "version": "5.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/logging-bunyan"
+          },
+          {
+            "name": "@google-cloud/compute",
+            "description": "Google Compute Engine Client Library for Node.js",
+            "version": "6.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/compute"
+          },
+          {
+            "name": "is-ssh",
+            "description": "Check if an input value is a ssh url or not.",
+            "version": "1.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/is-ssh"
+          },
+          {
+            "name": "@google-analytics/data",
+            "description": "Data client for Node.js",
+            "version": "5.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-analytics/data"
+          },
+          {
+            "name": "@sap_oss/vscode-mta-tools",
+            "description": "VS Code Multi-Target Application tools",
+            "version": "1.4.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap_oss/vscode-mta-tools"
+          },
+          {
+            "name": "@pulumi/gcp",
+            "description": "A Pulumi package for creating and managing Google Cloud Platform resources.",
+            "version": "9.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@pulumi/gcp"
+          },
+          {
+            "name": "@aspen.cloud/plugin-spotify",
+            "description": "Aspen CLI plugin to fetch and store personal spotify data",
+            "version": "0.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aspen.cloud/plugin-spotify"
+          },
+          {
+            "name": "@firebase/storage-compat",
+            "description": "The Firebase Firestore compatibility package",
+            "version": "0.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@firebase/storage-compat"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 100,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:26:13.037758"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:26:13.037770",
+    "batch_network": {
+      "batch": "Winter 2021",
+      "total_batch_mates": 335,
+      "active_batch_mates": 245,
+      "batch_success_rate": 73.1,
+      "notable_batch_mates": [
+        {
+          "name": "Stacksi",
+          "slug": "stacksi",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Automated Answers to Security Questionnaires"
+        },
+        {
+          "name": "Furmacy",
+          "slug": "furmacy",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Digital e-prescribing software for veterinarians."
+        },
+        {
+          "name": "Fountain9",
+          "slug": "fountain9",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Helping food brands and retailers reduce food wastage"
+        },
+        {
+          "name": "Zepto",
+          "slug": "zepto",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "10-Minute Grocery Delivery in India"
+        },
+        {
+          "name": "Segments.ai",
+          "slug": "segments-ai",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Build better computer vision models by building better datasets"
+        },
+        {
+          "name": "PingPong",
+          "slug": "pingpong",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Video messaging app for remote teams."
+        },
+        {
+          "name": "ClipDrop",
+          "slug": "clipdrop",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Turn regular mobile photos into professional product visuals"
+        },
+        {
+          "name": "Avenue",
+          "slug": "avenue",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Observability platform for operations teams"
+        },
+        {
+          "name": "Flok",
+          "slug": "flok",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "End to end company retreat planning"
+        },
+        {
+          "name": "HyperGlue",
+          "slug": "hyperglue",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Business intelligence on text"
+        }
+      ],
+      "batch_size": 336
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1969,
+      "direct_competitors": [
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "status": "Active",
+          "batch": "Winter 2012",
+          "one_liner": "High Performance Computing Built for the Cloud"
+        },
+        {
+          "name": "Marft",
+          "slug": "marft",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Marft creates embeddable machine learning models for application\u2026"
+        },
+        {
+          "name": "Pixelapse",
+          "slug": "pixelapse",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Github for designers. We automatically keep track of revisions of\u2026"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Palantir for sales people"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Smart search for the modern team."
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Authy is a Two-Factor Authentication platform for developers"
+        },
+        {
+          "name": "Flutter",
+          "slug": "flutter",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Flutter combined computer vision technology with the built-in webcams\u2026"
+        },
+        {
+          "name": "SolidStage",
+          "slug": "solidstage",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Sysadmin as a service. We make deploying, configuring, monitoring,\u2026"
+        },
+        {
+          "name": "Clutch",
+          "slug": "clutch",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "An easy to integrate library for native iOS applications designed to\u2026"
+        },
+        {
+          "name": "OneSignal",
+          "slug": "onesignal",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Engage customers through personalized omni-channel messaging"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Remote",
+      "location": "Remote",
+      "companies_in_city": 84,
+      "active_in_city": 72,
+      "nearby_companies": [
+        {
+          "name": "Streak",
+          "slug": "streak",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "You Got Listings",
+          "slug": "you-got-listings-inc",
+          "batch": "Winter 2011",
+          "industry": "Real Estate and Construction",
+          "status": "Active"
+        },
+        {
+          "name": "Tremendous",
+          "slug": "tremendous",
+          "batch": "Winter 2011",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Close",
+          "slug": "close",
+          "batch": "Winter 2011",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Tuxebo",
+          "slug": "tuxebo",
+          "batch": "Summer 2009",
+          "industry": "Real Estate and Construction",
+          "status": "Inactive"
+        },
+        {
+          "name": "Claimspotting",
+          "slug": "claimspotting",
+          "batch": "Summer 2008",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "AirHelp",
+          "slug": "airhelp",
+          "batch": "Winter 2014",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Emailio",
+          "slug": "emailio",
+          "batch": "Winter 2014",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "CareRev",
+          "slug": "carerev",
+          "batch": "Summer 2016",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Nimble",
+          "slug": "nimble",
+          "batch": "Summer 2017",
+          "industry": "Education",
+          "status": "Active"
+        },
+        {
+          "name": "NewCraft",
+          "slug": "newcraft",
+          "batch": "Winter 2018",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Visly",
+          "slug": "visly",
+          "batch": "Winter 2019",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Doppler",
+          "slug": "doppler",
+          "batch": "Winter 2019",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "PlayAbly",
+          "slug": "playably",
+          "batch": "Summer 2019",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Microverse",
+          "slug": "microverse",
+          "batch": "Summer 2019",
+          "industry": "Education",
+          "status": "Active"
+        },
+        {
+          "name": "Daedalus",
+          "slug": "daedalus",
+          "batch": "Winter 2020",
+          "industry": "Industrials",
+          "status": "Active"
+        },
+        {
+          "name": "Brevy",
+          "slug": "brevy",
+          "batch": "Summer 2020",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Gaiia",
+          "slug": "gaiia",
+          "batch": "Winter 2021",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Hapi",
+          "slug": "hapi",
+          "batch": "Winter 2021",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Observa",
+          "slug": "observa",
+          "batch": "Winter 2021",
+          "industry": "B2B",
+          "status": "Inactive"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Clay",
+        "slug": "clay",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Infracost",
+        "slug": "infracost",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Authologic",
+        "slug": "authologic",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Webiny",
+        "slug": "webiny",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Runway",
+        "slug": "runway",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Gaiia",
+        "slug": "gaiia",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "authzed",
+        "slug": "authzed",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Taloflow",
+        "slug": "taloflow",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "SBX Robotics",
+        "slug": "sbx-robotics",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Pensil",
+        "slug": "pensil",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 3165,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:26:13.049309"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:26:13.049317",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:26:13.400395",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:26:13.527257",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 3,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:42:04.078688",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Serverless architectures",
+        "Realtime data synchronization",
+        "Low-code/No-code platforms"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Potential for strong developer network effects if adopted widely.",
+      "differentiation": "Full-stack solution combining data persistence, state management, and realtime sync.",
+      "competitive_advantages": [
+        "Simplified development workflow",
+        "Faster time to market for applications"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on specific tech stack",
+        "Competition from established database providers"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "seed",
+      "growth_indicators": [
+        "Developer adoption rate",
+        "Number of active applications using Triplit"
+      ],
+      "growth_bottlenecks": [
+        "Developer education and onboarding",
+        "Scalability of the synchronization infrastructure"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "high",
+      "overall_risk_score": 7,
+      "key_risks": [
+        "Failure to gain developer traction",
+        "Inability to scale infrastructure",
+        "Competition from larger players"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Addresses a clear pain point for web developers",
+        "Full-stack approach offers a compelling value proposition",
+        "Potential for strong network effects"
+      ],
+      "concerns": [
+        "Inactive status raises significant questions",
+        "Market crowded with database solutions"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Supabase",
+        "Firebase"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Re-evaluate the product-market fit",
+        "Focus on a specific niche within web development"
+      ],
+      "expansion_opportunities": [
+        "Integrate with popular frontend frameworks",
+        "Offer enterprise-grade features and support"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 625,
+      "completion": 587,
+      "total": 1212,
+      "estimated_cost": 0.000223
+    }
+  },
+  "phase8_complete": true
+}

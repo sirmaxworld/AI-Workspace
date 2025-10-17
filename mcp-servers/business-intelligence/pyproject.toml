@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "business-intelligence-mcp"
+version = "1.0.0"
+description = "MCP Server for AI-extracted business intelligence from YouTube videos"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    {name = "AI Workspace"}
+]
+dependencies = [
+    "mcp>=0.1.0",
+]
+
+[project.scripts]
+business-intelligence-mcp = "business_intelligence_mcp.server:main"

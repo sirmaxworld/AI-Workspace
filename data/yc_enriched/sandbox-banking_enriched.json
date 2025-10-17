@@ -1,0 +1,663 @@
+{
+  "slug": "sandbox-banking",
+  "name": "Sandbox Banking",
+  "yc_id": 1482,
+  "batch": "Winter 2017",
+  "website": "https://sandboxbanking.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:38:43.556415",
+    "website": "https://sandboxbanking.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 1302.7,
+      "final_url": "https://www.ncino.com/solutions/integrations",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:38:44.859127"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "sandboxbanking.com",
+      "registrar": "Amazon Registrar, Inc.",
+      "creation_date": "2017-02-16T09:21:29",
+      "expiration_date": "2026-02-16T09:21:29",
+      "domain_age_days": 3164,
+      "domain_age_years": 8.7,
+      "name_servers": [
+        "NS-1433.AWSDNS-51.ORG",
+        "NS-1932.AWSDNS-49.CO.UK",
+        "NS-228.AWSDNS-28.COM",
+        "NS-856.AWSDNS-43.NET"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": true,
+      "x_frame_options": false,
+      "x_content_type_options": true,
+      "x_xss_protection": true,
+      "referrer_policy": true,
+      "security_score": 83,
+      "server": "Vercel"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:18:13.396979",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:18:01.968154",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "Boston, MA, USA",
+      "coordinates": {
+        "latitude": 42.3601,
+        "longitude": -71.0589
+      },
+      "timezone": {
+        "timezone_id": "America/New_York",
+        "timezone_name": "America/New_York"
+      },
+      "retrieved_at": "2025-10-17T10:18:01.968200"
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:18:01.968217",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:18:01.968220",
+    "batch_network": {
+      "batch": "Winter 2017",
+      "total_batch_mates": 115,
+      "active_batch_mates": 56,
+      "batch_success_rate": 48.7,
+      "notable_batch_mates": [
+        {
+          "name": "Clear Genetics",
+          "slug": "clear-genetics",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Clear Genetics is scaling delivery of Genomic services"
+        },
+        {
+          "name": "Scribe",
+          "slug": "scribe",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Scribe is an AI based Sales Development Representative that you can\u2026"
+        },
+        {
+          "name": "Loop Support",
+          "slug": "loop-support",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Predict job applicant performance for entry-level support roles"
+        },
+        {
+          "name": "Rippling",
+          "slug": "rippling",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "One place to run all your HR, IT, and Finance. Globally."
+        },
+        {
+          "name": "lvl5",
+          "slug": "lvl5",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "HD maps for self-driving cars."
+        },
+        {
+          "name": "Arthena",
+          "slug": "arthena",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Quantitative Investment in Art Assets "
+        },
+        {
+          "name": "Shipamax",
+          "slug": "shipamax",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Simple, end-to-end automation for logistics orgs"
+        },
+        {
+          "name": "Volansi",
+          "slug": "volansi",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Autonomous VTOL delivery solutions."
+        },
+        {
+          "name": "Soomgo",
+          "slug": "soomgo",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Local services marketplace that connects providers with new customers"
+        },
+        {
+          "name": "Scaphold.io",
+          "slug": "scaphold-io",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The Universal API"
+        }
+      ],
+      "batch_size": 116
+    },
+    "industry_network": {
+      "industries": [
+        "Fintech",
+        "Banking and Exchange"
+      ],
+      "total_industry_peers": 597,
+      "active_industry_peers": 448,
+      "direct_competitors": [
+        {
+          "name": "Coinbase",
+          "slug": "coinbase",
+          "status": "Public",
+          "batch": "Summer 2012",
+          "one_liner": "Buy, sell, and manage cryptocurrencies."
+        },
+        {
+          "name": "Standard Treasury",
+          "slug": "standard-treasury",
+          "status": "Acquired",
+          "batch": "Summer 2013",
+          "one_liner": "Banking APIs; acquired by Silicon Valley Bank in August 2015"
+        },
+        {
+          "name": "Buttercoin",
+          "slug": "buttercoin",
+          "status": "Inactive",
+          "batch": "Summer 2013",
+          "one_liner": "Bitcoin Marketplace"
+        },
+        {
+          "name": "Arcus",
+          "slug": "arcus",
+          "status": "Acquired",
+          "batch": "Summer 2013",
+          "one_liner": "Payment-as-a-service that helps any business launch payment solutions"
+        },
+        {
+          "name": "Axoni",
+          "slug": "axoni",
+          "status": "Acquired",
+          "batch": "Winter 2014",
+          "one_liner": "Axoni is building the next generation of capital markets technology"
+        },
+        {
+          "name": "Bitaccess",
+          "slug": "bitaccess",
+          "status": "Acquired",
+          "batch": "Summer 2014",
+          "one_liner": "We make bitcoin simple. "
+        },
+        {
+          "name": "Cheddar",
+          "slug": "cheddar",
+          "status": "Inactive",
+          "batch": "Summer 2014",
+          "one_liner": "The Best Mobile Checking Account"
+        },
+        {
+          "name": "SFOX",
+          "slug": "sfox",
+          "status": "Active",
+          "batch": "Summer 2014",
+          "one_liner": "Crypto-currency trading platform."
+        },
+        {
+          "name": "Bankjoy",
+          "slug": "bankjoy",
+          "status": "Active",
+          "batch": "Winter 2015",
+          "one_liner": "An end-to-end digital banking solution for banks and credit unions"
+        },
+        {
+          "name": "Seed",
+          "slug": "seed",
+          "status": "Acquired",
+          "batch": "Winter 2015",
+          "one_liner": "Mobile banking for small business."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Boston",
+      "location": "Boston, MA, USA; Los Angeles, CA, USA; Remote",
+      "companies_in_city": 60,
+      "active_in_city": 40,
+      "nearby_companies": [
+        {
+          "name": "Sendwave",
+          "slug": "sendwave",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Embedly",
+          "slug": "embedly",
+          "batch": "Winter 2010",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Cloudant",
+          "slug": "cloudant",
+          "batch": "Summer 2008",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Ticket Stumbler",
+          "slug": "ticket-stumbler",
+          "batch": "Summer 2008",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Eivod",
+          "slug": "eivod",
+          "batch": "Summer 2007",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Zanbazaar",
+          "slug": "zanbazaar",
+          "batch": "Summer 2006",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Panorama Education",
+          "slug": "panorama-education",
+          "batch": "Summer 2013",
+          "industry": "Education",
+          "status": "Active"
+        },
+        {
+          "name": "Ginkgo Bioworks",
+          "slug": "ginkgo-bioworks",
+          "batch": "Summer 2014",
+          "industry": "Healthcare",
+          "status": "Public"
+        },
+        {
+          "name": "Moltin",
+          "slug": "moltin",
+          "batch": "Winter 2015",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Pretty Instant",
+          "slug": "pretty-instant",
+          "batch": "Winter 2015",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Airmada",
+          "slug": "airmada",
+          "batch": "Summer 2015",
+          "industry": "Industrials",
+          "status": "Inactive"
+        },
+        {
+          "name": "TetraScience",
+          "slug": "tetrascience",
+          "batch": "Summer 2015",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Ubiq",
+          "slug": "ubiq",
+          "batch": "Summer 2016",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tolemi",
+          "slug": "tolemi",
+          "batch": "Winter 2017",
+          "industry": "Real Estate and Construction",
+          "status": "Active"
+        },
+        {
+          "name": "Helix Nanotechnologies",
+          "slug": "helix-nanotechnologies",
+          "batch": "Winter 2017",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Hunter2",
+          "slug": "hunter2",
+          "batch": "Winter 2018",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Medumo",
+          "slug": "medumo",
+          "batch": "Winter 2018",
+          "industry": "Healthcare",
+          "status": "Acquired"
+        },
+        {
+          "name": "Apprentice Health",
+          "slug": "apprentice-health",
+          "batch": "Summer 2018",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Impactive (formerly Outvote)",
+          "slug": "impactive",
+          "batch": "Summer 2018",
+          "industry": "Government",
+          "status": "Acquired"
+        },
+        {
+          "name": "Alpha Vantage",
+          "slug": "alpha-vantage",
+          "batch": "Summer 2018",
+          "industry": "Fintech",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Brex",
+        "slug": "brex",
+        "batch": "Winter 2017",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Alpha Vantage",
+        "slug": "alpha-vantage",
+        "batch": "Summer 2018",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Pit.AI",
+        "slug": "pit-ai",
+        "batch": "Winter 2017",
+        "industry": "Fintech",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Arthena",
+        "slug": "arthena",
+        "batch": "Winter 2017",
+        "industry": "Fintech",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Ledger Investing",
+        "slug": "ledger-investing",
+        "batch": "Winter 2017",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Zinc Platform",
+        "slug": "zinc-platform",
+        "batch": "Winter 2017",
+        "industry": "Fintech",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Penny",
+        "slug": "penny",
+        "batch": "Winter 2017",
+        "industry": "Fintech",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Tolemi",
+        "slug": "tolemi",
+        "batch": "Winter 2017",
+        "industry": "Real Estate and Construction",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Aella",
+        "slug": "aella",
+        "batch": "Winter 2017",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Request Network",
+        "slug": "request-network",
+        "batch": "Winter 2017",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 772,
+      "network_density_score": 75.0,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:18:01.974779"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:18:01.974783",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:18:02.305818",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:18:02.400262",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 33,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:41:24.890888",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Digital banking transformation",
+        "API-first banking infrastructure",
+        "Low-code/no-code platform adoption"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Domain expertise in banking integrations with regulatory compliance knowledge",
+      "differentiation": "Banking-specific low-code platform with pre-built financial services connectors",
+      "competitive_advantages": [
+        "Deep banking domain knowledge",
+        "Regulatory compliance built-in"
+      ],
+      "competitive_vulnerabilities": [
+        "Limited to financial services vertical",
+        "Potential competition from larger integration platforms"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "low"
+    },
+    "growth_assessment": {
+      "growth_stage": "mature",
+      "growth_indicators": [
+        "33-person team size",
+        "8.7 years domain age",
+        "Acquisition status"
+      ],
+      "growth_bottlenecks": [
+        "Vertical market limitations",
+        "Sales cycle complexity in banking"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "low",
+      "overall_risk_score": 3,
+      "key_risks": [
+        "Banking regulatory changes",
+        "Competition from enterprise platforms",
+        "Customer concentration risk"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Proven acquisition exit",
+        "Specialized banking expertise",
+        "Strong team execution"
+      ],
+      "concerns": [
+        "Limited market expansion beyond banking",
+        "Competitive pressure from larger players"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "MuleSoft",
+        "Zapier",
+        "Boomi"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Analyze acquisition terms and buyer rationale",
+        "Study post-acquisition integration strategy"
+      ],
+      "expansion_opportunities": [
+        "Adjacent financial verticals",
+        "International banking markets"
+      ]
+    },
+    "tokens_used": {
+      "input": 728,
+      "output": 500,
+      "total": 1228,
+      "estimated_cost": 0.009684
+    }
+  },
+  "phase8_complete": true
+}

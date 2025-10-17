@@ -1,0 +1,257 @@
+{
+  "market_intelligence": {
+    "target_markets": [
+      {
+        "market_description": "Developers and entrepreneurs learning AI coding workflows",
+        "demographics": [
+          "product managers",
+          "product designers",
+          "developers",
+          "startup founders"
+        ],
+        "pain_points": [
+          "unpredictable AI coding results",
+          "hallucination in large language models",
+          "lack of structured workflow for AI coding",
+          "difficulty transitioning from casual AI tool user to proficient AI coder"
+        ],
+        "market_size_indicators": "Everyone is learning AI coding - described as 'probably the hardest topic at the moment'"
+      }
+    ],
+    "problems_validated": [
+      {
+        "problem": "AI coding produces unpredictable results despite tutorial promises",
+        "severity": "High - described as 'really unpredictable' and 'you'll just get a bunch of errors'",
+        "current_solutions": "Following online tutorials that show smooth demos",
+        "market_gap": "Tutorials are edited and don't show the real workflow needed for consistent results"
+      }
+    ]
+  },
+  "products_tools": [
+    {
+      "name": "Cursor AI",
+      "category": "ai-tool",
+      "use_case": "AI-powered code editor for functionality development",
+      "sentiment": "recommended",
+      "pricing": "not mentioned",
+      "metrics": "not mentioned"
+    },
+    {
+      "name": "v0",
+      "category": "ai-tool",
+      "use_case": "UI interface design and wireframing",
+      "sentiment": "recommended",
+      "pricing": "not mentioned",
+      "metrics": "not mentioned"
+    },
+    {
+      "name": "ChatGPT",
+      "category": "ai-tool",
+      "use_case": "General AI coding assistance",
+      "sentiment": "neutral",
+      "pricing": "not mentioned",
+      "metrics": "not mentioned"
+    },
+    {
+      "name": "Gummy Search",
+      "category": "saas",
+      "use_case": "Structuring insights from unstructured data using large language models",
+      "sentiment": "positive",
+      "pricing": "$10 per day",
+      "metrics": "not mentioned"
+    }
+  ],
+  "business_strategies": [
+    {
+      "strategy_type": "operations",
+      "strategy": "Simulate product team workflow - PM writes specs, then engineer manager specs out individual tickets and architecture",
+      "implementation": "Write detailed specs upfront before any coding, similar to how product teams work",
+      "expected_results": "More consistent AI coding results with less ambiguity",
+      "case_study": "Speaker's background as product designer/manager naturally led to this approach"
+    }
+  ],
+  "problems_solutions": [
+    {
+      "problem": "AI coding produces inconsistent, unpredictable results",
+      "category": "technical",
+      "solution": "Three-part workflow: detailed specs, tool role separation, reusable modular prompts",
+      "steps": [
+        "Write very clear and detailed specs upfront",
+        "Use Cursor for functionality only",
+        "Use v0 for UI touchups",
+        "Create reusable modular prompts for common features"
+      ],
+      "tools_needed": [
+        "Cursor AI",
+        "v0",
+        "GitHub for version control"
+      ],
+      "difficulty": "intermediate",
+      "time_estimate": "not mentioned"
+    }
+  ],
+  "startup_ideas": [
+    {
+      "idea": "Gummy Search alternative/competitor for Reddit data analysis",
+      "target_market": "Researchers and businesses needing social media insights",
+      "problem_solved": "Expensive daily pricing for social media data analysis",
+      "business_model": "Subscription-based data analysis platform",
+      "validation": "Existing platform (Gummy Search) charges $10/day indicating market demand",
+      "investment_needed": "not mentioned"
+    },
+    {
+      "idea": "Similar data analysis platform for Facebook groups and Discord",
+      "target_market": "Community managers and market researchers",
+      "problem_solved": "Lack of structured insights from unstructured social data across platforms",
+      "business_model": "Multi-platform data analysis service",
+      "validation": "Success of Gummy Search model suggests demand for similar tools on other platforms",
+      "investment_needed": "not mentioned"
+    }
+  ],
+  "mistakes_to_avoid": [
+    {
+      "mistake": "Trying to do everything at once with AI coding tools",
+      "consequences": "Less successful results, more errors and unpredictability",
+      "prevention": "Separate concerns - use Cursor for functionality first, then v0 for UI",
+      "example": "Most people do v0 first for wireframes, then Cursor - speaker recommends opposite"
+    },
+    {
+      "mistake": "Not writing detailed specs before coding",
+      "consequences": "Unpredictable results, lots of errors, difficulty making changes later",
+      "prevention": "Spend time upfront writing very clear and detailed specifications",
+      "example": "Difference between telling engineers 'build a social media platform' vs providing key features"
+    }
+  ],
+  "growth_tactics": [],
+  "ai_workflows": [
+    {
+      "workflow_name": "Three-part AI coding workflow",
+      "tools_used": [
+        "Cursor AI",
+        "v0",
+        "GitHub"
+      ],
+      "steps": [
+        "Write detailed specs upfront covering core functionality",
+        "Use Cursor to focus only on functionality implementation",
+        "Use v0 to touch up UI interface bit by bit",
+        "Create reusable modular prompts for common features like user auth and payments"
+      ],
+      "automation_level": "semi-automated",
+      "use_case": "Getting consistent, predictable results from AI coding tools"
+    }
+  ],
+  "metrics_kpis": [],
+  "trends_signals": [
+    {
+      "trend": "AI coding is becoming mainstream but lacks standardized workflows",
+      "category": "technology",
+      "stage": "growing",
+      "opportunity": "Need for educational content and tools that provide structured approaches to AI coding"
+    },
+    {
+      "trend": "Demand for reusable modular prompts for common functionalities",
+      "category": "technology",
+      "stage": "early",
+      "opportunity": "Community-driven prompt libraries for standard features like authentication, payments"
+    }
+  ],
+  "actionable_quotes": [
+    {
+      "quote": "spend a lot of time up front to actually write very clear and detailed specs",
+      "context": "Most important step in AI coding workflow",
+      "category": "tactical",
+      "actionability": "Invest time in specification writing before any coding begins"
+    },
+    {
+      "quote": "get cursor to just focus on functionality and don't even think about UI at the beginning",
+      "context": "Tool separation strategy",
+      "category": "tactical",
+      "actionability": "Use Cursor for backend/functionality, separate UI work to v0"
+    }
+  ],
+  "key_statistics": [
+    {
+      "statistic": "$10 per day pricing for Gummy Search",
+      "context": "Cost barrier for social media data analysis tools",
+      "source_reliability": "claimed"
+    }
+  ],
+  "comment_insights": [
+    {
+      "type": "validation",
+      "insight": "Strong audience appreciation for practical, detailed AI coding content over flashy demos",
+      "evidence": "This channel is an absolute gem! The quality of content here is incredibly valuable",
+      "engagement": 14,
+      "author": "@@Statsjk",
+      "relevance": "Indicates market demand for in-depth, practical AI coding education"
+    },
+    {
+      "type": "use_case",
+      "insight": "Product managers are actively learning AI coding for rapid prototyping",
+      "evidence": "Jason's content is great for what the future Product Manager roles will look like. Tons of rapid prototyping",
+      "engagement": 2,
+      "author": "@@ezekielmauricio5209",
+      "relevance": "Shows expanding market beyond traditional developers to include PMs"
+    },
+    {
+      "type": "validation",
+      "insight": "Cursor workflows are helping people complete backlogged projects rapidly",
+      "evidence": "I've been able to knock out so many backlogged projects in just a few days",
+      "engagement": 10,
+      "author": "@@RobShocks",
+      "relevance": "Validates the productivity benefits and ROI of proper AI coding workflows"
+    }
+  ],
+  "top_validated_comments": [
+    {
+      "comment": "NEW CHARACTER UNLOCKED JASON ZHOU. LIKE/COMMENT/SUBSCRIBE FOR MORE OF THIS IN YOUR FEED AND TO SPREAD THE LOVE",
+      "likes": 30,
+      "author": "@@GregIsenberg",
+      "insight_type": "market_validation",
+      "business_value": "Host endorsement indicates Jason Zhou is a valuable expert in AI coding space"
+    },
+    {
+      "comment": "This channel is an absolute gem! The quality of content here is incredibly valuable. It's amazing to see so much effort put into helping others learn. Fantastic creator. Thank you for all the knowled",
+      "likes": 14,
+      "author": "@@Statsjk",
+      "insight_type": "market_validation",
+      "business_value": "Strong audience demand for high-quality, educational AI coding content"
+    },
+    {
+      "comment": "Greg, learned of you from X, but am finding you on here organically more and more. Your signal:noise is some of the best in the business. Compelling guests, insanely practical advice.",
+      "likes": 12,
+      "author": "@@genegade",
+      "insight_type": "trend_signal",
+      "business_value": "Audience values practical, actionable advice over theoretical content"
+    }
+  ],
+  "comment_derived_trends": [
+    {
+      "trend": "High demand for practical AI coding education over flashy demos",
+      "supporting_comments": [
+        "This channel is an absolute gem! The quality of content here is incredibly valuable",
+        "best workflow I've seen so far!",
+        "Hands Down\u2026\u2026. The best AI podcast I have ever watched 3 times!"
+      ],
+      "frequency": "Multiple high-engagement comments",
+      "business_implication": "Market opportunity for detailed, practical AI coding courses and content"
+    },
+    {
+      "trend": "Product managers adopting AI coding skills for rapid prototyping",
+      "supporting_comments": [
+        "Jason's content is great for what the future Product Manager roles will look like. Tons of rapid prototyping"
+      ],
+      "frequency": "Single comment but specific insight",
+      "business_implication": "Expanding market for AI coding education beyond traditional developers"
+    }
+  ],
+  "meta": {
+    "video_id": "BblTkXR-3eo",
+    "title": "Essential AI Coding Fundamentals I wish I knew sooner (ChatGPT, Cursor AI, v0)",
+    "extracted_at": "2025-10-17T01:09:01.350991",
+    "model": "claude-sonnet-4-20250514",
+    "transcript_length": 44359,
+    "processing_time_seconds": 43.6918740272522
+  }
+}

@@ -1,0 +1,858 @@
+{
+  "slug": "wasmer",
+  "name": "Wasmer",
+  "yc_id": 12675,
+  "batch": "Summer 2019",
+  "website": "https://wasmer.io",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:49:40.363782",
+    "website": "https://wasmer.io",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 2513.47,
+      "final_url": "https://wasmer.io/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:49:42.877267"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "wasmer.io",
+      "registrar": "Key-Systems GmbH",
+      "creation_date": "2018-10-16T15:29:51",
+      "expiration_date": "2027-10-16T15:29:51",
+      "domain_age_days": 2557,
+      "domain_age_years": 7.0,
+      "name_servers": [
+        "paloma.ns.cloudflare.com",
+        "grant.ns.cloudflare.com"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/wasmerio",
+      "linkedin": null,
+      "github": "https://github.com/wasmerio/wasmer",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": true,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 33,
+      "server": "Vercel"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:23:02.806163",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:22:50.585254",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "San Francisco, CA, USA",
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:14:18.656822",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:22:50.585312",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/wasmerio"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 23,
+        "packages": [
+          {
+            "name": "@wasmer/wasi",
+            "description": "Isomorphic Javascript library for interacting with WASI Modules in Node.js and the Browser.",
+            "version": "1.2.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@wasmer/wasi"
+          },
+          {
+            "name": "@wasmer/sdk",
+            "description": "Wasmer Javascript SDK. It allows interacting with Wasmer Packages in Node.js and the Browser.",
+            "version": "0.9.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@wasmer/sdk"
+          },
+          {
+            "name": "@wasmer/wasm-transformer",
+            "description": "Library to run transformations on WebAssembly binaries. \ud83e\udd80\u267b\ufe0f",
+            "version": "0.12.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@wasmer/wasm-transformer"
+          },
+          {
+            "name": "@wasmer/wasm-terminal",
+            "description": "A terminal-like component for the browser, that fetches and runs Wasm modules in the context of a shell. \ud83d\udc1a",
+            "version": "0.12.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@wasmer/wasm-terminal"
+          },
+          {
+            "name": "@wasmer/wasmfs",
+            "description": "Isomorphic library to provide a sandboxed node fs implementation for Node and Browsers. \ud83d\udcc2",
+            "version": "0.12.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@wasmer/wasmfs"
+          },
+          {
+            "name": "wasi-js",
+            "description": "Javascript implementation of WASI for Node.js and the Browser.",
+            "version": "1.7.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/wasi-js"
+          },
+          {
+            "name": "@wasmer/io-devices",
+            "description": "Isomorphic library to implement the experimental Wasmer I/O devices for wasmfs instances \ud83d\uddbc\ufe0f\ud83c\udfae",
+            "version": "0.12.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@wasmer/io-devices"
+          },
+          {
+            "name": "ocaml-wasm",
+            "description": "OCaml runtime compiled to WebAssembly (wasi-sdk-12)",
+            "version": "4.12.0-0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ocaml-wasm"
+          },
+          {
+            "name": "@dashbook/wasmer-wasi-js",
+            "description": "This repository consists of multiple packages: * [Wasmer WASI](#wasmer-wasi)",
+            "version": "1.2.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@dashbook/wasmer-wasi-js"
+          },
+          {
+            "name": "@wasmer/cli",
+            "description": "The CLI for executing Wasmer-JS",
+            "version": "0.12.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@wasmer/cli"
+          },
+          {
+            "name": "@gaussylean/trealla",
+            "description": "Trealla Prolog bindings for JS",
+            "version": "0.13.24",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@gaussylean/trealla"
+          },
+          {
+            "name": "@ocaml-wasm/4.10--base",
+            "description": "OCaml standard library + ocaml + ocamlc (byte)",
+            "version": "4.10.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ocaml-wasm/4.10--base"
+          },
+          {
+            "name": "@ocaml-wasm/4.07.base",
+            "description": "OCaml standard library + ocaml + ocamlc (byte)",
+            "version": "4.7.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ocaml-wasm/4.07.base"
+          },
+          {
+            "name": "@ocaml-wasm/4.08.base",
+            "description": "OCaml standard library + ocaml + ocamlc (byte)",
+            "version": "4.8.1-1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ocaml-wasm/4.08.base"
+          },
+          {
+            "name": "@ocaml-wasm/4.12--base",
+            "description": "OCaml standard library + ocaml + ocamlc (byte)",
+            "version": "4.12.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ocaml-wasm/4.12--base"
+          },
+          {
+            "name": "@kobakazu0429/wasmer-wasi",
+            "description": "Isomorphic Javascript library for interacting with WASI Modules in Node.js and the Browser. \ud83d\udcda",
+            "version": "0.12.0-internal",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@kobakazu0429/wasmer-wasi"
+          },
+          {
+            "name": "@ocaml-wasm/4.10.base",
+            "description": "OCaml standard library + ocaml + ocamlc (byte)",
+            "version": "4.10.1-rc1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ocaml-wasm/4.10.base"
+          },
+          {
+            "name": "@jimpick/wasm-terminal",
+            "description": "A terminal-like component for the browser, that fetches and runs Wasm modules in the context of a shell. \ud83d\udc1a",
+            "version": "0.12.0-2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@jimpick/wasm-terminal"
+          },
+          {
+            "name": "@wapython/wasi",
+            "description": "Javascript library for interacting with WASI Modules in Node.js and the Browser.",
+            "version": "1.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@wapython/wasi"
+          },
+          {
+            "name": "@ocaml-wasm/4.09.base",
+            "description": "OCaml standard library + ocaml + ocamlc (byte)",
+            "version": "4.9.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ocaml-wasm/4.09.base"
+          },
+          {
+            "name": "@tbbjs/wasi",
+            "description": "This package provides an common execution envitonment for WASI applications.",
+            "version": "0.1.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@tbbjs/wasi"
+          },
+          {
+            "name": "@jackcarey/node-red-wasmer",
+            "description": "Execute WebAssembly code within NodeRED.",
+            "version": "0.0.61",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@jackcarey/node-red-wasmer"
+          },
+          {
+            "name": "@jsage/wasi",
+            "description": "Isomorphic Javascript library for interacting with WASI Modules in Node.js and the Browser.",
+            "version": "0.14.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@jsage/wasi"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 23,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:22:52.821330"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:22:52.821371",
+    "batch_network": {
+      "batch": "Summer 2019",
+      "total_batch_mates": 175,
+      "active_batch_mates": 113,
+      "batch_success_rate": 64.6,
+      "notable_batch_mates": [
+        {
+          "name": "Together Software",
+          "slug": "together-software",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Learn from the experts at your company. "
+        },
+        {
+          "name": "PopSQL",
+          "slug": "popsql",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "SQL editor for teams"
+        },
+        {
+          "name": "Cuboh",
+          "slug": "cuboh",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "We help restaurants manage their online orders."
+        },
+        {
+          "name": "Palifer",
+          "slug": "palifer",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Predictive maintenance models for trains and heavy industry"
+        },
+        {
+          "name": "Symplex",
+          "slug": "symplex",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Applied Reinforcement Learning Research Laboratory"
+        },
+        {
+          "name": "Kraftful",
+          "slug": "kraftful",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Copilot for product teams"
+        },
+        {
+          "name": "Odeko",
+          "slug": "odeko",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "Our operations software makes it easier to run--and grow--your cafe"
+        },
+        {
+          "name": "Bayes",
+          "slug": "bayes",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": ""
+        },
+        {
+          "name": "Voyage Biomedical",
+          "slug": "voyage-biomedical",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Using cooling to end brain damage during stroke."
+        },
+        {
+          "name": "Intersect Labs",
+          "slug": "intersect-labs",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Collaborative data noteboook for business teams"
+        }
+      ],
+      "batch_size": 176
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Amiato",
+          "slug": "amiato",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "The BI bridge for unstructured data. We automatically bridge the gap\u2026"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Simple multiplayer game servers."
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Backlift allows front-end only developers to build entire websites\u2026"
+        },
+        {
+          "name": "Documents.Me",
+          "slug": "documents-me",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Client-side encryption for your devices and the cloud."
+        },
+        {
+          "name": "Apollo",
+          "slug": "apollo",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Apollo helps engineering teams accelerate delivery"
+        },
+        {
+          "name": "Proxino",
+          "slug": "proxino",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Javascript proxy."
+        },
+        {
+          "name": "PhoneSys",
+          "slug": "phonesys",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "The Phone System for Sales Teams."
+        },
+        {
+          "name": "Cryptoseal",
+          "slug": "cryptoseal",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Server key management, VPN as a Service, Privacy VPN.  Sold to\u2026"
+        },
+        {
+          "name": "Citus Data",
+          "slug": "citus-data",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Real-time. Big data. PostgreSQL"
+        },
+        {
+          "name": "Realm",
+          "slug": "realm",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Better data structures = no DB."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "San Francisco",
+      "location": "San Francisco, CA, USA; Remote",
+      "companies_in_city": 2007,
+      "active_in_city": 1339,
+      "nearby_companies": [
+        {
+          "name": "42Floors",
+          "slug": "42floors",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "PlanGrid",
+          "slug": "plangrid",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "MyVR",
+          "slug": "myvr",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Couple",
+          "slug": "couple",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HackPad",
+          "slug": "hackpad",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Gusto",
+          "slug": "gusto",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "FamilyLeaf",
+          "slug": "familyleaf",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Chute",
+          "slug": "chute",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Make School",
+          "slug": "make-school",
+          "batch": "Winter 2012",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Exec",
+          "slug": "exec",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Public"
+        },
+        {
+          "name": "LendUp",
+          "slug": "lendup",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tilt",
+          "slug": "tilt",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fond",
+          "slug": "fond",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Bun",
+        "slug": "bun",
+        "batch": "Summer 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Flow",
+        "slug": "flow",
+        "batch": "Summer 2019",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Freshpaint",
+        "slug": "freshpaint",
+        "batch": "Summer 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "PopSQL",
+        "slug": "popsql",
+        "batch": "Summer 2019",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Courier",
+        "slug": "courier",
+        "batch": "Summer 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Hey Healthcare",
+        "slug": "hey-healthcare",
+        "batch": "Summer 2019",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Kraftful",
+        "slug": "kraftful",
+        "batch": "Summer 2019",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Prompt",
+        "slug": "prompt",
+        "batch": "Summer 2019",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Preclusio",
+        "slug": "preclusio",
+        "batch": "Summer 2019",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Bayes",
+        "slug": "bayes",
+        "batch": "Summer 2019",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 4928,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:22:52.883700"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:22:52.883711",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:22:53.242574",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:22:53.338858",
+    "basic_info": {
+      "is_hiring": true,
+      "team_size": 11,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:51.455553",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Edge computing adoption",
+        "WebAssembly standardization",
+        "Demand for lightweight containers"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "First-mover advantage in WebAssembly package management, strong community adoption, potential network effects around wapm.io.",
+      "differentiation": "Focus on WebAssembly for edge computing, offering performance and lightweight containerization benefits.",
+      "competitive_advantages": [
+        "Performance and efficiency over Docker",
+        "Early mover in WebAssembly package management"
+      ],
+      "competitive_vulnerabilities": [
+        "Adoption of WebAssembly by larger players",
+        "Reliance on WebAssembly ecosystem maturity"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "Likely SaaS or enterprise licensing for edge computing platform.",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "series-a",
+      "growth_indicators": [
+        "Adoption of wapm.io",
+        "Partnerships with edge computing providers"
+      ],
+      "growth_bottlenecks": [
+        "WebAssembly ecosystem maturity",
+        "Enterprise adoption cycles"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Competition from established cloud providers",
+        "Slow adoption of WebAssembly",
+        "Security vulnerabilities in WebAssembly runtime"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong technology foundation",
+        "First-mover advantage in WebAssembly",
+        "Addresses a growing market"
+      ],
+      "concerns": [
+        "Market adoption speed",
+        "Competition from larger players"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Fastly",
+        "Cloudflare"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on enterprise adoption",
+        "Expand WebAssembly package ecosystem"
+      ],
+      "expansion_opportunities": [
+        "Develop specialized edge computing solutions",
+        "Integrate with existing cloud platforms"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 692,
+      "completion": 592,
+      "total": 1284,
+      "estimated_cost": 0.000229
+    }
+  },
+  "phase8_complete": true
+}

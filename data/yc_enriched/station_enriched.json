@@ -1,0 +1,649 @@
+{
+  "slug": "station",
+  "name": "Station",
+  "yc_id": 1822,
+  "batch": "Winter 2018",
+  "website": "https://stationhq.com/",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:41:29.207005",
+    "website": "https://stationhq.com/",
+    "website_status": {
+      "reachable": false,
+      "error": "ssl_error"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "stationhq.com",
+      "registrar": "DYNADOT LLC",
+      "creation_date": "2022-08-22T18:02:05",
+      "expiration_date": "2026-08-22T18:02:05",
+      "domain_age_days": 1151,
+      "domain_age_years": 3.2,
+      "name_servers": [
+        "NS1.PARKLOGIC.COM",
+        "NS2.PARKLOGIC.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "error": "HTTPSConnectionPool(host='stationhq.com', port=443): Max retries exceeded with url: / (Caused by SSL"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:19:57.487330",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:19:46.683088",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "Paris, France",
+      "coordinates": {
+        "latitude": 48.8566,
+        "longitude": 2.3522
+      },
+      "timezone": {
+        "timezone_id": "Europe/Paris",
+        "timezone_name": "Europe/Paris"
+      },
+      "retrieved_at": "2025-10-17T10:18:08.778271",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:46.683119",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:46.683121",
+    "batch_network": {
+      "batch": "Winter 2018",
+      "total_batch_mates": 145,
+      "active_batch_mates": 84,
+      "batch_success_rate": 57.9,
+      "notable_batch_mates": [
+        {
+          "name": "Newfront",
+          "slug": "newfront-insurance",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "Modern insurance brokerage."
+        },
+        {
+          "name": "Mayhem",
+          "slug": "mayhem",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Mayhem is the easiest way to play with your gaming community."
+        },
+        {
+          "name": "Pulse",
+          "slug": "pulse-2",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "We're crowdsourced Gartner so IT executives can learn directly from\u2026"
+        },
+        {
+          "name": "Bear Flag Robotics",
+          "slug": "bear-flag-robotics",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Autonomous driving technology for farm tractors."
+        },
+        {
+          "name": "ClearBrain",
+          "slug": "clearbrain",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Causal Analytics for Growth Teams"
+        },
+        {
+          "name": "Sepsis Scout",
+          "slug": "sepsis-scout",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Wearables and AI to predict and prevent sepsis outside the hospital"
+        },
+        {
+          "name": "onederful",
+          "slug": "onederful",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Dental Insurance API"
+        },
+        {
+          "name": "CodeStream",
+          "slug": "codestream",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "CodeStream is a Developer Collaboration Platform designed to\u2026"
+        },
+        {
+          "name": "Glimpse K12",
+          "slug": "glimpse-k12",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Glimpse eliminates ineffective spending in schools."
+        },
+        {
+          "name": "Squad",
+          "slug": "squad",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Squad is an app for live communities to have shared experiences\u2026"
+        }
+      ],
+      "batch_size": 146
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Productivity"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1969,
+      "direct_competitors": [
+        {
+          "name": "WireOver",
+          "slug": "wireover",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Really secure file sending for big files."
+        },
+        {
+          "name": "SendHub",
+          "slug": "sendhub",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Simple Business SMS. SMBs to Large Enterprise."
+        },
+        {
+          "name": "HackPad",
+          "slug": "hackpad",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "A realtime wiki for getting things done."
+        },
+        {
+          "name": "Screenleap",
+          "slug": "screenleap-inc",
+          "status": "Active",
+          "batch": "Winter 2012",
+          "one_liner": "One-click screen sharing with installation-free viewing on all devices"
+        },
+        {
+          "name": "Glider",
+          "slug": "glider",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "We filter distracting emails away from your inbox."
+        },
+        {
+          "name": "Stypi",
+          "slug": "stypi",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Realtime collaborative coding"
+        },
+        {
+          "name": "Zenbox",
+          "slug": "zenbox",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Brings dozens of SaaS's (Mailchimp, Stripe, Shopify, Salesforce,\u2026"
+        },
+        {
+          "name": "Interstate",
+          "slug": "interstate",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Create & Share Product Roadmaps"
+        },
+        {
+          "name": "Draft",
+          "slug": "draft",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Making Draft. Super simple version control and collaboration for\u2026"
+        },
+        {
+          "name": "TellFi",
+          "slug": "tellfi",
+          "status": "Inactive",
+          "batch": "Winter 2011",
+          "one_liner": "Google Voice for business."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Paris",
+      "location": "Paris, \u00cele-de-France, France; Remote",
+      "companies_in_city": 55,
+      "active_in_city": 37,
+      "nearby_companies": [
+        {
+          "name": "Motionlead",
+          "slug": "motionlead",
+          "batch": "Winter 2014",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Hublo",
+          "slug": "hublo",
+          "batch": "Summer 2014",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Afrostream",
+          "slug": "afrostream",
+          "batch": "Summer 2015",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Whyd",
+          "slug": "whyd",
+          "batch": "Summer 2016",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Bulldozair",
+          "slug": "bulldozair",
+          "batch": "Summer 2016",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Request Network",
+          "slug": "request-network",
+          "batch": "Winter 2017",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Anasen",
+          "slug": "anasen",
+          "batch": "Winter 2017",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Airthium",
+          "slug": "airthium",
+          "batch": "Summer 2017",
+          "industry": "Industrials",
+          "status": "Active"
+        },
+        {
+          "name": "Goosebump",
+          "slug": "goosebump",
+          "batch": "Summer 2017",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Mojo",
+          "slug": "mojo",
+          "batch": "Winter 2018",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Dashblock",
+          "slug": "dashblock",
+          "batch": "Summer 2019",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "OpenReplay",
+          "slug": "asayer",
+          "batch": "Summer 2019",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Data Mechanics",
+          "slug": "data-mechanics",
+          "batch": "Summer 2019",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Multis",
+          "slug": "multis",
+          "batch": "Summer 2019",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Photoroom",
+          "slug": "photoroom",
+          "batch": "Summer 2020",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Riot",
+          "slug": "riot",
+          "batch": "Winter 2020",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Jitter",
+          "slug": "jitter",
+          "batch": "Winter 2020",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Mailwarm",
+          "slug": "mailwarm",
+          "batch": "Summer 2020",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "OneKey",
+          "slug": "onekey",
+          "batch": "Summer 2020",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Nextstore",
+          "slug": "nextstore",
+          "batch": "Summer 2020",
+          "industry": "B2B",
+          "status": "Inactive"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Assembly",
+        "slug": "assembly-com",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Pulse",
+        "slug": "pulse-2",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Slite",
+        "slug": "slite",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Point API",
+        "slug": "point-api",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Routine",
+        "slug": "routine",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Hera",
+        "slug": "hera",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Sourcepulse",
+        "slug": "sourcepulse",
+        "batch": "Summer 2023",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Quivr",
+        "slug": "quivr",
+        "batch": "Winter 2024",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Quantstamp",
+        "slug": "quantstamp",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Torch",
+        "slug": "torch",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 2946,
+      "network_density_score": 80.0,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:19:46.690339"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:46.690348",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:47.020680",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:47.129302",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 9,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:42:03.773056",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Remote work driving knowledge management needs",
+        "Enterprise digital transformation acceleration",
+        "AI-powered workplace automation adoption"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Browser-based unified interface with automated knowledge linking - creates switching costs through workflow integration",
+      "differentiation": "Single interface aggregating all team apps with intelligent content linking vs standalone knowledge bases",
+      "competitive_advantages": [
+        "One-click installation simplicity",
+        "Cross-platform app integration"
+      ],
+      "competitive_vulnerabilities": [
+        "Dependent on browser extension adoption",
+        "Limited by third-party API access"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "seed",
+      "growth_indicators": [
+        "Y Combinator validation",
+        "Clear product-market fit hypothesis"
+      ],
+      "growth_bottlenecks": [
+        "User adoption of browser extensions",
+        "Integration complexity with enterprise tools"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "high",
+      "execution_risk": "high",
+      "overall_risk_score": 8,
+      "key_risks": [
+        "Company inactive status indicates execution failure",
+        "Browser extension dependency creates technical fragility",
+        "Crowded knowledge management market with established players"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Large addressable market",
+        "Simple value proposition",
+        "Y Combinator pedigree"
+      ],
+      "concerns": [
+        "Inactive status suggests product-market fit challenges",
+        "High competition from Notion, Confluence, Slack"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Notion",
+        "Roam Research"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Investigate reasons for inactive status",
+        "Assess IP and team availability for potential restart"
+      ],
+      "expansion_opportunities": [
+        "AI-powered content recommendations",
+        "Enterprise security and compliance features"
+      ]
+    },
+    "tokens_used": {
+      "input": 698,
+      "output": 525,
+      "total": 1223,
+      "estimated_cost": 0.009969
+    }
+  },
+  "phase8_complete": true
+}

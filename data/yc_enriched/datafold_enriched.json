@@ -1,0 +1,707 @@
+{
+  "slug": "datafold",
+  "name": "Datafold",
+  "yc_id": 21781,
+  "batch": "Summer 2020",
+  "website": "https://datafold.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:54:57.562716",
+    "website": "https://datafold.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 3211.29,
+      "final_url": "https://www.datafold.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:55:00.774013"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "datafold.com",
+      "registrar": "Squarespace Domains II LLC",
+      "creation_date": "2017-08-10T18:13:46",
+      "expiration_date": "2026-08-10T18:13:46",
+      "domain_age_days": 2989,
+      "domain_age_years": 8.2,
+      "name_servers": [
+        "NS-1189.AWSDNS-20.ORG",
+        "NS-1943.AWSDNS-50.CO.UK",
+        "NS-430.AWSDNS-53.COM",
+        "NS-877.AWSDNS-45.NET"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/datafoldcom",
+      "linkedin": "https://www.linkedin.com/company/datafold/",
+      "github": "https://github.com/datafold",
+      "facebook": null,
+      "instagram": null,
+      "youtube": "https://www.youtube.com/@datafold7706/featured"
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": true,
+      "x_frame_options": true,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 50,
+      "server": "Unknown"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:25:05.915110",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:24:50.886516",
+    "place_data": {
+      "status": "not_found",
+      "query": "New York, NY, USA; Remote",
+      "methods_tried": [
+        "static_db",
+        "nominatim",
+        "geonames"
+      ]
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:51.167102",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/datafold"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 1,
+        "packages": [
+          {
+            "name": "@d3plus/data",
+            "description": "JavaScript data loading, manipulation, and analysis functions.",
+            "version": "3.0.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@d3plus/data"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 1,
+        "packages": [
+          {
+            "name": "readmdict",
+            "description": "A Rust implementation for reading MDict dictionary files (.mdx format)",
+            "version": "0.1.0",
+            "downloads": 371,
+            "url": "https://crates.io/crates/readmdict"
+          }
+        ]
+      },
+      "total_packages": 2,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:24:53.106566"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:53.106581",
+    "batch_network": {
+      "batch": "Summer 2020",
+      "total_batch_mates": 207,
+      "active_batch_mates": 130,
+      "batch_success_rate": 62.8,
+      "notable_batch_mates": [
+        {
+          "name": "Ladder",
+          "slug": "ladder",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Labor Marketplace for Construction"
+        },
+        {
+          "name": "Fig",
+          "slug": "fig",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Fig adds visual apps, shortcuts, and autocomplete to your terminal."
+        },
+        {
+          "name": "Altro",
+          "slug": "altro",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Build Credit With Your Subscriptions"
+        },
+        {
+          "name": "Jemi",
+          "slug": "jemi",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Jemi helps people build beautiful websites and stores."
+        },
+        {
+          "name": "LSK Technologies",
+          "slug": "lsk-technologies",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A diagnostic lab in a box"
+        },
+        {
+          "name": "Command AI",
+          "slug": "command-ai",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "AI-powered user assistance platform"
+        },
+        {
+          "name": "Bandit ML",
+          "slug": "bandit-ml",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Bandit ML builds machine learning tools for e-commerce companies."
+        },
+        {
+          "name": "Momence",
+          "slug": "momence",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Scheduling and payments for experiences"
+        },
+        {
+          "name": "Gather",
+          "slug": "gather",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Project management software for People Operations"
+        },
+        {
+          "name": "Finmark",
+          "slug": "finmark",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Financial planning software for startups"
+        }
+      ],
+      "batch_size": 208
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Analytics"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "status": "Public",
+          "batch": "Winter 2012",
+          "one_liner": "Digital Analytics Platform"
+        },
+        {
+          "name": "Freshplum",
+          "slug": "freshplum",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Analytics with action"
+        },
+        {
+          "name": "Segment",
+          "slug": "segment",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Software and APIs to collect, clean, and control customer data."
+        },
+        {
+          "name": "Pagelever",
+          "slug": "pagelever",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Facebook analytics. Acquired by Unified in January 2013. \r\n"
+        },
+        {
+          "name": "Custora",
+          "slug": "custora",
+          "status": "Acquired",
+          "batch": "Winter 2011",
+          "one_liner": "Custora is a predictive analytics platform for e-commerce marketing\u2026"
+        },
+        {
+          "name": "Chartio",
+          "slug": "chartio",
+          "status": "Acquired",
+          "batch": "Summer 2010",
+          "one_liner": "Chartio is changing how companies work by building the best\u2026"
+        },
+        {
+          "name": "Data Marketplace",
+          "slug": "data-marketplace",
+          "status": "Inactive",
+          "batch": "Winter 2010",
+          "one_liner": ""
+        },
+        {
+          "name": "Mixpanel",
+          "slug": "mixpanel",
+          "status": "Active",
+          "batch": "Summer 2009",
+          "one_liner": "Mixpanel is event analytics for builders that need answers."
+        },
+        {
+          "name": "Poll Everywhere",
+          "slug": "poll-everywhere",
+          "status": "Active",
+          "batch": "Summer 2008",
+          "one_liner": "Interactive meetings and presentations"
+        },
+        {
+          "name": "Infogami",
+          "slug": "infogami",
+          "status": "Inactive",
+          "batch": "Summer 2005",
+          "one_liner": ""
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "New York",
+      "location": "New York, NY, USA; Remote",
+      "companies_in_city": 523,
+      "active_in_city": 397,
+      "nearby_companies": [
+        {
+          "name": "The Muse",
+          "slug": "the-muse",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "HireArt",
+          "slug": "hireart",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Shoptiques",
+          "slug": "shoptiques",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Grouper",
+          "slug": "grouper",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "99dresses",
+          "slug": "99dresses",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Codecademy",
+          "slug": "codecademy",
+          "batch": "Summer 2011",
+          "industry": "Education",
+          "status": "Acquired"
+        },
+        {
+          "name": "Custora",
+          "slug": "custora",
+          "batch": "Winter 2011",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Recurse Center",
+          "slug": "recurse-center",
+          "batch": "Summer 2010",
+          "industry": "Education",
+          "status": "Active"
+        },
+        {
+          "name": "MessageParty",
+          "slug": "messageparty",
+          "batch": "Summer 2010",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Fabricly",
+          "slug": "fabricly",
+          "batch": "Winter 2010",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "RentHop",
+          "slug": "renthop",
+          "batch": "Summer 2009",
+          "industry": "Real Estate and Construction",
+          "status": "Active"
+        },
+        {
+          "name": "Youlicit",
+          "slug": "youlicit",
+          "batch": "Summer 2008",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "SocialPicks",
+          "slug": "socialpicks",
+          "batch": "Summer 2007",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Octopart",
+          "slug": "octopart",
+          "batch": "Winter 2007",
+          "industry": "Industrials",
+          "status": "Acquired"
+        },
+        {
+          "name": "OMGPop",
+          "slug": "omgpop",
+          "batch": "Summer 2006",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Canopy Labs",
+          "slug": "canopy-labs",
+          "batch": "Summer 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Fullstack Academy",
+          "slug": "fullstack-academy",
+          "batch": "Summer 2012",
+          "industry": "Education",
+          "status": "Acquired"
+        },
+        {
+          "name": "DataNitro",
+          "slug": "datanitro",
+          "batch": "Summer 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "SmartAsset",
+          "slug": "smartasset",
+          "batch": "Summer 2012",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "StyleUp",
+          "slug": "styleup",
+          "batch": "Winter 2013",
+          "industry": "Consumer",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Mito",
+        "slug": "mito",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Porter",
+        "slug": "porter",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Basedash",
+        "slug": "basedash",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Salesform",
+        "slug": "salesform",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Jitsu",
+        "slug": "jitsu",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "inFeedo AI",
+        "slug": "infeedo-ai",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Lightdash",
+        "slug": "hubble",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Blue Onion",
+        "slug": "blue-onion",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Dialect",
+        "slug": "dialect",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Arist",
+        "slug": "arist",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 3476,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:24:53.125878"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:53.125889",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:53.463814",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:53.603472",
+    "basic_info": {
+      "is_hiring": true,
+      "team_size": 30,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:42:09.911702",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increasing data volumes and complexity",
+        "Growing adoption of data engineering automation",
+        "Rise of AI-powered data tools"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Technology and early mover advantage in AI-powered data engineering automation.",
+      "differentiation": "Agentic AI approach to automate a wider range of data engineering tasks, including code migrations.",
+      "competitive_advantages": [
+        "Strong focus on AI-driven automation",
+        "Established customer base including recognizable brands"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on AI accuracy and performance",
+        "Potential for larger players to enter the market"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "Customer acquisition rate",
+        "Expansion within existing accounts"
+      ],
+      "growth_bottlenecks": [
+        "Hiring and retaining AI talent",
+        "Maintaining AI model accuracy and reliability"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Competition from established players",
+        "AI model drift and maintenance",
+        "Data security and privacy concerns"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong market demand for data engineering automation",
+        "Innovative AI-powered approach",
+        "Established customer base"
+      ],
+      "concerns": [
+        "Competitive landscape",
+        "Dependence on AI performance"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "dbt Labs",
+        "Monte Carlo"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Expand AI capabilities to cover more data engineering tasks",
+        "Strengthen partnerships with data platform providers"
+      ],
+      "expansion_opportunities": [
+        "Target larger enterprises with complex data environments",
+        "Develop industry-specific solutions"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 697,
+      "completion": 591,
+      "total": 1288,
+      "estimated_cost": 0.00023
+    }
+  },
+  "phase8_complete": true
+}

@@ -1,0 +1,650 @@
+{
+  "slug": "racer",
+  "name": "Racer",
+  "yc_id": 13173,
+  "batch": "Summer 2020",
+  "website": "http://racer.app",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:52:11.416466",
+    "website": "http://racer.app",
+    "website_status": {
+      "reachable": false,
+      "error": "connection_error"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "racer.app",
+      "registrar": null,
+      "creation_date": null,
+      "expiration_date": null,
+      "domain_age_days": null,
+      "domain_age_years": null,
+      "name_servers": []
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "error": "HTTPConnectionPool(host='racer.app', port=80): Max retries exceeded with url: / (Caused by NameResol"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:23:56.480501",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:23:46.798291",
+    "place_data": {
+      "status": "success",
+      "method": "nominatim",
+      "formatted_address": "City of New York, New York, United States",
+      "coordinates": {
+        "latitude": 40.7127281,
+        "longitude": -74.0060152
+      },
+      "place_types": [
+        "administrative"
+      ],
+      "retrieved_at": "2025-10-17T10:12:57.698487",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:23:46.798371",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:23:46.798381",
+    "batch_network": {
+      "batch": "Summer 2020",
+      "total_batch_mates": 207,
+      "active_batch_mates": 131,
+      "batch_success_rate": 63.3,
+      "notable_batch_mates": [
+        {
+          "name": "Ladder",
+          "slug": "ladder",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Labor Marketplace for Construction"
+        },
+        {
+          "name": "Fig",
+          "slug": "fig",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Fig adds visual apps, shortcuts, and autocomplete to your terminal."
+        },
+        {
+          "name": "Altro",
+          "slug": "altro",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Build Credit With Your Subscriptions"
+        },
+        {
+          "name": "Jemi",
+          "slug": "jemi",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Jemi helps people build beautiful websites and stores."
+        },
+        {
+          "name": "LSK Technologies",
+          "slug": "lsk-technologies",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A diagnostic lab in a box"
+        },
+        {
+          "name": "Command AI",
+          "slug": "command-ai",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "AI-powered user assistance platform"
+        },
+        {
+          "name": "Bandit ML",
+          "slug": "bandit-ml",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Bandit ML builds machine learning tools for e-commerce companies."
+        },
+        {
+          "name": "Momence",
+          "slug": "momence",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Scheduling and payments for experiences"
+        },
+        {
+          "name": "Gather",
+          "slug": "gather",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Project management software for People Operations"
+        },
+        {
+          "name": "Finmark",
+          "slug": "finmark",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Financial planning software for startups"
+        }
+      ],
+      "batch_size": 208
+    },
+    "industry_network": {
+      "industries": [
+        "Consumer",
+        "Food and Beverage"
+      ],
+      "total_industry_peers": 852,
+      "active_industry_peers": 408,
+      "direct_competitors": [
+        {
+          "name": "Grouper",
+          "slug": "grouper",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "We set up drinks between 2 groups of friends: 3 guys and 3 girls."
+        },
+        {
+          "name": "PayDragon",
+          "slug": "paydragon",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Hyperlinking the real world."
+        },
+        {
+          "name": "Caviar",
+          "slug": "caviar",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Uber for food."
+        },
+        {
+          "name": "OrderAhead",
+          "slug": "orderahead",
+          "status": "Acquired",
+          "batch": "Winter 2011",
+          "one_liner": "Order ahead for pickup"
+        },
+        {
+          "name": "Foodoro",
+          "slug": "foodoro",
+          "status": "Inactive",
+          "batch": "Winter 2009",
+          "one_liner": ""
+        },
+        {
+          "name": "Soylent",
+          "slug": "soylent",
+          "status": "Acquired",
+          "batch": "Summer 2012",
+          "one_liner": "Soylent is a simple, nutritious, and affordable food that possesses\u2026"
+        },
+        {
+          "name": "Instacart",
+          "slug": "instacart",
+          "status": "Public",
+          "batch": "Summer 2012",
+          "one_liner": "Marketplace for grocery delivery and pickup"
+        },
+        {
+          "name": "Goldbelly",
+          "slug": "goldbelly",
+          "status": "Active",
+          "batch": "Winter 2013",
+          "one_liner": "Empowering restaurants and small food makers to ship nationwide."
+        },
+        {
+          "name": "DoorDash",
+          "slug": "doordash",
+          "status": "Public",
+          "batch": "Summer 2013",
+          "one_liner": "Restaurant delivery."
+        },
+        {
+          "name": "SpoonRocket",
+          "slug": "spoonrocket",
+          "status": "Acquired",
+          "batch": "Summer 2013",
+          "one_liner": "Meals Delivered in 10 Minutes"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "New York",
+      "location": "New York, NY, USA",
+      "companies_in_city": 523,
+      "active_in_city": 398,
+      "nearby_companies": [
+        {
+          "name": "The Muse",
+          "slug": "the-muse",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "HireArt",
+          "slug": "hireart",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Shoptiques",
+          "slug": "shoptiques",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Grouper",
+          "slug": "grouper",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "99dresses",
+          "slug": "99dresses",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Codecademy",
+          "slug": "codecademy",
+          "batch": "Summer 2011",
+          "industry": "Education",
+          "status": "Acquired"
+        },
+        {
+          "name": "Custora",
+          "slug": "custora",
+          "batch": "Winter 2011",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Recurse Center",
+          "slug": "recurse-center",
+          "batch": "Summer 2010",
+          "industry": "Education",
+          "status": "Active"
+        },
+        {
+          "name": "MessageParty",
+          "slug": "messageparty",
+          "batch": "Summer 2010",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Fabricly",
+          "slug": "fabricly",
+          "batch": "Winter 2010",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "RentHop",
+          "slug": "renthop",
+          "batch": "Summer 2009",
+          "industry": "Real Estate and Construction",
+          "status": "Active"
+        },
+        {
+          "name": "Youlicit",
+          "slug": "youlicit",
+          "batch": "Summer 2008",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "SocialPicks",
+          "slug": "socialpicks",
+          "batch": "Summer 2007",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Octopart",
+          "slug": "octopart",
+          "batch": "Winter 2007",
+          "industry": "Industrials",
+          "status": "Acquired"
+        },
+        {
+          "name": "OMGPop",
+          "slug": "omgpop",
+          "batch": "Summer 2006",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Canopy Labs",
+          "slug": "canopy-labs",
+          "batch": "Summer 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Fullstack Academy",
+          "slug": "fullstack-academy",
+          "batch": "Summer 2012",
+          "industry": "Education",
+          "status": "Acquired"
+        },
+        {
+          "name": "DataNitro",
+          "slug": "datanitro",
+          "batch": "Summer 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "SmartAsset",
+          "slug": "smartasset",
+          "batch": "Summer 2012",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "StyleUp",
+          "slug": "styleup",
+          "batch": "Winter 2013",
+          "industry": "Consumer",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Hotplate",
+        "slug": "hotplate",
+        "batch": "Summer 2020",
+        "industry": "Consumer",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Dumps",
+        "slug": "dumps",
+        "batch": "Summer 2020",
+        "industry": "Consumer",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "MilkRun",
+        "slug": "milkrun",
+        "batch": "Summer 2020",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Fancy",
+        "slug": "fancy",
+        "batch": "Summer 2020",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Byte",
+        "slug": "byte",
+        "batch": "Summer 2020",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Riogrande",
+        "slug": "riogrande",
+        "batch": "Summer 2020",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Hellosaurus",
+        "slug": "hellosaurus",
+        "batch": "Summer 2020",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Todos Comemos",
+        "slug": "todos-comemos",
+        "batch": "Summer 2020",
+        "industry": "Consumer",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Grouper",
+        "slug": "grouper",
+        "batch": "Winter 2012",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Goldbelly",
+        "slug": "goldbelly",
+        "batch": "Winter 2013",
+        "industry": "Consumer",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 1582,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:23:46.854755"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:23:46.854766",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:23:47.194737",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:23:47.497865",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 7,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:40:37.608056",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "mature",
+      "key_trends": [
+        "Demand for ultra-fast delivery",
+        "Ghost kitchen proliferation",
+        "Consumer preference for convenience over cost"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Speed-focused logistics network with 15-minute promise",
+      "differentiation": "Ultra-fast 15-minute delivery timeframe",
+      "competitive_advantages": [
+        "Speed differentiation",
+        "Early mover in ultra-fast segment"
+      ],
+      "competitive_vulnerabilities": [
+        "Well-funded competitors like DoorDash/Uber",
+        "High operational complexity"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "marketplace",
+      "scalability": "medium",
+      "capital_intensity": "high"
+    },
+    "growth_assessment": {
+      "growth_stage": "seed",
+      "growth_indicators": [
+        "Y Combinator backing",
+        "Team size of 7"
+      ],
+      "growth_bottlenecks": [
+        "Unit economics challenges",
+        "Dense urban market requirements"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "high",
+      "technology_risk": "medium",
+      "execution_risk": "high",
+      "overall_risk_score": 8,
+      "key_risks": [
+        "Intense competition from well-funded players",
+        "Difficult unit economics",
+        "High operational complexity"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Y Combinator pedigree",
+        "Clear value proposition",
+        "Large addressable market"
+      ],
+      "concerns": [
+        "Company is inactive",
+        "Challenging unit economics",
+        "Dominated by large players"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "DoorDash",
+        "Uber Eats",
+        "Gopuff",
+        "Getir"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Analyze reasons for inactive status",
+        "Assess IP and team availability"
+      ],
+      "expansion_opportunities": [
+        "Niche market focus",
+        "B2B delivery services"
+      ]
+    },
+    "tokens_used": {
+      "input": 614,
+      "output": 509,
+      "total": 1123,
+      "estimated_cost": 0.009477
+    }
+  },
+  "phase8_complete": true
+}

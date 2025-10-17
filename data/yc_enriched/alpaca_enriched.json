@@ -1,0 +1,789 @@
+{
+  "slug": "alpaca",
+  "name": "Alpaca",
+  "yc_id": 12119,
+  "batch": "Winter 2019",
+  "website": "https://alpaca.markets/",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:46:57.325030",
+    "website": "https://alpaca.markets/",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 1231.6,
+      "final_url": "https://alpaca.markets/",
+      "redirected": false,
+      "checked_at": "2025-10-17T00:46:58.556641"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "alpaca.markets",
+      "error": "Whois command returned no output"
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/AlpacaHQ",
+      "linkedin": "https://www.linkedin.com/company/9300556/",
+      "github": "https://github.com/alpacahq",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 16,
+      "server": "cloudflare"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:21:55.684095",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:21:43.755116",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "San Mateo, CA, USA",
+      "coordinates": {
+        "latitude": 37.563,
+        "longitude": -122.3255
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:14:33.868891",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:21:43.755240",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/alpacahq"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 15,
+        "packages": [
+          {
+            "name": "@alpacahq/alpaca-trade-api",
+            "description": "Javascript library for the Alpaca Trade API",
+            "version": "3.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@alpacahq/alpaca-trade-api"
+          },
+          {
+            "name": "@alpacahq/typescript-sdk",
+            "description": "A TypeScript SDK for the https://alpaca.markets REST API and WebSocket streams.",
+            "version": "0.0.32-preview",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@alpacahq/typescript-sdk"
+          },
+          {
+            "name": "@umerx/alpaca",
+            "description": "A TypeScript Node.js library for the https://alpaca.markets REST API and WebSocket streams.",
+            "version": "6.3.30",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@umerx/alpaca"
+          },
+          {
+            "name": "@master-chief/alpaca-ts",
+            "description": "A TypeScript Node.js library for the https://alpaca.markets REST API and WebSocket streams.",
+            "version": "7.0.15-alpha",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@master-chief/alpaca-ts"
+          },
+          {
+            "name": "@neeschit/alpaca-trade-api",
+            "description": "Javascript library for the Alpaca Trade API",
+            "version": "2.6.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@neeschit/alpaca-trade-api"
+          },
+          {
+            "name": "@vicary/alpaca-sdk",
+            "description": "A TypeScript SDK for the https://alpaca.markets REST API and WebSocket streams.",
+            "version": "0.0.5-preview",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@vicary/alpaca-sdk"
+          },
+          {
+            "name": "mogra-trade-api",
+            "description": "CUSTOM Javascript library for the Alpaca Trade API",
+            "version": "1.3.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/mogra-trade-api"
+          },
+          {
+            "name": "node-red-contrib-alpaca",
+            "description": "Nodes for connecting to the Alpaca stock trading API.",
+            "version": "2.2.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/node-red-contrib-alpaca"
+          },
+          {
+            "name": "@shoejuice/alpaca-trade-api",
+            "description": "Typescript port for the Alpaca Trade API",
+            "version": "3.3.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@shoejuice/alpaca-trade-api"
+          },
+          {
+            "name": "@plugged/typescript-sdk",
+            "description": "A TypeScript SDK for the https://alpaca.markets REST API and WebSocket streams.",
+            "version": "0.0.32-preview",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@plugged/typescript-sdk"
+          },
+          {
+            "name": "@investingwolf/alpaca-broker-api",
+            "description": "Node.js client for alpaca broker API",
+            "version": "0.9.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@investingwolf/alpaca-broker-api"
+          },
+          {
+            "name": "node-red-contrib-alpaca-simple",
+            "description": "Simple nodes for connecting to the Alpaca stock trading API.",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/node-red-contrib-alpaca-simple"
+          },
+          {
+            "name": "@kendelchopp/alpaca-js-backtesting",
+            "description": "This package is in no way affiliated with Alpaca",
+            "version": "1.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@kendelchopp/alpaca-js-backtesting"
+          },
+          {
+            "name": "@michaeljwright/alpaca-js-backtesting",
+            "description": "## Disclaimer",
+            "version": "2.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@michaeljwright/alpaca-js-backtesting"
+          },
+          {
+            "name": "jsmarketstore",
+            "description": "javascript driver for marketstore",
+            "version": "0.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/jsmarketstore"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 15,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:21:45.037473"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:21:45.037491",
+    "batch_network": {
+      "batch": "Winter 2019",
+      "total_batch_mates": 194,
+      "active_batch_mates": 124,
+      "batch_success_rate": 63.9,
+      "notable_batch_mates": [
+        {
+          "name": "Searchlight",
+          "slug": "searchlight",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Talent AI improving quality of hire"
+        },
+        {
+          "name": "Fuzzbuzz",
+          "slug": "fuzzbuzz",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Fuzzing as a Service"
+        },
+        {
+          "name": "ZeroStorefront",
+          "slug": "zerostorefront",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "#1 Data platform for restaurants. Acquired by Thanx"
+        },
+        {
+          "name": "Geosite",
+          "slug": "geosite",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Geosite is an enterprise SaaS platform for spatial data."
+        },
+        {
+          "name": "Insight",
+          "slug": "insight",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The first extensible browser for iOS"
+        },
+        {
+          "name": "InterPrime",
+          "slug": "interprime",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Safe & Secure Cash Management for Businesses"
+        },
+        {
+          "name": "Preflight",
+          "slug": "preflight",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "No-code Web Apps testing for everyone"
+        },
+        {
+          "name": "Windsor",
+          "slug": "windsor",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "AI Powered Personalized Videos"
+        },
+        {
+          "name": "Ascen",
+          "slug": "ascen",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "EOR for the staffing industry"
+        },
+        {
+          "name": "Convex",
+          "slug": "convex",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Software for the commercial services industry. "
+        }
+      ],
+      "batch_size": 195
+    },
+    "industry_network": {
+      "industries": [
+        "Fintech",
+        "Banking and Exchange"
+      ],
+      "total_industry_peers": 597,
+      "active_industry_peers": 447,
+      "direct_competitors": [
+        {
+          "name": "Coinbase",
+          "slug": "coinbase",
+          "status": "Public",
+          "batch": "Summer 2012",
+          "one_liner": "Buy, sell, and manage cryptocurrencies."
+        },
+        {
+          "name": "Standard Treasury",
+          "slug": "standard-treasury",
+          "status": "Acquired",
+          "batch": "Summer 2013",
+          "one_liner": "Banking APIs; acquired by Silicon Valley Bank in August 2015"
+        },
+        {
+          "name": "Buttercoin",
+          "slug": "buttercoin",
+          "status": "Inactive",
+          "batch": "Summer 2013",
+          "one_liner": "Bitcoin Marketplace"
+        },
+        {
+          "name": "Arcus",
+          "slug": "arcus",
+          "status": "Acquired",
+          "batch": "Summer 2013",
+          "one_liner": "Payment-as-a-service that helps any business launch payment solutions"
+        },
+        {
+          "name": "Axoni",
+          "slug": "axoni",
+          "status": "Acquired",
+          "batch": "Winter 2014",
+          "one_liner": "Axoni is building the next generation of capital markets technology"
+        },
+        {
+          "name": "Bitaccess",
+          "slug": "bitaccess",
+          "status": "Acquired",
+          "batch": "Summer 2014",
+          "one_liner": "We make bitcoin simple. "
+        },
+        {
+          "name": "Cheddar",
+          "slug": "cheddar",
+          "status": "Inactive",
+          "batch": "Summer 2014",
+          "one_liner": "The Best Mobile Checking Account"
+        },
+        {
+          "name": "SFOX",
+          "slug": "sfox",
+          "status": "Active",
+          "batch": "Summer 2014",
+          "one_liner": "Crypto-currency trading platform."
+        },
+        {
+          "name": "Bankjoy",
+          "slug": "bankjoy",
+          "status": "Active",
+          "batch": "Winter 2015",
+          "one_liner": "An end-to-end digital banking solution for banks and credit unions"
+        },
+        {
+          "name": "Seed",
+          "slug": "seed",
+          "status": "Acquired",
+          "batch": "Winter 2015",
+          "one_liner": "Mobile banking for small business."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "San Mateo",
+      "location": "San Mateo, CA, USA; Remote",
+      "companies_in_city": 34,
+      "active_in_city": 16,
+      "nearby_companies": [
+        {
+          "name": "OneSignal",
+          "slug": "onesignal",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Compose",
+          "slug": "compose",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Meta",
+          "slug": "meta",
+          "batch": "Summer 2013",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "PersistIQ",
+          "slug": "persistiq",
+          "batch": "Summer 2014",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Neptune.io",
+          "slug": "neptune-io",
+          "batch": "Summer 2014",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Women.com",
+          "slug": "women-com",
+          "batch": "Summer 2014",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Bagaveev Corporation",
+          "slug": "bagaveev-corporation",
+          "batch": "Winter 2015",
+          "industry": "Industrials",
+          "status": "Inactive"
+        },
+        {
+          "name": "Automate Ads",
+          "slug": "automate-ads",
+          "batch": "Winter 2015",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Second Measure",
+          "slug": "second-measure",
+          "batch": "Summer 2015",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Maderight",
+          "slug": "maderight",
+          "batch": "Summer 2015",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Yardbook",
+          "slug": "yardbook",
+          "batch": "Winter 2016",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Netomi",
+          "slug": "netomi",
+          "batch": "Winter 2016",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Sendbird",
+          "slug": "sendbird",
+          "batch": "Winter 2016",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Selfycart",
+          "slug": "selfycart",
+          "batch": "Summer 2016",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Farmstead",
+          "slug": "farmstead",
+          "batch": "Summer 2016",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Armory",
+          "slug": "armory",
+          "batch": "Winter 2017",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Veryfi, Inc.",
+          "slug": "veryfi-inc",
+          "batch": "Winter 2017",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Truepill",
+          "slug": "truepill",
+          "batch": "Summer 2017",
+          "industry": "Healthcare",
+          "status": "Acquired"
+        },
+        {
+          "name": "Meru Health",
+          "slug": "meru-health",
+          "batch": "Summer 2018",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "ZeroStorefront",
+          "slug": "zerostorefront",
+          "batch": "Winter 2019",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Parker",
+        "slug": "parker",
+        "batch": "Winter 2019",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "NALA",
+        "slug": "nala",
+        "batch": "Winter 2019",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Globe",
+        "slug": "globe",
+        "batch": "Winter 2019",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Canopy (was Encarte)",
+        "slug": "encarte",
+        "batch": "Winter 2019",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "ZeroStorefront",
+        "slug": "zerostorefront",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Keeper",
+        "slug": "keeper-2",
+        "batch": "Winter 2019",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Kalshi",
+        "slug": "kalshi",
+        "batch": "Winter 2019",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Tailornova/Couturme",
+        "slug": "tailornova-couturme",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "WeatherCheck",
+        "slug": "weathercheck",
+        "batch": "Winter 2019",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "AI Insurance",
+        "slug": "ai-insurance",
+        "batch": "Winter 2019",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 825,
+      "network_density_score": 85.6,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:21:45.054518"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:21:45.054535",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:21:45.398399",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:21:45.513121",
+    "basic_info": {
+      "is_hiring": true,
+      "team_size": 150,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:39:40.342497",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "API-first financial services",
+        "Embedded finance adoption",
+        "Democratization of investing"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Regulatory licenses combined with developer-friendly API infrastructure creates high switching costs",
+      "differentiation": "API-first approach enabling embedded investing vs traditional brokerages",
+      "competitive_advantages": [
+        "Licensed brokerage with API infrastructure",
+        "Developer-focused platform",
+        "Global reach with 100+ partners"
+      ],
+      "competitive_vulnerabilities": [
+        "Large incumbents building API offerings",
+        "Regulatory complexity in new markets"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "150 team members",
+        "100+ global partners",
+        "Multi-asset platform (stocks + crypto)"
+      ],
+      "growth_bottlenecks": [
+        "Regulatory expansion complexity",
+        "Competition from traditional brokerages"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Regulatory changes",
+        "Market volatility affecting trading volumes",
+        "Large tech companies entering space"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong regulatory position",
+        "API-first infrastructure advantage",
+        "Proven traction with 100+ partners"
+      ],
+      "concerns": [
+        "Competitive pressure from incumbents",
+        "Regulatory expansion challenges"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "DriveWealth",
+        "Interactive Brokers",
+        "Robinhood"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Accelerate international expansion",
+        "Deepen crypto offerings"
+      ],
+      "expansion_opportunities": [
+        "Additional asset classes (options, futures)",
+        "White-label robo-advisor solutions"
+      ]
+    },
+    "tokens_used": {
+      "input": 713,
+      "output": 527,
+      "total": 1240,
+      "estimated_cost": 0.010044
+    }
+  },
+  "phase8_complete": true
+}

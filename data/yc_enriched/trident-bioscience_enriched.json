@@ -1,0 +1,644 @@
+{
+  "slug": "trident-bioscience",
+  "name": "Trident Bioscience",
+  "yc_id": 13306,
+  "batch": "Summer 2020",
+  "website": "https://trident.bio",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:52:54.900637",
+    "website": "https://trident.bio",
+    "website_status": {
+      "reachable": false,
+      "error": "ssl_error"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "trident.bio",
+      "error": "Whois command returned no output"
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "error": "HTTPSConnectionPool(host='trident.bio', port=443): Max retries exceeded with url: / (Caused by SSLEr"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:24:14.150934",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:24:04.012503",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "Mountain View, CA, USA",
+      "coordinates": {
+        "latitude": 37.3861,
+        "longitude": -122.0839
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:19:15.704466",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:04.012525",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:04.012527",
+    "batch_network": {
+      "batch": "Summer 2020",
+      "total_batch_mates": 207,
+      "active_batch_mates": 131,
+      "batch_success_rate": 63.3,
+      "notable_batch_mates": [
+        {
+          "name": "Ladder",
+          "slug": "ladder",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Labor Marketplace for Construction"
+        },
+        {
+          "name": "Fig",
+          "slug": "fig",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Fig adds visual apps, shortcuts, and autocomplete to your terminal."
+        },
+        {
+          "name": "Altro",
+          "slug": "altro",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Build Credit With Your Subscriptions"
+        },
+        {
+          "name": "Jemi",
+          "slug": "jemi",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Jemi helps people build beautiful websites and stores."
+        },
+        {
+          "name": "LSK Technologies",
+          "slug": "lsk-technologies",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A diagnostic lab in a box"
+        },
+        {
+          "name": "Command AI",
+          "slug": "command-ai",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "AI-powered user assistance platform"
+        },
+        {
+          "name": "Bandit ML",
+          "slug": "bandit-ml",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Bandit ML builds machine learning tools for e-commerce companies."
+        },
+        {
+          "name": "Momence",
+          "slug": "momence",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Scheduling and payments for experiences"
+        },
+        {
+          "name": "Gather",
+          "slug": "gather",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Project management software for People Operations"
+        },
+        {
+          "name": "Finmark",
+          "slug": "finmark",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Financial planning software for startups"
+        }
+      ],
+      "batch_size": 208
+    },
+    "industry_network": {
+      "industries": [
+        "Healthcare",
+        "Drug Discovery and Delivery"
+      ],
+      "total_industry_peers": 642,
+      "active_industry_peers": 503,
+      "direct_competitors": [
+        {
+          "name": "Atomwise",
+          "slug": "atomwise",
+          "status": "Active",
+          "batch": "Winter 2015",
+          "one_liner": "Artificial intelligence for drug discovery."
+        },
+        {
+          "name": "Shasqi",
+          "slug": "shasqi",
+          "status": "Active",
+          "batch": "Winter 2015",
+          "one_liner": "Targeting Cancer with Click Chemistry"
+        },
+        {
+          "name": "Verge Genomics",
+          "slug": "verge-genomics",
+          "status": "Active",
+          "batch": "Summer 2015",
+          "one_liner": "We use human data and AI to develop better drugs faster."
+        },
+        {
+          "name": "zPREDICTA",
+          "slug": "zpredicta",
+          "status": "Acquired",
+          "batch": "Summer 2015",
+          "one_liner": "Patient-derived 3D tissue reconstruction models for preclinical\u2026"
+        },
+        {
+          "name": "Perlara",
+          "slug": "perlara",
+          "status": "Active",
+          "batch": "Winter 2016",
+          "one_liner": "Perlara: building the YC for rare disease parents"
+        },
+        {
+          "name": "Indee Labs",
+          "slug": "indee-labs",
+          "status": "Active",
+          "batch": "Winter 2017",
+          "one_liner": "Enabling T cell immunotherapy discovery, development and manufacturing"
+        },
+        {
+          "name": "Helix Nanotechnologies",
+          "slug": "helix-nanotechnologies",
+          "status": "Active",
+          "batch": "Winter 2017",
+          "one_liner": "Next-generation mRNA platform to solve cancer, COVID and climate."
+        },
+        {
+          "name": "Sixfold Bioscience",
+          "slug": "sixfold-bioscience",
+          "status": "Active",
+          "batch": "Winter 2018",
+          "one_liner": "Delivering RNA therapies."
+        },
+        {
+          "name": "Avro Life Science",
+          "slug": "avro-life-science",
+          "status": "Active",
+          "batch": "Winter 2018",
+          "one_liner": "Skin patches for generic drug delivery. "
+        },
+        {
+          "name": "Macromoltek",
+          "slug": "macromoltek",
+          "status": "Active",
+          "batch": "Winter 2018",
+          "one_liner": "Computational antibody design"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Mountain View",
+      "location": "Mountain View, CA, USA; Remote",
+      "companies_in_city": 84,
+      "active_in_city": 31,
+      "nearby_companies": [
+        {
+          "name": "SlidePay",
+          "slug": "slidepay",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "BarSense",
+          "slug": "barsense",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "YourMechanic",
+          "slug": "yourmechanic",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Carsabi",
+          "slug": "carsabi",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HackerRank",
+          "slug": "hackerrank",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "PhoneSys",
+          "slug": "phonesys",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Cryptoseal",
+          "slug": "cryptoseal",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Firebase",
+          "slug": "firebase",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Everyme",
+          "slug": "everyme",
+          "batch": "Summer 2011",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Kicksend",
+          "slug": "kicksend",
+          "batch": "Summer 2011",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Beetailer",
+          "slug": "beetailer",
+          "batch": "Winter 2011",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "TalkBin",
+          "slug": "talkbin",
+          "batch": "Winter 2011",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "GazeHawk",
+          "slug": "gazehawk",
+          "batch": "Summer 2010",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Whereoscope",
+          "slug": "whereoscope",
+          "batch": "Summer 2010",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Newcope",
+          "slug": "newcope",
+          "batch": "Winter 2010",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HighlightCam",
+          "slug": "highlightcam",
+          "batch": "Summer 2009",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Bump",
+          "slug": "bump",
+          "batch": "Summer 2009",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Recurious",
+          "slug": "recurious",
+          "batch": "Winter 2009",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Picurio",
+          "slug": "picurio",
+          "batch": "Winter 2009",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Virtualmin",
+          "slug": "virtualmin",
+          "batch": "Winter 2007",
+          "industry": "B2B",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Overfit",
+        "slug": "overfit",
+        "batch": "Summer 2020",
+        "industry": "Healthcare",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Nabla Bio",
+        "slug": "nabla-bio",
+        "batch": "Summer 2020",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Pardes Biosciences",
+        "slug": "pardes-bio",
+        "batch": "Summer 2020",
+        "industry": "Healthcare",
+        "status": "Public",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Gilgamesh Pharmaceuticals",
+        "slug": "gilgamesh-pharmaceuticals",
+        "batch": "Summer 2020",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "twoplus fertility",
+        "slug": "hannah-life-technologies",
+        "batch": "Summer 2020",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "adyn",
+        "slug": "adyn",
+        "batch": "Summer 2020",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "LSK Technologies",
+        "slug": "lsk-technologies",
+        "batch": "Summer 2020",
+        "industry": "Healthcare",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Jeevam Health",
+        "slug": "jeevam-health",
+        "batch": "Summer 2020",
+        "industry": "Healthcare",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "VenoStent",
+        "slug": "venostent",
+        "batch": "Summer 2020",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Current Foods",
+        "slug": "current-foods",
+        "batch": "Summer 2020",
+        "industry": "Healthcare",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 933,
+      "network_density_score": 98.2,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:24:04.018300"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:04.018305",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:04.376177",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:04.498695",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 1,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:44:36.355001",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "AI-driven drug discovery acceleration",
+        "Synthetic biology market expansion",
+        "Computational protein design advancement"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Proprietary sequence optimization algorithms combined with predictive protein modeling",
+      "differentiation": "Integrated design-build-test loop automation for protein optimization",
+      "competitive_advantages": [
+        "Advanced computational protein modeling",
+        "Rapid gene library design capabilities"
+      ],
+      "competitive_vulnerabilities": [
+        "Single-person team limiting execution",
+        "Established competitors with more resources"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS/licensing",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "pre-seed",
+      "growth_indicators": [
+        "Y Combinator validation",
+        "Large addressable market"
+      ],
+      "growth_bottlenecks": [
+        "Inactive status",
+        "Minimal team size",
+        "Limited market traction"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "high",
+      "execution_risk": "high",
+      "overall_risk_score": 8,
+      "key_risks": [
+        "Company inactive status",
+        "Solo founder execution challenges",
+        "Complex technology validation requirements"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Cutting-edge protein engineering technology",
+        "Large pharmaceutical market opportunity",
+        "Y Combinator pedigree"
+      ],
+      "concerns": [
+        "Inactive company status",
+        "Single-person team sustainability",
+        "Technology commercialization challenges"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Zymergen",
+        "Ginkgo Bioworks"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Assess reasons for inactive status",
+        "Evaluate technology IP and assets"
+      ],
+      "expansion_opportunities": [
+        "Partnership with pharmaceutical companies",
+        "Platform licensing to biotech firms"
+      ]
+    },
+    "tokens_used": {
+      "input": 707,
+      "output": 513,
+      "total": 1220,
+      "estimated_cost": 0.009816
+    }
+  },
+  "phase8_complete": true
+}

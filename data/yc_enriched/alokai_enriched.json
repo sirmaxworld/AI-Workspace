@@ -1,0 +1,961 @@
+{
+  "slug": "alokai",
+  "name": "Alokai",
+  "yc_id": 23270,
+  "batch": "Winter 2021",
+  "website": "https://www.alokai.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T01:01:56.541923",
+    "website": "https://www.alokai.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 4893.51,
+      "final_url": "https://alokai.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T01:02:01.435453"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "alokai.com",
+      "registrar": "OVH, SAS",
+      "creation_date": "2010-07-27T14:02:34",
+      "expiration_date": "2028-07-27T14:02:34",
+      "domain_age_days": 5560,
+      "domain_age_years": 15.2,
+      "name_servers": [
+        "DNS1.P04.NSONE.NET",
+        "DNS2.P04.NSONE.NET",
+        "DNS3.P04.NSONE.NET",
+        "DNS4.P04.NSONE.NET"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/useAlokai",
+      "linkedin": "https://www.linkedin.com/company/usealokai/",
+      "github": "https://github.com/vuestorefront",
+      "facebook": null,
+      "instagram": null,
+      "youtube": "https://www.youtube.com/@useAlokai"
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 16,
+      "server": "Netlify"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:27:37.692976",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:27:26.004816",
+    "place_data": {
+      "status": "not_found",
+      "query": "Warsaw, Masovian Voivodeship, Poland; Remote",
+      "methods_tried": [
+        "static_db",
+        "nominatim",
+        "geonames"
+      ]
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:27:26.929414",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/vuestorefront"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 58,
+        "packages": [
+          {
+            "name": "ecommerce-integration-odoo",
+            "description": "[![GitHub Repo stars](https://img.shields.io/github/stars/vuestorefront/vue-storefront?style=social)](https://github.com/vuestorefront/vue-storefront) [![Twitter Follow](https://img.shields.io/twitter/follow/vuestorefront?style=social)](https://twitter.co",
+            "version": "0.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ecommerce-integration-odoo"
+          },
+          {
+            "name": "klevu-module",
+            "description": "klevu module for vuestorefront",
+            "version": "1.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/klevu-module"
+          },
+          {
+            "name": "@borngroup/lightswitch-storefront-ui-shared",
+            "description": "Base styles and scss for the vuestorefront",
+            "version": "0.1.23",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@borngroup/lightswitch-storefront-ui-shared"
+          },
+          {
+            "name": "@storefront-ui/typography",
+            "description": "SFUI typography plugin for Tailwind",
+            "version": "2.6.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@storefront-ui/typography"
+          },
+          {
+            "name": "@vuestorefront-community/nuxt-click-outside",
+            "description": "[![@vuestorefront-community/nuxt-click-outside](./docs/public/cover.png)]()",
+            "version": "1.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@vuestorefront-community/nuxt-click-outside"
+          },
+          {
+            "name": "@storefront-ui/tw-plugin-peer-next",
+            "description": "SFUI peer-next plugin for Tailwind",
+            "version": "2.3.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@storefront-ui/tw-plugin-peer-next"
+          },
+          {
+            "name": "@erpgap/odoo",
+            "description": "This project is a Odoo integration with [Vue Storefront 2](https://github.com/vuestorefront-community/vue-storefront/). This integration is being developed and maintained by [ODOOGAP / PROMPTEQUATION](https://www.odoogap.com/) \u2764\ufe0f",
+            "version": "1.7.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@erpgap/odoo"
+          },
+          {
+            "name": "@erpgap/odoo-api",
+            "description": "This project is a Odoo integration with [Vue Storefront 2](https://github.com/vuestorefront-community/vue-storefront/). This integration is being developed and maintained by [ODOOGAP / PROMPTEQUATION](https://www.odoogap.com/) \u2764\ufe0f",
+            "version": "1.7.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@erpgap/odoo-api"
+          },
+          {
+            "name": "@vue-storefront/redis-cache",
+            "description": "Redis driver for the SSR cache in Vue Storefront 2",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@vue-storefront/redis-cache"
+          },
+          {
+            "name": "@vue-storefront/storyblok",
+            "description": "Storyblok CMS integration with Vue Storefront",
+            "version": "0.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@vue-storefront/storyblok"
+          },
+          {
+            "name": "@vue-storefront/theme-utilities",
+            "description": "<div align=\"center\">   <img src=\"https://user-images.githubusercontent.com/1626923/137092657-fb398d20-b592-4661-a1f9-4135db0b61d5.png\" alt=\"Vue Storefront\" height=\"80px\" /> </div>",
+            "version": "0.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@vue-storefront/theme-utilities"
+          },
+          {
+            "name": "vsf-recaptcha",
+            "description": "ReCAPTCHA VueStoreFront component",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/vsf-recaptcha"
+          },
+          {
+            "name": "@vue-storefront/nuxt-gtag",
+            "description": "<br /> <p align=\"center\">   <img src=\"./assets/nuxt-gtag.svg\" alt=\"Nuxt GTag\" /> </p>",
+            "version": "1.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@vue-storefront/nuxt-gtag"
+          },
+          {
+            "name": "@headlesscommerce/vsf-magento-stripe",
+            "description": "Stripe Payment module for Vue Storefront Magento",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@headlesscommerce/vsf-magento-stripe"
+          },
+          {
+            "name": "@vue-storefront/cli",
+            "description": "Vue Storefront's CLI.",
+            "version": "6.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@vue-storefront/cli"
+          },
+          {
+            "name": "qwik-storefront-ui",
+            "description": "A frontend library for Qwik that helps developers quickly build fast, accessible, and beautiful storefronts.",
+            "version": "0.0.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/qwik-storefront-ui"
+          },
+          {
+            "name": "@odoogap/odoo-api",
+            "description": "This project is a Odoo integration with [Vue Storefront 2](https://github.com/vuestorefront-community/vue-storefront/). This integration is being developed and maintained by [ODOOGAP / PROMPTEQUATION](https://www.odoogap.com/) \u2764\ufe0f",
+            "version": "1.5.2-rc.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@odoogap/odoo-api"
+          },
+          {
+            "name": "@vue-storefront/eslint-config-typescript",
+            "description": "[![@vue-storefront/eslint-config-typescript](./cover.png)]()",
+            "version": "1.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@vue-storefront/eslint-config-typescript"
+          },
+          {
+            "name": "@vue-storefront/eslint-config-base",
+            "description": "[![@vue-storefront/eslint-config-base](./cover.png)]()",
+            "version": "1.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@vue-storefront/eslint-config-base"
+          },
+          {
+            "name": "@vue-storefront/shopify-api",
+            "description": "<div align=\"center\">   <img src=\"https://user-images.githubusercontent.com/1626923/137092657-fb398d20-b592-4661-a1f9-4135db0b61d5.png\" alt=\"Vue Storefront\" height=\"80px\" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src=\"https://user-",
+            "version": "1.1.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@vue-storefront/shopify-api"
+          },
+          {
+            "name": "@borngroup/lightswitch-shopify",
+            "description": "<div align=\"center\">   <img src=\"https://user-images.githubusercontent.com/1626923/137092657-fb398d20-b592-4661-a1f9-4135db0b61d5.png\" alt=\"Vue Storefront\" height=\"80px\" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src=\"https://user-",
+            "version": "0.2.22",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@borngroup/lightswitch-shopify"
+          },
+          {
+            "name": "@storefront-ui/nuxt",
+            "description": null,
+            "version": "2.5.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@storefront-ui/nuxt"
+          },
+          {
+            "name": "@vue-storefront/odoo",
+            "description": "<div align=\"center\">   <img src=\"https://user-images.githubusercontent.com/1626923/137323036-91d4262b-74dd-40c3-83da-a405a75de5c8.jpg\" alt=\"Vue Storefront\" /> </div>",
+            "version": "1.5.3-rc.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@vue-storefront/odoo"
+          },
+          {
+            "name": "@kali604/reactioncommerce",
+            "description": "![Vue Storefront](https://camo.githubusercontent.com/48c886ac0703e3a46bc0ec963e20f126337229fc/68747470733a2f2f643968687267346d6e767a6f772e636c6f756466726f6e742e6e65742f7777772e76756573746f726566726f6e742e696f2f32383062313964302d6c6f676f2d76735f30627930326",
+            "version": "2.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@kali604/reactioncommerce"
+          },
+          {
+            "name": "@vue-storefront/vendure",
+            "description": "<div align=\"center\">   <img src=\"https://user-images.githubusercontent.com/1626923/137092657-fb398d20-b592-4661-a1f9-4135db0b61d5.png\" height=\"100px\" />   <img src=\"https://www.vendure.io/logo.png\" height=\"100px\" style=\"margin-left: 30px;\"> </div>",
+            "version": "1.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@vue-storefront/vendure"
+          },
+          {
+            "name": "@borngroup/lightswitch-shopify-api",
+            "description": "<div align=\"center\">   <img src=\"https://user-images.githubusercontent.com/1626923/137092657-fb398d20-b592-4661-a1f9-4135db0b61d5.png\" alt=\"Vue Storefront\" height=\"80px\" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src=\"https://user-",
+            "version": "0.2.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@borngroup/lightswitch-shopify-api"
+          },
+          {
+            "name": "@vue-storefront/shopify",
+            "description": "<div align=\"center\">   <img src=\"https://user-images.githubusercontent.com/1626923/137092657-fb398d20-b592-4661-a1f9-4135db0b61d5.png\" alt=\"Vue Storefront\" height=\"80px\" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src=\"https://user-",
+            "version": "1.1.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@vue-storefront/shopify"
+          },
+          {
+            "name": "@odoogap/odoo",
+            "description": "This project is a Odoo integration with [Vue Storefront 2](https://github.com/vuestorefront-community/vue-storefront/). This integration is being developed and maintained by [ODOOGAP / PROMPTEQUATION](https://www.odoogap.com/) \u2764\ufe0f",
+            "version": "1.5.2-rc.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@odoogap/odoo"
+          },
+          {
+            "name": "@bva/shopify",
+            "description": "<div align=\"center\">   <img src=\"https://user-images.githubusercontent.com/1626923/137092657-fb398d20-b592-4661-a1f9-4135db0b61d5.png\" alt=\"Vue Storefront\" height=\"80px\" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src=\"https://user-",
+            "version": "1.2.11",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@bva/shopify"
+          },
+          {
+            "name": "@vue-storefront/odoo-api",
+            "description": "<div align=\"center\">   <img src=\"https://user-images.githubusercontent.com/1626923/137323036-91d4262b-74dd-40c3-83da-a405a75de5c8.jpg\" alt=\"Vue Storefront\" /> </div>",
+            "version": "1.5.3-rc.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@vue-storefront/odoo-api"
+          },
+          {
+            "name": "@vue-storefront/prettier-config",
+            "description": "> Common prettier configuration used in Alokai projects",
+            "version": "3.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@vue-storefront/prettier-config"
+          },
+          {
+            "name": "@borngroup/lightswitch-shopify-theme",
+            "description": "Shopify specific theme files that inherit from lightswitch-storefront-ui and nuxt elements from lightswitch-core",
+            "version": "0.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@borngroup/lightswitch-shopify-theme"
+          },
+          {
+            "name": "@vue-storefront/eslint-config-nuxt",
+            "description": "[![@vue-storefront/eslint-config-nuxt](./cover.png)]()",
+            "version": "1.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@vue-storefront/eslint-config-nuxt"
+          },
+          {
+            "name": "@vue-storefront/eslint-config-vue",
+            "description": "[![@vue-storefront/eslint-config-vue](./cover.png)]()",
+            "version": "1.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@vue-storefront/eslint-config-vue"
+          },
+          {
+            "name": "@vue-storefront/magento",
+            "description": "<div align=\"center\"> <img src=\"https://user-images.githubusercontent.com/1626923/137092657-fb398d20-b592-4661-a1f9-4135db0b61d5.png\" height=\"80px\"/>\u2003\u2003<img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Magento_Logo.svg/2560px-Magento_Logo.",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@vue-storefront/magento"
+          },
+          {
+            "name": "vue-storefront",
+            "description": "A Vue.js, PWA eCommerce frontend",
+            "version": "1.0.1-RC",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/vue-storefront"
+          },
+          {
+            "name": "@vue-storefront/vendure-api",
+            "description": "<div align=\"center\">   <img src=\"https://user-images.githubusercontent.com/1626923/137092657-fb398d20-b592-4661-a1f9-4135db0b61d5.png\" height=\"100px\" />   <img src=\"https://www.vendure.io/logo.png\" height=\"100px\" style=\"margin-left: 30px;\"> </div>",
+            "version": "1.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@vue-storefront/vendure-api"
+          },
+          {
+            "name": "vendure-nuxt-composition-api",
+            "description": "<div align=\"center\">   <img src=\"https://user-images.githubusercontent.com/1626923/137092657-fb398d20-b592-4661-a1f9-4135db0b61d5.png\" height=\"100px\" />   <img src=\"https://www.vendure.io/logo.png\" height=\"100px\" style=\"margin-left: 30px;\"> </div>",
+            "version": "1.2.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/vendure-nuxt-composition-api"
+          },
+          {
+            "name": "shopware-pwa-vibration",
+            "description": "This plugin provides [Vibration API](https://developer.mozilla.org/en-US/docs/Web/API/Vibration_API) functionality for [Shopware PWA](https://github.com/vuestorefront/shopware-pwa) using its [interceptor feature](https://shopware-pwa-docs.vuestorefront.io",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/shopware-pwa-vibration"
+          },
+          {
+            "name": "@vue-storefront/community-sdk",
+            "description": "[![Build Status](https://travis-ci.org/vuestorefront/community-sdk.svg?branch=master)](https://travis-ci.org/vuestorefront/community-sdk) [![License](https://badgen.net/github/license/vuestorefront/community-sdk)](./LICENSE) [![Library minified size](http",
+            "version": "0.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@vue-storefront/community-sdk"
+          },
+          {
+            "name": "vsf-external-checkout-module",
+            "description": "External checkout module for Vue Storefront",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/vsf-external-checkout-module"
+          },
+          {
+            "name": "m-magento2-restclient",
+            "description": "REST client for accessing Magento 2 functionality. - Copied and edited https://github.com/vuestorefront/magento2-rest-client/blob/master/package.json",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/m-magento2-restclient"
+          },
+          {
+            "name": "@crearis/typography",
+            "description": "Variant of SFUI typography plugin for Tailwind",
+            "version": "0.0.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@crearis/typography"
+          },
+          {
+            "name": "@vue-storefront/checkout-com",
+            "description": "### Stay connected",
+            "version": "0.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@vue-storefront/checkout-com"
+          },
+          {
+            "name": "@brimit_psh/vuestorefront-ordercloud-sdk",
+            "description": null,
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@brimit_psh/vuestorefront-ordercloud-sdk"
+          },
+          {
+            "name": "@brimit_psh/vuestorefront-ordercloud-api",
+            "description": null,
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@brimit_psh/vuestorefront-ordercloud-api"
+          },
+          {
+            "name": "@sejazipper/magento-composables",
+            "description": "This project is a Magento 2 integration for Vue Storefront 2. This integration developed by superheroes from [Caravel](https://github.com/caravelx) and [Leonex](https://www.leonex.de/) \u2764\ufe0f",
+            "version": "1.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sejazipper/magento-composables"
+          },
+          {
+            "name": "@mmeuli/vendure-api",
+            "description": "<div align=\"center\">   <img src=\"https://user-images.githubusercontent.com/1626923/137092657-fb398d20-b592-4661-a1f9-4135db0b61d5.png\" height=\"100px\" />   <img src=\"https://www.vendure.io/logo.png\" height=\"100px\" style=\"margin-left: 30px;\"> </div>",
+            "version": "1.2.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mmeuli/vendure-api"
+          },
+          {
+            "name": "shopware-frontends-proxy",
+            "description": "This Shopware Frontends (nuxt3) module proxies requests to the Shopware 6 instance to bypass preflight requests.",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/shopware-frontends-proxy"
+          },
+          {
+            "name": "@mtcmedia/shopify-api",
+            "description": "<div align=\"center\">   <img src=\"https://user-images.githubusercontent.com/1626923/137092657-fb398d20-b592-4661-a1f9-4135db0b61d5.png\" alt=\"Vue Storefront\" height=\"80px\" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src=\"https://user-",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mtcmedia/shopify-api"
+          },
+          {
+            "name": "@mmeuli/vendure",
+            "description": "<div align=\"center\">   <img src=\"https://user-images.githubusercontent.com/1626923/137092657-fb398d20-b592-4661-a1f9-4135db0b61d5.png\" height=\"100px\" />   <img src=\"https://www.vendure.io/logo.png\" height=\"100px\" style=\"margin-left: 30px;\"> </div>",
+            "version": "1.2.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mmeuli/vendure"
+          },
+          {
+            "name": "@murval/vendure",
+            "description": "<div align=\"center\">   <img src=\"https://user-images.githubusercontent.com/1626923/137092657-fb398d20-b592-4661-a1f9-4135db0b61d5.png\" height=\"100px\" />   <img src=\"https://www.vendure.io/logo.png\" height=\"100px\" style=\"margin-left: 30px;\"> </div>",
+            "version": "1.1.18",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@murval/vendure"
+          },
+          {
+            "name": "@mtcmedia/shopify",
+            "description": "<div align=\"center\">   <img src=\"https://user-images.githubusercontent.com/1626923/137092657-fb398d20-b592-4661-a1f9-4135db0b61d5.png\" alt=\"Vue Storefront\" height=\"80px\" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src=\"https://user-",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mtcmedia/shopify"
+          },
+          {
+            "name": "@falconverse/falcon-api",
+            "description": "<div align=\"center\">   <img src=\"https://user-images.githubusercontent.com/1626923/137092657-fb398d20-b592-4661-a1f9-4135db0b61d5.png\" height=\"100px\" />   <img src=\"https://www.vendure.io/logo.png\" height=\"100px\" style=\"margin-left: 30px;\"> </div>",
+            "version": "1.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@falconverse/falcon-api"
+          },
+          {
+            "name": "@vue-storefront/eslint-config-vue2",
+            "description": "[![@vue-storefront/eslint-config-vue2](./cover.png)]()",
+            "version": "1.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@vue-storefront/eslint-config-vue2"
+          },
+          {
+            "name": "voicecommerce",
+            "description": "JavaScript library for integrating ecommerce with Amazon Alexa and Google Assistant",
+            "version": "0.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/voicecommerce"
+          },
+          {
+            "name": "@vue-storefront/eslint-config-nuxt2",
+            "description": "[![@vue-storefront/eslint-config-nuxt2](./cover.png)]()",
+            "version": "1.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@vue-storefront/eslint-config-nuxt2"
+          },
+          {
+            "name": "slidev-theme-vuestorefront",
+            "description": "[![NPM version](https://img.shields.io/npm/v/slidev-theme-vuestorefront?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-vuestorefront)[![Netlify Status](https://api.netlify.com/api/v1/badges/6ec33b49-92d9-4315-bbf7-f222a4fae33e/deploy-sta",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/slidev-theme-vuestorefront"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 58,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:27:28.125602"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:27:28.125608",
+    "batch_network": {
+      "batch": "Winter 2021",
+      "total_batch_mates": 335,
+      "active_batch_mates": 244,
+      "batch_success_rate": 72.8,
+      "notable_batch_mates": [
+        {
+          "name": "Stacksi",
+          "slug": "stacksi",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Automated Answers to Security Questionnaires"
+        },
+        {
+          "name": "Furmacy",
+          "slug": "furmacy",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Digital e-prescribing software for veterinarians."
+        },
+        {
+          "name": "Fountain9",
+          "slug": "fountain9",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Helping food brands and retailers reduce food wastage"
+        },
+        {
+          "name": "Zepto",
+          "slug": "zepto",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "10-Minute Grocery Delivery in India"
+        },
+        {
+          "name": "Segments.ai",
+          "slug": "segments-ai",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Build better computer vision models by building better datasets"
+        },
+        {
+          "name": "PingPong",
+          "slug": "pingpong",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Video messaging app for remote teams."
+        },
+        {
+          "name": "ClipDrop",
+          "slug": "clipdrop",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Turn regular mobile photos into professional product visuals"
+        },
+        {
+          "name": "Avenue",
+          "slug": "avenue",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Observability platform for operations teams"
+        },
+        {
+          "name": "Flok",
+          "slug": "flok",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "End to end company retreat planning"
+        },
+        {
+          "name": "HyperGlue",
+          "slug": "hyperglue",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Business intelligence on text"
+        }
+      ],
+      "batch_size": 336
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "status": "Active",
+          "batch": "Winter 2012",
+          "one_liner": "High Performance Computing Built for the Cloud"
+        },
+        {
+          "name": "Marft",
+          "slug": "marft",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Marft creates embeddable machine learning models for application\u2026"
+        },
+        {
+          "name": "Pixelapse",
+          "slug": "pixelapse",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Github for designers. We automatically keep track of revisions of\u2026"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Palantir for sales people"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Smart search for the modern team."
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Authy is a Two-Factor Authentication platform for developers"
+        },
+        {
+          "name": "Flutter",
+          "slug": "flutter",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Flutter combined computer vision technology with the built-in webcams\u2026"
+        },
+        {
+          "name": "SolidStage",
+          "slug": "solidstage",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Sysadmin as a service. We make deploying, configuring, monitoring,\u2026"
+        },
+        {
+          "name": "Clutch",
+          "slug": "clutch",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "An easy to integrate library for native iOS applications designed to\u2026"
+        },
+        {
+          "name": "OneSignal",
+          "slug": "onesignal",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Engage customers through personalized omni-channel messaging"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Warsaw",
+      "location": "Warsaw, Masovian Voivodeship, Poland; Remote",
+      "companies_in_city": 1,
+      "active_in_city": 1,
+      "nearby_companies": [
+        {
+          "name": "Quickchat AI",
+          "slug": "quickchat-ai",
+          "batch": "Summer 2018",
+          "industry": "B2B",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "low"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Webiny",
+        "slug": "webiny",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Runway",
+        "slug": "runway",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "authzed",
+        "slug": "authzed",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Taloflow",
+        "slug": "taloflow",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "SBX Robotics",
+        "slug": "sbx-robotics",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Pensil",
+        "slug": "pensil",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Triplit",
+        "slug": "triplit",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Clay",
+        "slug": "clay",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Segments.ai",
+        "slug": "segments-ai",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Emerge Tools",
+        "slug": "emerge-tools",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 3082,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": false,
+      "calculated_at": "2025-10-17T10:27:28.132926"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:27:28.132935",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:27:28.454255",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:27:28.569403",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 100,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:44:24.497102",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Composable commerce adoption",
+        "Headless architecture migration",
+        "Frontend performance optimization demand"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Strong developer ecosystem and framework-agnostic platform with 3000+ live implementations creating network effects",
+      "differentiation": "Frontend-as-a-Service specifically for ecommerce with composable commerce focus and proven scale",
+      "competitive_advantages": [
+        "Market-leading position in composable commerce",
+        "Large existing customer base (3000+ stores)",
+        "Framework agnostic approach"
+      ],
+      "competitive_vulnerabilities": [
+        "Competition from larger platforms like Shopify Plus",
+        "Potential commoditization of frontend services"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "100 person team size",
+        "3000+ live stores",
+        "Global market presence"
+      ],
+      "growth_bottlenecks": [
+        "Enterprise sales cycle complexity",
+        "Technical integration complexity for customers"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "low",
+      "overall_risk_score": 4,
+      "key_risks": [
+        "Platform consolidation by major ecommerce players",
+        "Open source alternatives gaining traction",
+        "Economic downturn affecting ecommerce investments"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong market position in growing composable commerce space",
+        "Proven product-market fit with 3000+ customers",
+        "Experienced team with domain expertise"
+      ],
+      "concerns": [
+        "Intense competition from well-funded players",
+        "Dependency on continued composable commerce adoption"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Contentful",
+        "Netlify",
+        "Vercel"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Expand enterprise sales team",
+        "Develop AI-powered optimization features"
+      ],
+      "expansion_opportunities": [
+        "Geographic expansion in Asia-Pacific",
+        "Vertical-specific solutions for different retail categories"
+      ]
+    },
+    "tokens_used": {
+      "input": 745,
+      "output": 570,
+      "total": 1315,
+      "estimated_cost": 0.010785
+    }
+  },
+  "phase8_complete": true
+}

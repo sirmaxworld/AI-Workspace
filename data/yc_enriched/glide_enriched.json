@@ -1,0 +1,1184 @@
+{
+  "slug": "glide",
+  "name": "Glide",
+  "yc_id": 12256,
+  "batch": "Winter 2019",
+  "website": "https://www.glideapps.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:47:21.300213",
+    "website": "https://www.glideapps.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 1761.46,
+      "final_url": "https://www.glideapps.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:47:23.061707"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "glideapps.com",
+      "registrar": "Squarespace Domains II LLC",
+      "creation_date": "2018-12-23T03:22:51",
+      "expiration_date": "2025-12-23T03:22:51",
+      "domain_age_days": 2489,
+      "domain_age_years": 6.8,
+      "name_servers": [
+        "NS-CLOUD-A1.GOOGLEDOMAINS.COM",
+        "NS-CLOUD-A2.GOOGLEDOMAINS.COM",
+        "NS-CLOUD-A3.GOOGLEDOMAINS.COM",
+        "NS-CLOUD-A4.GOOGLEDOMAINS.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://www.twitter.com/glideapps",
+      "linkedin": "https://www.linkedin.com/company/glideapps",
+      "github": "https://www.github.com/glideapps",
+      "facebook": null,
+      "instagram": "https://www.instagram.com/glideapps",
+      "youtube": "https://www.youtube.com/glideapps"
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 16,
+      "server": "Vercel"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:22:05.616470",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:21:55.090090",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "San Francisco, CA, USA",
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:14:18.656822",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:21:55.090193",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/glideapps"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 69,
+        "packages": [
+          {
+            "name": "@glideapps/ts-necessities",
+            "description": "Small utilities to make life with TypeScript easier",
+            "version": "2.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@glideapps/ts-necessities"
+          },
+          {
+            "name": "@glideapps/glide-data-grid",
+            "description": "React data grid for beautifully displaying and editing large amounts of data with amazing performance.",
+            "version": "6.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@glideapps/glide-data-grid"
+          },
+          {
+            "name": "@glideapps/glide-data-grid-cells",
+            "description": "Extra cells for glide-data-grid",
+            "version": "6.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@glideapps/glide-data-grid-cells"
+          },
+          {
+            "name": "@glideapps/glide-data-grid-source",
+            "description": "Useful data source hooks for Glide Data Grid",
+            "version": "6.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@glideapps/glide-data-grid-source"
+          },
+          {
+            "name": "@glideapps/tables",
+            "description": "Client for Glide API",
+            "version": "1.0.21",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@glideapps/tables"
+          },
+          {
+            "name": "@glideapps/ts-helper",
+            "description": "Analyze TypeScript projects",
+            "version": "6.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@glideapps/ts-helper"
+          },
+          {
+            "name": "@glideapps/graphs",
+            "description": "Simple graph algorithms",
+            "version": "0.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@glideapps/graphs"
+          },
+          {
+            "name": "@redhat-ai-dev/model-catalog-types",
+            "description": "This Typescript type definition is automatically generated from the [model catalog schema](../model-catalog-schema.json) using [quicktype](https://github.com/glideapps/quicktype).",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@redhat-ai-dev/model-catalog-types"
+          },
+          {
+            "name": "canvas-hypertxt",
+            "description": "The fastest way to layout wrapped text on a HTML5 canvas",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/canvas-hypertxt"
+          },
+          {
+            "name": "zod-from-json-schema",
+            "description": "Creates Zod types from JSON Schema at runtime",
+            "version": "0.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/zod-from-json-schema"
+          },
+          {
+            "name": "quicktype-core-jayzhang",
+            "description": "Customized version of the quicktype-core library",
+            "version": "18.0.16-beta.2025042502",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/quicktype-core-jayzhang"
+          },
+          {
+            "name": "@glideapps/atc",
+            "description": "Libraries to support ATC service development in Typescript",
+            "version": "0.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@glideapps/atc"
+          },
+          {
+            "name": "@glideapps/demo-module",
+            "description": "Demo module",
+            "version": "0.0.0-beta.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@glideapps/demo-module"
+          },
+          {
+            "name": "uwrap",
+            "description": "A very fast and accurate text and line wrapping util",
+            "version": "0.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/uwrap"
+          },
+          {
+            "name": "aim-data-grid",
+            "description": "React data grid for beautifully displaying and editing large amounts of data with amazing performance.",
+            "version": "1.3.2-beta.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/aim-data-grid"
+          },
+          {
+            "name": "@rightteaminc/glide-data-grid",
+            "description": "React data grid for beautifully displaying and editing large amounts of data with amazing performance.  Forked and modified for RightTeamInc.",
+            "version": "6.0.4-px1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@rightteaminc/glide-data-grid"
+          },
+          {
+            "name": "n8n-nodes-glideapps",
+            "description": "n8n node to connect with Glide Apps",
+            "version": "1.0.16",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/n8n-nodes-glideapps"
+          },
+          {
+            "name": "react-glide-data-grid",
+            "description": "Super fast, pure canvas Data Grid Editor",
+            "version": "5.0.69",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-glide-data-grid"
+          },
+          {
+            "name": "glideapps-marketing-module",
+            "description": "Congrats! You just saved yourself hours of work by bootstrapping this project with TSDX. Let\u2019s get you oriented with what\u2019s here and how to use it.",
+            "version": "1.2.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/glideapps-marketing-module"
+          },
+          {
+            "name": "@glideapps/prettier-plugin-glide-tailwind",
+            "description": "Formatting and sorting for glide tailwind classes",
+            "version": "4.2.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@glideapps/prettier-plugin-glide-tailwind"
+          },
+          {
+            "name": "@glideapps/uapi",
+            "description": "CLI tool for managing local development of unified API services",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@glideapps/uapi"
+          },
+          {
+            "name": "@basehub/glide-data-grid",
+            "description": "React data grid for beautifully displaying and editing large amounts of data with amazing performance.",
+            "version": "6.0.4-alpha11",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@basehub/glide-data-grid"
+          },
+          {
+            "name": "loose-deep-equal",
+            "description": "JavaScript fast deep equality, but treating missing/undefined properties as equal",
+            "version": "0.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/loose-deep-equal"
+          },
+          {
+            "name": "@glideapps/vitest-v8-json-coverage-summary",
+            "description": "A plugin for vitest that generates a coverage summary in json format",
+            "version": "0.0.0-quebec",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@glideapps/vitest-v8-json-coverage-summary"
+          },
+          {
+            "name": "aim-data-grid-cells",
+            "description": "Extra cells for aim-data-grid",
+            "version": "1.2.2-beta.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/aim-data-grid-cells"
+          },
+          {
+            "name": "@glideapps/screen-agent",
+            "description": "Experimenting with a screen agent based on React",
+            "version": "0.0.3-beta05",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@glideapps/screen-agent"
+          },
+          {
+            "name": "@larskarbo/canvas-hypertxt",
+            "description": "The fastest way to layout wrapped text on a HTML5 canvas",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@larskarbo/canvas-hypertxt"
+          },
+          {
+            "name": "excel-canvas",
+            "description": "React data grid for beautifully displaying and editing large amounts of data with amazing performance.",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/excel-canvas"
+          },
+          {
+            "name": "@hpe.com/glide-data-grid",
+            "description": "React data grid for beautifully displaying and editing large amounts of data with amazing performance.",
+            "version": "5.2.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@hpe.com/glide-data-grid"
+          },
+          {
+            "name": "@glideapps/automations-test-runner",
+            "description": "Automations runner package bundled",
+            "version": "0.0.37",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@glideapps/automations-test-runner"
+          },
+          {
+            "name": "@maximai/glide-data-grid",
+            "description": "React data grid for beautifully displaying and editing large amounts of data with amazing performance.",
+            "version": "6.0.20",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@maximai/glide-data-grid"
+          },
+          {
+            "name": "glide-data-grid-fork",
+            "description": "React data grid for beautifully displaying and editing large amounts of data with amazing performance.",
+            "version": "6.0.4-alpha8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/glide-data-grid-fork"
+          },
+          {
+            "name": "excel-canvas-source",
+            "description": "Useful data source hooks for Excel Canvas",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/excel-canvas-source"
+          },
+          {
+            "name": "excel-canvas-cells",
+            "description": "Extra cells for excel-canvas",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/excel-canvas-cells"
+          },
+          {
+            "name": "@workfront-grid/glide-data-grid-source",
+            "description": "Useful data source hooks for Glide Data Grid",
+            "version": "5.5.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@workfront-grid/glide-data-grid-source"
+          },
+          {
+            "name": "glide-data-grid-cells-fork",
+            "description": "Extra cells for glide-data-grid",
+            "version": "6.0.4-alpha14",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/glide-data-grid-cells-fork"
+          },
+          {
+            "name": "@workfront-grid/glide-data-grid-cells",
+            "description": "Extra cells for glide-data-grid",
+            "version": "5.5.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@workfront-grid/glide-data-grid-cells"
+          },
+          {
+            "name": "@workfront-grid/glide-data-grid",
+            "description": "React data grid for beautifully displaying and editing large amounts of data with amazing performance.",
+            "version": "5.5.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@workfront-grid/glide-data-grid"
+          },
+          {
+            "name": "@rahulyadav5524/glide-data-grid",
+            "description": "React data grid for beautifully displaying and editing large amounts of data with amazing performance.",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@rahulyadav5524/glide-data-grid"
+          },
+          {
+            "name": "@engyalo/glide-data-grid",
+            "description": "Super fast, pure canvas Data Grid Editor",
+            "version": "1.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@engyalo/glide-data-grid"
+          },
+          {
+            "name": "sql-string-builder",
+            "description": "Builds SQL query strings and parameters from an interpolated string",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sql-string-builder"
+          },
+          {
+            "name": "@datawisp/glide-data-grid",
+            "description": "React data grid for beautifully displaying and editing large amounts of data with amazing performance.",
+            "version": "6.0.4-alpha9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@datawisp/glide-data-grid"
+          },
+          {
+            "name": "@packages_gh/glide-data-grid-gh",
+            "description": "React data grid for beautifully displaying and editing large amounts of data with amazing performance.",
+            "version": "1.0.38",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@packages_gh/glide-data-grid-gh"
+          },
+          {
+            "name": "@basehub/glide-data-grid-source",
+            "description": "Useful data source hooks for Glide Data Grid",
+            "version": "6.0.4-alpha8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@basehub/glide-data-grid-source"
+          },
+          {
+            "name": "@giant-fe/glide-data-grid",
+            "description": "React data grid for beautifully displaying and editing large amounts of data with amazing performance.",
+            "version": "5.2.2-beta4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@giant-fe/glide-data-grid"
+          },
+          {
+            "name": "@platools/glide-data-grid",
+            "description": "React data grid for beautifully displaying and editing large amounts of data with amazing performance.",
+            "version": "5.2.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@platools/glide-data-grid"
+          },
+          {
+            "name": "@kcvikander/glide-data-grid",
+            "description": "React data grid for beautifully displaying and editing large amounts of data with amazing performance.",
+            "version": "6.0.4-px1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@kcvikander/glide-data-grid"
+          },
+          {
+            "name": "@basehub/glide-data-grid-cells",
+            "description": "Extra cells for glide-data-grid",
+            "version": "6.0.4-alpha8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@basehub/glide-data-grid-cells"
+          },
+          {
+            "name": "@danielkita/glide-data-grid",
+            "description": "React data grid for beautifully displaying and editing large amounts of data with amazing performance.",
+            "version": "6.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@danielkita/glide-data-grid"
+          },
+          {
+            "name": "@schickling-tmp/glide-data-grid",
+            "description": "Super fast, pure canvas Data Grid Editor",
+            "version": "5.0.0-15",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@schickling-tmp/glide-data-grid"
+          },
+          {
+            "name": "teams-glide-data-grid-core",
+            "description": "React data grid for beautifully displaying and editing large amounts of data with amazing performance.",
+            "version": "6.0.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/teams-glide-data-grid-core"
+          },
+          {
+            "name": "@danielkita/glide-data-grid-source",
+            "description": "Useful data source hooks for Glide Data Grid",
+            "version": "6.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@danielkita/glide-data-grid-source"
+          },
+          {
+            "name": "@danielkita/glide-data-grid-cells",
+            "description": "Extra cells for glide-data-grid",
+            "version": "6.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@danielkita/glide-data-grid-cells"
+          },
+          {
+            "name": "ih-glide-data-grid-cells",
+            "description": "Extra cells for glide-data-grid",
+            "version": "5.2.2-beta20",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ih-glide-data-grid-cells"
+          },
+          {
+            "name": "data-table-handsome",
+            "description": "<h1 align=\"center\">   <img src=\"https://raw.githubusercontent.com/glideapps/glide-data-grid/master/media/icon.png\" width=\"224px\"/><br/>   <b>Glide Data Grid</b> </h1> <p align=\"center\">A canvas-based data grid, supporting <b>millions</b> of rows, <b>rapid",
+            "version": "6.0.4-alpha8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/data-table-handsome"
+          },
+          {
+            "name": "ih-glide-data-grid",
+            "description": "React data grid for beautifully displaying and editing large amounts of data with amazing performance.",
+            "version": "5.2.20",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ih-glide-data-grid"
+          },
+          {
+            "name": "vistudio-table",
+            "description": "React data grid for beautifully displaying and editing large amounts of data with amazing performance.",
+            "version": "5.2.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/vistudio-table"
+          },
+          {
+            "name": "@slightcode/glide-data-grid",
+            "description": "Super fast, pure canvas Data Grid Editor",
+            "version": "4.2.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@slightcode/glide-data-grid"
+          },
+          {
+            "name": "zod-exporter",
+            "description": "A zod types exporter.",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/zod-exporter"
+          },
+          {
+            "name": "teams-glide-data-grid-cells",
+            "description": "Extra cells",
+            "version": "5.2.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/teams-glide-data-grid-cells"
+          },
+          {
+            "name": "zod-v4-from-json-schema",
+            "description": "Creates Zod types from JSON Schema at runtime",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/zod-v4-from-json-schema"
+          },
+          {
+            "name": "@goldendata/glide-data-grid",
+            "description": "React data grid for beautifully displaying and editing large amounts of data with amazing performance.",
+            "version": "6.0.4-alpha4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@goldendata/glide-data-grid"
+          },
+          {
+            "name": "@syxy/glide-data-grid-cells",
+            "description": "Extra cells for glide-data-grid",
+            "version": "6.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@syxy/glide-data-grid-cells"
+          },
+          {
+            "name": "@unispec/driver-quicktype",
+            "description": "Unispec Driver for QuickType.",
+            "version": "0.26.1-next.48",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@unispec/driver-quicktype"
+          },
+          {
+            "name": "@unispec/driver-nestjs-swagger",
+            "description": "Unispec Driver for NestJS Swagger.",
+            "version": "0.26.1-next.48",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@unispec/driver-nestjs-swagger"
+          },
+          {
+            "name": "@unispec/driver-nestjs-graphql",
+            "description": "Unispec Driver for NestJS GraphQl.",
+            "version": "0.26.1-next.48",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@unispec/driver-nestjs-graphql"
+          },
+          {
+            "name": "@syxy/glide-data-grid",
+            "description": "React data grid for beautifully displaying and editing large amounts of data with amazing performance.",
+            "version": "6.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@syxy/glide-data-grid"
+          },
+          {
+            "name": "@syxy/glide-data-grid-source",
+            "description": "Useful data source hooks for Glide Data Grid",
+            "version": "6.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@syxy/glide-data-grid-source"
+          },
+          {
+            "name": "@unispec/driver-nestjs",
+            "description": "Unispec Driver for NestJS.",
+            "version": "0.26.1-next.48",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@unispec/driver-nestjs"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 69,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:21:56.430071"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:21:56.430082",
+    "batch_network": {
+      "batch": "Winter 2019",
+      "total_batch_mates": 194,
+      "active_batch_mates": 124,
+      "batch_success_rate": 63.9,
+      "notable_batch_mates": [
+        {
+          "name": "Searchlight",
+          "slug": "searchlight",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Talent AI improving quality of hire"
+        },
+        {
+          "name": "Fuzzbuzz",
+          "slug": "fuzzbuzz",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Fuzzing as a Service"
+        },
+        {
+          "name": "ZeroStorefront",
+          "slug": "zerostorefront",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "#1 Data platform for restaurants. Acquired by Thanx"
+        },
+        {
+          "name": "Geosite",
+          "slug": "geosite",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Geosite is an enterprise SaaS platform for spatial data."
+        },
+        {
+          "name": "Insight",
+          "slug": "insight",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The first extensible browser for iOS"
+        },
+        {
+          "name": "InterPrime",
+          "slug": "interprime",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Safe & Secure Cash Management for Businesses"
+        },
+        {
+          "name": "Preflight",
+          "slug": "preflight",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "No-code Web Apps testing for everyone"
+        },
+        {
+          "name": "Windsor",
+          "slug": "windsor",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "AI Powered Personalized Videos"
+        },
+        {
+          "name": "Ascen",
+          "slug": "ascen",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "EOR for the staffing industry"
+        },
+        {
+          "name": "Convex",
+          "slug": "convex",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Software for the commercial services industry. "
+        }
+      ],
+      "batch_size": 195
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "status": "Active",
+          "batch": "Winter 2012",
+          "one_liner": "High Performance Computing Built for the Cloud"
+        },
+        {
+          "name": "Marft",
+          "slug": "marft",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Marft creates embeddable machine learning models for application\u2026"
+        },
+        {
+          "name": "Pixelapse",
+          "slug": "pixelapse",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Github for designers. We automatically keep track of revisions of\u2026"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Palantir for sales people"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Smart search for the modern team."
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Authy is a Two-Factor Authentication platform for developers"
+        },
+        {
+          "name": "Flutter",
+          "slug": "flutter",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Flutter combined computer vision technology with the built-in webcams\u2026"
+        },
+        {
+          "name": "SolidStage",
+          "slug": "solidstage",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Sysadmin as a service. We make deploying, configuring, monitoring,\u2026"
+        },
+        {
+          "name": "Clutch",
+          "slug": "clutch",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "An easy to integrate library for native iOS applications designed to\u2026"
+        },
+        {
+          "name": "OneSignal",
+          "slug": "onesignal",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Engage customers through personalized omni-channel messaging"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "San Francisco",
+      "location": "San Francisco, CA, USA; Remote",
+      "companies_in_city": 2007,
+      "active_in_city": 1339,
+      "nearby_companies": [
+        {
+          "name": "42Floors",
+          "slug": "42floors",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "PlanGrid",
+          "slug": "plangrid",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "MyVR",
+          "slug": "myvr",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Couple",
+          "slug": "couple",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HackPad",
+          "slug": "hackpad",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Gusto",
+          "slug": "gusto",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "FamilyLeaf",
+          "slug": "familyleaf",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Chute",
+          "slug": "chute",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Make School",
+          "slug": "make-school",
+          "batch": "Winter 2012",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Exec",
+          "slug": "exec",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Public"
+        },
+        {
+          "name": "LendUp",
+          "slug": "lendup",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tilt",
+          "slug": "tilt",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fond",
+          "slug": "fond",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Ultralight",
+        "slug": "ultralight",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Basilica",
+        "slug": "basilica",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Elph",
+        "slug": "elph",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Dagger",
+        "slug": "dagger",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Cosmic",
+        "slug": "cosmic",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Searchlight",
+        "slug": "searchlight",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "JuziBot",
+        "slug": "juzibot",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Overview",
+        "slug": "overview",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Fuzzbuzz",
+        "slug": "fuzzbuzz",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Flockjay",
+        "slug": "flockjay",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 4947,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:21:56.441328"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:21:56.441336",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:21:56.778450",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:21:56.882583",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 40,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:42:12.236950",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "No-code/low-code adoption accelerating",
+        "Digital transformation driving app demand",
+        "Citizen developer movement expanding"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Spreadsheet-based data model creates familiar UX and network effects through template sharing",
+      "differentiation": "Unique spreadsheet-to-app approach with focus on simplicity and speed",
+      "competitive_advantages": [
+        "Intuitive spreadsheet interface",
+        "Fast time-to-market for apps"
+      ],
+      "competitive_vulnerabilities": [
+        "Limited customization vs code-based solutions",
+        "Dependent on Google Sheets integration"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "low"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "40-person team suggests strong traction",
+        "6+ years domain age shows persistence"
+      ],
+      "growth_bottlenecks": [
+        "Enterprise sales complexity",
+        "Feature depth vs simplicity balance"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Intense competition from Microsoft/Google",
+        "Platform dependency risks",
+        "Market saturation potential"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Large addressable market",
+        "Strong product-market fit indicators",
+        "Experienced team with proven execution"
+      ],
+      "concerns": [
+        "Competitive pressure from tech giants",
+        "Monetization at scale challenges"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Airtable",
+        "Bubble",
+        "Webflow"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on enterprise customer acquisition",
+        "Develop advanced workflow capabilities"
+      ],
+      "expansion_opportunities": [
+        "AI-powered app generation",
+        "Industry-specific templates and solutions"
+      ]
+    },
+    "tokens_used": {
+      "input": 747,
+      "output": 526,
+      "total": 1273,
+      "estimated_cost": 0.010131
+    }
+  },
+  "phase8_complete": true
+}

@@ -1,0 +1,674 @@
+{
+  "slug": "posthog",
+  "name": "PostHog",
+  "yc_id": 13312,
+  "batch": "Winter 2020",
+  "website": "https://www.posthog.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:52:56.606746",
+    "website": "https://www.posthog.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 3884.17,
+      "final_url": "https://posthog.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:53:00.490939"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "posthog.com",
+      "registrar": "Amazon Registrar, Inc.",
+      "creation_date": "2020-01-23T20:46:18",
+      "expiration_date": "2026-01-23T20:46:18",
+      "domain_age_days": 2093,
+      "domain_age_years": 5.7,
+      "name_servers": [
+        "JULISSA.NS.CLOUDFLARE.COM",
+        "RORY.NS.CLOUDFLARE.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 16,
+      "server": "Vercel"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:24:14.178452",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:24:05.221410",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "San Francisco, CA, USA",
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:14:18.656822",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:05.221447",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:05.221450",
+    "batch_network": {
+      "batch": "Winter 2020",
+      "total_batch_mates": 228,
+      "active_batch_mates": 148,
+      "batch_success_rate": 64.9,
+      "notable_batch_mates": [
+        {
+          "name": "Zaraz",
+          "slug": "zaraz",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A third-party manager, built for speed. "
+        },
+        {
+          "name": "Phonic",
+          "slug": "phonic",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The best way to collect and analyze voice and video feedback"
+        },
+        {
+          "name": "Okay",
+          "slug": "okay",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Dashboards and actionable insights for high-performing engineering\u2026"
+        },
+        {
+          "name": "Volumetric",
+          "slug": "volumetric",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Volumetric builds living multicellular tissues with a focus on the\u2026"
+        },
+        {
+          "name": "Hoss",
+          "slug": "hoss",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The developer experience platform"
+        },
+        {
+          "name": "FitnessAI",
+          "slug": "fitnessai",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "App offering AI powered workout plans with anytime access to coaches"
+        },
+        {
+          "name": "Flowdash",
+          "slug": "flowdash",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Quickly build internal tools for your ops team's manual workflows"
+        },
+        {
+          "name": "Dashworks",
+          "slug": "dashworks",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Your team's intelligent start page."
+        },
+        {
+          "name": "Eternal",
+          "slug": "zelos",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Own the best moments in streaming"
+        },
+        {
+          "name": "Glimpse",
+          "slug": "glimpse",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A social video chat."
+        }
+      ],
+      "batch_size": 229
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Analytics"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "status": "Public",
+          "batch": "Winter 2012",
+          "one_liner": "Digital Analytics Platform"
+        },
+        {
+          "name": "Freshplum",
+          "slug": "freshplum",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Analytics with action"
+        },
+        {
+          "name": "Segment",
+          "slug": "segment",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Software and APIs to collect, clean, and control customer data."
+        },
+        {
+          "name": "Pagelever",
+          "slug": "pagelever",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Facebook analytics. Acquired by Unified in January 2013. \r\n"
+        },
+        {
+          "name": "Custora",
+          "slug": "custora",
+          "status": "Acquired",
+          "batch": "Winter 2011",
+          "one_liner": "Custora is a predictive analytics platform for e-commerce marketing\u2026"
+        },
+        {
+          "name": "Chartio",
+          "slug": "chartio",
+          "status": "Acquired",
+          "batch": "Summer 2010",
+          "one_liner": "Chartio is changing how companies work by building the best\u2026"
+        },
+        {
+          "name": "Data Marketplace",
+          "slug": "data-marketplace",
+          "status": "Inactive",
+          "batch": "Winter 2010",
+          "one_liner": ""
+        },
+        {
+          "name": "Mixpanel",
+          "slug": "mixpanel",
+          "status": "Active",
+          "batch": "Summer 2009",
+          "one_liner": "Mixpanel is event analytics for builders that need answers."
+        },
+        {
+          "name": "Poll Everywhere",
+          "slug": "poll-everywhere",
+          "status": "Active",
+          "batch": "Summer 2008",
+          "one_liner": "Interactive meetings and presentations"
+        },
+        {
+          "name": "Infogami",
+          "slug": "infogami",
+          "status": "Inactive",
+          "batch": "Summer 2005",
+          "one_liner": ""
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "San Francisco",
+      "location": "San Francisco, CA, USA; Remote",
+      "companies_in_city": 2007,
+      "active_in_city": 1339,
+      "nearby_companies": [
+        {
+          "name": "42Floors",
+          "slug": "42floors",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "PlanGrid",
+          "slug": "plangrid",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "MyVR",
+          "slug": "myvr",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Couple",
+          "slug": "couple",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HackPad",
+          "slug": "hackpad",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Gusto",
+          "slug": "gusto",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "FamilyLeaf",
+          "slug": "familyleaf",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Chute",
+          "slug": "chute",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Make School",
+          "slug": "make-school",
+          "batch": "Winter 2012",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Exec",
+          "slug": "exec",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Public"
+        },
+        {
+          "name": "LendUp",
+          "slug": "lendup",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tilt",
+          "slug": "tilt",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fond",
+          "slug": "fond",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Chaos Genius",
+        "slug": "chaos-genius",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Polytomic",
+        "slug": "polytomic",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Explo",
+        "slug": "explo",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Orbiter",
+        "slug": "orbiter",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Quill",
+        "slug": "quill",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Finlens",
+        "slug": "finlens",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Motion",
+        "slug": "motion",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Zaraz",
+        "slug": "zaraz",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Accord",
+        "slug": "accord",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Okay",
+        "slug": "okay",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 4981,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:24:05.231898"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:05.231903",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:05.587143",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:05.667857",
+    "basic_info": {
+      "is_hiring": true,
+      "team_size": 100,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:39:06.810953",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Shift to product-led growth requiring better analytics",
+        "Consolidation of dev tools into unified platforms",
+        "Increased focus on user experience optimization"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "All-in-one platform consolidation with strong developer experience and open-source foundation",
+      "differentiation": "Single platform combining analytics, testing, observability, and deployment tools with developer-first approach",
+      "competitive_advantages": [
+        "Comprehensive feature set reducing tool sprawl",
+        "Open-source credibility and community",
+        "Strong product-market fit with engineers"
+      ],
+      "competitive_vulnerabilities": [
+        "Competing against specialized best-in-class tools",
+        "Platform complexity may overwhelm smaller teams"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "10% monthly revenue growth",
+        "100-person team scale",
+        "Default alive status"
+      ],
+      "growth_bottlenecks": [
+        "Market education on platform consolidation benefits",
+        "Competition from established players like Amplitude/LaunchDarkly"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "low",
+      "technology_risk": "medium",
+      "execution_risk": "low",
+      "overall_risk_score": 3,
+      "key_risks": [
+        "Feature bloat reducing focus",
+        "Large incumbents with deeper pockets",
+        "Open-source model limiting monetization"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong revenue growth trajectory",
+        "Comprehensive platform reducing customer churn",
+        "Proven team execution with sustainable growth"
+      ],
+      "concerns": [
+        "Competitive pressure from specialized incumbents",
+        "Platform complexity management"
+      ],
+      "exit_potential": "IPO",
+      "comparable_companies": [
+        "Amplitude",
+        "LaunchDarkly",
+        "Mixpanel"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on enterprise sales expansion",
+        "Strengthen integrations ecosystem"
+      ],
+      "expansion_opportunities": [
+        "AI/ML observability features",
+        "International market expansion",
+        "Industry-specific solutions"
+      ]
+    },
+    "tokens_used": {
+      "input": 751,
+      "output": 569,
+      "total": 1320,
+      "estimated_cost": 0.010788
+    }
+  },
+  "phase8_complete": true
+}

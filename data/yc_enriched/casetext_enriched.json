@@ -1,0 +1,669 @@
+{
+  "slug": "casetext",
+  "name": "Casetext",
+  "yc_id": 542,
+  "batch": "Summer 2013",
+  "website": "http://casetext.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:33:08.962922",
+    "website": "http://casetext.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 454.78,
+      "final_url": "https://www.thomsonreuters.com/en/cocounsel",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:33:09.417716"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "casetext.com",
+      "registrar": "MarkMonitor Inc.",
+      "creation_date": "2013-06-12T23:28:27",
+      "expiration_date": "2026-06-12T23:28:27",
+      "domain_age_days": 4509,
+      "domain_age_years": 12.3,
+      "name_servers": [
+        "DAISY.NS.CLOUDFLARE.COM",
+        "ISAAC.NS.CLOUDFLARE.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/thomsonreuters",
+      "linkedin": "https://www.linkedin.com/company/1400/",
+      "github": null,
+      "facebook": "https://www.facebook.com/thomsonreuters",
+      "instagram": "https://www.instagram.com/thomsonreuters/",
+      "youtube": "https://www.youtube.com/thomsonreuters"
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": true,
+      "x_frame_options": true,
+      "x_content_type_options": true,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 66,
+      "server": "Apache"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:14:04.574262",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:06:47.731854",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "San Francisco, CA, USA",
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:04:14.651539",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:06:47.731880",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:06:47.731883",
+    "batch_network": {
+      "batch": "Summer 2013",
+      "total_batch_mates": 51,
+      "active_batch_mates": 10,
+      "batch_success_rate": 19.6,
+      "notable_batch_mates": [
+        {
+          "name": "URX",
+          "slug": "urx",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Mobile ads that users like. Acquired by Pinterest in May 2016."
+        },
+        {
+          "name": "Apptimize",
+          "slug": "apptimize",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Apptimize lets mobile teams innovate faster to create an amazing user\u2026"
+        },
+        {
+          "name": "Standard Treasury",
+          "slug": "standard-treasury",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Banking APIs; acquired by Silicon Valley Bank in August 2015"
+        },
+        {
+          "name": "BloomThat",
+          "slug": "bloomthat",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Uber for Flowers."
+        },
+        {
+          "name": "Hackermeter",
+          "slug": "hackermeter",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Replacing resume screening with code challenges."
+        },
+        {
+          "name": "CoreOS",
+          "slug": "coreos",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Open source tools of modern distributed systems."
+        },
+        {
+          "name": "DoorDash",
+          "slug": "doordash",
+          "status": "Public",
+          "top_company": true,
+          "one_liner": "Restaurant delivery."
+        },
+        {
+          "name": "SimpleLegal",
+          "slug": "simplelegal",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Legal Operations for corporate legal teams."
+        },
+        {
+          "name": "SpoonRocket",
+          "slug": "spoonrocket",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Meals Delivered in 10 Minutes"
+        },
+        {
+          "name": "Layer By Layer",
+          "slug": "layer-by-layer",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Acquired by MakerBot in February 2014. \r\n\r\nA marketplace for 3D\u2026"
+        }
+      ],
+      "batch_size": 52
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Legal"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1969,
+      "direct_competitors": [
+        {
+          "name": "Clerky",
+          "slug": "clerky",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Makes legal paperwork easy for startups and their attorneys."
+        },
+        {
+          "name": "SimpleLegal",
+          "slug": "simplelegal",
+          "status": "Acquired",
+          "batch": "Summer 2013",
+          "one_liner": "Legal Operations for corporate legal teams."
+        },
+        {
+          "name": "Ironclad",
+          "slug": "ironclad",
+          "status": "Active",
+          "batch": "Summer 2015",
+          "one_liner": "Digital contracting platform for legal teams.  "
+        },
+        {
+          "name": "ROSS Intelligence",
+          "slug": "ross-intelligence",
+          "status": "Inactive",
+          "batch": "Summer 2015",
+          "one_liner": "ROSS is an AI-powered legal research platform that can read and\u2026"
+        },
+        {
+          "name": "jEugene",
+          "slug": "jeugene",
+          "status": "Inactive",
+          "batch": "Summer 2015",
+          "one_liner": "jEugene highlights undefined terms and unused definitions in legal\u2026"
+        },
+        {
+          "name": "Lawyaw",
+          "slug": "lawyaw",
+          "status": "Acquired",
+          "batch": "Winter 2018",
+          "one_liner": "Automating document-based workflows"
+        },
+        {
+          "name": "Cognition IP",
+          "slug": "cognition-ip",
+          "status": "Active",
+          "batch": "Winter 2018",
+          "one_liner": "Flat-fee patent & trademark counsel with top firm results"
+        },
+        {
+          "name": "Atrium",
+          "slug": "atrium",
+          "status": "Inactive",
+          "batch": "Winter 2018",
+          "one_liner": "Modern law firm for startups powered by proprietary technology"
+        },
+        {
+          "name": "Regology",
+          "slug": "regology",
+          "status": "Active",
+          "batch": "Summer 2018",
+          "one_liner": "AI Agents for Regulatory Compliance"
+        },
+        {
+          "name": "Spire Law",
+          "slug": "spire-law",
+          "status": "Active",
+          "batch": "Winter 2019",
+          "one_liner": "Tech enabled business and employment litigation law firm."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "San Francisco",
+      "location": "San Francisco, CA, USA; Remote",
+      "companies_in_city": 2007,
+      "active_in_city": 1340,
+      "nearby_companies": [
+        {
+          "name": "42Floors",
+          "slug": "42floors",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "PlanGrid",
+          "slug": "plangrid",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "MyVR",
+          "slug": "myvr",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Couple",
+          "slug": "couple",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HackPad",
+          "slug": "hackpad",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Gusto",
+          "slug": "gusto",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "FamilyLeaf",
+          "slug": "familyleaf",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Chute",
+          "slug": "chute",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Make School",
+          "slug": "make-school",
+          "batch": "Winter 2012",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Exec",
+          "slug": "exec",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Public"
+        },
+        {
+          "name": "LendUp",
+          "slug": "lendup",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tilt",
+          "slug": "tilt",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fond",
+          "slug": "fond",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "URX",
+        "slug": "urx",
+        "batch": "Summer 2013",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Teleborder",
+        "slug": "teleborder",
+        "batch": "Summer 2013",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Apptimize",
+        "slug": "apptimize",
+        "batch": "Summer 2013",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "StackMachine",
+        "slug": "stackmachine",
+        "batch": "Summer 2013",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Hackermeter",
+        "slug": "hackermeter",
+        "batch": "Summer 2013",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "CoreOS",
+        "slug": "coreos",
+        "batch": "Summer 2013",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Crowdery",
+        "slug": "crowdery",
+        "batch": "Summer 2013",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "EasyPost",
+        "slug": "easypost",
+        "batch": "Summer 2013",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "SimpleLegal",
+        "slug": "simplelegal",
+        "batch": "Summer 2013",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Floobits",
+        "slug": "floobits",
+        "batch": "Summer 2013",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 4804,
+      "network_density_score": 90.2,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:06:47.760569"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:06:47.760577",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:06:48.102137",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:06:48.198733",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 50,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:33.948968",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "large",
+      "market_stage": "growing",
+      "key_trends": [
+        "AI-powered legal research",
+        "Increased demand for legal tech",
+        "Focus on accessibility and affordability of legal services"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Technology (AI-powered contextual search) and established user base.",
+      "differentiation": "CARA A.I. powered contextual search focusing on research context.",
+      "competitive_advantages": [
+        "AI-driven efficiency",
+        "User-friendly interface"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on AI accuracy",
+        "Potential for larger legal research companies to replicate features"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "mature",
+      "growth_indicators": [
+        "Adoption by large law firms",
+        "Expansion of AI capabilities"
+      ],
+      "growth_bottlenecks": [
+        "Market saturation",
+        "Competition from established players"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "low",
+      "overall_risk_score": 4,
+      "key_risks": [
+        "AI accuracy and bias",
+        "Data security and privacy",
+        "Changing legal landscape"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong AI technology",
+        "Experienced team",
+        "Established market presence"
+      ],
+      "concerns": [
+        "Competition from larger players",
+        "Dependence on AI advancements"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "LexisNexis",
+        "Westlaw"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Maintain AI accuracy and relevance",
+        "Expand into adjacent legal services"
+      ],
+      "expansion_opportunities": [
+        "International markets",
+        "Integration with other legal tech platforms"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 723,
+      "completion": 467,
+      "total": 1190,
+      "estimated_cost": 0.000194
+    }
+  },
+  "phase8_complete": true
+}

@@ -1,0 +1,835 @@
+{
+  "slug": "svix",
+  "name": "Svix",
+  "yc_id": 23355,
+  "batch": "Winter 2021",
+  "website": "https://www.svix.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T01:02:17.390631",
+    "website": "https://www.svix.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 1931.13,
+      "final_url": "https://www.svix.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T01:02:19.321774"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "svix.com",
+      "registrar": "NAMECHEAP INC",
+      "creation_date": "1998-07-13T04:00:00",
+      "expiration_date": "2030-07-12T04:00:00",
+      "domain_age_days": 9957,
+      "domain_age_years": 27.3,
+      "name_servers": [
+        "NS-1243.AWSDNS-27.ORG",
+        "NS-1942.AWSDNS-50.CO.UK",
+        "NS-360.AWSDNS-45.COM",
+        "NS-892.AWSDNS-47.NET"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/SvixHQ",
+      "linkedin": "https://www.linkedin.com/company/svix/",
+      "github": "https://github.com/svix/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": "https://www.youtube.com/watch?v=UhKvGfBJRD8"
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 16,
+      "server": "Vercel"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:27:48.836110",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:27:33.717087",
+    "place_data": {
+      "status": "not_found",
+      "query": "New York, NY, USA; San Francisco, CA, USA; Remote",
+      "methods_tried": [
+        "static_db",
+        "nominatim",
+        "geonames"
+      ]
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:27:37.996128",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/svix"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 11,
+        "packages": [
+          {
+            "name": "svix",
+            "description": "Svix webhooks API client and webhook verification library",
+            "version": "1.77.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/svix"
+          },
+          {
+            "name": "svix-react",
+            "description": "React components for using Svix in your dashboard.",
+            "version": "1.13.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/svix-react"
+          },
+          {
+            "name": "svix-fetch",
+            "description": "An isomorphic WHATWG Fetch API, for Node & Browserify with keepalives",
+            "version": "4.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/svix-fetch"
+          },
+          {
+            "name": "@pipedream/svix",
+            "description": "Pipedream Svix Components",
+            "version": "0.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@pipedream/svix"
+          },
+          {
+            "name": "@seamapi/webhook",
+            "description": "Webhook SDK for the Seam API written in TypeScript.",
+            "version": "1.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@seamapi/webhook"
+          },
+          {
+            "name": "clerk-auth-webhook-handler",
+            "description": "A type-safe webhook handler for Clerk webhooks with support for Svix",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/clerk-auth-webhook-handler"
+          },
+          {
+            "name": "agentic-commerce-protocol",
+            "description": "Type definitions for the Agentic Commerce Protocol specification",
+            "version": "0.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/agentic-commerce-protocol"
+          },
+          {
+            "name": "svix-js",
+            "description": "A placeholder for future development.",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/svix-js"
+          },
+          {
+            "name": "zeromcp-server",
+            "description": "The ZeroMCP local MCP server.",
+            "version": "0.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/zeromcp-server"
+          },
+          {
+            "name": "recurrente-js",
+            "description": "Recurrente API Wrapper",
+            "version": "1.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/recurrente-js"
+          },
+          {
+            "name": "medusa-plugin-webhooks",
+            "description": "A Medusa plugin that gives webhooks functioanlity",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/medusa-plugin-webhooks"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 1,
+        "packages": [
+          {
+            "name": "svix",
+            "version": "1.77.0",
+            "downloads": 1831180,
+            "url": "https://rubygems.org/gems/svix"
+          }
+        ]
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 8,
+        "packages": [
+          {
+            "name": "svix",
+            "description": "Svix webhooks API client and webhook verification library",
+            "version": "1.77.0",
+            "downloads": 496307,
+            "url": "https://crates.io/crates/svix"
+          },
+          {
+            "name": "svix-webhook-with-clone",
+            "description": "Svix webhooks API client with derive Clone added to Webhook struct",
+            "version": "1.44.0",
+            "downloads": 884,
+            "url": "https://crates.io/crates/svix-webhook-with-clone"
+          },
+          {
+            "name": "webhooks",
+            "description": "Rust library for interacting with the Svix API and verifying webhook signatures.",
+            "version": "0.0.1",
+            "downloads": 1882,
+            "url": "https://crates.io/crates/webhooks"
+          },
+          {
+            "name": "svix-ksuid",
+            "description": "A pure Rust and fully tested KSUID implementation",
+            "version": "0.8.0",
+            "downloads": 387859,
+            "url": "https://crates.io/crates/svix-ksuid"
+          },
+          {
+            "name": "clerk-sdk-rust-community",
+            "description": "The Clerk REST Backend API, meant to be accessed by backend servers. Please see https://clerk.com/docs for more information.",
+            "version": "1.0.4",
+            "downloads": 6402,
+            "url": "https://crates.io/crates/clerk-sdk-rust-community"
+          },
+          {
+            "name": "agentic-commerce-protocol",
+            "description": "Type definitions for the Agentic Commerce Protocol specification",
+            "version": "0.2.0",
+            "downloads": 1553,
+            "url": "https://crates.io/crates/agentic-commerce-protocol"
+          },
+          {
+            "name": "rocket-webhook",
+            "description": "Webhook validation for Rocket applications",
+            "version": "0.1.0-alpha.2",
+            "downloads": 437,
+            "url": "https://crates.io/crates/rocket-webhook"
+          },
+          {
+            "name": "sea-orm",
+            "description": "\ud83d\udc1a An async & dynamic ORM for Rust",
+            "version": "2.0.0-rc.11",
+            "downloads": 11444847,
+            "url": "https://crates.io/crates/sea-orm"
+          }
+        ]
+      },
+      "total_packages": 20,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:27:39.325235"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:27:39.325241",
+    "batch_network": {
+      "batch": "Winter 2021",
+      "total_batch_mates": 335,
+      "active_batch_mates": 244,
+      "batch_success_rate": 72.8,
+      "notable_batch_mates": [
+        {
+          "name": "Stacksi",
+          "slug": "stacksi",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Automated Answers to Security Questionnaires"
+        },
+        {
+          "name": "Furmacy",
+          "slug": "furmacy",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Digital e-prescribing software for veterinarians."
+        },
+        {
+          "name": "Fountain9",
+          "slug": "fountain9",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Helping food brands and retailers reduce food wastage"
+        },
+        {
+          "name": "Zepto",
+          "slug": "zepto",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "10-Minute Grocery Delivery in India"
+        },
+        {
+          "name": "Segments.ai",
+          "slug": "segments-ai",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Build better computer vision models by building better datasets"
+        },
+        {
+          "name": "PingPong",
+          "slug": "pingpong",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Video messaging app for remote teams."
+        },
+        {
+          "name": "ClipDrop",
+          "slug": "clipdrop",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Turn regular mobile photos into professional product visuals"
+        },
+        {
+          "name": "Avenue",
+          "slug": "avenue",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Observability platform for operations teams"
+        },
+        {
+          "name": "Flok",
+          "slug": "flok",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "End to end company retreat planning"
+        },
+        {
+          "name": "HyperGlue",
+          "slug": "hyperglue",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Business intelligence on text"
+        }
+      ],
+      "batch_size": 336
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Amiato",
+          "slug": "amiato",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "The BI bridge for unstructured data. We automatically bridge the gap\u2026"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Simple multiplayer game servers."
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Backlift allows front-end only developers to build entire websites\u2026"
+        },
+        {
+          "name": "Documents.Me",
+          "slug": "documents-me",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Client-side encryption for your devices and the cloud."
+        },
+        {
+          "name": "Apollo",
+          "slug": "apollo",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Apollo helps engineering teams accelerate delivery"
+        },
+        {
+          "name": "Proxino",
+          "slug": "proxino",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Javascript proxy."
+        },
+        {
+          "name": "PhoneSys",
+          "slug": "phonesys",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "The Phone System for Sales Teams."
+        },
+        {
+          "name": "Cryptoseal",
+          "slug": "cryptoseal",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Server key management, VPN as a Service, Privacy VPN.  Sold to\u2026"
+        },
+        {
+          "name": "Citus Data",
+          "slug": "citus-data",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Real-time. Big data. PostgreSQL"
+        },
+        {
+          "name": "Realm",
+          "slug": "realm",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Better data structures = no DB."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "New York",
+      "location": "New York, NY, USA; San Francisco, CA, USA; Remote",
+      "companies_in_city": 523,
+      "active_in_city": 397,
+      "nearby_companies": [
+        {
+          "name": "The Muse",
+          "slug": "the-muse",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "HireArt",
+          "slug": "hireart",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Shoptiques",
+          "slug": "shoptiques",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Grouper",
+          "slug": "grouper",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "99dresses",
+          "slug": "99dresses",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Codecademy",
+          "slug": "codecademy",
+          "batch": "Summer 2011",
+          "industry": "Education",
+          "status": "Acquired"
+        },
+        {
+          "name": "Custora",
+          "slug": "custora",
+          "batch": "Winter 2011",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Recurse Center",
+          "slug": "recurse-center",
+          "batch": "Summer 2010",
+          "industry": "Education",
+          "status": "Active"
+        },
+        {
+          "name": "MessageParty",
+          "slug": "messageparty",
+          "batch": "Summer 2010",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Fabricly",
+          "slug": "fabricly",
+          "batch": "Winter 2010",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "RentHop",
+          "slug": "renthop",
+          "batch": "Summer 2009",
+          "industry": "Real Estate and Construction",
+          "status": "Active"
+        },
+        {
+          "name": "Youlicit",
+          "slug": "youlicit",
+          "batch": "Summer 2008",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "SocialPicks",
+          "slug": "socialpicks",
+          "batch": "Summer 2007",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Octopart",
+          "slug": "octopart",
+          "batch": "Winter 2007",
+          "industry": "Industrials",
+          "status": "Acquired"
+        },
+        {
+          "name": "OMGPop",
+          "slug": "omgpop",
+          "batch": "Summer 2006",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Canopy Labs",
+          "slug": "canopy-labs",
+          "batch": "Summer 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Fullstack Academy",
+          "slug": "fullstack-academy",
+          "batch": "Summer 2012",
+          "industry": "Education",
+          "status": "Acquired"
+        },
+        {
+          "name": "DataNitro",
+          "slug": "datanitro",
+          "batch": "Summer 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "SmartAsset",
+          "slug": "smartasset",
+          "batch": "Summer 2012",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "StyleUp",
+          "slug": "styleup",
+          "batch": "Winter 2013",
+          "industry": "Consumer",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Abacum",
+        "slug": "abacum",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Runway",
+        "slug": "runway",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "authzed",
+        "slug": "authzed",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Spokn",
+        "slug": "spokn",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "SigNoz",
+        "slug": "signoz",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "SlashAuth",
+        "slug": "slashauth",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Smartcuts",
+        "slug": "smartcuts",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Encord",
+        "slug": "encord",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Avenue",
+        "slug": "avenue",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Prequel",
+        "slug": "prequel",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 3604,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:27:39.332289"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:27:39.332294",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:27:39.660555",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:27:39.813611",
+    "basic_info": {
+      "is_hiring": true,
+      "team_size": 12,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:28.766093",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "medium",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increasing reliance on event-driven architectures",
+        "Growing adoption of microservices",
+        "Demand for reliable and scalable webhook solutions"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Open-source offering provides a strong competitive moat, fostering community adoption and trust. Enterprise features build on top of the open source core.",
+      "differentiation": "Enterprise-ready webhooks service with an open-source option, balancing flexibility and reliability.",
+      "competitive_advantages": [
+        "Strong developer focus and ease of integration",
+        "Backed by prominent investors (a16z)",
+        "Open-source option lowers barrier to entry"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on open-source community contributions",
+        "Potential competition from larger cloud providers offering similar services"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "series-a",
+      "growth_indicators": [
+        "Increasing number of webhook deliveries",
+        "Expansion into larger enterprise accounts"
+      ],
+      "growth_bottlenecks": [
+        "Sales cycle length for enterprise clients",
+        "Maintaining open-source community engagement"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Competition from established players",
+        "Security vulnerabilities in webhook infrastructure",
+        "Dependence on third-party infrastructure"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong team and investor backing",
+        "Growing market for webhooks",
+        "Open-source component fosters adoption"
+      ],
+      "concerns": [
+        "Ability to scale sales and marketing efforts",
+        "Potential for commoditization of webhook services"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Hookdeck",
+        "Courier"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on enterprise sales and marketing",
+        "Expand integrations with popular platforms",
+        "Strengthen open-source community engagement"
+      ],
+      "expansion_opportunities": [
+        "Offer advanced analytics and monitoring features",
+        "Develop partnerships with complementary service providers"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 738,
+      "completion": 644,
+      "total": 1382,
+      "estimated_cost": 0.000249
+    }
+  },
+  "phase8_complete": true
+}

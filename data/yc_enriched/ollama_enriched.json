@@ -1,0 +1,1582 @@
+{
+  "slug": "ollama",
+  "name": "Ollama",
+  "yc_id": 23634,
+  "batch": "Winter 2021",
+  "website": "https://ollama.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T01:03:25.055439",
+    "website": "https://ollama.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 1698.57,
+      "final_url": "https://ollama.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T01:03:26.754020"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "ollama.com",
+      "registrar": "Cloudflare, Inc.",
+      "creation_date": "2017-05-08T17:27:55",
+      "expiration_date": "2033-05-08T17:27:55",
+      "domain_age_days": 3083,
+      "domain_age_years": 8.4,
+      "name_servers": [
+        "NED.NS.CLOUDFLARE.COM",
+        "TERESA.NS.CLOUDFLARE.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/ollama",
+      "linkedin": null,
+      "github": "https://github.com/ollama/ollama",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": false,
+      "content_security_policy": false,
+      "x_frame_options": true,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 16,
+      "server": "Unknown"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:28:11.758783",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:28:01.123246",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "Palo Alto, CA, USA",
+      "coordinates": {
+        "latitude": 37.4419,
+        "longitude": -122.143
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:14:21.308257",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:28:01.123265",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/ollama"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 100,
+        "packages": [
+          {
+            "name": "ollama",
+            "description": "Ollama Javascript library",
+            "version": "0.6.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ollama"
+          },
+          {
+            "name": "@langchain/ollama",
+            "description": "Ollama integration for LangChain.js",
+            "version": "0.2.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@langchain/ollama"
+          },
+          {
+            "name": "ollama-ai-provider",
+            "description": "Vercel AI Provider for running LLMs locally using Ollama",
+            "version": "1.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ollama-ai-provider"
+          },
+          {
+            "name": "@aigne/ollama",
+            "description": "AIGNE Ollama SDK for integrating with locally hosted AI models via Ollama",
+            "version": "0.7.47",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aigne/ollama"
+          },
+          {
+            "name": "ai-sdk-ollama",
+            "description": "Vercel AI SDK Provider for Ollama using official ollama-js library",
+            "version": "0.13.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ai-sdk-ollama"
+          },
+          {
+            "name": "@chroma-core/ollama",
+            "description": "Ollama embedding provider for Chroma",
+            "version": "0.1.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@chroma-core/ollama"
+          },
+          {
+            "name": "ollama-ai-provider-v2",
+            "description": "Use Ollama with the Vercel AI SDK, implementing the official Ollama API. This provider has minimal dependencies and is web-compatible out of the box.",
+            "version": "1.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ollama-ai-provider-v2"
+          },
+          {
+            "name": "@theia/ai-ollama",
+            "description": "Theia - Ollama Integration",
+            "version": "1.65.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@theia/ai-ollama"
+          },
+          {
+            "name": "@llamaindex/ollama",
+            "description": "Ollama Adapter for LlamaIndex",
+            "version": "0.1.23",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@llamaindex/ollama"
+          },
+          {
+            "name": "koishi-plugin-chatluna-ollama-adapter",
+            "description": "ollama adapter for chatluna",
+            "version": "1.3.0-alpha.11",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/koishi-plugin-chatluna-ollama-adapter"
+          },
+          {
+            "name": "@cherrystudio/embedjs-ollama",
+            "description": "Enable usage of Ollama with embedjs",
+            "version": "0.1.31",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@cherrystudio/embedjs-ollama"
+          },
+          {
+            "name": "genkitx-ollama",
+            "description": "Genkit AI framework plugin for Ollama APIs.",
+            "version": "1.21.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/genkitx-ollama"
+          },
+          {
+            "name": "@tcsenpai/ollama-code",
+            "description": "![Ollama Code Screenshot](./docs/assets/ollama-screenshot.png)",
+            "version": "0.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@tcsenpai/ollama-code"
+          },
+          {
+            "name": "ollama-node",
+            "description": "an easy to use node module for the ollama api",
+            "version": "0.1.28",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ollama-node"
+          },
+          {
+            "name": "@testcontainers/ollama",
+            "description": "Ollama module for Testcontainers",
+            "version": "11.7.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@testcontainers/ollama"
+          },
+          {
+            "name": "@rawveg/ollama-mcp",
+            "description": "MCP Server for Ollama integration",
+            "version": "1.0.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@rawveg/ollama-mcp"
+          },
+          {
+            "name": "@agentic-kit/ollama",
+            "description": "Ollama",
+            "version": "0.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@agentic-kit/ollama"
+          },
+          {
+            "name": "@memberjunction/ai-ollama",
+            "description": "MemberJunction Wrapper for Ollama - Local Inference",
+            "version": "2.107.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@memberjunction/ai-ollama"
+          },
+          {
+            "name": "@sisu-ai/adapter-ollama",
+            "description": "Ollama Chat adapter with native tools support.",
+            "version": "4.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sisu-ai/adapter-ollama"
+          },
+          {
+            "name": "@agenite/ollama",
+            "description": "Ollama provider for Agenite",
+            "version": "0.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@agenite/ollama"
+          },
+          {
+            "name": "@wocker/ollama-plugin",
+            "description": "Ollama plugin for wocker",
+            "version": "1.0.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@wocker/ollama-plugin"
+          },
+          {
+            "name": "ai3d-ollama",
+            "description": "OpenAI style client for an Ollama proxy",
+            "version": "0.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ai3d-ollama"
+          },
+          {
+            "name": "@ljie-pi/ghcp-ollama",
+            "description": "Using LLMs provided by Github Copilot with Ollama APIs",
+            "version": "0.1.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ljie-pi/ghcp-ollama"
+          },
+          {
+            "name": "electron-ollama",
+            "description": "Bundle Ollama with your Electron.js app for seamless user experience",
+            "version": "0.1.25",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/electron-ollama"
+          },
+          {
+            "name": "@celljs/ai-ollama",
+            "description": "Ollama models support",
+            "version": "3.7.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@celljs/ai-ollama"
+          },
+          {
+            "name": "@llm-tools/embedjs-ollama",
+            "description": "Enable usage of Ollama with embedjs",
+            "version": "0.1.29",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@llm-tools/embedjs-ollama"
+          },
+          {
+            "name": "@huggingface/ollama-utils",
+            "description": "Various utilities for maintaining Ollama compatibility with models on Hugging Face hub",
+            "version": "0.0.15",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@huggingface/ollama-utils"
+          },
+          {
+            "name": "ollama-agent",
+            "description": "Ollama-based agent library with extensible architecture for AI-powered development assistance",
+            "version": "0.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ollama-agent"
+          },
+          {
+            "name": "vexify",
+            "description": "Portable vector database with on-demand Ollama embeddings. Zero-config semantic search via SQLite.",
+            "version": "0.16.12",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/vexify"
+          },
+          {
+            "name": "@neabyte/ollama-native",
+            "description": "TypeScript client library for Ollama API with retry logic, timeout management, error handling, and validation.",
+            "version": "0.2.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@neabyte/ollama-native"
+          },
+          {
+            "name": "ollama-api-proxy",
+            "description": "Multi-Provider Ollama Proxy Server for Node.js (OpenAI + Gemini + Openrouter). Free tier usage available.",
+            "version": "1.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ollama-api-proxy"
+          },
+          {
+            "name": "nuxt-ollama",
+            "description": "Easy ollama integration for Nuxt",
+            "version": "1.0.16",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/nuxt-ollama"
+          },
+          {
+            "name": "gobot-ollama",
+            "description": "Ollama helper for Gobot",
+            "version": "0.1.31-alpha.23",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/gobot-ollama"
+          },
+          {
+            "name": "@sweetoburrito/backstage-plugin-ai-assistant-backend-module-embeddings-provider-ollama",
+            "description": "The embeddings-provider-ollama backend module for the ai-assistant plugin.",
+            "version": "0.3.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sweetoburrito/backstage-plugin-ai-assistant-backend-module-embeddings-provider-ollama"
+          },
+          {
+            "name": "@sweetoburrito/backstage-plugin-ai-assistant-backend-module-model-provider-ollama",
+            "description": "The model-provider-ollama backend module for the ai-assistant plugin.",
+            "version": "0.3.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sweetoburrito/backstage-plugin-ai-assistant-backend-module-model-provider-ollama"
+          },
+          {
+            "name": "n8n-nodes-qwen-embedding",
+            "description": "n8n nodes for Ollama embeddings - Dynamic model loading + Support for Qwen, EmbeddingGemma, Nomic and more. Generate text embeddings for vector stores and AI applications.",
+            "version": "0.10.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/n8n-nodes-qwen-embedding"
+          },
+          {
+            "name": "@robustonian/ollama-ai-provider-fork",
+            "description": "Vercel AI Provider for running LLMs locally using Ollama",
+            "version": "1.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@robustonian/ollama-ai-provider-fork"
+          },
+          {
+            "name": "node-red-contrib-ollama",
+            "description": "Add AI functionality to your flows! This module includes a set of nodes that enable easy communication with Ollama, enriching your projects with intelligent solutions.",
+            "version": "0.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/node-red-contrib-ollama"
+          },
+          {
+            "name": "@tekimax/ollama-sdk",
+            "description": "TypeScript SDK for Ollama API by Tekimax",
+            "version": "1.5.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@tekimax/ollama-sdk"
+          },
+          {
+            "name": "@condrovic/ollama-git-commit",
+            "description": "Enhanced Ollama Git Commit Message Generator - A CLI tool that generates meaningful commit messages using Ollama AI",
+            "version": "1.0.22",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@condrovic/ollama-git-commit"
+          },
+          {
+            "name": "@mikeo-ai/claude-context-local-mcp",
+            "description": "Local MCP server for Claude Context using PostgreSQL and Ollama",
+            "version": "0.2.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mikeo-ai/claude-context-local-mcp"
+          },
+          {
+            "name": "@mokei/ollama-provider",
+            "description": "Mokei Ollama provider",
+            "version": "0.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mokei/ollama-provider"
+          },
+          {
+            "name": "ollama-js-client",
+            "description": "JS fetch wrapper for consuming the Ollama API in node and the browser",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ollama-js-client"
+          },
+          {
+            "name": "openai-ollama",
+            "description": "Create a local Ollama proxy service for the OpenAI compatible backend",
+            "version": "0.1.0-beta.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/openai-ollama"
+          },
+          {
+            "name": "ollama-mcp-server",
+            "description": "Modern MCP server for Ollama \u2013 rebooted and actively maintained.",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ollama-mcp-server"
+          },
+          {
+            "name": "n8n-nodes-ollama-ext",
+            "description": "N8N node ollama embedings",
+            "version": "0.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/n8n-nodes-ollama-ext"
+          },
+          {
+            "name": "hexabot-helper-ollama",
+            "description": "The Ollama Helper Extension for Hexabot Chatbot / Agent Builder to enable the LLM Capability",
+            "version": "2.2.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/hexabot-helper-ollama"
+          },
+          {
+            "name": "git-commit-at",
+            "description": "AI-powered git commit message suggester using Ollama + tinyllama",
+            "version": "1.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/git-commit-at"
+          },
+          {
+            "name": "ollama-bridge",
+            "description": "High-performance Node.js bindings for Ollama integration",
+            "version": "0.1.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ollama-bridge"
+          },
+          {
+            "name": "mars-ai-local",
+            "description": "AI lokal via Ollama untuk proyek Mars",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/mars-ai-local"
+          },
+          {
+            "name": "mdagent",
+            "description": "Define AI agents for Ollama using only a single markdown file",
+            "version": "0.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/mdagent"
+          },
+          {
+            "name": "@background404/node-red-contrib-llm-plugin",
+            "description": "Node-RED plugin for developing with LLM using Ollama",
+            "version": "0.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@background404/node-red-contrib-llm-plugin"
+          },
+          {
+            "name": "@prdpspkt/g-coder",
+            "description": "AI-powered CLI coding assistant supporting Ollama, OpenAI, Claude, DeepSeek and more",
+            "version": "2.0.28",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@prdpspkt/g-coder"
+          },
+          {
+            "name": "@mikeo-ai/claude-context-local-core",
+            "description": "Core indexing engine for Claude Context Local (PostgreSQL + Ollama)",
+            "version": "0.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mikeo-ai/claude-context-local-core"
+          },
+          {
+            "name": "ollama-bench",
+            "description": "A CLI tool to benchmark Ollama models performance",
+            "version": "1.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ollama-bench"
+          },
+          {
+            "name": "ollama-ocr",
+            "description": "Implementing OCR with a local visual model run by ollama.",
+            "version": "0.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ollama-ocr"
+          },
+          {
+            "name": "@derogab/llm-proxy",
+            "description": "A simple and lightweight proxy for seamless integration with multiple LLM providers including OpenAI, Ollama, and Cloudflare AI",
+            "version": "0.3.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@derogab/llm-proxy"
+          },
+          {
+            "name": "@fnet/ollama-chat",
+            "description": "The `@fnet/ollama-chat` project offers a straightforward chat interface with AI models from Ollama. This application allows you to easily communicate with various AI models by typing messages and receiving responses. It aims to provide a simple way to exp",
+            "version": "0.1.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@fnet/ollama-chat"
+          },
+          {
+            "name": "@3nsai/genkitx-ollamadynamic",
+            "description": "Genkit AI framework plugin for Ollama APIs.",
+            "version": "1.0.504",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@3nsai/genkitx-ollamadynamic"
+          },
+          {
+            "name": "hexabot-plugin-ollama",
+            "description": "The Ollama Plugin Extension for Hexabot Chatbot / Agent Builder that provides a custom block for Generative AI + RAG",
+            "version": "2.2.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/hexabot-plugin-ollama"
+          },
+          {
+            "name": "@tak-bro/ollama",
+            "description": "Ollama Javascript library",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@tak-bro/ollama"
+          },
+          {
+            "name": "@promptbook/ollama",
+            "description": "Promptbook: Turn your company's scattered knowledge into AI ready books",
+            "version": "0.103.0-2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@promptbook/ollama"
+          },
+          {
+            "name": "@hashbrownai/ollama",
+            "description": "Ollama provider for Hashbrown AI",
+            "version": "0.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@hashbrownai/ollama"
+          },
+          {
+            "name": "esp-ai-plugin-llm-ollama",
+            "description": "ollama",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/esp-ai-plugin-llm-ollama"
+          },
+          {
+            "name": "@casaper/llm-util",
+            "description": "Personal experimental cli LLM utilities running on local Ollama models.",
+            "version": "1.5.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@casaper/llm-util"
+          },
+          {
+            "name": "keepkey-ollama",
+            "description": "Ollama Javascript library",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/keepkey-ollama"
+          },
+          {
+            "name": "@elizaos/plugin-ollama",
+            "description": "This plugin provides integration with Ollama's local models through the ElizaOS platform.",
+            "version": "1.2.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@elizaos/plugin-ollama"
+          },
+          {
+            "name": "claude-hybrid",
+            "description": "Hybrid Claude/Ollama solution for continuous coding with automatic failover and context preservation",
+            "version": "1.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/claude-hybrid"
+          },
+          {
+            "name": "cursorifier",
+            "description": "Transform GitHub repositories into cursor rules instructions using multiple LLM providers (Anthropic, OpenAI, Ollama, etc.)",
+            "version": "0.1.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/cursorifier"
+          },
+          {
+            "name": "@mhalder/qdrant-mcp-server",
+            "description": "MCP server for semantic search using local Qdrant and Ollama (default) with support for OpenAI, Cohere, and Voyage AI",
+            "version": "1.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mhalder/qdrant-mcp-server"
+          },
+          {
+            "name": "@rahul05ranjan/dhruv-cli",
+            "description": "AI-powered CLI assistant for developers using Ollama",
+            "version": "1.2.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@rahul05ranjan/dhruv-cli"
+          },
+          {
+            "name": "@commenthol/ai-translate",
+            "description": "Translate text documents with ollama (or other models)",
+            "version": "0.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@commenthol/ai-translate"
+          },
+          {
+            "name": "ollama-api",
+            "description": "ollama prompt trained model",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ollama-api"
+          },
+          {
+            "name": "rivet-plugin-ollama",
+            "description": null,
+            "version": "0.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rivet-plugin-ollama"
+          },
+          {
+            "name": "@chris_glolabs/git-ai-commit",
+            "description": "AI-powered git commit message generator using local ollama models",
+            "version": "0.1.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@chris_glolabs/git-ai-commit"
+          },
+          {
+            "name": "@begda/mcp-client",
+            "description": "```js import {mcp_ollama_tools, mcp_server, run_tools} from './mcp-cli/index.js' import ollama from \"ollama\";",
+            "version": "0.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@begda/mcp-client"
+          },
+          {
+            "name": "nota-ai",
+            "description": "A command-line tool for developers that automatically generates code comments using locally hosted Ollama models.",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/nota-ai"
+          },
+          {
+            "name": "@novachat/plugin-ollama",
+            "description": "NovaChat Ollama Plugin.",
+            "version": "0.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@novachat/plugin-ollama"
+          },
+          {
+            "name": "llama-service-snt",
+            "description": "Client Node.js per LLM locali (Ollama/Llava)",
+            "version": "1.2.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/llama-service-snt"
+          },
+          {
+            "name": "ollama-llm-bridge",
+            "description": "Universal Ollama LLM Bridge for multiple models (Llama, Gemma, etc.)",
+            "version": "0.0.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ollama-llm-bridge"
+          },
+          {
+            "name": "enhance-this",
+            "description": "A CLI tool to enhance prompts using Ollama AI.",
+            "version": "0.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/enhance-this"
+          },
+          {
+            "name": "@pipedream/ollama",
+            "description": "Pipedream Ollama Components",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@pipedream/ollama"
+          },
+          {
+            "name": "@dimrev4/nest-base-agent",
+            "description": "A flexible and reusable NestJS library for building AI agent systems with Ollama integration",
+            "version": "1.0.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@dimrev4/nest-base-agent"
+          },
+          {
+            "name": "@miaos/ollama-commit",
+            "description": "use [ollama](https://ollama.com/) to generate commit message",
+            "version": "1.9.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@miaos/ollama-commit"
+          },
+          {
+            "name": "halbot",
+            "description": "Just another `ChatGPT` / `Gemini` / `Claude` / `Azure` / `Jina` / `Ollama` Telegram bot, which is simple design, easy to use, extendable and fun.",
+            "version": "1993.2.110",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/halbot"
+          },
+          {
+            "name": "@shba007/unai",
+            "description": "Unified AI Adapter Library. For Ollama, Gemini, OpenAI, Anthropic, X",
+            "version": "0.3.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@shba007/unai"
+          },
+          {
+            "name": "@schornio/ollama-ai-provider-fork",
+            "description": "Vercel AI Provider for running LLMs locally using Ollama",
+            "version": "1.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@schornio/ollama-ai-provider-fork"
+          },
+          {
+            "name": "@dukanify/omnillm",
+            "description": "A TypeScript SDK for interacting with Ollama Proxy, supporting multiple LLM providers with fallback capabilities",
+            "version": "1.0.21",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@dukanify/omnillm"
+          },
+          {
+            "name": "aibridge-sdk",
+            "description": "A lightweight SDK that unifies multiple AI models (OpenAI, Gemini, Ollama, etc.) into a single, consistent interface.",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/aibridge-sdk"
+          },
+          {
+            "name": "ollamajs",
+            "description": "An API wrapper for the Ollama API.",
+            "version": "0.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ollamajs"
+          },
+          {
+            "name": "ollama-commit",
+            "description": "Commit message generator with Ollama",
+            "version": "0.5.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ollama-commit"
+          },
+          {
+            "name": "code-indexer",
+            "description": "A code indexing service using MCP, Ollama, and Qdrant.",
+            "version": "1.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/code-indexer"
+          },
+          {
+            "name": "ai-renamer",
+            "description": "A Node.js CLI that uses Ollama and LM Studio models (Llava, Gemma, Llama etc.) to intelligently rename files by their contents",
+            "version": "1.0.24",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ai-renamer"
+          },
+          {
+            "name": "bootstrap-llm-provider",
+            "description": "Let users pick their OpenAI compatible API provider (e.g. OpenRouter, Ollama) via a Bootstrap modal",
+            "version": "1.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/bootstrap-llm-provider"
+          },
+          {
+            "name": "@shell-ai/core",
+            "description": "Core functionality for Shell AI - Ollama integration, tools, and utilities",
+            "version": "1.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@shell-ai/core"
+          },
+          {
+            "name": "ollamazure",
+            "description": "Emulates Azure OpenAI API on your local machine using Ollama and open-source models.",
+            "version": "1.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ollamazure"
+          },
+          {
+            "name": "yak-llm",
+            "description": "Minimalist local LLM chat interface using Ollama",
+            "version": "1.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/yak-llm"
+          },
+          {
+            "name": "@egen-guru/mcp-ollama",
+            "description": "Serveur MCP pour interroger un mod\u00e8le LLM via Ollama local (STDIO, prompt texte)",
+            "version": "0.16.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@egen-guru/mcp-ollama"
+          },
+          {
+            "name": "n8n-nodes-dolphin-mixtral",
+            "description": "n8n node to interact with local Ollama models",
+            "version": "0.1.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/n8n-nodes-dolphin-mixtral"
+          },
+          {
+            "name": "genkitx-ollamadynamic",
+            "description": "Genkit AI framework plugin for dynamic Ollama APIs.",
+            "version": "0.6.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/genkitx-ollamadynamic"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 20,
+        "packages": [
+          {
+            "name": "ollama-ai",
+            "version": "1.3.0",
+            "downloads": 45698,
+            "url": "https://rubygems.org/gems/ollama-ai"
+          },
+          {
+            "name": "ollama-ruby",
+            "version": "1.8.1",
+            "downloads": 18535,
+            "url": "https://rubygems.org/gems/ollama-ruby"
+          },
+          {
+            "name": "ollama_chat",
+            "version": "0.0.36",
+            "downloads": 9173,
+            "url": "https://rubygems.org/gems/ollama_chat"
+          },
+          {
+            "name": "ollama",
+            "version": "0.0.1",
+            "downloads": 818,
+            "url": "https://rubygems.org/gems/ollama"
+          },
+          {
+            "name": "async-ollama",
+            "version": "0.8.0",
+            "downloads": 3834,
+            "url": "https://rubygems.org/gems/async-ollama"
+          },
+          {
+            "name": "ollama-rb",
+            "version": "0.1.0",
+            "downloads": 637,
+            "url": "https://rubygems.org/gems/ollama-rb"
+          },
+          {
+            "name": "ollama-find",
+            "version": "1.0.0",
+            "downloads": 550,
+            "url": "https://rubygems.org/gems/ollama-find"
+          },
+          {
+            "name": "tiny_ollama",
+            "version": "2.0.0",
+            "downloads": 1215,
+            "url": "https://rubygems.org/gems/tiny_ollama"
+          },
+          {
+            "name": "foobara-ollama-api",
+            "version": "1.0.2",
+            "downloads": 2170,
+            "url": "https://rubygems.org/gems/foobara-ollama-api"
+          },
+          {
+            "name": "huginn_ollama_agent",
+            "version": "0.1.13",
+            "downloads": 2024,
+            "url": "https://rubygems.org/gems/huginn_ollama_agent"
+          },
+          {
+            "name": "elelem",
+            "version": "0.2.1",
+            "downloads": 1027,
+            "url": "https://rubygems.org/gems/elelem"
+          },
+          {
+            "name": "aiagent",
+            "version": "0.3.1",
+            "downloads": 1595,
+            "url": "https://rubygems.org/gems/aiagent"
+          },
+          {
+            "name": "net-llm",
+            "version": "0.4.0",
+            "downloads": 530,
+            "url": "https://rubygems.org/gems/net-llm"
+          },
+          {
+            "name": "smollama",
+            "version": "0.1.0",
+            "downloads": 201,
+            "url": "https://rubygems.org/gems/smollama"
+          },
+          {
+            "name": "nano-bots",
+            "version": "3.4.0",
+            "downloads": 18190,
+            "url": "https://rubygems.org/gems/nano-bots"
+          },
+          {
+            "name": "llm.rb",
+            "version": "1.0.1",
+            "downloads": 38324,
+            "url": "https://rubygems.org/gems/llm.rb"
+          },
+          {
+            "name": "raimei-nim",
+            "version": "0.1.3",
+            "downloads": 920,
+            "url": "https://rubygems.org/gems/raimei-nim"
+          },
+          {
+            "name": "ruby_llm",
+            "version": "1.8.2",
+            "downloads": 3552968,
+            "url": "https://rubygems.org/gems/ruby_llm"
+          },
+          {
+            "name": "prescient",
+            "version": "0.2.0",
+            "downloads": 580,
+            "url": "https://rubygems.org/gems/prescient"
+          },
+          {
+            "name": "llm_conductor",
+            "version": "1.1.1",
+            "downloads": 1214,
+            "url": "https://rubygems.org/gems/llm_conductor"
+          }
+        ]
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 10,
+        "packages": [
+          {
+            "name": "ollama",
+            "description": "Ollama",
+            "version": "0.0.1",
+            "downloads": 1848,
+            "url": "https://crates.io/crates/ollama"
+          },
+          {
+            "name": "llm-connector",
+            "description": "Next-generation Rust library for LLM protocol abstraction. V2 architecture with 7000x+ performance boost. Supports 5 protocols (OpenAI, Anthropic, Aliyun, Zhipu, Ollama) with clean Protocol/Provider separation, type-safe interface, and universal streaming.",
+            "version": "0.4.9",
+            "downloads": 4268,
+            "url": "https://crates.io/crates/llm-connector"
+          },
+          {
+            "name": "perspt",
+            "description": "A high-performance CLI application for chatting with various AI models from multiple providers directly in your terminal",
+            "version": "0.4.8",
+            "downloads": 3991,
+            "url": "https://crates.io/crates/perspt"
+          },
+          {
+            "name": "ferrous-llm-ollama",
+            "description": "Ollama provider for the LLM library",
+            "version": "0.6.1",
+            "downloads": 3626,
+            "url": "https://crates.io/crates/ferrous-llm-ollama"
+          },
+          {
+            "name": "commitor",
+            "description": "Automatically generate conventional commit messages based on git diff using AI",
+            "version": "0.0.0",
+            "downloads": 327,
+            "url": "https://crates.io/crates/commitor"
+          },
+          {
+            "name": "committor",
+            "description": "Automatically generate conventional commit messages based on git diff using AI",
+            "version": "0.1.0",
+            "downloads": 400,
+            "url": "https://crates.io/crates/committor"
+          },
+          {
+            "name": "ollama-native",
+            "description": "A minimalist Ollama Rust SDK that provides the most basic functionality for interacting with Ollama",
+            "version": "1.0.2",
+            "downloads": 2063,
+            "url": "https://crates.io/crates/ollama-native"
+          },
+          {
+            "name": "ollama-rs",
+            "description": "A Rust library for interacting with the Ollama API",
+            "version": "0.3.2",
+            "downloads": 155492,
+            "url": "https://crates.io/crates/ollama-rs"
+          },
+          {
+            "name": "ollama-rs-macros",
+            "description": "Procedural macros for ollama-rs",
+            "version": "0.3.2",
+            "downloads": 6555,
+            "url": "https://crates.io/crates/ollama-rs-macros"
+          },
+          {
+            "name": "ollama-proxy",
+            "description": "Proxy server for Ollama",
+            "version": "0.1.0",
+            "downloads": 517,
+            "url": "https://crates.io/crates/ollama-proxy"
+          }
+        ]
+      },
+      "total_packages": 130,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:28:02.665368"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:28:02.665377",
+    "batch_network": {
+      "batch": "Winter 2021",
+      "total_batch_mates": 335,
+      "active_batch_mates": 244,
+      "batch_success_rate": 72.8,
+      "notable_batch_mates": [
+        {
+          "name": "Stacksi",
+          "slug": "stacksi",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Automated Answers to Security Questionnaires"
+        },
+        {
+          "name": "Furmacy",
+          "slug": "furmacy",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Digital e-prescribing software for veterinarians."
+        },
+        {
+          "name": "Fountain9",
+          "slug": "fountain9",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Helping food brands and retailers reduce food wastage"
+        },
+        {
+          "name": "Zepto",
+          "slug": "zepto",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "10-Minute Grocery Delivery in India"
+        },
+        {
+          "name": "Segments.ai",
+          "slug": "segments-ai",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Build better computer vision models by building better datasets"
+        },
+        {
+          "name": "PingPong",
+          "slug": "pingpong",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Video messaging app for remote teams."
+        },
+        {
+          "name": "ClipDrop",
+          "slug": "clipdrop",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Turn regular mobile photos into professional product visuals"
+        },
+        {
+          "name": "Avenue",
+          "slug": "avenue",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Observability platform for operations teams"
+        },
+        {
+          "name": "Flok",
+          "slug": "flok",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "End to end company retreat planning"
+        },
+        {
+          "name": "HyperGlue",
+          "slug": "hyperglue",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Business intelligence on text"
+        }
+      ],
+      "batch_size": 336
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Amiato",
+          "slug": "amiato",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "The BI bridge for unstructured data. We automatically bridge the gap\u2026"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Simple multiplayer game servers."
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Backlift allows front-end only developers to build entire websites\u2026"
+        },
+        {
+          "name": "Documents.Me",
+          "slug": "documents-me",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Client-side encryption for your devices and the cloud."
+        },
+        {
+          "name": "Apollo",
+          "slug": "apollo",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Apollo helps engineering teams accelerate delivery"
+        },
+        {
+          "name": "Proxino",
+          "slug": "proxino",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Javascript proxy."
+        },
+        {
+          "name": "PhoneSys",
+          "slug": "phonesys",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "The Phone System for Sales Teams."
+        },
+        {
+          "name": "Cryptoseal",
+          "slug": "cryptoseal",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Server key management, VPN as a Service, Privacy VPN.  Sold to\u2026"
+        },
+        {
+          "name": "Citus Data",
+          "slug": "citus-data",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Real-time. Big data. PostgreSQL"
+        },
+        {
+          "name": "Realm",
+          "slug": "realm",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Better data structures = no DB."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Palo Alto",
+      "location": "Palo Alto, CA, USA",
+      "companies_in_city": 93,
+      "active_in_city": 40,
+      "nearby_companies": [
+        {
+          "name": "Hipmob",
+          "slug": "hipmob",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Amiato",
+          "slug": "amiato",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Pixelapse",
+          "slug": "pixelapse",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "LVL6",
+          "slug": "lvl6",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "GiveSpark",
+          "slug": "givespark",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Proxino",
+          "slug": "proxino",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Science Exchange",
+          "slug": "science-exchange",
+          "batch": "Summer 2011",
+          "industry": "Healthcare",
+          "status": "Acquired"
+        },
+        {
+          "name": "Clerky",
+          "slug": "clerky",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Assembled",
+          "slug": "assembled",
+          "batch": "Winter 2011",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Pebble",
+          "slug": "pebble",
+          "batch": "Winter 2011",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Insight Data Science",
+          "slug": "insight-data-science",
+          "batch": "Winter 2011",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "AeroFS",
+          "slug": "aerofs",
+          "batch": "Summer 2010",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Etacts",
+          "slug": "etacts",
+          "batch": "Winter 2010",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Lockitron",
+          "slug": "lockitron",
+          "batch": "Summer 2009",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "GraffitiGeo",
+          "slug": "graffitigeo",
+          "batch": "Summer 2009",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Snipd",
+          "slug": "snipd",
+          "batch": "Summer 2008",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Machine Zone",
+          "slug": "machine-zone",
+          "batch": "Winter 2008",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fuzzwich",
+          "slug": "fuzzwich",
+          "batch": "Summer 2007",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Jumpchat",
+          "slug": "jumpchat",
+          "batch": "Summer 2006",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Pixate",
+          "slug": "pixate",
+          "batch": "Summer 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "SigNoz",
+        "slug": "signoz",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "SlashAuth",
+        "slug": "slashauth",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Encord",
+        "slug": "encord",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Huddlefire",
+        "slug": "huddlefire",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "SST",
+        "slug": "sst",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "QuickNode",
+        "slug": "quiknode",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Nimbus",
+        "slug": "nimbus-3",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Dyte",
+        "slug": "dyte",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Galaxy",
+        "slug": "galaxy",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Svix",
+        "slug": "svix",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 3174,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:28:02.672608"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:28:02.672618",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:28:02.991254",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:28:03.070117",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": null,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:42:00.822985",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "emerging",
+      "key_trends": [
+        "Democratization of AI",
+        "Edge Computing",
+        "Open Source LLMs"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Ease of use and community adoption could create a network effect.",
+      "differentiation": "Focus on simplifying the deployment and use of LLMs.",
+      "competitive_advantages": [
+        "Ease of use",
+        "Open source friendly"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on open-source models",
+        "Limited team size"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "Potentially SaaS or enterprise support for managing LLM deployments.",
+      "scalability": "high",
+      "capital_intensity": "low"
+    },
+    "growth_assessment": {
+      "growth_stage": "seed",
+      "growth_indicators": [
+        "Community adoption",
+        "Number of model deployments"
+      ],
+      "growth_bottlenecks": [
+        "Scalability of infrastructure",
+        "Attracting enterprise clients"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "high",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Competition from larger players",
+        "Maintaining open-source contributions",
+        "Evolving regulatory landscape"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong community traction",
+        "Addresses a clear pain point",
+        "Potential to become a key enabler for LLM adoption"
+      ],
+      "concerns": [
+        "Small team size",
+        "Unclear monetization strategy"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Hugging Face",
+        "Replicate"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on building a sustainable business model",
+        "Expand the team with experienced engineers and business developers"
+      ],
+      "expansion_opportunities": [
+        "Offer enterprise support and managed services",
+        "Integrate with other AI tools and platforms"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 609,
+      "completion": 485,
+      "total": 1094,
+      "estimated_cost": 0.000191
+    }
+  },
+  "phase8_complete": true
+}

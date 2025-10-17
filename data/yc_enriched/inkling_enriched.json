@@ -1,0 +1,603 @@
+{
+  "slug": "inkling",
+  "name": "Inkling",
+  "yc_id": 366,
+  "batch": "Winter 2006",
+  "website": "http://inklingmarkets.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:31:45.318490",
+    "website": "http://inklingmarkets.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 629.82,
+      "final_url": "https://inklingmarkets.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:31:45.948321"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "inklingmarkets.com",
+      "registrar": "Cloudflare, Inc.",
+      "creation_date": "2005-11-10T03:27:57",
+      "expiration_date": "2026-11-10T03:27:57",
+      "domain_age_days": 7280,
+      "domain_age_years": 19.9,
+      "name_servers": [
+        "DOM.NS.CLOUDFLARE.COM",
+        "LADY.NS.CLOUDFLARE.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/inklinghq",
+      "linkedin": null,
+      "github": null,
+      "facebook": "https://facebook.com/inklingmarkets",
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": false,
+      "content_security_policy": false,
+      "x_frame_options": true,
+      "x_content_type_options": true,
+      "x_xss_protection": true,
+      "referrer_policy": true,
+      "security_score": 66,
+      "server": "cloudflare"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:13:29.947645",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:03:57.407403",
+    "place_data": {
+      "status": "success",
+      "method": "nominatim",
+      "formatted_address": "Chicago, Cook County, Illinois, United States",
+      "coordinates": {
+        "latitude": 41.8755616,
+        "longitude": -87.6244212
+      },
+      "place_types": [
+        "administrative"
+      ],
+      "retrieved_at": "2025-10-17T10:04:01.673930"
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:04:01.676702",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:04:01.676723",
+    "batch_network": {
+      "batch": "Winter 2006",
+      "total_batch_mates": 6,
+      "active_batch_mates": 0,
+      "batch_success_rate": 0.0,
+      "notable_batch_mates": [
+        {
+          "name": "Clustrix",
+          "slug": "clustrix",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": ""
+        },
+        {
+          "name": "Project Wedding",
+          "slug": "project-wedding",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": ""
+        },
+        {
+          "name": "Wufoo",
+          "slug": "wufoo",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Online form builder."
+        }
+      ],
+      "batch_size": 7
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Finance and Accounting"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1969,
+      "direct_competitors": [
+        {
+          "name": "inDinero",
+          "slug": "indinero",
+          "status": "Active",
+          "batch": "Summer 2010",
+          "one_liner": "Financial dashboard for businesses."
+        },
+        {
+          "name": "PayTango",
+          "slug": "paytango",
+          "status": "Inactive",
+          "batch": "Winter 2013",
+          "one_liner": "Simple invoicing"
+        },
+        {
+          "name": "Abacus",
+          "slug": "abacus",
+          "status": "Acquired",
+          "batch": "Winter 2014",
+          "one_liner": "Making expense reports obsolete"
+        },
+        {
+          "name": "Chargehound",
+          "slug": "chargehound",
+          "status": "Acquired",
+          "batch": "Winter 2014",
+          "one_liner": "Automate your chargeback dispute process. (Acquired by PayPal)"
+        },
+        {
+          "name": "Rocketrip",
+          "slug": "rocketrip",
+          "status": "Acquired",
+          "batch": "Winter 2014",
+          "one_liner": "Rocketrip helps companies save money on travel expenses by aligning\u2026"
+        },
+        {
+          "name": "Unicornly",
+          "slug": "unicornly",
+          "status": "Inactive",
+          "batch": "Winter 2014",
+          "one_liner": "Unicorn.ly makes fundraising more efficient for both angel investors\u2026"
+        },
+        {
+          "name": "Paid",
+          "slug": "paid",
+          "status": "Inactive",
+          "batch": "Summer 2014",
+          "one_liner": "Autopilot for Accounts Receivable"
+        },
+        {
+          "name": "Payable",
+          "slug": "payable",
+          "status": "Acquired",
+          "batch": "Summer 2014",
+          "one_liner": "Simple payments and tax compliance for your contract workforce."
+        },
+        {
+          "name": "Kickpay",
+          "slug": "kickpay",
+          "status": "Inactive",
+          "batch": "Winter 2015",
+          "one_liner": "A platform to finance inventory for e-commerce companies."
+        },
+        {
+          "name": "Bonfire",
+          "slug": "bonfire",
+          "status": "Acquired",
+          "batch": "Winter 2015",
+          "one_liner": "Bonfire is reimagining RFPs & bidding for gov procurement teams"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Chicago",
+      "location": "Chicago, IL, USA",
+      "companies_in_city": 26,
+      "active_in_city": 14,
+      "nearby_companies": [
+        {
+          "name": "Aisle50",
+          "slug": "aisle50",
+          "batch": "Summer 2011",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Debteye",
+          "slug": "debteye",
+          "batch": "Summer 2011",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Draft",
+          "slug": "draft",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tutorspree",
+          "slug": "tutorspree",
+          "batch": "Winter 2011",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "CodeNow",
+          "slug": "codenow",
+          "batch": "Winter 2014",
+          "industry": "Unspecified",
+          "status": "Active"
+        },
+        {
+          "name": "ShipBob",
+          "slug": "shipbob",
+          "batch": "Summer 2014",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Popular Pays",
+          "slug": "popular-pays",
+          "batch": "Winter 2015",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Bluecrew",
+          "slug": "bluecrew",
+          "batch": "Summer 2015",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Tovala",
+          "slug": "tovala",
+          "batch": "Winter 2016",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "mRelief",
+          "slug": "mrelief",
+          "batch": "Winter 2016",
+          "industry": "Unspecified",
+          "status": "Active"
+        },
+        {
+          "name": "TRAC",
+          "slug": "trac",
+          "batch": "Winter 2016",
+          "industry": "Healthcare",
+          "status": "Inactive"
+        },
+        {
+          "name": "Airfordable",
+          "slug": "airfordable",
+          "batch": "Summer 2016",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Draftbit",
+          "slug": "draftbit",
+          "batch": "Winter 2018",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "HappiLabs",
+          "slug": "happilabs",
+          "batch": "Summer 2018",
+          "industry": "Healthcare",
+          "status": "Acquired"
+        },
+        {
+          "name": "Preflight",
+          "slug": "preflight",
+          "batch": "Winter 2019",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Obie",
+          "slug": "obie",
+          "batch": "Summer 2019",
+          "industry": "Real Estate and Construction",
+          "status": "Active"
+        },
+        {
+          "name": "TaxProper",
+          "slug": "taxproper",
+          "batch": "Summer 2019",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Protobase",
+          "slug": "protobase",
+          "batch": "Winter 2020",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Fly.io",
+          "slug": "fly-io",
+          "batch": "Winter 2020",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Synapticure",
+          "slug": "synapticure",
+          "batch": "Summer 2020",
+          "industry": "Healthcare",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Clustrix",
+        "slug": "clustrix",
+        "batch": "Winter 2006",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Wufoo",
+        "slug": "wufoo",
+        "batch": "Winter 2006",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Audiobeta",
+        "slug": "audiobeta",
+        "batch": "Winter 2006",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Draft",
+        "slug": "draft",
+        "batch": "Summer 2011",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 5,
+        "similarity_reasons": [
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "inDinero",
+        "slug": "indinero",
+        "batch": "Summer 2010",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 5,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "PayTango",
+        "slug": "paytango",
+        "batch": "Winter 2013",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 5,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Abacus",
+        "slug": "abacus",
+        "batch": "Winter 2014",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 5,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Chargehound",
+        "slug": "chargehound",
+        "batch": "Winter 2014",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 5,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Rocketrip",
+        "slug": "rocketrip",
+        "batch": "Winter 2014",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 5,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Unicornly",
+        "slug": "unicornly",
+        "batch": "Winter 2014",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 5,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 2778,
+      "network_density_score": 46.4,
+      "has_strong_batch_network": false,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:04:01.693020"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:04:01.693034",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:04:02.033497",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:04:02.124364",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 11,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:13.083003",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "medium",
+      "market_stage": "mature",
+      "key_trends": [
+        "Data-driven decision making",
+        "AI-powered forecasting",
+        "Increased need for risk management"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Early mover advantage, established client base, proprietary algorithms.",
+      "differentiation": "Focus on collective intelligence and prediction markets for enterprise decision-making.",
+      "competitive_advantages": [
+        "Established reputation",
+        "Strong client relationships"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on specific algorithms",
+        "Potential disruption by newer AI platforms"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "mature",
+      "growth_indicators": [
+        "Client retention rate",
+        "Expansion into new business units within existing clients"
+      ],
+      "growth_bottlenecks": [
+        "Market saturation",
+        "Competition from larger analytics platforms"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "low",
+      "technology_risk": "medium",
+      "execution_risk": "low",
+      "overall_risk_score": 4,
+      "key_risks": [
+        "Algorithm obsolescence",
+        "Data security breaches",
+        "Integration challenges with client systems"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Proven technology",
+        "Strong client base",
+        "Acquisition by Charles Schwab validates market"
+      ],
+      "concerns": [
+        "Limited growth potential as a standalone entity",
+        "Dependence on key personnel"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Augury",
+        "Cultivate"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Integrate with acquirer's existing platform",
+        "Expand into new verticals within the acquirer's ecosystem"
+      ],
+      "expansion_opportunities": [
+        "Offer bundled solutions with other financial services",
+        "Develop AI-powered insights based on market predictions"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 656,
+      "completion": 481,
+      "total": 1137,
+      "estimated_cost": 0.000193
+    }
+  },
+  "phase8_complete": true
+}

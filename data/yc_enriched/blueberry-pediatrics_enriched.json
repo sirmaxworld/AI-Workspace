@@ -1,0 +1,640 @@
+{
+  "slug": "blueberry-pediatrics",
+  "name": "Blueberry Pediatrics",
+  "yc_id": 1731,
+  "batch": "Winter 2018",
+  "website": "https://blueberrypediatrics.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:40:30.301938",
+    "website": "https://blueberrypediatrics.com",
+    "website_status": {
+      "reachable": false,
+      "error": "connection_error"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "blueberrypediatrics.com",
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "error": "HTTPSConnectionPool(host='blueberrypediatrics.com', port=443): Max retries exceeded with url: / (Cau"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:19:25.735159",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:19:15.704415",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "Mountain View, CA, USA",
+      "coordinates": {
+        "latitude": 37.3861,
+        "longitude": -122.0839
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:19:15.704466"
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:15.704479",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:15.704481",
+    "batch_network": {
+      "batch": "Winter 2018",
+      "total_batch_mates": 145,
+      "active_batch_mates": 83,
+      "batch_success_rate": 57.2,
+      "notable_batch_mates": [
+        {
+          "name": "Newfront",
+          "slug": "newfront-insurance",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "Modern insurance brokerage."
+        },
+        {
+          "name": "Mayhem",
+          "slug": "mayhem",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Mayhem is the easiest way to play with your gaming community."
+        },
+        {
+          "name": "Pulse",
+          "slug": "pulse-2",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "We're crowdsourced Gartner so IT executives can learn directly from\u2026"
+        },
+        {
+          "name": "Bear Flag Robotics",
+          "slug": "bear-flag-robotics",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Autonomous driving technology for farm tractors."
+        },
+        {
+          "name": "ClearBrain",
+          "slug": "clearbrain",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Causal Analytics for Growth Teams"
+        },
+        {
+          "name": "Sepsis Scout",
+          "slug": "sepsis-scout",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Wearables and AI to predict and prevent sepsis outside the hospital"
+        },
+        {
+          "name": "onederful",
+          "slug": "onederful",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Dental Insurance API"
+        },
+        {
+          "name": "CodeStream",
+          "slug": "codestream",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "CodeStream is a Developer Collaboration Platform designed to\u2026"
+        },
+        {
+          "name": "Glimpse K12",
+          "slug": "glimpse-k12",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Glimpse eliminates ineffective spending in schools."
+        },
+        {
+          "name": "Squad",
+          "slug": "squad",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Squad is an app for live communities to have shared experiences\u2026"
+        }
+      ],
+      "batch_size": 146
+    },
+    "industry_network": {
+      "industries": [
+        "Healthcare",
+        "Healthcare IT"
+      ],
+      "total_industry_peers": 642,
+      "active_industry_peers": 502,
+      "direct_competitors": [
+        {
+          "name": "Medigram",
+          "slug": "medigram",
+          "status": "Active",
+          "batch": "Winter 2012",
+          "one_liner": "We are making a HIPAA-compliant, Groupme app for doctors to\u2026"
+        },
+        {
+          "name": "Quartzy",
+          "slug": "quartzy",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Marketplace for life science supplies."
+        },
+        {
+          "name": "AgileMD",
+          "slug": "agilemd",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Predictive analytics and clinical pathways for hospitals "
+        },
+        {
+          "name": "Comprehend",
+          "slug": "comprehend",
+          "status": "Acquired",
+          "batch": "Winter 2011",
+          "one_liner": "SaaS to increase speed and quality of clinical trials."
+        },
+        {
+          "name": "DrChrono",
+          "slug": "drchrono",
+          "status": "Acquired",
+          "batch": "Winter 2011",
+          "one_liner": "The essential platform for modern medical practices and patients."
+        },
+        {
+          "name": "Human Dx",
+          "slug": "human-dx",
+          "status": "Active",
+          "batch": "Summer 2012",
+          "one_liner": "The Human Diagnosis Project."
+        },
+        {
+          "name": "Eligible",
+          "slug": "eligible",
+          "status": "Active",
+          "batch": "Summer 2012",
+          "one_liner": "Insurance Billing APIs for Healthcare Businesses "
+        },
+        {
+          "name": "Medisas",
+          "slug": "medisas",
+          "status": "Inactive",
+          "batch": "Winter 2013",
+          "one_liner": "Medisas builds workflow & collaboration software for hospitals."
+        },
+        {
+          "name": "MedXT",
+          "slug": "medxt",
+          "status": "Acquired",
+          "batch": "Winter 2013",
+          "one_liner": "Radiology in the cloud.  X-rays, CAT scans, MRI's, and\u2026"
+        },
+        {
+          "name": "ListRunner",
+          "slug": "listrunner",
+          "status": "Acquired",
+          "batch": "Summer 2014",
+          "one_liner": "Replaces paper patient lists for doctors. "
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Mountain View",
+      "location": "Mountain View, CA, USA; Remote",
+      "companies_in_city": 84,
+      "active_in_city": 30,
+      "nearby_companies": [
+        {
+          "name": "SlidePay",
+          "slug": "slidepay",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "BarSense",
+          "slug": "barsense",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "YourMechanic",
+          "slug": "yourmechanic",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Carsabi",
+          "slug": "carsabi",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HackerRank",
+          "slug": "hackerrank",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "PhoneSys",
+          "slug": "phonesys",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Cryptoseal",
+          "slug": "cryptoseal",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Firebase",
+          "slug": "firebase",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Everyme",
+          "slug": "everyme",
+          "batch": "Summer 2011",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Kicksend",
+          "slug": "kicksend",
+          "batch": "Summer 2011",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Beetailer",
+          "slug": "beetailer",
+          "batch": "Winter 2011",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "TalkBin",
+          "slug": "talkbin",
+          "batch": "Winter 2011",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "GazeHawk",
+          "slug": "gazehawk",
+          "batch": "Summer 2010",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Whereoscope",
+          "slug": "whereoscope",
+          "batch": "Summer 2010",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Newcope",
+          "slug": "newcope",
+          "batch": "Winter 2010",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HighlightCam",
+          "slug": "highlightcam",
+          "batch": "Summer 2009",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Bump",
+          "slug": "bump",
+          "batch": "Summer 2009",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Recurious",
+          "slug": "recurious",
+          "batch": "Winter 2009",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Picurio",
+          "slug": "picurio",
+          "batch": "Winter 2009",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Virtualmin",
+          "slug": "virtualmin",
+          "batch": "Winter 2007",
+          "industry": "B2B",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Closer Sports",
+        "slug": "closer-sports",
+        "batch": "Winter 2018",
+        "industry": "Healthcare",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Sepsis Scout",
+        "slug": "sepsis-scout",
+        "batch": "Winter 2018",
+        "industry": "Healthcare",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "onederful",
+        "slug": "onederful",
+        "batch": "Winter 2018",
+        "industry": "Healthcare",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Memora Health",
+        "slug": "memora-health",
+        "batch": "Winter 2018",
+        "industry": "Healthcare",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Medumo",
+        "slug": "medumo",
+        "batch": "Winter 2018",
+        "industry": "Healthcare",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "ListRunner",
+        "slug": "listrunner",
+        "batch": "Summer 2014",
+        "industry": "Healthcare",
+        "status": "Acquired",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Rhythmm",
+        "slug": "rhythmm",
+        "batch": "Winter 2018",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Sixfold Bioscience",
+        "slug": "sixfold-bioscience",
+        "batch": "Winter 2018",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Avro Life Science",
+        "slug": "avro-life-science",
+        "batch": "Winter 2018",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Macromoltek",
+        "slug": "macromoltek",
+        "batch": "Winter 2018",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 871,
+      "network_density_score": 85.8,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:19:15.710066"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:15.710075",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:16.035116",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:16.140047",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 15,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:58.792002",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increased adoption of telehealth",
+        "Rising healthcare costs",
+        "Demand for convenient and accessible healthcare"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Brand recognition, established relationships with families, proprietary at-home diagnostic tools.",
+      "differentiation": "24/7 availability, at-home diagnostics, focus on pediatrics, proven ER cost reduction.",
+      "competitive_advantages": [
+        "High customer satisfaction",
+        "Reduced healthcare costs for families"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on telemedicine infrastructure",
+        "Potential regulatory hurdles"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "Increasing subscription numbers",
+        "Expansion into new geographic areas"
+      ],
+      "growth_bottlenecks": [
+        "Hiring and training pediatricians",
+        "Maintaining quality of care at scale"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Competition from other telehealth providers",
+        "Changes in telehealth regulations",
+        "Maintaining patient trust and data security"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong value proposition for families",
+        "Proven ability to reduce healthcare costs",
+        "Experienced team"
+      ],
+      "concerns": [
+        "Scalability of at-home diagnostics",
+        "Competition in the telehealth market"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Teladoc",
+        "Amwell"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Expand geographic reach",
+        "Develop partnerships with insurance providers"
+      ],
+      "expansion_opportunities": [
+        "Offer additional services, such as mental health support",
+        "Target specific demographics, such as families with young children"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 657,
+      "completion": 585,
+      "total": 1242,
+      "estimated_cost": 0.000225
+    }
+  },
+  "phase8_complete": true
+}

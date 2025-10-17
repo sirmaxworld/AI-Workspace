@@ -1,0 +1,267 @@
+{
+  "market_intelligence": {
+    "target_markets": [
+      {
+        "market_description": "AI agency owners, employees looking to automate work, business owners training teams",
+        "demographics": [
+          "professionals",
+          "entrepreneurs",
+          "AI practitioners",
+          "business owners"
+        ],
+        "pain_points": [
+          "spending too much time writing prompts",
+          "inconsistent prompt performance",
+          "difficulty scaling AI automation",
+          "frustrating trade-off between speed and quality"
+        ],
+        "market_size_indicators": "200,000+ members in AI entrepreneur community mentioned"
+      }
+    ],
+    "problems_validated": [
+      {
+        "problem": "Writing effective AI prompts takes too much time and effort, creating a trade-off between speed and quality",
+        "severity": "High - described as 'frustrating trade-off' that makes neither option acceptable for business use",
+        "current_solutions": "Manual back-and-forth prompting with ChatGPT, spending hours crafting individual prompts",
+        "market_gap": "No systematic approach for creating production-grade prompts quickly and consistently"
+      }
+    ]
+  },
+  "products_tools": [
+    {
+      "name": "PDER Process",
+      "category": "ai-tool",
+      "use_case": "Systematic approach to create high-performing AI prompts quickly",
+      "sentiment": "positive",
+      "pricing": "free tools shared",
+      "metrics": "used across entire organization at Morningside AI"
+    },
+    {
+      "name": "Professional Prompt Engineering IDE",
+      "category": "saas",
+      "use_case": "Strategic testing of prompts against multiple expected inputs",
+      "sentiment": "recommended",
+      "pricing": "requires paid plan or own API key",
+      "metrics": "not specified"
+    },
+    {
+      "name": "Relevance AI",
+      "category": "ai-tool",
+      "use_case": "Prompt engineering and testing platform",
+      "sentiment": "neutral",
+      "pricing": "freemium model with limitations on Claude v3.7 Sonnet",
+      "metrics": "not specified"
+    }
+  ],
+  "business_strategies": [
+    {
+      "strategy_type": "operations",
+      "strategy": "Create systematic prompt engineering process to deliver consistent client results",
+      "implementation": "Train entire team on PDER process for internal automation and client work",
+      "expected_results": "Difference between one-time projects and long-term retainers worth thousands per month",
+      "case_study": "Morningside AI built AI systems for companies from martial arts gyms to NBA teams"
+    },
+    {
+      "strategy_type": "monetization",
+      "strategy": "Position elite prompt engineering as differentiator for AI agency services",
+      "implementation": "Use production-grade prompts that work reliably at scale without human intervention",
+      "expected_results": "Long-term client relationships and higher value contracts",
+      "case_study": "AI agency serving publicly traded companies and NBA team"
+    }
+  ],
+  "problems_solutions": [
+    {
+      "problem": "Prompts that work in casual ChatGPT conversations fail in production environments",
+      "category": "technical",
+      "solution": "Use single-shot prompting approach with systematic PDER process",
+      "steps": [
+        "Plan - define what prompt needs to do",
+        "Draft - use AI tool to generate initial prompt",
+        "Evaluate - test with professional software",
+        "Refine - make targeted improvements and repeat"
+      ],
+      "tools_needed": [
+        "Prompt planning worksheet",
+        "AI prompt generator",
+        "Professional prompt engineering IDE"
+      ],
+      "difficulty": "intermediate",
+      "time_estimate": "minutes instead of hours"
+    }
+  ],
+  "startup_ideas": [
+    {
+      "idea": "Professional prompt engineering tools and training for enterprises",
+      "target_market": "Businesses implementing AI across organizations",
+      "problem_solved": "Inconsistent AI implementation and poor prompt performance at scale",
+      "business_model": "SaaS tools + training programs",
+      "validation": "High engagement on educational content about prompt engineering",
+      "investment_needed": "not mentioned"
+    }
+  ],
+  "mistakes_to_avoid": [
+    {
+      "mistake": "Skipping the planning phase before writing prompts",
+      "consequences": "Wasting time on ineffective prompts that don't meet requirements",
+      "prevention": "Always clearly define what the prompt needs to do before writing",
+      "example": "Most people jump straight into writing without planning"
+    },
+    {
+      "mistake": "Using markdown instead of XML for system prompts with user input",
+      "consequences": "Less reliable prompt performance",
+      "prevention": "Use XML tags around user input and reference them explicitly",
+      "example": "Professional tip from experienced commenter"
+    }
+  ],
+  "growth_tactics": [
+    {
+      "channel": "content",
+      "tactic": "Share proprietary business processes and tools for free to build authority",
+      "steps": [
+        "Create detailed educational content",
+        "Provide free tools and worksheets",
+        "Build community around shared knowledge"
+      ],
+      "cost_estimate": "time investment in content creation",
+      "results_expected": "200,000+ community members, client acquisition for high-value services"
+    }
+  ],
+  "ai_workflows": [
+    {
+      "workflow_name": "PDER Prompt Engineering Process",
+      "tools_used": [
+        "Prompt planning worksheet",
+        "AI prompt generator",
+        "Professional prompt engineering IDE"
+      ],
+      "steps": [
+        "Plan - define prompt requirements",
+        "Draft - generate initial prompt with AI",
+        "Evaluate - test systematically",
+        "Refine - improve based on results"
+      ],
+      "automation_level": "semi-automated",
+      "use_case": "Creating production-grade prompts that automate hundreds of hours of manual work"
+    }
+  ],
+  "metrics_kpis": [
+    {
+      "metric": "Prompt effectiveness percentage",
+      "benchmark": "70% effectiveness for quick prompts vs 95% for well-crafted prompts",
+      "tracking_method": "Testing against expected inputs in professional IDE",
+      "optimization_tip": "Use systematic PDER process instead of ad-hoc refinement"
+    }
+  ],
+  "trends_signals": [
+    {
+      "trend": "Shift from casual AI prompting to professional prompt engineering",
+      "category": "technology",
+      "stage": "growing",
+      "opportunity": "Training and tools for systematic prompt development"
+    }
+  ],
+  "actionable_quotes": [
+    {
+      "quote": "being able to write really really good prompts like these is a superpower these days regardless of what career you're in",
+      "context": "Discussing the value of prompt engineering skills across professions",
+      "category": "strategic",
+      "actionability": "Invest in learning systematic prompt engineering"
+    },
+    {
+      "quote": "your prompt needs to be able to work perfectly the first time every time without any human intervention",
+      "context": "Explaining difference between casual and professional prompting",
+      "category": "tactical",
+      "actionability": "Focus on single-shot prompting for business applications"
+    }
+  ],
+  "key_statistics": [
+    {
+      "statistic": "Prompts can automate hundreds or thousands of hours of manual work",
+      "context": "Value proposition of effective prompt engineering",
+      "source_reliability": "claimed"
+    },
+    {
+      "statistic": "Quick prompts achieve 70% effectiveness vs 95% for well-crafted prompts",
+      "context": "Comparison of prompt quality impact on automation results",
+      "source_reliability": "estimated"
+    }
+  ],
+  "comment_insights": [
+    {
+      "type": "validation",
+      "insight": "Strong appreciation for sharing proprietary business processes indicates high value content",
+      "evidence": "It's very generous to share you businesses prompt process. Thank you.",
+      "engagement": 10,
+      "author": "@@andyjart5063",
+      "relevance": "Validates market demand for systematic prompt engineering knowledge"
+    },
+    {
+      "type": "problem",
+      "insight": "Users struggle with LLM responses and lack systematic approach to prompt refinement",
+      "evidence": "I feel like a lot of people get frustrated with poor LLM responses and haphazardly try to refine their prompts",
+      "engagement": 1,
+      "author": "@@richardcollins128",
+      "relevance": "Confirms the core problem the PDER process solves"
+    },
+    {
+      "type": "use_case",
+      "insight": "Content creators using AI for book writing face prompt consistency issues",
+      "evidence": "I am creating my first ebook, and I have been arguing with chatgpt like for real LOL",
+      "engagement": 4,
+      "author": "@@NewMom2023X",
+      "relevance": "Shows real-world application and frustration with current prompting approaches"
+    },
+    {
+      "type": "feedback",
+      "insight": "Pricing barriers exist for professional prompt engineering tools",
+      "evidence": "Use of Claude v3.7 Sonnet (Latest) is not permitted on your plan without providing your own key",
+      "engagement": 1,
+      "author": "@@GwenStacy0_0",
+      "relevance": "Indicates market opportunity for more accessible professional prompting tools"
+    }
+  ],
+  "top_validated_comments": [
+    {
+      "comment": "It's very generous to share you businesses prompt process. Thank you.",
+      "likes": 10,
+      "author": "@@andyjart5063",
+      "insight_type": "market_validation",
+      "business_value": "High engagement validates strong market demand for systematic prompt engineering knowledge"
+    },
+    {
+      "comment": "God bless you for doing this video. I am creating my first ebook, and I have been arguing with chatgpt like for real LOL. This is fantastic.",
+      "likes": 4,
+      "author": "@@NewMom2023X",
+      "insight_type": "pain_point",
+      "business_value": "Confirms frustration with current prompting methods and validates solution-market fit"
+    }
+  ],
+  "comment_derived_trends": [
+    {
+      "trend": "High demand for systematic AI prompting education",
+      "supporting_comments": [
+        "It's very generous to share you businesses prompt process",
+        "This is why I will never leave you. Beautiful share"
+      ],
+      "frequency": "multiple comments expressing gratitude",
+      "business_implication": "Strong market opportunity for prompt engineering training and tools"
+    },
+    {
+      "trend": "Users frustrated with inconsistent AI responses",
+      "supporting_comments": [
+        "arguing with chatgpt like for real",
+        "people get frustrated with poor LLM responses and haphazardly try to refine"
+      ],
+      "frequency": "2-3 comments mentioning frustration",
+      "business_implication": "Clear problem validation for systematic prompt engineering solutions"
+    }
+  ],
+  "meta": {
+    "video_id": "i70LfKB6TqU",
+    "title": "How Elite AI Agencies Build Prompts - The PDER Process",
+    "extracted_at": "2025-10-17T08:11:25.740000",
+    "model": "claude-sonnet-4-20250514",
+    "transcript_length": 49825,
+    "processing_time_seconds": 42.362128019332886
+  }
+}

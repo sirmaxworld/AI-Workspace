@@ -1,0 +1,888 @@
+{
+  "slug": "todesktop",
+  "name": "ToDesktop",
+  "yc_id": 13303,
+  "batch": "Winter 2020",
+  "website": "https://www.todesktop.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:52:54.240136",
+    "website": "https://www.todesktop.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 1500.35,
+      "final_url": "https://www.todesktop.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:52:55.740503"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "todesktop.com",
+      "registrar": "Porkbun LLC",
+      "creation_date": "2018-06-21T16:08:20",
+      "expiration_date": "2027-06-21T16:08:20",
+      "domain_age_days": 2674,
+      "domain_age_years": 7.3,
+      "name_servers": [
+        "NS-1459.AWSDNS-54.ORG",
+        "NS-1605.AWSDNS-08.CO.UK",
+        "NS-310.AWSDNS-38.COM",
+        "NS-899.AWSDNS-48.NET"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/ToDesktop",
+      "linkedin": null,
+      "github": "https://github.com/ToDesktop",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": false,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": true,
+      "x_xss_protection": false,
+      "referrer_policy": true,
+      "security_score": 33,
+      "server": "cloudflare"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:24:15.302537",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:24:03.110636",
+    "place_data": {
+      "status": "not_found",
+      "query": "Cork, County Cork, Ireland; Remote",
+      "methods_tried": [
+        "static_db",
+        "nominatim",
+        "geonames"
+      ]
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:03.957936",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/ToDesktop"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 48,
+        "packages": [
+          {
+            "name": "@todesktop/client-core",
+            "description": "Core ToDesktop client APIs",
+            "version": "1.20.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@todesktop/client-core"
+          },
+          {
+            "name": "@todesktop/client-todesktop-runtime-types",
+            "description": "Runtime types for ToDesktop client libraries",
+            "version": "1.5.7-beta.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@todesktop/client-todesktop-runtime-types"
+          },
+          {
+            "name": "@todesktop/client-util",
+            "description": "Utility functions for ToDesktop client libraries",
+            "version": "1.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@todesktop/client-util"
+          },
+          {
+            "name": "@todesktop/client-electron-types",
+            "description": "Electron types for ToDesktop client libraries",
+            "version": "28.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@todesktop/client-electron-types"
+          },
+          {
+            "name": "@todesktop/client-electron-updater-types",
+            "description": "Auto Updater types for ToDesktop client libraries",
+            "version": "5.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@todesktop/client-electron-updater-types"
+          },
+          {
+            "name": "@todesktop/runtime",
+            "description": "The [ToDesktop](https://todesktop.com) runtime package which takes care of auto-updating, crash reporting, and more. For more information, see https://todesktop.com/electron.",
+            "version": "2.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@todesktop/runtime"
+          },
+          {
+            "name": "@todesktop/cli",
+            "description": "The ToDesktop CLI allows you to build and deploy your electron app with native installers, auto-updates and code signing included.",
+            "version": "1.17.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@todesktop/cli"
+          },
+          {
+            "name": "@todesktop/plugin-smart-deeplinks",
+            "description": "- [ToDesktop Plugin Smart Deeplinks](#todesktop-plugin-smart-deeplinks)   - [Installation](#installation)   - [Architecture](#architecture)   - [Development](#development)",
+            "version": "0.25.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@todesktop/plugin-smart-deeplinks"
+          },
+          {
+            "name": "@todesktop/tailwind-variants",
+            "description": "This Tailwind CSS plugin provides custom variants to apply styles to apps that are running on the [ToDesktop](https://www.todesktop.com) platform. There are also platform specific variants that target Windows, macOS, and Linux.",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@todesktop/tailwind-variants"
+          },
+          {
+            "name": "@todesktop/client-recall",
+            "description": "ToDesktop plugin for Recall.ai Desktop Recording SDK - Client library",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@todesktop/client-recall"
+          },
+          {
+            "name": "@todesktop/plugin-recall",
+            "description": "ToDesktop plugin for Recall.ai Desktop Recording SDK - Plugin package",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@todesktop/plugin-recall"
+          },
+          {
+            "name": "@todesktop/exposure",
+            "description": "A library to house the types for the ToDesktop client API.",
+            "version": "0.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@todesktop/exposure"
+          },
+          {
+            "name": "@todesktop/client-ipc",
+            "description": "Communicating between desktop app windows.",
+            "version": "0.11.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@todesktop/client-ipc"
+          },
+          {
+            "name": "@todesktop/recall-desktop-sdk-plugin",
+            "description": "ToDesktop plugin for Recall.ai Desktop Recording SDK - Plugin package",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@todesktop/recall-desktop-sdk-plugin"
+          },
+          {
+            "name": "@todesktop/recall-desktop-sdk-client",
+            "description": "ToDesktop plugin for Recall.ai Desktop Recording SDK - Client library",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@todesktop/recall-desktop-sdk-client"
+          },
+          {
+            "name": "todesktop-push-receiver",
+            "description": "ToDesktop push receiver with OneSignal",
+            "version": "0.1.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/todesktop-push-receiver"
+          },
+          {
+            "name": "@todesktop/client-fs",
+            "description": "Securely interact with the file system.",
+            "version": "1.7.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@todesktop/client-fs"
+          },
+          {
+            "name": "@todesktop/client-comm-server",
+            "description": "Communicate between the web browser and your desktop app.",
+            "version": "0.56.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@todesktop/client-comm-server"
+          },
+          {
+            "name": "@todesktop/plugin-ipc",
+            "description": "Communicating between desktop app windows.",
+            "version": "0.11.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@todesktop/plugin-ipc"
+          },
+          {
+            "name": "@todesktop/client-active-win",
+            "description": "Get metadata about the active window.",
+            "version": "0.20.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@todesktop/client-active-win"
+          },
+          {
+            "name": "@todesktop/client-exec",
+            "description": "Bundle and execute exec files.",
+            "version": "0.19.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@todesktop/client-exec"
+          },
+          {
+            "name": "@todesktop/plugin-fs",
+            "description": "Securely interact with the file system.",
+            "version": "1.7.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@todesktop/plugin-fs"
+          },
+          {
+            "name": "@todesktop/plugin-active-win",
+            "description": "Get metadata about the active window.",
+            "version": "0.20.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@todesktop/plugin-active-win"
+          },
+          {
+            "name": "@todesktop/plugin-selected-text",
+            "description": "Retrieve the selected text from any application.",
+            "version": "0.27.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@todesktop/plugin-selected-text"
+          },
+          {
+            "name": "@todesktop/plugin-comm-server",
+            "description": "Communicate between the web browser and your desktop app.",
+            "version": "0.57.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@todesktop/plugin-comm-server"
+          },
+          {
+            "name": "@todesktop/client-selected-text",
+            "description": "Retrieve the selected text from any application.",
+            "version": "0.27.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@todesktop/client-selected-text"
+          },
+          {
+            "name": "@todesktop/plugin-exec",
+            "description": "Bundle and execute exec files.",
+            "version": "0.19.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@todesktop/plugin-exec"
+          },
+          {
+            "name": "@todesktop/shared",
+            "description": "Most of the code for coordinating Stripe subscriptions can be found in `plans.ts`. Conceptually, we organize subscriptions as follows:",
+            "version": "7.189.22",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@todesktop/shared"
+          },
+          {
+            "name": "@todesktop/robotjs-prebuild",
+            "description": "Node.js Desktop Automation.",
+            "version": "0.6.27",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@todesktop/robotjs-prebuild"
+          },
+          {
+            "name": "@todesktop/create-release-metadata",
+            "description": "Create signed release metadata files for ToDesktop Installer",
+            "version": "0.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@todesktop/create-release-metadata"
+          },
+          {
+            "name": "@todesktop/electron-selected-text-prebuild",
+            "description": "a utility to get selected text for Electron apps",
+            "version": "1.1.21",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@todesktop/electron-selected-text-prebuild"
+          },
+          {
+            "name": "robotjs-repack",
+            "description": "Node.js Desktop Automation.fork by ToDesktop/robotjs-prebuild",
+            "version": "0.6.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/robotjs-repack"
+          },
+          {
+            "name": "@todesktop/plugin-get-app-icon",
+            "description": "Retrieve the icon of a file or app.",
+            "version": "0.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@todesktop/plugin-get-app-icon"
+          },
+          {
+            "name": "@todesktop/nan",
+            "description": "Native Abstractions for Node.js: C++ header for Node 0.8 -> 23 compatibility",
+            "version": "2.23.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@todesktop/nan"
+          },
+          {
+            "name": "@todesktop/node-gyp-build",
+            "description": "Build tool and bindings loader for node-gyp that supports prebuilds",
+            "version": "4.8.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@todesktop/node-gyp-build"
+          },
+          {
+            "name": "@todesktop/kit-docs",
+            "description": "Documentation integration for SvelteKit.",
+            "version": "0.24.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@todesktop/kit-docs"
+          },
+          {
+            "name": "@todesktop/active-win-prebuild",
+            "description": "Get metadata about the active window (title, id, bounds, owner, URL, etc). Works on macOS, Linux, Windows.",
+            "version": "7.6.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@todesktop/active-win-prebuild"
+          },
+          {
+            "name": "@davej/todesktop-shared-types",
+            "description": null,
+            "version": "7.10.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@davej/todesktop-shared-types"
+          },
+          {
+            "name": "@todesktop/az-vm",
+            "description": "Quick and easy Azure VM creation CLI tool supporting Windows and Linux VMs",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@todesktop/az-vm"
+          },
+          {
+            "name": "@todesktop/client-get-app-icon",
+            "description": "Retrieve the icon of a file or app.",
+            "version": "0.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@todesktop/client-get-app-icon"
+          },
+          {
+            "name": "create-todesktop-app",
+            "description": "A generator for building fully-configured electron apps",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/create-todesktop-app"
+          },
+          {
+            "name": "todesktop",
+            "description": "Just a placeholder for now",
+            "version": "0.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/todesktop"
+          },
+          {
+            "name": "@todesktop/file-icon-prebuild",
+            "description": "Get the icon of a file or app as a PNG image (macOS)",
+            "version": "3.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@todesktop/file-icon-prebuild"
+          },
+          {
+            "name": "@todesktop/get-app-icon-prebuild",
+            "description": "Get desktop application icon",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@todesktop/get-app-icon-prebuild"
+          },
+          {
+            "name": "@todesktop/cpx",
+            "description": "Copy file globs, watching for changes.",
+            "version": "1.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@todesktop/cpx"
+          },
+          {
+            "name": "@todesktop/electron-updater",
+            "description": "Cross platform updater for electron applications",
+            "version": "4.3.6-0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@todesktop/electron-updater"
+          },
+          {
+            "name": "@todesktop/client-smart-deeplinks",
+            "description": null,
+            "version": "0.25.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@todesktop/client-smart-deeplinks"
+          },
+          {
+            "name": "@todesktop/client-core-1-to-2-codemod",
+            "description": null,
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@todesktop/client-core-1-to-2-codemod"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 1,
+        "packages": [
+          {
+            "name": "autodesktop",
+            "description": "Under Windows system, a set of tools to simulate the operation of a mouse and keyboard.",
+            "version": "0.1.0",
+            "downloads": 1609,
+            "url": "https://crates.io/crates/autodesktop"
+          }
+        ]
+      },
+      "total_packages": 49,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:24:05.331313"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:05.331317",
+    "batch_network": {
+      "batch": "Winter 2020",
+      "total_batch_mates": 228,
+      "active_batch_mates": 148,
+      "batch_success_rate": 64.9,
+      "notable_batch_mates": [
+        {
+          "name": "Zaraz",
+          "slug": "zaraz",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A third-party manager, built for speed. "
+        },
+        {
+          "name": "Phonic",
+          "slug": "phonic",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The best way to collect and analyze voice and video feedback"
+        },
+        {
+          "name": "Okay",
+          "slug": "okay",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Dashboards and actionable insights for high-performing engineering\u2026"
+        },
+        {
+          "name": "Volumetric",
+          "slug": "volumetric",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Volumetric builds living multicellular tissues with a focus on the\u2026"
+        },
+        {
+          "name": "Hoss",
+          "slug": "hoss",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The developer experience platform"
+        },
+        {
+          "name": "FitnessAI",
+          "slug": "fitnessai",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "App offering AI powered workout plans with anytime access to coaches"
+        },
+        {
+          "name": "Flowdash",
+          "slug": "flowdash",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Quickly build internal tools for your ops team's manual workflows"
+        },
+        {
+          "name": "Dashworks",
+          "slug": "dashworks",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Your team's intelligent start page."
+        },
+        {
+          "name": "Eternal",
+          "slug": "zelos",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Own the best moments in streaming"
+        },
+        {
+          "name": "Glimpse",
+          "slug": "glimpse",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A social video chat."
+        }
+      ],
+      "batch_size": 229
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "status": "Active",
+          "batch": "Winter 2012",
+          "one_liner": "High Performance Computing Built for the Cloud"
+        },
+        {
+          "name": "Marft",
+          "slug": "marft",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Marft creates embeddable machine learning models for application\u2026"
+        },
+        {
+          "name": "Pixelapse",
+          "slug": "pixelapse",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Github for designers. We automatically keep track of revisions of\u2026"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Palantir for sales people"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Smart search for the modern team."
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Authy is a Two-Factor Authentication platform for developers"
+        },
+        {
+          "name": "Flutter",
+          "slug": "flutter",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Flutter combined computer vision technology with the built-in webcams\u2026"
+        },
+        {
+          "name": "SolidStage",
+          "slug": "solidstage",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Sysadmin as a service. We make deploying, configuring, monitoring,\u2026"
+        },
+        {
+          "name": "Clutch",
+          "slug": "clutch",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "An easy to integrate library for native iOS applications designed to\u2026"
+        },
+        {
+          "name": "OneSignal",
+          "slug": "onesignal",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Engage customers through personalized omni-channel messaging"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Cork",
+      "location": "Cork, County Cork, Ireland; Remote",
+      "companies_in_city": 0,
+      "active_in_city": 0,
+      "nearby_companies": [],
+      "ecosystem_density": "low"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Zaraz",
+        "slug": "zaraz",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Paragon",
+        "slug": "paragon",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Hoss",
+        "slug": "hoss",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Enveloop",
+        "slug": "enveloop",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Flowdash",
+        "slug": "flowdash",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Glisten AI",
+        "slug": "glisten-ai",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Ditto",
+        "slug": "ditto",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Nextmv",
+        "slug": "nextmv",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Datasaur",
+        "slug": "datasaur",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Weav",
+        "slug": "weav",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 2974,
+      "network_density_score": 85.6,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": false,
+      "calculated_at": "2025-10-17T10:24:05.365510"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:05.365517",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:05.709175",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:05.844259",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 2,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:42:03.762970",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "medium",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increasing demand for cross-platform applications",
+        "Growing adoption of desktop apps for specific use cases",
+        "Simplification of app development and deployment processes"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "First-mover advantage in a niche market, established brand, potentially strong integrations with existing developer workflows.",
+      "differentiation": "All-in-one platform focusing on simplifying desktop app building and release across multiple operating systems.",
+      "competitive_advantages": [
+        "Simplified deployment process",
+        "Cross-platform compatibility"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on underlying OS technologies",
+        "Potential competition from larger players with broader offerings"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "low"
+    },
+    "growth_assessment": {
+      "growth_stage": "seed",
+      "growth_indicators": [
+        "Customer acquisition rate",
+        "Platform usage metrics"
+      ],
+      "growth_bottlenecks": [
+        "Marketing and sales effectiveness",
+        "Integration with developer workflows"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Competition from larger players",
+        "Changes in OS development environments",
+        "Adoption rate among developers"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Addresses a clear pain point for developers",
+        "Potential for strong recurring revenue",
+        "Scalable business model"
+      ],
+      "concerns": [
+        "Market size limitations",
+        "Dependence on external platforms"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Electron",
+        "NW.js"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on user acquisition and retention",
+        "Expand platform features and integrations"
+      ],
+      "expansion_opportunities": [
+        "Offer enterprise-level support and features",
+        "Develop a marketplace for desktop app components"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 657,
+      "completion": 592,
+      "total": 1249,
+      "estimated_cost": 0.000227
+    }
+  },
+  "phase8_complete": true
+}

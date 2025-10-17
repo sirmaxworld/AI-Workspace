@@ -1,0 +1,256 @@
+{
+  "market_intelligence": {
+    "target_markets": [
+      {
+        "market_description": "Business owners and entrepreneurs looking to implement AI agents for competitive advantage",
+        "demographics": [
+          "business owners",
+          "entrepreneurs",
+          "non-technical people wanting to use AI"
+        ],
+        "pain_points": [
+          "AI agents are difficult to set up",
+          "hard to give AI tools external access",
+          "complex technical barriers for non-technical users"
+        ],
+        "market_size_indicators": "99.9% of people using AI today can be outcompeted with proper setup"
+      }
+    ],
+    "problems_validated": [
+      {
+        "problem": "AI agents are really hard to build and impossible for non-technical people to understand in code bases",
+        "severity": "High - described as 'impossible for non-technical people to wrap their heads around'",
+        "current_solutions": "Basic ChatGPT, Claude without tools, traditional workflow automation like Zapier",
+        "market_gap": "No company has made it really easy to add external tools to AI agents"
+      }
+    ]
+  },
+  "products_tools": [
+    {
+      "name": "Claude Sonnet 4 and Opus 4",
+      "category": "ai-tool",
+      "use_case": "AI agents out of the box that can use tools in loops",
+      "sentiment": "positive",
+      "pricing": "not mentioned",
+      "metrics": "not mentioned"
+    },
+    {
+      "name": "N8N",
+      "category": "saas",
+      "use_case": "Workflow automation platform with AI agent nodes for non-technical users",
+      "sentiment": "positive/recommended",
+      "pricing": "not mentioned",
+      "metrics": "going viral, trending on Google Trends"
+    },
+    {
+      "name": "Perplexity",
+      "category": "ai-tool",
+      "use_case": "AI search with internet access tool",
+      "sentiment": "positive",
+      "pricing": "not mentioned",
+      "metrics": "billion-dollar company"
+    },
+    {
+      "name": "Cursor",
+      "category": "ai-tool",
+      "use_case": "AI coding assistant with codebase search and internet search tools",
+      "sentiment": "positive/recommended",
+      "pricing": "not mentioned",
+      "metrics": "described as 'amazing' and 'a miracle'"
+    },
+    {
+      "name": "Docker MCP toolkit",
+      "category": "ai-tool",
+      "use_case": "Adding tools to Claude AI agents",
+      "sentiment": "positive",
+      "pricing": "not mentioned",
+      "metrics": "not mentioned"
+    },
+    {
+      "name": "ideabrowser.com",
+      "category": "saas",
+      "use_case": "Daily startup ideas backed by AI trend analysis",
+      "sentiment": "positive/recommended",
+      "pricing": "free plan available, paid plans for more features",
+      "metrics": "not mentioned"
+    }
+  ],
+  "business_strategies": [
+    {
+      "strategy_type": "operations",
+      "strategy": "Build AI agents with tools to create competitive moats like Perplexity and Cursor did",
+      "implementation": "Add specific tools relevant to your industry (search, codebase access, content creation)",
+      "expected_results": "Transform business, save hours of time, outcompete 99.9% of AI users",
+      "case_study": "Perplexity built billion-dollar company by adding single search tool to AI"
+    },
+    {
+      "strategy_type": "growth",
+      "strategy": "Use AI agents to identify trending startup opportunities",
+      "implementation": "Use AI agents to search what people are looking for and screaming for in terms of products",
+      "expected_results": "Hand-delivered startup ideas on silver platter",
+      "case_study": "ideabrowser.com implementation"
+    }
+  ],
+  "problems_solutions": [
+    {
+      "problem": "MCPs are difficult to set up for AI agents",
+      "category": "technical",
+      "solution": "Use Docker MCP toolkit and N8N for easier implementation",
+      "steps": [
+        "Download Docker",
+        "Use Docker MCP toolkit",
+        "Add tools to Claude interface"
+      ],
+      "tools_needed": [
+        "Docker",
+        "Claude",
+        "MCP toolkit"
+      ],
+      "difficulty": "intermediate",
+      "time_estimate": "not mentioned"
+    },
+    {
+      "problem": "Non-technical people can't understand AI agent workflows in code",
+      "category": "technical",
+      "solution": "Use N8N's visual interface for AI agents",
+      "steps": [
+        "Use N8N instead of traditional if-then workflows",
+        "Create AI agent node",
+        "Give agent access to tools",
+        "Let agent decide tool usage and duration"
+      ],
+      "tools_needed": [
+        "N8N"
+      ],
+      "difficulty": "beginner",
+      "time_estimate": "not mentioned"
+    }
+  ],
+  "startup_ideas": [
+    {
+      "idea": "Industry-specific AI agent platforms with pre-built tool sets",
+      "target_market": "Non-technical business owners in specific industries",
+      "problem_solved": "Difficulty of setting up AI agents with relevant tools",
+      "business_model": "SaaS platform with industry-specific tool packages",
+      "validation": "Current trend growth in MCP, N8N, and AI agent builders",
+      "investment_needed": "not mentioned"
+    }
+  ],
+  "mistakes_to_avoid": [
+    {
+      "mistake": "Getting distracted by buzzwords like MCP instead of focusing on core concepts",
+      "consequences": "Missing the actual value of agents with tools",
+      "prevention": "Focus on 'agents with tools' concept rather than technical jargon",
+      "example": "MCP is just a buzzword distracting from the sauce"
+    }
+  ],
+  "growth_tactics": [
+    {
+      "channel": "content",
+      "tactic": "Create AI agents with marketing-specific tools for content creation",
+      "steps": [
+        "Build marketing topic codebase",
+        "Add YouTube summarizers",
+        "Add AI ad copy creators",
+        "Add voice document access",
+        "Enable website scraping"
+      ],
+      "cost_estimate": "not mentioned",
+      "results_expected": "Create better content, copy, and marketing materials"
+    }
+  ],
+  "ai_workflows": [
+    {
+      "workflow_name": "AI Agent with Tools Loop",
+      "tools_used": [
+        "Claude Sonnet 4 or Opus 4",
+        "Various external tools via MCP"
+      ],
+      "steps": [
+        "Input goes to agent",
+        "Agent decides which tools to use",
+        "Agent uses tools in loop until task complete",
+        "Agent outputs final result"
+      ],
+      "automation_level": "semi-automated",
+      "use_case": "Complex tasks requiring multiple tool interactions and decision making"
+    },
+    {
+      "workflow_name": "Marketing AI Agent Workflow",
+      "tools_used": [
+        "YouTube summarizers",
+        "AI ad copy creators",
+        "Voice documents",
+        "Website scrapers"
+      ],
+      "steps": [
+        "Agent receives marketing task",
+        "Accesses relevant marketing tools",
+        "Creates content/copy based on scraped data and voice",
+        "Outputs marketing materials"
+      ],
+      "automation_level": "semi-automated",
+      "use_case": "Content creation and marketing automation"
+    }
+  ],
+  "metrics_kpis": [],
+  "trends_signals": [
+    {
+      "trend": "AI agents with tools are becoming mainstream",
+      "category": "technology",
+      "stage": "growing",
+      "opportunity": "Build industry-specific AI agent platforms before market saturates"
+    },
+    {
+      "trend": "People are dying to build AI agents",
+      "category": "market",
+      "stage": "growing",
+      "opportunity": "Create easier tools and platforms for AI agent development"
+    },
+    {
+      "trend": "Era of the idea guy according to Sam Altman",
+      "category": "market",
+      "stage": "early",
+      "opportunity": "Incredible time to be building startups with AI assistance"
+    }
+  ],
+  "actionable_quotes": [
+    {
+      "quote": "AI agents are models using tools in a loop",
+      "context": "Best definition for AI agent that removes extra noise",
+      "category": "tactical",
+      "actionability": "Use this definition to focus on building agents that can use tools iteratively"
+    },
+    {
+      "quote": "It is the era of the idea guy",
+      "context": "Sam Altman quote about current startup environment",
+      "category": "mindset",
+      "actionability": "Focus on ideas and let AI handle implementation complexity"
+    },
+    {
+      "quote": "People are dying to build AI agents",
+      "context": "Market demand observation based on Google Trends",
+      "category": "strategy",
+      "actionability": "Build tools and platforms that help people create AI agents more easily"
+    }
+  ],
+  "key_statistics": [
+    {
+      "statistic": "Outcompete 99.9% of people using AI today",
+      "context": "Potential advantage of properly setting up AI agents with tools",
+      "source_reliability": "claimed"
+    },
+    {
+      "statistic": "Perplexity built a billion-dollar company",
+      "context": "Success from adding single search tool to AI model",
+      "source_reliability": "claimed"
+    }
+  ],
+  "meta": {
+    "video_id": "GOHdTwKdT14",
+    "title": "I built next gen AI Agents with MCP + Claude (STEAL my workflow)",
+    "extracted_at": "2025-10-15T21:54:45.301551",
+    "model": "claude-sonnet-4-20250514",
+    "transcript_length": 32543
+  }
+}

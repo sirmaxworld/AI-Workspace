@@ -1,0 +1,571 @@
+{
+  "slug": "bird",
+  "name": "Bird",
+  "yc_id": 1433,
+  "batch": "Summer 2016",
+  "website": "http://bird.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:38:20.254346",
+    "website": "http://bird.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 395.2,
+      "final_url": "https://bird.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:38:20.649558"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "bird.com",
+      "registrar": "MarkMonitor, Inc.",
+      "creation_date": "1992-02-14T05:00:00",
+      "expiration_date": "2030-02-15T05:00:00",
+      "domain_age_days": 12298,
+      "domain_age_years": 33.7,
+      "name_servers": [
+        "NS-1356.AWSDNS-41.ORG",
+        "NS-1825.AWSDNS-36.CO.UK",
+        "NS-232.AWSDNS-29.COM",
+        "NS-790.AWSDNS-34.NET"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://x.com/messagebird",
+      "linkedin": "https://www.linkedin.com/company/birdhq/",
+      "github": null,
+      "facebook": null,
+      "instagram": "https://instagram.com/messagebird",
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": true,
+      "x_content_type_options": true,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 50,
+      "server": "Framer/56b5dd6"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:17:55.638710",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:17:44.932252",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "Amsterdam, Netherlands",
+      "coordinates": {
+        "latitude": 52.3676,
+        "longitude": 4.9041
+      },
+      "timezone": {
+        "timezone_id": "Europe/Amsterdam",
+        "timezone_name": "Europe/Amsterdam"
+      },
+      "retrieved_at": "2025-10-17T10:14:40.014104",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:17:44.932279",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:17:44.932281",
+    "batch_network": {
+      "batch": "Summer 2016",
+      "total_batch_mates": 101,
+      "active_batch_mates": 46,
+      "batch_success_rate": 45.5,
+      "notable_batch_mates": [
+        {
+          "name": "Seneca Systems",
+          "slug": "seneca-systems",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Constituent system-of-record and service request management software\u2026"
+        },
+        {
+          "name": "SimpleCitizen",
+          "slug": "simplecitizen",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "From signup to citizenship, only SimpleCitizen guides applicants\u2026"
+        },
+        {
+          "name": "Iris Automation",
+          "slug": "iris-automation",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Enabling autonomous drone operations globally through AI software"
+        },
+        {
+          "name": "Opsolutely",
+          "slug": "opsolutely",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Automated deployments for software teams."
+        },
+        {
+          "name": "Techmate",
+          "slug": "techmate",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A technology concierge for your home. We provide on-demand support\u2026"
+        },
+        {
+          "name": "Fabric",
+          "slug": "fabric",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Fabric is a personal location-based journal that catalogs experiences\u2026"
+        },
+        {
+          "name": "garten",
+          "slug": "garten",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Creating workplace wellbeing."
+        },
+        {
+          "name": "Burrow",
+          "slug": "burrow",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A design brand creating innovative, award winning furniture."
+        },
+        {
+          "name": "Pursuit",
+          "slug": "pursuit",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Revlo helps broadcasters on Twitch engage and monetize their fan\u2026"
+        },
+        {
+          "name": "Symple",
+          "slug": "symple",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Last mile logistics for delivery & service teams. We bring real-time\u2026"
+        }
+      ],
+      "batch_size": 102
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "status": "Active",
+          "batch": "Winter 2012",
+          "one_liner": "High Performance Computing Built for the Cloud"
+        },
+        {
+          "name": "Marft",
+          "slug": "marft",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Marft creates embeddable machine learning models for application\u2026"
+        },
+        {
+          "name": "Pixelapse",
+          "slug": "pixelapse",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Github for designers. We automatically keep track of revisions of\u2026"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Palantir for sales people"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Smart search for the modern team."
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Authy is a Two-Factor Authentication platform for developers"
+        },
+        {
+          "name": "Flutter",
+          "slug": "flutter",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Flutter combined computer vision technology with the built-in webcams\u2026"
+        },
+        {
+          "name": "SolidStage",
+          "slug": "solidstage",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Sysadmin as a service. We make deploying, configuring, monitoring,\u2026"
+        },
+        {
+          "name": "Clutch",
+          "slug": "clutch",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "An easy to integrate library for native iOS applications designed to\u2026"
+        },
+        {
+          "name": "OneSignal",
+          "slug": "onesignal",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Engage customers through personalized omni-channel messaging"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Amsterdam",
+      "location": "Amsterdam, NH, Netherlands",
+      "companies_in_city": 7,
+      "active_in_city": 5,
+      "nearby_companies": [
+        {
+          "name": "Impraise",
+          "slug": "impraise",
+          "batch": "Summer 2014",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Tella",
+          "slug": "tella",
+          "batch": "Summer 2020",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Echoes HQ",
+          "slug": "echoes-hq",
+          "batch": "Summer 2021",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Quest",
+          "slug": "quest",
+          "batch": "Summer 2021",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "CUTR",
+          "slug": "cutr",
+          "batch": "Winter 2022",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Fini",
+          "slug": "fini",
+          "batch": "Summer 2022",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "ReJot",
+          "slug": "rejot",
+          "batch": "Winter 2025",
+          "industry": "B2B",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "low"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Sixa",
+        "slug": null,
+        "batch": "Summer 2016",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Opsolutely",
+        "slug": "opsolutely",
+        "batch": "Summer 2016",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Scale AI",
+        "slug": "scale-ai",
+        "batch": "Summer 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "RunKit",
+        "slug": "runkit",
+        "batch": "Summer 2016",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Echoes HQ",
+        "slug": "echoes-hq",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "CUTR",
+        "slug": "cutr",
+        "batch": "Winter 2022",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "ReJot",
+        "slug": "rejot",
+        "batch": "Winter 2025",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Mindori",
+        "slug": "mindori",
+        "batch": "Summer 2016",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "NuCypher (aka Threshold Network)",
+        "slug": "nucypher-aka-threshold-network",
+        "batch": "Summer 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Vetcove",
+        "slug": "vetcove",
+        "batch": "Summer 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 2854,
+      "network_density_score": 61.6,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": false,
+      "calculated_at": "2025-10-17T10:17:44.939308"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:17:44.939314",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:17:45.267232",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:17:45.408676",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 500,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:47.181904",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increased customer expectations for omnichannel experiences",
+        "Growing adoption of messaging apps for business communication",
+        "Rise of AI-powered communication tools"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Established platform with a large customer base and integrations with multiple channels creates a network effect.",
+      "differentiation": "Global reach and comprehensive channel support (SMS, Voice, WhatsApp, WeChat, Messenger, Email, etc.)",
+      "competitive_advantages": [
+        "Wide range of channel support",
+        "Global infrastructure and reach"
+      ],
+      "competitive_vulnerabilities": [
+        "Potential for disruption by newer, more agile competitors",
+        "Reliance on third-party channel providers"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "Customer acquisition rate",
+        "Expansion into new markets"
+      ],
+      "growth_bottlenecks": [
+        "Competition in a crowded market",
+        "Integration challenges with diverse communication channels"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Dependence on third-party APIs",
+        "Security vulnerabilities in communication channels",
+        "Changing regulations regarding data privacy"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong market position",
+        "Comprehensive omnichannel platform",
+        "Large customer base"
+      ],
+      "concerns": [
+        "Increasing competition",
+        "Potential for commoditization of communication services"
+      ],
+      "exit_potential": "IPO/acquisition",
+      "comparable_companies": [
+        "Twilio",
+        "MessageBird"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on product innovation and differentiation",
+        "Strengthen partnerships with key channel providers"
+      ],
+      "expansion_opportunities": [
+        "Expand into emerging markets",
+        "Develop AI-powered communication solutions"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 713,
+      "completion": 506,
+      "total": 1219,
+      "estimated_cost": 0.000205
+    }
+  },
+  "phase8_complete": true
+}

@@ -1,0 +1,626 @@
+{
+  "slug": "mythia",
+  "name": "Mythia",
+  "yc_id": 23185,
+  "batch": "Winter 2021",
+  "website": "",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T01:01:34.682783",
+    "status": "no_website"
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:27:28.575559",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:27:17.019768",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "San Francisco, CA, USA",
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:14:18.656822",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:27:17.019787",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:27:17.019789",
+    "batch_network": {
+      "batch": "Winter 2021",
+      "total_batch_mates": 335,
+      "active_batch_mates": 245,
+      "batch_success_rate": 73.1,
+      "notable_batch_mates": [
+        {
+          "name": "Stacksi",
+          "slug": "stacksi",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Automated Answers to Security Questionnaires"
+        },
+        {
+          "name": "Furmacy",
+          "slug": "furmacy",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Digital e-prescribing software for veterinarians."
+        },
+        {
+          "name": "Fountain9",
+          "slug": "fountain9",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Helping food brands and retailers reduce food wastage"
+        },
+        {
+          "name": "Zepto",
+          "slug": "zepto",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "10-Minute Grocery Delivery in India"
+        },
+        {
+          "name": "Segments.ai",
+          "slug": "segments-ai",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Build better computer vision models by building better datasets"
+        },
+        {
+          "name": "PingPong",
+          "slug": "pingpong",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Video messaging app for remote teams."
+        },
+        {
+          "name": "ClipDrop",
+          "slug": "clipdrop",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Turn regular mobile photos into professional product visuals"
+        },
+        {
+          "name": "Avenue",
+          "slug": "avenue",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Observability platform for operations teams"
+        },
+        {
+          "name": "Flok",
+          "slug": "flok",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "End to end company retreat planning"
+        },
+        {
+          "name": "HyperGlue",
+          "slug": "hyperglue",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Business intelligence on text"
+        }
+      ],
+      "batch_size": 336
+    },
+    "industry_network": {
+      "industries": [
+        "Fintech"
+      ],
+      "total_industry_peers": 597,
+      "active_industry_peers": 448,
+      "direct_competitors": [
+        {
+          "name": "Y Combinator",
+          "slug": "y-combinator",
+          "status": "Active",
+          "batch": "Unspecified",
+          "one_liner": "Not your average fixed point combinator."
+        },
+        {
+          "name": "Stripe",
+          "slug": "stripe",
+          "status": "Active",
+          "batch": "Summer 2009",
+          "one_liner": "Economic infrastructure for the internet."
+        },
+        {
+          "name": "True Link",
+          "slug": "true-link",
+          "status": "Active",
+          "batch": "Summer 2013",
+          "one_liner": "Financial Services for Financial Caregivers. "
+        },
+        {
+          "name": "OpenInvest",
+          "slug": "openinvest",
+          "status": "Acquired",
+          "batch": "Summer 2015",
+          "one_liner": "Values based personalization at scale for asset and wealth management"
+        },
+        {
+          "name": "Paribus",
+          "slug": "paribus",
+          "status": "Acquired",
+          "batch": "Summer 2015",
+          "one_liner": ""
+        },
+        {
+          "name": "FAZZ",
+          "slug": "fazz",
+          "status": "Active",
+          "batch": "Summer 2017",
+          "one_liner": "All-in-one Finance for Every Southeast Asia Business"
+        },
+        {
+          "name": "CoinTracker",
+          "slug": "cointracker",
+          "status": "Active",
+          "batch": "Winter 2018",
+          "one_liner": "The gold standard in cryptocurrency portfolio tracking and taxes"
+        },
+        {
+          "name": "OWNY",
+          "slug": "owny",
+          "status": "Active",
+          "batch": "Summer 2018",
+          "one_liner": "Manage capital, investors & banking in one place."
+        },
+        {
+          "name": "Nova",
+          "slug": "nova-2",
+          "status": "Acquired",
+          "batch": "Summer 2018",
+          "one_liner": "Digital subscriptions that delight investors."
+        },
+        {
+          "name": "Kalshi",
+          "slug": "kalshi",
+          "status": "Active",
+          "batch": "Winter 2019",
+          "one_liner": "1st federally regulated exchange where people can trade on events"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "San Francisco",
+      "location": "San Francisco, CA, USA; Remote",
+      "companies_in_city": 2007,
+      "active_in_city": 1340,
+      "nearby_companies": [
+        {
+          "name": "42Floors",
+          "slug": "42floors",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "PlanGrid",
+          "slug": "plangrid",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "MyVR",
+          "slug": "myvr",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Couple",
+          "slug": "couple",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HackPad",
+          "slug": "hackpad",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Gusto",
+          "slug": "gusto",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "FamilyLeaf",
+          "slug": "familyleaf",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Chute",
+          "slug": "chute",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Make School",
+          "slug": "make-school",
+          "batch": "Winter 2012",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Exec",
+          "slug": "exec",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Public"
+        },
+        {
+          "name": "LendUp",
+          "slug": "lendup",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tilt",
+          "slug": "tilt",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fond",
+          "slug": "fond",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Finley",
+        "slug": "finley",
+        "batch": "Winter 2021",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Pibit.ai",
+        "slug": "pibit-ai",
+        "batch": "Winter 2021",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Pesto",
+        "slug": "pesto",
+        "batch": "Winter 2021",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Fractional",
+        "slug": "fractional",
+        "batch": "Winter 2021",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Sivo",
+        "slug": "sivo",
+        "batch": "Winter 2021",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Purpose Finance",
+        "slug": "purpose-finance",
+        "batch": "Winter 2021",
+        "industry": "Fintech",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Tint",
+        "slug": "tint",
+        "batch": "Winter 2021",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Cheqout",
+        "slug": "cheqout",
+        "batch": "Winter 2021",
+        "industry": "Fintech",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Shepherd",
+        "slug": "shepherd",
+        "batch": "Winter 2021",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Atrato",
+        "slug": "atrato",
+        "batch": "Winter 2021",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 2939,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:27:17.046239"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:27:17.046245",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:27:17.369581",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:27:17.462211",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 0,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "gpt-4o",
+    "enriched_at": "2025-10-17T11:35:44.967488",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "large",
+      "market_stage": "growing",
+      "key_trends": [
+        "increased gaming monetization",
+        "rise of digital rewards",
+        "integration of fintech in gaming"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "network effects through gamer community engagement",
+      "differentiation": "focus on gaming-specific rewards",
+      "competitive_advantages": [
+        "niche focus on gamers",
+        "potential for partnerships with gaming companies"
+      ],
+      "competitive_vulnerabilities": [
+        "inactive status",
+        "lack of team"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "transaction fees and partnerships",
+      "scalability": "medium",
+      "capital_intensity": "low"
+    },
+    "growth_assessment": {
+      "growth_stage": "pre-seed",
+      "growth_indicators": [
+        "initial YC backing",
+        "emerging market interest"
+      ],
+      "growth_bottlenecks": [
+        "inactive status",
+        "no team to execute strategy"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "high",
+      "overall_risk_score": 4,
+      "key_risks": [
+        "inactive status",
+        "lack of execution capability",
+        "market competition"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "growing gaming market",
+        "potential for unique partnerships",
+        "YC network"
+      ],
+      "concerns": [
+        "inactive status",
+        "no team"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Twitch",
+        "Razer"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "recruit a founding team",
+        "validate market interest through pilot programs"
+      ],
+      "expansion_opportunities": [
+        "partner with game developers",
+        "expand rewards to include in-game assets"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 567,
+      "completion": 405,
+      "total": 972,
+      "estimated_cost": 0.005468
+    }
+  },
+  "phase8_complete": true
+}

@@ -1,0 +1,515 @@
+{
+  "slug": "blink",
+  "name": "Blink",
+  "yc_id": 23445,
+  "batch": "Winter 2021",
+  "website": "https://www.blinklastmile.com/en/",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T01:02:50.242224",
+    "website": "https://www.blinklastmile.com/en/",
+    "website_status": {
+      "reachable": false,
+      "error": "connection_error"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "blinklastmile.com",
+      "registrar": "Amazon Registrar, Inc.",
+      "creation_date": "2019-08-07T08:28:45",
+      "expiration_date": "2026-08-07T08:28:45",
+      "domain_age_days": 2262,
+      "domain_age_years": 6.2,
+      "name_servers": [
+        "NS-1071.AWSDNS-05.ORG",
+        "NS-2027.AWSDNS-61.CO.UK",
+        "NS-459.AWSDNS-57.COM",
+        "NS-542.AWSDNS-03.NET"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "error": "HTTPSConnectionPool(host='www.blinklastmile.com', port=443): Max retries exceeded with url: /en/ (Ca"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:27:59.195174",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:27:47.489087",
+    "place_data": {
+      "status": "success",
+      "method": "nominatim",
+      "formatted_address": "Milano, Lombardia, Italia",
+      "coordinates": {
+        "latitude": 45.4641943,
+        "longitude": 9.1896346
+      },
+      "place_types": [
+        "administrative"
+      ],
+      "retrieved_at": "2025-10-17T10:27:47.771220"
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:27:47.771776",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:27:47.771780",
+    "batch_network": {
+      "batch": "Winter 2021",
+      "total_batch_mates": 335,
+      "active_batch_mates": 245,
+      "batch_success_rate": 73.1,
+      "notable_batch_mates": [
+        {
+          "name": "Stacksi",
+          "slug": "stacksi",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Automated Answers to Security Questionnaires"
+        },
+        {
+          "name": "Furmacy",
+          "slug": "furmacy",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Digital e-prescribing software for veterinarians."
+        },
+        {
+          "name": "Fountain9",
+          "slug": "fountain9",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Helping food brands and retailers reduce food wastage"
+        },
+        {
+          "name": "Zepto",
+          "slug": "zepto",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "10-Minute Grocery Delivery in India"
+        },
+        {
+          "name": "Segments.ai",
+          "slug": "segments-ai",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Build better computer vision models by building better datasets"
+        },
+        {
+          "name": "PingPong",
+          "slug": "pingpong",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Video messaging app for remote teams."
+        },
+        {
+          "name": "ClipDrop",
+          "slug": "clipdrop",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Turn regular mobile photos into professional product visuals"
+        },
+        {
+          "name": "Avenue",
+          "slug": "avenue",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Observability platform for operations teams"
+        },
+        {
+          "name": "Flok",
+          "slug": "flok",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "End to end company retreat planning"
+        },
+        {
+          "name": "HyperGlue",
+          "slug": "hyperglue",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Business intelligence on text"
+        }
+      ],
+      "batch_size": 336
+    },
+    "industry_network": {
+      "industries": [
+        "Industrials",
+        "Automotive"
+      ],
+      "total_industry_peers": 318,
+      "active_industry_peers": 246,
+      "direct_competitors": [
+        {
+          "name": "Cruise",
+          "slug": "cruise",
+          "status": "Acquired",
+          "batch": "Winter 2014",
+          "one_liner": "Self-driving cars."
+        },
+        {
+          "name": "Auro Robotics",
+          "slug": "auro-robotics",
+          "status": "Acquired",
+          "batch": "Summer 2015",
+          "one_liner": "Autonomous shuttles for campus-like environments."
+        },
+        {
+          "name": "Embark Trucks",
+          "slug": "embark-trucks",
+          "status": "Public",
+          "batch": "Winter 2016",
+          "one_liner": "Self-driving semi trucks."
+        },
+        {
+          "name": "Open Motors",
+          "slug": "open-motors",
+          "status": "Inactive",
+          "batch": "Winter 2016",
+          "one_liner": "Open Motors (formerly OSVehicle) is a B2B company that is developing\u2026"
+        },
+        {
+          "name": "Starsky Robotics",
+          "slug": "starsky-robotics",
+          "status": "Inactive",
+          "batch": "Summer 2016",
+          "one_liner": "Driverless Trucks, for real."
+        },
+        {
+          "name": "lvl5",
+          "slug": "lvl5",
+          "status": "Acquired",
+          "batch": "Winter 2017",
+          "one_liner": "HD maps for self-driving cars."
+        },
+        {
+          "name": "May Mobility",
+          "slug": "may-mobility",
+          "status": "Active",
+          "batch": "Summer 2017",
+          "one_liner": "Transforming cities and rural areas through AV transit and technology"
+        },
+        {
+          "name": "Zendar",
+          "slug": "zendar",
+          "status": "Active",
+          "batch": "Summer 2017",
+          "one_liner": "We make high definition radar allowing self-driving cars to see in\u2026"
+        },
+        {
+          "name": "Phiar",
+          "slug": "phiar",
+          "status": "Acquired",
+          "batch": "Summer 2018",
+          "one_liner": "We are developing a revolutionary AI-powered augmented reality\u2026"
+        },
+        {
+          "name": "Passenger AI",
+          "slug": "passenger-ai",
+          "status": "Inactive",
+          "batch": "Summer 2018",
+          "one_liner": "Software for robotaxi operations."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Milan",
+      "location": "Milan, Lombardy, Italy",
+      "companies_in_city": 0,
+      "active_in_city": 0,
+      "nearby_companies": [],
+      "ecosystem_density": "low"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Faction",
+        "slug": "faction",
+        "batch": "Winter 2021",
+        "industry": "Industrials",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Atomic Industries",
+        "slug": "atomic-industries",
+        "batch": "Winter 2021",
+        "industry": "Industrials",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Alba Orbital",
+        "slug": "alba-orbital",
+        "batch": "Winter 2021",
+        "industry": "Industrials",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Albedo",
+        "slug": "albedo",
+        "batch": "Winter 2021",
+        "industry": "Industrials",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Flux Auto",
+        "slug": "flux-auto",
+        "batch": "Winter 2021",
+        "industry": "Industrials",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Noya",
+        "slug": "noya",
+        "batch": "Winter 2021",
+        "industry": "Industrials",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Gridware",
+        "slug": "gridware",
+        "batch": "Winter 2021",
+        "industry": "Industrials",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Orbillion Bio",
+        "slug": "orbillion-bio",
+        "batch": "Winter 2021",
+        "industry": "Industrials",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Care Weather",
+        "slug": "care-weather",
+        "batch": "Winter 2021",
+        "industry": "Industrials",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Roin Technologies",
+        "slug": "roin-technologies",
+        "batch": "Winter 2021",
+        "industry": "Industrials",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 653,
+      "network_density_score": 92.4,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": false,
+      "calculated_at": "2025-10-17T10:27:47.776903"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:27:47.776907",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:27:48.116422",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:27:48.219552",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 5,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:40:38.580300",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Rising e-commerce penetration in Europe",
+        "Consumer demand for faster delivery options",
+        "Last-mile logistics optimization through technology"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Limited moat - relies on operational efficiency and network density rather than proprietary technology",
+      "differentiation": "Focus on European market with hybrid fulfillment model combining physical stores and dark stores",
+      "competitive_advantages": [
+        "Real-time route optimization",
+        "Flexible fulfillment network",
+        "Consumer delivery personalization"
+      ],
+      "competitive_vulnerabilities": [
+        "Intense competition from established players",
+        "High operational complexity",
+        "Dependence on crowdsourced delivery model"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "marketplace",
+      "scalability": "medium",
+      "capital_intensity": "high"
+    },
+    "growth_assessment": {
+      "growth_stage": "seed",
+      "growth_indicators": [
+        "Y Combinator backing",
+        "European market focus",
+        "Multi-modal fulfillment approach"
+      ],
+      "growth_bottlenecks": [
+        "High customer acquisition costs",
+        "Complex logistics coordination",
+        "Regulatory compliance across European markets"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "high",
+      "overall_risk_score": 7,
+      "key_risks": [
+        "Inactive status indicates execution challenges",
+        "Intense competition from Amazon, DHL, and local players",
+        "High operational costs and thin margins"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Large addressable market",
+        "Growing demand for same-day delivery",
+        "Experienced team with logistics background"
+      ],
+      "concerns": [
+        "Company is currently inactive",
+        "Highly competitive market with established players",
+        "Capital-intensive business model"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Stuart",
+        "Glovo",
+        "Deliveroo"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Investigate reasons for inactive status",
+        "Assess potential for pivot or restart"
+      ],
+      "expansion_opportunities": [
+        "Vertical-specific delivery solutions",
+        "B2B logistics services",
+        "White-label delivery platform"
+      ]
+    },
+    "tokens_used": {
+      "input": 731,
+      "output": 567,
+      "total": 1298,
+      "estimated_cost": 0.010698
+    }
+  },
+  "phase8_complete": true
+}

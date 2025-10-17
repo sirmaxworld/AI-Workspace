@@ -1,0 +1,163 @@
+{
+  "schema_version": "1.0",
+  "description": "Business intelligence extraction schema for video transcripts",
+
+  "market_intelligence": {
+    "target_market": {
+      "demographics": ["age_range", "income_level", "profession", "location"],
+      "psychographics": ["pain_points", "goals", "values", "lifestyle"],
+      "behavioral": ["buying_patterns", "tech_adoption", "decision_factors"]
+    },
+    "market_opportunity": {
+      "problem_validation": ["problem_description", "severity", "frequency", "current_solutions"],
+      "market_size": ["tam_estimate", "market_segments", "growth_trends"],
+      "competition": ["competitors_mentioned", "competitor_weaknesses", "market_gaps"]
+    }
+  },
+
+  "product_intelligence": {
+    "products_mentioned": {
+      "product_name": "string",
+      "product_category": ["saas", "mobile_app", "ai_tool", "service", "physical_product"],
+      "sentiment": ["positive", "negative", "neutral", "recommended", "cautioned"],
+      "use_case": "string",
+      "pricing_mentioned": "string",
+      "metrics_shared": ["revenue", "users", "growth_rate", "conversion_rate"]
+    },
+    "product_recommendations": {
+      "recommended_for": ["use_case", "target_audience", "problem_solved"],
+      "alternatives": ["product_name", "comparison_points"],
+      "integration_potential": "string"
+    }
+  },
+
+  "business_strategies": {
+    "monetization": {
+      "revenue_models": ["saas", "ads", "marketplace", "affiliate", "sponsorship", "freemium"],
+      "pricing_strategies": ["tiered", "usage_based", "flat_rate", "value_based"],
+      "examples": ["case_study", "revenue_numbers", "metrics"]
+    },
+    "growth_tactics": {
+      "acquisition_channels": ["seo", "paid_ads", "content", "partnerships", "viral", "community"],
+      "tactics_explained": ["step_by_step", "cost_estimate", "timeframe", "expected_results"],
+      "case_studies": ["company_name", "strategy_used", "results_achieved"]
+    },
+    "operations": {
+      "tools_stack": ["tool_name", "category", "purpose", "cost"],
+      "team_structure": ["roles_needed", "hiring_strategy", "outsourcing_tips"],
+      "automation": ["process_automated", "tools_used", "efficiency_gained"]
+    }
+  },
+
+  "problem_solutions": {
+    "problems_discussed": {
+      "problem_statement": "string",
+      "category": ["technical", "business", "marketing", "product", "operational"],
+      "severity": ["critical", "major", "minor"],
+      "frequency": ["common", "occasional", "rare"],
+      "affected_users": "string"
+    },
+    "solutions_provided": {
+      "solution_description": "string",
+      "implementation_steps": ["array_of_steps"],
+      "tools_required": ["tool_name", "category"],
+      "cost_estimate": "string",
+      "difficulty_level": ["beginner", "intermediate", "advanced"],
+      "time_to_implement": "string",
+      "results_expected": "string"
+    },
+    "mistakes_to_avoid": {
+      "mistake_description": "string",
+      "consequences": "string",
+      "prevention": "string",
+      "real_examples": "string"
+    }
+  },
+
+  "entrepreneurship_insights": {
+    "startup_ideas": {
+      "idea_description": "string",
+      "target_market": "string",
+      "problem_solved": "string",
+      "business_model": "string",
+      "validation_method": "string",
+      "estimated_investment": "string",
+      "potential_revenue": "string"
+    },
+    "success_metrics": {
+      "metric_name": "string",
+      "benchmark_values": "string",
+      "tracking_method": "string",
+      "optimization_tips": "string"
+    },
+    "mindset_lessons": {
+      "lesson": "string",
+      "context": "string",
+      "application": "string"
+    }
+  },
+
+  "technical_implementation": {
+    "ai_workflows": {
+      "workflow_name": "string",
+      "tools_used": ["tool_name", "category"],
+      "steps": ["array_of_steps"],
+      "automation_level": ["manual", "semi_automated", "fully_automated"],
+      "results": "string"
+    },
+    "code_examples": {
+      "use_case": "string",
+      "language": "string",
+      "framework": "string",
+      "complexity": ["simple", "moderate", "complex"]
+    }
+  },
+
+  "trends_signals": {
+    "emerging_trends": {
+      "trend_description": "string",
+      "category": ["technology", "business_model", "market", "consumer_behavior"],
+      "stage": ["early", "growing", "mainstream", "declining"],
+      "opportunity_level": ["high", "medium", "low"]
+    },
+    "predictions": {
+      "prediction": "string",
+      "timeframe": "string",
+      "confidence": ["high", "medium", "low"],
+      "implications": "string"
+    }
+  },
+
+  "quotes_insights": {
+    "actionable_quotes": {
+      "quote": "string",
+      "speaker": "string",
+      "context": "string",
+      "category": ["strategy", "mindset", "tactical", "inspirational"],
+      "timestamp": "string"
+    },
+    "key_statistics": {
+      "statistic": "string",
+      "source": "string",
+      "context": "string",
+      "verification_status": ["verified", "claimed", "estimated"]
+    }
+  },
+
+  "meta_information": {
+    "video_metadata": {
+      "video_id": "string",
+      "title": "string",
+      "channel": "string",
+      "upload_date": "string",
+      "duration": "number",
+      "view_count": "number"
+    },
+    "extraction_metadata": {
+      "extracted_at": "string",
+      "model_used": "string",
+      "confidence_scores": "object",
+      "enrichment_version": "string"
+    }
+  }
+}

@@ -1,0 +1,944 @@
+{
+  "slug": "permutive",
+  "name": "Permutive",
+  "yc_id": 694,
+  "batch": "Summer 2014",
+  "website": "https://permutive.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:34:21.510956",
+    "website": "https://permutive.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 289.14,
+      "final_url": "https://permutive.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:34:21.800101"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "permutive.com",
+      "registrar": "Cloudflare, Inc.",
+      "creation_date": "2014-03-03T14:08:42",
+      "expiration_date": "2026-03-03T14:08:42",
+      "domain_age_days": 4245,
+      "domain_age_years": 11.6,
+      "name_servers": [
+        "BJORN.NS.CLOUDFLARE.COM",
+        "DONNA.NS.CLOUDFLARE.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": "https://www.linkedin.com/company/permutive/",
+      "github": "https://github.com/permutive",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": false,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 0,
+      "server": "cloudflare"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:14:55.329404",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:14:42.962594",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "London, UK",
+      "coordinates": {
+        "latitude": 51.5074,
+        "longitude": -0.1278
+      },
+      "timezone": {
+        "timezone_id": "Europe/London",
+        "timezone_name": "Europe/London"
+      },
+      "retrieved_at": "2025-10-17T10:14:19.264834",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:14:42.962624",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/permutive"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 8,
+        "packages": [
+          {
+            "name": "@financial-times/ads-permutive",
+            "description": "ads-permutive =================",
+            "version": "7.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@financial-times/ads-permutive"
+          },
+          {
+            "name": "@financial-times/o-permutive",
+            "description": "Note! this is a Work In Progress Component.",
+            "version": "1.0.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@financial-times/o-permutive"
+          },
+          {
+            "name": "@financial-times/ads-display",
+            "description": "This package provides functionality to display ads and track user behaviour for ft.com.",
+            "version": "7.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@financial-times/ads-display"
+          },
+          {
+            "name": "@phantomstudios/ft-lib",
+            "description": "A collection of Javascript UI & tracking utils for FT sites",
+            "version": "0.5.0-rc15",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@phantomstudios/ft-lib"
+          },
+          {
+            "name": "@financial-times/n-ads",
+            "description": "Bring ads to your page with the FT specific o-ads configuration",
+            "version": "10.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@financial-times/n-ads"
+          },
+          {
+            "name": "@phantomstudios/ft-react-components",
+            "description": "A collection of UI/utility React/NextJS components for Phantom FT sites",
+            "version": "0.3.0-rc8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@phantomstudios/ft-react-components"
+          },
+          {
+            "name": "@phntms/ft-lib",
+            "description": "A collection of Javascript UI & tracking utils for FT sites",
+            "version": "0.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@phntms/ft-lib"
+          },
+          {
+            "name": "@phntms/ft-react-components",
+            "description": "A collection of UI/utility React/NextJS components for Phantom FT sites",
+            "version": "0.0.8-rc8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@phntms/ft-react-components"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 20,
+        "packages": [
+          {
+            "name": "intperm",
+            "version": "1.2.0",
+            "downloads": 6313,
+            "url": "https://rubygems.org/gems/intperm"
+          },
+          {
+            "name": "permutation",
+            "version": "0.1.8",
+            "downloads": 84106,
+            "url": "https://rubygems.org/gems/permutation"
+          },
+          {
+            "name": "pdist",
+            "version": "1.1.1",
+            "downloads": 23835,
+            "url": "https://rubygems.org/gems/pdist"
+          },
+          {
+            "name": "bio-gemma-wrapper",
+            "version": "0.99.7",
+            "downloads": 23097,
+            "url": "https://rubygems.org/gems/bio-gemma-wrapper"
+          },
+          {
+            "name": "pmeth",
+            "version": "1.1.1",
+            "downloads": 21394,
+            "url": "https://rubygems.org/gems/pmeth"
+          },
+          {
+            "name": "permutations",
+            "version": "0.1.4",
+            "downloads": 19189,
+            "url": "https://rubygems.org/gems/permutations"
+          },
+          {
+            "name": "todas",
+            "version": "0.1.0",
+            "downloads": 3453,
+            "url": "https://rubygems.org/gems/todas"
+          },
+          {
+            "name": "permutation-tools",
+            "version": "0.2.3",
+            "downloads": 6178,
+            "url": "https://rubygems.org/gems/permutation-tools"
+          },
+          {
+            "name": "unique_permutation",
+            "version": "1.0.2",
+            "downloads": 28193,
+            "url": "https://rubygems.org/gems/unique_permutation"
+          },
+          {
+            "name": "permutation_generator",
+            "version": "0.1.2",
+            "downloads": 8246,
+            "url": "https://rubygems.org/gems/permutation_generator"
+          },
+          {
+            "name": "jinyu-simple-combiner",
+            "version": "0.0.4",
+            "downloads": 7124,
+            "url": "https://rubygems.org/gems/jinyu-simple-combiner"
+          },
+          {
+            "name": "nth_permutation",
+            "version": "0.1.0",
+            "downloads": 2335,
+            "url": "https://rubygems.org/gems/nth_permutation"
+          },
+          {
+            "name": "sperm",
+            "version": "0.1.1",
+            "downloads": 3643,
+            "url": "https://rubygems.org/gems/sperm"
+          },
+          {
+            "name": "string_permutations",
+            "version": "1.0",
+            "downloads": 3616,
+            "url": "https://rubygems.org/gems/string_permutations"
+          },
+          {
+            "name": "math_probability",
+            "version": "1.0.0",
+            "downloads": 16705,
+            "url": "https://rubygems.org/gems/math_probability"
+          },
+          {
+            "name": "char_tree",
+            "version": "1.0.0",
+            "downloads": 5025,
+            "url": "https://rubygems.org/gems/char_tree"
+          },
+          {
+            "name": "palindrome_hongdou",
+            "version": "0.1.0",
+            "downloads": 2550,
+            "url": "https://rubygems.org/gems/palindrome_hongdou"
+          },
+          {
+            "name": "tree_permute",
+            "version": "1.0.1",
+            "downloads": 7451,
+            "url": "https://rubygems.org/gems/tree_permute"
+          },
+          {
+            "name": "brutalitops",
+            "version": "1.0.2",
+            "downloads": 5523,
+            "url": "https://rubygems.org/gems/brutalitops"
+          },
+          {
+            "name": "rspec-permutations",
+            "version": "1.0.0",
+            "downloads": 830,
+            "url": "https://rubygems.org/gems/rspec-permutations"
+          }
+        ]
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 10,
+        "packages": [
+          {
+            "name": "permutator",
+            "description": "Get a lexicographic cartesian product and lexicographic permutation at any specific index from data. Generate complete lexicographic cartesian product from single or multiple set of data. Generate complete lexicographic combination from data. Generate non-lexicographic permutation and k-permutation.",
+            "version": "0.4.3",
+            "downloads": 85643,
+            "url": "https://crates.io/crates/permutator"
+          },
+          {
+            "name": "permutation_iterator",
+            "description": "A Rust library for iterating over random permutations using O(1) (i.e. constant) space.\n",
+            "version": "0.1.2",
+            "downloads": 232171,
+            "url": "https://crates.io/crates/permutation_iterator"
+          },
+          {
+            "name": "vitaminc-permutation",
+            "description": "Secure Permutation functions. Part of the Vitamin-C cryptographic suite.",
+            "version": "0.1.0-pre2",
+            "downloads": 1242,
+            "url": "https://crates.io/crates/vitaminc-permutation"
+          },
+          {
+            "name": "permutate",
+            "description": "Generic permutator that permutates singular and multiple lists",
+            "version": "0.3.2",
+            "downloads": 103623,
+            "url": "https://crates.io/crates/permutate"
+          },
+          {
+            "name": "rotary-permutator",
+            "description": "Permutations iterator",
+            "version": "0.1.11",
+            "downloads": 1854,
+            "url": "https://crates.io/crates/rotary-permutator"
+          },
+          {
+            "name": "permutation-xoodoo",
+            "description": "Xoodoo permutation in the `crypto-permutation` framework",
+            "version": "0.1.1",
+            "downloads": 2190,
+            "url": "https://crates.io/crates/permutation-xoodoo"
+          },
+          {
+            "name": "crypto-permutation",
+            "description": "Permutation based cryptography framework; core traits",
+            "version": "0.1.1",
+            "downloads": 2797,
+            "url": "https://crates.io/crates/crypto-permutation"
+          },
+          {
+            "name": "permute",
+            "description": "Generate permutations of vectors and slices in a memory-efficient and deterministic manner, using Heap's algorithm.",
+            "version": "0.2.1",
+            "downloads": 95274,
+            "url": "https://crates.io/crates/permute"
+          },
+          {
+            "name": "eprmutate",
+            "description": "Permutation Library",
+            "version": "0.1.2",
+            "downloads": 3794,
+            "url": "https://crates.io/crates/eprmutate"
+          },
+          {
+            "name": "permu-rs",
+            "description": "A collection of utilities for permutations. It contains useful tools to create, manage and experiment with permutations.",
+            "version": "0.2.0",
+            "downloads": 9538,
+            "url": "https://crates.io/crates/permu-rs"
+          }
+        ]
+      },
+      "total_packages": 38,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:14:44.381179"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:14:44.381187",
+    "batch_network": {
+      "batch": "Summer 2014",
+      "total_batch_mates": 77,
+      "active_batch_mates": 23,
+      "batch_success_rate": 29.9,
+      "notable_batch_mates": [
+        {
+          "name": "Zip Phone",
+          "slug": "zip-phone",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Whatsapp for voice"
+        },
+        {
+          "name": "Parenthoods",
+          "slug": "parenthoods",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Communities for expecting and new parents. "
+        },
+        {
+          "name": "Bitaccess",
+          "slug": "bitaccess",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "We make bitcoin simple. "
+        },
+        {
+          "name": "Carlypso",
+          "slug": "carlypso",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Used car marketplace"
+        },
+        {
+          "name": "Checkr",
+          "slug": "checkr",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "People infrastructure for the future of work"
+        },
+        {
+          "name": "Clara Labs",
+          "slug": "clara-labs",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Clara is a human-in-the-loop assistant that helps automate repetitive\u2026"
+        },
+        {
+          "name": "Craft Coffee",
+          "slug": "craft-coffee",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Better coffee for less money"
+        },
+        {
+          "name": "PersistIQ",
+          "slug": "persistiq",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "PersistIQ is a free email automation platform to send a small batch\u2026"
+        },
+        {
+          "name": "GovPredict",
+          "slug": "govpredict",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The system of record for government affairs."
+        },
+        {
+          "name": "Blockspring",
+          "slug": "blockspring",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Automate data collection for spreadsheets and productivity tools."
+        }
+      ],
+      "batch_size": 78
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Marketing"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Optilly/Installmonetizer",
+          "slug": "optilly-installmonetizer",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Fb ad optimization platform "
+        },
+        {
+          "name": "Chute",
+          "slug": "chute",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Discover the photos and videos people are taking of your brand or\u2026"
+        },
+        {
+          "name": "Priceonomics",
+          "slug": "priceonomics",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "We help companies turn their data into great stories."
+        },
+        {
+          "name": "GiveSpark",
+          "slug": "givespark",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Givespark was a celebrity charity fundraising platform"
+        },
+        {
+          "name": "Dubjoy",
+          "slug": "dubjoy",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Dubjoy translates and voice-overs your video to any language"
+        },
+        {
+          "name": "Videopixie",
+          "slug": "videopixie",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Marketplace for Video Production Services.  We help you hire the best\u2026"
+        },
+        {
+          "name": "Vidyard",
+          "slug": "vidyard",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Video for business."
+        },
+        {
+          "name": "TapEngage",
+          "slug": "tapengage",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Tablet ad network, acquired by Dropbox in July 2012"
+        },
+        {
+          "name": "Perfect Audience",
+          "slug": "perfect-audience",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Self-service display advertising for SaaS and online retail."
+        },
+        {
+          "name": "Userfox",
+          "slug": "userfox",
+          "status": "Inactive",
+          "batch": "Winter 2011",
+          "one_liner": "User retention as a service.  Drip email"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "London",
+      "location": "London, England, United Kingdom",
+      "companies_in_city": 133,
+      "active_in_city": 104,
+      "nearby_companies": [
+        {
+          "name": "CircuitHub",
+          "slug": "circuithub",
+          "batch": "Winter 2012",
+          "industry": "Industrials",
+          "status": "Active"
+        },
+        {
+          "name": "GoCardless",
+          "slug": "gocardless",
+          "batch": "Summer 2011",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Lanyrd",
+          "slug": "lanyrd",
+          "batch": "Winter 2011",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Post.fm",
+          "slug": "post-fm",
+          "batch": "Summer 2010",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Infogami",
+          "slug": "infogami",
+          "batch": "Summer 2005",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "GoScale",
+          "slug": "goscale",
+          "batch": "Summer 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Shoobs",
+          "slug": "shoobs",
+          "batch": "Winter 2014",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Hyperpad",
+          "slug": "hyperpad",
+          "batch": "Summer 2014",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "SalesSift",
+          "slug": "salessift",
+          "batch": "Summer 2014",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "GiveMeTap",
+          "slug": "givemetap",
+          "batch": "Winter 2015",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Tab",
+          "slug": "tab",
+          "batch": "Winter 2015",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Heroic Labs",
+          "slug": "heroic-labs",
+          "batch": "Summer 2015",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Sphere Secure Workspace",
+          "slug": "sphere-secure-workspace",
+          "batch": "Summer 2015",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "80,000 Hours",
+          "slug": "80-000-hours",
+          "batch": "Summer 2015",
+          "industry": "Unspecified",
+          "status": "Active"
+        },
+        {
+          "name": "SmartSite",
+          "slug": "smartsite",
+          "batch": "Summer 2016",
+          "industry": "Real Estate and Construction",
+          "status": "Inactive"
+        },
+        {
+          "name": "Shipamax",
+          "slug": "shipamax",
+          "batch": "Winter 2017",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fat Llama",
+          "slug": "fat-llama",
+          "batch": "Summer 2017",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Entocycle",
+          "slug": "entocycle",
+          "batch": "Summer 2017",
+          "industry": "Industrials",
+          "status": "Active"
+        },
+        {
+          "name": "Opearlo",
+          "slug": "opearlo",
+          "batch": "Summer 2017",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Muzz",
+          "slug": "muzz",
+          "batch": "Summer 2017",
+          "industry": "Consumer",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "SalesSift",
+        "slug": "salessift",
+        "batch": "Summer 2014",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Tenjin",
+        "slug": "tenjin",
+        "batch": "Summer 2014",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Think Gaming",
+        "slug": "think-gaming",
+        "batch": "Summer 2014",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Hive",
+        "slug": "hive",
+        "batch": "Summer 2014",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Kaya",
+        "slug": "kaya",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Wondercraft",
+        "slug": "wondercraft",
+        "batch": "Summer 2022",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Motives",
+        "slug": "motives",
+        "batch": "Summer 2025",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Aptible",
+        "slug": "aptible",
+        "batch": "Summer 2014",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Bannerman",
+        "slug": "bannerman",
+        "batch": "Summer 2014",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Checkr",
+        "slug": "checkr",
+        "batch": "Summer 2014",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 2956,
+      "network_density_score": 82.0,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:14:44.390168"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:14:44.390173",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:14:44.748040",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:14:44.854062",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 205,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:41:37.199072",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Privacy regulations driving cookieless advertising",
+        "First-party data becoming critical asset",
+        "Edge computing adoption in ad-tech"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Technical expertise in edge-based cohort processing and early mover advantage in privacy-first advertising infrastructure",
+      "differentiation": "On-device data processing eliminates need for personal identifier sharing while maintaining advertising effectiveness",
+      "competitive_advantages": [
+        "Privacy-by-design architecture",
+        "Regulatory compliance advantage",
+        "Technical complexity creates barriers to entry"
+      ],
+      "competitive_vulnerabilities": [
+        "Large tech platforms building competing solutions",
+        "Dependency on browser and device cooperation",
+        "Standards fragmentation risk"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "Large team size (205 employees)",
+        "11+ years of domain expertise",
+        "Active status with established market presence"
+      ],
+      "growth_bottlenecks": [
+        "Complex enterprise sales cycles",
+        "Need for industry-wide adoption of cohort-based targeting",
+        "Integration complexity with existing ad-tech stacks"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "low",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Big Tech platforms creating competing walled gardens",
+        "Regulatory changes affecting implementation",
+        "Industry slow to adopt new privacy standards"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Addresses critical industry pain point",
+        "Strong technical team and execution track record",
+        "Positioned for regulatory tailwinds"
+      ],
+      "concerns": [
+        "Competitive pressure from well-funded incumbents",
+        "Market adoption timeline uncertainty"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "LiveRamp",
+        "Snowflake",
+        "The Trade Desk"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Accelerate enterprise partnerships",
+        "Develop industry standards leadership"
+      ],
+      "expansion_opportunities": [
+        "International market expansion",
+        "Adjacent privacy-tech verticals",
+        "Publisher direct relationships"
+      ]
+    },
+    "tokens_used": {
+      "input": 712,
+      "output": 578,
+      "total": 1290,
+      "estimated_cost": 0.010806
+    }
+  },
+  "phase8_complete": true
+}

@@ -1,0 +1,1283 @@
+{
+  "slug": "deepgram",
+  "name": "Deepgram",
+  "yc_id": 977,
+  "batch": "Winter 2016",
+  "website": "https://www.deepgram.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:36:29.423211",
+    "website": "https://www.deepgram.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 478.21,
+      "final_url": "https://deepgram.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:36:29.901440"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "deepgram.com",
+      "registrar": "Amazon Registrar, Inc.",
+      "creation_date": "2016-01-28T23:14:38",
+      "expiration_date": "2026-01-28T23:14:38",
+      "domain_age_days": 3549,
+      "domain_age_years": 9.7,
+      "name_servers": [
+        "NS-1238.AWSDNS-26.ORG",
+        "NS-1610.AWSDNS-09.CO.UK",
+        "NS-20.AWSDNS-02.COM",
+        "NS-939.AWSDNS-53.NET"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://x.com/deepgramai?prefetchTimestamp=1733536274368",
+      "linkedin": "https://www.linkedin.com/company/deepgram/",
+      "github": "https://github.com/deepgram",
+      "facebook": "https://www.facebook.com/deepgram/",
+      "instagram": null,
+      "youtube": "https://www.youtube.com/c/Deepgram"
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": true,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 33,
+      "server": "Netlify"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:16:34.364472",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:16:23.086373",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "San Francisco, CA, USA",
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:14:18.656822",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:23.086399",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/deepgram"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 79,
+        "packages": [
+          {
+            "name": "@deepgram/sdk",
+            "description": "Isomorphic Javascript client for Deepgram",
+            "version": "4.11.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@deepgram/sdk"
+          },
+          {
+            "name": "deepgram",
+            "description": "NodeJS wrapper for Deepgram",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/deepgram"
+          },
+          {
+            "name": "@ai-sdk/deepgram",
+            "description": "The **[Deepgram provider](https://ai-sdk.dev/providers/ai-sdk-providers/deepgram)** for the [AI SDK](https://ai-sdk.dev/docs) contains transcription model support for the Deepgram transcription API.",
+            "version": "1.0.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ai-sdk/deepgram"
+          },
+          {
+            "name": "@livekit/agents-plugin-deepgram",
+            "description": "Deepgram plugin for LiveKit Agents for Node.js",
+            "version": "1.0.11",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@livekit/agents-plugin-deepgram"
+          },
+          {
+            "name": "@mastra/voice-deepgram",
+            "description": "Mastra Deepgram voice integration",
+            "version": "0.11.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mastra/voice-deepgram"
+          },
+          {
+            "name": "@deepgram/browser-agent",
+            "description": "A browser-compatible integration with the Deepgram Voice Agent API.",
+            "version": "0.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@deepgram/browser-agent"
+          },
+          {
+            "name": "@deepgram/captions",
+            "description": "Node implementation of Deepgram's WebVTT and SRT formatting. Given a transcription, this package can return a valid string to store as WebVTT or SRT caption files.",
+            "version": "1.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@deepgram/captions"
+          },
+          {
+            "name": "@pipedream/deepgram",
+            "description": "Pipedream Deepgram Components",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@pipedream/deepgram"
+          },
+          {
+            "name": "n8n-nodes-deepgram",
+            "description": "n8n community nodes for Deepgram",
+            "version": "0.2.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/n8n-nodes-deepgram"
+          },
+          {
+            "name": "@mastra/speech-deepgram",
+            "description": "Mastra Deepgram speech integration (DEPRECATED - use @mastra/voice-deepgram instead)",
+            "version": "0.1.22",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mastra/speech-deepgram"
+          },
+          {
+            "name": "aixblock-voice-ai-deepgram",
+            "description": "A React component for real-time transcription and voice agent interactions using Deepgram APIs",
+            "version": "0.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/aixblock-voice-ai-deepgram"
+          },
+          {
+            "name": "@deepgram/cli",
+            "description": "The Deepgram CLI",
+            "version": "0.4.0-beta.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@deepgram/cli"
+          },
+          {
+            "name": "deepgram-cli",
+            "description": "CLI for Converting Voice to Text with Deepgram API",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/deepgram-cli"
+          },
+          {
+            "name": "deepgram-media-transcriber",
+            "description": "A package to transcribe media files using Deepgram with speaker-labeled subtitles (SRT/VTT).",
+            "version": "1.0.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/deepgram-media-transcriber"
+          },
+          {
+            "name": "@sathsarabandaraj/audio-handler",
+            "description": "A comprehensive audio handling library for STT (Speech-to-Text) and TTS (Text-to-Speech) functionality using Deepgram",
+            "version": "0.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sathsarabandaraj/audio-handler"
+          },
+          {
+            "name": "@restackio/integrations-deepgram",
+            "description": "This package provides an integration for Deepgram's speech-to-text and text-to-speech services within the Restack AI framework.",
+            "version": "0.0.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@restackio/integrations-deepgram"
+          },
+          {
+            "name": "@caleblawson/voice-deepgram",
+            "description": "Mastra Deepgram voice integration",
+            "version": "0.10.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@caleblawson/voice-deepgram"
+          },
+          {
+            "name": "@deepgram-web/shared",
+            "description": "Shared components and code for Deepgram Astro sites",
+            "version": "0.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@deepgram-web/shared"
+          },
+          {
+            "name": "react-native-deepgram",
+            "description": "React Native SDK for Deepgram's AI-powered speech-to-text, real-time transcription, and text intelligence APIs. Supports live audio streaming, file transcription, sentiment analysis, and topic detection for iOS and Android.",
+            "version": "1.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-native-deepgram"
+          },
+          {
+            "name": "@rhetorica-software/deepgram-js-sdk",
+            "description": "Isomorphic Javascript client for Deepgram",
+            "version": "4.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@rhetorica-software/deepgram-js-sdk"
+          },
+          {
+            "name": "@activepieces/piece-deepgram",
+            "description": "This library was generated with [Nx](https://nx.dev).",
+            "version": "0.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@activepieces/piece-deepgram"
+          },
+          {
+            "name": "@rxtk/stt-deepgram",
+            "description": "\ud83d\udc42 RxJS operator for realtime speech-to-text (STT/S2T) using Deepgram speeh-to-text",
+            "version": "0.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@rxtk/stt-deepgram"
+          },
+          {
+            "name": "@presenceml/deepgram-sdk",
+            "description": "Isomorphic Javascript client for Deepgram",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@presenceml/deepgram-sdk"
+          },
+          {
+            "name": "@andrewcturing/deepgram",
+            "description": "Pipedream Deepgram Components",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@andrewcturing/deepgram"
+          },
+          {
+            "name": "multi-voice-sdk",
+            "description": "A universal Text-to-Speech (TTS) and Speech-to-Text (STT) SDK supporting multiple providers (OpenAI, Google Gemini, Deepgram, Groq PlayAI, Cartesia, AssemblyAI) with audio merging capabilities",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/multi-voice-sdk"
+          },
+          {
+            "name": "node-deepgram",
+            "description": "Node wrapper for Deepgram",
+            "version": "1.0.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/node-deepgram"
+          },
+          {
+            "name": "@innovastudio/contentbuilder",
+            "description": null,
+            "version": "1.5.162",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@innovastudio/contentbuilder"
+          },
+          {
+            "name": "@deepgram/deepdown",
+            "description": "A markdown templating format for generating AI-ready documentation from JSON Schema, OpenAPI, and AsyncAPI specifications",
+            "version": "0.4.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@deepgram/deepdown"
+          },
+          {
+            "name": "audio-training",
+            "description": "Audio parsing using deepgram",
+            "version": "1.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/audio-training"
+          },
+          {
+            "name": "@deepgram/web-components",
+            "description": "Deepgram Web Components with Stencil and Storybook",
+            "version": "0.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@deepgram/web-components"
+          },
+          {
+            "name": "@innovastudio/contentbox",
+            "description": null,
+            "version": "1.6.164",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@innovastudio/contentbox"
+          },
+          {
+            "name": "workflow-deepgram",
+            "description": "This library was generated with [Nx](https://nx.dev).",
+            "version": "0.0.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/workflow-deepgram"
+          },
+          {
+            "name": "@deepgram/deepdown-renderer",
+            "description": "Renderer for Deepdown - generates markdown from templates",
+            "version": "0.5.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@deepgram/deepdown-renderer"
+          },
+          {
+            "name": "realtime-speech-to-text",
+            "description": "Real-time Speech-to-Text React hook and component using Deepgram via a secure WebSocket proxy.",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/realtime-speech-to-text"
+          },
+          {
+            "name": "@omi-fork/friend-lite-react-native",
+            "description": "React Native SDK for Omi devices",
+            "version": "1.0.11",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@omi-fork/friend-lite-react-native"
+          },
+          {
+            "name": "@deepgram/deepdown-openapi",
+            "description": "OpenAPI-specific functionality for Deepdown markdown templating",
+            "version": "0.2.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@deepgram/deepdown-openapi"
+          },
+          {
+            "name": "speechflow",
+            "description": "Speech Processing Flow Graph",
+            "version": "1.6.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/speechflow"
+          },
+          {
+            "name": "@deepgram/deepdown-cli",
+            "description": "Command-line interface for Deepdown",
+            "version": "0.3.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@deepgram/deepdown-cli"
+          },
+          {
+            "name": "@deepgram/deepdown-resolver-openapi",
+            "description": "OpenAPI-specific functionality for Deepdown markdown templating",
+            "version": "0.2.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@deepgram/deepdown-resolver-openapi"
+          },
+          {
+            "name": "@deepgram/deepdown-resolver-asyncapi",
+            "description": "AsyncAPI-specific functionality for Deepdown markdown templating",
+            "version": "0.2.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@deepgram/deepdown-resolver-asyncapi"
+          },
+          {
+            "name": "@elizaos/plugin-video-understanding",
+            "description": "Core Node.js plugin for Eliza OS that provides essential services and actions for file operations, media processing, and cloud integrations.",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@elizaos/plugin-video-understanding"
+          },
+          {
+            "name": "@directus-labs/ai-transcription-operation",
+            "description": "Use Deepgram's Speech Recognition API to generate transcripts from audio files.",
+            "version": "1.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@directus-labs/ai-transcription-operation"
+          },
+          {
+            "name": "@elizaos/plugin-node",
+            "description": null,
+            "version": "0.25.6-alpha.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@elizaos/plugin-node"
+          },
+          {
+            "name": "echo-e2e",
+            "description": "**Testing phone calls is hard. Testing AI-powered phone calls is even harder.**",
+            "version": "1.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/echo-e2e"
+          },
+          {
+            "name": "@deepgram/deepdown-parser",
+            "description": "Parser for Deepdown - converts YAML/JSON to structured data",
+            "version": "0.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@deepgram/deepdown-parser"
+          },
+          {
+            "name": "@nebulalabs/model-providers",
+            "description": "TypeScript enums for model provider mappings across LLM, TTS, and STT services",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@nebulalabs/model-providers"
+          },
+          {
+            "name": "@deepgram/deepdown-utils",
+            "description": "Utility functions for Deepdown markdown templating",
+            "version": "0.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@deepgram/deepdown-utils"
+          },
+          {
+            "name": "whisper-clipboard-cli",
+            "description": "Own your transcription workflow. Press Cmd+Shift+X, speak, get text in clipboard instantly.",
+            "version": "1.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/whisper-clipboard-cli"
+          },
+          {
+            "name": "@directus-labs/ai-text-intelligence-operation",
+            "description": "Use Deepgram's Text Intelligence API to understand the meaning behind text.",
+            "version": "1.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@directus-labs/ai-text-intelligence-operation"
+          },
+          {
+            "name": "@deepgram/deepdown-core",
+            "description": "Core functionality for Deepdown markdown templating",
+            "version": "0.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@deepgram/deepdown-core"
+          },
+          {
+            "name": "@akh-test/junk",
+            "description": "This is a repository that supports a blog post at <https://developers.deepgram.com/blog/2021/12/build-npm-packages/>.",
+            "version": "0.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@akh-test/junk"
+          },
+          {
+            "name": "@deepgram/deepdown-asyncapi",
+            "description": "AsyncAPI-specific functionality for Deepdown markdown templating",
+            "version": "0.2.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@deepgram/deepdown-asyncapi"
+          },
+          {
+            "name": "vomyrasdk",
+            "description": "Real-time Conversations Across Industries in Hindi and Multiple Indian Languages",
+            "version": "1.0.112",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/vomyrasdk"
+          },
+          {
+            "name": "@dsatizabal/first-package",
+            "description": "This is a repository that supports a blog post at <https://developers.deepgram.com/blog/2021/12/build-npm-packages/>.",
+            "version": "0.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@dsatizabal/first-package"
+          },
+          {
+            "name": "@skribby/sdk",
+            "description": "Typescript SDK for Skribby Meeting Bot API",
+            "version": "0.1.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@skribby/sdk"
+          },
+          {
+            "name": "transcriptionist",
+            "description": "Tool to transcribe videos using AI.",
+            "version": "1.0.0-alpha2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/transcriptionist"
+          },
+          {
+            "name": "deepgram-conversational-demo",
+            "description": "Combine Text-to-Speech and Speech-to-Text into a conversational agent.",
+            "version": "0.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/deepgram-conversational-demo"
+          },
+          {
+            "name": "speech2type",
+            "description": "A minimal CLI tool that gives you quick voice typing in every Mac app.",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/speech2type"
+          },
+          {
+            "name": "friend-lite-react-native",
+            "description": "React Native SDK for certain devices",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/friend-lite-react-native"
+          },
+          {
+            "name": "@deepgram/deepdown-provider-pinecone",
+            "description": "Pinecone provider for Deepdown - uploads markdown to Pinecone vector store",
+            "version": "0.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@deepgram/deepdown-provider-pinecone"
+          },
+          {
+            "name": "supported-formats",
+            "description": "A package to test if your media file is supported for transcription.",
+            "version": "1.0.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/supported-formats"
+          },
+          {
+            "name": "@elizaos/plugin-storage-s3",
+            "description": "Core Node.js plugin for Eliza OS that provides essential services and actions for file operations, media processing, and cloud integrations.",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@elizaos/plugin-storage-s3"
+          },
+          {
+            "name": "ai-convo",
+            "description": "High level wrappers for AI conversation tools: text to speech, speech to text, LLMs",
+            "version": "0.0.11",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ai-convo"
+          },
+          {
+            "name": "sonyk-sdk",
+            "description": "[![fern shield](https://img.shields.io/badge/%F0%9F%8C%BF-Built%20with%20Fern-brightgreen)](https://buildwithfern.com?utm_source=github&utm_medium=github&utm_campaign=readme&utm_source=https%3A%2F%2Fgithub.com%2Fws-github-admin%2Fsonyk-ts-sdk) [![npm shie",
+            "version": "0.9.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sonyk-sdk"
+          },
+          {
+            "name": "nextjs-live-transcription",
+            "description": "[![Discord](https://dcbadge.vercel.app/api/server/xWRaCDBtW4?style=flat)](https://discord.gg/xWRaCDBtW4)",
+            "version": "1.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/nextjs-live-transcription"
+          },
+          {
+            "name": "@callmyai/ai",
+            "description": "## Description Inspired by Vercel's Language Model Specification, this is a proposal for introducing a Speech Model Specification to streamline the integration of various speech providers into our platform. This specification aims to provide a standardize",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@callmyai/ai"
+          },
+          {
+            "name": "@agoai/vp-sdk",
+            "description": "Official Node.js SDK for the Vp API",
+            "version": "0.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@agoai/vp-sdk"
+          },
+          {
+            "name": "react-audio-record-deepgram",
+            "description": null,
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-audio-record-deepgram"
+          },
+          {
+            "name": "hiair-interview",
+            "description": "Combine Text-to-Speech and Speech-to-Text into a conversational agent.",
+            "version": "0.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/hiair-interview"
+          },
+          {
+            "name": "use-voice",
+            "description": "[use-voice](https://github.com/sshkeda/use-voice) is a developer-oriented open-source platform for building voice AI chatbots. It abstracts away the complexities of creating speech-to-speech pipelines, allowing you to focus on building the best voice AI a",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/use-voice"
+          },
+          {
+            "name": "@undercode99/codegen",
+            "description": "Code Generator",
+            "version": "0.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@undercode99/codegen"
+          },
+          {
+            "name": "artcode-ui",
+            "description": "Artcode UI",
+            "version": "0.0.2-beta",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/artcode-ui"
+          },
+          {
+            "name": "voice-node-library",
+            "description": "Real-time voice bot library with STT, LLM, and TTS capabilities",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/voice-node-library"
+          },
+          {
+            "name": "@zadolo/first-package",
+            "description": "This is a repository that supports a blog post at <https://developers.deepgram.com/blog/2021/12/build-npm-packages/>.",
+            "version": "0.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@zadolo/first-package"
+          },
+          {
+            "name": "@nandazman/first-package",
+            "description": "This is a repository that supports a blog post at <https://developers.deepgram.com/blog/2021/12/build-npm-packages/>.",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@nandazman/first-package"
+          },
+          {
+            "name": "@graviton-inc/plugin-node",
+            "description": "Core Node.js plugin for Eliza OS that provides essential services and actions for file operations, media processing, and cloud integrations.",
+            "version": "0.1.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@graviton-inc/plugin-node"
+          },
+          {
+            "name": "@lucasespinosa91/firstnpxpackage",
+            "description": "This is a repository that supports a blog post at <https://developers.deepgram.com/blog/2021/12/build-npm-packages/>.",
+            "version": "0.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@lucasespinosa91/firstnpxpackage"
+          },
+          {
+            "name": "deepgram-next15-fix",
+            "description": "Isomorphic Javascript client for Deepgram",
+            "version": "0.0.0-automated",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/deepgram-next15-fix"
+          },
+          {
+            "name": "@omi-fork/omi-react-native",
+            "description": "React Native SDK for Omi devices",
+            "version": "1.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@omi-fork/omi-react-native"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 1,
+        "packages": [
+          {
+            "name": "deepgram",
+            "version": "0.2.0",
+            "downloads": 11808,
+            "url": "https://rubygems.org/gems/deepgram"
+          }
+        ]
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 3,
+        "packages": [
+          {
+            "name": "deepgram",
+            "description": "Community Rust SDK for Deepgram's automated speech recognition APIs.",
+            "version": "0.7.0",
+            "downloads": 115813,
+            "url": "https://crates.io/crates/deepgram"
+          },
+          {
+            "name": "deepgram-rust-captions",
+            "description": "Rust implementation of Deepgram's WebVTT and SRT formatting",
+            "version": "0.1.2",
+            "downloads": 1669,
+            "url": "https://crates.io/crates/deepgram-rust-captions"
+          },
+          {
+            "name": "lamarck",
+            "description": "A toolkit CLI for audio/visual manipulation such as generating SRT captions using Deepgram.",
+            "version": "0.6.0",
+            "downloads": 8627,
+            "url": "https://crates.io/crates/lamarck"
+          }
+        ]
+      },
+      "total_packages": 83,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:16:24.359942"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:24.359949",
+    "batch_network": {
+      "batch": "Winter 2016",
+      "total_batch_mates": 121,
+      "active_batch_mates": 58,
+      "batch_success_rate": 47.9,
+      "notable_batch_mates": [
+        {
+          "name": "Stilt",
+          "slug": "stilt",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Financial products for immigrants (acquired by JG Wentworth)"
+        },
+        {
+          "name": "Embark Trucks",
+          "slug": "embark-trucks",
+          "status": "Public",
+          "top_company": false,
+          "one_liner": "Self-driving semi trucks."
+        },
+        {
+          "name": "Loop Genomics",
+          "slug": "loop-genomics",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Novel long-read DNA sequencing technology"
+        },
+        {
+          "name": "Able Health",
+          "slug": "able-health",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Able Health gets doctors paid more for higher quality care"
+        },
+        {
+          "name": "Truebill",
+          "slug": "truebill",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Live your best financial life"
+        },
+        {
+          "name": "LendEDU",
+          "slug": "lendedu",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "LendEDU is a marketplace for consumer financial products."
+        },
+        {
+          "name": "Luminist Labs",
+          "slug": "luminist-labs",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Diagnostic platform for early detection of liver disease"
+        },
+        {
+          "name": "MineralSoft",
+          "slug": "mineralsoft",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Data management platform for oil & gas assets"
+        },
+        {
+          "name": "Pulpix",
+          "slug": "pulpix",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Binge-watching technology for video platforms. "
+        },
+        {
+          "name": "Paystack",
+          "slug": "paystack",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Modern payments infrastructure for Africa"
+        }
+      ],
+      "batch_size": 122
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "status": "Active",
+          "batch": "Winter 2012",
+          "one_liner": "High Performance Computing Built for the Cloud"
+        },
+        {
+          "name": "Marft",
+          "slug": "marft",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Marft creates embeddable machine learning models for application\u2026"
+        },
+        {
+          "name": "Pixelapse",
+          "slug": "pixelapse",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Github for designers. We automatically keep track of revisions of\u2026"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Palantir for sales people"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Smart search for the modern team."
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Authy is a Two-Factor Authentication platform for developers"
+        },
+        {
+          "name": "Flutter",
+          "slug": "flutter",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Flutter combined computer vision technology with the built-in webcams\u2026"
+        },
+        {
+          "name": "SolidStage",
+          "slug": "solidstage",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Sysadmin as a service. We make deploying, configuring, monitoring,\u2026"
+        },
+        {
+          "name": "Clutch",
+          "slug": "clutch",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "An easy to integrate library for native iOS applications designed to\u2026"
+        },
+        {
+          "name": "OneSignal",
+          "slug": "onesignal",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Engage customers through personalized omni-channel messaging"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "San Francisco",
+      "location": "San Francisco, CA, USA; Remote",
+      "companies_in_city": 2007,
+      "active_in_city": 1339,
+      "nearby_companies": [
+        {
+          "name": "42Floors",
+          "slug": "42floors",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "PlanGrid",
+          "slug": "plangrid",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "MyVR",
+          "slug": "myvr",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Couple",
+          "slug": "couple",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HackPad",
+          "slug": "hackpad",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Gusto",
+          "slug": "gusto",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "FamilyLeaf",
+          "slug": "familyleaf",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Chute",
+          "slug": "chute",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Make School",
+          "slug": "make-school",
+          "batch": "Winter 2012",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Exec",
+          "slug": "exec",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Public"
+        },
+        {
+          "name": "LendUp",
+          "slug": "lendup",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tilt",
+          "slug": "tilt",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fond",
+          "slug": "fond",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Chatfuel",
+        "slug": "chatfuel",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "UpLabs",
+        "slug": "uplabs",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Instabug",
+        "slug": "instabug",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Quilt Data",
+        "slug": "quilt-data",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Pathmind",
+        "slug": "pathmind",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Mux",
+        "slug": "mux",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Lattice",
+        "slug": "lattice",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Compgun",
+        "slug": "compgun",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "GetAccept",
+        "slug": "getaccept",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Daily",
+        "slug": "daily",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 4874,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:16:24.368291"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:24.368301",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:24.686342",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:24.818719",
+    "basic_info": {
+      "is_hiring": true,
+      "team_size": 115,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:44:45.317525",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "AI-powered automation across industries",
+        "Voice-first interfaces and conversational AI",
+        "Real-time transcription for remote work and accessibility"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Proprietary deep learning models with superior accuracy and speed, plus extensive language support and custom model training capabilities",
+      "differentiation": "Developer-first API approach with real-time processing, contextual understanding features, and custom model training",
+      "competitive_advantages": [
+        "Superior accuracy and speed performance",
+        "Comprehensive API ecosystem with advanced features"
+      ],
+      "competitive_vulnerabilities": [
+        "Competition from tech giants with vast resources",
+        "Potential commoditization of speech recognition technology"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "115 person team size indicating scale",
+        "9.7 years domain age showing market presence"
+      ],
+      "growth_bottlenecks": [
+        "Competition from established players like Google/Amazon",
+        "Need for continuous R&D investment to maintain tech edge"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "low",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Big Tech competition with unlimited resources",
+        "Rapid commoditization of speech AI",
+        "Dependency on continuous model improvement"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong technical differentiation in accuracy/speed",
+        "Developer-friendly API approach",
+        "Established market presence with mature team"
+      ],
+      "concerns": [
+        "Intense competition from well-funded giants",
+        "High R&D requirements to maintain edge"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "AssemblyAI",
+        "Rev.com"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on vertical-specific solutions to create stickiness",
+        "Expand international presence and language support"
+      ],
+      "expansion_opportunities": [
+        "Healthcare and legal transcription verticals",
+        "Real-time translation and multilingual support"
+      ]
+    },
+    "tokens_used": {
+      "input": 742,
+      "output": 572,
+      "total": 1314,
+      "estimated_cost": 0.010806
+    }
+  },
+  "phase8_complete": true
+}

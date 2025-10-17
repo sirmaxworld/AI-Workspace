@@ -1,0 +1,837 @@
+{
+  "slug": "quantstamp",
+  "name": "Quantstamp",
+  "yc_id": 1727,
+  "batch": "Winter 2018",
+  "website": "https://quantstamp.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:40:28.285233",
+    "website": "https://quantstamp.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 153.0,
+      "final_url": "https://quantstamp.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:40:28.438247"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "quantstamp.com",
+      "registrar": "Cloudflare, Inc.",
+      "creation_date": "2017-07-21T04:00:38",
+      "expiration_date": "2028-07-21T04:00:38",
+      "domain_age_days": 3009,
+      "domain_age_years": 8.2,
+      "name_servers": [
+        "ANGELA.NS.CLOUDFLARE.COM",
+        "PLATO.NS.CLOUDFLARE.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/Quantstamp",
+      "linkedin": "https://www.linkedin.com/company/quantstamp",
+      "github": "https://github.com/quantstamp",
+      "facebook": null,
+      "instagram": null,
+      "youtube": "https://www.youtube.com/@quantstamp"
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": true,
+      "x_frame_options": true,
+      "x_content_type_options": true,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 66,
+      "server": "cloudflare"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:19:33.303441",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:19:14.655692",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "Toronto, Canada",
+      "coordinates": {
+        "latitude": 43.6532,
+        "longitude": -79.3832
+      },
+      "timezone": {
+        "timezone_id": "America/Toronto",
+        "timezone_name": "America/Toronto"
+      },
+      "retrieved_at": "2025-10-17T10:19:14.655740"
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:14.655754",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/quantstamp"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 21,
+        "packages": [
+          {
+            "name": "@api3/contracts",
+            "description": "Contracts through which API3 services are delivered",
+            "version": "31.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@api3/contracts"
+          },
+          {
+            "name": "@quarryprotocol/quarry-sdk",
+            "description": "Quarry Protocol SDK",
+            "version": "5.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@quarryprotocol/quarry-sdk"
+          },
+          {
+            "name": "@ensuro/vaults",
+            "description": "ERC4626s for asset management, used by the Ensuro Protocol",
+            "version": "1.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ensuro/vaults"
+          },
+          {
+            "name": "qs-ui-lib",
+            "description": "Quantstamp's Canonical UI Library",
+            "version": "0.0.57-development",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/qs-ui-lib"
+          },
+          {
+            "name": "@pooltogether/uniform-random-number",
+            "description": "PoolTogether Solidity Modulo Bias library",
+            "version": "1.0.0-beta.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@pooltogether/uniform-random-number"
+          },
+          {
+            "name": "@tattooswap/bentobox",
+            "description": "BentoBox",
+            "version": "0.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@tattooswap/bentobox"
+          },
+          {
+            "name": "api3-contracts-v10",
+            "description": "Contracts through which API3 services are delivered",
+            "version": "10.0.0-rc.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/api3-contracts-v10"
+          },
+          {
+            "name": "qs-ui-library",
+            "description": "Quantstamp's Canonical UI Library",
+            "version": "0.0.37-development",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/qs-ui-library"
+          },
+          {
+            "name": "@teleportdao/btc-evm-bridge",
+            "description": "Light client bridge for Bitcoin",
+            "version": "1.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@teleportdao/btc-evm-bridge"
+          },
+          {
+            "name": "@teleportdao/teleswap-contracts",
+            "description": "Trustless protocol for bridging and trading Bitcoin",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@teleportdao/teleswap-contracts"
+          },
+          {
+            "name": "@currie0612/farming-sdk",
+            "description": "CremaFinance Farming SDK",
+            "version": "2.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@currie0612/farming-sdk"
+          },
+          {
+            "name": "test-quarry-sdk",
+            "description": "CremaFinance SDK",
+            "version": "3.0.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/test-quarry-sdk"
+          },
+          {
+            "name": "@cremafinance/crema-farming",
+            "description": "It fork quarry.so",
+            "version": "2.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@cremafinance/crema-farming"
+          },
+          {
+            "name": "@mmasood/uniform-random-number",
+            "description": "PoolManager Lossless Pool Smart Contracts",
+            "version": "0.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mmasood/uniform-random-number"
+          },
+          {
+            "name": "@dtribe/uniform-random-number",
+            "description": "dTribe.gg Solidity Modulo Bias library",
+            "version": "1.0.0-beta.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@dtribe/uniform-random-number"
+          },
+          {
+            "name": "@quant-finance/quant-protocol",
+            "description": "Smart contracts for the Quant Protocol.",
+            "version": "0.17.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@quant-finance/quant-protocol"
+          },
+          {
+            "name": "solhydra",
+            "description": "cli tool to run solidity smart contract(s) through several analysis tools and generating a html report",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/solhydra"
+          },
+          {
+            "name": "@leap-network/uniform-random-number",
+            "description": "PoolManager Lossless Pool Smart Contracts",
+            "version": "0.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@leap-network/uniform-random-number"
+          },
+          {
+            "name": "@logic0612/farm-sdk",
+            "description": "It fork quarry.so",
+            "version": "2.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@logic0612/farm-sdk"
+          },
+          {
+            "name": "@chanceprotocol/uniform-random-number",
+            "description": "PoolManager Lossless Pool Smart Contracts",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@chanceprotocol/uniform-random-number"
+          },
+          {
+            "name": "test-crema-farming",
+            "description": "CremaFinance farming SDK",
+            "version": "1.1.15",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/test-crema-farming"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 21,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:19:15.904102"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:15.904109",
+    "batch_network": {
+      "batch": "Winter 2018",
+      "total_batch_mates": 145,
+      "active_batch_mates": 83,
+      "batch_success_rate": 57.2,
+      "notable_batch_mates": [
+        {
+          "name": "Newfront",
+          "slug": "newfront-insurance",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "Modern insurance brokerage."
+        },
+        {
+          "name": "Mayhem",
+          "slug": "mayhem",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Mayhem is the easiest way to play with your gaming community."
+        },
+        {
+          "name": "Pulse",
+          "slug": "pulse-2",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "We're crowdsourced Gartner so IT executives can learn directly from\u2026"
+        },
+        {
+          "name": "Bear Flag Robotics",
+          "slug": "bear-flag-robotics",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Autonomous driving technology for farm tractors."
+        },
+        {
+          "name": "ClearBrain",
+          "slug": "clearbrain",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Causal Analytics for Growth Teams"
+        },
+        {
+          "name": "Sepsis Scout",
+          "slug": "sepsis-scout",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Wearables and AI to predict and prevent sepsis outside the hospital"
+        },
+        {
+          "name": "onederful",
+          "slug": "onederful",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Dental Insurance API"
+        },
+        {
+          "name": "CodeStream",
+          "slug": "codestream",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "CodeStream is a Developer Collaboration Platform designed to\u2026"
+        },
+        {
+          "name": "Glimpse K12",
+          "slug": "glimpse-k12",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Glimpse eliminates ineffective spending in schools."
+        },
+        {
+          "name": "Squad",
+          "slug": "squad",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Squad is an app for live communities to have shared experiences\u2026"
+        }
+      ],
+      "batch_size": 146
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Security"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Sift",
+          "slug": "sift",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "The Leader in Digital Trust & Safety"
+        },
+        {
+          "name": "Clickfacts",
+          "slug": "clickfacts",
+          "status": "Acquired",
+          "batch": "Summer 2005",
+          "one_liner": ""
+        },
+        {
+          "name": "Smyte",
+          "slug": "smyte",
+          "status": "Acquired",
+          "batch": "Winter 2015",
+          "one_liner": "Smyte stops bad actors on social networks and marketplaces."
+        },
+        {
+          "name": "CyberFend",
+          "slug": "cyberfend",
+          "status": "Acquired",
+          "batch": "Winter 2015",
+          "one_liner": "Cyberfend delivers robust, real-time web and mobile security by\u2026"
+        },
+        {
+          "name": "ThinAir",
+          "slug": "thinair",
+          "status": "Inactive",
+          "batch": "Winter 2015",
+          "one_liner": "Intelligent data security for teams"
+        },
+        {
+          "name": "Cymmetria",
+          "slug": "cymmetria",
+          "status": "Acquired",
+          "batch": "Summer 2015",
+          "one_liner": "Shifting the asymmetry of cyber security."
+        },
+        {
+          "name": "Foxpass",
+          "slug": "foxpass",
+          "status": "Acquired",
+          "batch": "Summer 2015",
+          "one_liner": "Making enterprise security practices available for all companies."
+        },
+        {
+          "name": "Appcanary",
+          "slug": "appcanary",
+          "status": "Acquired",
+          "batch": "Summer 2015",
+          "one_liner": "Appcanary tracks the dependencies you use in your apps and servers\u2026"
+        },
+        {
+          "name": "Sphere Secure Workspace",
+          "slug": "sphere-secure-workspace",
+          "status": "Acquired",
+          "batch": "Summer 2015",
+          "one_liner": ""
+        },
+        {
+          "name": "Traversal Networks",
+          "slug": "traversal-networks",
+          "status": "Inactive",
+          "batch": "Summer 2015",
+          "one_liner": "Enterprise Threat Detection: Tuning, Triage, and Analysis by Experts."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Toronto",
+      "location": "Toronto, ON, Canada; San Francisco, CA, USA; Remote",
+      "companies_in_city": 74,
+      "active_in_city": 49,
+      "nearby_companies": [
+        {
+          "name": "Per Vices",
+          "slug": "per-vices",
+          "batch": "Winter 2012",
+          "industry": "Industrials",
+          "status": "Active"
+        },
+        {
+          "name": "Upverter",
+          "slug": "upverter",
+          "batch": "Winter 2011",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "DevCycle",
+          "slug": "devcycle",
+          "batch": "Winter 2014",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Whirlscape",
+          "slug": "whirlscape",
+          "batch": "Winter 2014",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HigherMe",
+          "slug": "higherme",
+          "batch": "Winter 2015",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Dabble",
+          "slug": "dabble",
+          "batch": "Winter 2015",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Vanhawks",
+          "slug": "vanhawks",
+          "batch": "Winter 2015",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "teaBOT",
+          "slug": "teabot",
+          "batch": "Summer 2015",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "PartnerStack",
+          "slug": "partnerstack",
+          "batch": "Summer 2015",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Appcanary",
+          "slug": "appcanary",
+          "batch": "Summer 2015",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Rose Rocket",
+          "slug": "rose-rocket",
+          "batch": "Summer 2016",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Sage Care",
+          "slug": "sage-care",
+          "batch": "Summer 2016",
+          "industry": "Healthcare",
+          "status": "Inactive"
+        },
+        {
+          "name": "Validere",
+          "slug": "validere",
+          "batch": "Summer 2016",
+          "industry": "Industrials",
+          "status": "Active"
+        },
+        {
+          "name": "Fiix",
+          "slug": "fiix",
+          "batch": "Winter 2017",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Humi",
+          "slug": "humi",
+          "batch": "Winter 2017",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "HelpWear",
+          "slug": "helpwear",
+          "batch": "Summer 2017",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "OneLocal",
+          "slug": "onelocal",
+          "batch": "Summer 2017",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "LUS Brands",
+          "slug": "lus-brands",
+          "batch": "Winter 2018",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "BioRender",
+          "slug": "biorender",
+          "batch": "Winter 2018",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Aalo",
+          "slug": "aalo",
+          "batch": "Winter 2018",
+          "industry": "Consumer",
+          "status": "Inactive"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Vanta",
+        "slug": "vanta",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "BioRender",
+        "slug": "biorender",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Sqreen",
+        "slug": "sqreen",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Hunter2",
+        "slug": "hunter2",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "SharpestMinds",
+        "slug": "sharpestminds",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Anjuna",
+        "slug": "anjuna",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Appcanary",
+        "slug": "appcanary",
+        "batch": "Summer 2015",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Feroot Security",
+        "slug": "feroot-security",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Torch",
+        "slug": "torch",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Shogun",
+        "slug": "shogun",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 2965,
+      "network_density_score": 83.8,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:19:15.910340"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:15.910346",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:16.247853",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:16.351891",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 80,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:44:25.310762",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increasing DeFi protocol adoption",
+        "Rising smart contract vulnerabilities and exploits",
+        "Regulatory focus on Web3 security compliance"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Established reputation and trust in Web3 security with hundreds of audits completed, creating network effects through client referrals",
+      "differentiation": "Comprehensive security platform combining auditing, advisory services, and strategic investments with deep Web3 expertise",
+      "competitive_advantages": [
+        "First-mover advantage in Web3 security",
+        "Large team of 80+ security professionals"
+      ],
+      "competitive_vulnerabilities": [
+        "Commoditization of basic audit services",
+        "Competition from traditional cybersecurity firms entering Web3"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "Professional services",
+      "scalability": "medium",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "8+ years of domain expertise",
+        "Substantial team size of 80 employees"
+      ],
+      "growth_bottlenecks": [
+        "Service-based model limits scalability",
+        "Dependence on specialized security talent"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "low",
+      "overall_risk_score": 4,
+      "key_risks": [
+        "Web3 market volatility affecting client budgets",
+        "Increasing competition from established security firms",
+        "Regulatory uncertainty in crypto space"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Market leader in critical Web3 infrastructure",
+        "Proven track record protecting billions in assets",
+        "Diversified revenue through audits, advisory, and investments"
+      ],
+      "concerns": [
+        "Limited scalability of service-based model",
+        "Cyclical nature of crypto market"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "CertiK",
+        "ConsenSys Diligence"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Develop automated security tools to improve scalability",
+        "Expand into enterprise blockchain security"
+      ],
+      "expansion_opportunities": [
+        "SaaS security monitoring platform",
+        "Security-as-a-Service for smaller protocols"
+      ]
+    },
+    "tokens_used": {
+      "input": 726,
+      "output": 587,
+      "total": 1313,
+      "estimated_cost": 0.010983
+    }
+  },
+  "phase8_complete": true
+}

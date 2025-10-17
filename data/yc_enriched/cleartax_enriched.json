@@ -1,0 +1,734 @@
+{
+  "slug": "cleartax",
+  "name": "Clear",
+  "yc_id": 664,
+  "batch": "Summer 2014",
+  "website": "https://clear.in/",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:34:06.397771",
+    "website": "https://clear.in/",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 1318.37,
+      "final_url": "https://www.clear.in/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:34:07.716146"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "clear.in",
+      "registrar": "GoDaddy Online Services Cayman Islands Ltd.",
+      "creation_date": "2013-05-05T20:02:03.949000",
+      "expiration_date": "2027-05-05T20:02:03.949000",
+      "domain_age_days": 4547,
+      "domain_age_years": 12.4,
+      "name_servers": [
+        "ns-697.awsdns-23.net",
+        "ns-15.awsdns-01.com",
+        "ns-1133.awsdns-13.org",
+        "ns-1800.awsdns-33.co.uk"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://www.cleartax.com/ksa/e-invoicing-software",
+      "linkedin": "https://www.linkedin.com/company/cleartaxindia/",
+      "github": "https://github.com/ClearTax",
+      "facebook": "https://www.facebook.com/clearfromcleartax",
+      "instagram": "https://www.instagram.com/clearfromcleartax/",
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": true,
+      "x_frame_options": true,
+      "x_content_type_options": true,
+      "x_xss_protection": true,
+      "referrer_policy": true,
+      "security_score": 100,
+      "server": "nginx"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:14:46.689082",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:14:33.024365",
+    "place_data": {
+      "status": "success",
+      "method": "nominatim",
+      "formatted_address": "Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, India",
+      "coordinates": {
+        "latitude": 12.9767936,
+        "longitude": 77.590082
+      },
+      "place_types": [
+        "administrative"
+      ],
+      "retrieved_at": "2025-10-17T10:14:35.797038"
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:14:35.797688",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/ClearTax"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 6,
+        "packages": [
+          {
+            "name": "@cleartax/zoids",
+            "description": "Composable React Components for ClearTax",
+            "version": "7.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@cleartax/zoids"
+          },
+          {
+            "name": "@cleartax/eslint-config",
+            "description": "ClearTax Eslint Config",
+            "version": "1.3.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@cleartax/eslint-config"
+          },
+          {
+            "name": "@cleartax/apollo-server-plugin-introspection-auth",
+            "description": "An Apollo Server plugin to allow introspection only via authenticated requests",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@cleartax/apollo-server-plugin-introspection-auth"
+          },
+          {
+            "name": "engines-ok",
+            "description": "Check for engines - node/npm",
+            "version": "1.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/engines-ok"
+          },
+          {
+            "name": "@axiomhq/react-loadable",
+            "description": "A higher order component for loading components with promises",
+            "version": "5.5.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@axiomhq/react-loadable"
+          },
+          {
+            "name": "pivotal-flow",
+            "description": "\ud83d\udd00 A command-line tool that helps you manage & automate your workflow to use with PivotalTracker.",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/pivotal-flow"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 6,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:14:37.221593"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:14:37.221609",
+    "batch_network": {
+      "batch": "Summer 2014",
+      "total_batch_mates": 77,
+      "active_batch_mates": 23,
+      "batch_success_rate": 29.9,
+      "notable_batch_mates": [
+        {
+          "name": "Zip Phone",
+          "slug": "zip-phone",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Whatsapp for voice"
+        },
+        {
+          "name": "Parenthoods",
+          "slug": "parenthoods",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Communities for expecting and new parents. "
+        },
+        {
+          "name": "Bitaccess",
+          "slug": "bitaccess",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "We make bitcoin simple. "
+        },
+        {
+          "name": "Carlypso",
+          "slug": "carlypso",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Used car marketplace"
+        },
+        {
+          "name": "Checkr",
+          "slug": "checkr",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "People infrastructure for the future of work"
+        },
+        {
+          "name": "Clara Labs",
+          "slug": "clara-labs",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Clara is a human-in-the-loop assistant that helps automate repetitive\u2026"
+        },
+        {
+          "name": "Craft Coffee",
+          "slug": "craft-coffee",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Better coffee for less money"
+        },
+        {
+          "name": "PersistIQ",
+          "slug": "persistiq",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "PersistIQ is a free email automation platform to send a small batch\u2026"
+        },
+        {
+          "name": "GovPredict",
+          "slug": "govpredict",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The system of record for government affairs."
+        },
+        {
+          "name": "Blockspring",
+          "slug": "blockspring",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Automate data collection for spreadsheets and productivity tools."
+        }
+      ],
+      "batch_size": 78
+    },
+    "industry_network": {
+      "industries": [
+        "Fintech",
+        "Consumer Finance"
+      ],
+      "total_industry_peers": 597,
+      "active_industry_peers": 447,
+      "direct_competitors": [
+        {
+          "name": "Tilt",
+          "slug": "tilt",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Mobile crowdfunding: The easiest way to collect, fundraise, and sell\u2026"
+        },
+        {
+          "name": "Debteye",
+          "slug": "debteye",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Automate credit counseling."
+        },
+        {
+          "name": "GoCardless",
+          "slug": "gocardless",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "We\u2019re building the world\u2019s bank payment network."
+        },
+        {
+          "name": "MarketBrief",
+          "slug": "marketbrief",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Generate stories from SEC filings."
+        },
+        {
+          "name": "Leaky",
+          "slug": "leaky",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Online auto and business insurance. (Acquired 2013)"
+        },
+        {
+          "name": "Balanced",
+          "slug": "balanced",
+          "status": "Inactive",
+          "batch": "Winter 2011",
+          "one_liner": "Payments for Marketplaces"
+        },
+        {
+          "name": "FutureAdvisor",
+          "slug": "futureadvisor",
+          "status": "Acquired",
+          "batch": "Summer 2010",
+          "one_liner": "The online financial management service for everyone."
+        },
+        {
+          "name": "Ready For Zero",
+          "slug": "ready-for-zero",
+          "status": "Inactive",
+          "batch": "Summer 2010",
+          "one_liner": "Personal debt and credit management. Acquired by Avant in 2015."
+        },
+        {
+          "name": "Buxfer",
+          "slug": "buxfer",
+          "status": "Active",
+          "batch": "Winter 2007",
+          "one_liner": "Buxfer helps you make better spending decisions by making it easy to\u2026"
+        },
+        {
+          "name": "TextPayMe",
+          "slug": "textpayme",
+          "status": "Acquired",
+          "batch": "Summer 2005",
+          "one_liner": ""
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Bengaluru",
+      "location": "Bengaluru, KA, India",
+      "companies_in_city": 108,
+      "active_in_city": 75,
+      "nearby_companies": [
+        {
+          "name": "Markupwand",
+          "slug": "markupwand",
+          "batch": "Summer 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Noora Health",
+          "slug": "noora-health",
+          "batch": "Winter 2014",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Razorpay",
+          "slug": "razorpay",
+          "batch": "Winter 2015",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Meesho",
+          "slug": "meesho",
+          "batch": "Summer 2016",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Drivezy",
+          "slug": "drivezy",
+          "batch": "Summer 2016",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Scribe",
+          "slug": "scribe",
+          "batch": "Winter 2017",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Pulse",
+          "slug": "pulse",
+          "batch": "Winter 2017",
+          "industry": "Healthcare",
+          "status": "Inactive"
+        },
+        {
+          "name": "Supr Daily",
+          "slug": "supr-daily",
+          "batch": "Winter 2017",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Bicycle AI",
+          "slug": "bicycle-ai",
+          "batch": "Winter 2017",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Wifi Dabba, Inc.",
+          "slug": "wifi-dabba-inc",
+          "batch": "Winter 2017",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Playment",
+          "slug": "playment",
+          "batch": "Winter 2017",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "OneFin",
+          "slug": "onefin",
+          "batch": "Winter 2017",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "LotusPay",
+          "slug": "lotuspay",
+          "batch": "Summer 2017",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fastpad",
+          "slug": "fastpad",
+          "batch": "Summer 2017",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "NextDrop",
+          "slug": "nextdrop",
+          "batch": "Summer 2017",
+          "industry": "Industrials",
+          "status": "Inactive"
+        },
+        {
+          "name": "WheelStreet",
+          "slug": "wheelstreet",
+          "batch": "Summer 2017",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Cashfree Payments",
+          "slug": "cashfree-payments",
+          "batch": "Summer 2017",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Groww",
+          "slug": "groww",
+          "batch": "Winter 2018",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Khatabook",
+          "slug": "khatabook",
+          "batch": "Summer 2018",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "OkCredit",
+          "slug": "okcredit",
+          "batch": "Summer 2018",
+          "industry": "Fintech",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Spenny",
+        "slug": "spenny",
+        "batch": "Winter 2020",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "marketfeed",
+        "slug": "marketfeed",
+        "batch": "Summer 2021",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Billforward",
+        "slug": "billforward",
+        "batch": "Summer 2014",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Bitaccess",
+        "slug": "bitaccess",
+        "batch": "Summer 2014",
+        "industry": "Fintech",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Owners Circle",
+        "slug": "owners-circle",
+        "batch": "Summer 2014",
+        "industry": "Fintech",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Kash",
+        "slug": "kash",
+        "batch": "Summer 2014",
+        "industry": "Fintech",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Cheddar",
+        "slug": "cheddar",
+        "batch": "Summer 2014",
+        "industry": "Fintech",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "SFOX",
+        "slug": "sfox",
+        "batch": "Summer 2014",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Apto Payments",
+        "slug": "apto-payments",
+        "batch": "Summer 2014",
+        "industry": "Fintech",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Tinker",
+        "slug": "tinker",
+        "batch": "Summer 2014",
+        "industry": "Fintech",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 782,
+      "network_density_score": 77.0,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:14:37.233451"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:14:37.233458",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:14:37.572265",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:14:37.674054",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 900,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:42:16.077954",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Digital transformation of SME finance in India",
+        "Government push for digital payments and GST compliance",
+        "Rising demand for integrated financial platforms"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Comprehensive integrated platform with strong regulatory compliance expertise and established user base in Indian market",
+      "differentiation": "All-in-one fintech platform covering invoicing, taxes, wealth management, and credit for Indian businesses",
+      "competitive_advantages": [
+        "Deep understanding of Indian regulatory landscape",
+        "Integrated multi-product offering",
+        "Large team size enabling comprehensive support"
+      ],
+      "competitive_vulnerabilities": [
+        "Competition from specialized players in each vertical",
+        "Potential complexity from managing multiple product lines"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "mature",
+      "growth_indicators": [
+        "900+ team size indicating significant scale",
+        "12+ years domain age showing longevity",
+        "Multi-product platform expansion"
+      ],
+      "growth_bottlenecks": [
+        "Market saturation in core segments",
+        "Need for continuous product innovation across multiple verticals"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "medium",
+      "overall_risk_score": 4,
+      "key_risks": [
+        "Regulatory changes in Indian fintech space",
+        "Intense competition from both startups and incumbents",
+        "Complexity of managing multiple financial products"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Established market presence with large team",
+        "Comprehensive product suite addressing multiple pain points",
+        "Strong positioning in high-growth Indian market"
+      ],
+      "concerns": [
+        "Late-stage company with potentially limited upside",
+        "Complex multi-product strategy execution challenges"
+      ],
+      "exit_potential": "IPO",
+      "comparable_companies": [
+        "Zoho",
+        "FreshBooks",
+        "QuickBooks India"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on AI/ML integration for better financial insights",
+        "Expand into tier-2 and tier-3 Indian cities"
+      ],
+      "expansion_opportunities": [
+        "International expansion to similar emerging markets",
+        "Advanced analytics and business intelligence features"
+      ]
+    },
+    "tokens_used": {
+      "input": 685,
+      "output": 593,
+      "total": 1278,
+      "estimated_cost": 0.01095
+    }
+  },
+  "phase8_complete": true
+}

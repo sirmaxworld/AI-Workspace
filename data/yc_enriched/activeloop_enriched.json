@@ -1,0 +1,696 @@
+{
+  "slug": "activeloop",
+  "name": "Activeloop",
+  "yc_id": 1910,
+  "batch": "Summer 2018",
+  "website": "https://activeloop.ai/",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:42:35.803167",
+    "website": "https://activeloop.ai/",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 4395.21,
+      "final_url": "https://www.activeloop.ai/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:42:40.198393"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "activeloop.ai",
+      "registrar": "NameCheap, Inc.",
+      "creation_date": "2020-07-18T16:06:56",
+      "expiration_date": "2026-07-18T16:06:56",
+      "domain_age_days": 1916,
+      "domain_age_years": 5.2,
+      "name_servers": [
+        "amit.ns.cloudflare.com",
+        "mina.ns.cloudflare.com"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/activeloopai/",
+      "linkedin": "https://www.linkedin.com/company/activeloop/",
+      "github": "https://github.com/activeloopai/deeplake/",
+      "facebook": "https://www.facebook.com/activeloopai/",
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": false,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 0,
+      "server": "cloudflare"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:20:28.261973",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:20:16.382833",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "Mountain View, CA, USA",
+      "coordinates": {
+        "latitude": 37.3861,
+        "longitude": -122.0839
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:14:27.736953",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:20:16.382852",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/activeloopai"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 1,
+        "packages": [
+          {
+            "name": "hubnode",
+            "description": "Hub from activeloop.io",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/hubnode"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 1,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:20:17.621023"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:20:17.621042",
+    "batch_network": {
+      "batch": "Summer 2018",
+      "total_batch_mates": 130,
+      "active_batch_mates": 78,
+      "batch_success_rate": 60.0,
+      "notable_batch_mates": [
+        {
+          "name": "Allotrope Medical",
+          "slug": "allotrope-medical",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Advancing surgical precision through safe electrical stimulation. "
+        },
+        {
+          "name": "Honeylove",
+          "slug": "honeylove",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "Honeylove makes functional undergarments for women"
+        },
+        {
+          "name": "Phiar",
+          "slug": "phiar",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "We are developing a revolutionary AI-powered augmented reality\u2026"
+        },
+        {
+          "name": "Lowkey",
+          "slug": "lowkey",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Capture, create, & share gaming moments (Acquired by Niantic!)"
+        },
+        {
+          "name": "Demeanor.co",
+          "slug": "demeanor-co",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Now part of thentwrk.com"
+        },
+        {
+          "name": "Optic",
+          "slug": "optic",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Making APIs Developer-friendly "
+        },
+        {
+          "name": "OneGraph",
+          "slug": "onegraph",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "GraphQL API to connect all of the internet's APIs. Join us at Netlify!"
+        },
+        {
+          "name": "Scanwell Health",
+          "slug": "scanwell-health",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Smartphone-enabled, at-home diagnostics"
+        },
+        {
+          "name": "Berbix",
+          "slug": "berbix",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Convert more verified users. Instantly & accurately validate user IDs."
+        },
+        {
+          "name": "Impactive (formerly Outvote)",
+          "slug": "impactive",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Political/civic tech helping progressive campaigns organize & mobilize"
+        }
+      ],
+      "batch_size": 131
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Amiato",
+          "slug": "amiato",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "The BI bridge for unstructured data. We automatically bridge the gap\u2026"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Simple multiplayer game servers."
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Backlift allows front-end only developers to build entire websites\u2026"
+        },
+        {
+          "name": "Documents.Me",
+          "slug": "documents-me",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Client-side encryption for your devices and the cloud."
+        },
+        {
+          "name": "Apollo",
+          "slug": "apollo",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Apollo helps engineering teams accelerate delivery"
+        },
+        {
+          "name": "Proxino",
+          "slug": "proxino",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Javascript proxy."
+        },
+        {
+          "name": "PhoneSys",
+          "slug": "phonesys",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "The Phone System for Sales Teams."
+        },
+        {
+          "name": "Cryptoseal",
+          "slug": "cryptoseal",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Server key management, VPN as a Service, Privacy VPN.  Sold to\u2026"
+        },
+        {
+          "name": "Citus Data",
+          "slug": "citus-data",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Real-time. Big data. PostgreSQL"
+        },
+        {
+          "name": "Realm",
+          "slug": "realm",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Better data structures = no DB."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Mountain View",
+      "location": "Mountain View, CA, USA",
+      "companies_in_city": 84,
+      "active_in_city": 30,
+      "nearby_companies": [
+        {
+          "name": "SlidePay",
+          "slug": "slidepay",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "BarSense",
+          "slug": "barsense",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "YourMechanic",
+          "slug": "yourmechanic",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Carsabi",
+          "slug": "carsabi",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HackerRank",
+          "slug": "hackerrank",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "PhoneSys",
+          "slug": "phonesys",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Cryptoseal",
+          "slug": "cryptoseal",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Firebase",
+          "slug": "firebase",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Everyme",
+          "slug": "everyme",
+          "batch": "Summer 2011",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Kicksend",
+          "slug": "kicksend",
+          "batch": "Summer 2011",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Beetailer",
+          "slug": "beetailer",
+          "batch": "Winter 2011",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "TalkBin",
+          "slug": "talkbin",
+          "batch": "Winter 2011",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "GazeHawk",
+          "slug": "gazehawk",
+          "batch": "Summer 2010",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Whereoscope",
+          "slug": "whereoscope",
+          "batch": "Summer 2010",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Newcope",
+          "slug": "newcope",
+          "batch": "Winter 2010",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HighlightCam",
+          "slug": "highlightcam",
+          "batch": "Summer 2009",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Bump",
+          "slug": "bump",
+          "batch": "Summer 2009",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Recurious",
+          "slug": "recurious",
+          "batch": "Winter 2009",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Picurio",
+          "slug": "picurio",
+          "batch": "Winter 2009",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Virtualmin",
+          "slug": "virtualmin",
+          "batch": "Winter 2007",
+          "industry": "B2B",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Inscribe",
+        "slug": "inscribe",
+        "batch": "Summer 2018",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "PhoneSys",
+        "slug": "phonesys",
+        "batch": "Summer 2011",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Cryptoseal",
+        "slug": "cryptoseal",
+        "batch": "Summer 2011",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Firebase",
+        "slug": "firebase",
+        "batch": "Summer 2011",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Virtualmin",
+        "slug": "virtualmin",
+        "batch": "Winter 2007",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Parakey",
+        "slug": "parakey",
+        "batch": "Summer 2005",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Redspread",
+        "slug": "redspread",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Ardis AI",
+        "slug": "ardis-ai",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "FlowDeploy",
+        "slug": "flowdeploy",
+        "batch": "Winter 2022",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "IOMETE",
+        "slug": "iomete",
+        "batch": "Winter 2022",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 2960,
+      "network_density_score": 82.8,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:20:17.634608"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:20:17.634617",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:20:17.952023",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:20:18.057746",
+    "basic_info": {
+      "is_hiring": true,
+      "team_size": 15,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:42:23.568403",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increasing demand for AI/ML data infrastructure",
+        "Growth of multi-modal AI applications",
+        "Rise of vector databases for AI"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Open-core stack and early mover advantage in AI dataset management.",
+      "differentiation": "Focus on multi-modal AI datasets and seamless integration with training workflows.",
+      "competitive_advantages": [
+        "Optimized for large-scale AI training",
+        "Automatic version control for data provenance"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on open-source contributions",
+        "Competition from established database vendors"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "series-a",
+      "growth_indicators": [
+        "Adoption by foundational model developers",
+        "Increasing data volume under management"
+      ],
+      "growth_bottlenecks": [
+        "Sales cycle length",
+        "Integration complexity"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Emergence of competing solutions",
+        "Data security and privacy concerns",
+        "Maintaining open-source community engagement"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong technical team",
+        "First-mover advantage in a growing market",
+        "Open-core approach fosters community adoption"
+      ],
+      "concerns": [
+        "Competition from larger players",
+        "Monetization strategy execution"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Pinecone",
+        "Weaviate"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Expand partnerships with cloud providers",
+        "Focus on enterprise sales and support"
+      ],
+      "expansion_opportunities": [
+        "Develop pre-trained models and datasets",
+        "Offer managed services for data governance"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 711,
+      "completion": 591,
+      "total": 1302,
+      "estimated_cost": 0.000231
+    }
+  },
+  "phase8_complete": true
+}

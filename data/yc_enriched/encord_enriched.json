@@ -1,0 +1,1395 @@
+{
+  "slug": "encord",
+  "name": "Encord",
+  "yc_id": 22744,
+  "batch": "Winter 2021",
+  "website": "https://encord.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:59:05.638003",
+    "website": "https://encord.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 2377.99,
+      "final_url": "https://encord.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:59:08.016005"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "encord.com",
+      "registrar": "NAMECHEAP INC",
+      "creation_date": "2001-12-10T19:48:23",
+      "expiration_date": "2025-12-10T19:48:23",
+      "domain_age_days": 8711,
+      "domain_age_years": 23.8,
+      "name_servers": [
+        "NS-CLOUD-C1.GOOGLEDOMAINS.COM",
+        "NS-CLOUD-C2.GOOGLEDOMAINS.COM",
+        "NS-CLOUD-C3.GOOGLEDOMAINS.COM",
+        "NS-CLOUD-C4.GOOGLEDOMAINS.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": "https://www.linkedin.com/company/encord-team/",
+      "github": "https://github.com/encord-team",
+      "facebook": null,
+      "instagram": null,
+      "youtube": "https://www.youtube.com/channel/UCySY39IUFp5yEReD2rSEXNg/"
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": true,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 33,
+      "server": "Unknown"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:26:33.861526",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:26:19.834518",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "London, UK",
+      "coordinates": {
+        "latitude": 51.5074,
+        "longitude": -0.1278
+      },
+      "timezone": {
+        "timezone_id": "Europe/London",
+        "timezone_name": "Europe/London"
+      },
+      "retrieved_at": "2025-10-17T10:14:19.264834",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:26:19.834549",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/encord-team"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 100,
+        "packages": [
+          {
+            "name": "@codexteam/icons",
+            "description": "Dozens of cute icons made with love by CodeX for your projects.",
+            "version": "0.3.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@codexteam/icons"
+          },
+          {
+            "name": "@rjsf/core",
+            "description": "A simple React component capable of building HTML forms out of a JSON schema.",
+            "version": "5.24.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@rjsf/core"
+          },
+          {
+            "name": "@rjsf/utils",
+            "description": "Utility functions for @rjsf/core",
+            "version": "5.24.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@rjsf/utils"
+          },
+          {
+            "name": "emoji-mart",
+            "description": "Emoji picker for the web",
+            "version": "5.6.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/emoji-mart"
+          },
+          {
+            "name": "@rjsf/validator-ajv8",
+            "description": "The ajv-8 based validator for @rjsf/core",
+            "version": "5.24.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@rjsf/validator-ajv8"
+          },
+          {
+            "name": "scheduler",
+            "description": "Cooperative scheduler for the browser environment.",
+            "version": "0.27.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/scheduler"
+          },
+          {
+            "name": "@ariakit/core",
+            "description": "Ariakit core",
+            "version": "0.4.16",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ariakit/core"
+          },
+          {
+            "name": "@ariakit/react-core",
+            "description": "Ariakit React core",
+            "version": "0.4.19",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ariakit/react-core"
+          },
+          {
+            "name": "drizzle-orm",
+            "description": "Drizzle ORM package for SQL databases",
+            "version": "0.44.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/drizzle-orm"
+          },
+          {
+            "name": "@editorjs/editorjs",
+            "description": "Editor.js \u2014 open source block-style WYSIWYG editor with JSON output",
+            "version": "2.31.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@editorjs/editorjs"
+          },
+          {
+            "name": "cdk8s",
+            "description": "This is the core library of Cloud Development Kit (CDK) for Kubernetes (cdk8s). cdk8s apps synthesize into standard Kubernetes manifests which can be applied to any Kubernetes cluster.",
+            "version": "2.70.21",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/cdk8s"
+          },
+          {
+            "name": "@rjsf/material-ui",
+            "description": "Material UI 4 theme, fields and widgets for react-jsonschema-form",
+            "version": "5.24.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@rjsf/material-ui"
+          },
+          {
+            "name": "@rjsf/mui",
+            "description": "Material UI 5 theme, fields and widgets for react-jsonschema-form",
+            "version": "5.24.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@rjsf/mui"
+          },
+          {
+            "name": "@oxc-project/runtime",
+            "description": "Oxc's modular runtime helpers",
+            "version": "0.95.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@oxc-project/runtime"
+          },
+          {
+            "name": "@firebase/component",
+            "description": "Firebase Component Platform",
+            "version": "0.7.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@firebase/component"
+          },
+          {
+            "name": "eslint",
+            "description": "An AST-based pattern checker for JavaScript.",
+            "version": "9.37.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/eslint"
+          },
+          {
+            "name": "@datadog/datadog-ci-plugin-dora",
+            "description": "Datadog CI plugin for `dora` commands",
+            "version": "4.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@datadog/datadog-ci-plugin-dora"
+          },
+          {
+            "name": "govuk-frontend",
+            "description": "GOV.UK Frontend contains the code you need to start building a user interface for government platforms and services.",
+            "version": "5.13.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/govuk-frontend"
+          },
+          {
+            "name": "metro",
+            "description": "\ud83d\ude87 The JavaScript bundler for React Native.",
+            "version": "0.83.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/metro"
+          },
+          {
+            "name": "@marp-team/marpit",
+            "description": "The skinny framework for creating slide deck from Markdown",
+            "version": "3.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@marp-team/marpit"
+          },
+          {
+            "name": "@ionic/cli",
+            "description": "A tool for creating and developing Ionic Framework mobile apps.",
+            "version": "7.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ionic/cli"
+          },
+          {
+            "name": "libnpmteam",
+            "description": "npm Team management APIs",
+            "version": "8.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/libnpmteam"
+          },
+          {
+            "name": "cdk8s-plus-28",
+            "description": "cdk8s+ is a software development framework that provides high level abstractions for authoring Kubernetes applications. cdk8s-plus-28 synthesizes Kubernetes manifests for Kubernetes 1.28.0",
+            "version": "2.5.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/cdk8s-plus-28"
+          },
+          {
+            "name": "@wdio/spec-reporter",
+            "description": "A WebdriverIO plugin to report in spec style",
+            "version": "9.20.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@wdio/spec-reporter"
+          },
+          {
+            "name": "cdk8s-plus-25",
+            "description": "cdk8s+ is a software development framework that provides high level abstractions for authoring Kubernetes applications. cdk8s-plus-25 synthesizes Kubernetes manifests for Kubernetes 1.25.0",
+            "version": "2.22.79",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/cdk8s-plus-25"
+          },
+          {
+            "name": "@wangeditor/editor",
+            "description": "Web rich text editor, Web \u5bcc\u6587\u672c\u7f16\u8f91\u5668",
+            "version": "5.1.23",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@wangeditor/editor"
+          },
+          {
+            "name": "vega-lite",
+            "description": "Vega-Lite is a concise high-level language for interactive visualization.",
+            "version": "6.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/vega-lite"
+          },
+          {
+            "name": "cdk8s-cli",
+            "description": "This is the command line tool for Cloud Development Kit (CDK) for Kubernetes (cdk8s).",
+            "version": "2.202.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/cdk8s-cli"
+          },
+          {
+            "name": "@rjsf/antd",
+            "description": "Ant Design theme, fields and widgets for react-jsonschema-form",
+            "version": "5.24.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@rjsf/antd"
+          },
+          {
+            "name": "@marp-team/marp-cli",
+            "description": "A CLI interface for Marp and Marpit based converters",
+            "version": "4.2.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@marp-team/marp-cli"
+          },
+          {
+            "name": "@marp-team/marp-core",
+            "description": "The core of Marp tools",
+            "version": "4.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@marp-team/marp-core"
+          },
+          {
+            "name": "mysql2",
+            "description": "fast mysql driver. Implements core protocol, prepared statements, ssl and compression in native JS",
+            "version": "3.15.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/mysql2"
+          },
+          {
+            "name": "@firebase/util",
+            "description": "_NOTE: This is specifically tailored for Firebase JS SDK usage, if you are not a member of the Firebase team, please avoid using this package_",
+            "version": "1.13.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@firebase/util"
+          },
+          {
+            "name": "@capacitor-firebase/authentication",
+            "description": "Capacitor plugin for Firebase Authentication.",
+            "version": "7.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@capacitor-firebase/authentication"
+          },
+          {
+            "name": "native-run",
+            "description": "A CLI for running apps on iOS/Android devices and simulators/emulators",
+            "version": "2.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/native-run"
+          },
+          {
+            "name": "cdk8s-plus-29",
+            "description": "cdk8s+ is a software development framework that provides high level abstractions for authoring Kubernetes applications. cdk8s-plus-29 synthesizes Kubernetes manifests for Kubernetes 1.29.0",
+            "version": "2.6.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/cdk8s-plus-29"
+          },
+          {
+            "name": "@redocly/mock-server",
+            "description": "Redocly Mock server",
+            "version": "0.3.12",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@redocly/mock-server"
+          },
+          {
+            "name": "@marp-team/marpit-svg-polyfill",
+            "description": "Polyfill for inline SVG slides rendered by Marpit",
+            "version": "2.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@marp-team/marpit-svg-polyfill"
+          },
+          {
+            "name": "@ariakit/test",
+            "description": "Ariakit test utils",
+            "version": "0.4.11",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ariakit/test"
+          },
+          {
+            "name": "promptfoo",
+            "description": "LLM eval & testing toolkit",
+            "version": "0.118.17",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/promptfoo"
+          },
+          {
+            "name": "@redocly/theme",
+            "description": "Shared UI components lib",
+            "version": "0.58.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@redocly/theme"
+          },
+          {
+            "name": "@redocly/graphql-docs",
+            "description": "Redocly GraphQL docs",
+            "version": "1.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@redocly/graphql-docs"
+          },
+          {
+            "name": "@redocly/asyncapi-docs",
+            "description": "Async API docs for Redocly Realm",
+            "version": "1.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@redocly/asyncapi-docs"
+          },
+          {
+            "name": "cdk8s-plus-32",
+            "description": "cdk8s+ is a software development framework that provides high level abstractions for authoring Kubernetes applications. cdk8s-plus-32 synthesizes Kubernetes manifests for Kubernetes 1.32.0",
+            "version": "2.4.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/cdk8s-plus-32"
+          },
+          {
+            "name": "@wppconnect/wa-js",
+            "description": "WPPConnect/WA-JS is an open-source project with the aim of exporting functions from WhatsApp Web",
+            "version": "3.18.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@wppconnect/wa-js"
+          },
+          {
+            "name": "aws-serverless-express",
+            "description": "This library enables you to utilize AWS Lambda and Amazon API Gateway to respond to web and API requests using your existing Node.js application framework.",
+            "version": "3.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/aws-serverless-express"
+          },
+          {
+            "name": "@atlaskit/teams-public",
+            "description": "Public components related to teams",
+            "version": "0.62.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@atlaskit/teams-public"
+          },
+          {
+            "name": "@pulumiverse/vercel",
+            "description": "The Vercel Resource Provider lets you manage [Vercel](https://vercel.com) resources.",
+            "version": "3.15.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@pulumiverse/vercel"
+          },
+          {
+            "name": "@rjsf/validator-ajv6",
+            "description": "The ajv-6 based validator for @rjsf/core",
+            "version": "5.24.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@rjsf/validator-ajv6"
+          },
+          {
+            "name": "@wppconnect-team/wppconnect",
+            "description": "WPPConnect is an open source project developed by the JavaScript community with the aim of exporting functions from WhatsApp Web to the node, which can be used to support the creation of any interaction, such as customer service, media sending, intelligen",
+            "version": "1.37.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@wppconnect-team/wppconnect"
+          },
+          {
+            "name": "nebular-icons",
+            "description": "Nebular icons - amazing icons crafted with love by Akveo team",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/nebular-icons"
+          },
+          {
+            "name": "react-test-renderer",
+            "description": "React package for snapshot testing.",
+            "version": "19.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-test-renderer"
+          },
+          {
+            "name": "@atlaskit/teams-avatar",
+            "description": "A team avatar is a visual representation of a team.",
+            "version": "2.3.25",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@atlaskit/teams-avatar"
+          },
+          {
+            "name": "use-previous",
+            "description": "React hook for remembering previous value.",
+            "version": "1.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/use-previous"
+          },
+          {
+            "name": "@rjsf/chakra-ui",
+            "description": "Chakra UI theme, fields, and widgets for react-jsonschema-form",
+            "version": "5.24.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@rjsf/chakra-ui"
+          },
+          {
+            "name": "@firebase/webchannel-wrapper",
+            "description": "A wrapper of the webchannel packages from closure-library for use outside of a closure compiled application",
+            "version": "1.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@firebase/webchannel-wrapper"
+          },
+          {
+            "name": "@cucumber/cucumber",
+            "description": "The official JavaScript implementation of Cucumber.",
+            "version": "12.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@cucumber/cucumber"
+          },
+          {
+            "name": "next-firebase-auth",
+            "description": "Simple Firebase authentication for all Next.js rendering strategies",
+            "version": "1.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/next-firebase-auth"
+          },
+          {
+            "name": "zone.js",
+            "description": "Zones for JavaScript",
+            "version": "0.15.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/zone.js"
+          },
+          {
+            "name": "@webex/plugin-team-memberships",
+            "description": null,
+            "version": "3.9.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webex/plugin-team-memberships"
+          },
+          {
+            "name": "@team-plain/typescript-sdk",
+            "description": "Typescript SDK for Plain's Core GraphQL API",
+            "version": "5.11.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@team-plain/typescript-sdk"
+          },
+          {
+            "name": "@adonisjs/eslint-config",
+            "description": "The base configuration for ESLint used by AdonisJS applications and packages",
+            "version": "2.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@adonisjs/eslint-config"
+          },
+          {
+            "name": "@regru/eslint-plugin-prefer-early-return",
+            "description": "Copy-paste from `eslint-plugin-shopify` from shopify team without unwanted dependensies and restrictions",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@regru/eslint-plugin-prefer-early-return"
+          },
+          {
+            "name": "emoji-mart-lite",
+            "description": "Customizable Slack-like emoji picker for React (lite: native emoji only)",
+            "version": "0.6.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/emoji-mart-lite"
+          },
+          {
+            "name": "@heroku-cli/plugin-spaces",
+            "description": "Heroku plugin to manage Heroku Private Spaces",
+            "version": "8.11.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@heroku-cli/plugin-spaces"
+          },
+          {
+            "name": "@redocly/openapi-docs",
+            "description": "Redocly OpenAPI Docs",
+            "version": "3.14.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@redocly/openapi-docs"
+          },
+          {
+            "name": "@wangeditor/editor-for-vue",
+            "description": "wangEditor component for vue2.x",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@wangeditor/editor-for-vue"
+          },
+          {
+            "name": "@ionic-native/keyboard",
+            "description": "Ionic Native - Native plugins for ionic apps",
+            "version": "5.36.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ionic-native/keyboard"
+          },
+          {
+            "name": "@deck.gl-community/layers",
+            "description": "Add-on layers for deck.gl",
+            "version": "9.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@deck.gl-community/layers"
+          },
+          {
+            "name": "@yeoman/types",
+            "description": "Common API for yeoman's generator/environment stack",
+            "version": "1.8.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@yeoman/types"
+          },
+          {
+            "name": "@fantasticmrdavid/emoji-mart",
+            "description": "Emoji picker for the web",
+            "version": "5.5.2-c",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@fantasticmrdavid/emoji-mart"
+          },
+          {
+            "name": "@acorex/styles",
+            "description": "ACoreX is an UI framework based on angular. With over 50+ beautiful fully responsive and accessible components for everyone.",
+            "version": "20.2.19",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@acorex/styles"
+          },
+          {
+            "name": "cdk8s-plus-31",
+            "description": "cdk8s+ is a software development framework that provides high level abstractions for authoring Kubernetes applications. cdk8s-plus-31 synthesizes Kubernetes manifests for Kubernetes 1.31.0",
+            "version": "2.5.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/cdk8s-plus-31"
+          },
+          {
+            "name": "@vercel/remote-nx",
+            "description": "Remote caching for @nrwl/nx using Vercel Remote Cache",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@vercel/remote-nx"
+          },
+          {
+            "name": "node-linux-x64",
+            "description": "node",
+            "version": "25.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/node-linux-x64"
+          },
+          {
+            "name": "swiftlint",
+            "description": "Tiny SwiftLint wrapper for npm",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/swiftlint"
+          },
+          {
+            "name": "@vercel/remote",
+            "description": "An SDK for remote artifact caching on Vercel",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@vercel/remote"
+          },
+          {
+            "name": "@wppconnect/wa-version",
+            "description": "List of WhatsApp Web HTML",
+            "version": "1.5.2437",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@wppconnect/wa-version"
+          },
+          {
+            "name": "@axway/axway-cli-oum",
+            "description": "Axway Amplify platform organization and user management CLI",
+            "version": "3.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@axway/axway-cli-oum"
+          },
+          {
+            "name": "supertokens-website",
+            "description": "frontend sdk for website to be used for auth solution.",
+            "version": "20.1.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/supertokens-website"
+          },
+          {
+            "name": "@acorex/components",
+            "description": "ACoreX is an UI framework based on angular. With over 50+ beautiful fully responsive and accessible components for everyone.",
+            "version": "20.2.19",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@acorex/components"
+          },
+          {
+            "name": "@hey-api/openapi-ts",
+            "description": "\ud83d\ude80 The OpenAPI to TypeScript codegen. Generate clients, SDKs, validators, and more.",
+            "version": "0.85.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@hey-api/openapi-ts"
+          },
+          {
+            "name": "cdk8s-plus-27",
+            "description": "cdk8s+ is a software development framework that provides high level abstractions for authoring Kubernetes applications. cdk8s-plus-27 synthesizes Kubernetes manifests for Kubernetes 1.27.0",
+            "version": "2.9.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/cdk8s-plus-27"
+          },
+          {
+            "name": "@yeoman/adapter",
+            "description": "Input Output adapter for yeoman's generator/environment stack",
+            "version": "3.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@yeoman/adapter"
+          },
+          {
+            "name": "cursor-tools",
+            "description": "CLI tools for AI agents",
+            "version": "0.6.0-alpha.12",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/cursor-tools"
+          },
+          {
+            "name": "pino-http",
+            "description": "High-speed HTTP logger for Node.js",
+            "version": "11.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/pino-http"
+          },
+          {
+            "name": "@acorex/core",
+            "description": "ACoreX is an UI framework based on angular. With over 50+ beautiful fully responsive and accessible components for everyone.",
+            "version": "20.2.19",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@acorex/core"
+          },
+          {
+            "name": "@capacitor/angular",
+            "description": "Schematics for capacitor/angular apps.",
+            "version": "2.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@capacitor/angular"
+          },
+          {
+            "name": "@types/vscode",
+            "description": "TypeScript definitions for vscode",
+            "version": "1.105.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@types/vscode"
+          },
+          {
+            "name": "@yeoman/conflicter",
+            "description": "Conflict resolution for yeoman's generator/environment stack",
+            "version": "3.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@yeoman/conflicter"
+          },
+          {
+            "name": "make-iterator",
+            "description": "Convert an argument into a valid iterator. Based on the `.makeIterator()` implementation in mout https://github.com/mout/mout.",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/make-iterator"
+          },
+          {
+            "name": "@ionic/swiftlint-config",
+            "description": "SwiftLint config for Ionic and Capacitor",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ionic/swiftlint-config"
+          },
+          {
+            "name": "cdk8s-plus-22",
+            "description": "cdk8s+ is a software development framework that provides high level abstractions for authoring Kubernetes applications. cdk8s-plus-22 synthesizes Kubernetes manifests for Kubernetes 1.22.0",
+            "version": "2.0.0-rc.158",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/cdk8s-plus-22"
+          },
+          {
+            "name": "cdk8s-plus-30",
+            "description": "cdk8s+ is a software development framework that provides high level abstractions for authoring Kubernetes applications. cdk8s-plus-30 synthesizes Kubernetes manifests for Kubernetes 1.30.0",
+            "version": "2.4.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/cdk8s-plus-30"
+          },
+          {
+            "name": "chromedriver",
+            "description": "ChromeDriver for Selenium",
+            "version": "141.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/chromedriver"
+          },
+          {
+            "name": "@ckeditor/ckeditor-cloud-services-collaboration",
+            "description": "CKEditor Cloud Services Collaboration low-level API is required by CKEditor 5 Collaboration features to enable real-time collaborative editing in CKEditor 5.",
+            "version": "53.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ckeditor/ckeditor-cloud-services-collaboration"
+          },
+          {
+            "name": "emoji-mart-lazyload",
+            "description": "Customizable Slack-like emoji picker for React",
+            "version": "3.0.1-j",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/emoji-mart-lazyload"
+          },
+          {
+            "name": "@marimo-team/codemirror-languageserver",
+            "description": "Language Server Plugin for CodeMirror 6",
+            "version": "1.16.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@marimo-team/codemirror-languageserver"
+          },
+          {
+            "name": "drizzle-kit",
+            "description": "Drizzle Kit is a CLI migrator tool for Drizzle ORM. It is probably the one and only tool that lets you completely automatically generate SQL migrations and covers ~95% of the common cases like deletions and renames by prompting user input. <https://github",
+            "version": "0.31.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/drizzle-kit"
+          },
+          {
+            "name": "react-file-utils",
+            "description": "React components for managing files and images",
+            "version": "1.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-file-utils"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 100,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:26:21.389306"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:26:21.389348",
+    "batch_network": {
+      "batch": "Winter 2021",
+      "total_batch_mates": 335,
+      "active_batch_mates": 244,
+      "batch_success_rate": 72.8,
+      "notable_batch_mates": [
+        {
+          "name": "Stacksi",
+          "slug": "stacksi",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Automated Answers to Security Questionnaires"
+        },
+        {
+          "name": "Furmacy",
+          "slug": "furmacy",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Digital e-prescribing software for veterinarians."
+        },
+        {
+          "name": "Fountain9",
+          "slug": "fountain9",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Helping food brands and retailers reduce food wastage"
+        },
+        {
+          "name": "Zepto",
+          "slug": "zepto",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "10-Minute Grocery Delivery in India"
+        },
+        {
+          "name": "Segments.ai",
+          "slug": "segments-ai",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Build better computer vision models by building better datasets"
+        },
+        {
+          "name": "PingPong",
+          "slug": "pingpong",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Video messaging app for remote teams."
+        },
+        {
+          "name": "ClipDrop",
+          "slug": "clipdrop",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Turn regular mobile photos into professional product visuals"
+        },
+        {
+          "name": "Avenue",
+          "slug": "avenue",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Observability platform for operations teams"
+        },
+        {
+          "name": "Flok",
+          "slug": "flok",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "End to end company retreat planning"
+        },
+        {
+          "name": "HyperGlue",
+          "slug": "hyperglue",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Business intelligence on text"
+        }
+      ],
+      "batch_size": 336
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Amiato",
+          "slug": "amiato",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "The BI bridge for unstructured data. We automatically bridge the gap\u2026"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Simple multiplayer game servers."
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Backlift allows front-end only developers to build entire websites\u2026"
+        },
+        {
+          "name": "Documents.Me",
+          "slug": "documents-me",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Client-side encryption for your devices and the cloud."
+        },
+        {
+          "name": "Apollo",
+          "slug": "apollo",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Apollo helps engineering teams accelerate delivery"
+        },
+        {
+          "name": "Proxino",
+          "slug": "proxino",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Javascript proxy."
+        },
+        {
+          "name": "PhoneSys",
+          "slug": "phonesys",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "The Phone System for Sales Teams."
+        },
+        {
+          "name": "Cryptoseal",
+          "slug": "cryptoseal",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Server key management, VPN as a Service, Privacy VPN.  Sold to\u2026"
+        },
+        {
+          "name": "Citus Data",
+          "slug": "citus-data",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Real-time. Big data. PostgreSQL"
+        },
+        {
+          "name": "Realm",
+          "slug": "realm",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Better data structures = no DB."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "London",
+      "location": "London, England, United Kingdom",
+      "companies_in_city": 133,
+      "active_in_city": 104,
+      "nearby_companies": [
+        {
+          "name": "CircuitHub",
+          "slug": "circuithub",
+          "batch": "Winter 2012",
+          "industry": "Industrials",
+          "status": "Active"
+        },
+        {
+          "name": "GoCardless",
+          "slug": "gocardless",
+          "batch": "Summer 2011",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Lanyrd",
+          "slug": "lanyrd",
+          "batch": "Winter 2011",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Post.fm",
+          "slug": "post-fm",
+          "batch": "Summer 2010",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Infogami",
+          "slug": "infogami",
+          "batch": "Summer 2005",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "GoScale",
+          "slug": "goscale",
+          "batch": "Summer 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Shoobs",
+          "slug": "shoobs",
+          "batch": "Winter 2014",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Hyperpad",
+          "slug": "hyperpad",
+          "batch": "Summer 2014",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Permutive",
+          "slug": "permutive",
+          "batch": "Summer 2014",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "SalesSift",
+          "slug": "salessift",
+          "batch": "Summer 2014",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "GiveMeTap",
+          "slug": "givemetap",
+          "batch": "Winter 2015",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Tab",
+          "slug": "tab",
+          "batch": "Winter 2015",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Heroic Labs",
+          "slug": "heroic-labs",
+          "batch": "Summer 2015",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Sphere Secure Workspace",
+          "slug": "sphere-secure-workspace",
+          "batch": "Summer 2015",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "80,000 Hours",
+          "slug": "80-000-hours",
+          "batch": "Summer 2015",
+          "industry": "Unspecified",
+          "status": "Active"
+        },
+        {
+          "name": "SmartSite",
+          "slug": "smartsite",
+          "batch": "Summer 2016",
+          "industry": "Real Estate and Construction",
+          "status": "Inactive"
+        },
+        {
+          "name": "Shipamax",
+          "slug": "shipamax",
+          "batch": "Winter 2017",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fat Llama",
+          "slug": "fat-llama",
+          "batch": "Summer 2017",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Entocycle",
+          "slug": "entocycle",
+          "batch": "Summer 2017",
+          "industry": "Industrials",
+          "status": "Active"
+        },
+        {
+          "name": "Opearlo",
+          "slug": "opearlo",
+          "batch": "Summer 2017",
+          "industry": "Consumer",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Mystic",
+        "slug": "mystic",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Webiny",
+        "slug": "webiny",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Humaans",
+        "slug": "humaans",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "SigNoz",
+        "slug": "signoz",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "SlashAuth",
+        "slug": "slashauth",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Axiom.ai",
+        "slug": "axiom-ai",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "SST",
+        "slug": "sst",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "QuickNode",
+        "slug": "quiknode",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Nimbus",
+        "slug": "nimbus-3",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Dyte",
+        "slug": "dyte",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 3214,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:26:21.420033"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:26:21.420050",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:26:21.790061",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:26:21.897840",
+    "basic_info": {
+      "is_hiring": true,
+      "team_size": 100,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:40:00.465135",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "AI model deployment acceleration",
+        "Data-centric AI adoption",
+        "Human-in-the-loop workflows becoming standard"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Integrated platform combining data labeling, RLHF, and model testing with strong network effects from human annotator marketplace",
+      "differentiation": "End-to-end data platform specifically designed for AI production workflows with human-in-the-loop capabilities",
+      "competitive_advantages": [
+        "First-mover advantage in AI data infrastructure",
+        "Integrated workflow reducing tool fragmentation"
+      ],
+      "competitive_vulnerabilities": [
+        "Large tech companies building internal solutions",
+        "Open source alternatives gaining traction"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "series-a",
+      "growth_indicators": [
+        "100 person team size indicating strong revenue growth",
+        "Active status with established customer base"
+      ],
+      "growth_bottlenecks": [
+        "Competition from tech giants",
+        "Need for specialized AI talent acquisition"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "low",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Big Tech competitive threat",
+        "AI tooling commoditization",
+        "Regulatory changes in AI data usage"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Large addressable market in AI infrastructure",
+        "Strong team execution evidenced by growth",
+        "Critical positioning in AI value chain"
+      ],
+      "concerns": [
+        "Intense competition from well-funded players",
+        "Potential for platform disintermediation"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Scale AI",
+        "Labelbox"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Expand enterprise sales team",
+        "Develop strategic partnerships with cloud providers"
+      ],
+      "expansion_opportunities": [
+        "Vertical-specific AI solutions",
+        "International market expansion"
+      ]
+    },
+    "tokens_used": {
+      "input": 686,
+      "output": 548,
+      "total": 1234,
+      "estimated_cost": 0.010278
+    }
+  },
+  "phase8_complete": true
+}

@@ -1,0 +1,749 @@
+{
+  "slug": "pagedraw",
+  "name": "Pagedraw",
+  "yc_id": 1831,
+  "batch": "Winter 2018",
+  "website": "https://pagedraw.io/",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:41:33.018765",
+    "website": "https://pagedraw.io/",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 2323.18,
+      "final_url": "https://pagedraw.io/",
+      "redirected": false,
+      "checked_at": "2025-10-17T00:41:35.341962"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "pagedraw.io",
+      "registrar": "NameCheap, Inc.",
+      "creation_date": "2015-09-01T01:08:54",
+      "expiration_date": "2026-09-01T01:08:54",
+      "domain_age_days": 3698,
+      "domain_age_years": 10.1,
+      "name_servers": [
+        "dawn.ns.cloudflare.com",
+        "dane.ns.cloudflare.com"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/PagedrawIO",
+      "linkedin": null,
+      "github": "https://github.com/Pagedraw/pagedraw",
+      "facebook": "https://www.facebook.com/groups/332815050435264/",
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": true,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 33,
+      "server": "cloudflare"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:20:02.401394",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:19:49.413249",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "San Francisco, CA, USA",
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:12:40.434017",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:49.413280",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/Pagedraw"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 7,
+        "packages": [
+          {
+            "name": "pagedraw-cli",
+            "description": "Pagedraw command line tool",
+            "version": "0.4.12",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/pagedraw-cli"
+          },
+          {
+            "name": "pagedraw-imports",
+            "description": "Utilities that help you import external code into Pagedraw",
+            "version": "0.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/pagedraw-imports"
+          },
+          {
+            "name": "pagedraw",
+            "description": null,
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/pagedraw"
+          },
+          {
+            "name": "pd-bootstrap",
+            "description": "This is a very thin wrapper around the React Bootstrap library (https://react-bootstrap.github.io/) so you can use Bootstrap inside [Pagedraw](https://pagedraw.io).",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/pd-bootstrap"
+          },
+          {
+            "name": "pagedraw-cli-webpack4",
+            "description": null,
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/pagedraw-cli-webpack4"
+          },
+          {
+            "name": "pagedraw-cli-webpack3",
+            "description": null,
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/pagedraw-cli-webpack3"
+          },
+          {
+            "name": "pd-material",
+            "description": "This is a very thin wrapper around the React Material UI library (https://material-ui.com/) so you can use Material UI inside the [Pagedraw UI builder](https://pagedraw.io).",
+            "version": "0.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/pd-material"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 7,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:19:50.688371"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:50.688379",
+    "batch_network": {
+      "batch": "Winter 2018",
+      "total_batch_mates": 145,
+      "active_batch_mates": 84,
+      "batch_success_rate": 57.9,
+      "notable_batch_mates": [
+        {
+          "name": "Newfront",
+          "slug": "newfront-insurance",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "Modern insurance brokerage."
+        },
+        {
+          "name": "Mayhem",
+          "slug": "mayhem",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Mayhem is the easiest way to play with your gaming community."
+        },
+        {
+          "name": "Pulse",
+          "slug": "pulse-2",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "We're crowdsourced Gartner so IT executives can learn directly from\u2026"
+        },
+        {
+          "name": "Bear Flag Robotics",
+          "slug": "bear-flag-robotics",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Autonomous driving technology for farm tractors."
+        },
+        {
+          "name": "ClearBrain",
+          "slug": "clearbrain",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Causal Analytics for Growth Teams"
+        },
+        {
+          "name": "Sepsis Scout",
+          "slug": "sepsis-scout",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Wearables and AI to predict and prevent sepsis outside the hospital"
+        },
+        {
+          "name": "onederful",
+          "slug": "onederful",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Dental Insurance API"
+        },
+        {
+          "name": "CodeStream",
+          "slug": "codestream",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "CodeStream is a Developer Collaboration Platform designed to\u2026"
+        },
+        {
+          "name": "Glimpse K12",
+          "slug": "glimpse-k12",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Glimpse eliminates ineffective spending in schools."
+        },
+        {
+          "name": "Squad",
+          "slug": "squad",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Squad is an app for live communities to have shared experiences\u2026"
+        }
+      ],
+      "batch_size": 146
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1969,
+      "direct_competitors": [
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "status": "Active",
+          "batch": "Winter 2012",
+          "one_liner": "High Performance Computing Built for the Cloud"
+        },
+        {
+          "name": "Marft",
+          "slug": "marft",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Marft creates embeddable machine learning models for application\u2026"
+        },
+        {
+          "name": "Pixelapse",
+          "slug": "pixelapse",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Github for designers. We automatically keep track of revisions of\u2026"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Palantir for sales people"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Smart search for the modern team."
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Authy is a Two-Factor Authentication platform for developers"
+        },
+        {
+          "name": "Flutter",
+          "slug": "flutter",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Flutter combined computer vision technology with the built-in webcams\u2026"
+        },
+        {
+          "name": "SolidStage",
+          "slug": "solidstage",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Sysadmin as a service. We make deploying, configuring, monitoring,\u2026"
+        },
+        {
+          "name": "Clutch",
+          "slug": "clutch",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "An easy to integrate library for native iOS applications designed to\u2026"
+        },
+        {
+          "name": "OneSignal",
+          "slug": "onesignal",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Engage customers through personalized omni-channel messaging"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "San Francisco",
+      "location": "San Francisco, CA, USA",
+      "companies_in_city": 2007,
+      "active_in_city": 1340,
+      "nearby_companies": [
+        {
+          "name": "42Floors",
+          "slug": "42floors",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "PlanGrid",
+          "slug": "plangrid",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "MyVR",
+          "slug": "myvr",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Couple",
+          "slug": "couple",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HackPad",
+          "slug": "hackpad",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Gusto",
+          "slug": "gusto",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "FamilyLeaf",
+          "slug": "familyleaf",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Chute",
+          "slug": "chute",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Make School",
+          "slug": "make-school",
+          "batch": "Winter 2012",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Exec",
+          "slug": "exec",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Public"
+        },
+        {
+          "name": "LendUp",
+          "slug": "lendup",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tilt",
+          "slug": "tilt",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fond",
+          "slug": "fond",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "EnvKey",
+        "slug": "envkey",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Haiku",
+        "slug": "haiku",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "miru",
+        "slug": "miru",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Voicery",
+        "slug": "voicery",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Replit",
+        "slug": "replit",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Torch",
+        "slug": "torch",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Shogun",
+        "slug": "shogun",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Observant AI",
+        "slug": "observant-ai",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Pulse",
+        "slug": "pulse-2",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Fondo",
+        "slug": "fondo",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 4898,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:19:50.725102"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:50.725111",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:51.048205",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:51.139278",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 5,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:21.178870",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "medium",
+      "market_stage": "growing",
+      "key_trends": [
+        "Low-code/no-code adoption",
+        "Design-to-code automation",
+        "Component-based UI development"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Limited. First-mover advantage eroded by competitors.",
+      "differentiation": "Visual UI drawing to code generation (initially).",
+      "competitive_advantages": [
+        "Early YC backing",
+        "Potentially intuitive design workflow"
+      ],
+      "competitive_vulnerabilities": [
+        "Inactive status",
+        "Dependence on specific UI frameworks",
+        "Accuracy and maintainability of generated code"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "medium",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "inactive",
+      "growth_indicators": [
+        "Website traffic (historical)",
+        "User sign-ups (historical)"
+      ],
+      "growth_bottlenecks": [
+        "Code generation accuracy",
+        "Framework compatibility",
+        "Market adoption"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "high",
+      "execution_risk": "high",
+      "overall_risk_score": 8,
+      "key_risks": [
+        "Technology obsolescence",
+        "Competition from larger players",
+        "Lack of product-market fit"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Early mover in design-to-code",
+        "Addresses a clear developer pain point",
+        "YC pedigree"
+      ],
+      "concerns": [
+        "Inactive status indicates significant challenges",
+        "Code generation is a difficult problem to solve robustly"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Anima",
+        "TeleportHQ"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Assess current codebase and technology viability",
+        "Conduct thorough market research to identify unmet needs"
+      ],
+      "expansion_opportunities": [
+        "Focus on specific UI frameworks or design systems",
+        "Integrate with popular design tools (Figma, Sketch)"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 656,
+      "completion": 501,
+      "total": 1157,
+      "estimated_cost": 0.000199
+    }
+  },
+  "phase8_complete": true
+}

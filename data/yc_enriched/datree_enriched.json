@@ -1,0 +1,718 @@
+{
+  "slug": "datree",
+  "name": "Datree",
+  "yc_id": 13053,
+  "batch": "Winter 2020",
+  "website": "https://datree.io",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:50:56.998977",
+    "website": "https://datree.io",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 4808.65,
+      "final_url": "https://www.datree.io/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:51:01.807629"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "datree.io",
+      "registrar": "Gandi SAS",
+      "creation_date": "2017-07-10T09:34:35",
+      "expiration_date": "2032-07-10T09:34:35",
+      "domain_age_days": 3020,
+      "domain_age_years": 8.3,
+      "name_servers": [
+        "ns-1612.awsdns-09.co.uk",
+        "ns-136.awsdns-17.com",
+        "ns-609.awsdns-12.net",
+        "ns-1422.awsdns-49.org"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": "https://github.com/datreeio/datree",
+      "facebook": null,
+      "instagram": null,
+      "youtube": "https://www.youtube.com/results?search_query=datree+kubernetes"
+    },
+    "security_headers": {
+      "strict_transport_security": false,
+      "content_security_policy": true,
+      "x_frame_options": true,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 33,
+      "server": "cloudflare"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:23:31.652258",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:23:18.556369",
+    "place_data": {
+      "status": "success",
+      "method": "nominatim",
+      "formatted_address": "\u05ea\u05dc\u05be\u05d0\u05d1\u05d9\u05d1\u2013\u05d9\u05e4\u05d5, \u05e0\u05e4\u05ea \u05ea\u05dc \u05d0\u05d1\u05d9\u05d1, \u05de\u05d7\u05d5\u05d6 \u05ea\u05dc \u05d0\u05d1\u05d9\u05d1, \u05d9\u05e9\u05e8\u05d0\u05dc",
+      "coordinates": {
+        "latitude": 32.0852997,
+        "longitude": 34.7818064
+      },
+      "place_types": [
+        "administrative"
+      ],
+      "retrieved_at": "2025-10-17T10:14:23.523085",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:23:18.556399",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/datreeio"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 4,
+        "packages": [
+          {
+            "name": "datreeio",
+            "description": "datree.io Node.js module",
+            "version": "1.8.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/datreeio"
+          },
+          {
+            "name": "@datreeio/datree-cdk8s",
+            "description": "a plugin to validate cdk8s",
+            "version": "1.3.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@datreeio/datree-cdk8s"
+          },
+          {
+            "name": "@datreeio/koa-requestid",
+            "description": "A koa middleware to generate and forward request ids between services",
+            "version": "1.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@datreeio/koa-requestid"
+          },
+          {
+            "name": "@datreeio/version-compare",
+            "description": "command line script that runs the datree version compare policy",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@datreeio/version-compare"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 4,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:23:20.346783"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:23:20.346793",
+    "batch_network": {
+      "batch": "Winter 2020",
+      "total_batch_mates": 228,
+      "active_batch_mates": 149,
+      "batch_success_rate": 65.4,
+      "notable_batch_mates": [
+        {
+          "name": "Zaraz",
+          "slug": "zaraz",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A third-party manager, built for speed. "
+        },
+        {
+          "name": "Phonic",
+          "slug": "phonic",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The best way to collect and analyze voice and video feedback"
+        },
+        {
+          "name": "Okay",
+          "slug": "okay",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Dashboards and actionable insights for high-performing engineering\u2026"
+        },
+        {
+          "name": "Volumetric",
+          "slug": "volumetric",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Volumetric builds living multicellular tissues with a focus on the\u2026"
+        },
+        {
+          "name": "Hoss",
+          "slug": "hoss",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The developer experience platform"
+        },
+        {
+          "name": "FitnessAI",
+          "slug": "fitnessai",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "App offering AI powered workout plans with anytime access to coaches"
+        },
+        {
+          "name": "Flowdash",
+          "slug": "flowdash",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Quickly build internal tools for your ops team's manual workflows"
+        },
+        {
+          "name": "Dashworks",
+          "slug": "dashworks",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Your team's intelligent start page."
+        },
+        {
+          "name": "Eternal",
+          "slug": "zelos",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Own the best moments in streaming"
+        },
+        {
+          "name": "Glimpse",
+          "slug": "glimpse",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A social video chat."
+        }
+      ],
+      "batch_size": 229
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Security"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1969,
+      "direct_competitors": [
+        {
+          "name": "Sift",
+          "slug": "sift",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "The Leader in Digital Trust & Safety"
+        },
+        {
+          "name": "Clickfacts",
+          "slug": "clickfacts",
+          "status": "Acquired",
+          "batch": "Summer 2005",
+          "one_liner": ""
+        },
+        {
+          "name": "Smyte",
+          "slug": "smyte",
+          "status": "Acquired",
+          "batch": "Winter 2015",
+          "one_liner": "Smyte stops bad actors on social networks and marketplaces."
+        },
+        {
+          "name": "CyberFend",
+          "slug": "cyberfend",
+          "status": "Acquired",
+          "batch": "Winter 2015",
+          "one_liner": "Cyberfend delivers robust, real-time web and mobile security by\u2026"
+        },
+        {
+          "name": "ThinAir",
+          "slug": "thinair",
+          "status": "Inactive",
+          "batch": "Winter 2015",
+          "one_liner": "Intelligent data security for teams"
+        },
+        {
+          "name": "Cymmetria",
+          "slug": "cymmetria",
+          "status": "Acquired",
+          "batch": "Summer 2015",
+          "one_liner": "Shifting the asymmetry of cyber security."
+        },
+        {
+          "name": "Foxpass",
+          "slug": "foxpass",
+          "status": "Acquired",
+          "batch": "Summer 2015",
+          "one_liner": "Making enterprise security practices available for all companies."
+        },
+        {
+          "name": "Appcanary",
+          "slug": "appcanary",
+          "status": "Acquired",
+          "batch": "Summer 2015",
+          "one_liner": "Appcanary tracks the dependencies you use in your apps and servers\u2026"
+        },
+        {
+          "name": "Sphere Secure Workspace",
+          "slug": "sphere-secure-workspace",
+          "status": "Acquired",
+          "batch": "Summer 2015",
+          "one_liner": ""
+        },
+        {
+          "name": "Traversal Networks",
+          "slug": "traversal-networks",
+          "status": "Inactive",
+          "batch": "Summer 2015",
+          "one_liner": "Enterprise Threat Detection: Tuning, Triage, and Analysis by Experts."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Tel Aviv-Yafo",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "companies_in_city": 26,
+      "active_in_city": 13,
+      "nearby_companies": [
+        {
+          "name": "Guesty",
+          "slug": "guesty",
+          "batch": "Winter 2014",
+          "industry": "Real Estate and Construction",
+          "status": "Active"
+        },
+        {
+          "name": "Cymmetria",
+          "slug": "cymmetria",
+          "batch": "Summer 2015",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "NeoWize",
+          "slug": "neowize",
+          "batch": "Summer 2016",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "ApolloShield",
+          "slug": "apolloshield",
+          "batch": "Summer 2016",
+          "industry": "Industrials",
+          "status": "Active"
+        },
+        {
+          "name": "Neema",
+          "slug": "neema",
+          "batch": "Winter 2017",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "D-ID",
+          "slug": "d-id",
+          "batch": "Summer 2017",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Guggy",
+          "slug": "guggy",
+          "batch": "Summer 2017",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Avo",
+          "slug": "avo-2",
+          "batch": "Summer 2018",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Evo.Do",
+          "slug": "evo-do",
+          "batch": "Winter 2019",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tailor-ED",
+          "slug": "tailor-ed",
+          "batch": "Winter 2019",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "Noble",
+          "slug": "noble",
+          "batch": "Winter 2021",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Darrow",
+          "slug": "darrow",
+          "batch": "Winter 2021",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Hypercore",
+          "slug": "hypercore",
+          "batch": "Summer 2021",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Elementary",
+          "slug": "elementary",
+          "batch": "Winter 2022",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Ole",
+          "slug": "ole",
+          "batch": "Winter 2022",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Alterya",
+          "slug": "alterya",
+          "batch": "Summer 2022",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Apply Design",
+          "slug": "apply-design",
+          "batch": "Summer 2022",
+          "industry": "Real Estate and Construction",
+          "status": "Active"
+        },
+        {
+          "name": "Slauth.io",
+          "slug": "slauth-io",
+          "batch": "Summer 2022",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Wand Solar",
+          "slug": "wand-solar",
+          "batch": "Summer 2022",
+          "industry": "Industrials",
+          "status": "Active"
+        },
+        {
+          "name": "Traceloop",
+          "slug": "traceloop",
+          "batch": "Winter 2023",
+          "industry": "B2B",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "QueryPie",
+        "slug": "querypie",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Riot",
+        "slug": "riot",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Skypher",
+        "slug": "skypher",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Cymmetria",
+        "slug": "cymmetria",
+        "batch": "Summer 2015",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "D-ID",
+        "slug": "d-id",
+        "batch": "Summer 2017",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Chaos Genius",
+        "slug": "chaos-genius",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Finlens",
+        "slug": "finlens",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Motion",
+        "slug": "motion",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Flowglad",
+        "slug": "flowglad",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Zaraz",
+        "slug": "zaraz",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 3000,
+      "network_density_score": 90.8,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:23:20.360163"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:23:20.360169",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:23:20.712885",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:23:20.883008",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 16,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:42:11.578409",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "medium",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increased Kubernetes adoption",
+        "Shift-left security",
+        "DevSecOps practices"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Open-source CLI tool fostering community adoption and data network effects around policy rules.",
+      "differentiation": "Focus on preventing misconfigurations early in the development pipeline, offering a developer-centric approach.",
+      "competitive_advantages": [
+        "Easy to integrate CLI tool",
+        "Open-source community support"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on open-source contributions",
+        "Potential for larger players to integrate similar functionality"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "series-a",
+      "growth_indicators": [
+        "Kubernetes adoption rate",
+        "Number of active users"
+      ],
+      "growth_bottlenecks": [
+        "Sales cycle length",
+        "Competition from established players"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Open-source sustainability",
+        "Competition from cloud providers",
+        "Evolving Kubernetes landscape"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong developer adoption",
+        "Addresses a critical pain point",
+        "Early mover advantage"
+      ],
+      "concerns": [
+        "Monetization strategy",
+        "Long-term viability as an independent company"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Snyk",
+        "Aqua Security"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Expand enterprise features",
+        "Focus on integrations with CI/CD pipelines"
+      ],
+      "expansion_opportunities": [
+        "Offer compliance reporting",
+        "Support for other infrastructure-as-code tools"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 700,
+      "completion": 576,
+      "total": 1276,
+      "estimated_cost": 0.000225
+    }
+  },
+  "phase8_complete": true
+}

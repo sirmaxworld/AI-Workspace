@@ -1,0 +1,664 @@
+{
+  "slug": "crowdmed",
+  "name": "CrowdMed",
+  "yc_id": 502,
+  "batch": "Winter 2013",
+  "website": "http://www.crowdmed.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:32:58.579536",
+    "website": "http://www.crowdmed.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 628.13,
+      "final_url": "http://www.crowdmed.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:32:59.207673"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "crowdmed.com",
+      "registrar": "GoDaddy.com, LLC",
+      "creation_date": "2009-08-11T02:29:49",
+      "expiration_date": "2026-08-11T02:29:49",
+      "domain_age_days": 5910,
+      "domain_age_years": 16.2,
+      "name_servers": [
+        "NS49.DOMAINCONTROL.COM",
+        "NS50.DOMAINCONTROL.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": "https://www.youtube.com/watch?v=BAm5VR3ke3M"
+    },
+    "security_headers": {
+      "strict_transport_security": false,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 0,
+      "server": "cloudflare"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:13:56.837219",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:06:08.380947",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "San Francisco, CA, USA",
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:04:14.651539",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:06:08.381000",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:06:08.381006",
+    "batch_network": {
+      "batch": "Winter 2013",
+      "total_batch_mates": 45,
+      "active_batch_mates": 18,
+      "batch_success_rate": 40.0,
+      "notable_batch_mates": [
+        {
+          "name": "Screenhero",
+          "slug": "screenhero",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Collaborative Screen Sharing \u2014\u00a0you each get your own mouse, and\u2026"
+        },
+        {
+          "name": "Scuba",
+          "slug": "interana",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Analytics for impatient people."
+        },
+        {
+          "name": "North",
+          "slug": "north",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Wearable computing hardware: biosignal gesture recognition"
+        },
+        {
+          "name": "VaycayHero",
+          "slug": "vaycayhero",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "VaycayHero is a marketplace of professionally managed vacation\u2026"
+        },
+        {
+          "name": "Fivetran",
+          "slug": "fivetran",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "The leader in automated data movement"
+        },
+        {
+          "name": "GrepData",
+          "slug": "grepdata",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Big Data Analytics"
+        },
+        {
+          "name": "Bitnami",
+          "slug": "bitnami",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The App Store for Server Software"
+        },
+        {
+          "name": "Meldium",
+          "slug": "meldium",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Simple password & identity management for teams. Acquired by LogMeIn\u2026"
+        },
+        {
+          "name": "Heap",
+          "slug": "heap",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Captures user interactions with no code to generate analytics."
+        },
+        {
+          "name": "MedXT",
+          "slug": "medxt",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Radiology in the cloud.  X-rays, CAT scans, MRI's, and\u2026"
+        }
+      ],
+      "batch_size": 46
+    },
+    "industry_network": {
+      "industries": [
+        "Healthcare",
+        "Healthcare Services"
+      ],
+      "total_industry_peers": 642,
+      "active_industry_peers": 503,
+      "direct_competitors": [
+        {
+          "name": "Medmonk",
+          "slug": "medmonk",
+          "status": "Active",
+          "batch": "Winter 2012",
+          "one_liner": "A tool for pharmacists to find funding for patients who are unable to\u2026"
+        },
+        {
+          "name": "Science Exchange",
+          "slug": "science-exchange",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Powering scientific outsourcing"
+        },
+        {
+          "name": "HealthSherpa",
+          "slug": "healthsherpa",
+          "status": "Active",
+          "batch": "Summer 2012",
+          "one_liner": "Private sector Healthcare.gov. "
+        },
+        {
+          "name": "Experiment",
+          "slug": "experiment",
+          "status": "Active",
+          "batch": "Winter 2013",
+          "one_liner": "crowdfunding platform for science"
+        },
+        {
+          "name": "SimplyInsured",
+          "slug": "simplyinsured",
+          "status": "Active",
+          "batch": "Winter 2013",
+          "one_liner": "We sell health insurance to small businesses 100% online."
+        },
+        {
+          "name": "7cups",
+          "slug": "7cups",
+          "status": "Active",
+          "batch": "Summer 2013",
+          "one_liner": "7 Cups is an emotional support service that matches up people that\u2026"
+        },
+        {
+          "name": "In Your Corner",
+          "slug": "in-your-corner",
+          "status": "Inactive",
+          "batch": "Summer 2014",
+          "one_liner": "We've transformed traditional therapy into an experience that is\u2026"
+        },
+        {
+          "name": "Transcriptic",
+          "slug": "transcriptic",
+          "status": "Inactive",
+          "batch": "Winter 2015",
+          "one_liner": "The robotic cloud laboratory for the life sciences."
+        },
+        {
+          "name": "Call9",
+          "slug": "call9",
+          "status": "Inactive",
+          "batch": "Summer 2015",
+          "one_liner": ""
+        },
+        {
+          "name": "CareLedger",
+          "slug": "careledger",
+          "status": "Inactive",
+          "batch": "Summer 2015",
+          "one_liner": "CareLedger helps companies save money on healthcare expenses by\u2026"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "San Francisco",
+      "location": "San Francisco, CA, USA; Remote",
+      "companies_in_city": 2007,
+      "active_in_city": 1340,
+      "nearby_companies": [
+        {
+          "name": "42Floors",
+          "slug": "42floors",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "PlanGrid",
+          "slug": "plangrid",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "MyVR",
+          "slug": "myvr",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Couple",
+          "slug": "couple",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HackPad",
+          "slug": "hackpad",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Gusto",
+          "slug": "gusto",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "FamilyLeaf",
+          "slug": "familyleaf",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Chute",
+          "slug": "chute",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Make School",
+          "slug": "make-school",
+          "batch": "Winter 2012",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Exec",
+          "slug": "exec",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Public"
+        },
+        {
+          "name": "LendUp",
+          "slug": "lendup",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tilt",
+          "slug": "tilt",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fond",
+          "slug": "fond",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "SimplyInsured",
+        "slug": "simplyinsured",
+        "batch": "Winter 2013",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Medisas",
+        "slug": "medisas",
+        "batch": "Winter 2013",
+        "industry": "Healthcare",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Experiment",
+        "slug": "experiment",
+        "batch": "Winter 2013",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "MedXT",
+        "slug": "medxt",
+        "batch": "Winter 2013",
+        "industry": "Healthcare",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Watsi",
+        "slug": "watsi",
+        "batch": "Winter 2013",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "CareLedger",
+        "slug": "careledger",
+        "batch": "Summer 2015",
+        "industry": "Healthcare",
+        "status": "Inactive",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Carrot Fertility",
+        "slug": "carrot-fertility",
+        "batch": "Summer 2017",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Bumpline",
+        "slug": "bumpline",
+        "batch": "Summer 2017",
+        "industry": "Healthcare",
+        "status": "Inactive",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Modern Health",
+        "slug": "modern-health",
+        "batch": "Winter 2018",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Curebase",
+        "slug": "curebase",
+        "batch": "Summer 2018",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 2694,
+      "network_density_score": 89.0,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:06:08.392803"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:06:08.392808",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:06:08.720277",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:06:08.844234",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 5,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:41:25.616252",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Rise of telemedicine and digital health platforms",
+        "Increasing healthcare costs driving demand for cost-effective solutions",
+        "Growing acceptance of crowdsourced expertise in specialized domains"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Network effects from medical professionals and unique crowdsourced diagnostic approach",
+      "differentiation": "First-mover in crowdsourced medical diagnosis combining multiple expert opinions",
+      "competitive_advantages": [
+        "Unique crowdsourcing model for complex cases",
+        "Strong backing from top-tier VCs"
+      ],
+      "competitive_vulnerabilities": [
+        "Regulatory compliance challenges",
+        "Quality control and liability concerns"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "marketplace",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "mature",
+      "growth_indicators": [
+        "Strong VC backing from tier-1 firms",
+        "Addressing large underserved market"
+      ],
+      "growth_bottlenecks": [
+        "Regulatory hurdles in healthcare",
+        "Trust and adoption barriers from traditional medical establishment"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "high",
+      "overall_risk_score": 8,
+      "key_risks": [
+        "Medical liability and malpractice concerns",
+        "Regulatory compliance in healthcare sector",
+        "Quality control of crowdsourced diagnoses"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Innovative approach to unsolved medical cases",
+        "Strong investor backing",
+        "Large addressable market in healthcare"
+      ],
+      "concerns": [
+        "Company status shows as inactive",
+        "High regulatory barriers in medical field"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Teladoc",
+        "Amwell"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Investigate reasons for inactive status",
+        "Assess regulatory compliance framework"
+      ],
+      "expansion_opportunities": [
+        "Partnership with insurance companies",
+        "Integration with existing EMR systems"
+      ]
+    },
+    "tokens_used": {
+      "input": 751,
+      "output": 540,
+      "total": 1291,
+      "estimated_cost": 0.010353
+    }
+  },
+  "phase8_complete": true
+}

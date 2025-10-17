@@ -1,0 +1,1591 @@
+{
+  "slug": "deepsource",
+  "name": "DeepSource",
+  "yc_id": 13334,
+  "batch": "Winter 2020",
+  "website": "https://deepsource.com/",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:53:08.847092",
+    "website": "https://deepsource.com/",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 2218.62,
+      "final_url": "https://deepsource.com/",
+      "redirected": false,
+      "checked_at": "2025-10-17T00:53:11.065720"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "deepsource.com",
+      "registrar": "Cloudflare, Inc.",
+      "creation_date": "2001-09-18T18:09:16",
+      "expiration_date": "2032-09-18T18:09:16",
+      "domain_age_days": 8794,
+      "domain_age_years": 24.1,
+      "name_servers": [
+        "HERA.NS.CLOUDFLARE.COM",
+        "KARL.NS.CLOUDFLARE.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://x.com/deepsourcehq",
+      "linkedin": null,
+      "github": "https://github.com/marketplace/deepsource-io",
+      "facebook": null,
+      "instagram": null,
+      "youtube": "https://www.youtube.com/@deepsourcehq"
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 16,
+      "server": "cloudflare"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:24:21.705323",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:24:08.781295",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "San Francisco, CA, USA",
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:12:40.434017",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:08.781359",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/marketplace"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 100,
+        "packages": [
+          {
+            "name": "@aws-sdk/client-marketplace-metering",
+            "description": "AWS SDK for JavaScript Marketplace Metering Client for Node.js, Browser and React Native",
+            "version": "3.911.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/client-marketplace-metering"
+          },
+          {
+            "name": "oci-marketplace",
+            "description": "OCI NodeJS client for Marketplace Service",
+            "version": "2.119.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/oci-marketplace"
+          },
+          {
+            "name": "@contentstack/marketplace-sdk",
+            "description": "The Contentstack Marketplace SDK is used to manage the content of your Contentstack marketplace apps",
+            "version": "1.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@contentstack/marketplace-sdk"
+          },
+          {
+            "name": "@aws-sdk/client-marketplace-catalog",
+            "description": "AWS SDK for JavaScript Marketplace Catalog Client for Node.js, Browser and React Native",
+            "version": "3.911.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/client-marketplace-catalog"
+          },
+          {
+            "name": "@aws-sdk/client-marketplace-entitlement-service",
+            "description": "AWS SDK for JavaScript Marketplace Entitlement Service Client for Node.js, Browser and React Native",
+            "version": "3.912.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/client-marketplace-entitlement-service"
+          },
+          {
+            "name": "@aws-sdk/client-marketplace-commerce-analytics",
+            "description": "AWS SDK for JavaScript Marketplace Commerce Analytics Client for Node.js, Browser and React Native",
+            "version": "3.911.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/client-marketplace-commerce-analytics"
+          },
+          {
+            "name": "@aws-sdk/client-marketplace-agreement",
+            "description": "AWS SDK for JavaScript Marketplace Agreement Client for Node.js, Browser and React Native",
+            "version": "3.911.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/client-marketplace-agreement"
+          },
+          {
+            "name": "@things-factory/integration-marketplace",
+            "description": "Module to manage integration with e-commerce marketplace.",
+            "version": "9.1.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@things-factory/integration-marketplace"
+          },
+          {
+            "name": "@dcl/marketplace-site",
+            "description": "Marketplace website",
+            "version": "7.23.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@dcl/marketplace-site"
+          },
+          {
+            "name": "@0xsequence/marketplace",
+            "description": "marketplace sub-package for Sequence",
+            "version": "2.3.31",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@0xsequence/marketplace"
+          },
+          {
+            "name": "soajs.marketplace",
+            "description": "soajs Marketplace service",
+            "version": "1.1.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/soajs.marketplace"
+          },
+          {
+            "name": "nodewrite-core-marketplace",
+            "description": "core marketplace for nodewrite",
+            "version": "1.0.18",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/nodewrite-core-marketplace"
+          },
+          {
+            "name": "@finos/legend-application-marketplace",
+            "description": "Legend Marketplace application core",
+            "version": "0.1.24",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@finos/legend-application-marketplace"
+          },
+          {
+            "name": "@finos/legend-server-marketplace",
+            "description": "Legend Marketplace server client",
+            "version": "0.1.15",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@finos/legend-server-marketplace"
+          },
+          {
+            "name": "@staratlas/galactic-marketplace",
+            "description": "Bindings for the Star Atlas Galactic Marketplace program",
+            "version": "0.12.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@staratlas/galactic-marketplace"
+          },
+          {
+            "name": "oci-marketplacepublisher",
+            "description": "OCI NodeJS client for Marketplace Publisher Service",
+            "version": "2.119.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/oci-marketplacepublisher"
+          },
+          {
+            "name": "@scaleway/sdk-marketplace",
+            "description": "Scaleway SDK marketplace",
+            "version": "1.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@scaleway/sdk-marketplace"
+          },
+          {
+            "name": "@finos/legend-application-marketplace-bootstrap",
+            "description": "Legend Marketplace application bootstrap",
+            "version": "13.145.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@finos/legend-application-marketplace-bootstrap"
+          },
+          {
+            "name": "@spurtcommerce/marketplace",
+            "description": "Spurtcommerce Marketplace",
+            "version": "2.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@spurtcommerce/marketplace"
+          },
+          {
+            "name": "@prismatic-io/embedded",
+            "description": "Embed Prismatic's integration marketplace and workflow designer within your existing application.",
+            "version": "4.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@prismatic-io/embedded"
+          },
+          {
+            "name": "@mmob/react-mmob-marketplace",
+            "description": "MMOB Marketplace react component",
+            "version": "0.2.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mmob/react-mmob-marketplace"
+          },
+          {
+            "name": "@red-hat-developer-hub/backstage-plugin-marketplace-common",
+            "description": "Common functionalities for the marketplace plugin",
+            "version": "0.10.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@red-hat-developer-hub/backstage-plugin-marketplace-common"
+          },
+          {
+            "name": "oci-marketplaceprivateoffer",
+            "description": "OCI NodeJS client for Marketplace Private Offer Service",
+            "version": "2.119.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/oci-marketplaceprivateoffer"
+          },
+          {
+            "name": "@scaleleap/amazon-marketplaces",
+            "description": "A collection of Amazon Marketplace data objects.",
+            "version": "18.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@scaleleap/amazon-marketplaces"
+          },
+          {
+            "name": "coc-marketplace",
+            "description": "coc.nvim extensions marketplace",
+            "version": "1.9.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/coc-marketplace"
+          },
+          {
+            "name": "@aws-sdk/client-marketplace-reporting",
+            "description": "AWS SDK for JavaScript Marketplace Reporting Client for Node.js, Browser and React Native",
+            "version": "3.911.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/client-marketplace-reporting"
+          },
+          {
+            "name": "@aws-sdk/client-marketplace-deployment",
+            "description": "AWS SDK for JavaScript Marketplace Deployment Client for Node.js, Browser and React Native",
+            "version": "3.911.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/client-marketplace-deployment"
+          },
+          {
+            "name": "@thearchitech.xyz/marketplace",
+            "description": "The Architech Marketplace - Adapters, Connectors, Capabilities, and Features",
+            "version": "0.8.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@thearchitech.xyz/marketplace"
+          },
+          {
+            "name": "opensea-js",
+            "description": "TypeScript SDK for the OpenSea marketplace helps developers build new experiences using NFTs and our marketplace data",
+            "version": "8.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/opensea-js"
+          },
+          {
+            "name": "tuix-marketplace-api",
+            "description": "This package facilitates the client request to tuix marketplace api",
+            "version": "0.16.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/tuix-marketplace-api"
+          },
+          {
+            "name": "@things-factory/operato-mms",
+            "description": "Application for marketplace management system",
+            "version": "4.3.682",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@things-factory/operato-mms"
+          },
+          {
+            "name": "@0xsequence/marketplace-sdk",
+            "description": "`@0xsequence/marketplace-sdk` provides core functionality for integrators who wish to develop their own web3 Marketplaces using [Sequence's Aggregated Marketplace](https://sequence.xyz/marketplaces) technology.",
+            "version": "1.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@0xsequence/marketplace-sdk"
+          },
+          {
+            "name": "@monarkmarkets/marketplace",
+            "description": "Marketplace component for Monark Markets",
+            "version": "2.0.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@monarkmarkets/marketplace"
+          },
+          {
+            "name": "@red-hat-developer-hub/backstage-plugin-catalog-backend-module-marketplace",
+            "description": "The marketplace backend module for the catalog plugin.",
+            "version": "0.7.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@red-hat-developer-hub/backstage-plugin-catalog-backend-module-marketplace"
+          },
+          {
+            "name": "marketplace-dna",
+            "description": "integrate your marketplace to private website",
+            "version": "1.0.104",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/marketplace-dna"
+          },
+          {
+            "name": "@vendasta/marketplace-apps",
+            "description": "SDK to interact with the marketplace-apps service",
+            "version": "4.44.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@vendasta/marketplace-apps"
+          },
+          {
+            "name": "jetem-models",
+            "description": "Jetem Models for Jetem Marketplace",
+            "version": "2.13.29",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/jetem-models"
+          },
+          {
+            "name": "@vendasta/marketplace-analytics",
+            "description": "SDK to interact with the marketplace-analytics service",
+            "version": "1.13.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@vendasta/marketplace-analytics"
+          },
+          {
+            "name": "@vendasta/marketplace-packages",
+            "description": "SDK to interact with the marketplace-packages service",
+            "version": "56.6.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@vendasta/marketplace-packages"
+          },
+          {
+            "name": "@maxim_mazurok/gapi.client.authorizedbuyersmarketplace-v1",
+            "description": "TypeScript typings for Authorized Buyers Marketplace API v1",
+            "version": "0.1.20251008",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@maxim_mazurok/gapi.client.authorizedbuyersmarketplace-v1"
+          },
+          {
+            "name": "digitalmarketplace-frontend",
+            "description": "Digital Marketplace Frontend contains assets and components used in Digital Marketplace projects",
+            "version": "3.15.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/digitalmarketplace-frontend"
+          },
+          {
+            "name": "@sitecore-marketplace-sdk/client",
+            "description": "The `client` package provides secure, bidirectional communication between a Marketplace application (the client) and Sitecore (the host). Sitecore loads the Marketplace app inside a sandboxed [iframe](https://developer.mozilla.org/en-US/docs/Web/HTML/Elem",
+            "version": "0.2.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sitecore-marketplace-sdk/client"
+          },
+          {
+            "name": "@mediocre/walmart-marketplace",
+            "description": "[![Build Status](https://github.com/mediocre/walmart-marketplace/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/mediocre/walmart-marketplace/actions/workflows/test.yml) [![Coverage Status](https://coveralls.io/repos/github/mediocre/",
+            "version": "1.5.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mediocre/walmart-marketplace"
+          },
+          {
+            "name": "@sitecore-marketplace-sdk/core",
+            "description": "`core` is an internal package used by other Sitecore Marketplace SDK packages. Developers typically do not need to directly interact with it.",
+            "version": "0.2.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sitecore-marketplace-sdk/core"
+          },
+          {
+            "name": "wp-marketplace",
+            "description": "React-based wp plugins marketplace module.",
+            "version": "1.0.0-beta.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/wp-marketplace"
+          },
+          {
+            "name": "@hokko_io/marketplace",
+            "description": "Hokko.io Marketplace SDK",
+            "version": "0.1.19",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@hokko_io/marketplace"
+          },
+          {
+            "name": "@salesforce/plugin-marketplace",
+            "description": "Find sf plugins",
+            "version": "1.3.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@salesforce/plugin-marketplace"
+          },
+          {
+            "name": "@thearchitech.xyz/types",
+            "description": "Shared TypeScript types for The Architech CLI and Marketplace",
+            "version": "0.8.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@thearchitech.xyz/types"
+          },
+          {
+            "name": "@cardinal/marketplace",
+            "description": "Cardinal marketplace SDK",
+            "version": "3.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@cardinal/marketplace"
+          },
+          {
+            "name": "@maxim_mazurok/gapi.client.authorizedbuyersmarketplace-v1alpha",
+            "description": "TypeScript typings for Authorized Buyers Marketplace API v1alpha",
+            "version": "0.1.20251008",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@maxim_mazurok/gapi.client.authorizedbuyersmarketplace-v1alpha"
+          },
+          {
+            "name": "rapidapi-connect",
+            "description": "Connect to blocks on the rapidapi.com marketplace",
+            "version": "0.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rapidapi-connect"
+          },
+          {
+            "name": "wmt-marketplace-auth-canada",
+            "description": "Generate the authentication headers required by Walmart Marketplace API.",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/wmt-marketplace-auth-canada"
+          },
+          {
+            "name": "@maxim_mazurok/gapi.client.authorizedbuyersmarketplace-v1beta",
+            "description": "TypeScript typings for Authorized Buyers Marketplace API v1beta",
+            "version": "0.1.20251008",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@maxim_mazurok/gapi.client.authorizedbuyersmarketplace-v1beta"
+          },
+          {
+            "name": "discogs-marketplace-api-nodejs",
+            "description": "Another (better ?) NodeJs library to fetch data from Discogs marketplace",
+            "version": "1.14.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/discogs-marketplace-api-nodejs"
+          },
+          {
+            "name": "@matrix-labs/matrix-marketplace-nft-sdk",
+            "description": "`yarn add @matrix-labs/matrix-marketplace-nft-sdk`",
+            "version": "0.0.65",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@matrix-labs/matrix-marketplace-nft-sdk"
+          },
+          {
+            "name": "@bid-scents/shared-sdk",
+            "description": "Shared SDK for marketplace applications",
+            "version": "1.2.14",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@bid-scents/shared-sdk"
+          },
+          {
+            "name": "medusa-plugin-marketplace",
+            "description": "Marketplace extension for Medusa JS.",
+            "version": "0.0.49",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/medusa-plugin-marketplace"
+          },
+          {
+            "name": "medusa-marketplace",
+            "description": "Marketplace Module for Medusa",
+            "version": "1.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/medusa-marketplace"
+          },
+          {
+            "name": "@frontify/app-bridge",
+            "description": "Package to establish communication between Frontify and marketplace apps",
+            "version": "3.11.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@frontify/app-bridge"
+          },
+          {
+            "name": "@navinc/marketplace-web",
+            "description": "A fully portable -- across Nav's standard environments -- marketplace for the web.",
+            "version": "39.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@navinc/marketplace-web"
+          },
+          {
+            "name": "@kengachu-pulumi/azure-native-marketplace",
+            "description": "Pulumi Azure Native package for marketplace",
+            "version": "3.8.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@kengachu-pulumi/azure-native-marketplace"
+          },
+          {
+            "name": "@energyweb/market",
+            "description": "This package contains all the marketplace functionality for trading certificates.",
+            "version": "6.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@energyweb/market"
+          },
+          {
+            "name": "@gazin-marketplace/marketplace-ui",
+            "description": "Gazin Marketplace UI components",
+            "version": "2.24.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@gazin-marketplace/marketplace-ui"
+          },
+          {
+            "name": "@fleetbase/storefront-engine",
+            "description": "Headless Commerce & Marketplace Extension for Fleetbase",
+            "version": "0.4.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@fleetbase/storefront-engine"
+          },
+          {
+            "name": "marketplace-sdk-vuejs",
+            "description": "Marketplace SDK Vue/Nuxt",
+            "version": "4.6.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/marketplace-sdk-vuejs"
+          },
+          {
+            "name": "@comparaonline/marketplace-schema",
+            "description": "Marketplace Schema",
+            "version": "3.1.11",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@comparaonline/marketplace-schema"
+          },
+          {
+            "name": "@obvio/marketplace",
+            "description": "Marketplace react components",
+            "version": "1.24.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@obvio/marketplace"
+          },
+          {
+            "name": "@hexonet/semantic-release-whmcs",
+            "description": "`semantic-release` plugin for auto-publishing on WHMCS marketplace",
+            "version": "5.1.14",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@hexonet/semantic-release-whmcs"
+          },
+          {
+            "name": "@red-hat-developer-hub/marketplace-cli",
+            "description": "CLI for the Marketplace",
+            "version": "0.6.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@red-hat-developer-hub/marketplace-cli"
+          },
+          {
+            "name": "@reapit/elements",
+            "description": "A collection of React components and utilities for building apps for Reapit Marketplace",
+            "version": "4.3.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@reapit/elements"
+          },
+          {
+            "name": "marketplace-widgets-v2",
+            "description": "Marketplace widgets - embeddable marketplace widgets.",
+            "version": "1.0.0-beta.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/marketplace-widgets-v2"
+          },
+          {
+            "name": "@energyweb/origin-ui-core",
+            "description": "React components library for building Origin marketplace user interface",
+            "version": "4.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@energyweb/origin-ui-core"
+          },
+          {
+            "name": "@opensea/seaport-js",
+            "description": "[Seaport](https://github.com/ProjectOpenSea/seaport) is a new marketplace protocol for safely and efficiently buying and selling NFTs. This is a TypeScript library intended to make interfacing with the contract reasonable and easy.",
+            "version": "4.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@opensea/seaport-js"
+          },
+          {
+            "name": "@konnectify-co/marketplace-react",
+            "description": "Konnectify marketplace react library",
+            "version": "0.1.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@konnectify-co/marketplace-react"
+          },
+          {
+            "name": "kanon-marketplace-sdk",
+            "description": "Kanon Marketplace SDK for TypeScript",
+            "version": "3.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/kanon-marketplace-sdk"
+          },
+          {
+            "name": "@cometh/marketplace-sdk",
+            "description": "SDK to use Cometh Marketplace API",
+            "version": "2.2.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@cometh/marketplace-sdk"
+          },
+          {
+            "name": "@kresuslabs/marketplace",
+            "description": "nft and marketplace contracts for kresus partner applications",
+            "version": "0.4.2-alpha.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@kresuslabs/marketplace"
+          },
+          {
+            "name": "@rsksmart/rif-marketplace-nfts",
+            "description": "RIF NFTs Marketplace",
+            "version": "0.1.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@rsksmart/rif-marketplace-nfts"
+          },
+          {
+            "name": "babel-preset-wtw-im",
+            "description": "Babel preset for Willis Towers Watson Individual Marketplace",
+            "version": "2.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/babel-preset-wtw-im"
+          },
+          {
+            "name": "@zohodesk/platform-middleware",
+            "description": "Generalized Contract for the events from Marketplace App, In-App widgets, CRM-Plus and EFC",
+            "version": "0.0.1-beta.29",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@zohodesk/platform-middleware"
+          },
+          {
+            "name": "@axway/axway-central-cli",
+            "description": "Manage APIs, services and publish to the Amplify Marketplace",
+            "version": "4.7.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@axway/axway-central-cli"
+          },
+          {
+            "name": "particl-marketplace",
+            "description": "decentralized marketplace",
+            "version": "0.3.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/particl-marketplace"
+          },
+          {
+            "name": "@zasmilingidiot/particl-marketplace",
+            "description": "decentralized marketplace",
+            "version": "0.3.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@zasmilingidiot/particl-marketplace"
+          },
+          {
+            "name": "wm-marketplace",
+            "description": "Walmart Marketplace API client for Javascript",
+            "version": "1.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/wm-marketplace"
+          },
+          {
+            "name": "@codex-storage/marketplace-ui-components",
+            "description": "Marketplace UI components for Codex decentralized storage network.",
+            "version": "0.0.53",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@codex-storage/marketplace-ui-components"
+          },
+          {
+            "name": "@okxweb3/marketplace-core",
+            "description": "OKX MarketPlace Core SDK",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@okxweb3/marketplace-core"
+          },
+          {
+            "name": "@nft-studio/marketplace",
+            "description": "The react.js component library for NFT-Marketplace",
+            "version": "0.8.32",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@nft-studio/marketplace"
+          },
+          {
+            "name": "@datorama/marketplace-react",
+            "description": "Datorama Marketplace React Utils",
+            "version": "0.25.37",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@datorama/marketplace-react"
+          },
+          {
+            "name": "@whitebox-co/walmart-marketplace-api",
+            "description": "A fully typed TypeScript, Javascript, and Node.js API library for the Walmart Marketplace API",
+            "version": "3.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@whitebox-co/walmart-marketplace-api"
+          },
+          {
+            "name": "@okxweb3/marketplace-runes",
+            "description": "OKX MarketPlace Runes SDK",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@okxweb3/marketplace-runes"
+          },
+          {
+            "name": "@hypercerts-org/marketplace-sdk",
+            "description": "![GitHub package.json version](https://img.shields.io/github/package-json/v/hypercerts-org/marketplace-sdk) ![GitHub](https://img.shields.io/github/license/hypercerts-org/marketplace-sdk) ![GitHub Workflow Status](https://img.shields.io/github/actions/wor",
+            "version": "0.8.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@hypercerts-org/marketplace-sdk"
+          },
+          {
+            "name": "@nftvillage/marketplace-sdk",
+            "description": "Marketplace Hooks and functions to interect with Nft Village.",
+            "version": "0.1.40",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@nftvillage/marketplace-sdk"
+          },
+          {
+            "name": "@4geit/ngx-marketplace-home-component",
+            "description": "home layout for marketplace",
+            "version": "1.2.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@4geit/ngx-marketplace-home-component"
+          },
+          {
+            "name": "wmt-marketplace-sdk",
+            "description": "Walmart Marketplace API SDK",
+            "version": "2.2.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/wmt-marketplace-sdk"
+          },
+          {
+            "name": "@strata-foundation/marketplace-sdk",
+            "description": "Interface to the strata marketplace",
+            "version": "3.11.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@strata-foundation/marketplace-sdk"
+          },
+          {
+            "name": "@skywu/buy-tax",
+            "description": "A referral purchase marketplace with Bitcoin/USDT payment integration",
+            "version": "1.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@skywu/buy-tax"
+          },
+          {
+            "name": "@4geit/ngx-marketplace-catalog-component",
+            "description": "catalog products listing for marketplace",
+            "version": "1.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@4geit/ngx-marketplace-catalog-component"
+          },
+          {
+            "name": "discogs-marketplace-js",
+            "description": "API for searching Discogs marketplace, returns an object.",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/discogs-marketplace-js"
+          },
+          {
+            "name": "bigfoot.marketplace",
+            "description": "Marketplace helpers",
+            "version": "1.5.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/bigfoot.marketplace"
+          },
+          {
+            "name": "@4geit/ngx-marketplace-layout-module",
+            "description": "module to setup a marketplace layout",
+            "version": "1.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@4geit/ngx-marketplace-layout-module"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 20,
+        "packages": [
+          {
+            "name": "marketplace",
+            "version": "1.0.0",
+            "downloads": 4099,
+            "url": "https://rubygems.org/gems/marketplace"
+          },
+          {
+            "name": "marketplace-kit",
+            "version": "0.2.4",
+            "downloads": 22929,
+            "url": "https://rubygems.org/gems/marketplace-kit"
+          },
+          {
+            "name": "concierge-marketplace",
+            "version": "0.10.1",
+            "downloads": 15300,
+            "url": "https://rubygems.org/gems/concierge-marketplace"
+          },
+          {
+            "name": "marketplace_opportunity_scraper",
+            "version": "0.2.2",
+            "downloads": 17450,
+            "url": "https://rubygems.org/gems/marketplace_opportunity_scraper"
+          },
+          {
+            "name": "dscf-marketplace",
+            "version": "0.6.1",
+            "downloads": 12493,
+            "url": "https://rubygems.org/gems/dscf-marketplace"
+          },
+          {
+            "name": "asp_marketplace",
+            "version": "0.2.0",
+            "downloads": 11239,
+            "url": "https://rubygems.org/gems/asp_marketplace"
+          },
+          {
+            "name": "spree_marketplace",
+            "version": "3.1.4",
+            "downloads": 10482,
+            "url": "https://rubygems.org/gems/spree_marketplace"
+          },
+          {
+            "name": "marketplace_web_service",
+            "version": "0.0.4",
+            "downloads": 12713,
+            "url": "https://rubygems.org/gems/marketplace_web_service"
+          },
+          {
+            "name": "asp-marketplace",
+            "version": "0.1.0",
+            "downloads": 6210,
+            "url": "https://rubygems.org/gems/asp-marketplace"
+          },
+          {
+            "name": "solidus_marketplace",
+            "version": "0.1.0",
+            "downloads": 5479,
+            "url": "https://rubygems.org/gems/solidus_marketplace"
+          },
+          {
+            "name": "rails_marketplace",
+            "version": "0.0.3",
+            "downloads": 4947,
+            "url": "https://rubygems.org/gems/rails_marketplace"
+          },
+          {
+            "name": "simple_marketplace",
+            "version": "0.1.0",
+            "downloads": 2540,
+            "url": "https://rubygems.org/gems/simple_marketplace"
+          },
+          {
+            "name": "azure_mgmt_marketplace_ordering",
+            "version": "0.17.5",
+            "downloads": 37483,
+            "url": "https://rubygems.org/gems/azure_mgmt_marketplace_ordering"
+          },
+          {
+            "name": "crown_marketplace_utils",
+            "version": "0.1.0.beta.8",
+            "downloads": 6102,
+            "url": "https://rubygems.org/gems/crown_marketplace_utils"
+          },
+          {
+            "name": "cohesive_marketplace_middleware",
+            "version": "0.1.5",
+            "downloads": 1805,
+            "url": "https://rubygems.org/gems/cohesive_marketplace_middleware"
+          },
+          {
+            "name": "paypal_marketplace",
+            "version": "0.0.1",
+            "downloads": 511,
+            "url": "https://rubygems.org/gems/paypal_marketplace"
+          },
+          {
+            "name": "cohesive_marketplace_sdk",
+            "version": "0.1.1",
+            "downloads": 1248,
+            "url": "https://rubygems.org/gems/cohesive_marketplace_sdk"
+          },
+          {
+            "name": "pay-aws_marketplace",
+            "version": "0.1.0",
+            "downloads": 534,
+            "url": "https://rubygems.org/gems/pay-aws_marketplace"
+          },
+          {
+            "name": "aws-sdk-marketplacecatalog",
+            "version": "1.66.0",
+            "downloads": 47872070,
+            "url": "https://rubygems.org/gems/aws-sdk-marketplacecatalog"
+          },
+          {
+            "name": "aws-sdk-marketplacecommerceanalytics",
+            "version": "1.80.0",
+            "downloads": 80111415,
+            "url": "https://rubygems.org/gems/aws-sdk-marketplacecommerceanalytics"
+          }
+        ]
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 10,
+        "packages": [
+          {
+            "name": "marketplace",
+            "description": "auction marketplace library.",
+            "version": "0.1.0",
+            "downloads": 1478,
+            "url": "https://crates.io/crates/marketplace"
+          },
+          {
+            "name": "cw721-marketplace-utils",
+            "description": "Utility types and helpers for cw721-marketplace, cw721-marketplace-permissioned and cw721-marketplace-single-collection",
+            "version": "0.1.5",
+            "downloads": 2002,
+            "url": "https://crates.io/crates/cw721-marketplace-utils"
+          },
+          {
+            "name": "hermes-ebay-sell-metadata",
+            "description": "Generated Rust client for eBay Sell Metadata API - marketplace policies and metadata",
+            "version": "0.1.0",
+            "downloads": 408,
+            "url": "https://crates.io/crates/hermes-ebay-sell-metadata"
+          },
+          {
+            "name": "cw721-marketplace-permissioned",
+            "description": "A permissioned marketplace for swapping any cw721 NFTs available on the host network from any collection contract added by the contract admin to the permissioned list of NFT contracts",
+            "version": "0.1.7",
+            "downloads": 3562,
+            "url": "https://crates.io/crates/cw721-marketplace-permissioned"
+          },
+          {
+            "name": "carbon-marketplace-decoder",
+            "description": "Rust decoder for Star Atlas Galactic Marketplace program on Solana",
+            "version": "0.10.0",
+            "downloads": 193,
+            "url": "https://crates.io/crates/carbon-marketplace-decoder"
+          },
+          {
+            "name": "mz_rusoto_marketplace_catalog",
+            "description": "AWS SDK for Rust - AWS Marketplace Catalog Service @ 2018-09-17",
+            "version": "0.46.0",
+            "downloads": 1655,
+            "url": "https://crates.io/crates/mz_rusoto_marketplace_catalog"
+          },
+          {
+            "name": "mz_rusoto_marketplace_entitlement",
+            "description": "AWS SDK for Rust - AWS Marketplace Entitlement Service @ 2017-01-11",
+            "version": "0.46.0",
+            "downloads": 1652,
+            "url": "https://crates.io/crates/mz_rusoto_marketplace_entitlement"
+          },
+          {
+            "name": "rusoto_marketplace_catalog",
+            "description": "AWS SDK for Rust - AWS Marketplace Catalog Service @ 2018-09-17",
+            "version": "0.48.0",
+            "downloads": 8954,
+            "url": "https://crates.io/crates/rusoto_marketplace_catalog"
+          },
+          {
+            "name": "rusoto_marketplace_entitlement",
+            "description": "AWS SDK for Rust - AWS Marketplace Entitlement Service @ 2017-01-11",
+            "version": "0.48.0",
+            "downloads": 29675,
+            "url": "https://crates.io/crates/rusoto_marketplace_entitlement"
+          },
+          {
+            "name": "cw721-marketplace-single-collection",
+            "description": "A marketplace for swapping cw721 NFTs of a single collection contract",
+            "version": "0.1.7",
+            "downloads": 3477,
+            "url": "https://crates.io/crates/cw721-marketplace-single-collection"
+          }
+        ]
+      },
+      "total_packages": 130,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:24:10.171287"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:10.171310",
+    "batch_network": {
+      "batch": "Winter 2020",
+      "total_batch_mates": 228,
+      "active_batch_mates": 148,
+      "batch_success_rate": 64.9,
+      "notable_batch_mates": [
+        {
+          "name": "Zaraz",
+          "slug": "zaraz",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A third-party manager, built for speed. "
+        },
+        {
+          "name": "Phonic",
+          "slug": "phonic",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The best way to collect and analyze voice and video feedback"
+        },
+        {
+          "name": "Okay",
+          "slug": "okay",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Dashboards and actionable insights for high-performing engineering\u2026"
+        },
+        {
+          "name": "Volumetric",
+          "slug": "volumetric",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Volumetric builds living multicellular tissues with a focus on the\u2026"
+        },
+        {
+          "name": "Hoss",
+          "slug": "hoss",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The developer experience platform"
+        },
+        {
+          "name": "FitnessAI",
+          "slug": "fitnessai",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "App offering AI powered workout plans with anytime access to coaches"
+        },
+        {
+          "name": "Flowdash",
+          "slug": "flowdash",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Quickly build internal tools for your ops team's manual workflows"
+        },
+        {
+          "name": "Dashworks",
+          "slug": "dashworks",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Your team's intelligent start page."
+        },
+        {
+          "name": "Eternal",
+          "slug": "zelos",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Own the best moments in streaming"
+        },
+        {
+          "name": "Glimpse",
+          "slug": "glimpse",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A social video chat."
+        }
+      ],
+      "batch_size": 229
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "status": "Active",
+          "batch": "Winter 2012",
+          "one_liner": "High Performance Computing Built for the Cloud"
+        },
+        {
+          "name": "Marft",
+          "slug": "marft",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Marft creates embeddable machine learning models for application\u2026"
+        },
+        {
+          "name": "Pixelapse",
+          "slug": "pixelapse",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Github for designers. We automatically keep track of revisions of\u2026"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Palantir for sales people"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Smart search for the modern team."
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Authy is a Two-Factor Authentication platform for developers"
+        },
+        {
+          "name": "Flutter",
+          "slug": "flutter",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Flutter combined computer vision technology with the built-in webcams\u2026"
+        },
+        {
+          "name": "SolidStage",
+          "slug": "solidstage",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Sysadmin as a service. We make deploying, configuring, monitoring,\u2026"
+        },
+        {
+          "name": "Clutch",
+          "slug": "clutch",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "An easy to integrate library for native iOS applications designed to\u2026"
+        },
+        {
+          "name": "OneSignal",
+          "slug": "onesignal",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Engage customers through personalized omni-channel messaging"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "San Francisco",
+      "location": "San Francisco, CA, USA",
+      "companies_in_city": 2007,
+      "active_in_city": 1339,
+      "nearby_companies": [
+        {
+          "name": "42Floors",
+          "slug": "42floors",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "PlanGrid",
+          "slug": "plangrid",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "MyVR",
+          "slug": "myvr",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Couple",
+          "slug": "couple",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HackPad",
+          "slug": "hackpad",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Gusto",
+          "slug": "gusto",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "FamilyLeaf",
+          "slug": "familyleaf",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Chute",
+          "slug": "chute",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Make School",
+          "slug": "make-school",
+          "batch": "Winter 2012",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Exec",
+          "slug": "exec",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Public"
+        },
+        {
+          "name": "LendUp",
+          "slug": "lendup",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tilt",
+          "slug": "tilt",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fond",
+          "slug": "fond",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Zaraz",
+        "slug": "zaraz",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Flowdash",
+        "slug": "flowdash",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Glisten AI",
+        "slug": "glisten-ai",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Ditto",
+        "slug": "ditto",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Zumo Labs",
+        "slug": "zumo-labs",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Recall.ai",
+        "slug": "recall-ai",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Jet Admin",
+        "slug": "jet-admin",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Chaos Genius",
+        "slug": "chaos-genius",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Finlens",
+        "slug": "finlens",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Motion",
+        "slug": "motion",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 4981,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:24:10.206924"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:10.206936",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:10.584337",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:10.719970",
+    "basic_info": {
+      "is_hiring": true,
+      "team_size": 12,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:49.641373",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Shift-left security",
+        "Increased automation in development workflows",
+        "Growing importance of code quality and security"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Technology (Autofix AI) and established user base",
+      "differentiation": "Autofix AI capabilities for automated code remediation.",
+      "competitive_advantages": [
+        "Automated code fixing",
+        "Unified DevSecOps platform"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on AI accuracy",
+        "Competition from larger, established players"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "series-a",
+      "growth_indicators": [
+        "Customer acquisition rate",
+        "Feature adoption"
+      ],
+      "growth_bottlenecks": [
+        "Sales cycle length",
+        "Integration complexity"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "AI accuracy limitations",
+        "Security vulnerabilities in the platform",
+        "Competition from open-source alternatives"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong value proposition (automated code fixing)",
+        "Growing market demand",
+        "Established user base"
+      ],
+      "concerns": [
+        "Competitive landscape",
+        "Scalability of AI model"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Snyk",
+        "SonarQube"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Expand AI model to support more languages and frameworks",
+        "Focus on enterprise sales and partnerships"
+      ],
+      "expansion_opportunities": [
+        "Integrate with more CI/CD platforms",
+        "Offer compliance and reporting features"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 662,
+      "completion": 563,
+      "total": 1225,
+      "estimated_cost": 0.000219
+    }
+  },
+  "phase8_complete": true
+}

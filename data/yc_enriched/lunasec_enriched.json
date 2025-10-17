@@ -1,0 +1,652 @@
+{
+  "slug": "lunasec",
+  "name": "LunaSec",
+  "yc_id": 12615,
+  "batch": "Summer 2019",
+  "website": "https://www.lunasec.io",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:49:04.181300",
+    "website": "https://www.lunasec.io",
+    "website_status": {
+      "reachable": false,
+      "error": "connection_error"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "lunasec.io",
+      "registrar": "Key-Systems GmbH",
+      "creation_date": "2021-03-09T01:01:08",
+      "expiration_date": "2026-03-09T01:01:08",
+      "domain_age_days": 1682,
+      "domain_age_years": 4.6,
+      "name_servers": [
+        "1hmh6thn.ns1.migadu.com",
+        "1hmh6thn.ns2.migadu.com",
+        "1hmh6thn.ns0.migadu.com"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "error": "HTTPSConnectionPool(host='www.lunasec.io', port=443): Max retries exceeded with url: / (Caused by Na"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:22:44.230964",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:22:33.914480",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "Seattle, WA, USA",
+      "coordinates": {
+        "latitude": 47.6062,
+        "longitude": -122.3321
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:15:03.662536",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:22:33.914518",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:22:33.914521",
+    "batch_network": {
+      "batch": "Summer 2019",
+      "total_batch_mates": 175,
+      "active_batch_mates": 114,
+      "batch_success_rate": 65.1,
+      "notable_batch_mates": [
+        {
+          "name": "Together Software",
+          "slug": "together-software",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Learn from the experts at your company. "
+        },
+        {
+          "name": "PopSQL",
+          "slug": "popsql",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "SQL editor for teams"
+        },
+        {
+          "name": "Cuboh",
+          "slug": "cuboh",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "We help restaurants manage their online orders."
+        },
+        {
+          "name": "Palifer",
+          "slug": "palifer",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Predictive maintenance models for trains and heavy industry"
+        },
+        {
+          "name": "Symplex",
+          "slug": "symplex",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Applied Reinforcement Learning Research Laboratory"
+        },
+        {
+          "name": "Kraftful",
+          "slug": "kraftful",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Copilot for product teams"
+        },
+        {
+          "name": "Odeko",
+          "slug": "odeko",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "Our operations software makes it easier to run--and grow--your cafe"
+        },
+        {
+          "name": "Bayes",
+          "slug": "bayes",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": ""
+        },
+        {
+          "name": "Voyage Biomedical",
+          "slug": "voyage-biomedical",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Using cooling to end brain damage during stroke."
+        },
+        {
+          "name": "Intersect Labs",
+          "slug": "intersect-labs",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Collaborative data noteboook for business teams"
+        }
+      ],
+      "batch_size": 176
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Security"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1969,
+      "direct_competitors": [
+        {
+          "name": "Sift",
+          "slug": "sift",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "The Leader in Digital Trust & Safety"
+        },
+        {
+          "name": "Clickfacts",
+          "slug": "clickfacts",
+          "status": "Acquired",
+          "batch": "Summer 2005",
+          "one_liner": ""
+        },
+        {
+          "name": "Smyte",
+          "slug": "smyte",
+          "status": "Acquired",
+          "batch": "Winter 2015",
+          "one_liner": "Smyte stops bad actors on social networks and marketplaces."
+        },
+        {
+          "name": "CyberFend",
+          "slug": "cyberfend",
+          "status": "Acquired",
+          "batch": "Winter 2015",
+          "one_liner": "Cyberfend delivers robust, real-time web and mobile security by\u2026"
+        },
+        {
+          "name": "ThinAir",
+          "slug": "thinair",
+          "status": "Inactive",
+          "batch": "Winter 2015",
+          "one_liner": "Intelligent data security for teams"
+        },
+        {
+          "name": "Cymmetria",
+          "slug": "cymmetria",
+          "status": "Acquired",
+          "batch": "Summer 2015",
+          "one_liner": "Shifting the asymmetry of cyber security."
+        },
+        {
+          "name": "Foxpass",
+          "slug": "foxpass",
+          "status": "Acquired",
+          "batch": "Summer 2015",
+          "one_liner": "Making enterprise security practices available for all companies."
+        },
+        {
+          "name": "Appcanary",
+          "slug": "appcanary",
+          "status": "Acquired",
+          "batch": "Summer 2015",
+          "one_liner": "Appcanary tracks the dependencies you use in your apps and servers\u2026"
+        },
+        {
+          "name": "Sphere Secure Workspace",
+          "slug": "sphere-secure-workspace",
+          "status": "Acquired",
+          "batch": "Summer 2015",
+          "one_liner": ""
+        },
+        {
+          "name": "Traversal Networks",
+          "slug": "traversal-networks",
+          "status": "Inactive",
+          "batch": "Summer 2015",
+          "one_liner": "Enterprise Threat Detection: Tuning, Triage, and Analysis by Experts."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Seattle",
+      "location": "Seattle, WA, USA; Remote",
+      "companies_in_city": 51,
+      "active_in_city": 33,
+      "nearby_companies": [
+        {
+          "name": "Habit Labs",
+          "slug": "habit-labs",
+          "batch": "Summer 2010",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "RescueTime",
+          "slug": "rescuetime",
+          "batch": "Winter 2008",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Jamglue",
+          "slug": "jamglue",
+          "batch": "Summer 2006",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "TomoGuides",
+          "slug": "tomoguides",
+          "batch": "Summer 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Booktrope",
+          "slug": "booktrope",
+          "batch": "Winter 2015",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Shift Labs",
+          "slug": "shift-labs",
+          "batch": "Winter 2015",
+          "industry": "Healthcare",
+          "status": "Acquired"
+        },
+        {
+          "name": "Mason",
+          "slug": "mason",
+          "batch": "Winter 2016",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Deako",
+          "slug": "deako",
+          "batch": "Winter 2016",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Poppy",
+          "slug": "poppy",
+          "batch": "Winter 2016",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "BloomAPI",
+          "slug": "bloomapi",
+          "batch": "Winter 2017",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Sigma Genetics",
+          "slug": "sigma-genetics",
+          "batch": "Winter 2017",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Dropleaf",
+          "slug": "dropleaf",
+          "batch": "Summer 2017",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Worklytics",
+          "slug": "worklytics",
+          "batch": "Winter 2018",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Rebellyous Foods",
+          "slug": "rebellyous-foods",
+          "batch": "Summer 2018",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "The Buttermilk Company",
+          "slug": "the-buttermilk-company",
+          "batch": "Summer 2018",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Shelf Engine",
+          "slug": "shelf-engine",
+          "batch": "Summer 2018",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Bottomless",
+          "slug": "bottomless",
+          "batch": "Winter 2019",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Datamode",
+          "slug": "datamode",
+          "batch": "Winter 2019",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Latchel",
+          "slug": "latchel",
+          "batch": "Winter 2019",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Spiral Genetics",
+          "slug": "spiral-genetics",
+          "batch": "Winter 2019",
+          "industry": "Healthcare",
+          "status": "Inactive"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "TRM Labs",
+        "slug": "trm-labs",
+        "batch": "Summer 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Canix",
+        "slug": "canix",
+        "batch": "Summer 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Traces",
+        "slug": "traces",
+        "batch": "Summer 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Matano",
+        "slug": "matano",
+        "batch": "Winter 2023",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Clearly AI",
+        "slug": "clearly-ai",
+        "batch": "Summer 2024",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Superorder",
+        "slug": "superorder",
+        "batch": "Summer 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Dover",
+        "slug": "dover",
+        "batch": "Summer 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Together Software",
+        "slug": "together-software",
+        "batch": "Summer 2019",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Bun",
+        "slug": "bun",
+        "batch": "Summer 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "PopSQL",
+        "slug": "popsql",
+        "batch": "Summer 2019",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 2972,
+      "network_density_score": 85.2,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:22:33.925785"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:22:33.925790",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:22:34.253417",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:22:34.351445",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 4,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:46:44.579191",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increasing supply chain attacks",
+        "Growing open source adoption",
+        "Regulatory compliance requirements"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Expertise-driven curation and remediation guidance from security experts",
+      "differentiation": "Focus on actionable intelligence rather than noise, with expert-backed remediation",
+      "competitive_advantages": [
+        "Expert security team providing context",
+        "Faster remediation workflows"
+      ],
+      "competitive_vulnerabilities": [
+        "Open source model limits monetization",
+        "Competing against well-funded incumbents"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "seed",
+      "growth_indicators": [
+        "Strong market demand for dependency security",
+        "Open source adoption potential"
+      ],
+      "growth_bottlenecks": [
+        "Company is now inactive/dead",
+        "Monetization challenges in open source security"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "low",
+      "technology_risk": "medium",
+      "execution_risk": "high",
+      "overall_risk_score": 9,
+      "key_risks": [
+        "Company has shut down",
+        "Execution challenges evident",
+        "Competitive market with established players"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Large addressable market",
+        "Expert team background",
+        "Clear market need"
+      ],
+      "concerns": [
+        "Company is inactive",
+        "Failed to achieve product-market fit",
+        "Monetization challenges"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Snyk",
+        "Sonatype",
+        "WhiteSource"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Post-mortem analysis of failure factors",
+        "Asset evaluation for potential acquisition"
+      ],
+      "expansion_opportunities": [
+        "Technology/IP licensing",
+        "Team acqui-hire opportunities"
+      ]
+    },
+    "tokens_used": {
+      "input": 752,
+      "output": 510,
+      "total": 1262,
+      "estimated_cost": 0.009906
+    }
+  },
+  "phase8_complete": true
+}

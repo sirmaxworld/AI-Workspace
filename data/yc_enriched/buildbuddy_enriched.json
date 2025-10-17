@@ -1,0 +1,1392 @@
+{
+  "slug": "buildbuddy",
+  "name": "BuildBuddy",
+  "yc_id": 13239,
+  "batch": "Winter 2020",
+  "website": "https://buildbuddy.io",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:52:42.338191",
+    "website": "https://buildbuddy.io",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 4863.26,
+      "final_url": "https://www.buildbuddy.io/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:52:47.201460"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "buildbuddy.io",
+      "registrar": "Key-Systems GmbH",
+      "creation_date": "2020-02-14T18:43:48",
+      "expiration_date": "2026-02-14T18:43:48",
+      "domain_age_days": 2071,
+      "domain_age_years": 5.7,
+      "name_servers": [
+        "ns-cloud-a1.googledomains.com",
+        "ns-cloud-a2.googledomains.com",
+        "ns-cloud-a3.googledomains.com",
+        "ns-cloud-a4.googledomains.com"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/buildbuddy_io",
+      "linkedin": "http://linkedin.com/company/buildbuddy",
+      "github": "https://github.com/buildbuddy-io",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": false,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 0,
+      "server": "GitHub.com"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:24:11.319494",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:23:59.455734",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "Palo Alto, CA, USA",
+      "coordinates": {
+        "latitude": 37.4419,
+        "longitude": -122.143
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:14:40.079679",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:23:59.455771",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/buildbuddy-io"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 100,
+        "packages": [
+          {
+            "name": "@date-io/core",
+            "description": "Abstraction over common javascript date management libraries",
+            "version": "3.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@date-io/core"
+          },
+          {
+            "name": "@pm2/io",
+            "description": "PM2.io NodeJS APM",
+            "version": "6.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@pm2/io"
+          },
+          {
+            "name": "io-ts",
+            "description": "TypeScript runtime type system for IO decoding/encoding",
+            "version": "2.2.22",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/io-ts"
+          },
+          {
+            "name": "@date-io/date-fns",
+            "description": "Abstraction over common javascript date management libraries",
+            "version": "3.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@date-io/date-fns"
+          },
+          {
+            "name": "@actions/io",
+            "description": "Actions io lib",
+            "version": "1.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@actions/io"
+          },
+          {
+            "name": "@date-io/moment",
+            "description": "Abstraction over common javascript date management libraries",
+            "version": "3.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@date-io/moment"
+          },
+          {
+            "name": "@date-io/dayjs",
+            "description": "Abstraction over common javascript date management libraries",
+            "version": "3.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@date-io/dayjs"
+          },
+          {
+            "name": "cspell-io",
+            "description": "A library of useful I/O functions used across various cspell tools.",
+            "version": "9.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/cspell-io"
+          },
+          {
+            "name": "@date-io/luxon",
+            "description": "Abstraction over common javascript date management libraries",
+            "version": "3.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@date-io/luxon"
+          },
+          {
+            "name": "nice-grpc-common",
+            "description": "Common stuff for nice-grpc and nice-grpc-web",
+            "version": "2.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/nice-grpc-common"
+          },
+          {
+            "name": "io-ts-types",
+            "description": "A collection of codecs and combinators for use with io-ts",
+            "version": "0.5.19",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/io-ts-types"
+          },
+          {
+            "name": "rrweb",
+            "description": "record and replay the web",
+            "version": "2.0.0-alpha.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rrweb"
+          },
+          {
+            "name": "@starknet-io/types-js",
+            "description": "Shared TypeScript definitions for Starknet projects",
+            "version": "0.9.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@starknet-io/types-js"
+          },
+          {
+            "name": "@nats-io/nuid",
+            "description": "NUID - A highly performant unique identifier generator.",
+            "version": "2.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@nats-io/nuid"
+          },
+          {
+            "name": "svg-tags",
+            "description": "List of standard SVG tags.",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/svg-tags"
+          },
+          {
+            "name": "@nats-io/nkeys",
+            "description": "A public-key signature system based on Ed25519 for the NATS ecosystem in javascript",
+            "version": "2.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@nats-io/nkeys"
+          },
+          {
+            "name": "@statsig/js-client",
+            "description": "Statsig helps you move faster with feature gates (feature flags), and/or dynamic configs. It also allows you to run A/B/n tests to validate your new features and understand their impact on your KPIs. If you're new to Statsig, check out our product and cre",
+            "version": "3.27.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@statsig/js-client"
+          },
+          {
+            "name": "ip3country",
+            "description": "This is a no-dependency, super lite version of IP2Location LITE lookup.",
+            "version": "5.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ip3country"
+          },
+          {
+            "name": "io-ts-bigint",
+            "description": "io-ts library for bigints",
+            "version": "2.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/io-ts-bigint"
+          },
+          {
+            "name": "@nats-io/nats-core",
+            "description": "nats-core library - this library implements all the base functionality for NATS javascript clients",
+            "version": "3.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@nats-io/nats-core"
+          },
+          {
+            "name": "@nats-io/transport-node",
+            "description": "Node.js client for NATS, a lightweight, high-performance cloud native messaging system",
+            "version": "3.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@nats-io/transport-node"
+          },
+          {
+            "name": "ctrf",
+            "description": "Common library for working with CTRF reports",
+            "version": "0.0.17",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ctrf"
+          },
+          {
+            "name": "@pm2/agent",
+            "description": "PM2.io Agent Daemon",
+            "version": "2.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@pm2/agent"
+          },
+          {
+            "name": "io-ts-reporters",
+            "description": "Formatting of io-ts validation errors",
+            "version": "2.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/io-ts-reporters"
+          },
+          {
+            "name": "diagram-js-direct-editing",
+            "description": "Direct editing support for diagram-js",
+            "version": "3.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/diagram-js-direct-editing"
+          },
+          {
+            "name": "@statsig/react-bindings",
+            "description": "Statsig helps you move faster with feature gates (feature flags), and/or dynamic configs. It also allows you to run A/B/n tests to validate your new features and understand their impact on your KPIs. If you're new to Statsig, check out our product and cre",
+            "version": "3.27.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@statsig/react-bindings"
+          },
+          {
+            "name": "@cypress/xvfb",
+            "description": "Easily start and stop an X Virtual Frame Buffer from your node apps.",
+            "version": "1.2.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@cypress/xvfb"
+          },
+          {
+            "name": "ethers",
+            "description": "A complete and compact Ethereum library, for dapps, wallets and any other tools.",
+            "version": "6.15.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ethers"
+          },
+          {
+            "name": "nats",
+            "description": "Node.js client for NATS, a lightweight, high-performance cloud native messaging system",
+            "version": "2.29.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/nats"
+          },
+          {
+            "name": "validate.io-array",
+            "description": "Validates if a value is an array.",
+            "version": "1.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/validate.io-array"
+          },
+          {
+            "name": "validate.io-function",
+            "description": "Validates if a value is a function.",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/validate.io-function"
+          },
+          {
+            "name": "validate.io-number",
+            "description": "Validates if a value is a number.",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/validate.io-number"
+          },
+          {
+            "name": "validate.io-integer",
+            "description": "Validates if a value is an integer.",
+            "version": "1.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/validate.io-integer"
+          },
+          {
+            "name": "eslint-plugin-perfectionist",
+            "description": "ESLint plugin for sorting various data such as objects, imports, types, enums, JSX props, etc.",
+            "version": "4.15.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/eslint-plugin-perfectionist"
+          },
+          {
+            "name": "compute-lcm",
+            "description": "Computes the least common multiple (lcm).",
+            "version": "1.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/compute-lcm"
+          },
+          {
+            "name": "validate.io-integer-array",
+            "description": "Validates if a value is an integer array.",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/validate.io-integer-array"
+          },
+          {
+            "name": "compute-gcd",
+            "description": "Computes the greatest common divisor (gcd).",
+            "version": "1.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/compute-gcd"
+          },
+          {
+            "name": "min-dash",
+            "description": "Minimum utility toolbelt",
+            "version": "4.2.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/min-dash"
+          },
+          {
+            "name": "@pm2/agent-node",
+            "description": "PM2.io Agent Standalone for NodeJS",
+            "version": "1.1.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@pm2/agent-node"
+          },
+          {
+            "name": "@remix-run/web-fetch",
+            "description": "Web API compatible fetch implementation",
+            "version": "4.4.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@remix-run/web-fetch"
+          },
+          {
+            "name": "diagram-js",
+            "description": "A toolbox for displaying and modifying diagrams on the web",
+            "version": "15.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/diagram-js"
+          },
+          {
+            "name": "io-ts-numbers",
+            "description": "io-ts library for numbers",
+            "version": "1.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/io-ts-numbers"
+          },
+          {
+            "name": "starknet",
+            "description": "JavaScript library for Starknet",
+            "version": "7.6.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/starknet"
+          },
+          {
+            "name": "@statsig/web-analytics",
+            "description": "Statsig helps you move faster with feature gates (feature flags), and/or dynamic configs. It also allows you to run A/B/n tests to validate your new features and understand their impact on your KPIs. If you're new to Statsig, check out our product and cre",
+            "version": "3.27.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@statsig/web-analytics"
+          },
+          {
+            "name": "@honeybadger-io/core",
+            "description": "JavaScript error notifier for Honeybadger.io",
+            "version": "6.7.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@honeybadger-io/core"
+          },
+          {
+            "name": "asap",
+            "description": "High-priority task queue for Node.js and browsers",
+            "version": "2.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/asap"
+          },
+          {
+            "name": "@honeybadger-io/js",
+            "description": "Universal (Browser & Node) JavaScript error notifier for Honeybadger.io",
+            "version": "6.12.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@honeybadger-io/js"
+          },
+          {
+            "name": "playwright-ctrf-json-reporter",
+            "description": "A Playwright JSON test reporter to create test results reports",
+            "version": "0.0.24",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/playwright-ctrf-json-reporter"
+          },
+          {
+            "name": "validate.io-string-primitive",
+            "description": "Validates if a value is a string primitive.",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/validate.io-string-primitive"
+          },
+          {
+            "name": "@pinecone-database/pinecone",
+            "description": "This is the official Node.js SDK for [Pinecone](https://www.pinecone.io), written in TypeScript.",
+            "version": "6.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@pinecone-database/pinecone"
+          },
+          {
+            "name": "@bitgo-forks/io-ts",
+            "description": "TypeScript compatible runtime type system for IO validation",
+            "version": "2.1.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@bitgo-forks/io-ts"
+          },
+          {
+            "name": "@nats-io/jetstream",
+            "description": "jetstream library - this library implements all the base functionality for NATS JetStream for javascript clients",
+            "version": "3.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@nats-io/jetstream"
+          },
+          {
+            "name": "@types/pendo-io-browser",
+            "description": "TypeScript definitions for pendo-io-browser",
+            "version": "2.19.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@types/pendo-io-browser"
+          },
+          {
+            "name": "object-refs",
+            "description": "Minimal bi-directional object references for JavaScript",
+            "version": "0.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/object-refs"
+          },
+          {
+            "name": "@date-io/hijri",
+            "description": "Abstraction over common javascript date management libraries",
+            "version": "3.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@date-io/hijri"
+          },
+          {
+            "name": "@remix-run/web-form-data",
+            "description": "Web API compatible Form Data implementation",
+            "version": "3.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@remix-run/web-form-data"
+          },
+          {
+            "name": "@date-io/date-fns-jalali",
+            "description": "Abstraction over common javascript date management libraries",
+            "version": "3.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@date-io/date-fns-jalali"
+          },
+          {
+            "name": "@statsig/js-local-overrides",
+            "description": "Statsig helps you move faster with feature gates (feature flags), and/or dynamic configs. It also allows you to run A/B/n tests to validate your new features and understand their impact on your KPIs. If you're new to Statsig, check out our product and cre",
+            "version": "3.27.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@statsig/js-local-overrides"
+          },
+          {
+            "name": "promised-io",
+            "description": "Promise-based IO",
+            "version": "0.3.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/promised-io"
+          },
+          {
+            "name": "is-number-like",
+            "description": "Checks whether provided parameter looks like a number",
+            "version": "1.0.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/is-number-like"
+          },
+          {
+            "name": "min-dom",
+            "description": "A minimal dom utility toolbelt",
+            "version": "5.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/min-dom"
+          },
+          {
+            "name": "io-ts-extra",
+            "description": "Adds pattern matching, optional properties, and several other helpers and types, to io-ts.",
+            "version": "0.11.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/io-ts-extra"
+          },
+          {
+            "name": "@privy-io/chains",
+            "description": "Network configurations for Privy SDKs",
+            "version": "0.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@privy-io/chains"
+          },
+          {
+            "name": "@statsig/session-replay",
+            "description": "Statsig helps you move faster with feature gates (feature flags), and/or dynamic configs. It also allows you to run A/B/n tests to validate your new features and understand their impact on your KPIs. If you're new to Statsig, check out our product and cre",
+            "version": "3.27.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@statsig/session-replay"
+          },
+          {
+            "name": "@pm2/js-api",
+            "description": "PM2.io API Client for Javascript",
+            "version": "0.8.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@pm2/js-api"
+          },
+          {
+            "name": "eslint-plugin-cypress",
+            "description": "An ESLint plugin for projects using Cypress",
+            "version": "5.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/eslint-plugin-cypress"
+          },
+          {
+            "name": "bpmn-js",
+            "description": "A bpmn 2.0 toolkit and web modeler",
+            "version": "18.7.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/bpmn-js"
+          },
+          {
+            "name": "@privy-io/ethereum",
+            "description": "Low level utilities for working with ethereum interfaces",
+            "version": "0.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@privy-io/ethereum"
+          },
+          {
+            "name": "@ls-lint/ls-lint",
+            "description": "An extremely fast directory and filename linter",
+            "version": "2.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ls-lint/ls-lint"
+          },
+          {
+            "name": "tcomb",
+            "description": "Type checking and DDD for JavaScript",
+            "version": "3.2.29",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/tcomb"
+          },
+          {
+            "name": "@swan-io/boxed",
+            "description": "Utility types for functional TypeScript",
+            "version": "3.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@swan-io/boxed"
+          },
+          {
+            "name": "@api-ts/io-ts-http",
+            "description": "Types for (de)serializing HTTP requests from both the client and server side",
+            "version": "3.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@api-ts/io-ts-http"
+          },
+          {
+            "name": "@bpmn-io/properties-panel",
+            "description": "Library for creating bpmn-io properties panels.",
+            "version": "3.33.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@bpmn-io/properties-panel"
+          },
+          {
+            "name": "react-rx",
+            "description": "React + RxJS = <3",
+            "version": "4.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-rx"
+          },
+          {
+            "name": "ngx-socket-io",
+            "description": "Socket.IO module for Angular",
+            "version": "4.9.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ngx-socket-io"
+          },
+          {
+            "name": "q-io",
+            "description": "IO using Q promises",
+            "version": "1.13.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/q-io"
+          },
+          {
+            "name": "@cypress/skip-test",
+            "description": "Simple commands to skip a test based on platform, browser or an url",
+            "version": "2.6.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@cypress/skip-test"
+          },
+          {
+            "name": "dmn-moddle",
+            "description": "A moddle wrapper for DMN 1.3",
+            "version": "11.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/dmn-moddle"
+          },
+          {
+            "name": "@nats-io/kv",
+            "description": "kv library - this library implements all the base functionality for NATS KV javascript clients",
+            "version": "3.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@nats-io/kv"
+          },
+          {
+            "name": "compute-l2norm",
+            "description": "Computes the L2 norm (Euclidean norm) of an array of values.",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/compute-l2norm"
+          },
+          {
+            "name": "compute-dot",
+            "description": "Computes the dot product between two numeric arrays.",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/compute-dot"
+          },
+          {
+            "name": "@statsig/react-native-core",
+            "description": "Statsig helps you move faster with feature gates (feature flags), and/or dynamic configs. It also allows you to run A/B/n tests to validate your new features and understand their impact on your KPIs. If you're new to Statsig, check out our product and cre",
+            "version": "3.27.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@statsig/react-native-core"
+          },
+          {
+            "name": "lcs-image-diff",
+            "description": "A JavaScript library to diff two images. Uses the Longest-Common-Subsequence algorithm to allow content to shift.",
+            "version": "3.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/lcs-image-diff"
+          },
+          {
+            "name": "chain-registry",
+            "description": "Cosmos chain registry \u269b\ufe0f",
+            "version": "2.0.82",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/chain-registry"
+          },
+          {
+            "name": "@honeybadger-io/react",
+            "description": "React.js integration for honeybadger",
+            "version": "6.1.27",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@honeybadger-io/react"
+          },
+          {
+            "name": "@sanity/preview-kit",
+            "description": "General purpose utils for live content and visual editing",
+            "version": "6.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sanity/preview-kit"
+          },
+          {
+            "name": "@bitgo-beta/babylonlabs-io-btc-staking-ts",
+            "description": "Library exposing methods for the creation and consumption of Bitcoin transactions pertaining to Babylon's Bitcoin Staking protocol.",
+            "version": "0.4.0-bitgo.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@bitgo-beta/babylonlabs-io-btc-staking-ts"
+          },
+          {
+            "name": "@honeybadger-io/webpack",
+            "description": "Webpack plugin to upload source maps to Honeybadger's API - http://docs.honeybadger.io/guides/source-maps.html",
+            "version": "6.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@honeybadger-io/webpack"
+          },
+          {
+            "name": "@geoman-io/leaflet-geoman-free",
+            "description": "A Leaflet Plugin For Editing Geometry Layers in Leaflet 1.0",
+            "version": "2.18.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@geoman-io/leaflet-geoman-free"
+          },
+          {
+            "name": "@stream-io/video-react-bindings",
+            "description": null,
+            "version": "1.10.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@stream-io/video-react-bindings"
+          },
+          {
+            "name": "protodef",
+            "description": "A simple yet powerful way to define binary protocols",
+            "version": "1.19.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/protodef"
+          },
+          {
+            "name": "framework7",
+            "description": "Full featured mobile HTML framework for building iOS & Android apps",
+            "version": "8.3.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/framework7"
+          },
+          {
+            "name": "path-intersection",
+            "description": "Computes the intersection between two SVG paths",
+            "version": "3.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/path-intersection"
+          },
+          {
+            "name": "@luminati-io/luminati-proxy",
+            "description": "A configurable local proxy for brightdata.com",
+            "version": "1.570.247",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@luminati-io/luminati-proxy"
+          },
+          {
+            "name": "gherkin-io",
+            "description": "Tool to read/write Gherkin feature files and work with Gherking AST",
+            "version": "1.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/gherkin-io"
+          },
+          {
+            "name": "@bpmn-io/lang-feel",
+            "description": "FEEL language support for the CodeMirror code editor",
+            "version": "2.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@bpmn-io/lang-feel"
+          },
+          {
+            "name": "@sentry-internal/rrweb",
+            "description": "record and replay the web",
+            "version": "2.38.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sentry-internal/rrweb"
+          },
+          {
+            "name": "@typescript-tools/io-ts",
+            "description": "Internal io-ts codecs",
+            "version": "3.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@typescript-tools/io-ts"
+          },
+          {
+            "name": "tiny-svg",
+            "description": "A minimal toolbelt for builing fast SVG-based applications",
+            "version": "4.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/tiny-svg"
+          },
+          {
+            "name": "@privy-io/react-auth",
+            "description": "React client for the Privy Auth API",
+            "version": "3.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@privy-io/react-auth"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 100,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:24:01.001795"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:01.001831",
+    "batch_network": {
+      "batch": "Winter 2020",
+      "total_batch_mates": 228,
+      "active_batch_mates": 148,
+      "batch_success_rate": 64.9,
+      "notable_batch_mates": [
+        {
+          "name": "Zaraz",
+          "slug": "zaraz",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A third-party manager, built for speed. "
+        },
+        {
+          "name": "Phonic",
+          "slug": "phonic",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The best way to collect and analyze voice and video feedback"
+        },
+        {
+          "name": "Okay",
+          "slug": "okay",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Dashboards and actionable insights for high-performing engineering\u2026"
+        },
+        {
+          "name": "Volumetric",
+          "slug": "volumetric",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Volumetric builds living multicellular tissues with a focus on the\u2026"
+        },
+        {
+          "name": "Hoss",
+          "slug": "hoss",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The developer experience platform"
+        },
+        {
+          "name": "FitnessAI",
+          "slug": "fitnessai",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "App offering AI powered workout plans with anytime access to coaches"
+        },
+        {
+          "name": "Flowdash",
+          "slug": "flowdash",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Quickly build internal tools for your ops team's manual workflows"
+        },
+        {
+          "name": "Dashworks",
+          "slug": "dashworks",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Your team's intelligent start page."
+        },
+        {
+          "name": "Eternal",
+          "slug": "zelos",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Own the best moments in streaming"
+        },
+        {
+          "name": "Glimpse",
+          "slug": "glimpse",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A social video chat."
+        }
+      ],
+      "batch_size": 229
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Amiato",
+          "slug": "amiato",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "The BI bridge for unstructured data. We automatically bridge the gap\u2026"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Simple multiplayer game servers."
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Backlift allows front-end only developers to build entire websites\u2026"
+        },
+        {
+          "name": "Documents.Me",
+          "slug": "documents-me",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Client-side encryption for your devices and the cloud."
+        },
+        {
+          "name": "Apollo",
+          "slug": "apollo",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Apollo helps engineering teams accelerate delivery"
+        },
+        {
+          "name": "Proxino",
+          "slug": "proxino",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Javascript proxy."
+        },
+        {
+          "name": "PhoneSys",
+          "slug": "phonesys",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "The Phone System for Sales Teams."
+        },
+        {
+          "name": "Cryptoseal",
+          "slug": "cryptoseal",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Server key management, VPN as a Service, Privacy VPN.  Sold to\u2026"
+        },
+        {
+          "name": "Citus Data",
+          "slug": "citus-data",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Real-time. Big data. PostgreSQL"
+        },
+        {
+          "name": "Realm",
+          "slug": "realm",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Better data structures = no DB."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Palo Alto",
+      "location": "Palo Alto, CA, USA; Remote",
+      "companies_in_city": 93,
+      "active_in_city": 40,
+      "nearby_companies": [
+        {
+          "name": "Hipmob",
+          "slug": "hipmob",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Amiato",
+          "slug": "amiato",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Pixelapse",
+          "slug": "pixelapse",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "LVL6",
+          "slug": "lvl6",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "GiveSpark",
+          "slug": "givespark",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Proxino",
+          "slug": "proxino",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Science Exchange",
+          "slug": "science-exchange",
+          "batch": "Summer 2011",
+          "industry": "Healthcare",
+          "status": "Acquired"
+        },
+        {
+          "name": "Clerky",
+          "slug": "clerky",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Assembled",
+          "slug": "assembled",
+          "batch": "Winter 2011",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Pebble",
+          "slug": "pebble",
+          "batch": "Winter 2011",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Insight Data Science",
+          "slug": "insight-data-science",
+          "batch": "Winter 2011",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "AeroFS",
+          "slug": "aerofs",
+          "batch": "Summer 2010",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Etacts",
+          "slug": "etacts",
+          "batch": "Winter 2010",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Lockitron",
+          "slug": "lockitron",
+          "batch": "Summer 2009",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "GraffitiGeo",
+          "slug": "graffitigeo",
+          "batch": "Summer 2009",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Snipd",
+          "slug": "snipd",
+          "batch": "Summer 2008",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Machine Zone",
+          "slug": "machine-zone",
+          "batch": "Winter 2008",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fuzzwich",
+          "slug": "fuzzwich",
+          "batch": "Summer 2007",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Jumpchat",
+          "slug": "jumpchat",
+          "batch": "Summer 2006",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Pixate",
+          "slug": "pixate",
+          "batch": "Summer 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "MindsDB",
+        "slug": "mindsdb",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Ardis AI",
+        "slug": "ardis-ai",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Aden",
+        "slug": "aden",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Replicate",
+        "slug": "replicate",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Fly.io",
+        "slug": "fly-io",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Signadot",
+        "slug": "signadot",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Zaam",
+        "slug": "zaam",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Scout",
+        "slug": "scout",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Cortex",
+        "slug": "cortex",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Termii",
+        "slug": "termii",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 3067,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:24:01.026315"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:01.026336",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:01.381328",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:01.521103",
+    "basic_info": {
+      "is_hiring": true,
+      "team_size": 15,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:42:17.433757",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "medium",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increasing adoption of Bazel for large-scale builds",
+        "Growing demand for DevOps automation",
+        "Shift towards cloud-native development"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Technical expertise in Bazel and strong community engagement",
+      "differentiation": "Enterprise features and support for Bazel, simplifying its adoption and management.",
+      "competitive_advantages": [
+        "Deep integration with Bazel",
+        "Focus on enterprise needs"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on Bazel adoption",
+        "Potential competition from larger DevOps platforms"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "series-a",
+      "growth_indicators": [
+        "Increasing customer base",
+        "Expansion of features and integrations"
+      ],
+      "growth_bottlenecks": [
+        "Sales cycle length",
+        "Competition from in-house solutions"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Slower than expected Bazel adoption",
+        "Emergence of competing Bazel solutions",
+        "Difficulty in scaling sales and support"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong team with Bazel expertise",
+        "Clear value proposition for enterprises",
+        "Potential to become the leading enterprise Bazel platform"
+      ],
+      "concerns": [
+        "Dependence on Bazel ecosystem",
+        "Competition from larger players"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "CircleCI",
+        "GitLab"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Expand sales and marketing efforts",
+        "Develop integrations with other DevOps tools"
+      ],
+      "expansion_opportunities": [
+        "Offer managed Bazel services",
+        "Target specific industries with high Bazel adoption"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 615,
+      "completion": 497,
+      "total": 1112,
+      "estimated_cost": 0.000195
+    }
+  },
+  "phase8_complete": true
+}

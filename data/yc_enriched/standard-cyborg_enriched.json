@@ -1,0 +1,711 @@
+{
+  "slug": "standard-cyborg",
+  "name": "Standard Cyborg",
+  "yc_id": 832,
+  "batch": "Winter 2015",
+  "website": "http://standardcyborg.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:35:22.452803",
+    "website": "http://standardcyborg.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 1371.75,
+      "final_url": "https://www.standardcyborg.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:35:23.824564"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "standardcyborg.com",
+      "registrar": "NameCheap, Inc.",
+      "creation_date": "2014-03-26T06:02:15",
+      "expiration_date": "2026-03-26T06:02:15",
+      "domain_age_days": 4222,
+      "domain_age_years": 11.6,
+      "name_servers": [
+        "DNS1.REGISTRAR-SERVERS.COM",
+        "DNS2.REGISTRAR-SERVERS.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": "https://github.com/StandardCyborg",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 16,
+      "server": "Netlify"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:15:43.486038",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:15:32.562965",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "San Francisco, CA, USA",
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:12:40.434017",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:15:32.562996",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/StandardCyborg"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 2,
+        "packages": [
+          {
+            "name": "nurbs",
+            "description": "Evaluate n-Dimensional Non-Uniform Rational B-Splines (NURBS)",
+            "version": "1.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/nurbs"
+          },
+          {
+            "name": "inertial-turntable-camera",
+            "description": "A 3D spherical coordinates camera with inertia",
+            "version": "2.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/inertial-turntable-camera"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 2,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:15:33.823865"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:15:33.823878",
+    "batch_network": {
+      "batch": "Winter 2015",
+      "total_batch_mates": 110,
+      "active_batch_mates": 42,
+      "batch_success_rate": 38.2,
+      "notable_batch_mates": [
+        {
+          "name": "Notable Labs",
+          "slug": "notable-labs",
+          "status": "Public",
+          "top_company": true,
+          "one_liner": "Personalized drug discovery for blood cancer."
+        },
+        {
+          "name": "Final",
+          "slug": "final",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A credit card that drastically reduces payment fraud and gives\u2026"
+        },
+        {
+          "name": "Pomello",
+          "slug": "pomello",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Analytics software that helps companies measure organizational\u2026"
+        },
+        {
+          "name": "Tech in Asia",
+          "slug": "tech-in-asia",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Tech in Asia (YC W15) is the largest English-language technology\u2026"
+        },
+        {
+          "name": "Smyte",
+          "slug": "smyte",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Smyte stops bad actors on social networks and marketplaces."
+        },
+        {
+          "name": "Bizzy",
+          "slug": "bizzy",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Bizzy is omni-channel marketing for ecommerce businesses."
+        },
+        {
+          "name": "Bluesmart",
+          "slug": "bluesmart",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Bluesmart makes smart luggage powered by an app to empower people to\u2026"
+        },
+        {
+          "name": "CyberFend",
+          "slug": "cyberfend",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Cyberfend delivers robust, real-time web and mobile security by\u2026"
+        },
+        {
+          "name": "GrubMarket",
+          "slug": "grubmarket",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "AI-powered technology enabler and digital transformer of American\u2026"
+        },
+        {
+          "name": "WorkLife",
+          "slug": "worklife",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "WorkLife is a SaaS application that helps teams have more effective\u2026"
+        }
+      ],
+      "batch_size": 111
+    },
+    "industry_network": {
+      "industries": [
+        "Healthcare",
+        "Medical Devices"
+      ],
+      "total_industry_peers": 642,
+      "active_industry_peers": 503,
+      "direct_competitors": [
+        {
+          "name": "Shift Labs",
+          "slug": "shift-labs",
+          "status": "Acquired",
+          "batch": "Winter 2015",
+          "one_liner": "Makers of simple, affordable medical devices. Our award-winning\u2026"
+        },
+        {
+          "name": "Zenflow",
+          "slug": "zenflow",
+          "status": "Active",
+          "batch": "Winter 2015",
+          "one_liner": "Medical device that provides a more effective, less invasive\u2026"
+        },
+        {
+          "name": "iSono Health",
+          "slug": "isono-health",
+          "status": "Active",
+          "batch": "Winter 2016",
+          "one_liner": "AI-powered platform for Accessible and Personalized Breast Health\u2026"
+        },
+        {
+          "name": "InnoVein",
+          "slug": "innovein",
+          "status": "Inactive",
+          "batch": "Winter 2016",
+          "one_liner": "We cure intractable leg wounds with a replacement valve for veins. "
+        },
+        {
+          "name": "UroDev Medical",
+          "slug": "urodev-medical",
+          "status": "Acquired",
+          "batch": "Winter 2016",
+          "one_liner": "Devices to improve the quality of life for people with Spinal Cord\u2026"
+        },
+        {
+          "name": "Volt Health",
+          "slug": "volt-health",
+          "status": "Inactive",
+          "batch": "Winter 2017",
+          "one_liner": "Volt Health is developing medical devices that deliver electrical\u2026"
+        },
+        {
+          "name": "HelpWear",
+          "slug": "helpwear",
+          "status": "Active",
+          "batch": "Summer 2017",
+          "one_liner": ""
+        },
+        {
+          "name": "AesculaTech",
+          "slug": "aesculatech",
+          "status": "Active",
+          "batch": "Winter 2018",
+          "one_liner": "Responsive materials, better lives. "
+        },
+        {
+          "name": "ArchForm",
+          "slug": "archform",
+          "status": "Active",
+          "batch": "Winter 2018",
+          "one_liner": "Replacing orthodontic braces with our clear aligner and software"
+        },
+        {
+          "name": "Vena Medical",
+          "slug": "vena-medical",
+          "status": "Active",
+          "batch": "Winter 2018",
+          "one_liner": "Vena Medical is providing physicians with the world's smallest camera\u2026"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "San Francisco",
+      "location": "San Francisco, CA, USA",
+      "companies_in_city": 2007,
+      "active_in_city": 1340,
+      "nearby_companies": [
+        {
+          "name": "42Floors",
+          "slug": "42floors",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "PlanGrid",
+          "slug": "plangrid",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "MyVR",
+          "slug": "myvr",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Couple",
+          "slug": "couple",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HackPad",
+          "slug": "hackpad",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Gusto",
+          "slug": "gusto",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "FamilyLeaf",
+          "slug": "familyleaf",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Chute",
+          "slug": "chute",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Make School",
+          "slug": "make-school",
+          "batch": "Winter 2012",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Exec",
+          "slug": "exec",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Public"
+        },
+        {
+          "name": "LendUp",
+          "slug": "lendup",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tilt",
+          "slug": "tilt",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fond",
+          "slug": "fond",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Qventus",
+        "slug": "qventus",
+        "batch": "Winter 2015",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "20n",
+        "slug": "20n",
+        "batch": "Winter 2015",
+        "industry": "Healthcare",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Atomwise",
+        "slug": "atomwise",
+        "batch": "Winter 2015",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Shift Labs",
+        "slug": "shift-labs",
+        "batch": "Winter 2015",
+        "industry": "Healthcare",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Tempo",
+        "slug": "tempo",
+        "batch": "Winter 2015",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Zenflow",
+        "slug": "zenflow",
+        "batch": "Winter 2015",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "VetPronto",
+        "slug": "vetpronto",
+        "batch": "Winter 2015",
+        "industry": "Healthcare",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Wink Health",
+        "slug": "wink-health",
+        "batch": "Winter 2015",
+        "industry": "Healthcare",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Lully",
+        "slug": "lully",
+        "batch": "Winter 2015",
+        "industry": "Healthcare",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Spire Health",
+        "slug": "spire-health",
+        "batch": "Winter 2015",
+        "industry": "Healthcare",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 2759,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:15:33.837921"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:15:33.837932",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:15:34.202855",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:15:34.322675",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 9,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "gpt-4o",
+    "enriched_at": "2025-10-17T11:42:36.130718",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "large",
+      "market_stage": "growing",
+      "key_trends": [
+        "increased adoption of AI in healthcare",
+        "growth in cloud computing",
+        "rise of edge computing"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "advanced computer vision technology and tools",
+      "differentiation": "focus on accessibility for both developers and non-developers",
+      "competitive_advantages": [
+        "strong technological foundation",
+        "broad applicability across industries"
+      ],
+      "competitive_vulnerabilities": [
+        "inactive status",
+        "small team size"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "inactive",
+      "growth_indicators": [
+        "previous YC backing",
+        "established domain age"
+      ],
+      "growth_bottlenecks": [
+        "inactive status",
+        "limited team resources"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "high",
+      "overall_risk_score": 4,
+      "key_risks": [
+        "inactive status",
+        "high competition in CV space",
+        "rapid tech advancements"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "strong technological base",
+        "YC backing",
+        "broad market potential"
+      ],
+      "concerns": [
+        "inactive status",
+        "small team size"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Clarifai",
+        "SenseTime"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "evaluate potential for reactivation",
+        "explore strategic partnerships"
+      ],
+      "expansion_opportunities": [
+        "healthcare applications",
+        "collaboration with AI research institutions"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 639,
+      "completion": 403,
+      "total": 1042,
+      "estimated_cost": 0.005628
+    }
+  },
+  "phase8_complete": true
+}

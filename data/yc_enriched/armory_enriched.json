@@ -1,0 +1,1584 @@
+{
+  "slug": "armory",
+  "name": "Armory",
+  "yc_id": 1486,
+  "batch": "Winter 2017",
+  "website": "http://armory.io",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:38:45.591379",
+    "website": "http://armory.io",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 357.78,
+      "final_url": "https://www.harness.io:443/products/continuous-delivery",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:38:45.949177"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "armory.io",
+      "registrar": "Amazon Registrar, Inc.",
+      "creation_date": "2013-03-17T00:41:40",
+      "expiration_date": "2028-03-17T00:41:40",
+      "domain_age_days": 4596,
+      "domain_age_years": 12.6,
+      "name_servers": [
+        "ns-cloud-b1.googledomains.com",
+        "ns-cloud-b2.googledomains.com",
+        "ns-cloud-b3.googledomains.com",
+        "ns-cloud-b4.googledomains.com"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/harnessio",
+      "linkedin": "https://www.linkedin.com/company/harnessinc/",
+      "github": "https://github.com/harness/drone",
+      "facebook": "https://www.facebook.com/harnessinc/",
+      "instagram": "https://www.instagram.com/harness.io/",
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": true,
+      "x_frame_options": true,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 50,
+      "server": "Unknown"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:18:15.466046",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:18:03.094763",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "San Mateo, CA, USA",
+      "coordinates": {
+        "latitude": 37.563,
+        "longitude": -122.3255
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:14:33.868891",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:18:03.094791",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/harness"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 100,
+        "packages": [
+          {
+            "name": "test262-harness",
+            "description": "Node-based harness for test262",
+            "version": "10.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/test262-harness"
+          },
+          {
+            "name": "@stdlib/bench-harness",
+            "description": "Benchmark harness.",
+            "version": "0.2.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@stdlib/bench-harness"
+          },
+          {
+            "name": "tape",
+            "description": "tap-producing test harness for node and browsers",
+            "version": "5.9.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/tape"
+          },
+          {
+            "name": "@balena/jellyfish-test-harness",
+            "description": "Test harness helpers for Jellyfish repos",
+            "version": "9.2.12",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@balena/jellyfish-test-harness"
+          },
+          {
+            "name": "@react-native-harness/tools",
+            "description": "![harness-banner](https://react-native-harness.dev/harness-banner.jpg)",
+            "version": "1.0.0-alpha.15",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@react-native-harness/tools"
+          },
+          {
+            "name": "@jamietanna/spectral-test-harness",
+            "description": "A test harness for validation of Spectral API linting rules",
+            "version": "0.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@jamietanna/spectral-test-harness"
+          },
+          {
+            "name": "@react-native-harness/runtime",
+            "description": "![harness-banner](https://react-native-harness.dev/harness-banner.jpg)",
+            "version": "1.0.0-alpha.15",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@react-native-harness/runtime"
+          },
+          {
+            "name": "@harnessio/backstage-plugin-harness-iacm",
+            "description": "# Harness IACM plugin",
+            "version": "0.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@harnessio/backstage-plugin-harness-iacm"
+          },
+          {
+            "name": "@react-native-harness/metro",
+            "description": "![harness-banner](https://react-native-harness.dev/harness-banner.jpg)",
+            "version": "1.0.0-alpha.15",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@react-native-harness/metro"
+          },
+          {
+            "name": "@react-native-harness/bridge",
+            "description": "![harness-banner](https://react-native-harness.dev/harness-banner.jpg)",
+            "version": "1.0.0-alpha.15",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@react-native-harness/bridge"
+          },
+          {
+            "name": "react-native-harness",
+            "description": "![harness-banner](https://react-native-harness.dev/harness-banner.jpg)",
+            "version": "1.0.0-alpha.15",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-native-harness"
+          },
+          {
+            "name": "@harnessio/forms",
+            "description": "Harness Forms Library",
+            "version": "0.1.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@harnessio/forms"
+          },
+          {
+            "name": "@react-native-harness/config",
+            "description": "![harness-banner](https://react-native-harness.dev/harness-banner.jpg)",
+            "version": "1.0.0-alpha.15",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@react-native-harness/config"
+          },
+          {
+            "name": "@react-native-harness/babel-preset",
+            "description": "![harness-banner](https://react-native-harness.dev/harness-banner.jpg)",
+            "version": "1.0.0-alpha.15",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@react-native-harness/babel-preset"
+          },
+          {
+            "name": "@pulumi/harness",
+            "description": "A Pulumi package for creating and managing Harness  resources.",
+            "version": "0.8.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@pulumi/harness"
+          },
+          {
+            "name": "@react-native-harness/reporters",
+            "description": "![harness-banner](https://react-native-harness.dev/harness-banner.jpg)",
+            "version": "1.0.0-alpha.15",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@react-native-harness/reporters"
+          },
+          {
+            "name": "three-orbit-viewer",
+            "description": "quick harness for viewing a mesh with orbit viewer",
+            "version": "69.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/three-orbit-viewer"
+          },
+          {
+            "name": "@harnessio/uicore",
+            "description": "Harness UICore - Legos for building Harness UI applications",
+            "version": "4.3.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@harnessio/uicore"
+          },
+          {
+            "name": "@react-native-harness/cli",
+            "description": "![harness-banner](https://react-native-harness.dev/harness-banner.jpg)",
+            "version": "1.0.0-alpha.15",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@react-native-harness/cli"
+          },
+          {
+            "name": "@stdlib/bench",
+            "description": "Benchmark harness.",
+            "version": "0.4.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@stdlib/bench"
+          },
+          {
+            "name": "@harnessio/react-har-service-client",
+            "description": "Harness HAR Service APIs integrated with react hooks",
+            "version": "0.29.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@harnessio/react-har-service-client"
+          },
+          {
+            "name": "@harnessio/react-ssca-manager-client",
+            "description": "Harness SSCA manager APIs integrated with react hooks",
+            "version": "0.83.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@harnessio/react-ssca-manager-client"
+          },
+          {
+            "name": "@harnessio/ui",
+            "description": "Harness Canary UI component library",
+            "version": "0.0.157",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@harnessio/ui"
+          },
+          {
+            "name": "@koalaui/harness",
+            "description": "A harness library compatible with OHOS and ArkTS",
+            "version": "1.4.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@koalaui/harness"
+          },
+          {
+            "name": "browser-harness",
+            "description": "Browser Harness ===============",
+            "version": "0.0.58",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/browser-harness"
+          },
+          {
+            "name": "@memberjunction/react-test-harness",
+            "description": "React component test harness for MemberJunction using Playwright",
+            "version": "2.107.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@memberjunction/react-test-harness"
+          },
+          {
+            "name": "@harnessio/react-monitoring-service-client",
+            "description": "Harness Monitoring Service Client - APIs integrated with react hooks",
+            "version": "0.6.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@harnessio/react-monitoring-service-client"
+          },
+          {
+            "name": "@harnessio/react-idp-service-client",
+            "description": "Harness React idp service client - IDP APIs integrated with react hooks",
+            "version": "0.82.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@harnessio/react-idp-service-client"
+          },
+          {
+            "name": "react-render-if-visible",
+            "description": "Harness the power of Intersection Observers for simple list virtualization in React",
+            "version": "2.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-render-if-visible"
+          },
+          {
+            "name": "@harnessio/react-access-control-service-client",
+            "description": "Harness Access Control Service APIs integrated with react hooks",
+            "version": "0.2.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@harnessio/react-access-control-service-client"
+          },
+          {
+            "name": "@harnessio/code-service-client",
+            "description": "Harness React Code service client - Code APIs integrated with react hooks",
+            "version": "3.9.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@harnessio/code-service-client"
+          },
+          {
+            "name": "@harnessio/react-license-manager-client",
+            "description": "Harness License Manager Service Client - APIs integrated with react hooks",
+            "version": "0.2.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@harnessio/react-license-manager-client"
+          },
+          {
+            "name": "@harnessio/core-design-system",
+            "description": "Harness Design System",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@harnessio/core-design-system"
+          },
+          {
+            "name": "@harnessio/react-ng-manager-client",
+            "description": "Harness React NG manager client - NG manager APIs integrated with react hooks",
+            "version": "1.45.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@harnessio/react-ng-manager-client"
+          },
+          {
+            "name": "@hmcts/div-idam-test-harness",
+            "description": "Test harness for the IdAM Express Middleware",
+            "version": "1.9.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@hmcts/div-idam-test-harness"
+          },
+          {
+            "name": "@harnessio/react-sei-service-client",
+            "description": "Harness React sei service client - SEI APIs integrated with react hooks",
+            "version": "0.9.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@harnessio/react-sei-service-client"
+          },
+          {
+            "name": "@harnessio/react-template-service-client",
+            "description": "Harness React template service client - Template APIs integrated with react hooks",
+            "version": "0.7.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@harnessio/react-template-service-client"
+          },
+          {
+            "name": "ember-container-query",
+            "description": "Make container queries that harness the power of Ember",
+            "version": "6.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ember-container-query"
+          },
+          {
+            "name": "@harnessio/react-pipeline-service-client",
+            "description": "Harness React pipeline service client - Pipeline APIs integrated with react hooks",
+            "version": "1.21.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@harnessio/react-pipeline-service-client"
+          },
+          {
+            "name": "@harnessio/react-ir-manager-service-client",
+            "description": "Harness Incident Response Service Client - APIs integrated with react hooks",
+            "version": "0.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@harnessio/react-ir-manager-service-client"
+          },
+          {
+            "name": "@harnessio/icons",
+            "description": "Harness Icons - Provides a set of icons for use in Harness UI",
+            "version": "2.1.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@harnessio/icons"
+          },
+          {
+            "name": "@harnessio/react-srm-service-client",
+            "description": "Harness React srm service client - SRM APIs integrated with react hooks",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@harnessio/react-srm-service-client"
+          },
+          {
+            "name": "@harnessio/react-notification-service-client",
+            "description": "Harness React Notification service client - Notification APIs integrated with react hooks",
+            "version": "0.14.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@harnessio/react-notification-service-client"
+          },
+          {
+            "name": "@harnessio/react-chaos-manager-client",
+            "description": "Harness React Chaos Manager Service Client - APIs integrated with react hooks",
+            "version": "1.30.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@harnessio/react-chaos-manager-client"
+          },
+          {
+            "name": "@harnessio/design-system",
+            "description": "Harness Design System - Provides standardized Color, Intent and Style Variations for Harness UI Components",
+            "version": "2.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@harnessio/design-system"
+          },
+          {
+            "name": "@harnessio/react-audit-service-client",
+            "description": "Harness React audit service client - Audit APIs integrated with react hooks",
+            "version": "0.7.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@harnessio/react-audit-service-client"
+          },
+          {
+            "name": "couchdb-harness",
+            "description": "A generalized port of the CouchDB JavaScript test harness.",
+            "version": "0.1.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/couchdb-harness"
+          },
+          {
+            "name": "@harnessio/react-dbops-service-client",
+            "description": "Harness React DB Devops service client - DB Devops APIs integrated with react hooks",
+            "version": "0.27.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@harnessio/react-dbops-service-client"
+          },
+          {
+            "name": "@memberjunction/ng-ai-test-harness",
+            "description": "MemberJunction AI Test Harness - A reusable component for testing AI agents and prompts with beautiful UX",
+            "version": "2.107.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@memberjunction/ng-ai-test-harness"
+          },
+          {
+            "name": "@harnessio/react-po-server-client",
+            "description": "Harness React PO Server Client - PO APIs integrated with react hooks",
+            "version": "0.13.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@harnessio/react-po-server-client"
+          },
+          {
+            "name": "@harnessio/react-sei-panorama-service-client",
+            "description": "Harness React sei panorama service client - SEI Panorama APIs integrated with react hooks for Panorama project",
+            "version": "0.22.11",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@harnessio/react-sei-panorama-service-client"
+          },
+          {
+            "name": "@aotoki/ccharness",
+            "description": "A lightweight harness for Claude Code",
+            "version": "0.11.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aotoki/ccharness"
+          },
+          {
+            "name": "litmus-api",
+            "description": "Harness the power of the Litmus API to send tests to Litmus!",
+            "version": "0.3.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/litmus-api"
+          },
+          {
+            "name": "@lbrlabs/pulumi-harness",
+            "description": "A Pulumi package for creating and managing Harness  resources.",
+            "version": "0.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@lbrlabs/pulumi-harness"
+          },
+          {
+            "name": "sinomocha",
+            "description": "Sinon.JS integration for the Mocha test harness",
+            "version": "0.2.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sinomocha"
+          },
+          {
+            "name": "@harnessio/react-sto-core-client",
+            "description": "Harness STO service APIs integrated with react hooks",
+            "version": "0.4.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@harnessio/react-sto-core-client"
+          },
+          {
+            "name": "route-harness",
+            "description": "Simple route harness for Express.",
+            "version": "2.1.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/route-harness"
+          },
+          {
+            "name": "@4soft/harness-browser3d",
+            "description": "A high performance angular component for displaying 3D representations of bordnet harnesses. Harness element selection, arbitrary coloring and custom views are also supported.",
+            "version": "1.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@4soft/harness-browser3d"
+          },
+          {
+            "name": "heya-unit",
+            "description": "Super simple unit test harness.",
+            "version": "0.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/heya-unit"
+          },
+          {
+            "name": "pcf-vite-harness",
+            "description": "Modern Vite-based development harness for PowerApps Component Framework (PCF) with hot module replacement and PowerApps-like environment simulation",
+            "version": "1.9.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/pcf-vite-harness"
+          },
+          {
+            "name": "@harnessio/react-ng-manager-v2-client",
+            "description": "Harness React NG manager client - NG manager APIs integrated with react hooks",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@harnessio/react-ng-manager-v2-client"
+          },
+          {
+            "name": "@terascope/teraslice-op-test-harness",
+            "description": "A testing harness to simplify testing Teraslice processors and operations.",
+            "version": "1.24.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@terascope/teraslice-op-test-harness"
+          },
+          {
+            "name": "@matter/testing",
+            "description": "Test harness for running JavaScript and Matter certification tests",
+            "version": "0.15.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@matter/testing"
+          },
+          {
+            "name": "@ldhertert/harness-cli",
+            "description": "harness-cli ===========",
+            "version": "0.11.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ldhertert/harness-cli"
+          },
+          {
+            "name": "supawright",
+            "description": "Supawright is a Playwright test harness for E2E testing with Supabase.",
+            "version": "0.4.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/supawright"
+          },
+          {
+            "name": "@harnessio/react-cg-manager-client",
+            "description": "Harness React CG manager client - CG manager APIs integrated with react query hooks",
+            "version": "1.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@harnessio/react-cg-manager-client"
+          },
+          {
+            "name": "@harnessio/react-rmg-service-client",
+            "description": "Harness Release Management Service APIs integrated with react hooks",
+            "version": "0.29.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@harnessio/react-rmg-service-client"
+          },
+          {
+            "name": "@harnessio/react-intelligence-service-client",
+            "description": "Harness React Intelligence service client - Intelligence APIs integrated with react hooks",
+            "version": "0.9.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@harnessio/react-intelligence-service-client"
+          },
+          {
+            "name": "@badisi/wdio-harness",
+            "description": "WebdriverIO support for Angular component test harnesses.",
+            "version": "4.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@badisi/wdio-harness"
+          },
+          {
+            "name": "@rtidatascience/harness-vue-bootstrap",
+            "description": "Harness-Vue-Bootstrap is a Vue Plugin that publishes a library of components binding [Harness-Vue](https://www.harnessjs.org) functionality to [Bootstrap 4 components](https://getbootstrap.com/docs/4.0/components/). Harness-Vue-Bootstrap contains reusable",
+            "version": "2.6.0-0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@rtidatascience/harness-vue-bootstrap"
+          },
+          {
+            "name": "@rtidatascience/harness-ui",
+            "description": "[![pipeline status](https://cds-mallard-web.rti.org/harness/harness-ui/badges/master/pipeline.svg)](https://cds-mallard-web.rti.org/harness/harness-ui/-/commits/master) ## The Harness Component Library Harness-UI is a Vue Plugin that publishes a library o",
+            "version": "1.17.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@rtidatascience/harness-ui"
+          },
+          {
+            "name": "@jscutlery/cypress-harness",
+            "description": "## The Background Story",
+            "version": "0.8.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@jscutlery/cypress-harness"
+          },
+          {
+            "name": "tapes",
+            "description": "A more robust tap-producing test harness for node and browsers. Adds beforeEach, afterEach, etc.",
+            "version": "4.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/tapes"
+          },
+          {
+            "name": "qunit-harness",
+            "description": "A library for running qunit tests on a local machine and in the SauceLabs environment.",
+            "version": "1.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/qunit-harness"
+          },
+          {
+            "name": "tapdance",
+            "description": "Test harness that emits the Test Anything Protocol (TAP).",
+            "version": "5.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/tapdance"
+          },
+          {
+            "name": "@kemosabe7/performo-harness",
+            "description": "Performo Test Harness",
+            "version": "0.0.20",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@kemosabe7/performo-harness"
+          },
+          {
+            "name": "live-reload-testing",
+            "description": "Test harness for live-reload stuff",
+            "version": "6.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/live-reload-testing"
+          },
+          {
+            "name": "@pre-bundled/tape",
+            "description": "tap-producing test harness for node and browsers",
+            "version": "4.11.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@pre-bundled/tape"
+          },
+          {
+            "name": "@scalvert/bin-tester",
+            "description": "A test harness to invoke a CLI in a tmp directory",
+            "version": "2.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@scalvert/bin-tester"
+          },
+          {
+            "name": "zunit",
+            "description": "A zero dependency, non-polluting, low magic, test harness for Node.js",
+            "version": "4.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/zunit"
+          },
+          {
+            "name": "centrality-perses",
+            "description": "Test harness for Centrality blockchain",
+            "version": "2.2.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/centrality-perses"
+          },
+          {
+            "name": "protoc-gen-brs",
+            "description": "BrightScript code generator and test harness for protobuf definitions.",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/protoc-gen-brs"
+          },
+          {
+            "name": "@metric-im/wiki-mixin",
+            "description": "simple markdown wiki for integration with app-harness",
+            "version": "1.8.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@metric-im/wiki-mixin"
+          },
+          {
+            "name": "@harnessio/react-fme-service-client",
+            "description": "Harness FME Service APIs integrated with react hooks",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@harnessio/react-fme-service-client"
+          },
+          {
+            "name": "jsstore",
+            "description": "Harness the power of JsStore to streamline database operations in your web applications. With its SQL-like API, JsStore simplifies IndexedDB interactions, enabling developers to easily query, filter, and manipulate data with familiar syntax and efficiency",
+            "version": "4.9.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/jsstore"
+          },
+          {
+            "name": "sodium-test",
+            "description": "Test harness for Javascript libsodium implementations",
+            "version": "0.11.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sodium-test"
+          },
+          {
+            "name": "gulp-qunit-harness",
+            "description": "Gulp plugin for running qunit tests on a local machine and in the SauceLabs environment.",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/gulp-qunit-harness"
+          },
+          {
+            "name": "rest-harness-client",
+            "description": "# Project Title: __REST Harness NodeJS Client__",
+            "version": "0.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rest-harness-client"
+          },
+          {
+            "name": "cht-conf-test-harness",
+            "description": "Test Framework for CHT Projects",
+            "version": "5.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/cht-conf-test-harness"
+          },
+          {
+            "name": "prototty-terminal-js",
+            "description": "Harness for prototty wasm applications. Compatible with prototty 0.20",
+            "version": "0.9.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/prototty-terminal-js"
+          },
+          {
+            "name": "@streamsoft.studio.doo/ss-react-native-client-sdk",
+            "description": "Harness CF React Native SDK ======================== ## Overview",
+            "version": "1.0.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@streamsoft.studio.doo/ss-react-native-client-sdk"
+          },
+          {
+            "name": "dupuis",
+            "description": "An alchemy harness for writing transformations",
+            "version": "1.0.31",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/dupuis"
+          },
+          {
+            "name": "@magnetikonline/edgy",
+            "description": "Harness for authoring tests against AWS CloudFront Lambda@Edge functions.",
+            "version": "1.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@magnetikonline/edgy"
+          },
+          {
+            "name": "automutate-tests",
+            "description": "Test harness for automutate consumers.",
+            "version": "0.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/automutate-tests"
+          },
+          {
+            "name": "refract-redux-xstream",
+            "description": "Refract bindings for Redux with xstream: harness the power of reactive programming to supercharge your components!",
+            "version": "1.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/refract-redux-xstream"
+          },
+          {
+            "name": "esbuild-plugin-react18",
+            "description": "Unlock the Potential of React Server Components! Harness the power of an ESBuild plugin designed for crafting libraries compatible with RSC (React18 Server Components).",
+            "version": "0.2.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/esbuild-plugin-react18"
+          },
+          {
+            "name": "@typescript/server-harness",
+            "description": "Communicate with a tsserver process",
+            "version": "0.3.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@typescript/server-harness"
+          },
+          {
+            "name": "refract-rxjs",
+            "description": "Refract bindings for React with RxJS: harness the power of reactive programming to supercharge your components!",
+            "version": "5.0.0-rc.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/refract-rxjs"
+          },
+          {
+            "name": "@listenrightmeeow/newk-test-harness",
+            "description": "Integration test harness for NEWK bundle optimization",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@listenrightmeeow/newk-test-harness"
+          },
+          {
+            "name": "@harnessio/unified-pipeline",
+            "description": "Harness Unified Pipeline ibrary",
+            "version": "0.3.0-beta3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@harnessio/unified-pipeline"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 20,
+        "packages": [
+          {
+            "name": "harness",
+            "version": "2.0.0",
+            "downloads": 255356,
+            "url": "https://rubygems.org/gems/harness"
+          },
+          {
+            "name": "test-harness",
+            "version": "0.6.3",
+            "downloads": 62621,
+            "url": "https://rubygems.org/gems/test-harness"
+          },
+          {
+            "name": "capybara-harness",
+            "version": "0.0.16",
+            "downloads": 59930,
+            "url": "https://rubygems.org/gems/capybara-harness"
+          },
+          {
+            "name": "alephant-harness",
+            "version": "1.0.0",
+            "downloads": 46178,
+            "url": "https://rubygems.org/gems/alephant-harness"
+          },
+          {
+            "name": "benchmark_harness",
+            "version": "0.1.3",
+            "downloads": 37314,
+            "url": "https://rubygems.org/gems/benchmark_harness"
+          },
+          {
+            "name": "harness-rack",
+            "version": "0.1.0",
+            "downloads": 10181,
+            "url": "https://rubygems.org/gems/harness-rack"
+          },
+          {
+            "name": "harness-activesupport",
+            "version": "0.1.0",
+            "downloads": 7221,
+            "url": "https://rubygems.org/gems/harness-activesupport"
+          },
+          {
+            "name": "harness-active_publisher",
+            "version": "1.1.4",
+            "downloads": 24959,
+            "url": "https://rubygems.org/gems/harness-active_publisher"
+          },
+          {
+            "name": "harness-actionview",
+            "version": "0.1.0",
+            "downloads": 4627,
+            "url": "https://rubygems.org/gems/harness-actionview"
+          },
+          {
+            "name": "harness-actioncontroller",
+            "version": "0.1.0",
+            "downloads": 4582,
+            "url": "https://rubygems.org/gems/harness-actioncontroller"
+          },
+          {
+            "name": "harness-sidekiq",
+            "version": "0.1.0",
+            "downloads": 4325,
+            "url": "https://rubygems.org/gems/harness-sidekiq"
+          },
+          {
+            "name": "nxt_vcr_harness",
+            "version": "0.2.0",
+            "downloads": 83453,
+            "url": "https://rubygems.org/gems/nxt_vcr_harness"
+          },
+          {
+            "name": "harness-redis",
+            "version": "0.1.0",
+            "downloads": 4181,
+            "url": "https://rubygems.org/gems/harness-redis"
+          },
+          {
+            "name": "harness-sequel",
+            "version": "0.1.0",
+            "downloads": 4076,
+            "url": "https://rubygems.org/gems/harness-sequel"
+          },
+          {
+            "name": "harness-resque",
+            "version": "0.1.0",
+            "downloads": 4065,
+            "url": "https://rubygems.org/gems/harness-resque"
+          },
+          {
+            "name": "harness-haproxy",
+            "version": "0.1.0",
+            "downloads": 4059,
+            "url": "https://rubygems.org/gems/harness-haproxy"
+          },
+          {
+            "name": "harness-rabbitmq",
+            "version": "0.1.0",
+            "downloads": 4053,
+            "url": "https://rubygems.org/gems/harness-rabbitmq"
+          },
+          {
+            "name": "harness-circuitbox",
+            "version": "0.1.1",
+            "downloads": 4033,
+            "url": "https://rubygems.org/gems/harness-circuitbox"
+          },
+          {
+            "name": "statsd_test_harness",
+            "version": "0.2.10",
+            "downloads": 46957,
+            "url": "https://rubygems.org/gems/statsd_test_harness"
+          },
+          {
+            "name": "harness-action_subscriber",
+            "version": "0.0.4",
+            "downloads": 9503,
+            "url": "https://rubygems.org/gems/harness-action_subscriber"
+          }
+        ]
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 10,
+        "packages": [
+          {
+            "name": "harness",
+            "description": "Precise and reproducible benchmarking",
+            "version": "0.0.8",
+            "downloads": 11410,
+            "url": "https://crates.io/crates/harness"
+          },
+          {
+            "name": "test-harness",
+            "description": "a little test macro to wrap your tests with an arbitrary setup/teardown function",
+            "version": "0.3.1",
+            "downloads": 232366,
+            "url": "https://crates.io/crates/test-harness"
+          },
+          {
+            "name": "har",
+            "description": "A HTTP Archive format (HAR) serialization & deserialization library.",
+            "version": "0.8.1",
+            "downloads": 805934,
+            "url": "https://crates.io/crates/har"
+          },
+          {
+            "name": "har-v0-8-1",
+            "description": "A HTTP Archive format (HAR) serialization & deserialization library.",
+            "version": "0.8.1",
+            "downloads": 2606,
+            "url": "https://crates.io/crates/har-v0-8-1"
+          },
+          {
+            "name": "rust-test-harness",
+            "description": "A modern, feature-rich testing framework for Rust with Docker integration",
+            "version": "0.1.3",
+            "downloads": 1274,
+            "url": "https://crates.io/crates/rust-test-harness"
+          },
+          {
+            "name": "har-analyzer",
+            "description": "HAR file analyzer\n",
+            "version": "0.1.6",
+            "downloads": 6668,
+            "url": "https://crates.io/crates/har-analyzer"
+          },
+          {
+            "name": "embedded_test_harness",
+            "description": "Rust no_std test harness",
+            "version": "0.1.1",
+            "downloads": 2779,
+            "url": "https://crates.io/crates/embedded_test_harness"
+          },
+          {
+            "name": "moosicbox_simulator_harness",
+            "description": "MoosicBox Simulator Harness package",
+            "version": "0.1.1",
+            "downloads": 632,
+            "url": "https://crates.io/crates/moosicbox_simulator_harness"
+          },
+          {
+            "name": "simvar_harness",
+            "description": "Simulator Harness package",
+            "version": "0.1.0",
+            "downloads": 623,
+            "url": "https://crates.io/crates/simvar_harness"
+          },
+          {
+            "name": "datatest-stable",
+            "description": "Data-driven tests that work on stable Rust",
+            "version": "0.3.3",
+            "downloads": 2154474,
+            "url": "https://crates.io/crates/datatest-stable"
+          }
+        ]
+      },
+      "total_packages": 130,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:18:04.592285"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:18:04.592297",
+    "batch_network": {
+      "batch": "Winter 2017",
+      "total_batch_mates": 115,
+      "active_batch_mates": 56,
+      "batch_success_rate": 48.7,
+      "notable_batch_mates": [
+        {
+          "name": "Clear Genetics",
+          "slug": "clear-genetics",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Clear Genetics is scaling delivery of Genomic services"
+        },
+        {
+          "name": "Scribe",
+          "slug": "scribe",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Scribe is an AI based Sales Development Representative that you can\u2026"
+        },
+        {
+          "name": "Loop Support",
+          "slug": "loop-support",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Predict job applicant performance for entry-level support roles"
+        },
+        {
+          "name": "Rippling",
+          "slug": "rippling",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "One place to run all your HR, IT, and Finance. Globally."
+        },
+        {
+          "name": "lvl5",
+          "slug": "lvl5",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "HD maps for self-driving cars."
+        },
+        {
+          "name": "Arthena",
+          "slug": "arthena",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Quantitative Investment in Art Assets "
+        },
+        {
+          "name": "Shipamax",
+          "slug": "shipamax",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Simple, end-to-end automation for logistics orgs"
+        },
+        {
+          "name": "Volansi",
+          "slug": "volansi",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Autonomous VTOL delivery solutions."
+        },
+        {
+          "name": "Soomgo",
+          "slug": "soomgo",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Local services marketplace that connects providers with new customers"
+        },
+        {
+          "name": "Scaphold.io",
+          "slug": "scaphold-io",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The Universal API"
+        }
+      ],
+      "batch_size": 116
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1969,
+      "direct_competitors": [
+        {
+          "name": "Amiato",
+          "slug": "amiato",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "The BI bridge for unstructured data. We automatically bridge the gap\u2026"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Simple multiplayer game servers."
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Backlift allows front-end only developers to build entire websites\u2026"
+        },
+        {
+          "name": "Documents.Me",
+          "slug": "documents-me",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Client-side encryption for your devices and the cloud."
+        },
+        {
+          "name": "Apollo",
+          "slug": "apollo",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Apollo helps engineering teams accelerate delivery"
+        },
+        {
+          "name": "Proxino",
+          "slug": "proxino",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Javascript proxy."
+        },
+        {
+          "name": "PhoneSys",
+          "slug": "phonesys",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "The Phone System for Sales Teams."
+        },
+        {
+          "name": "Cryptoseal",
+          "slug": "cryptoseal",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Server key management, VPN as a Service, Privacy VPN.  Sold to\u2026"
+        },
+        {
+          "name": "Citus Data",
+          "slug": "citus-data",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Real-time. Big data. PostgreSQL"
+        },
+        {
+          "name": "Realm",
+          "slug": "realm",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Better data structures = no DB."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "San Mateo",
+      "location": "San Mateo, CA, USA; Remote",
+      "companies_in_city": 34,
+      "active_in_city": 17,
+      "nearby_companies": [
+        {
+          "name": "OneSignal",
+          "slug": "onesignal",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Compose",
+          "slug": "compose",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Meta",
+          "slug": "meta",
+          "batch": "Summer 2013",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "PersistIQ",
+          "slug": "persistiq",
+          "batch": "Summer 2014",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Neptune.io",
+          "slug": "neptune-io",
+          "batch": "Summer 2014",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Women.com",
+          "slug": "women-com",
+          "batch": "Summer 2014",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Bagaveev Corporation",
+          "slug": "bagaveev-corporation",
+          "batch": "Winter 2015",
+          "industry": "Industrials",
+          "status": "Inactive"
+        },
+        {
+          "name": "Automate Ads",
+          "slug": "automate-ads",
+          "batch": "Winter 2015",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Second Measure",
+          "slug": "second-measure",
+          "batch": "Summer 2015",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Maderight",
+          "slug": "maderight",
+          "batch": "Summer 2015",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Yardbook",
+          "slug": "yardbook",
+          "batch": "Winter 2016",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Netomi",
+          "slug": "netomi",
+          "batch": "Winter 2016",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Sendbird",
+          "slug": "sendbird",
+          "batch": "Winter 2016",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Selfycart",
+          "slug": "selfycart",
+          "batch": "Summer 2016",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Farmstead",
+          "slug": "farmstead",
+          "batch": "Summer 2016",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Veryfi, Inc.",
+          "slug": "veryfi-inc",
+          "batch": "Winter 2017",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Truepill",
+          "slug": "truepill",
+          "batch": "Summer 2017",
+          "industry": "Healthcare",
+          "status": "Acquired"
+        },
+        {
+          "name": "Meru Health",
+          "slug": "meru-health",
+          "batch": "Summer 2018",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "ZeroStorefront",
+          "slug": "zerostorefront",
+          "batch": "Winter 2019",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Tailornova/Couturme",
+          "slug": "tailornova-couturme",
+          "batch": "Winter 2019",
+          "industry": "B2B",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Veryfi, Inc.",
+        "slug": "veryfi-inc",
+        "batch": "Winter 2017",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Bitrise",
+        "slug": "bitrise",
+        "batch": "Winter 2017",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Terark",
+        "slug": "terark",
+        "batch": "Winter 2017",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Peer5",
+        "slug": "peer5",
+        "batch": "Winter 2017",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Compose",
+        "slug": "compose",
+        "batch": "Summer 2011",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Neptune.io",
+        "slug": "neptune-io",
+        "batch": "Summer 2014",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Signadot",
+        "slug": "signadot",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "ROE",
+        "slug": "roe",
+        "batch": "Winter 2024",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Voiceops",
+        "slug": "voiceops",
+        "batch": "Winter 2017",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Scribe",
+        "slug": "scribe",
+        "batch": "Winter 2017",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 2895,
+      "network_density_score": 69.8,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:18:04.603600"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:18:04.603606",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:18:04.950295",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:18:05.058002",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 90,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:40:56.624664",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "DevOps automation acceleration",
+        "Cloud-native application deployment",
+        "Shift-left security and compliance"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Deep technical expertise in Spinnaker open-source project and enterprise-grade deployment orchestration",
+      "differentiation": "Enterprise-focused continuous deployment with advanced safety mechanisms and multi-cloud support",
+      "competitive_advantages": [
+        "Spinnaker expertise and community leadership",
+        "Enterprise security and compliance features"
+      ],
+      "competitive_vulnerabilities": [
+        "Dependence on Spinnaker ecosystem",
+        "Competition from cloud-native CI/CD platforms"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "mature",
+      "growth_indicators": [
+        "90-person team size",
+        "Acquisition exit achieved"
+      ],
+      "growth_bottlenecks": [
+        "Complex enterprise sales cycles",
+        "Technical complexity of deployment orchestration"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "low",
+      "overall_risk_score": 3,
+      "key_risks": [
+        "Open-source dependency risk",
+        "Large cloud provider competition",
+        "Market consolidation pressure"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong technical team and domain expertise",
+        "Enterprise customer focus",
+        "Successful acquisition exit"
+      ],
+      "concerns": [
+        "Competitive pressure from major cloud providers",
+        "Complexity of continuous deployment market"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "GitLab",
+        "CircleCI"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Leverage acquisition for broader platform integration",
+        "Expand multi-cloud deployment capabilities"
+      ],
+      "expansion_opportunities": [
+        "AI/ML deployment pipelines",
+        "Edge computing deployment scenarios"
+      ]
+    },
+    "tokens_used": {
+      "input": 697,
+      "output": 515,
+      "total": 1212,
+      "estimated_cost": 0.009816
+    }
+  },
+  "phase8_complete": true
+}

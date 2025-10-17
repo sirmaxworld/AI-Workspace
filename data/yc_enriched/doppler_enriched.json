@@ -1,0 +1,731 @@
+{
+  "slug": "doppler",
+  "name": "Doppler",
+  "yc_id": 12070,
+  "batch": "Winter 2019",
+  "website": "https://doppler.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:46:31.461025",
+    "website": "https://doppler.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 4007.65,
+      "final_url": "https://www.doppler.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:46:35.468694"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "doppler.com",
+      "registrar": "Cloudflare, Inc.",
+      "creation_date": "1999-01-24T05:00:00",
+      "expiration_date": "2031-01-24T05:00:00",
+      "domain_age_days": 9762,
+      "domain_age_years": 26.7,
+      "name_servers": [
+        "LADY.NS.CLOUDFLARE.COM",
+        "THEO.NS.CLOUDFLARE.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": "https://www.linkedin.com/company/dopplerhq/",
+      "github": "https://github.com/dopplerhq",
+      "facebook": null,
+      "instagram": "https://www.instagram.com/dopplersecrets/",
+      "youtube": "https://www.youtube.com/@dopplerhq"
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 16,
+      "server": "Vercel"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:21:47.185861",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:21:35.649916",
+    "place_data": {
+      "status": "success",
+      "method": "nominatim",
+      "formatted_address": "Remote, Coos County, Oregon, United States",
+      "coordinates": {
+        "latitude": 43.0059455,
+        "longitude": -123.8925908
+      },
+      "place_types": [
+        "hamlet"
+      ],
+      "retrieved_at": "2025-10-17T10:18:39.619180",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:21:35.649954",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/dopplerhq"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 6,
+        "packages": [
+          {
+            "name": "@dopplerhq/node-sdk",
+            "description": "DopplerSDK",
+            "version": "1.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@dopplerhq/node-sdk"
+          },
+          {
+            "name": "@dopplerhq/universal-import-core",
+            "description": "![npm bundle size](https://img.shields.io/bundlephobia/minzip/@dopplerhq/universal-import-core)",
+            "version": "1.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@dopplerhq/universal-import-core"
+          },
+          {
+            "name": "@dopplerhq/universal-import-react",
+            "description": "![npm bundle size](https://img.shields.io/bundlephobia/minzip/@dopplerhq/universal-import-react)",
+            "version": "1.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@dopplerhq/universal-import-react"
+          },
+          {
+            "name": "@mtndev/doppler-cli",
+            "description": "Doppler script",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mtndev/doppler-cli"
+          },
+          {
+            "name": "awesome-interview-questions",
+            "description": "awesome-interview-questions",
+            "version": "5.6.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/awesome-interview-questions"
+          },
+          {
+            "name": "cli-action",
+            "description": "GitHub Action to install the Doppler CLI",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/cli-action"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 6,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:21:36.964548"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:21:36.964587",
+    "batch_network": {
+      "batch": "Winter 2019",
+      "total_batch_mates": 194,
+      "active_batch_mates": 124,
+      "batch_success_rate": 63.9,
+      "notable_batch_mates": [
+        {
+          "name": "Searchlight",
+          "slug": "searchlight",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Talent AI improving quality of hire"
+        },
+        {
+          "name": "Fuzzbuzz",
+          "slug": "fuzzbuzz",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Fuzzing as a Service"
+        },
+        {
+          "name": "ZeroStorefront",
+          "slug": "zerostorefront",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "#1 Data platform for restaurants. Acquired by Thanx"
+        },
+        {
+          "name": "Geosite",
+          "slug": "geosite",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Geosite is an enterprise SaaS platform for spatial data."
+        },
+        {
+          "name": "Insight",
+          "slug": "insight",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The first extensible browser for iOS"
+        },
+        {
+          "name": "InterPrime",
+          "slug": "interprime",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Safe & Secure Cash Management for Businesses"
+        },
+        {
+          "name": "Preflight",
+          "slug": "preflight",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "No-code Web Apps testing for everyone"
+        },
+        {
+          "name": "Windsor",
+          "slug": "windsor",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "AI Powered Personalized Videos"
+        },
+        {
+          "name": "Ascen",
+          "slug": "ascen",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "EOR for the staffing industry"
+        },
+        {
+          "name": "Convex",
+          "slug": "convex",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Software for the commercial services industry. "
+        }
+      ],
+      "batch_size": 195
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "status": "Active",
+          "batch": "Winter 2012",
+          "one_liner": "High Performance Computing Built for the Cloud"
+        },
+        {
+          "name": "Marft",
+          "slug": "marft",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Marft creates embeddable machine learning models for application\u2026"
+        },
+        {
+          "name": "Pixelapse",
+          "slug": "pixelapse",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Github for designers. We automatically keep track of revisions of\u2026"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Palantir for sales people"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Smart search for the modern team."
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Authy is a Two-Factor Authentication platform for developers"
+        },
+        {
+          "name": "Flutter",
+          "slug": "flutter",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Flutter combined computer vision technology with the built-in webcams\u2026"
+        },
+        {
+          "name": "SolidStage",
+          "slug": "solidstage",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Sysadmin as a service. We make deploying, configuring, monitoring,\u2026"
+        },
+        {
+          "name": "Clutch",
+          "slug": "clutch",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "An easy to integrate library for native iOS applications designed to\u2026"
+        },
+        {
+          "name": "OneSignal",
+          "slug": "onesignal",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Engage customers through personalized omni-channel messaging"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Remote",
+      "location": "Remote",
+      "companies_in_city": 84,
+      "active_in_city": 71,
+      "nearby_companies": [
+        {
+          "name": "Streak",
+          "slug": "streak",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "You Got Listings",
+          "slug": "you-got-listings-inc",
+          "batch": "Winter 2011",
+          "industry": "Real Estate and Construction",
+          "status": "Active"
+        },
+        {
+          "name": "Tremendous",
+          "slug": "tremendous",
+          "batch": "Winter 2011",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Close",
+          "slug": "close",
+          "batch": "Winter 2011",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Tuxebo",
+          "slug": "tuxebo",
+          "batch": "Summer 2009",
+          "industry": "Real Estate and Construction",
+          "status": "Inactive"
+        },
+        {
+          "name": "Claimspotting",
+          "slug": "claimspotting",
+          "batch": "Summer 2008",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "AirHelp",
+          "slug": "airhelp",
+          "batch": "Winter 2014",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Emailio",
+          "slug": "emailio",
+          "batch": "Winter 2014",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "CareRev",
+          "slug": "carerev",
+          "batch": "Summer 2016",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Nimble",
+          "slug": "nimble",
+          "batch": "Summer 2017",
+          "industry": "Education",
+          "status": "Active"
+        },
+        {
+          "name": "NewCraft",
+          "slug": "newcraft",
+          "batch": "Winter 2018",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Visly",
+          "slug": "visly",
+          "batch": "Winter 2019",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "PlayAbly",
+          "slug": "playably",
+          "batch": "Summer 2019",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Microverse",
+          "slug": "microverse",
+          "batch": "Summer 2019",
+          "industry": "Education",
+          "status": "Active"
+        },
+        {
+          "name": "Daedalus",
+          "slug": "daedalus",
+          "batch": "Winter 2020",
+          "industry": "Industrials",
+          "status": "Active"
+        },
+        {
+          "name": "Brevy",
+          "slug": "brevy",
+          "batch": "Summer 2020",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Gaiia",
+          "slug": "gaiia",
+          "batch": "Winter 2021",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Hapi",
+          "slug": "hapi",
+          "batch": "Winter 2021",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Observa",
+          "slug": "observa",
+          "batch": "Winter 2021",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Triplit",
+          "slug": "triplit",
+          "batch": "Winter 2021",
+          "industry": "B2B",
+          "status": "Inactive"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "JuziBot",
+        "slug": "juzibot",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Ultralight",
+        "slug": "ultralight",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "DevFlight",
+        "slug": "devflight",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Preflight",
+        "slug": "preflight",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Basilica",
+        "slug": "basilica",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Visly",
+        "slug": "visly",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Evo.Do",
+        "slug": "evo-do",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Bensen",
+        "slug": "bensen",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Elph",
+        "slug": "elph",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Supernova",
+        "slug": "supernova",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 3024,
+      "network_density_score": 95.6,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:21:36.995169"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:21:36.995183",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:21:37.348154",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:21:37.493196",
+    "basic_info": {
+      "is_hiring": true,
+      "team_size": 25,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:32.945892",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "medium",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increased security awareness and compliance requirements",
+        "Shift towards cloud-native architectures and microservices",
+        "Growing adoption of DevOps and DevSecOps practices"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Strong technology and integrations with various platforms",
+      "differentiation": "Centralized secrets management across all environments and stacks.",
+      "competitive_advantages": [
+        "Ease of use and developer-friendly interface",
+        "Comprehensive feature set for secrets management"
+      ],
+      "competitive_vulnerabilities": [
+        "Potential lock-in with Doppler's platform",
+        "Reliance on integrations with other services"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "series-a",
+      "growth_indicators": [
+        "Increasing customer base and revenue",
+        "Expansion of integrations and features"
+      ],
+      "growth_bottlenecks": [
+        "Competition from larger players",
+        "Potential challenges in scaling the team"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Security breaches impacting customer trust",
+        "Failure to adapt to evolving security landscape",
+        "Increased competition driving down prices"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong product-market fit",
+        "Experienced team",
+        "Growing market demand"
+      ],
+      "concerns": [
+        "Competitive landscape",
+        "Execution risk in scaling the business"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "HashiCorp Vault",
+        "CyberArk"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on expanding integrations with key platforms",
+        "Strengthen security posture and compliance certifications"
+      ],
+      "expansion_opportunities": [
+        "Offer more advanced security features",
+        "Expand into adjacent markets like configuration management"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 650,
+      "completion": 588,
+      "total": 1238,
+      "estimated_cost": 0.000225
+    }
+  },
+  "phase8_complete": true
+}

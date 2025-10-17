@@ -1,0 +1,613 @@
+{
+  "slug": "kenota",
+  "name": "Kenota (formerly ExVivo Labs)",
+  "yc_id": 1243,
+  "batch": "Summer 2016",
+  "website": "https://kenota.com/",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:37:53.542593",
+    "website": "https://kenota.com/",
+    "website_status": {
+      "reachable": false,
+      "error": "timeout"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "kenota.com",
+      "registrar": "NameSilo, LLC",
+      "creation_date": "2012-11-01T18:19:16",
+      "expiration_date": "2025-11-01T18:19:16",
+      "domain_age_days": 4732,
+      "domain_age_years": 13.0,
+      "name_servers": [
+        "BART.NS.CLOUDFLARE.COM",
+        "MIKI.NS.CLOUDFLARE.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "error": "HTTPSConnectionPool(host='kenota.com', port=443): Read timed out. (read timeout=10)"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:17:35.006164",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:17:24.790013",
+    "place_data": {
+      "status": "success",
+      "method": "nominatim",
+      "formatted_address": "Kitchener, Region of Waterloo, Southwestern Ontario, Ontario, Canada",
+      "coordinates": {
+        "latitude": 43.451291,
+        "longitude": -80.4927815
+      },
+      "place_types": [
+        "administrative"
+      ],
+      "retrieved_at": "2025-10-17T10:14:18.343315",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:17:24.790083",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:17:24.790089",
+    "batch_network": {
+      "batch": "Summer 2016",
+      "total_batch_mates": 101,
+      "active_batch_mates": 46,
+      "batch_success_rate": 45.5,
+      "notable_batch_mates": [
+        {
+          "name": "Seneca Systems",
+          "slug": "seneca-systems",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Constituent system-of-record and service request management software\u2026"
+        },
+        {
+          "name": "SimpleCitizen",
+          "slug": "simplecitizen",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "From signup to citizenship, only SimpleCitizen guides applicants\u2026"
+        },
+        {
+          "name": "Iris Automation",
+          "slug": "iris-automation",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Enabling autonomous drone operations globally through AI software"
+        },
+        {
+          "name": "Opsolutely",
+          "slug": "opsolutely",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Automated deployments for software teams."
+        },
+        {
+          "name": "Techmate",
+          "slug": "techmate",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A technology concierge for your home. We provide on-demand support\u2026"
+        },
+        {
+          "name": "Fabric",
+          "slug": "fabric",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Fabric is a personal location-based journal that catalogs experiences\u2026"
+        },
+        {
+          "name": "garten",
+          "slug": "garten",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Creating workplace wellbeing."
+        },
+        {
+          "name": "Burrow",
+          "slug": "burrow",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A design brand creating innovative, award winning furniture."
+        },
+        {
+          "name": "Pursuit",
+          "slug": "pursuit",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Revlo helps broadcasters on Twitch engage and monetize their fan\u2026"
+        },
+        {
+          "name": "Symple",
+          "slug": "symple",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Last mile logistics for delivery & service teams. We bring real-time\u2026"
+        }
+      ],
+      "batch_size": 102
+    },
+    "industry_network": {
+      "industries": [
+        "Healthcare",
+        "Diagnostics"
+      ],
+      "total_industry_peers": 642,
+      "active_industry_peers": 502,
+      "direct_competitors": [
+        {
+          "name": "Bikanta",
+          "slug": "bikanta",
+          "status": "Inactive",
+          "batch": "Summer 2014",
+          "one_liner": "Nano-diamonds for cancer detection"
+        },
+        {
+          "name": "Notable Labs",
+          "slug": "notable-labs",
+          "status": "Public",
+          "batch": "Winter 2015",
+          "one_liner": "Personalized drug discovery for blood cancer."
+        },
+        {
+          "name": "Lucira Health",
+          "slug": "lucira-health",
+          "status": "Public",
+          "batch": "Winter 2015",
+          "one_liner": "Next generation infectious disease test kits"
+        },
+        {
+          "name": "X-Zell",
+          "slug": "x-zell",
+          "status": "Active",
+          "batch": "Winter 2015",
+          "one_liner": "Early, pain-free cancer detection. "
+        },
+        {
+          "name": "Klarismo",
+          "slug": "klarismo",
+          "status": "Inactive",
+          "batch": "Summer 2015",
+          "one_liner": "Klarismo turns your body into an interactive experience. We built a\u2026"
+        },
+        {
+          "name": "Cofactor Genomics",
+          "slug": "cofactor-genomics",
+          "status": "Active",
+          "batch": "Summer 2015",
+          "one_liner": "Cofactor closes the precision medicine gap with predictive diagnostics"
+        },
+        {
+          "name": "Loop Genomics",
+          "slug": "loop-genomics",
+          "status": "Acquired",
+          "batch": "Winter 2016",
+          "one_liner": "Novel long-read DNA sequencing technology"
+        },
+        {
+          "name": "Luminist Labs",
+          "slug": "luminist-labs",
+          "status": "Acquired",
+          "batch": "Winter 2016",
+          "one_liner": "Diagnostic platform for early detection of liver disease"
+        },
+        {
+          "name": "Unima",
+          "slug": "unima",
+          "status": "Inactive",
+          "batch": "Winter 2016",
+          "one_liner": "Fast and low-cost diagnostics for real time disease surveillance"
+        },
+        {
+          "name": "Opentrons",
+          "slug": "opentrons",
+          "status": "Active",
+          "batch": "Winter 2016",
+          "one_liner": "We make robots for biologists. "
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Kitchener",
+      "location": "Kitchener, ON, Canada",
+      "companies_in_city": 15,
+      "active_in_city": 11,
+      "nearby_companies": [
+        {
+          "name": "Vidyard",
+          "slug": "vidyard",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "North",
+          "slug": "north",
+          "batch": "Winter 2013",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Reebee",
+          "slug": "reebee",
+          "batch": "Summer 2013",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "PiinPoint",
+          "slug": "piinpoint",
+          "batch": "Winter 2014",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "MetricWire",
+          "slug": "metricwire",
+          "batch": "Summer 2014",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Hive",
+          "slug": "hive",
+          "batch": "Summer 2014",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Pave",
+          "slug": "pave",
+          "batch": "Winter 2016",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Georgette Packaging",
+          "slug": "georgette-packaging",
+          "batch": "Winter 2016",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Arylla",
+          "slug": "arylla",
+          "batch": "Winter 2017",
+          "industry": "Industrials",
+          "status": "Inactive"
+        },
+        {
+          "name": "OSIMple",
+          "slug": "osimple",
+          "batch": "Winter 2018",
+          "industry": "Real Estate and Construction",
+          "status": "Inactive"
+        },
+        {
+          "name": "Vena Medical",
+          "slug": "vena-medical",
+          "batch": "Winter 2018",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "TyltGO",
+          "slug": "tyltgo",
+          "batch": "Summer 2020",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Scispot",
+          "slug": "scispot-io",
+          "batch": "Summer 2021",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Samos Insurance",
+          "slug": "samos-insurance",
+          "batch": "Winter 2022",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Palitronica Inc",
+          "slug": "palitronica-inc",
+          "batch": "Winter 2022",
+          "industry": "B2B",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "low"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Shield Bio",
+        "slug": "shield-bio",
+        "batch": "Summer 2016",
+        "industry": "Healthcare",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "CareRev",
+        "slug": "carerev",
+        "batch": "Summer 2016",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "PatientBank",
+        "slug": "patientbank",
+        "batch": "Summer 2016",
+        "industry": "Healthcare",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "RigPlenish",
+        "slug": "rigplenish",
+        "batch": "Summer 2016",
+        "industry": "Healthcare",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Clip Health",
+        "slug": "clip-health",
+        "batch": "Summer 2016",
+        "industry": "Healthcare",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Sage Care",
+        "slug": "sage-care",
+        "batch": "Summer 2016",
+        "industry": "Healthcare",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Airo Health",
+        "slug": "airo-health",
+        "batch": "Summer 2016",
+        "industry": "Healthcare",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Synvivia",
+        "slug": "synvivia",
+        "batch": "Summer 2016",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Athelas",
+        "slug": "athelas",
+        "batch": "Summer 2016",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Elemeno Health",
+        "slug": "elemeno-health",
+        "batch": "Summer 2016",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 758,
+      "network_density_score": 63.2,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": false,
+      "calculated_at": "2025-10-17T10:17:24.804303"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:17:24.804311",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:17:25.132691",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:17:25.239481",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 35,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:42:20.223039",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Personalized medicine",
+        "Early disease detection",
+        "Rise of preventative healthcare"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Proprietary technology in disease testing, potential network effects with healthcare providers",
+      "differentiation": "Revolutionizing disease testing methods, potentially faster and more accurate results.",
+      "competitive_advantages": [
+        "Early mover advantage",
+        "Strong team with relevant expertise"
+      ],
+      "competitive_vulnerabilities": [
+        "Regulatory hurdles",
+        "Adoption rate by healthcare professionals"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "series-a",
+      "growth_indicators": [
+        "Partnerships with hospitals/clinics",
+        "Peer-reviewed publications"
+      ],
+      "growth_bottlenecks": [
+        "Sales cycle length",
+        "Regulatory approvals"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Competition from established players",
+        "Data privacy concerns",
+        "Reimbursement challenges"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Large addressable market",
+        "Potential for significant impact on healthcare",
+        "Strong founding team"
+      ],
+      "concerns": [
+        "Long development cycles",
+        "High regulatory burden"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Exact Sciences",
+        "Guardant Health"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Secure key partnerships with leading hospitals",
+        "Expand sales and marketing efforts"
+      ],
+      "expansion_opportunities": [
+        "Develop new tests for additional diseases",
+        "Expand into international markets"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 620,
+      "completion": 459,
+      "total": 1079,
+      "estimated_cost": 0.000184
+    }
+  },
+  "phase8_complete": true
+}

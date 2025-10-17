@@ -1,0 +1,139 @@
+{
+  "slug": "aklimate",
+  "name": "Aklimate",
+  "yc_id": 25723,
+  "batch": "Winter 2022",
+  "website": "https://www.getaklimate.com/",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T01:13:31.606726",
+    "website": "https://www.getaklimate.com/",
+    "website_status": {
+      "reachable": false,
+      "error": "connection_error"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "getaklimate.com",
+      "registrar": "DYNADOT LLC",
+      "creation_date": "2025-10-13T06:37:19",
+      "expiration_date": "2026-10-13T06:37:19",
+      "domain_age_days": 3,
+      "domain_age_years": 0.0,
+      "name_servers": [
+        "NS1.DYNA-NS.NET",
+        "NS2.DYNA-NS.NET"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "error": "HTTPSConnectionPool(host='www.getaklimate.com', port=443): Max retries exceeded with url: / (Caused "
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:39:36.713344",
+  "phase1_complete": true,
+  "phase2_complete": false,
+  "phase3_complete": false,
+  "phase4_complete": false,
+  "phase5_complete": false,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:53.971322",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increasing corporate focus on ESG",
+        "Growing regulatory pressure for emissions reporting",
+        "Supply chain transparency demands from consumers"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Potential network effects if they can onboard a significant number of suppliers to their platform.",
+      "differentiation": "Offering free carbon management tools to suppliers in exchange for data, potentially lowering the barrier to entry for data collection.",
+      "competitive_advantages": [
+        "Lower cost of data acquisition compared to direct assessment",
+        "Potential for rapid supplier onboarding"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on supplier participation and data accuracy",
+        "Potential for suppliers to use the tool solely for data provision without genuine emissions reduction efforts"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "seed",
+      "growth_indicators": [
+        "Number of enterprise clients",
+        "Number of suppliers onboarded",
+        "Volume of emissions data collected"
+      ],
+      "growth_bottlenecks": [
+        "Enterprise adoption rate",
+        "Supplier onboarding friction",
+        "Data quality and verification"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "low",
+      "technology_risk": "low",
+      "execution_risk": "high",
+      "overall_risk_score": 7,
+      "key_risks": [
+        "Inability to achieve critical mass of supplier adoption",
+        "Data quality issues leading to inaccurate reporting",
+        "Competition from established players with more comprehensive solutions"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Innovative approach to supply chain emissions tracking",
+        "Potential for rapid data acquisition",
+        "Addresses a growing market need"
+      ],
+      "concerns": [
+        "Reliance on supplier participation",
+        "Inactive status raises questions about viability"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Watershed",
+        "Persefoni"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Re-evaluate the business model based on the reasons for becoming inactive.",
+        "Focus on building strong relationships with key enterprise clients to drive supplier adoption."
+      ],
+      "expansion_opportunities": [
+        "Integrate with existing supply chain management software",
+        "Offer value-added services to suppliers, such as carbon reduction consulting"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 646,
+      "completion": 659,
+      "total": 1305,
+      "estimated_cost": 0.000246
+    }
+  },
+  "phase8_complete": true
+}

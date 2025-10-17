@@ -1,0 +1,538 @@
+{
+  "slug": "castle",
+  "name": "Castle",
+  "yc_id": 1031,
+  "batch": "Winter 2016",
+  "website": "http://entercastle.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:36:54.588944",
+    "website": "http://entercastle.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 1858.27,
+      "final_url": "https://entercastle.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:36:56.447228"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "entercastle.com",
+      "registrar": "GoDaddy.com, LLC",
+      "creation_date": "2014-02-15T00:50:56",
+      "expiration_date": "2026-02-15T00:50:56",
+      "domain_age_days": 4261,
+      "domain_age_years": 11.7,
+      "name_servers": [
+        "NS73.DOMAINCONTROL.COM",
+        "NS74.DOMAINCONTROL.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": "http://facebook.com/castledetroit",
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": true,
+      "x_content_type_options": true,
+      "x_xss_protection": true,
+      "referrer_policy": false,
+      "security_score": 66,
+      "server": "nginx-rc"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:16:56.115945",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:16:41.365180",
+    "place_data": {
+      "status": "success",
+      "method": "nominatim",
+      "formatted_address": "Detroit, Wayne County, Michigan, United States",
+      "coordinates": {
+        "latitude": 42.3315509,
+        "longitude": -83.0466403
+      },
+      "place_types": [
+        "administrative"
+      ],
+      "retrieved_at": "2025-10-17T10:16:43.555494"
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:43.556656",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:43.556662",
+    "batch_network": {
+      "batch": "Winter 2016",
+      "total_batch_mates": 121,
+      "active_batch_mates": 59,
+      "batch_success_rate": 48.8,
+      "notable_batch_mates": [
+        {
+          "name": "Stilt",
+          "slug": "stilt",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Financial products for immigrants (acquired by JG Wentworth)"
+        },
+        {
+          "name": "Embark Trucks",
+          "slug": "embark-trucks",
+          "status": "Public",
+          "top_company": false,
+          "one_liner": "Self-driving semi trucks."
+        },
+        {
+          "name": "Loop Genomics",
+          "slug": "loop-genomics",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Novel long-read DNA sequencing technology"
+        },
+        {
+          "name": "Able Health",
+          "slug": "able-health",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Able Health gets doctors paid more for higher quality care"
+        },
+        {
+          "name": "Truebill",
+          "slug": "truebill",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Live your best financial life"
+        },
+        {
+          "name": "LendEDU",
+          "slug": "lendedu",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "LendEDU is a marketplace for consumer financial products."
+        },
+        {
+          "name": "Luminist Labs",
+          "slug": "luminist-labs",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Diagnostic platform for early detection of liver disease"
+        },
+        {
+          "name": "MineralSoft",
+          "slug": "mineralsoft",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Data management platform for oil & gas assets"
+        },
+        {
+          "name": "Pulpix",
+          "slug": "pulpix",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Binge-watching technology for video platforms. "
+        },
+        {
+          "name": "Paystack",
+          "slug": "paystack",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Modern payments infrastructure for Africa"
+        }
+      ],
+      "batch_size": 122
+    },
+    "industry_network": {
+      "industries": [
+        "Real Estate and Construction",
+        "Housing and Real Estate"
+      ],
+      "total_industry_peers": 147,
+      "active_industry_peers": 95,
+      "direct_competitors": [
+        {
+          "name": "42Floors",
+          "slug": "42floors",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "We make it easy to search for office space."
+        },
+        {
+          "name": "MyVR",
+          "slug": "myvr",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "The open platform for the vacation rental industry."
+        },
+        {
+          "name": "Rentobo",
+          "slug": "rentobo",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "The easiest way to find a tenant.\r\n\r\nRentobo is a tool that makes it\u2026"
+        },
+        {
+          "name": "Zeus",
+          "slug": "zeus",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Tech-enabled property manager focused on corporate rentals; Acquired\u2026"
+        },
+        {
+          "name": "You Got Listings",
+          "slug": "you-got-listings-inc",
+          "status": "Active",
+          "batch": "Winter 2011",
+          "one_liner": "All-in-one apartment Marketing Platform for brokerages and landlords."
+        },
+        {
+          "name": "PadMapper",
+          "slug": "padmapper",
+          "status": "Acquired",
+          "batch": "Summer 2010",
+          "one_liner": "Map-based apartment search."
+        },
+        {
+          "name": "Movity",
+          "slug": "movity",
+          "status": "Acquired",
+          "batch": "Winter 2010",
+          "one_liner": "Real estate data visualization.  Sold to Trulia Dec\u2026"
+        },
+        {
+          "name": "RentHop",
+          "slug": "renthop",
+          "status": "Active",
+          "batch": "Summer 2009",
+          "one_liner": "Apartment rental marketplace"
+        },
+        {
+          "name": "Wattvision",
+          "slug": "wattvision",
+          "status": "Inactive",
+          "batch": "Winter 2009",
+          "one_liner": "Sensors and software for energy tracking. Like 'fitbit' for your\u2026"
+        },
+        {
+          "name": "Spaces Life",
+          "slug": "spaces-life",
+          "status": "Inactive",
+          "batch": "Winter 2009",
+          "one_liner": ""
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Detroit",
+      "location": "Detroit, MI, USA",
+      "companies_in_city": 4,
+      "active_in_city": 4,
+      "nearby_companies": [
+        {
+          "name": "Atomic Industries",
+          "slug": "atomic-industries",
+          "batch": "Winter 2021",
+          "industry": "Industrials",
+          "status": "Active"
+        },
+        {
+          "name": "Remora",
+          "slug": "remora",
+          "batch": "Winter 2021",
+          "industry": "Industrials",
+          "status": "Active"
+        },
+        {
+          "name": "Onboard.io",
+          "slug": "onboard-io",
+          "batch": "Winter 2022",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Nox Metals",
+          "slug": "nox-metals",
+          "batch": "Summer 2025",
+          "industry": "Industrials",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "low"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Monthli",
+        "slug": "monthli",
+        "batch": "Winter 2016",
+        "industry": "Real Estate and Construction",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Start Closing",
+        "slug": "start-closing",
+        "batch": "Winter 2016",
+        "industry": "Real Estate and Construction",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "42Floors",
+        "slug": "42floors",
+        "batch": "Winter 2012",
+        "industry": "Real Estate and Construction",
+        "status": "Acquired",
+        "similarity_score": 5,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "MyVR",
+        "slug": "myvr",
+        "batch": "Winter 2012",
+        "industry": "Real Estate and Construction",
+        "status": "Acquired",
+        "similarity_score": 5,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Rentobo",
+        "slug": "rentobo",
+        "batch": "Summer 2011",
+        "industry": "Real Estate and Construction",
+        "status": "Inactive",
+        "similarity_score": 5,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Zeus",
+        "slug": "zeus",
+        "batch": "Summer 2011",
+        "industry": "Real Estate and Construction",
+        "status": "Acquired",
+        "similarity_score": 5,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "You Got Listings",
+        "slug": "you-got-listings-inc",
+        "batch": "Winter 2011",
+        "industry": "Real Estate and Construction",
+        "status": "Active",
+        "similarity_score": 5,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "PadMapper",
+        "slug": "padmapper",
+        "batch": "Summer 2010",
+        "industry": "Real Estate and Construction",
+        "status": "Acquired",
+        "similarity_score": 5,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Movity",
+        "slug": "movity",
+        "batch": "Winter 2010",
+        "industry": "Real Estate and Construction",
+        "status": "Acquired",
+        "similarity_score": 5,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "RentHop",
+        "slug": "renthop",
+        "batch": "Summer 2009",
+        "industry": "Real Estate and Construction",
+        "status": "Active",
+        "similarity_score": 5,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 272,
+      "network_density_score": 36.8,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": false,
+      "calculated_at": "2025-10-17T10:16:43.585958"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:43.585966",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:43.932571",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:44.051736",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 11,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:42:02.075443",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "mature",
+      "key_trends": [
+        "Increased demand for rental properties",
+        "Growing adoption of property management software",
+        "Rise of on-demand labor platforms"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Technology and operational efficiency through automation.",
+      "differentiation": "Combines automation with on-demand labor for rental property management, offering a balance between cost and service.",
+      "competitive_advantages": [
+        "Lower cost than traditional property management",
+        "Improved efficiency through automation"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on on-demand labor market fluctuations",
+        "Potential for technology glitches disrupting service"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "medium",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "Number of properties managed",
+        "Customer acquisition cost"
+      ],
+      "growth_bottlenecks": [
+        "Geographic expansion challenges",
+        "Maintaining service quality with scale"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "high",
+      "overall_risk_score": 7,
+      "key_risks": [
+        "Competition from established property management companies",
+        "Fluctuations in the real estate market",
+        "Difficulty managing on-demand labor effectively"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Innovative approach to property management",
+        "Potential for cost savings for landlords",
+        "Strong market demand for rental property services"
+      ],
+      "concerns": [
+        "Inactive status suggests challenges in execution or market fit",
+        "Reliance on external labor market"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Opendoor",
+        "Zillow Rental Manager"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Re-evaluate business model based on inactive status feedback",
+        "Focus on core geographic markets for operational efficiency"
+      ],
+      "expansion_opportunities": [
+        "Partnerships with real estate agencies",
+        "Expansion into adjacent services like tenant screening"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 711,
+      "completion": 608,
+      "total": 1319,
+      "estimated_cost": 0.000236
+    }
+  },
+  "phase8_complete": true
+}

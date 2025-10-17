@@ -1,0 +1,1594 @@
+{
+  "slug": "fig",
+  "name": "Fig",
+  "yc_id": 13163,
+  "batch": "Summer 2020",
+  "website": "http://fig.io",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:51:59.314095",
+    "website": "http://fig.io",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 3284.13,
+      "final_url": "https://fig.io/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:52:02.598225"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "fig.io",
+      "registrar": "GoDaddy Corporate Domains, LLC",
+      "creation_date": "2013-09-26T23:44:49",
+      "expiration_date": "2026-09-26T23:44:49",
+      "domain_age_days": 4403,
+      "domain_age_years": 12.1,
+      "name_servers": [
+        "ns-1754.awsdns-27.co.uk",
+        "ns-1272.awsdns-31.org",
+        "ns-1011.awsdns-62.net",
+        "ns-26.awsdns-03.com"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": "https://github.com/aws/q-command-line-discussions/discussions",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": false,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 0,
+      "server": "Unknown"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:23:55.682825",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:23:43.816667",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "San Francisco, CA, USA",
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:12:40.434017",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:23:43.816793",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/aws"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 100,
+        "packages": [
+          {
+            "name": "@aws-sdk/credential-provider-ini",
+            "description": "AWS credential provider that sources credentials from ~/.aws/credentials and ~/.aws/config",
+            "version": "3.911.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/credential-provider-ini"
+          },
+          {
+            "name": "@aws-sdk/credential-provider-process",
+            "description": "AWS credential provider that sources credential_process from ~/.aws/credentials and ~/.aws/config",
+            "version": "3.911.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/credential-provider-process"
+          },
+          {
+            "name": "@aws-sdk/types",
+            "description": "Types for the AWS SDK",
+            "version": "3.910.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/types"
+          },
+          {
+            "name": "aws-sdk",
+            "description": "AWS SDK for JavaScript",
+            "version": "2.1692.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/aws-sdk"
+          },
+          {
+            "name": "@aws-sdk/credential-provider-web-identity",
+            "description": "AWS credential provider that calls STS assumeRole for temporary AWS credentials",
+            "version": "3.911.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/credential-provider-web-identity"
+          },
+          {
+            "name": "@aws-sdk/credential-provider-sso",
+            "description": "AWS credential provider that exchanges a resolved SSO login token file for temporary AWS credentials",
+            "version": "3.911.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/credential-provider-sso"
+          },
+          {
+            "name": "@opentelemetry/instrumentation-aws-sdk",
+            "description": "OpenTelemetry instrumentation for `aws-sdk` and `@aws-sdk/client-*` clients for various AWS services",
+            "version": "0.62.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@opentelemetry/instrumentation-aws-sdk"
+          },
+          {
+            "name": "@aws-sdk/xml-builder",
+            "description": "XML builder for the AWS SDK",
+            "version": "3.911.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/xml-builder"
+          },
+          {
+            "name": "@aws-sdk/core",
+            "description": "Core functions & classes shared by multiple AWS SDK clients.",
+            "version": "3.911.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/core"
+          },
+          {
+            "name": "@aws-sdk/nested-clients",
+            "description": "Nested clients for AWS SDK packages.",
+            "version": "3.911.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/nested-clients"
+          },
+          {
+            "name": "@aws-sdk/middleware-ssec",
+            "description": "[![NPM version](https://img.shields.io/npm/v/@aws-sdk/middleware-ssec/latest.svg)](https://www.npmjs.com/package/@aws-sdk/middleware-ssec) [![NPM downloads](https://img.shields.io/npm/dm/@aws-sdk/middleware-ssec.svg)](https://www.npmjs.com/package/@aws-sd",
+            "version": "3.910.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/middleware-ssec"
+          },
+          {
+            "name": "@aws-sdk/middleware-logger",
+            "description": "[![NPM version](https://img.shields.io/npm/v/@aws-sdk/middleware-logger/latest.svg)](https://www.npmjs.com/package/@aws-sdk/middleware-logger) [![NPM downloads](https://img.shields.io/npm/dm/@aws-sdk/middleware-logger.svg)](https://www.npmjs.com/package/@",
+            "version": "3.910.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/middleware-logger"
+          },
+          {
+            "name": "@types/aws-lambda",
+            "description": "TypeScript definitions for aws-lambda",
+            "version": "8.10.156",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@types/aws-lambda"
+          },
+          {
+            "name": "@aws-sdk/region-config-resolver",
+            "description": "[![NPM version](https://img.shields.io/npm/v/@aws-sdk/region-config-resolver/latest.svg)](https://www.npmjs.com/package/@aws-sdk/region-config-resolver) [![NPM downloads](https://img.shields.io/npm/dm/@aws-sdk/region-config-resolver.svg)](https://www.npmj",
+            "version": "3.910.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/region-config-resolver"
+          },
+          {
+            "name": "@aws-sdk/middleware-user-agent",
+            "description": "[![NPM version](https://img.shields.io/npm/v/@aws-sdk/middleware-user-agent/latest.svg)](https://www.npmjs.com/package/@aws-sdk/middleware-user-agent) [![NPM downloads](https://img.shields.io/npm/dm/@aws-sdk/middleware-user-agent.svg)](https://www.npmjs.c",
+            "version": "3.911.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/middleware-user-agent"
+          },
+          {
+            "name": "@aws-sdk/credential-provider-http",
+            "description": "AWS credential provider for containers and HTTP sources",
+            "version": "3.911.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/credential-provider-http"
+          },
+          {
+            "name": "@aws-sdk/middleware-recursion-detection",
+            "description": "[![NPM version](https://img.shields.io/npm/v/@aws-sdk/middleware-recursion-detection/latest.svg)](https://www.npmjs.com/package/@aws-sdk/middleware-recursion-detection) [![NPM downloads](https://img.shields.io/npm/dm/@aws-sdk/middleware-recursion-detectio",
+            "version": "3.910.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/middleware-recursion-detection"
+          },
+          {
+            "name": "@aws-sdk/credential-provider-env",
+            "description": "AWS credential provider that sources credentials from known environment variables",
+            "version": "3.911.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/credential-provider-env"
+          },
+          {
+            "name": "@aws-sdk/middleware-host-header",
+            "description": "[![NPM version](https://img.shields.io/npm/v/@aws-sdk/middleware-host-header/latest.svg)](https://www.npmjs.com/package/@aws-sdk/middleware-host-header) [![NPM downloads](https://img.shields.io/npm/dm/@aws-sdk/middleware-host-header.svg)](https://www.npmj",
+            "version": "3.910.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/middleware-host-header"
+          },
+          {
+            "name": "@aws-sdk/util-user-agent-node",
+            "description": "[![NPM version](https://img.shields.io/npm/v/@aws-sdk/util-user-agent-node/latest.svg)](https://www.npmjs.com/package/@aws-sdk/util-user-agent-node) [![NPM downloads](https://img.shields.io/npm/dm/@aws-sdk/util-user-agent-node.svg)](https://www.npmjs.com/",
+            "version": "3.911.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/util-user-agent-node"
+          },
+          {
+            "name": "@aws-sdk/middleware-expect-continue",
+            "description": "[![NPM version](https://img.shields.io/npm/v/@aws-sdk/middleware-expect-continue/latest.svg)](https://www.npmjs.com/package/@aws-sdk/middleware-expect-continue) [![NPM downloads](https://img.shields.io/npm/dm/@aws-sdk/middleware-expect-continue.svg)](http",
+            "version": "3.910.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/middleware-expect-continue"
+          },
+          {
+            "name": "aws-ssl-profiles",
+            "description": "AWS RDS SSL certificates bundles.",
+            "version": "1.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/aws-ssl-profiles"
+          },
+          {
+            "name": "@aws-sdk/client-sso",
+            "description": "AWS SDK for JavaScript Sso Client for Node.js, Browser and React Native",
+            "version": "3.911.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/client-sso"
+          },
+          {
+            "name": "@aws-sdk/util-locate-window",
+            "description": "[![NPM version](https://img.shields.io/npm/v/@aws-sdk/util-locate-window/latest.svg)](https://www.npmjs.com/package/@aws-sdk/util-locate-window) [![NPM downloads](https://img.shields.io/npm/dm/@aws-sdk/util-locate-window.svg)](https://www.npmjs.com/packag",
+            "version": "3.893.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/util-locate-window"
+          },
+          {
+            "name": "@aws-sdk/credential-provider-node",
+            "description": "AWS credential provider that sources credentials from a Node.JS environment. ",
+            "version": "3.911.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/credential-provider-node"
+          },
+          {
+            "name": "@aws-sdk/util-format-url",
+            "description": "[![NPM version](https://img.shields.io/npm/v/@aws-sdk/util-format-url/latest.svg)](https://www.npmjs.com/package/@aws-sdk/util-format-url) [![NPM downloads](https://img.shields.io/npm/dm/@aws-sdk/util-format-url.svg)](https://www.npmjs.com/package/@aws-sd",
+            "version": "3.910.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/util-format-url"
+          },
+          {
+            "name": "@aws-sdk/util-user-agent-browser",
+            "description": "[![NPM version](https://img.shields.io/npm/v/@aws-sdk/util-user-agent-browser/latest.svg)](https://www.npmjs.com/package/@aws-sdk/util-user-agent-browser) [![NPM downloads](https://img.shields.io/npm/dm/@aws-sdk/util-user-agent-browser.svg)](https://www.n",
+            "version": "3.910.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/util-user-agent-browser"
+          },
+          {
+            "name": "@cspell/dict-aws",
+            "description": "AWS dictionary for cspell.",
+            "version": "4.0.15",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@cspell/dict-aws"
+          },
+          {
+            "name": "@aws-sdk/middleware-bucket-endpoint",
+            "description": "[![NPM version](https://img.shields.io/npm/v/@aws-sdk/middleware-bucket-endpoint/latest.svg)](https://www.npmjs.com/package/@aws-sdk/middleware-bucket-endpoint) [![NPM downloads](https://img.shields.io/npm/dm/@aws-sdk/middleware-bucket-endpoint.svg)](http",
+            "version": "3.910.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/middleware-bucket-endpoint"
+          },
+          {
+            "name": "@aws-sdk/middleware-location-constraint",
+            "description": "[![NPM version](https://img.shields.io/npm/v/@aws-sdk/middleware-location-constraint/latest.svg)](https://www.npmjs.com/package/@aws-sdk/middleware-location-constraint) [![NPM downloads](https://img.shields.io/npm/dm/@aws-sdk/middleware-location-constrain",
+            "version": "3.910.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/middleware-location-constraint"
+          },
+          {
+            "name": "@aws-sdk/middleware-signing",
+            "description": "[![NPM version](https://img.shields.io/npm/v/@aws-sdk/middleware-signing/latest.svg)](https://www.npmjs.com/package/@aws-sdk/middleware-signing) [![NPM downloads](https://img.shields.io/npm/dm/@aws-sdk/middleware-signing.svg)](https://www.npmjs.com/packag",
+            "version": "3.910.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/middleware-signing"
+          },
+          {
+            "name": "@aws-sdk/endpoint-cache",
+            "description": "[![NPM version](https://img.shields.io/npm/v/@aws-sdk/endpoint-cache/latest.svg)](https://www.npmjs.com/package/@aws-sdk/endpoint-cache) [![NPM downloads](https://img.shields.io/npm/dm/@aws-sdk/endpoint-cache.svg)](https://www.npmjs.com/package/@aws-sdk/e",
+            "version": "3.893.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/endpoint-cache"
+          },
+          {
+            "name": "@aws-sdk/middleware-flexible-checksums",
+            "description": "[![NPM version](https://img.shields.io/npm/v/@aws-sdk/middleware-flexible-checksums/latest.svg)](https://www.npmjs.com/package/@aws-sdk/middleware-flexible-checksums) [![NPM downloads](https://img.shields.io/npm/dm/@aws-sdk/middleware-flexible-checksums.s",
+            "version": "3.911.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/middleware-flexible-checksums"
+          },
+          {
+            "name": "@aws-amplify/datastore",
+            "description": "AppSyncLocal support for aws-amplify",
+            "version": "5.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-amplify/datastore"
+          },
+          {
+            "name": "@aws-amplify/storage",
+            "description": "Storage category of aws-amplify",
+            "version": "6.10.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-amplify/storage"
+          },
+          {
+            "name": "@aws-amplify/core",
+            "description": "Core category of aws-amplify",
+            "version": "6.13.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-amplify/core"
+          },
+          {
+            "name": "@aws-amplify/auth",
+            "description": "Auth category of aws-amplify",
+            "version": "6.16.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-amplify/auth"
+          },
+          {
+            "name": "@aws-sdk/util-dynamodb",
+            "description": "[![NPM version](https://img.shields.io/npm/v/@aws-sdk/util-dynamodb/latest.svg)](https://www.npmjs.com/package/@aws-sdk/util-dynamodb) [![NPM downloads](https://img.shields.io/npm/dm/@aws-sdk/util-dynamodb.svg)](https://www.npmjs.com/package/@aws-sdk/util",
+            "version": "3.911.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/util-dynamodb"
+          },
+          {
+            "name": "@aws-sdk/middleware-sdk-s3",
+            "description": "[![NPM version](https://img.shields.io/npm/v/@aws-sdk/middleware-sdk-s3/latest.svg)](https://www.npmjs.com/package/@aws-sdk/middleware-sdk-s3) [![NPM downloads](https://img.shields.io/npm/dm/@aws-sdk/middleware-sdk-s3.svg)](https://www.npmjs.com/package/@",
+            "version": "3.911.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/middleware-sdk-s3"
+          },
+          {
+            "name": "@langchain/aws",
+            "description": "LangChain AWS integration",
+            "version": "0.1.15",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@langchain/aws"
+          },
+          {
+            "name": "@opentelemetry/resource-detector-aws",
+            "description": "OpenTelemetry SDK resource detector for AWS",
+            "version": "2.6.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@opentelemetry/resource-detector-aws"
+          },
+          {
+            "name": "@aws-amplify/api",
+            "description": "Api category of aws-amplify",
+            "version": "6.3.19",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-amplify/api"
+          },
+          {
+            "name": "@aws-sdk/signature-v4-multi-region",
+            "description": "[![NPM version](https://img.shields.io/npm/v/@aws-sdk/signature-v4-multi-region/latest.svg)](https://www.npmjs.com/package/@aws-sdk/signature-v4-multi-region) [![NPM downloads](https://img.shields.io/npm/dm/@aws-sdk/signature-v4-multi-region.svg)](https:/",
+            "version": "3.911.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/signature-v4-multi-region"
+          },
+          {
+            "name": "@aws-amplify/analytics",
+            "description": "Analytics category of aws-amplify",
+            "version": "7.0.88",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-amplify/analytics"
+          },
+          {
+            "name": "@aws-amplify/notifications",
+            "description": "Notifications category of aws-amplify",
+            "version": "2.0.88",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-amplify/notifications"
+          },
+          {
+            "name": "@aws-sdk/credential-provider-cognito-identity",
+            "description": "[![NPM version](https://img.shields.io/npm/v/@aws-sdk/credential-provider-cognito-identity/latest.svg)](https://www.npmjs.com/package/@aws-sdk/credential-provider-cognito-identity) [![NPM downloads](https://img.shields.io/npm/dm/@aws-sdk/credential-provid",
+            "version": "3.911.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/credential-provider-cognito-identity"
+          },
+          {
+            "name": "aws-cdk",
+            "description": "AWS CDK CLI, the command line tool for CDK apps",
+            "version": "2.1030.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/aws-cdk"
+          },
+          {
+            "name": "@aws-sdk/middleware-endpoint-discovery",
+            "description": "[![NPM version](https://img.shields.io/npm/v/@aws-sdk/middleware-endpoint-discovery/latest.svg)](https://www.npmjs.com/package/@aws-sdk/middleware-endpoint-discovery) [![NPM downloads](https://img.shields.io/npm/dm/@aws-sdk/middleware-endpoint-discovery.s",
+            "version": "3.910.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/middleware-endpoint-discovery"
+          },
+          {
+            "name": "aws-sign2",
+            "description": "AWS signing. Originally pulled from LearnBoost/knox, maintained as vendor in request, now a standalone module.",
+            "version": "0.7.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/aws-sign2"
+          },
+          {
+            "name": "@opentelemetry/instrumentation-aws-lambda",
+            "description": "OpenTelemetry instrumentation for AWS Lambda function invocations",
+            "version": "0.58.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@opentelemetry/instrumentation-aws-lambda"
+          },
+          {
+            "name": "@aws-sdk/client-sts",
+            "description": "AWS SDK for JavaScript Sts Client for Node.js, Browser and React Native",
+            "version": "3.911.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/client-sts"
+          },
+          {
+            "name": "@aws-sdk/crt-loader",
+            "description": "Loader for AWS Common Runtime https://github.com/awslabs/aws-crt-nodejs",
+            "version": "3.911.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/crt-loader"
+          },
+          {
+            "name": "aws-cdk-lib",
+            "description": "Version 2 of the AWS Cloud Development Kit library",
+            "version": "2.220.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/aws-cdk-lib"
+          },
+          {
+            "name": "@aws-amplify/api-rest",
+            "description": "Api-rest category of aws-amplify",
+            "version": "4.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-amplify/api-rest"
+          },
+          {
+            "name": "@aws-sdk/client-s3",
+            "description": "AWS SDK for JavaScript S3 Client for Node.js, Browser and React Native",
+            "version": "3.911.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/client-s3"
+          },
+          {
+            "name": "@aws/lambda-invoke-store",
+            "description": "Invoke scoped data storage for AWS Lambda Node.js Runtime Environment",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws/lambda-invoke-store"
+          },
+          {
+            "name": "@sentry/aws-serverless",
+            "description": "Official Sentry SDK for AWS Lambda and AWS Serverless Environments",
+            "version": "10.20.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sentry/aws-serverless"
+          },
+          {
+            "name": "@aws-sdk/s3-request-presigner",
+            "description": "[![NPM version](https://img.shields.io/npm/v/@aws-sdk/s3-request-presigner/latest.svg)](https://www.npmjs.com/package/@aws-sdk/s3-request-presigner) [![NPM downloads](https://img.shields.io/npm/dm/@aws-sdk/s3-request-presigner.svg)](https://www.npmjs.com/",
+            "version": "3.911.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/s3-request-presigner"
+          },
+          {
+            "name": "@aws-amplify/api-graphql",
+            "description": "Api-graphql category of aws-amplify",
+            "version": "4.8.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-amplify/api-graphql"
+          },
+          {
+            "name": "@aws-sdk/middleware-eventstream",
+            "description": "[![NPM version](https://img.shields.io/npm/v/@aws-sdk/middleware-eventstream/latest.svg)](https://www.npmjs.com/package/@aws-sdk/middleware-eventstream) [![NPM downloads](https://img.shields.io/npm/dm/@aws-sdk/middleware-eventstream.svg)](https://www.npmj",
+            "version": "3.910.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/middleware-eventstream"
+          },
+          {
+            "name": "@aws-sdk/middleware-sdk-sqs",
+            "description": "[![NPM version](https://img.shields.io/npm/v/@aws-sdk/middleware-sdk-sqs/latest.svg)](https://www.npmjs.com/package/@aws-sdk/middleware-sdk-sqs) [![NPM downloads](https://img.shields.io/npm/dm/@aws-sdk/middleware-sdk-sqs.svg)](https://www.npmjs.com/packag",
+            "version": "3.910.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/middleware-sdk-sqs"
+          },
+          {
+            "name": "@aws-sdk/middleware-sdk-sts",
+            "description": "[![NPM version](https://img.shields.io/npm/v/@aws-sdk/middleware-sdk-sts/latest.svg)](https://www.npmjs.com/package/@aws-sdk/middleware-sdk-sts) [![NPM downloads](https://img.shields.io/npm/dm/@aws-sdk/middleware-sdk-sts.svg)](https://www.npmjs.com/packag",
+            "version": "3.910.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/middleware-sdk-sts"
+          },
+          {
+            "name": "@opentelemetry/propagator-aws-xray",
+            "description": "OpenTelemetry AWS Xray propagator provides context propagation for systems that are using AWS X-Ray format.",
+            "version": "2.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@opentelemetry/propagator-aws-xray"
+          },
+          {
+            "name": "@aws-sdk/signature-v4-crt",
+            "description": "A revision of AWS Signature V4 request signer based on AWS Common Runtime https://github.com/awslabs/aws-crt-nodejs",
+            "version": "3.911.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/signature-v4-crt"
+          },
+          {
+            "name": "aws-xray-sdk",
+            "description": "AWS X-Ray SDK for Javascript",
+            "version": "3.11.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/aws-xray-sdk"
+          },
+          {
+            "name": "aws-xray-sdk-core",
+            "description": "AWS X-Ray SDK for Javascript",
+            "version": "3.11.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/aws-xray-sdk-core"
+          },
+          {
+            "name": "aws-sdk-client-mock",
+            "description": "Easy and powerful mocking of AWS SDK v3 Clients",
+            "version": "4.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/aws-sdk-client-mock"
+          },
+          {
+            "name": "@aws-sdk/client-lambda",
+            "description": "AWS SDK for JavaScript Lambda Client for Node.js, Browser and React Native",
+            "version": "3.911.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/client-lambda"
+          },
+          {
+            "name": "aws-crt",
+            "description": "NodeJS/browser bindings to the aws-c-* libraries",
+            "version": "1.27.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/aws-crt"
+          },
+          {
+            "name": "@aws-sdk/client-sso-oidc",
+            "description": "AWS SDK for JavaScript Sso Oidc Client for Node.js, Browser and React Native",
+            "version": "3.911.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/client-sso-oidc"
+          },
+          {
+            "name": "@aws-amplify/pubsub",
+            "description": "Pubsub category of aws-amplify",
+            "version": "6.1.63",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-amplify/pubsub"
+          },
+          {
+            "name": "@aws-sdk/middleware-websocket",
+            "description": "[![NPM version](https://img.shields.io/npm/v/@aws-sdk/middleware-websocket/latest.svg)](https://www.npmjs.com/package/@aws-sdk/middleware-websocket) [![NPM downloads](https://img.shields.io/npm/dm/@aws-sdk/middleware-websocket.svg)](https://www.npmjs.com/",
+            "version": "3.910.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/middleware-websocket"
+          },
+          {
+            "name": "@aws-sdk/client-sqs",
+            "description": "AWS SDK for JavaScript Sqs Client for Node.js, Browser and React Native",
+            "version": "3.911.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/client-sqs"
+          },
+          {
+            "name": "@aws-sdk/client-dynamodb",
+            "description": "AWS SDK for JavaScript Dynamodb Client for Node.js, Browser and React Native",
+            "version": "3.911.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/client-dynamodb"
+          },
+          {
+            "name": "@aws-amplify/geo",
+            "description": "Geo category for aws-amplify",
+            "version": "3.0.88",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-amplify/geo"
+          },
+          {
+            "name": "@aws-amplify/interactions",
+            "description": "Interactions category of aws-amplify",
+            "version": "6.1.29",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-amplify/interactions"
+          },
+          {
+            "name": "@aws-sdk/client-cognito-identity",
+            "description": "AWS SDK for JavaScript Cognito Identity Client for Node.js, Browser and React Native",
+            "version": "3.911.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/client-cognito-identity"
+          },
+          {
+            "name": "@aws-sdk/client-iam",
+            "description": "AWS SDK for JavaScript Iam Client for Node.js, Browser and React Native",
+            "version": "3.911.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/client-iam"
+          },
+          {
+            "name": "aws-xray-sdk-express",
+            "description": "AWS X-Ray Middleware for Express (Javascript)",
+            "version": "3.11.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/aws-xray-sdk-express"
+          },
+          {
+            "name": "aws-embedded-metrics",
+            "description": "AWS Embedded Metrics Client Library",
+            "version": "4.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/aws-embedded-metrics"
+          },
+          {
+            "name": "@aws-sdk/url-parser-native",
+            "description": "[![NPM version](https://img.shields.io/npm/v/@aws-sdk/url-parser-node/latest.svg)](https://www.npmjs.com/package/@aws-sdk/url-parser-node) [![NPM downloads](https://img.shields.io/npm/dm/@aws-sdk/url-parser-node.svg)](https://www.npmjs.com/package/@aws-sd",
+            "version": "3.12.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/url-parser-native"
+          },
+          {
+            "name": "@aws-sdk/eventstream-handler-node",
+            "description": "[![NPM version](https://img.shields.io/npm/v/@aws-sdk/eventstream-handler-node/latest.svg)](https://www.npmjs.com/package/@aws-sdk/eventstream-handler-node) [![NPM downloads](https://img.shields.io/npm/dm/@aws-sdk/eventstream-handler-node.svg)](https://ww",
+            "version": "3.910.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/eventstream-handler-node"
+          },
+          {
+            "name": "@aws-amplify/predictions",
+            "description": "Machine learning category of aws-amplify",
+            "version": "6.1.63",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-amplify/predictions"
+          },
+          {
+            "name": "aws-sdk-mock",
+            "description": "Functions to mock the JavaScript aws-sdk",
+            "version": "6.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/aws-sdk-mock"
+          },
+          {
+            "name": "aws-xray-sdk-mysql",
+            "description": "AWS X-Ray Patcher for MySQL (Javascript)",
+            "version": "3.11.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/aws-xray-sdk-mysql"
+          },
+          {
+            "name": "@aws-sdk/middleware-sdk-rds",
+            "description": "[![NPM version](https://img.shields.io/npm/v/@aws-sdk/middleware-sdk-rds/latest.svg)](https://www.npmjs.com/package/@aws-sdk/middleware-sdk-rds) [![NPM downloads](https://img.shields.io/npm/dm/@aws-sdk/middleware-sdk-rds.svg)](https://www.npmjs.com/packag",
+            "version": "3.910.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/middleware-sdk-rds"
+          },
+          {
+            "name": "@aws-sdk/middleware-sdk-ec2",
+            "description": "[![NPM version](https://img.shields.io/npm/v/@aws-sdk/middleware-sdk-ec2/latest.svg)](https://www.npmjs.com/package/@aws-sdk/middleware-sdk-ec2) [![NPM downloads](https://img.shields.io/npm/dm/@aws-sdk/middleware-sdk-ec2.svg)](https://www.npmjs.com/packag",
+            "version": "3.910.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/middleware-sdk-ec2"
+          },
+          {
+            "name": "@aws-cdk/aws-apigatewayv2-alpha",
+            "description": "This module is deprecated. All constructs are now available under aws-cdk-lib/aws-apigatewayv2",
+            "version": "2.114.1-alpha.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-cdk/aws-apigatewayv2-alpha"
+          },
+          {
+            "name": "@aws-lite/client",
+            "description": "A simple, fast, extensible AWS client",
+            "version": "0.23.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-lite/client"
+          },
+          {
+            "name": "@aws-sdk/client-ssm",
+            "description": "AWS SDK for JavaScript Ssm Client for Node.js, Browser and React Native",
+            "version": "3.912.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/client-ssm"
+          },
+          {
+            "name": "@aws-sdk/client-sfn",
+            "description": "AWS SDK for JavaScript Sfn Client for Node.js, Browser and React Native",
+            "version": "3.911.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/client-sfn"
+          },
+          {
+            "name": "@aws-sdk/client-secrets-manager",
+            "description": "AWS SDK for JavaScript Secrets Manager Client for Node.js, Browser and React Native",
+            "version": "3.911.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/client-secrets-manager"
+          },
+          {
+            "name": "@aws-sdk/client-ses",
+            "description": "AWS SDK for JavaScript Ses Client for Node.js, Browser and React Native",
+            "version": "3.911.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/client-ses"
+          },
+          {
+            "name": "@aws-sdk/client-sns",
+            "description": "AWS SDK for JavaScript Sns Client for Node.js, Browser and React Native",
+            "version": "3.911.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/client-sns"
+          },
+          {
+            "name": "@aws-sdk/middleware-sdk-api-gateway",
+            "description": "[![NPM version](https://img.shields.io/npm/v/@aws-sdk/middleware-sdk-api-gateway/latest.svg)](https://www.npmjs.com/package/@aws-sdk/middleware-sdk-api-gateway) [![NPM downloads](https://img.shields.io/npm/dm/@aws-sdk/middleware-sdk-api-gateway.svg)](http",
+            "version": "3.910.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/middleware-sdk-api-gateway"
+          },
+          {
+            "name": "@aws-cdk/aws-service-spec",
+            "description": "A specification of built-in AWS resources",
+            "version": "0.1.107",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-cdk/aws-service-spec"
+          },
+          {
+            "name": "@aws-cdk/aws-glue-alpha",
+            "description": "The CDK Construct Library for AWS::Glue",
+            "version": "2.220.0-alpha.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-cdk/aws-glue-alpha"
+          },
+          {
+            "name": "@aws-sdk/client-eventbridge",
+            "description": "AWS SDK for JavaScript Eventbridge Client for Node.js, Browser and React Native",
+            "version": "3.911.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/client-eventbridge"
+          },
+          {
+            "name": "aws-xray-sdk-postgres",
+            "description": "AWS X-Ray Patcher for Postgres (Javascript)",
+            "version": "3.11.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/aws-xray-sdk-postgres"
+          },
+          {
+            "name": "@aws-lite/ssm",
+            "description": "Official `aws-lite` plugin for SSM",
+            "version": "0.2.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-lite/ssm"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 20,
+        "packages": [
+          {
+            "name": "aws-sigv4",
+            "version": "1.12.1",
+            "downloads": 1364553423,
+            "url": "https://rubygems.org/gems/aws-sigv4"
+          },
+          {
+            "name": "aws-partitions",
+            "version": "1.1173.0",
+            "downloads": 1301548719,
+            "url": "https://rubygems.org/gems/aws-partitions"
+          },
+          {
+            "name": "aws-eventstream",
+            "version": "1.4.0",
+            "downloads": 1168663589,
+            "url": "https://rubygems.org/gems/aws-eventstream"
+          },
+          {
+            "name": "aws-sdk",
+            "version": "3.3.0",
+            "downloads": 371442315,
+            "url": "https://rubygems.org/gems/aws-sdk"
+          },
+          {
+            "name": "aws-sdk-core",
+            "version": "3.233.0",
+            "downloads": 1529029845,
+            "url": "https://rubygems.org/gems/aws-sdk-core"
+          },
+          {
+            "name": "aws-sdk-s3",
+            "version": "1.200.0",
+            "downloads": 931853333,
+            "url": "https://rubygems.org/gems/aws-sdk-s3"
+          },
+          {
+            "name": "aws-sdk-kms",
+            "version": "1.114.0",
+            "downloads": 915943091,
+            "url": "https://rubygems.org/gems/aws-sdk-kms"
+          },
+          {
+            "name": "aws-sigv2",
+            "version": "1.3.1",
+            "downloads": 70471456,
+            "url": "https://rubygems.org/gems/aws-sigv2"
+          },
+          {
+            "name": "aws",
+            "version": "2.10.2",
+            "downloads": 3242656,
+            "url": "https://rubygems.org/gems/aws"
+          },
+          {
+            "name": "aws-sdk-resources",
+            "version": "3.241.0",
+            "downloads": 353292704,
+            "url": "https://rubygems.org/gems/aws-sdk-resources"
+          },
+          {
+            "name": "aws-sdk-sqs",
+            "version": "1.104.0",
+            "downloads": 299179808,
+            "url": "https://rubygems.org/gems/aws-sdk-sqs"
+          },
+          {
+            "name": "aws-sdk-ssm",
+            "version": "1.204.0",
+            "downloads": 239588585,
+            "url": "https://rubygems.org/gems/aws-sdk-ssm"
+          },
+          {
+            "name": "aws-sdk-ec2",
+            "version": "1.563.0",
+            "downloads": 224924687,
+            "url": "https://rubygems.org/gems/aws-sdk-ec2"
+          },
+          {
+            "name": "aws-sdk-kinesis",
+            "version": "1.87.0",
+            "downloads": 187177414,
+            "url": "https://rubygems.org/gems/aws-sdk-kinesis"
+          },
+          {
+            "name": "aws-sdk-dynamodb",
+            "version": "1.154.0",
+            "downloads": 176904913,
+            "url": "https://rubygems.org/gems/aws-sdk-dynamodb"
+          },
+          {
+            "name": "aws-sdk-cloudformation",
+            "version": "1.141.0",
+            "downloads": 150220656,
+            "url": "https://rubygems.org/gems/aws-sdk-cloudformation"
+          },
+          {
+            "name": "aws-sdk-sns",
+            "version": "1.106.0",
+            "downloads": 148952705,
+            "url": "https://rubygems.org/gems/aws-sdk-sns"
+          },
+          {
+            "name": "aws-record",
+            "version": "2.14.0",
+            "downloads": 17935542,
+            "url": "https://rubygems.org/gems/aws-record"
+          },
+          {
+            "name": "aws-sdk-secretsmanager",
+            "version": "1.120.0",
+            "downloads": 146998026,
+            "url": "https://rubygems.org/gems/aws-sdk-secretsmanager"
+          },
+          {
+            "name": "aws-sdk-cloudwatch",
+            "version": "1.122.0",
+            "downloads": 139674512,
+            "url": "https://rubygems.org/gems/aws-sdk-cloudwatch"
+          }
+        ]
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 10,
+        "packages": [
+          {
+            "name": "aws",
+            "description": "aws",
+            "version": "0.0.1",
+            "downloads": 3622,
+            "url": "https://crates.io/crates/aws"
+          },
+          {
+            "name": "aws-regional-product-services",
+            "description": "list/diff of AWS services by regions",
+            "version": "0.3.0",
+            "downloads": 8059,
+            "url": "https://crates.io/crates/aws-regional-product-services"
+          },
+          {
+            "name": "aws-mfa-session",
+            "description": "A command line utility to generate temporary AWS credentials with virtual MFA device. Credentials could be exported into new shell or inserted into aws credentials file.\n",
+            "version": "0.4.1",
+            "downloads": 8727,
+            "url": "https://crates.io/crates/aws-mfa-session"
+          },
+          {
+            "name": "aws-masquerade",
+            "description": "AWS Assume Role CLI Tool",
+            "version": "0.2.2",
+            "downloads": 4549,
+            "url": "https://crates.io/crates/aws-masquerade"
+          },
+          {
+            "name": "iam-rs",
+            "description": "Complete Rust library for parsing, validating, and evaluating IAM policies. Provider-agnostic authorization engine with full AWS IAM compatibility.",
+            "version": "0.0.23",
+            "downloads": 9134,
+            "url": "https://crates.io/crates/iam-rs"
+          },
+          {
+            "name": "aws-login",
+            "description": "A command line utility to simplify logging into AWS accounts and services.",
+            "version": "1.2.2",
+            "downloads": 12484,
+            "url": "https://crates.io/crates/aws-login"
+          },
+          {
+            "name": "awsom",
+            "description": "k9s-like TUI for AWS SSO sessions",
+            "version": "0.5.0",
+            "downloads": 2060,
+            "url": "https://crates.io/crates/awsom"
+          },
+          {
+            "name": "mfaws",
+            "description": "A CLI tool to manage AWS credentials for MFA-enabled accounts",
+            "version": "0.4.1",
+            "downloads": 6983,
+            "url": "https://crates.io/crates/mfaws"
+          },
+          {
+            "name": "gman",
+            "description": "Universal command line secret management and injection tool",
+            "version": "0.2.3",
+            "downloads": 1151,
+            "url": "https://crates.io/crates/gman"
+          },
+          {
+            "name": "aws-sso-rs",
+            "description": "Fetch your ~/.aws/credentials using AWS SSO",
+            "version": "1.5.0",
+            "downloads": 2483,
+            "url": "https://crates.io/crates/aws-sso-rs"
+          }
+        ]
+      },
+      "total_packages": 130,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:23:45.559604"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:23:45.559611",
+    "batch_network": {
+      "batch": "Summer 2020",
+      "total_batch_mates": 207,
+      "active_batch_mates": 131,
+      "batch_success_rate": 63.3,
+      "notable_batch_mates": [
+        {
+          "name": "Ladder",
+          "slug": "ladder",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Labor Marketplace for Construction"
+        },
+        {
+          "name": "Altro",
+          "slug": "altro",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Build Credit With Your Subscriptions"
+        },
+        {
+          "name": "Jemi",
+          "slug": "jemi",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Jemi helps people build beautiful websites and stores."
+        },
+        {
+          "name": "LSK Technologies",
+          "slug": "lsk-technologies",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A diagnostic lab in a box"
+        },
+        {
+          "name": "Command AI",
+          "slug": "command-ai",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "AI-powered user assistance platform"
+        },
+        {
+          "name": "Bandit ML",
+          "slug": "bandit-ml",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Bandit ML builds machine learning tools for e-commerce companies."
+        },
+        {
+          "name": "Momence",
+          "slug": "momence",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Scheduling and payments for experiences"
+        },
+        {
+          "name": "Gather",
+          "slug": "gather",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Project management software for People Operations"
+        },
+        {
+          "name": "Finmark",
+          "slug": "finmark",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Financial planning software for startups"
+        },
+        {
+          "name": "Hypermile",
+          "slug": "hypermile",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Driver co-pilot to make trucking more efficient"
+        }
+      ],
+      "batch_size": 208
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1969,
+      "direct_competitors": [
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "status": "Active",
+          "batch": "Winter 2012",
+          "one_liner": "High Performance Computing Built for the Cloud"
+        },
+        {
+          "name": "Marft",
+          "slug": "marft",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Marft creates embeddable machine learning models for application\u2026"
+        },
+        {
+          "name": "Pixelapse",
+          "slug": "pixelapse",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Github for designers. We automatically keep track of revisions of\u2026"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Palantir for sales people"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Smart search for the modern team."
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Authy is a Two-Factor Authentication platform for developers"
+        },
+        {
+          "name": "Flutter",
+          "slug": "flutter",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Flutter combined computer vision technology with the built-in webcams\u2026"
+        },
+        {
+          "name": "SolidStage",
+          "slug": "solidstage",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Sysadmin as a service. We make deploying, configuring, monitoring,\u2026"
+        },
+        {
+          "name": "Clutch",
+          "slug": "clutch",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "An easy to integrate library for native iOS applications designed to\u2026"
+        },
+        {
+          "name": "OneSignal",
+          "slug": "onesignal",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Engage customers through personalized omni-channel messaging"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "San Francisco",
+      "location": "San Francisco, CA, USA",
+      "companies_in_city": 2007,
+      "active_in_city": 1340,
+      "nearby_companies": [
+        {
+          "name": "42Floors",
+          "slug": "42floors",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "PlanGrid",
+          "slug": "plangrid",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "MyVR",
+          "slug": "myvr",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Couple",
+          "slug": "couple",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HackPad",
+          "slug": "hackpad",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Gusto",
+          "slug": "gusto",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "FamilyLeaf",
+          "slug": "familyleaf",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Chute",
+          "slug": "chute",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Make School",
+          "slug": "make-school",
+          "batch": "Winter 2012",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Exec",
+          "slug": "exec",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Public"
+        },
+        {
+          "name": "LendUp",
+          "slug": "lendup",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tilt",
+          "slug": "tilt",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fond",
+          "slug": "fond",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Openbase",
+        "slug": "openbase",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Luminai",
+        "slug": "luminai",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Command AI",
+        "slug": "command-ai",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Roboflow",
+        "slug": "roboflow",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Seam",
+        "slug": "seam",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Duckly",
+        "slug": "gitduck",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Monosi",
+        "slug": "monosi",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Humanloop",
+        "slug": "humanloop",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Finch",
+        "slug": "finch",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Unfaze AI",
+        "slug": "unfaze-ai",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 4960,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:23:45.570138"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:23:45.570143",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:23:45.915845",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:23:46.029442",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 5,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:39:52.766207",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "medium",
+      "market_stage": "growing",
+      "key_trends": [
+        "Developer productivity tools adoption",
+        "Terminal/CLI renaissance among developers",
+        "Remote work driving need for better dev tools"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "First-mover advantage in terminal enhancement with strong developer community adoption",
+      "differentiation": "Visual layer and app ecosystem for terminal vs traditional CLI tools",
+      "competitive_advantages": [
+        "Strong developer community engagement",
+        "Terminal app store vision"
+      ],
+      "competitive_vulnerabilities": [
+        "Easy to replicate core features",
+        "Dependent on terminal adoption trends"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "Freemium SaaS with marketplace potential",
+      "scalability": "high",
+      "capital_intensity": "low"
+    },
+    "growth_assessment": {
+      "growth_stage": "series-a",
+      "growth_indicators": [
+        "Strong developer community traction",
+        "Acquisition validates product-market fit"
+      ],
+      "growth_bottlenecks": [
+        "Limited to terminal users",
+        "Monetization of free developer tools"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "low",
+      "overall_risk_score": 3,
+      "key_risks": [
+        "Platform dependency on terminal adoption",
+        "Competition from IDE integrations",
+        "Developer tool monetization challenges"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Clear product-market fit evidenced by acquisition",
+        "Large developer audience",
+        "Extensible platform vision"
+      ],
+      "concerns": [
+        "Niche market segment",
+        "Competitive threats from larger players"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "GitPod",
+        "Replit",
+        "JetBrains"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Leverage acquisition for enterprise distribution",
+        "Expand terminal app ecosystem"
+      ],
+      "expansion_opportunities": [
+        "Enterprise developer productivity suites",
+        "Integration with major cloud platforms"
+      ]
+    },
+    "tokens_used": {
+      "input": 703,
+      "output": 516,
+      "total": 1219,
+      "estimated_cost": 0.009849
+    }
+  },
+  "phase8_complete": true
+}

@@ -1,0 +1,651 @@
+{
+  "slug": "peer5",
+  "name": "Peer5",
+  "yc_id": 1559,
+  "batch": "Winter 2017",
+  "website": "https://www.peer5.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:39:18.041123",
+    "website": "https://www.peer5.com",
+    "website_status": {
+      "reachable": false,
+      "error": "connection_error"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "peer5.com",
+      "registrar": "MarkMonitor, Inc.",
+      "creation_date": "2011-11-08T21:30:01",
+      "expiration_date": "2026-11-08T21:30:01",
+      "domain_age_days": 5091,
+      "domain_age_years": 13.9,
+      "name_servers": [
+        "NS1-32.AZURE-DNS.COM",
+        "NS2-32.AZURE-DNS.NET",
+        "NS3-32.AZURE-DNS.ORG",
+        "NS4-32.AZURE-DNS.INFO"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "error": "HTTPSConnectionPool(host='www.peer5.com', port=443): Max retries exceeded with url: / (Caused by Nam"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:18:36.162054",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:18:26.687692",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "Palo Alto, CA, USA",
+      "coordinates": {
+        "latitude": 37.4419,
+        "longitude": -122.143
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:14:21.308257",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:18:26.687738",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:18:26.687742",
+    "batch_network": {
+      "batch": "Winter 2017",
+      "total_batch_mates": 115,
+      "active_batch_mates": 56,
+      "batch_success_rate": 48.7,
+      "notable_batch_mates": [
+        {
+          "name": "Clear Genetics",
+          "slug": "clear-genetics",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Clear Genetics is scaling delivery of Genomic services"
+        },
+        {
+          "name": "Scribe",
+          "slug": "scribe",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Scribe is an AI based Sales Development Representative that you can\u2026"
+        },
+        {
+          "name": "Loop Support",
+          "slug": "loop-support",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Predict job applicant performance for entry-level support roles"
+        },
+        {
+          "name": "Rippling",
+          "slug": "rippling",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "One place to run all your HR, IT, and Finance. Globally."
+        },
+        {
+          "name": "lvl5",
+          "slug": "lvl5",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "HD maps for self-driving cars."
+        },
+        {
+          "name": "Arthena",
+          "slug": "arthena",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Quantitative Investment in Art Assets "
+        },
+        {
+          "name": "Shipamax",
+          "slug": "shipamax",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Simple, end-to-end automation for logistics orgs"
+        },
+        {
+          "name": "Volansi",
+          "slug": "volansi",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Autonomous VTOL delivery solutions."
+        },
+        {
+          "name": "Soomgo",
+          "slug": "soomgo",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Local services marketplace that connects providers with new customers"
+        },
+        {
+          "name": "Scaphold.io",
+          "slug": "scaphold-io",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The Universal API"
+        }
+      ],
+      "batch_size": 116
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1969,
+      "direct_competitors": [
+        {
+          "name": "Amiato",
+          "slug": "amiato",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "The BI bridge for unstructured data. We automatically bridge the gap\u2026"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Simple multiplayer game servers."
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Backlift allows front-end only developers to build entire websites\u2026"
+        },
+        {
+          "name": "Documents.Me",
+          "slug": "documents-me",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Client-side encryption for your devices and the cloud."
+        },
+        {
+          "name": "Apollo",
+          "slug": "apollo",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Apollo helps engineering teams accelerate delivery"
+        },
+        {
+          "name": "Proxino",
+          "slug": "proxino",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Javascript proxy."
+        },
+        {
+          "name": "PhoneSys",
+          "slug": "phonesys",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "The Phone System for Sales Teams."
+        },
+        {
+          "name": "Cryptoseal",
+          "slug": "cryptoseal",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Server key management, VPN as a Service, Privacy VPN.  Sold to\u2026"
+        },
+        {
+          "name": "Citus Data",
+          "slug": "citus-data",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Real-time. Big data. PostgreSQL"
+        },
+        {
+          "name": "Realm",
+          "slug": "realm",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Better data structures = no DB."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Palo Alto",
+      "location": "Palo Alto, CA, USA",
+      "companies_in_city": 93,
+      "active_in_city": 41,
+      "nearby_companies": [
+        {
+          "name": "Hipmob",
+          "slug": "hipmob",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Amiato",
+          "slug": "amiato",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Pixelapse",
+          "slug": "pixelapse",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "LVL6",
+          "slug": "lvl6",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "GiveSpark",
+          "slug": "givespark",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Proxino",
+          "slug": "proxino",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Science Exchange",
+          "slug": "science-exchange",
+          "batch": "Summer 2011",
+          "industry": "Healthcare",
+          "status": "Acquired"
+        },
+        {
+          "name": "Clerky",
+          "slug": "clerky",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Assembled",
+          "slug": "assembled",
+          "batch": "Winter 2011",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Pebble",
+          "slug": "pebble",
+          "batch": "Winter 2011",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Insight Data Science",
+          "slug": "insight-data-science",
+          "batch": "Winter 2011",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "AeroFS",
+          "slug": "aerofs",
+          "batch": "Summer 2010",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Etacts",
+          "slug": "etacts",
+          "batch": "Winter 2010",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Lockitron",
+          "slug": "lockitron",
+          "batch": "Summer 2009",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "GraffitiGeo",
+          "slug": "graffitigeo",
+          "batch": "Summer 2009",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Snipd",
+          "slug": "snipd",
+          "batch": "Summer 2008",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Machine Zone",
+          "slug": "machine-zone",
+          "batch": "Winter 2008",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fuzzwich",
+          "slug": "fuzzwich",
+          "batch": "Summer 2007",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Jumpchat",
+          "slug": "jumpchat",
+          "batch": "Summer 2006",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Pixate",
+          "slug": "pixate",
+          "batch": "Summer 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Armory",
+        "slug": "armory",
+        "batch": "Winter 2017",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Bitrise",
+        "slug": "bitrise",
+        "batch": "Winter 2017",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Terark",
+        "slug": "terark",
+        "batch": "Winter 2017",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Amiato",
+        "slug": "amiato",
+        "batch": "Winter 2012",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Proxino",
+        "slug": "proxino",
+        "batch": "Summer 2011",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "AeroFS",
+        "slug": "aerofs",
+        "batch": "Summer 2010",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Pixate",
+        "slug": "pixate",
+        "batch": "Summer 2012",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Protocol Labs",
+        "slug": "protocol-labs",
+        "batch": "Summer 2014",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Expo",
+        "slug": "expo",
+        "batch": "Summer 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "BuildBuddy",
+        "slug": "buildbuddy",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 2954,
+      "network_density_score": 81.6,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:18:26.699127"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:18:26.699132",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:18:27.024924",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:18:27.149750",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 11,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:58.413688",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increasing demand for video streaming",
+        "Growth of 4K and HD video content",
+        "Decentralized content delivery solutions"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Network effects from P2P delivery, technology",
+      "differentiation": "P2P CDN optimized for video streaming, reducing reliance on traditional CDNs.",
+      "competitive_advantages": [
+        "Reduced bandwidth costs for publishers",
+        "Improved video quality and reduced buffering"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on user participation for P2P network",
+        "Potential security concerns with P2P technology"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "Adoption by video streaming platforms",
+        "Increased video traffic delivered via P2P"
+      ],
+      "growth_bottlenecks": [
+        "User adoption of P2P technology",
+        "Integration with existing CDN infrastructure"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "low",
+      "overall_risk_score": 4,
+      "key_risks": [
+        "Competition from established CDNs",
+        "Changes in browser P2P support",
+        "Negative perception of P2P technology"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Innovative P2P CDN technology",
+        "Cost savings for video publishers",
+        "Improved video streaming experience"
+      ],
+      "concerns": [
+        "Scalability of P2P network",
+        "Dependence on browser technology"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Limelight Networks",
+        "Akamai"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Expand partnerships with video platforms",
+        "Enhance security and privacy features"
+      ],
+      "expansion_opportunities": [
+        "Integrate with other content delivery solutions",
+        "Offer P2P CDN for other types of content"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 722,
+      "completion": 606,
+      "total": 1328,
+      "estimated_cost": 0.000236
+    }
+  },
+  "phase8_complete": true
+}

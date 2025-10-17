@@ -1,0 +1,589 @@
+{
+  "slug": "govpredict",
+  "name": "GovPredict",
+  "yc_id": 675,
+  "batch": "Summer 2014",
+  "website": "http://govpredict.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:34:11.445021",
+    "website": "http://govpredict.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 3620.84,
+      "final_url": "https://www.quorum.us:443/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:34:15.065873"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "govpredict.com",
+      "registrar": null,
+      "creation_date": null,
+      "expiration_date": null,
+      "domain_age_days": null,
+      "domain_age_years": null,
+      "name_servers": []
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/QuorumAnalytics",
+      "linkedin": "https://www.linkedin.com/company/quorum-analytics-inc-",
+      "github": null,
+      "facebook": "https://www.facebook.com/QuorumAnalytics/",
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 16,
+      "server": "cloudflare"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:14:45.477243",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:14:36.415705",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "Washington, DC, USA",
+      "coordinates": {
+        "latitude": 38.9072,
+        "longitude": -77.0369
+      },
+      "timezone": {
+        "timezone_id": "America/New_York",
+        "timezone_name": "America/New_York"
+      },
+      "retrieved_at": "2025-10-17T10:14:36.415750"
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:14:36.415771",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:14:36.415774",
+    "batch_network": {
+      "batch": "Summer 2014",
+      "total_batch_mates": 77,
+      "active_batch_mates": 24,
+      "batch_success_rate": 31.2,
+      "notable_batch_mates": [
+        {
+          "name": "Zip Phone",
+          "slug": "zip-phone",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Whatsapp for voice"
+        },
+        {
+          "name": "Parenthoods",
+          "slug": "parenthoods",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Communities for expecting and new parents. "
+        },
+        {
+          "name": "Bitaccess",
+          "slug": "bitaccess",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "We make bitcoin simple. "
+        },
+        {
+          "name": "Carlypso",
+          "slug": "carlypso",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Used car marketplace"
+        },
+        {
+          "name": "Checkr",
+          "slug": "checkr",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "People infrastructure for the future of work"
+        },
+        {
+          "name": "Clara Labs",
+          "slug": "clara-labs",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Clara is a human-in-the-loop assistant that helps automate repetitive\u2026"
+        },
+        {
+          "name": "Craft Coffee",
+          "slug": "craft-coffee",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Better coffee for less money"
+        },
+        {
+          "name": "PersistIQ",
+          "slug": "persistiq",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "PersistIQ is a free email automation platform to send a small batch\u2026"
+        },
+        {
+          "name": "Blockspring",
+          "slug": "blockspring",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Automate data collection for spreadsheets and productivity tools."
+        },
+        {
+          "name": "Hublo",
+          "slug": "hublo",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Hublo is making data-driven marketing simpler. It's a super simple\u2026"
+        }
+      ],
+      "batch_size": 78
+    },
+    "industry_network": {
+      "industries": [
+        "Government"
+      ],
+      "total_industry_peers": 39,
+      "active_industry_peers": 30,
+      "direct_competitors": [
+        {
+          "name": "Remix",
+          "slug": "remix",
+          "status": "Acquired",
+          "batch": "Winter 2015",
+          "one_liner": "We\u2019re building a platform to empower cities to plan the best possible\u2026"
+        },
+        {
+          "name": "Rescue Forensics",
+          "slug": "rescue-forensics",
+          "status": "Inactive",
+          "batch": "Winter 2015",
+          "one_liner": "Actionable human trafficking intelligence"
+        },
+        {
+          "name": "Zenysis",
+          "slug": "zenysis",
+          "status": "Active",
+          "batch": "Winter 2016",
+          "one_liner": "Building powerful data analysis software for developing countries."
+        },
+        {
+          "name": "Seneca Systems",
+          "slug": "seneca-systems",
+          "status": "Acquired",
+          "batch": "Summer 2016",
+          "one_liner": "Constituent system-of-record and service request management software\u2026"
+        },
+        {
+          "name": "DemocracyOS",
+          "slug": "democracyos",
+          "status": "Active",
+          "batch": "Winter 2015",
+          "one_liner": "Online space for deliberation, policy making and democratic\u2026"
+        },
+        {
+          "name": "Token Transit",
+          "slug": "token-transit",
+          "status": "Active",
+          "batch": "Winter 2017",
+          "one_liner": "Complete fare payment platform for public transportation"
+        },
+        {
+          "name": "Elucd",
+          "slug": "elucd",
+          "status": "Acquired",
+          "batch": "Summer 2017",
+          "one_liner": "Polling through mobile ads to enable governments to make better\u2026"
+        },
+        {
+          "name": "Value Voting",
+          "slug": "value-voting",
+          "status": "Inactive",
+          "batch": "Summer 2017",
+          "one_liner": "Platform to defeat political extremism through strategic primary\u2026"
+        },
+        {
+          "name": "RideAlong",
+          "slug": "ridealong",
+          "status": "Inactive",
+          "batch": "Summer 2017",
+          "one_liner": "We save lives by giving police and health workers key info to safely\u2026"
+        },
+        {
+          "name": "Just Appraised",
+          "slug": "just-appraised",
+          "status": "Active",
+          "batch": "Summer 2017",
+          "one_liner": "Just Appraised makes software for local governments."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Washington",
+      "location": "Washington, DC, USA; Remote",
+      "companies_in_city": 12,
+      "active_in_city": 10,
+      "nearby_companies": [
+        {
+          "name": "Magic",
+          "slug": "magic",
+          "batch": "Winter 2015",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "GiveCampus",
+          "slug": "givecampus",
+          "batch": "Summer 2015",
+          "industry": "Education",
+          "status": "Active"
+        },
+        {
+          "name": "Beanstalk",
+          "slug": "beanstalk",
+          "batch": "Winter 2018",
+          "industry": "Industrials",
+          "status": "Active"
+        },
+        {
+          "name": "Iambiq Technologies",
+          "slug": "iambiq-technologies",
+          "batch": "Winter 2018",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "The Good Food Institute",
+          "slug": "the-good-food-institute",
+          "batch": "Summer 2018",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "hotglue",
+          "slug": "hotglue",
+          "batch": "Summer 2021",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Loops",
+          "slug": "loops",
+          "batch": "Winter 2022",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Vendoo",
+          "slug": "vendoo",
+          "batch": "Winter 2022",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Cinder",
+          "slug": "cinder-2",
+          "batch": "Winter 2022",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Jasmine Energy",
+          "slug": "jasmine-energy",
+          "batch": "Summer 2022",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Rescript",
+          "slug": "rescript",
+          "batch": "Summer 2024",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Capitol AI",
+          "slug": "capitol-ai",
+          "batch": "Summer 2024",
+          "industry": "B2B",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "low"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Aptible",
+        "slug": "aptible",
+        "batch": "Summer 2014",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 4,
+        "similarity_reasons": [
+          "same_batch",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Zip Phone",
+        "slug": "zip-phone",
+        "batch": "Summer 2014",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 4,
+        "similarity_reasons": [
+          "same_batch",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Backpack",
+        "slug": "backpack",
+        "batch": "Summer 2014",
+        "industry": "Consumer",
+        "status": "Active",
+        "similarity_score": 4,
+        "similarity_reasons": [
+          "same_batch",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Bannerman",
+        "slug": "bannerman",
+        "batch": "Summer 2014",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 4,
+        "similarity_reasons": [
+          "same_batch",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Parenthoods",
+        "slug": "parenthoods",
+        "batch": "Summer 2014",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 4,
+        "similarity_reasons": [
+          "same_batch",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "SpringWit",
+        "slug": "springwit",
+        "batch": "Summer 2014",
+        "industry": "Healthcare",
+        "status": "Inactive",
+        "similarity_score": 4,
+        "similarity_reasons": [
+          "same_batch",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Bikanta",
+        "slug": "bikanta",
+        "batch": "Summer 2014",
+        "industry": "Healthcare",
+        "status": "Inactive",
+        "similarity_score": 4,
+        "similarity_reasons": [
+          "same_batch",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Billforward",
+        "slug": "billforward",
+        "batch": "Summer 2014",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 4,
+        "similarity_reasons": [
+          "same_batch",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Bitaccess",
+        "slug": "bitaccess",
+        "batch": "Summer 2014",
+        "industry": "Fintech",
+        "status": "Acquired",
+        "similarity_score": 4,
+        "similarity_reasons": [
+          "same_batch",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Carlypso",
+        "slug": "carlypso",
+        "batch": "Summer 2014",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 4,
+        "similarity_reasons": [
+          "same_batch",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 128,
+      "network_density_score": 20.9,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": false,
+      "has_strong_geo_network": false,
+      "calculated_at": "2025-10-17T10:14:36.422127"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:14:36.422130",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:14:36.751446",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:14:36.848999",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 60,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:44:33.854953",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "medium",
+      "market_stage": "growing",
+      "key_trends": [
+        "Digital transformation in government",
+        "Increased regulatory compliance requirements",
+        "Growing demand for transparency in government affairs"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Data aggregation and specialized domain expertise in government affairs workflow",
+      "differentiation": "Comprehensive system of record specifically designed for government affairs professionals",
+      "competitive_advantages": [
+        "Specialized government affairs focus",
+        "Comprehensive data aggregation"
+      ],
+      "competitive_vulnerabilities": [
+        "Niche market limits scale",
+        "Dependent on government data access"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "medium",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "mature",
+      "growth_indicators": [
+        "60-person team size",
+        "Successful acquisition exit"
+      ],
+      "growth_bottlenecks": [
+        "Limited addressable market",
+        "Complex sales cycles with government entities"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "low",
+      "overall_risk_score": 3,
+      "key_risks": [
+        "Regulatory changes affecting data access",
+        "Government budget constraints",
+        "Limited market expansion opportunities"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Proven acquisition exit",
+        "Specialized vertical expertise",
+        "Strong team execution with 60 employees"
+      ],
+      "concerns": [
+        "Niche market constraints",
+        "Dependency on government sector dynamics"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "FiscalNote",
+        "Quorum Analytics"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Leverage acquisition success for team expansion",
+        "Explore adjacent regulatory markets"
+      ],
+      "expansion_opportunities": [
+        "Corporate compliance tracking",
+        "International government affairs markets"
+      ]
+    },
+    "tokens_used": {
+      "input": 649,
+      "output": 491,
+      "total": 1140,
+      "estimated_cost": 0.009312
+    }
+  },
+  "phase8_complete": true
+}

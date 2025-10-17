@@ -1,0 +1,140 @@
+{
+  "slug": "pledge-health",
+  "name": "Pledge Health",
+  "yc_id": 27785,
+  "batch": "Winter 2023",
+  "website": "https://www.pledge.health/",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T01:20:31.008397",
+    "website": "https://www.pledge.health/",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 1374.08,
+      "final_url": "https://www.pledge.health/",
+      "redirected": false,
+      "checked_at": "2025-10-17T01:20:32.382486"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "pledge.health",
+      "error": "Whois command returned no output"
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 16,
+      "server": "Vercel"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:39:18.089890",
+  "phase1_complete": true,
+  "phase2_complete": false,
+  "phase3_complete": false,
+  "phase4_complete": false,
+  "phase5_complete": false,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:42:28.437797",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increased adoption of AI in healthcare",
+        "Growing complexity of insurance processes",
+        "Pressure on healthcare providers to reduce administrative costs"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Technology (AI model trained on payer portals) and data network effects (more data improves AI accuracy)",
+      "differentiation": "AI browser assistant that works directly within EHR systems and automates tasks across all payer portals.",
+      "competitive_advantages": [
+        "Seamless integration with existing workflows",
+        "Significant time and cost savings for clinics"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on accuracy of AI model; errors could be costly",
+        "Dependence on payer portal APIs and potential changes to those APIs"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "seed",
+      "growth_indicators": [
+        "Number of clinics using the platform",
+        "Reduction in administrative costs for clients"
+      ],
+      "growth_bottlenecks": [
+        "Sales cycle length to onboard new clinics",
+        "Training the AI model on new payer portals"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "low",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "AI model inaccuracies leading to claim denials",
+        "Data security and privacy compliance (HIPAA)",
+        "Competition from larger RCM vendors"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Addresses a significant pain point for healthcare providers",
+        "Strong value proposition (cost savings and efficiency gains)",
+        "Scalable SaaS business model"
+      ],
+      "concerns": [
+        "Technology risk associated with AI accuracy",
+        "Competition in the RCM space"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Waystar",
+        "R1 RCM"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on expanding the AI model's coverage of payer portals",
+        "Develop strong customer success processes to ensure client satisfaction"
+      ],
+      "expansion_opportunities": [
+        "Integrate with more EHR systems",
+        "Offer additional AI-powered RCM services (e.g., denial management)"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 671,
+      "completion": 654,
+      "total": 1325,
+      "estimated_cost": 0.000247
+    }
+  },
+  "phase8_complete": true
+}

@@ -1,0 +1,720 @@
+{
+  "slug": "heroic-labs",
+  "name": "Heroic Labs",
+  "yc_id": 884,
+  "batch": "Summer 2015",
+  "website": "http://heroiclabs.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:35:45.627533",
+    "website": "http://heroiclabs.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 382.28,
+      "final_url": "https://heroiclabs.com:443/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:35:46.009833"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "heroiclabs.com",
+      "registrar": "Squarespace Domains II LLC",
+      "creation_date": "2011-04-21T05:28:38",
+      "expiration_date": "2028-04-21T05:28:38",
+      "domain_age_days": 5292,
+      "domain_age_years": 14.5,
+      "name_servers": [
+        "NS-CLOUD-D1.GOOGLEDOMAINS.COM",
+        "NS-CLOUD-D2.GOOGLEDOMAINS.COM",
+        "NS-CLOUD-D3.GOOGLEDOMAINS.COM",
+        "NS-CLOUD-D4.GOOGLEDOMAINS.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/heroicdev",
+      "linkedin": null,
+      "github": "https://github.com/heroiclabs/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": "https://www.youtube.com/@heroiclabs"
+    },
+    "security_headers": {
+      "strict_transport_security": false,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 0,
+      "server": "UploadServer"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:16:02.076204",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:15:49.406725",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "London, UK",
+      "coordinates": {
+        "latitude": 51.5074,
+        "longitude": -0.1278
+      },
+      "timezone": {
+        "timezone_id": "Europe/London",
+        "timezone_name": "Europe/London"
+      },
+      "retrieved_at": "2025-10-17T10:14:19.264834",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:15:49.406762",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/heroiclabs"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 4,
+        "packages": [
+          {
+            "name": "@heroiclabs/nakama-js",
+            "description": "JavaScript client for Nakama server written in TypeScript.",
+            "version": "2.8.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@heroiclabs/nakama-js"
+          },
+          {
+            "name": "@heroiclabs/nakama-js-protobuf",
+            "description": "Websocket adapter adding protocol buffer support to the Nakama Javascript client.",
+            "version": "1.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@heroiclabs/nakama-js-protobuf"
+          },
+          {
+            "name": "@heroiclabs/satori-js",
+            "description": "JavaScript client for Satori server written in TypeScript.",
+            "version": "2.7.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@heroiclabs/satori-js"
+          },
+          {
+            "name": "nakama-ts",
+            "description": "JavaScript client for Nakama server written in TypeScript.",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/nakama-ts"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 4,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:15:50.674208"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:15:50.674234",
+    "batch_network": {
+      "batch": "Summer 2015",
+      "total_batch_mates": 104,
+      "active_batch_mates": 46,
+      "batch_success_rate": 44.2,
+      "notable_batch_mates": [
+        {
+          "name": "Triplebyte",
+          "slug": "triplebyte",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Intelligent technical hiring."
+        },
+        {
+          "name": "Jopwell",
+          "slug": "jopwell",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Career advancement for Black, Latinx & Native American professionals."
+        },
+        {
+          "name": "L.",
+          "slug": "l",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "L. makes award-winning personal care products with organic materials."
+        },
+        {
+          "name": "OpenInvest",
+          "slug": "openinvest",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Values based personalization at scale for asset and wealth management"
+        },
+        {
+          "name": "Second Measure",
+          "slug": "second-measure",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Unlock the power of transaction data."
+        },
+        {
+          "name": "SourceDNA",
+          "slug": "sourcedna",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Bringing transparency to the app stores and helping developers build\u2026"
+        },
+        {
+          "name": "Convox",
+          "slug": "convox",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Open-source tools for deploying, managing, and monitoring cloud\u2026"
+        },
+        {
+          "name": "Cymmetria",
+          "slug": "cymmetria",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Shifting the asymmetry of cyber security."
+        },
+        {
+          "name": "Eden",
+          "slug": "eden",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Workplace software for people-centric companies. "
+        },
+        {
+          "name": "Foxpass",
+          "slug": "foxpass",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Making enterprise security practices available for all companies."
+        }
+      ],
+      "batch_size": 105
+    },
+    "industry_network": {
+      "industries": [
+        "Consumer",
+        "Gaming"
+      ],
+      "total_industry_peers": 852,
+      "active_industry_peers": 407,
+      "direct_competitors": [
+        {
+          "name": "Tap to Learn",
+          "slug": "tap-to-learn",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Games For Education"
+        },
+        {
+          "name": "LVL6",
+          "slug": "lvl6",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "We make mobile MMOs. "
+        },
+        {
+          "name": "Zigfu",
+          "slug": "zigfu",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Layer above Kinect."
+        },
+        {
+          "name": "Launchpad Toys",
+          "slug": "launchpad-toys",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Creativity at Play.  Tablet toys.   Acquired by Google, 2015."
+        },
+        {
+          "name": "FitFu",
+          "slug": "fitfu",
+          "status": "Inactive",
+          "batch": "Winter 2011",
+          "one_liner": "New projects"
+        },
+        {
+          "name": "Humble Bundle",
+          "slug": "humble-bundle",
+          "status": "Acquired",
+          "batch": "Winter 2011",
+          "one_liner": "Pay what you want for awesome games and other content while giving to\u2026"
+        },
+        {
+          "name": "Mino Games",
+          "slug": "mino-games",
+          "status": "Active",
+          "batch": "Winter 2011",
+          "one_liner": "Mobile games company"
+        },
+        {
+          "name": "Teevox",
+          "slug": "teevox",
+          "status": "Inactive",
+          "batch": "Summer 2010",
+          "one_liner": "Teevox"
+        },
+        {
+          "name": "Opzi",
+          "slug": "opzi",
+          "status": "Inactive",
+          "batch": "Summer 2010",
+          "one_liner": "Q&A for businesses."
+        },
+        {
+          "name": "Koduco",
+          "slug": "koduco",
+          "status": "Inactive",
+          "batch": "Summer 2010",
+          "one_liner": "iPad games."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "London",
+      "location": "London, England, United Kingdom",
+      "companies_in_city": 133,
+      "active_in_city": 104,
+      "nearby_companies": [
+        {
+          "name": "CircuitHub",
+          "slug": "circuithub",
+          "batch": "Winter 2012",
+          "industry": "Industrials",
+          "status": "Active"
+        },
+        {
+          "name": "GoCardless",
+          "slug": "gocardless",
+          "batch": "Summer 2011",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Lanyrd",
+          "slug": "lanyrd",
+          "batch": "Winter 2011",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Post.fm",
+          "slug": "post-fm",
+          "batch": "Summer 2010",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Infogami",
+          "slug": "infogami",
+          "batch": "Summer 2005",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "GoScale",
+          "slug": "goscale",
+          "batch": "Summer 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Shoobs",
+          "slug": "shoobs",
+          "batch": "Winter 2014",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Hyperpad",
+          "slug": "hyperpad",
+          "batch": "Summer 2014",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Permutive",
+          "slug": "permutive",
+          "batch": "Summer 2014",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "SalesSift",
+          "slug": "salessift",
+          "batch": "Summer 2014",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "GiveMeTap",
+          "slug": "givemetap",
+          "batch": "Winter 2015",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Tab",
+          "slug": "tab",
+          "batch": "Winter 2015",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Sphere Secure Workspace",
+          "slug": "sphere-secure-workspace",
+          "batch": "Summer 2015",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "80,000 Hours",
+          "slug": "80-000-hours",
+          "batch": "Summer 2015",
+          "industry": "Unspecified",
+          "status": "Active"
+        },
+        {
+          "name": "SmartSite",
+          "slug": "smartsite",
+          "batch": "Summer 2016",
+          "industry": "Real Estate and Construction",
+          "status": "Inactive"
+        },
+        {
+          "name": "Shipamax",
+          "slug": "shipamax",
+          "batch": "Winter 2017",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fat Llama",
+          "slug": "fat-llama",
+          "batch": "Summer 2017",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Entocycle",
+          "slug": "entocycle",
+          "batch": "Summer 2017",
+          "industry": "Industrials",
+          "status": "Active"
+        },
+        {
+          "name": "Opearlo",
+          "slug": "opearlo",
+          "batch": "Summer 2017",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Muzz",
+          "slug": "muzz",
+          "batch": "Summer 2017",
+          "industry": "Consumer",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Hyperpad",
+        "slug": "hyperpad",
+        "batch": "Summer 2014",
+        "industry": "Consumer",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Lugg",
+        "slug": "lugg",
+        "batch": "Summer 2015",
+        "industry": "Consumer",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "L.",
+        "slug": "l",
+        "batch": "Summer 2015",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Roomblocker",
+        "slug": "roomblocker",
+        "batch": "Summer 2015",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Scope AR",
+        "slug": "scope-ar",
+        "batch": "Summer 2015",
+        "industry": "Consumer",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Afrostream",
+        "slug": "afrostream",
+        "batch": "Summer 2015",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Apollo Health",
+        "slug": "apollo-health",
+        "batch": "Summer 2015",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Willing",
+        "slug": "willing",
+        "batch": "Summer 2015",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Chaldal",
+        "slug": "chaldal",
+        "batch": "Summer 2015",
+        "industry": "Consumer",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Sphere Secure Workspace",
+        "slug": "sphere-secure-workspace",
+        "batch": "Summer 2015",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 1089,
+      "network_density_score": 87.4,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:15:50.689119"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:15:50.689131",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:15:51.053141",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:15:51.149270",
+    "basic_info": {
+      "is_hiring": true,
+      "team_size": 21,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:41:44.610498",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Rise of multiplayer and social gaming",
+        "Shift to games-as-a-service model",
+        "Increasing demand for real-time features and analytics"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Comprehensive integrated platform with deep gaming expertise and proven scalability",
+      "differentiation": "Full-stack gaming infrastructure with specialized tools like Nakama server and Satori analytics",
+      "competitive_advantages": [
+        "Domain expertise in gaming infrastructure",
+        "Integrated suite reducing vendor fragmentation"
+      ],
+      "competitive_vulnerabilities": [
+        "Competition from cloud giants like AWS GameLift",
+        "Potential for gaming studios to build in-house solutions"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "21-person team size suggests scaling",
+        "9+ years since YC batch indicates sustained growth"
+      ],
+      "growth_bottlenecks": [
+        "Sales cycle complexity with enterprise gaming clients",
+        "Need for continuous platform innovation"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "low",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Gaming market cyclicality",
+        "Platform consolidation by major cloud providers",
+        "Customer concentration risk"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Experienced team with relevant technical background",
+        "Comprehensive product suite addressing multiple gaming needs",
+        "Long-term domain focus and expertise"
+      ],
+      "concerns": [
+        "Intense competition from well-funded cloud platforms",
+        "Gaming industry's boom-bust cycles"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Unity Technologies",
+        "Playfab (acquired by Microsoft)"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Expand enterprise sales team",
+        "Develop strategic partnerships with game engines"
+      ],
+      "expansion_opportunities": [
+        "Mobile gaming infrastructure",
+        "Emerging markets expansion",
+        "Web3/blockchain gaming tools"
+      ]
+    },
+    "tokens_used": {
+      "input": 746,
+      "output": 556,
+      "total": 1302,
+      "estimated_cost": 0.010578
+    }
+  },
+  "phase8_complete": true
+}

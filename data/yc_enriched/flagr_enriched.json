@@ -1,0 +1,559 @@
+{
+  "slug": "flagr",
+  "name": "Flagr",
+  "yc_id": 371,
+  "batch": "Winter 2006",
+  "website": "http://flagr.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:31:49.988918",
+    "website": "http://flagr.com",
+    "website_status": {
+      "reachable": false,
+      "error": "connection_error"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "flagr.com",
+      "registrar": "Porkbun LLC",
+      "creation_date": "2017-06-07T18:42:37",
+      "expiration_date": "2026-06-07T18:42:37",
+      "domain_age_days": 3053,
+      "domain_age_years": 8.4,
+      "name_servers": [
+        "CURITIBA.NS.PORKBUN.COM",
+        "FORTALEZA.NS.PORKBUN.COM",
+        "MACEIO.NS.PORKBUN.COM",
+        "SALVADOR.NS.PORKBUN.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "error": "HTTPConnectionPool(host='flagr.com', port=80): Max retries exceeded with url: / (Caused by NameResol"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:13:30.964752",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:03:58.433653",
+    "place_data": {
+      "status": "success",
+      "method": "nominatim",
+      "formatted_address": "New York, United States",
+      "coordinates": {
+        "latitude": 43.1561681,
+        "longitude": -75.8449946
+      },
+      "place_types": [
+        "administrative"
+      ],
+      "retrieved_at": "2025-10-17T10:04:02.614715"
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:04:02.617715",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:04:02.617739",
+    "batch_network": {
+      "batch": "Winter 2006",
+      "total_batch_mates": 6,
+      "active_batch_mates": 0,
+      "batch_success_rate": 0.0,
+      "notable_batch_mates": [
+        {
+          "name": "Inkling",
+          "slug": "inkling",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": ""
+        },
+        {
+          "name": "Clustrix",
+          "slug": "clustrix",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": ""
+        },
+        {
+          "name": "Project Wedding",
+          "slug": "project-wedding",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": ""
+        },
+        {
+          "name": "Wufoo",
+          "slug": "wufoo",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Online form builder."
+        }
+      ],
+      "batch_size": 7
+    },
+    "industry_network": {
+      "industries": [
+        "Consumer",
+        "Social"
+      ],
+      "total_industry_peers": 852,
+      "active_industry_peers": 408,
+      "direct_competitors": [
+        {
+          "name": "Couple",
+          "slug": "couple",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "App that connects two phones and creates a private\r\ntimeline to share\u2026"
+        },
+        {
+          "name": "FamilyLeaf",
+          "slug": "familyleaf",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Help families stay in touch"
+        },
+        {
+          "name": "Zipio",
+          "slug": "zipio",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Deal search service"
+        },
+        {
+          "name": "Talkray (TiKL)",
+          "slug": "talkray-tikl",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Instantly talk or text to one or a group of friends at once with the\u2026"
+        },
+        {
+          "name": "Everyme",
+          "slug": "everyme",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "The #1 private social network"
+        },
+        {
+          "name": "Vapor",
+          "slug": "vapor",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "In-video advertising."
+        },
+        {
+          "name": "GlassMap",
+          "slug": "glassmap",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Location sharing. Acquired by Groupon in 2013."
+        },
+        {
+          "name": "Hungry Labs",
+          "slug": "hungry-labs",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Now part of Snaplayer."
+        },
+        {
+          "name": "Assembled",
+          "slug": "assembled",
+          "status": "Inactive",
+          "batch": "Winter 2011",
+          "one_liner": "Pivoted to TenXList, a professional network of top college engineers."
+        },
+        {
+          "name": "Convore",
+          "slug": "convore",
+          "status": "Inactive",
+          "batch": "Winter 2011",
+          "one_liner": "Hosted IRC and so much more."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "NY",
+      "location": "NY, USA",
+      "companies_in_city": 14,
+      "active_in_city": 4,
+      "nearby_companies": [
+        {
+          "name": "Genius",
+          "slug": "genius",
+          "batch": "Summer 2011",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Vapor",
+          "slug": "vapor",
+          "batch": "Summer 2011",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Frogmetrics",
+          "slug": "frogmetrics",
+          "batch": "Summer 2008",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Eligible",
+          "slug": "eligible",
+          "batch": "Summer 2012",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Craft Coffee",
+          "slug": "craft-coffee",
+          "batch": "Summer 2014",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Paperspace",
+          "slug": "paperspace",
+          "batch": "Winter 2015",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Yhat",
+          "slug": "yhat",
+          "batch": "Winter 2015",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Level Frames",
+          "slug": "level-frames",
+          "batch": "Winter 2015",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Call9",
+          "slug": "call9",
+          "batch": "Summer 2015",
+          "industry": "Healthcare",
+          "status": "Inactive"
+        },
+        {
+          "name": "HistoWiz",
+          "slug": "histowiz",
+          "batch": "Winter 2016",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Envyl",
+          "slug": "envyl",
+          "batch": "Winter 2016",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Voodoo Manufacturing",
+          "slug": "voodoo-manufacturing",
+          "batch": "Winter 2017",
+          "industry": "Industrials",
+          "status": "Inactive"
+        },
+        {
+          "name": "Players' Lounge",
+          "slug": "players-lounge",
+          "batch": "Winter 2018",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Clover",
+          "slug": "clover",
+          "batch": "Summer 2020",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "low"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Vapor",
+        "slug": "vapor",
+        "batch": "Summer 2011",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Snipshot",
+        "slug": "snipshot",
+        "batch": "Winter 2006",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Project Wedding",
+        "slug": "project-wedding",
+        "batch": "Winter 2006",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Couple",
+        "slug": "couple",
+        "batch": "Winter 2012",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 5,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "FamilyLeaf",
+        "slug": "familyleaf",
+        "batch": "Winter 2012",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 5,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Zipio",
+        "slug": "zipio",
+        "batch": "Winter 2012",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 5,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Talkray (TiKL)",
+        "slug": "talkray-tikl",
+        "batch": "Winter 2012",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 5,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Genius",
+        "slug": "genius",
+        "batch": "Summer 2011",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 5,
+        "similarity_reasons": [
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Everyme",
+        "slug": "everyme",
+        "batch": "Summer 2011",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 5,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "GlassMap",
+        "slug": "glassmap",
+        "batch": "Summer 2011",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 5,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 872,
+      "network_density_score": 44.0,
+      "has_strong_batch_network": false,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": false,
+      "calculated_at": "2025-10-17T10:04:02.632505"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:04:02.632515",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:04:02.970676",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:04:03.079193",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 2,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:50.066296",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "medium",
+      "market_stage": "mature",
+      "key_trends": [
+        "User-generated content",
+        "Location-based services",
+        "Embedded maps"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Limited. Early mover advantage diminished over time.",
+      "differentiation": "Simple map creation and embedding.",
+      "competitive_advantages": [
+        "Early entry into the market",
+        "Simple user interface"
+      ],
+      "competitive_vulnerabilities": [
+        "Lack of strong network effects",
+        "Easily replicable features"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "Likely freemium or subscription (inferred)",
+      "scalability": "medium",
+      "capital_intensity": "low"
+    },
+    "growth_assessment": {
+      "growth_stage": "inactive",
+      "growth_indicators": [
+        "User engagement metrics (unavailable)",
+        "Website traffic (unavailable)"
+      ],
+      "growth_bottlenecks": [
+        "Competition from larger players",
+        "Lack of product differentiation"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "low",
+      "technology_risk": "low",
+      "execution_risk": "high",
+      "overall_risk_score": 7,
+      "key_risks": [
+        "Dominance of Google Maps and similar platforms",
+        "Lack of sustainable competitive advantage",
+        "Inability to monetize effectively"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Simple concept",
+        "Early mover in the space"
+      ],
+      "concerns": [
+        "Inactive status",
+        "Lack of defensibility",
+        "Mature market with strong competitors"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Google Maps",
+        "Mapbox"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Pivot to a niche market",
+        "Explore integration with other platforms"
+      ],
+      "expansion_opportunities": [
+        "Focus on specific industries (e.g., real estate)",
+        "Develop advanced mapping features"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 630,
+      "completion": 563,
+      "total": 1193,
+      "estimated_cost": 0.000216
+    }
+  },
+  "phase8_complete": true
+}

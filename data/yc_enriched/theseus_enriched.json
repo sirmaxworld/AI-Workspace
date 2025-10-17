@@ -1,0 +1,148 @@
+{
+  "slug": "theseus",
+  "name": "Theseus",
+  "yc_id": 29589,
+  "batch": "Summer 2024",
+  "website": "https://theseus.us",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T01:30:48.321717",
+    "website": "https://theseus.us",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 2576.22,
+      "final_url": "https://www.theseus.us/",
+      "redirected": true,
+      "checked_at": "2025-10-17T01:30:50.897943"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "theseus.us",
+      "registrar": "GoDaddy.com, LLC",
+      "creation_date": "2023-12-29T00:00:15",
+      "expiration_date": "2025-12-29T00:00:15",
+      "domain_age_days": 658,
+      "domain_age_years": 1.8,
+      "name_servers": [
+        "reza.ns.cloudflare.com",
+        "huxley.ns.cloudflare.com"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": true,
+      "x_frame_options": true,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 50,
+      "server": "Unknown"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:41:55.202793",
+  "phase1_complete": true,
+  "phase2_complete": false,
+  "phase3_complete": false,
+  "phase4_complete": false,
+  "phase5_complete": false,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:23.963921",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "medium",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increased drone adoption in various industries",
+        "Growing demand for autonomous navigation",
+        "Rising concerns about GPS jamming and spoofing"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Proprietary algorithms and reference satellite imagery database. Potential for network effects if they become a standard.",
+      "differentiation": "GPS-denied navigation using visual positioning and inertial sensors, offering a self-contained, jam-proof solution.",
+      "competitive_advantages": [
+        "Resilience to GPS interference",
+        "No RF signature, making it suitable for sensitive applications"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on visual data, potentially affected by poor lighting or obscured views",
+        "Computational complexity and power requirements for real-time processing"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "Hardware and potentially SaaS (for map updates/data)",
+      "scalability": "medium",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "seed",
+      "growth_indicators": [
+        "Partnerships with drone manufacturers",
+        "Pilot programs with target customers"
+      ],
+      "growth_bottlenecks": [
+        "Securing regulatory approvals",
+        "Scaling production and distribution"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Competition from alternative navigation technologies",
+        "Difficulty in maintaining accurate and up-to-date reference imagery",
+        "Integration challenges with existing drone platforms"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Addresses a critical need for reliable drone navigation in GPS-denied environments",
+        "Strong technical team with relevant expertise",
+        "Potential for high margins with a differentiated product"
+      ],
+      "concerns": [
+        "Market adoption rate and customer willingness to switch from GPS",
+        "Ability to scale the technology and maintain accuracy in diverse environments"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Skydio",
+        "Auterion"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on securing pilot programs with key customers in target industries",
+        "Develop a robust data pipeline for maintaining and updating reference imagery"
+      ],
+      "expansion_opportunities": [
+        "Explore applications beyond drones, such as robotics and autonomous vehicles",
+        "Develop a software platform for managing and analyzing drone data"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 666,
+      "completion": 674,
+      "total": 1340,
+      "estimated_cost": 0.000252
+    }
+  },
+  "phase8_complete": true
+}

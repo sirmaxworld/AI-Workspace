@@ -1,0 +1,641 @@
+{
+  "slug": "280-north",
+  "name": "280 North",
+  "yc_id": 312,
+  "batch": "Winter 2008",
+  "website": "http://280north.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:31:19.833879",
+    "website": "http://280north.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 983.11,
+      "final_url": "https://outible.com",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:31:20.816992"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "280north.com",
+      "registrar": "Cloudflare, Inc.",
+      "creation_date": "2021-01-24T19:18:08",
+      "expiration_date": "2026-01-24T19:18:08",
+      "domain_age_days": 1726,
+      "domain_age_years": 4.7,
+      "name_servers": [
+        "CLYDE.NS.CLOUDFLARE.COM",
+        "KATE.NS.CLOUDFLARE.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": "https://github.com/nwwd",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": true,
+      "x_content_type_options": true,
+      "x_xss_protection": true,
+      "referrer_policy": true,
+      "security_score": 83,
+      "server": "Netlify"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:13:18.942072",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:59:10.523064",
+    "place_data": {
+      "status": "not_found",
+      "query": "San Francisco, CA, USA"
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:59:10.643422",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/nwwd"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 0,
+      "has_packages": false,
+      "checked_at": "2025-10-17T09:59:11.826076"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:59:11.826087",
+    "batch_network": {
+      "batch": "Winter 2008",
+      "total_batch_mates": 20,
+      "active_batch_mates": 2,
+      "batch_success_rate": 10.0,
+      "notable_batch_mates": [
+        {
+          "name": "A Thinking Ape",
+          "slug": "a-thinking-ape",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "We build communities through massively multiplayer mobile games"
+        },
+        {
+          "name": "Machine Zone",
+          "slug": "machine-zone",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Pioneers of mobile social gaming."
+        },
+        {
+          "name": "Omnisio",
+          "slug": "omnisio",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Edit and enhance online video. Acquired by Google in July 2008."
+        },
+        {
+          "name": "Heroku",
+          "slug": "heroku",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Enabling developers to build and run applications in the cloud."
+        }
+      ],
+      "batch_size": 21
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1969,
+      "direct_competitors": [
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "status": "Active",
+          "batch": "Winter 2012",
+          "one_liner": "High Performance Computing Built for the Cloud"
+        },
+        {
+          "name": "Marft",
+          "slug": "marft",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Marft creates embeddable machine learning models for application\u2026"
+        },
+        {
+          "name": "Pixelapse",
+          "slug": "pixelapse",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Github for designers. We automatically keep track of revisions of\u2026"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Palantir for sales people"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Smart search for the modern team."
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Authy is a Two-Factor Authentication platform for developers"
+        },
+        {
+          "name": "Flutter",
+          "slug": "flutter",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Flutter combined computer vision technology with the built-in webcams\u2026"
+        },
+        {
+          "name": "SolidStage",
+          "slug": "solidstage",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Sysadmin as a service. We make deploying, configuring, monitoring,\u2026"
+        },
+        {
+          "name": "Clutch",
+          "slug": "clutch",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "An easy to integrate library for native iOS applications designed to\u2026"
+        },
+        {
+          "name": "OneSignal",
+          "slug": "onesignal",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Engage customers through personalized omni-channel messaging"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "San Francisco",
+      "location": "San Francisco, CA, USA",
+      "companies_in_city": 2007,
+      "active_in_city": 1340,
+      "nearby_companies": [
+        {
+          "name": "42Floors",
+          "slug": "42floors",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "PlanGrid",
+          "slug": "plangrid",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "MyVR",
+          "slug": "myvr",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Couple",
+          "slug": "couple",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HackPad",
+          "slug": "hackpad",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Gusto",
+          "slug": "gusto",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "FamilyLeaf",
+          "slug": "familyleaf",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Chute",
+          "slug": "chute",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Make School",
+          "slug": "make-school",
+          "batch": "Winter 2012",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Exec",
+          "slug": "exec",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Public"
+        },
+        {
+          "name": "LendUp",
+          "slug": "lendup",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tilt",
+          "slug": "tilt",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fond",
+          "slug": "fond",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Trigger",
+        "slug": "trigger",
+        "batch": "Winter 2008",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Ninite",
+        "slug": "ninite",
+        "batch": "Winter 2008",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "FathomDB",
+        "slug": "fathomdb",
+        "batch": "Winter 2008",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Heroku",
+        "slug": "heroku",
+        "batch": "Winter 2008",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Wundrbar",
+        "slug": "wundrbar",
+        "batch": "Winter 2008",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Snaptalent",
+        "slug": "snaptalent",
+        "batch": "Winter 2008",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "BitSample",
+        "slug": "bitsample",
+        "batch": "Winter 2008",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Rescale",
+        "slug": "rescale",
+        "batch": "Winter 2012",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Zillabyte",
+        "slug": "zillabyte",
+        "batch": "Winter 2012",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Swiftype",
+        "slug": "swiftype",
+        "batch": "Winter 2012",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 4773,
+      "network_density_score": 84.0,
+      "has_strong_batch_network": false,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T09:59:11.837835"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:59:11.837843",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:59:12.156871",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:59:12.263391",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 11,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:22.605616",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "medium",
+      "market_stage": "growing",
+      "key_trends": [
+        "Rise of web-based applications",
+        "Demand for rich internet applications (RIAs)",
+        "Open-source software adoption"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "First-mover advantage in providing a desktop-like development framework for web applications (Cappuccino). Open-source community.",
+      "differentiation": "Cappuccino framework offering a desktop-like development experience for web applications using Objective-J.",
+      "competitive_advantages": [
+        "Early adoption of RIA technologies",
+        "Open-source framework fostering community contributions"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on a niche language (Objective-J)",
+        "Competition from established JavaScript frameworks"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "Potentially SaaS (280 Slides) and professional services/support for Cappuccino.",
+      "scalability": "medium",
+      "capital_intensity": "low"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "Adoption rate of Cappuccino framework",
+        "User base of 280 Slides"
+      ],
+      "growth_bottlenecks": [
+        "Limited awareness of Objective-J",
+        "Competition from more popular JavaScript frameworks"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Adoption of alternative web technologies",
+        "Maintaining open-source community engagement",
+        "Scalability of Cappuccino framework"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Innovative approach to web application development",
+        "Strong technical team",
+        "Open-source framework with potential for community growth"
+      ],
+      "concerns": [
+        "Reliance on a niche language",
+        "Competition from established players"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Ext JS",
+        "SproutCore"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on community building and documentation for Cappuccino",
+        "Develop more compelling applications showcasing Cappuccino's capabilities"
+      ],
+      "expansion_opportunities": [
+        "Offer premium support and training for Cappuccino",
+        "Integrate Cappuccino with other popular web technologies"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 714,
+      "completion": 643,
+      "total": 1357,
+      "estimated_cost": 0.000246
+    }
+  },
+  "phase8_complete": true
+}

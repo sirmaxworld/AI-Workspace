@@ -1,0 +1,1390 @@
+{
+  "slug": "axolo",
+  "name": "Axolo",
+  "yc_id": 23412,
+  "batch": "Winter 2021",
+  "website": "https://axolo.co",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T01:02:33.837142",
+    "website": "https://axolo.co",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 1703.04,
+      "final_url": "https://axolo.co/",
+      "redirected": true,
+      "checked_at": "2025-10-17T01:02:35.540193"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "axolo.co",
+      "registrar": "GoDaddy.com, LLC",
+      "creation_date": "2021-03-22T09:13:31",
+      "expiration_date": "2026-03-22T23:59:59",
+      "domain_age_days": 1669,
+      "domain_age_years": 4.6,
+      "name_servers": [
+        "NS37.DOMAINCONTROL.COM",
+        "NS38.DOMAINCONTROL.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://x.com/axolo_co",
+      "linkedin": "https://www.linkedin.com/company/axolo",
+      "github": "https://github.com/axolo-co",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 16,
+      "server": "Vercel"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:27:52.773463",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:27:40.464000",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "Paris, France",
+      "coordinates": {
+        "latitude": 48.8566,
+        "longitude": 2.3522
+      },
+      "timezone": {
+        "timezone_id": "Europe/Paris",
+        "timezone_name": "Europe/Paris"
+      },
+      "retrieved_at": "2025-10-17T10:18:08.778271",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:27:40.464021",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/axolo-co"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 100,
+        "packages": [
+          {
+            "name": "co",
+            "description": "generator async control flow goodness",
+            "version": "4.6.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/co"
+          },
+          {
+            "name": "co-body",
+            "description": "request body parsing for co",
+            "version": "6.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/co-body"
+          },
+          {
+            "name": "@0no-co/graphql.web",
+            "description": "A spec-compliant client-side GraphQL implementation",
+            "version": "1.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@0no-co/graphql.web"
+          },
+          {
+            "name": "zod",
+            "description": "TypeScript-first schema declaration and validation library with static type inference",
+            "version": "4.1.12",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/zod"
+          },
+          {
+            "name": "@gql.tada/internal",
+            "description": "Internal logic for gql.tada\u2019s CLI tool and GraphQLSP.",
+            "version": "1.0.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@gql.tada/internal"
+          },
+          {
+            "name": "co-use",
+            "description": "co using your choice of promise implementation",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/co-use"
+          },
+          {
+            "name": "co-bluebird",
+            "description": "co with bluebird promises",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/co-bluebird"
+          },
+          {
+            "name": "co-with-promise",
+            "description": "generator async control flow goodness",
+            "version": "4.6.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/co-with-promise"
+          },
+          {
+            "name": "mhchemparser",
+            "description": "Parser to convert mhchem syntax to LaTeX syntax, for downstream inclusion in MathJax, KaTeX and similar projects.",
+            "version": "4.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/mhchemparser"
+          },
+          {
+            "name": "@types/co-body",
+            "description": "TypeScript definitions for co-body",
+            "version": "6.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@types/co-body"
+          },
+          {
+            "name": "body-parser",
+            "description": "Node.js body parsing middleware",
+            "version": "2.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/body-parser"
+          },
+          {
+            "name": "@types/co",
+            "description": "TypeScript definitions for co",
+            "version": "4.6.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@types/co"
+          },
+          {
+            "name": "gql.tada",
+            "description": "The spec-compliant & magical GraphQL query language engine in the TypeScript type system",
+            "version": "1.8.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/gql.tada"
+          },
+          {
+            "name": "co-compose",
+            "description": "AdonisJS and Koa style middleware layer with ability to run parallel middleware",
+            "version": "7.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/co-compose"
+          },
+          {
+            "name": "co-prompt",
+            "description": "simple terminal user input 'co'",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/co-prompt"
+          },
+          {
+            "name": "co-mocha",
+            "description": "Enable support for generators in Mocha tests",
+            "version": "1.2.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/co-mocha"
+          },
+          {
+            "name": "co-read",
+            "description": "Consume a readable stream generator-style",
+            "version": "0.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/co-read"
+          },
+          {
+            "name": "co-busboy",
+            "description": "Busboy multipart parser as a yieldable",
+            "version": "2.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/co-busboy"
+          },
+          {
+            "name": "spdx-exceptions",
+            "description": "list of SPDX standard license exceptions",
+            "version": "2.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/spdx-exceptions"
+          },
+          {
+            "name": "@poppinss/co-body",
+            "description": "Request body parser used by AdonisJS. Forked from co-body",
+            "version": "1.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@poppinss/co-body"
+          },
+          {
+            "name": "co-from-stream",
+            "description": "Create a co generator stream from a node stream",
+            "version": "0.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/co-from-stream"
+          },
+          {
+            "name": "svg-sprite",
+            "description": "SVG sprites & stacks galore \u2014 A low-level Node.js module that takes a bunch of SVG files, optimizes them and bakes them into SVG sprites of several types along with suitable stylesheet resources (e.g. CSS, Sass, LESS, Stylus, etc.)",
+            "version": "2.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/svg-sprite"
+          },
+          {
+            "name": "wonka",
+            "description": "A tiny but capable push & pull stream library for TypeScript and Flow",
+            "version": "6.3.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/wonka"
+          },
+          {
+            "name": "co-fs-extra",
+            "description": "fs-extra for 'co'",
+            "version": "1.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/co-fs-extra"
+          },
+          {
+            "name": "bluebird-co",
+            "description": "A set of yield handlers for Bluebird coroutines",
+            "version": "2.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/bluebird-co"
+          },
+          {
+            "name": "co-request",
+            "description": "co-request promisify wrapper for request",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/co-request"
+          },
+          {
+            "name": "co-wait",
+            "description": "setTimeout generator style",
+            "version": "0.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/co-wait"
+          },
+          {
+            "name": "@0no-co/graphqlsp",
+            "description": "TypeScript LSP plugin that finds GraphQL documents in your code and provides hints and auto-generates types.",
+            "version": "1.15.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@0no-co/graphqlsp"
+          },
+          {
+            "name": "@axolo/json-editor-vue",
+            "description": "A simple JSON editor of Vue",
+            "version": "0.3.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@axolo/json-editor-vue"
+          },
+          {
+            "name": "creditcards-types",
+            "description": "Card type definitions and methods for creditcards",
+            "version": "4.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/creditcards-types"
+          },
+          {
+            "name": "await-lock",
+            "description": "Mutex locks for async functions",
+            "version": "3.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/await-lock"
+          },
+          {
+            "name": "kafka-node",
+            "description": "Client for Apache Kafka v0.9.x, v0.10.x and v0.11.x",
+            "version": "5.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/kafka-node"
+          },
+          {
+            "name": "rungen",
+            "description": "A generator runtime creator",
+            "version": "0.3.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rungen"
+          },
+          {
+            "name": "co-author-to-username",
+            "description": "Fetches the GitHub username for a co-author, if possible. \ud83d\udcc7",
+            "version": "0.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/co-author-to-username"
+          },
+          {
+            "name": "koa-bodyparser",
+            "description": "a body parser for Koa",
+            "version": "4.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/koa-bodyparser"
+          },
+          {
+            "name": "@daily-co/daily-react",
+            "description": "Daily React makes it easier to integrate [@daily-co/daily-js](https://www.npmjs.com/package/@daily-co/daily-js) in React applications.",
+            "version": "0.23.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@daily-co/daily-react"
+          },
+          {
+            "name": "@unlok-co/nuxt-stripe",
+            "description": "Nuxt module for stripe",
+            "version": "5.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@unlok-co/nuxt-stripe"
+          },
+          {
+            "name": "@daily-co/react-native-webrtc",
+            "description": "Daily fork of WebRTC for React Native",
+            "version": "124.0.6-daily.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@daily-co/react-native-webrtc"
+          },
+          {
+            "name": "co-express",
+            "description": "An express wrapper that enables generators to be used as middlewares",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/co-express"
+          },
+          {
+            "name": "description-to-co-authors",
+            "description": "Parses co-authors from Git/GitHub-style commit messages and issue bodies. \u270d\ufe0f",
+            "version": "0.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/description-to-co-authors"
+          },
+          {
+            "name": "co-thread",
+            "description": "spawn multiple co 'threads'",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/co-thread"
+          },
+          {
+            "name": "@daily-co/config-plugin-rn-daily-js",
+            "description": "Config plugin to setup react-native-daily-js on prebuild",
+            "version": "0.0.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@daily-co/config-plugin-rn-daily-js"
+          },
+          {
+            "name": "is-gen-fn",
+            "description": "determine if a function is a generator function",
+            "version": "0.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/is-gen-fn"
+          },
+          {
+            "name": "co-wrap-all",
+            "description": "Call co.wrap for multiple generator functions",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/co-wrap-all"
+          },
+          {
+            "name": "prompt-promise",
+            "description": "Sane CLI user-input (command prompt, confirm, multiline, password) as promises, it can be used with co@4",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/prompt-promise"
+          },
+          {
+            "name": "co-parallel",
+            "description": "parallel execution with concurrency control",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/co-parallel"
+          },
+          {
+            "name": "vfile",
+            "description": "Virtual file format for text processing",
+            "version": "6.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/vfile"
+          },
+          {
+            "name": "co-redis",
+            "description": "A node-redis wrapper to be used with visionmedia's co library",
+            "version": "2.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/co-redis"
+          },
+          {
+            "name": "jspdf",
+            "description": "PDF Document creation from JavaScript",
+            "version": "3.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/jspdf"
+          },
+          {
+            "name": "co-fs",
+            "description": "fs wrappers for 'co'",
+            "version": "1.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/co-fs"
+          },
+          {
+            "name": "@axolo/tree-array",
+            "description": "An array have children key and parentId key like tree.",
+            "version": "0.6.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@axolo/tree-array"
+          },
+          {
+            "name": "co-gather",
+            "description": "Execute thunks in parallel with concurrency support and gather all the results",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/co-gather"
+          },
+          {
+            "name": "thunkify",
+            "description": "Turn callbacks, arrays, generators, generator functions, and promises into a thunk",
+            "version": "2.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/thunkify"
+          },
+          {
+            "name": "blade",
+            "description": "React at the edge.",
+            "version": "3.23.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/blade"
+          },
+          {
+            "name": "co-task",
+            "description": "co wrapper as Task.jsm API",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/co-task"
+          },
+          {
+            "name": "remark-gfm",
+            "description": "remark plugin to support GFM (autolink literals, footnotes, strikethrough, tables, tasklists)",
+            "version": "4.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/remark-gfm"
+          },
+          {
+            "name": "html5sortable",
+            "description": "VanillaJS sortable lists and grids using native HTML5 drag and drop API.",
+            "version": "0.14.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/html5sortable"
+          },
+          {
+            "name": "prisma-class-validator",
+            "description": "Automatically generator class-validator schema from Prisma client",
+            "version": "1.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/prisma-class-validator"
+          },
+          {
+            "name": "@omni-co/embed",
+            "description": "## Server Side Only",
+            "version": "0.15.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@omni-co/embed"
+          },
+          {
+            "name": "@koa/bodyparser",
+            "description": "Koa body parsing middleware",
+            "version": "6.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@koa/bodyparser"
+          },
+          {
+            "name": "co-priority-queue",
+            "description": "A simple priority queue for co",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/co-priority-queue"
+          },
+          {
+            "name": "chan",
+            "description": "A go style channel implementation that works nicely with co",
+            "version": "0.6.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/chan"
+          },
+          {
+            "name": "contentful",
+            "description": "Client for Contentful's Content Delivery API",
+            "version": "11.8.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/contentful"
+          },
+          {
+            "name": "@assaabloy/amarr-wc-co-op-funds",
+            "description": "Web component - Co-op-funds",
+            "version": "9.3.24",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@assaabloy/amarr-wc-co-op-funds"
+          },
+          {
+            "name": "co-render",
+            "description": "Promise-based template rendering for Co and others",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/co-render"
+          },
+          {
+            "name": "use-sidecar",
+            "description": "Sidecar code splitting utils",
+            "version": "1.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/use-sidecar"
+          },
+          {
+            "name": "blade-cli",
+            "description": "The command-line interface for RONIN.",
+            "version": "3.23.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/blade-cli"
+          },
+          {
+            "name": "co-views",
+            "description": "Higher level promise-based template rendering for Co and others, built on co-render",
+            "version": "2.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/co-views"
+          },
+          {
+            "name": "jsonwebtoken",
+            "description": "JSON Web Token implementation (symmetric and asymmetric)",
+            "version": "9.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/jsonwebtoken"
+          },
+          {
+            "name": "co-dev-meta",
+            "description": "co.dev custom webpack loader that adds meta attributes to JSX elements",
+            "version": "0.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/co-dev-meta"
+          },
+          {
+            "name": "turbo-cli",
+            "description": "Thank you for using Turbo! For full documentation, check here: https://www.turbo360.co",
+            "version": "0.39.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/turbo-cli"
+          },
+          {
+            "name": "@layer0/cli",
+            "description": "The CLI for the [Layer0](https://docs.layer0.co), infrastructure to run your big, dynamic website frontend and make it load in less than one second.",
+            "version": "4.20.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@layer0/cli"
+          },
+          {
+            "name": "pegjs-util",
+            "description": "Utility Class for Peggy",
+            "version": "2.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/pegjs-util"
+          },
+          {
+            "name": "co-nano",
+            "description": "Exposes couchdb nano library API as thunks for use with co and koa.",
+            "version": "0.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/co-nano"
+          },
+          {
+            "name": "jasmine-co",
+            "description": "Jasmine adapter to facilitate the use of ES6 generators via co.",
+            "version": "1.2.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/jasmine-co"
+          },
+          {
+            "name": "pegjs-otf",
+            "description": "On-The-Fly Compilation for PEG.js",
+            "version": "2.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/pegjs-otf"
+          },
+          {
+            "name": "algoliasearch",
+            "description": "A fully-featured and blazing-fast JavaScript API client to interact with Algolia API.",
+            "version": "5.40.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/algoliasearch"
+          },
+          {
+            "name": "@layer0/prefetch",
+            "description": "Enables prefetching and caching of pages using Layer0 and Workbox.",
+            "version": "4.20.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@layer0/prefetch"
+          },
+          {
+            "name": "@bitgo/body-parser",
+            "description": "Node.js body parsing middleware",
+            "version": "1.15.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@bitgo/body-parser"
+          },
+          {
+            "name": "uncrypto",
+            "description": "Single API for Web Crypto API and Crypto Subtle working in Node.js, Browsers and other runtimes",
+            "version": "0.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/uncrypto"
+          },
+          {
+            "name": "blade-syntax",
+            "description": "Allows for defining RONIN queries and schemas in code.",
+            "version": "3.23.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/blade-syntax"
+          },
+          {
+            "name": "co-ware",
+            "description": "Ware inspired, easily create your own middleware layer using generators via co.",
+            "version": "1.6.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/co-ware"
+          },
+          {
+            "name": "tldts",
+            "description": "Library to work against complex domain names, subdomains and URIs.",
+            "version": "7.0.17",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/tldts"
+          },
+          {
+            "name": "blade-compiler",
+            "description": "Compiles RONIN queries to SQL statements.",
+            "version": "3.23.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/blade-compiler"
+          },
+          {
+            "name": "@layer0/next",
+            "description": "Deploy Next.js apps on the [Layer0](https://layer0.co), infrastructure to run your big, dynamic website frontend and make it load in less than one second.",
+            "version": "4.20.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@layer0/next"
+          },
+          {
+            "name": "blade-codegen",
+            "description": "Generates TypeScript code from RONIN models.",
+            "version": "3.23.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/blade-codegen"
+          },
+          {
+            "name": "node-chartist",
+            "description": "SVG Charts on the server.",
+            "version": "1.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/node-chartist"
+          },
+          {
+            "name": "@layer0/gatsby",
+            "description": "Deploy Gatsby apps on the [Layer0](https://layer0.co), infrastructure to run your big, dynamic website frontend and make it load in less than one second.",
+            "version": "4.20.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@layer0/gatsby"
+          },
+          {
+            "name": "co-sleep",
+            "description": "setTimeout that works with the co generator framework",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/co-sleep"
+          },
+          {
+            "name": "co-exec",
+            "description": "exec() wrapper for 'co'",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/co-exec"
+          },
+          {
+            "name": "@daily-co/react-native-daily-js",
+            "description": "React Native library for making video calls using Daily",
+            "version": "0.82.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@daily-co/react-native-daily-js"
+          },
+          {
+            "name": "component-pin",
+            "description": "pin ranged dependencies to an installed version",
+            "version": "1.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/component-pin"
+          },
+          {
+            "name": "doctrine",
+            "description": "JSDoc parser",
+            "version": "3.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/doctrine"
+          },
+          {
+            "name": "clone-stats",
+            "description": "Safely clone node's fs.Stats instances without losing their class methods",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/clone-stats"
+          },
+          {
+            "name": "co-lodash",
+            "description": "Co extension for lodash",
+            "version": "0.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/co-lodash"
+          },
+          {
+            "name": "resolve-url-loader",
+            "description": "Webpack loader that resolves relative paths in url() statements based on the original source file",
+            "version": "5.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/resolve-url-loader"
+          },
+          {
+            "name": "cytoscape-fcose",
+            "description": "The fCoSE layout for Cytoscape.js by Bilkent with fast compound node placement",
+            "version": "2.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/cytoscape-fcose"
+          },
+          {
+            "name": "co-each",
+            "description": "Parallel forEach for generators",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/co-each"
+          },
+          {
+            "name": "@axolo/egg-cos",
+            "description": "Tencent Cloud COS plugin for Egg.js.",
+            "version": "0.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@axolo/egg-cos"
+          },
+          {
+            "name": "free-swig",
+            "description": "A simple, powerful, and extendable templating engine for node.js, similar to Django, Jinja2, and Twig.",
+            "version": "1.5.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/free-swig"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 100,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:27:41.656642"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:27:41.656648",
+    "batch_network": {
+      "batch": "Winter 2021",
+      "total_batch_mates": 335,
+      "active_batch_mates": 244,
+      "batch_success_rate": 72.8,
+      "notable_batch_mates": [
+        {
+          "name": "Stacksi",
+          "slug": "stacksi",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Automated Answers to Security Questionnaires"
+        },
+        {
+          "name": "Furmacy",
+          "slug": "furmacy",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Digital e-prescribing software for veterinarians."
+        },
+        {
+          "name": "Fountain9",
+          "slug": "fountain9",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Helping food brands and retailers reduce food wastage"
+        },
+        {
+          "name": "Zepto",
+          "slug": "zepto",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "10-Minute Grocery Delivery in India"
+        },
+        {
+          "name": "Segments.ai",
+          "slug": "segments-ai",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Build better computer vision models by building better datasets"
+        },
+        {
+          "name": "PingPong",
+          "slug": "pingpong",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Video messaging app for remote teams."
+        },
+        {
+          "name": "ClipDrop",
+          "slug": "clipdrop",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Turn regular mobile photos into professional product visuals"
+        },
+        {
+          "name": "Avenue",
+          "slug": "avenue",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Observability platform for operations teams"
+        },
+        {
+          "name": "Flok",
+          "slug": "flok",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "End to end company retreat planning"
+        },
+        {
+          "name": "HyperGlue",
+          "slug": "hyperglue",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Business intelligence on text"
+        }
+      ],
+      "batch_size": 336
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "status": "Active",
+          "batch": "Winter 2012",
+          "one_liner": "High Performance Computing Built for the Cloud"
+        },
+        {
+          "name": "Marft",
+          "slug": "marft",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Marft creates embeddable machine learning models for application\u2026"
+        },
+        {
+          "name": "Pixelapse",
+          "slug": "pixelapse",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Github for designers. We automatically keep track of revisions of\u2026"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Palantir for sales people"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Smart search for the modern team."
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Authy is a Two-Factor Authentication platform for developers"
+        },
+        {
+          "name": "Flutter",
+          "slug": "flutter",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Flutter combined computer vision technology with the built-in webcams\u2026"
+        },
+        {
+          "name": "SolidStage",
+          "slug": "solidstage",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Sysadmin as a service. We make deploying, configuring, monitoring,\u2026"
+        },
+        {
+          "name": "Clutch",
+          "slug": "clutch",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "An easy to integrate library for native iOS applications designed to\u2026"
+        },
+        {
+          "name": "OneSignal",
+          "slug": "onesignal",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Engage customers through personalized omni-channel messaging"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Paris",
+      "location": "Paris, \u00cele-de-France, France; Remote",
+      "companies_in_city": 55,
+      "active_in_city": 36,
+      "nearby_companies": [
+        {
+          "name": "Motionlead",
+          "slug": "motionlead",
+          "batch": "Winter 2014",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Hublo",
+          "slug": "hublo",
+          "batch": "Summer 2014",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Afrostream",
+          "slug": "afrostream",
+          "batch": "Summer 2015",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Whyd",
+          "slug": "whyd",
+          "batch": "Summer 2016",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Bulldozair",
+          "slug": "bulldozair",
+          "batch": "Summer 2016",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Request Network",
+          "slug": "request-network",
+          "batch": "Winter 2017",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Anasen",
+          "slug": "anasen",
+          "batch": "Winter 2017",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Airthium",
+          "slug": "airthium",
+          "batch": "Summer 2017",
+          "industry": "Industrials",
+          "status": "Active"
+        },
+        {
+          "name": "Goosebump",
+          "slug": "goosebump",
+          "batch": "Summer 2017",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Station",
+          "slug": "station",
+          "batch": "Winter 2018",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Mojo",
+          "slug": "mojo",
+          "batch": "Winter 2018",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Dashblock",
+          "slug": "dashblock",
+          "batch": "Summer 2019",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "OpenReplay",
+          "slug": "asayer",
+          "batch": "Summer 2019",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Data Mechanics",
+          "slug": "data-mechanics",
+          "batch": "Summer 2019",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Multis",
+          "slug": "multis",
+          "batch": "Summer 2019",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Photoroom",
+          "slug": "photoroom",
+          "batch": "Summer 2020",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Riot",
+          "slug": "riot",
+          "batch": "Winter 2020",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Jitter",
+          "slug": "jitter",
+          "batch": "Winter 2020",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Mailwarm",
+          "slug": "mailwarm",
+          "batch": "Summer 2020",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "OneKey",
+          "slug": "onekey",
+          "batch": "Summer 2020",
+          "industry": "Fintech",
+          "status": "Inactive"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Mindee",
+        "slug": "mindee",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Webiny",
+        "slug": "webiny",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Runway",
+        "slug": "runway",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "authzed",
+        "slug": "authzed",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Taloflow",
+        "slug": "taloflow",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "SBX Robotics",
+        "slug": "sbx-robotics",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Pensil",
+        "slug": "pensil",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Triplit",
+        "slug": "triplit",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Clay",
+        "slug": "clay",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Segments.ai",
+        "slug": "segments-ai",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 3136,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:27:41.663384"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:27:41.663389",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:27:41.979429",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:27:42.068601",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 2,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:12.621181",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "medium",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increased adoption of DevOps practices",
+        "Growing emphasis on developer experience",
+        "Rise of remote and distributed teams"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Integration with Slack creates a network effect within teams. Potential for data-driven insights on code review performance.",
+      "differentiation": "Focus on Slack integration for code review workflow.",
+      "competitive_advantages": [
+        "Seamless integration with existing Slack workflows",
+        "Improved communication and collaboration during code reviews"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on Slack's ecosystem",
+        "Potential for feature overlap with existing code review tools (e.g., GitHub, GitLab)"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "low"
+    },
+    "growth_assessment": {
+      "growth_stage": "seed",
+      "growth_indicators": [
+        "Adoption rate within development teams",
+        "Customer retention and expansion"
+      ],
+      "growth_bottlenecks": [
+        "Acquisition of new customers in a competitive market",
+        "Integration complexity with various development tools"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Competition from established players",
+        "Dependence on third-party platforms (Slack)",
+        "Security vulnerabilities in code review process"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong value proposition for improving developer productivity",
+        "Seamless integration with a widely used communication platform",
+        "Potential for data-driven insights on code review performance"
+      ],
+      "concerns": [
+        "Market saturation with existing code review tools",
+        "Reliance on Slack's platform and API stability"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "PullRequest",
+        "Code Climate"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on user acquisition and retention",
+        "Expand integrations with other development tools (e.g., Jira, Azure DevOps)"
+      ],
+      "expansion_opportunities": [
+        "Develop advanced analytics and reporting features",
+        "Offer premium support and consulting services"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 652,
+      "completion": 635,
+      "total": 1287,
+      "estimated_cost": 0.000239
+    }
+  },
+  "phase8_complete": true
+}

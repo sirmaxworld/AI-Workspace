@@ -1,0 +1,213 @@
+{
+  "schema_version": "1.0",
+  "description": "Metadata schema for YouTube videos in AI-Workspace knowledge base",
+  
+  "video_metadata": {
+    "source": {
+      "type": "string",
+      "required": true,
+      "enum": ["youtube_video", "research_paper", "article", "book", "documentation"],
+      "description": "Source type of the content"
+    },
+    "video_id": {
+      "type": "string",
+      "required": true,
+      "description": "YouTube video ID"
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "description": "Video title"
+    },
+    "url": {
+      "type": "string",
+      "required": true,
+      "format": "uri",
+      "description": "Full YouTube URL"
+    },
+    "duration_seconds": {
+      "type": "integer",
+      "required": true,
+      "description": "Video duration in seconds"
+    },
+    "published_date": {
+      "type": "string",
+      "format": "date",
+      "description": "Video publication date"
+    },
+    "channel": {
+      "type": "object",
+      "properties": {
+        "name": "string",
+        "id": "string",
+        "url": "string"
+      }
+    },
+    
+    "content_classification": {
+      "content_type": {
+        "type": "string",
+        "enum": ["tutorial", "demonstration", "theory", "case_study", "interview", "review", "news"],
+        "description": "Primary content type"
+      },
+      "expertise_level": {
+        "type": "string",
+        "enum": ["beginner", "intermediate", "advanced", "expert"],
+        "required": true,
+        "description": "Required expertise level"
+      },
+      "primary_discipline": {
+        "type": "string",
+        "required": true,
+        "description": "Main discipline (from taxonomy)"
+      },
+      "primary_domain": {
+        "type": "string",
+        "required": true,
+        "description": "Main domain (from taxonomy)"
+      },
+      "sub_domains": {
+        "type": "array",
+        "items": "string",
+        "max_items": 5,
+        "description": "Sub-domains covered (from taxonomy)"
+      }
+    },
+    
+    "concepts": {
+      "type": "array",
+      "items": {
+        "name": "string",
+        "confidence": "float",
+        "timestamp_mentioned": "array of integers",
+        "definition_available": "boolean"
+      },
+      "description": "Atomic concepts taught in the video"
+    },
+    
+    "prerequisites": {
+      "type": "array",
+      "items": "string",
+      "description": "Concepts you should know before watching"
+    },
+    
+    "enables": {
+      "type": "array",
+      "items": "string",
+      "description": "What this video helps you learn next"
+    },
+    
+    "entities": {
+      "people": {
+        "type": "array",
+        "items": "string",
+        "description": "People mentioned or featured"
+      },
+      "tools": {
+        "type": "array",
+        "items": "string",
+        "description": "Tools, platforms, or products mentioned"
+      },
+      "companies": {
+        "type": "array",
+        "items": "string",
+        "description": "Companies or organizations mentioned"
+      }
+    },
+    
+    "citations": {
+      "referenced_videos": {
+        "type": "array",
+        "items": "string",
+        "description": "Other videos referenced"
+      },
+      "referenced_papers": {
+        "type": "array",
+        "items": "string",
+        "description": "Research papers cited"
+      },
+      "referenced_articles": {
+        "type": "array",
+        "items": "string",
+        "description": "Articles or blog posts cited"
+      }
+    },
+    
+    "temporal_relevance": {
+      "is_current": {
+        "type": "boolean",
+        "description": "Is the information still current?"
+      },
+      "relevance_period": {
+        "type": "string",
+        "enum": ["evergreen", "short_term", "medium_term", "outdated"],
+        "description": "How long this information stays relevant"
+      },
+      "superseded_by": {
+        "type": "string",
+        "description": "Video ID of newer content that supersedes this"
+      }
+    },
+    
+    "quality_metrics": {
+      "views": "integer",
+      "likes": "integer",
+      "engagement_rate": "float",
+      "production_quality": {
+        "type": "string",
+        "enum": ["low", "medium", "high", "professional"]
+      }
+    },
+    
+    "transcription": {
+      "method": {
+        "type": "string",
+        "enum": ["youtube_captions", "whisper_api", "whisper_local"],
+        "description": "How transcript was obtained"
+      },
+      "confidence": {
+        "type": "float",
+        "description": "Transcription confidence score"
+      },
+      "language": "string"
+    },
+    
+    "processing_metadata": {
+      "processed_date": "string (ISO datetime)",
+      "chunk_count": "integer",
+      "embedding_model": "string",
+      "llm_analyzer": "string"
+    }
+  },
+  
+  "chunk_metadata": {
+    "parent_video_id": {
+      "type": "string",
+      "required": true,
+      "description": "ID of the parent video"
+    },
+    "chunk_index": {
+      "type": "integer",
+      "required": true,
+      "description": "Position in video (0-based)"
+    },
+    "timestamp_start": {
+      "type": "integer",
+      "description": "Start time in seconds"
+    },
+    "timestamp_end": {
+      "type": "integer",
+      "description": "End time in seconds"
+    },
+    "chunk_concepts": {
+      "type": "array",
+      "items": "string",
+      "description": "Specific concepts in this chunk"
+    },
+    "chunk_summary": {
+      "type": "string",
+      "max_length": 200,
+      "description": "Brief summary of this chunk"
+    }
+  }
+}

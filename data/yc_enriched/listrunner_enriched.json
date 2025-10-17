@@ -1,0 +1,661 @@
+{
+  "slug": "listrunner",
+  "name": "ListRunner",
+  "yc_id": 685,
+  "batch": "Summer 2014",
+  "website": "http://listrunnerapp.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:34:17.464668",
+    "website": "http://listrunnerapp.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 2675.34,
+      "final_url": "https://www.commure.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:34:20.140018"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "listrunnerapp.com",
+      "registrar": "Safenames Ltd",
+      "creation_date": "2013-11-04T18:40:08",
+      "expiration_date": "2025-11-04T18:40:08",
+      "domain_age_days": 4364,
+      "domain_age_years": 11.9,
+      "name_servers": [
+        "CHUCK.NS.CLOUDFLARE.COM",
+        "JASMINE.NS.CLOUDFLARE.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/commureos",
+      "linkedin": "https://www.linkedin.com/company/commure",
+      "github": null,
+      "facebook": "https://www.facebook.com/commureinc/",
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": true,
+      "x_frame_options": true,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 50,
+      "server": "Unknown"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:14:51.771397",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:14:41.521265",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "Mountain View, CA, USA",
+      "coordinates": {
+        "latitude": 37.3861,
+        "longitude": -122.0839
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:14:27.736953",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:14:41.521320",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:14:41.521326",
+    "batch_network": {
+      "batch": "Summer 2014",
+      "total_batch_mates": 77,
+      "active_batch_mates": 24,
+      "batch_success_rate": 31.2,
+      "notable_batch_mates": [
+        {
+          "name": "Zip Phone",
+          "slug": "zip-phone",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Whatsapp for voice"
+        },
+        {
+          "name": "Parenthoods",
+          "slug": "parenthoods",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Communities for expecting and new parents. "
+        },
+        {
+          "name": "Bitaccess",
+          "slug": "bitaccess",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "We make bitcoin simple. "
+        },
+        {
+          "name": "Carlypso",
+          "slug": "carlypso",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Used car marketplace"
+        },
+        {
+          "name": "Checkr",
+          "slug": "checkr",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "People infrastructure for the future of work"
+        },
+        {
+          "name": "Clara Labs",
+          "slug": "clara-labs",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Clara is a human-in-the-loop assistant that helps automate repetitive\u2026"
+        },
+        {
+          "name": "Craft Coffee",
+          "slug": "craft-coffee",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Better coffee for less money"
+        },
+        {
+          "name": "PersistIQ",
+          "slug": "persistiq",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "PersistIQ is a free email automation platform to send a small batch\u2026"
+        },
+        {
+          "name": "GovPredict",
+          "slug": "govpredict",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The system of record for government affairs."
+        },
+        {
+          "name": "Blockspring",
+          "slug": "blockspring",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Automate data collection for spreadsheets and productivity tools."
+        }
+      ],
+      "batch_size": 78
+    },
+    "industry_network": {
+      "industries": [
+        "Healthcare",
+        "Healthcare IT"
+      ],
+      "total_industry_peers": 642,
+      "active_industry_peers": 503,
+      "direct_competitors": [
+        {
+          "name": "Medigram",
+          "slug": "medigram",
+          "status": "Active",
+          "batch": "Winter 2012",
+          "one_liner": "We are making a HIPAA-compliant, Groupme app for doctors to\u2026"
+        },
+        {
+          "name": "Quartzy",
+          "slug": "quartzy",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Marketplace for life science supplies."
+        },
+        {
+          "name": "AgileMD",
+          "slug": "agilemd",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Predictive analytics and clinical pathways for hospitals "
+        },
+        {
+          "name": "Comprehend",
+          "slug": "comprehend",
+          "status": "Acquired",
+          "batch": "Winter 2011",
+          "one_liner": "SaaS to increase speed and quality of clinical trials."
+        },
+        {
+          "name": "DrChrono",
+          "slug": "drchrono",
+          "status": "Acquired",
+          "batch": "Winter 2011",
+          "one_liner": "The essential platform for modern medical practices and patients."
+        },
+        {
+          "name": "Human Dx",
+          "slug": "human-dx",
+          "status": "Active",
+          "batch": "Summer 2012",
+          "one_liner": "The Human Diagnosis Project."
+        },
+        {
+          "name": "Eligible",
+          "slug": "eligible",
+          "status": "Active",
+          "batch": "Summer 2012",
+          "one_liner": "Insurance Billing APIs for Healthcare Businesses "
+        },
+        {
+          "name": "Medisas",
+          "slug": "medisas",
+          "status": "Inactive",
+          "batch": "Winter 2013",
+          "one_liner": "Medisas builds workflow & collaboration software for hospitals."
+        },
+        {
+          "name": "MedXT",
+          "slug": "medxt",
+          "status": "Acquired",
+          "batch": "Winter 2013",
+          "one_liner": "Radiology in the cloud.  X-rays, CAT scans, MRI's, and\u2026"
+        },
+        {
+          "name": "MetricWire",
+          "slug": "metricwire",
+          "status": "Active",
+          "batch": "Summer 2014",
+          "one_liner": "Mobile surveys for researchers"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Mountain View",
+      "location": "Mountain View, CA, USA",
+      "companies_in_city": 84,
+      "active_in_city": 31,
+      "nearby_companies": [
+        {
+          "name": "SlidePay",
+          "slug": "slidepay",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "BarSense",
+          "slug": "barsense",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "YourMechanic",
+          "slug": "yourmechanic",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Carsabi",
+          "slug": "carsabi",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HackerRank",
+          "slug": "hackerrank",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "PhoneSys",
+          "slug": "phonesys",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Cryptoseal",
+          "slug": "cryptoseal",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Firebase",
+          "slug": "firebase",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Everyme",
+          "slug": "everyme",
+          "batch": "Summer 2011",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Kicksend",
+          "slug": "kicksend",
+          "batch": "Summer 2011",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Beetailer",
+          "slug": "beetailer",
+          "batch": "Winter 2011",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "TalkBin",
+          "slug": "talkbin",
+          "batch": "Winter 2011",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "GazeHawk",
+          "slug": "gazehawk",
+          "batch": "Summer 2010",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Whereoscope",
+          "slug": "whereoscope",
+          "batch": "Summer 2010",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Newcope",
+          "slug": "newcope",
+          "batch": "Winter 2010",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HighlightCam",
+          "slug": "highlightcam",
+          "batch": "Summer 2009",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Bump",
+          "slug": "bump",
+          "batch": "Summer 2009",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Recurious",
+          "slug": "recurious",
+          "batch": "Winter 2009",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Picurio",
+          "slug": "picurio",
+          "batch": "Winter 2009",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Virtualmin",
+          "slug": "virtualmin",
+          "batch": "Winter 2007",
+          "industry": "B2B",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "MetricWire",
+        "slug": "metricwire",
+        "batch": "Summer 2014",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Nightingale",
+        "slug": "nightingale",
+        "batch": "Summer 2014",
+        "industry": "Healthcare",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "One Codex",
+        "slug": "one-codex",
+        "batch": "Summer 2014",
+        "industry": "Healthcare",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Blueberry Pediatrics",
+        "slug": "blueberry-pediatrics",
+        "batch": "Winter 2018",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "SpringWit",
+        "slug": "springwit",
+        "batch": "Summer 2014",
+        "industry": "Healthcare",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Bikanta",
+        "slug": "bikanta",
+        "batch": "Summer 2014",
+        "industry": "Healthcare",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "TAXA Biotechnologies",
+        "slug": "taxa-biotechnologies",
+        "batch": "Summer 2014",
+        "industry": "Healthcare",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "PicnicHealth",
+        "slug": "picnichealth",
+        "batch": "Summer 2014",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "In Your Corner",
+        "slug": "in-your-corner",
+        "batch": "Summer 2014",
+        "industry": "Healthcare",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Ginkgo Bioworks",
+        "slug": "ginkgo-bioworks",
+        "batch": "Summer 2014",
+        "industry": "Healthcare",
+        "status": "Public",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 803,
+      "network_density_score": 72.2,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:14:41.531587"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:14:41.531595",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:14:41.884826",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:14:42.035455",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 2,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:45:39.980893",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Digital transformation in healthcare",
+        "HIPAA compliance requirements",
+        "Mobile-first clinical workflows"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "HIPAA-compliant security infrastructure and clinical workflow integration",
+      "differentiation": "Purpose-built for replacing insecure paper lists and SMS communication in clinical settings",
+      "competitive_advantages": [
+        "Healthcare-specific compliance expertise",
+        "Simple workflow replacement solution"
+      ],
+      "competitive_vulnerabilities": [
+        "Limited feature set compared to comprehensive EMR systems",
+        "Dependence on hospital adoption cycles"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "low"
+    },
+    "growth_assessment": {
+      "growth_stage": "seed",
+      "growth_indicators": [
+        "Acquisition outcome suggests product-market fit",
+        "Clear pain point addressing HIPAA violations"
+      ],
+      "growth_bottlenecks": [
+        "Hospital procurement cycles",
+        "Integration with existing EMR systems"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Regulatory compliance changes",
+        "Competition from EMR incumbents",
+        "Long sales cycles in healthcare"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Clear regulatory compliance value proposition",
+        "Addresses widespread security violations",
+        "Successful exit validates market need"
+      ],
+      "concerns": [
+        "Limited scope of functionality",
+        "Competitive pressure from larger healthcare IT players"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Spok",
+        "TigerText",
+        "Vocera"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Expand beyond patient lists to broader clinical communication",
+        "Develop EMR integration partnerships"
+      ],
+      "expansion_opportunities": [
+        "International markets with similar compliance requirements",
+        "Adjacent healthcare communication workflows"
+      ]
+    },
+    "tokens_used": {
+      "input": 728,
+      "output": 517,
+      "total": 1245,
+      "estimated_cost": 0.009939
+    }
+  },
+  "phase8_complete": true
+}

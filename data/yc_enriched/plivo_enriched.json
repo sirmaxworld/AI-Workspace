@@ -1,0 +1,942 @@
+{
+  "slug": "plivo",
+  "name": "Plivo",
+  "yc_id": 464,
+  "batch": "Summer 2012",
+  "website": "https://plivo.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:32:47.795383",
+    "website": "https://plivo.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 296.78,
+      "final_url": "https://www.plivo.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:32:48.092177"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "plivo.com",
+      "registrar": "Amazon Registrar, Inc.",
+      "creation_date": "2011-04-17T05:36:09",
+      "expiration_date": "2031-04-17T05:36:09",
+      "domain_age_days": 5296,
+      "domain_age_years": 14.5,
+      "name_servers": [
+        "NS-1013.AWSDNS-62.NET",
+        "NS-1213.AWSDNS-23.ORG",
+        "NS-1662.AWSDNS-15.CO.UK",
+        "NS-323.AWSDNS-40.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://x.com/plivo",
+      "linkedin": "https://www.linkedin.com/company/plivo-inc",
+      "github": "https://github.com/plivo",
+      "facebook": "https://www.facebook.com/Plivo/",
+      "instagram": null,
+      "youtube": "https://www.youtube.com/@plivo"
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": true,
+      "x_frame_options": true,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 50,
+      "server": "cloudflare"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:13:49.092529",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:05:24.904086",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "Austin, TX, USA",
+      "coordinates": {
+        "latitude": 30.2672,
+        "longitude": -97.7431
+      },
+      "timezone": {
+        "timezone_id": "America/Chicago",
+        "timezone_name": "America/Chicago"
+      },
+      "retrieved_at": "2025-10-17T10:05:24.904155"
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:05:24.904188",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/plivo"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 29,
+        "packages": [
+          {
+            "name": "plivo",
+            "description": "A Node.js SDK to make voice calls and send SMS using Plivo and to generate Plivo XML",
+            "version": "4.75.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/plivo"
+          },
+          {
+            "name": "plivo-node",
+            "description": "Plivo NodeJS helper library.",
+            "version": "0.2.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/plivo-node"
+          },
+          {
+            "name": "plivo-browser-sdk",
+            "description": "This library allows you to connect with plivo's voice enviroment from browser",
+            "version": "2.2.21",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/plivo-browser-sdk"
+          },
+          {
+            "name": "@indigov/plivo",
+            "description": "A Node.js SDK to make voice calls and send SMS using Plivo and to generate Plivo XML",
+            "version": "4.49.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@indigov/plivo"
+          },
+          {
+            "name": "plivode",
+            "description": "A lightweight scalable Plivo application framework.",
+            "version": "0.2.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/plivode"
+          },
+          {
+            "name": "hubot-plivo",
+            "description": "A Plivo adapter for Hubot.",
+            "version": "1.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/hubot-plivo"
+          },
+          {
+            "name": "plivo-jssip",
+            "description": "Plivo's Javascript SIP library",
+            "version": "1.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/plivo-jssip"
+          },
+          {
+            "name": "plivo-promise",
+            "description": "Plivo NodeJS helper library.Now with promise",
+            "version": "0.5.1-alpha",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/plivo-promise"
+          },
+          {
+            "name": "telcom",
+            "description": "Abstraction layer between Twilio and Plivo.",
+            "version": "0.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/telcom"
+          },
+          {
+            "name": "@pipedream/plivo",
+            "description": "Pipedream Plivo Components",
+            "version": "0.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@pipedream/plivo"
+          },
+          {
+            "name": "plivo-tu",
+            "description": "A Node.js SDK to make voice calls & send SMS using Plivo and to generate Plivo XML",
+            "version": "4.0.0-beta.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/plivo-tu"
+          },
+          {
+            "name": "react-native-plivo",
+            "description": "## Getting started",
+            "version": "1.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-native-plivo"
+          },
+          {
+            "name": "plivo-kunal",
+            "description": "A Node.js SDK to make voice calls & send SMS using Plivo and to generate Plivo XML",
+            "version": "4.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/plivo-kunal"
+          },
+          {
+            "name": "plivo-meteor",
+            "description": "npm wrapper for Plivo, an open source telephony and SMS framework",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/plivo-meteor"
+          },
+          {
+            "name": "sms-plivo",
+            "description": "plivo integration",
+            "version": "1.0.11",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sms-plivo"
+          },
+          {
+            "name": "@stacksjs/sms",
+            "description": "The Stacks SMS integration. Painlessly create & manage your inboxes, templates, and send sms.",
+            "version": "0.70.23",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@stacksjs/sms"
+          },
+          {
+            "name": "@stacksjs/scheduler",
+            "description": "The Stacks scheduler.",
+            "version": "0.70.23",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@stacksjs/scheduler"
+          },
+          {
+            "name": "@teleflow/plivo",
+            "description": "A plivo wrapper for teleflow",
+            "version": "0.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@teleflow/plivo"
+          },
+          {
+            "name": "gethuman-plivo",
+            "description": "Plivo NodeJS helper library.",
+            "version": "0.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/gethuman-plivo"
+          },
+          {
+            "name": "@wolfxlabs/plivo",
+            "description": "A plivo wrapper for wolf",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@wolfxlabs/plivo"
+          },
+          {
+            "name": "@stacksjs/cron",
+            "description": "The Stacks cron.",
+            "version": "0.70.23",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@stacksjs/cron"
+          },
+          {
+            "name": "passwordless-plivo-delivery",
+            "description": "A delivery strategy, for use with Passwordless, that uses Plivo to deliver tokens via sms.",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/passwordless-plivo-delivery"
+          },
+          {
+            "name": "@stacksjs/notifications",
+            "description": "The Stacks notifications integration.",
+            "version": "0.70.23",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@stacksjs/notifications"
+          },
+          {
+            "name": "com.neivor.plivocall",
+            "description": "This plugin is in charge to handle all plivo calls",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/com.neivor.plivocall"
+          },
+          {
+            "name": "@samsystems/hapi-plivo",
+            "description": null,
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@samsystems/hapi-plivo"
+          },
+          {
+            "name": "@newput-newlink/notification",
+            "description": "The Notification module provides a robust and extensible system for sending notifications across various channels, including email and SMS. It is designed to help developers integrate notification functionalities into their applications efficiently.",
+            "version": "1.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@newput-newlink/notification"
+          },
+          {
+            "name": "opsworks",
+            "description": "CLI goodness for opsworks",
+            "version": "0.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/opsworks"
+          },
+          {
+            "name": "api-key-validator",
+            "description": "A package to easily validate api keys email, sms, push and web push service providers",
+            "version": "0.1.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/api-key-validator"
+          },
+          {
+            "name": "coengage-style-guide",
+            "description": "Component Library template for Coengage with Vite & React (TypeScript). Supports Tailwind with CSS-Modules. Jest and @react/testing-library configured and ready to go. Also ESLint, Prettier, Husky, and Atomic Design for components.",
+            "version": "1.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/coengage-style-guide"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 5,
+        "packages": [
+          {
+            "name": "plivo",
+            "version": "4.62.1",
+            "downloads": 1460933,
+            "url": "https://rubygems.org/gems/plivo"
+          },
+          {
+            "name": "classy_plivo",
+            "version": "0.1.1",
+            "downloads": 6873,
+            "url": "https://rubygems.org/gems/classy_plivo"
+          },
+          {
+            "name": "em-plivo",
+            "version": "0.0.1",
+            "downloads": 3662,
+            "url": "https://rubygems.org/gems/em-plivo"
+          },
+          {
+            "name": "sensu-plugins-plivo",
+            "version": "0.0.1",
+            "downloads": 3437,
+            "url": "https://rubygems.org/gems/sensu-plugins-plivo"
+          },
+          {
+            "name": "plivohelper",
+            "version": "0.1",
+            "downloads": 7340,
+            "url": "https://rubygems.org/gems/plivohelper"
+          }
+        ]
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 2,
+        "packages": [
+          {
+            "name": "smskit",
+            "description": "Universal multi-provider SMS toolkit for Rust with framework-agnostic webhook processing",
+            "version": "0.2.0",
+            "downloads": 364,
+            "url": "https://crates.io/crates/smskit"
+          },
+          {
+            "name": "sms-plivo",
+            "description": "Plivo backend for smskit.",
+            "version": "0.2.0",
+            "downloads": 545,
+            "url": "https://crates.io/crates/sms-plivo"
+          }
+        ]
+      },
+      "total_packages": 36,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:05:26.137598"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:05:26.137617",
+    "batch_network": {
+      "batch": "Summer 2012",
+      "total_batch_mates": 82,
+      "active_batch_mates": 22,
+      "batch_success_rate": 26.8,
+      "notable_batch_mates": [
+        {
+          "name": "Pixate",
+          "slug": "pixate",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Mobile application prototyping. Now part of Google."
+        },
+        {
+          "name": "Knowmia",
+          "slug": "knowmia",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Pandora meets Yelp for K-12 educational videos.  We match each\u2026"
+        },
+        {
+          "name": "Boosted",
+          "slug": "boosted",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Simple, fun, and fast electric vehicles."
+        },
+        {
+          "name": "ZeroMailer",
+          "slug": "zeromailer",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Easy mailing lists"
+        },
+        {
+          "name": "Kamcord",
+          "slug": "kamcord",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": ""
+        },
+        {
+          "name": "Statwing",
+          "slug": "statwing",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Dead simple statistical analysis software. Like R or SPSS but easy to\u2026"
+        },
+        {
+          "name": "Fullstack Academy",
+          "slug": "fullstack-academy",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Pioneer in immersive code education. Acquired by Zovio (NASDAQ: ZVO)\u2026"
+        },
+        {
+          "name": "OmniVirt",
+          "slug": "omnivirt",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "OmniVirt is the leading VR Advertising platform for brands and\u2026"
+        },
+        {
+          "name": "Streem",
+          "slug": "streem",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Acquired by Box in June 2014. We built: (1) a native win/mac\u2026"
+        },
+        {
+          "name": "Soylent",
+          "slug": "soylent",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Soylent is a simple, nutritious, and affordable food that possesses\u2026"
+        }
+      ],
+      "batch_size": 83
+    },
+    "industry_network": {
+      "industries": [
+        "B2B"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "status": "Active",
+          "batch": "Winter 2012",
+          "one_liner": "High Performance Computing Built for the Cloud"
+        },
+        {
+          "name": "Marft",
+          "slug": "marft",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Marft creates embeddable machine learning models for application\u2026"
+        },
+        {
+          "name": "Pixelapse",
+          "slug": "pixelapse",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Github for designers. We automatically keep track of revisions of\u2026"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Palantir for sales people"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Smart search for the modern team."
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Authy is a Two-Factor Authentication platform for developers"
+        },
+        {
+          "name": "Flutter",
+          "slug": "flutter",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Flutter combined computer vision technology with the built-in webcams\u2026"
+        },
+        {
+          "name": "SolidStage",
+          "slug": "solidstage",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Sysadmin as a service. We make deploying, configuring, monitoring,\u2026"
+        },
+        {
+          "name": "Clutch",
+          "slug": "clutch",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "An easy to integrate library for native iOS applications designed to\u2026"
+        },
+        {
+          "name": "OneSignal",
+          "slug": "onesignal",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Engage customers through personalized omni-channel messaging"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Austin",
+      "location": "Austin, TX, USA",
+      "companies_in_city": 51,
+      "active_in_city": 40,
+      "nearby_companies": [
+        {
+          "name": "OwnLocal",
+          "slug": "ownlocal",
+          "batch": "Winter 2010",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Cratejoy",
+          "slug": "cratejoy",
+          "batch": "Summer 2013",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Sails Co.",
+          "slug": "sails-co",
+          "batch": "Winter 2015",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Mobydish",
+          "slug": "mobydish",
+          "batch": "Winter 2015",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Interviewed",
+          "slug": "interviewed",
+          "batch": "Summer 2015",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Mio",
+          "slug": "mio",
+          "batch": "Winter 2016",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "MineralSoft",
+          "slug": "mineralsoft",
+          "batch": "Winter 2016",
+          "industry": "Industrials",
+          "status": "Acquired"
+        },
+        {
+          "name": "Goodybag",
+          "slug": "goodybag",
+          "batch": "Winter 2016",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "NuCypher (aka Threshold Network)",
+          "slug": "nucypher-aka-threshold-network",
+          "batch": "Summer 2016",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Reebeez",
+          "slug": "reebeez",
+          "batch": "Summer 2016",
+          "industry": "Industrials",
+          "status": "Inactive"
+        },
+        {
+          "name": "Skyways",
+          "slug": "skyways",
+          "batch": "Summer 2017",
+          "industry": "Industrials",
+          "status": "Active"
+        },
+        {
+          "name": "UpCodes",
+          "slug": "upcodes",
+          "batch": "Summer 2017",
+          "industry": "Real Estate and Construction",
+          "status": "Active"
+        },
+        {
+          "name": "Rabbet",
+          "slug": "rabbet",
+          "batch": "Summer 2017",
+          "industry": "Real Estate and Construction",
+          "status": "Active"
+        },
+        {
+          "name": "PullRequest",
+          "slug": "pullrequest",
+          "batch": "Summer 2017",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Jasper.ai",
+          "slug": "jasper-ai",
+          "batch": "Winter 2018",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Macromoltek",
+          "slug": "macromoltek",
+          "batch": "Winter 2018",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Pocket Worlds",
+          "slug": "pocket-worlds",
+          "batch": "Summer 2018",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Green Energy Exchange",
+          "slug": "green-energy-exchange",
+          "batch": "Winter 2019",
+          "industry": "Industrials",
+          "status": "Inactive"
+        },
+        {
+          "name": "Windwalk",
+          "slug": "windwalk",
+          "batch": "Winter 2019",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Method Financial",
+          "slug": "method-financial",
+          "batch": "Summer 2019",
+          "industry": "Fintech",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Pixate",
+        "slug": "pixate",
+        "batch": "Summer 2012",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "ZeroMailer",
+        "slug": "zeromailer",
+        "batch": "Summer 2012",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Canopy Labs",
+        "slug": "canopy-labs",
+        "batch": "Summer 2012",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "LeanMarket",
+        "slug": "leanmarket",
+        "batch": "Summer 2012",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Statwing",
+        "slug": "statwing",
+        "batch": "Summer 2012",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Rainforest",
+        "slug": "rainforest",
+        "batch": "Summer 2012",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "OmniVirt",
+        "slug": "omnivirt",
+        "batch": "Summer 2012",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Mth Sense",
+        "slug": "mth-sense",
+        "batch": "Summer 2012",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Testmunk",
+        "slug": "testmunk",
+        "batch": "Summer 2012",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Mattermost",
+        "slug": "mattermost",
+        "batch": "Summer 2012",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 2879,
+      "network_density_score": 66.6,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:05:26.152102"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:05:26.152108",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:05:26.472922",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:05:26.588225",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 140,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:12.367015",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increased adoption of conversational AI",
+        "Growing demand for omnichannel customer engagement",
+        "Rise of low-code/no-code platforms"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Established customer base and platform with global reach.",
+      "differentiation": "Focus on Voice AI agents and omnichannel communication (WhatsApp, SMS, Chat) with a low-code/no-code approach.",
+      "competitive_advantages": [
+        "Strong existing customer base (Uber, Meta, etc.)",
+        "Mature platform with proven scalability"
+      ],
+      "competitive_vulnerabilities": [
+        "Competition from larger players with broader offerings",
+        "Reliance on third-party communication channels (WhatsApp, SMS)"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "Expansion into new markets",
+        "Increased adoption of Voice AI agents",
+        "Growth in transaction volume"
+      ],
+      "growth_bottlenecks": [
+        "Sales cycle length",
+        "Integration complexity",
+        "Competition"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Competition from larger, well-funded players",
+        "Changes in regulations related to data privacy and communication",
+        "Dependence on third-party platforms"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong market position in a growing market",
+        "Proven technology and scalability",
+        "Established customer base"
+      ],
+      "concerns": [
+        "Competitive landscape",
+        "Reliance on third-party platforms"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Twilio",
+        "Vonage"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on expanding the Voice AI agent capabilities",
+        "Strengthen partnerships with key communication channels",
+        "Continue to expand into new markets"
+      ],
+      "expansion_opportunities": [
+        "Develop industry-specific solutions",
+        "Offer more advanced analytics and reporting",
+        "Expand into adjacent communication channels"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 679,
+      "completion": 546,
+      "total": 1225,
+      "estimated_cost": 0.000215
+    }
+  },
+  "phase8_complete": true
+}

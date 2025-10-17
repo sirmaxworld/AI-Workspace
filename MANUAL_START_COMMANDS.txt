@@ -1,0 +1,35 @@
+🚀 MANUAL COMMANDS TO START TUBEDB ON PORT 7000
+================================================
+
+Step 1: Kill all existing processes
+------------------------------------
+pkill -f "npm run dev"
+lsof -ti:7000 | xargs kill -9
+
+Step 2: Navigate to TubeDB
+---------------------------
+cd /Users/yourox/AI-Workspace/tubedb-ui
+
+Step 3: Start on port 7000 (try one of these)
+-----------------------------------------------
+Option A:
+PORT=7000 npm run dev
+
+Option B:
+npx next dev -p 7000
+
+Option C (if package.json has dev script):
+npm run dev -- -p 7000
+
+================================================
+The server will be available at: http://localhost:7000
+================================================
+
+If still having issues, check what's using the port:
+lsof -i :7000
+
+To see if Node/npm is working:
+which node
+which npm
+node --version
+npm --version

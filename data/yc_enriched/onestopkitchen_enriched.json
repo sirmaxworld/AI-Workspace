@@ -1,0 +1,613 @@
+{
+  "slug": "onestopkitchen",
+  "name": "OneStopKitchen",
+  "yc_id": 24302,
+  "batch": "Summer 2021",
+  "website": "https://onestopkitchen.com/",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T01:06:11.483147",
+    "website": "https://onestopkitchen.com/",
+    "website_status": {
+      "reachable": false,
+      "error": "timeout"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "onestopkitchen.com",
+      "registrar": "GoDaddy.com, LLC",
+      "creation_date": "2016-05-28T18:40:57",
+      "expiration_date": "2026-05-28T18:40:57",
+      "domain_age_days": 3428,
+      "domain_age_years": 9.4,
+      "name_servers": [
+        "DREW.NS.CLOUDFLARE.COM",
+        "KAYLEIGH.NS.CLOUDFLARE.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "error": "HTTPSConnectionPool(host='onestopkitchen.com', port=443): Read timed out. (read timeout=10)"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:29:20.893614",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:29:11.931620",
+    "place_data": {
+      "status": "success",
+      "method": "nominatim",
+      "formatted_address": "Sunnyvale, Santa Clara County, California, United States",
+      "coordinates": {
+        "latitude": 37.3688301,
+        "longitude": -122.036349
+      },
+      "place_types": [
+        "administrative"
+      ],
+      "retrieved_at": "2025-10-17T10:14:40.404920",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:29:11.931648",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:29:11.931655",
+    "batch_network": {
+      "batch": "Summer 2021",
+      "total_batch_mates": 390,
+      "active_batch_mates": 316,
+      "batch_success_rate": 81.0,
+      "notable_batch_mates": [
+        {
+          "name": "Hyper",
+          "slug": "hyper",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Sell memberships to your Discord server"
+        },
+        {
+          "name": "Beeper",
+          "slug": "beeper",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "One chat app to rule them all"
+        },
+        {
+          "name": "Level",
+          "slug": "level",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Fast and simple fintech financing"
+        },
+        {
+          "name": "Goodkind",
+          "slug": "goodkind",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Student communications platform for higher education"
+        },
+        {
+          "name": "Sleek",
+          "slug": "sleek",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "1-click checkout from every store on the internet + cashback rewards."
+        },
+        {
+          "name": "MadEats",
+          "slug": "madeats",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Online delivery-only restaurant group in the Philippines"
+        },
+        {
+          "name": "Maroo",
+          "slug": "maroo",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Business management platform for creatives"
+        },
+        {
+          "name": "Tarsal",
+          "slug": "tarsal",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Data pipeline for your security data lake."
+        },
+        {
+          "name": "Hilos",
+          "slug": "quid",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Close and activate your customers on WhatsApp"
+        },
+        {
+          "name": "Keyri",
+          "slug": "keyri",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Secure fraud prevention and authentication platform for developers"
+        }
+      ],
+      "batch_size": 391
+    },
+    "industry_network": {
+      "industries": [
+        "Consumer",
+        "Food and Beverage"
+      ],
+      "total_industry_peers": 852,
+      "active_industry_peers": 407,
+      "direct_competitors": [
+        {
+          "name": "Grouper",
+          "slug": "grouper",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "We set up drinks between 2 groups of friends: 3 guys and 3 girls."
+        },
+        {
+          "name": "PayDragon",
+          "slug": "paydragon",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Hyperlinking the real world."
+        },
+        {
+          "name": "Caviar",
+          "slug": "caviar",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Uber for food."
+        },
+        {
+          "name": "OrderAhead",
+          "slug": "orderahead",
+          "status": "Acquired",
+          "batch": "Winter 2011",
+          "one_liner": "Order ahead for pickup"
+        },
+        {
+          "name": "Foodoro",
+          "slug": "foodoro",
+          "status": "Inactive",
+          "batch": "Winter 2009",
+          "one_liner": ""
+        },
+        {
+          "name": "Soylent",
+          "slug": "soylent",
+          "status": "Acquired",
+          "batch": "Summer 2012",
+          "one_liner": "Soylent is a simple, nutritious, and affordable food that possesses\u2026"
+        },
+        {
+          "name": "Instacart",
+          "slug": "instacart",
+          "status": "Public",
+          "batch": "Summer 2012",
+          "one_liner": "Marketplace for grocery delivery and pickup"
+        },
+        {
+          "name": "Goldbelly",
+          "slug": "goldbelly",
+          "status": "Active",
+          "batch": "Winter 2013",
+          "one_liner": "Empowering restaurants and small food makers to ship nationwide."
+        },
+        {
+          "name": "DoorDash",
+          "slug": "doordash",
+          "status": "Public",
+          "batch": "Summer 2013",
+          "one_liner": "Restaurant delivery."
+        },
+        {
+          "name": "SpoonRocket",
+          "slug": "spoonrocket",
+          "status": "Acquired",
+          "batch": "Summer 2013",
+          "one_liner": "Meals Delivered in 10 Minutes"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Sunnyvale",
+      "location": "Sunnyvale, CA, USA",
+      "companies_in_city": 15,
+      "active_in_city": 8,
+      "nearby_companies": [
+        {
+          "name": "Matterport",
+          "slug": "matterport",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Public"
+        },
+        {
+          "name": "Talkray (TiKL)",
+          "slug": "talkray-tikl",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Trainzen",
+          "slug": "trainzen",
+          "batch": "Winter 2013",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Ixiplay",
+          "slug": "ixiplay",
+          "batch": "Summer 2013",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "VizeraLabs",
+          "slug": "vizeralabs",
+          "batch": "Summer 2014",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Escher Reality",
+          "slug": "escher-reality",
+          "batch": "Summer 2017",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Cairns Health",
+          "slug": "cairns-health",
+          "batch": "Summer 2017",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Percept.AI",
+          "slug": "percept-ai",
+          "batch": "Summer 2017",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "ArchForm",
+          "slug": "archform",
+          "batch": "Winter 2018",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Swif.ai",
+          "slug": "swif-ai",
+          "batch": "Summer 2020",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Cloudanix",
+          "slug": "cloudanix",
+          "batch": "Summer 2021",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Careerist",
+          "slug": "careerist",
+          "batch": "Summer 2021",
+          "industry": "Education",
+          "status": "Active"
+        },
+        {
+          "name": "HypaHub",
+          "slug": "hypahub",
+          "batch": "Winter 2022",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Logital AI (Teclada)",
+          "slug": "logital-ai-teclada",
+          "batch": "Winter 2023",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Epsilla",
+          "slug": "epsilla",
+          "batch": "Summer 2023",
+          "industry": "B2B",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "low"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Nino Foods",
+        "slug": "nino-foods",
+        "batch": "Summer 2021",
+        "industry": "Consumer",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "MadEats",
+        "slug": "madeats",
+        "batch": "Summer 2021",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Locale",
+        "slug": "locale",
+        "batch": "Summer 2021",
+        "industry": "Consumer",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Perfekto",
+        "slug": "perfekto",
+        "batch": "Summer 2021",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Planet A Foods",
+        "slug": "planet-a-foods",
+        "batch": "Summer 2021",
+        "industry": "Consumer",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Chari",
+        "slug": "chari",
+        "batch": "Summer 2021",
+        "industry": "Consumer",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Membo",
+        "slug": "membo",
+        "batch": "Summer 2021",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Byte Kitchen",
+        "slug": "byte-kitchen",
+        "batch": "Summer 2021",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Cache",
+        "slug": "cache",
+        "batch": "Summer 2021",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Beeper",
+        "slug": "beeper",
+        "batch": "Summer 2021",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 1257,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": false,
+      "calculated_at": "2025-10-17T10:29:11.961530"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:29:11.961536",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:29:12.306865",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:29:12.466564",
+    "basic_info": {
+      "is_hiring": true,
+      "team_size": 10,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:42:07.686577",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increased demand for food delivery and takeout",
+        "Restaurant industry embracing technology for efficiency",
+        "Growing interest in ghost kitchens and virtual brands"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Technology and network effects from restaurant partnerships.",
+      "differentiation": "AI-powered optimization and zero-cost scaling model for restaurants.",
+      "competitive_advantages": [
+        "Reduced risk for restaurants expanding locations",
+        "AI-driven efficiency in inventory and operations"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on restaurant partnerships for space",
+        "Potential for competition from established ghost kitchen providers"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "Marketplace/SaaS (likely taking a percentage of revenue or charging for the tech suite)",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "seed/series-a",
+      "growth_indicators": [
+        "Number of restaurant partners",
+        "Number of OSK kitchen locations"
+      ],
+      "growth_bottlenecks": [
+        "Securing prime downtown locations",
+        "Maintaining quality control across multiple kitchens"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "high",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Restaurant adoption rate",
+        "Competition from established players",
+        "Maintaining consistent food quality"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Innovative business model",
+        "Strong value proposition for restaurants",
+        "Leverages AI for efficiency"
+      ],
+      "concerns": [
+        "Execution risk in scaling operations",
+        "Reliance on partnerships"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Kitchen United",
+        "CloudKitchens"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on securing key restaurant partnerships",
+        "Develop a strong brand identity"
+      ],
+      "expansion_opportunities": [
+        "Expand into new geographic markets",
+        "Offer additional services to restaurants (e.g., marketing)"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 710,
+      "completion": 605,
+      "total": 1315,
+      "estimated_cost": 0.000235
+    }
+  },
+  "phase8_complete": true
+}

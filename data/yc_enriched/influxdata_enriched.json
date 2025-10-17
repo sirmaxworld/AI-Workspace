@@ -1,0 +1,1142 @@
+{
+  "slug": "influxdata",
+  "name": "InfluxData",
+  "yc_id": 490,
+  "batch": "Winter 2013",
+  "website": "https://influxdata.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:32:55.173395",
+    "website": "https://influxdata.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 1244.73,
+      "final_url": "https://www.influxdata.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:32:56.418133"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "influxdata.com",
+      "registrar": "NameCheap, Inc.",
+      "creation_date": "2014-06-24T09:48:03",
+      "expiration_date": "2026-06-24T09:48:03",
+      "domain_age_days": 4132,
+      "domain_age_years": 11.3,
+      "name_servers": [
+        "NS-1200.AWSDNS-22.ORG",
+        "NS-127.AWSDNS-15.COM",
+        "NS-2037.AWSDNS-62.CO.UK",
+        "NS-820.AWSDNS-38.NET"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/influxdb",
+      "linkedin": "https://www.linkedin.com/company/influxdb/",
+      "github": "https://github.com/influxdata/influxdb",
+      "facebook": null,
+      "instagram": null,
+      "youtube": "https://www.youtube.com/@influxdata8893"
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": true,
+      "x_frame_options": true,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": true,
+      "security_score": 66,
+      "server": "cloudflare"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:13:54.385812",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:05:57.371900",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "San Francisco, CA, USA",
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:04:14.651539",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:05:57.371988",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/influxdata"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 53,
+        "packages": [
+          {
+            "name": "@influxdata/oats",
+            "description": "``` yarn add -D @influxdata/oats ```",
+            "version": "0.7.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@influxdata/oats"
+          },
+          {
+            "name": "@influxdata/influxdb-client",
+            "description": "InfluxDB 2.x client",
+            "version": "1.35.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@influxdata/influxdb-client"
+          },
+          {
+            "name": "@influxdata/influxdb-client-apis",
+            "description": "InfluxDB 2.x generated APIs",
+            "version": "1.35.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@influxdata/influxdb-client-apis"
+          },
+          {
+            "name": "@influxdata/influxdb3-client",
+            "description": "The Client that provides a simple and convenient way to interact with InfluxDB 3.",
+            "version": "1.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@influxdata/influxdb3-client"
+          },
+          {
+            "name": "@influxdata/influxdb-client-browser",
+            "description": "InfluxDB 2.x client for browser",
+            "version": "1.35.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@influxdata/influxdb-client-browser"
+          },
+          {
+            "name": "@influxdata/clockface",
+            "description": "UI Kit for building Chronograf and other Time Series visualization applications",
+            "version": "6.3.11",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@influxdata/clockface"
+          },
+          {
+            "name": "@influxdata/influx",
+            "description": "InfluxDB 2.0 client",
+            "version": "0.5.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@influxdata/influx"
+          },
+          {
+            "name": "@influxdata/giraffe",
+            "description": "[![Slack Status](https://img.shields.io/badge/slack-join_chat-white.svg?logo=slack&style=social)](https://www.influxdata.com/slack)",
+            "version": "2.38.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@influxdata/giraffe"
+          },
+          {
+            "name": "@influxdata/vis",
+            "description": "This repository contains a React-based visualization library used to implement several features in the [InfluxDB 2.0](https://github.com/influxdata/influxdb/) UI. The library is currently in a pre-alpha state.",
+            "version": "0.9.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@influxdata/vis"
+          },
+          {
+            "name": "@influxdata/influxdb-client-giraffe",
+            "description": "InfluxDB 2.x client - giraffe integration",
+            "version": "1.35.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@influxdata/influxdb-client-giraffe"
+          },
+          {
+            "name": "@influxdata/influxdb-templates",
+            "description": "Templates for the InfluxDB 2.0 UI",
+            "version": "0.12.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@influxdata/influxdb-templates"
+          },
+          {
+            "name": "artillery-plugin-publish-metrics",
+            "description": "Publish metrics from your Artillery.io tests to external monitoring & observability systems",
+            "version": "2.31.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/artillery-plugin-publish-metrics"
+          },
+          {
+            "name": "@influxdata/influxdb3-client-browser",
+            "description": "InfluxDB 3 client for browser",
+            "version": "1.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@influxdata/influxdb3-client-browser"
+          },
+          {
+            "name": "@influxdata/flux",
+            "description": null,
+            "version": "0.5.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@influxdata/flux"
+          },
+          {
+            "name": "@influxdata/flux-lsp-cli",
+            "description": "Flux cli LSP server",
+            "version": "0.7.31",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@influxdata/flux-lsp-cli"
+          },
+          {
+            "name": "influx",
+            "description": "InfluxDB Client",
+            "version": "5.11.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/influx"
+          },
+          {
+            "name": "@influxdata/flux-lsp-browser",
+            "description": "LSP support for the flux language",
+            "version": "0.8.40",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@influxdata/flux-lsp-browser"
+          },
+          {
+            "name": "@influxdata/react-custom-scrollbars",
+            "description": "React scrollbars component",
+            "version": "4.3.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@influxdata/react-custom-scrollbars"
+          },
+          {
+            "name": "node-red-contrib-influxdb",
+            "description": "Node-RED nodes to save and query data from an influxdb time series database",
+            "version": "0.7.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/node-red-contrib-influxdb"
+          },
+          {
+            "name": "nestjs-hot-shots",
+            "description": "Hot-shots Module for Nest.js Framework",
+            "version": "3.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/nestjs-hot-shots"
+          },
+          {
+            "name": "@influxdata/flux-lsp-node",
+            "description": "LSP support for the flux language",
+            "version": "0.8.40",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@influxdata/flux-lsp-node"
+          },
+          {
+            "name": "@influxdata/flux-parser",
+            "description": null,
+            "version": "0.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@influxdata/flux-parser"
+          },
+          {
+            "name": "@kaname-png/plugin-influxdb",
+            "description": "Plugin for @sapphire/framework to track analytics on influxDB.",
+            "version": "1.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@kaname-png/plugin-influxdb"
+          },
+          {
+            "name": "newman-reporter-influxdb",
+            "description": "Newman Reporter for InfluxDB",
+            "version": "2.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/newman-reporter-influxdb"
+          },
+          {
+            "name": "@swiizyyy/plugin-influxdb",
+            "description": "Plugin for @sapphire/framework to track analytics on influxDB.",
+            "version": "1.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@swiizyyy/plugin-influxdb"
+          },
+          {
+            "name": "@rcomanne/node-red-contrib-influxdb",
+            "description": "Node-RED nodes to save and query data from an influxdb time series database",
+            "version": "0.8.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@rcomanne/node-red-contrib-influxdb"
+          },
+          {
+            "name": "@galpha/proto",
+            "description": "Protocol Buffers definitions for Galpha services with TypeScript support",
+            "version": "1.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@galpha/proto"
+          },
+          {
+            "name": "influx-syslog",
+            "description": "Node.js InfluxDB syslog logger",
+            "version": "0.2.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/influx-syslog"
+          },
+          {
+            "name": "@amidmm/giraffe",
+            "description": "[![Slack Status](https://img.shields.io/badge/slack-join_chat-white.svg?logo=slack&style=social)](https://www.influxdata.com/slack)",
+            "version": "2.36.3693",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@amidmm/giraffe"
+          },
+          {
+            "name": "influxdb-node",
+            "description": "Node.js client for InfluxDB",
+            "version": "1.0.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/influxdb-node"
+          },
+          {
+            "name": "koishi-plugin-influxdb",
+            "description": "\u8bb0\u5f55\u60a8\u7684\u6570\u636e\u5230 influxdb",
+            "version": "1.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/koishi-plugin-influxdb"
+          },
+          {
+            "name": "@kyuda/node-red-contrib-influxdb",
+            "description": "InfluxDB for Node-RED",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@kyuda/node-red-contrib-influxdb"
+          },
+          {
+            "name": "@swiizyy/plugin-influxdb",
+            "description": "Plugin for @sapphire/framework to track analytics on influxDB.",
+            "version": "1.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@swiizyy/plugin-influxdb"
+          },
+          {
+            "name": "signalk-to-influxdb-v2-buffering",
+            "description": "Plugin that saves data to an influxdbv2 database - buffers data without internet connection",
+            "version": "2.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/signalk-to-influxdb-v2-buffering"
+          },
+          {
+            "name": "winston-influxdb2",
+            "description": "A Winston transport for InfluxDBv2",
+            "version": "1.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/winston-influxdb2"
+          },
+          {
+            "name": "@andrei-tatar/node-red-contrib-influxdb",
+            "description": "Node-RED nodes to save and query data from an influxdb time series database",
+            "version": "0.8.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@andrei-tatar/node-red-contrib-influxdb"
+          },
+          {
+            "name": "eslint-config-eslint-2",
+            "description": "This is just our internal .eslintrc. We might end up open sourcing it sometime, but it doesn't need to be open source.",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/eslint-config-eslint-2"
+          },
+          {
+            "name": "@itloq9/giraffe",
+            "description": "[![Slack Status](https://img.shields.io/badge/slack-join_chat-white.svg?logo=slack&style=social)](https://www.influxdata.com/slack)",
+            "version": "2.15.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@itloq9/giraffe"
+          },
+          {
+            "name": "node-red-contrib-hot-shots",
+            "description": "StatsD metrics for Node-RED. Nodes wrap the hot-shots javascript library.",
+            "version": "0.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/node-red-contrib-hot-shots"
+          },
+          {
+            "name": "@motleyagency/influxdb-incremental-restore",
+            "description": "InfluxDB incremental restore script for InfluxDB@^1.5.x ",
+            "version": "0.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@motleyagency/influxdb-incremental-restore"
+          },
+          {
+            "name": "influxdb_wdc",
+            "description": "A Tableau Web Data Connector (WDC) for InfluxDB",
+            "version": "2.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/influxdb_wdc"
+          },
+          {
+            "name": "telestats",
+            "description": "Telegraf JSON output handler",
+            "version": "1.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/telestats"
+          },
+          {
+            "name": "juttle-influx-adapter",
+            "description": "Juttle adapter for InfluxDB",
+            "version": "0.7.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/juttle-influx-adapter"
+          },
+          {
+            "name": "@iota-big3/sdk-timeseries",
+            "description": "Time series data processing and analytics for the IOTA Big3 SDK",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@iota-big3/sdk-timeseries"
+          },
+          {
+            "name": "tstatsd",
+            "description": "Generate telegraf statsd's inputs in NodeJs",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/tstatsd"
+          },
+          {
+            "name": "@roadmanjs/fluxer",
+            "description": " A roadman for market data",
+            "version": "0.0.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@roadmanjs/fluxer"
+          },
+          {
+            "name": "newman-reporter-influxdb-jenkins",
+            "description": "modification on the original newman-reporter-influxdb by vs4vijay - tag to field and can add build number in jenkins shell to be added to influxdb",
+            "version": "1.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/newman-reporter-influxdb-jenkins"
+          },
+          {
+            "name": "artillery-plugin-telegraf",
+            "description": "Telegraf-influx output plugin for Artillery",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/artillery-plugin-telegraf"
+          },
+          {
+            "name": "newman-reporter-influxdb-executiontags",
+            "description": "Newman Reporter for InfluxDB with release, build, environment and current date tags",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/newman-reporter-influxdb-executiontags"
+          },
+          {
+            "name": "telegraf.clients.ts",
+            "description": "telegraf.clients typescript fork",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/telegraf.clients.ts"
+          },
+          {
+            "name": "okala-newman-reporter-influxdb",
+            "description": "Okala Newman Reporter for InfluxDB",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/okala-newman-reporter-influxdb"
+          },
+          {
+            "name": "node-red-contrib-influxdb3",
+            "description": "Node-RED nodes for InfluxDB v3 integration",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/node-red-contrib-influxdb3"
+          },
+          {
+            "name": "loopback-connector-influxdata",
+            "description": "Loopback Connector for InfluxDB",
+            "version": "0.4.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/loopback-connector-influxdata"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 10,
+        "packages": [
+          {
+            "name": "kapacitor-udf",
+            "description": "A Rust library for creating Kapacitor User Defined Functions (UDFs)",
+            "version": "0.1.0",
+            "downloads": 1627,
+            "url": "https://crates.io/crates/kapacitor-udf"
+          },
+          {
+            "name": "kapacitor-multi-indicator-batch-udf",
+            "description": "A multi-indicator batch UDF for Kapacitor",
+            "version": "0.1.1",
+            "downloads": 2168,
+            "url": "https://crates.io/crates/kapacitor-multi-indicator-batch-udf"
+          },
+          {
+            "name": "kapacitor-multi-indicator-stream-udf",
+            "description": "A multi-indicator stream UDF for Kapacitor",
+            "version": "0.1.1",
+            "downloads": 2200,
+            "url": "https://crates.io/crates/kapacitor-multi-indicator-stream-udf"
+          },
+          {
+            "name": "liquid-cache-client",
+            "description": "10x lower latency for cloud-native DataFusion",
+            "version": "0.1.8",
+            "downloads": 4494,
+            "url": "https://crates.io/crates/liquid-cache-client"
+          },
+          {
+            "name": "liquid-cache-common",
+            "description": "10x lower latency for cloud-native DataFusion",
+            "version": "0.1.9",
+            "downloads": 4888,
+            "url": "https://crates.io/crates/liquid-cache-common"
+          },
+          {
+            "name": "liquid-cache-local",
+            "description": "10x lower latency for cloud-native DataFusion",
+            "version": "0.1.8",
+            "downloads": 336,
+            "url": "https://crates.io/crates/liquid-cache-local"
+          },
+          {
+            "name": "liquid-cache-parquet",
+            "description": "10x lower latency for cloud-native DataFusion",
+            "version": "0.1.8",
+            "downloads": 4661,
+            "url": "https://crates.io/crates/liquid-cache-parquet"
+          },
+          {
+            "name": "liquid-cache-server",
+            "description": "10x lower latency for cloud-native DataFusion",
+            "version": "0.1.8",
+            "downloads": 4376,
+            "url": "https://crates.io/crates/liquid-cache-server"
+          },
+          {
+            "name": "liquid-cache-storage",
+            "description": "10x lower latency for cloud-native DataFusion",
+            "version": "0.1.8",
+            "downloads": 452,
+            "url": "https://crates.io/crates/liquid-cache-storage"
+          },
+          {
+            "name": "object_store",
+            "description": "A generic object store interface for uniformly interacting with AWS S3, Google Cloud Storage, Azure Blob Storage and local files.",
+            "version": "0.12.4",
+            "downloads": 36766950,
+            "url": "https://crates.io/crates/object_store"
+          }
+        ]
+      },
+      "total_packages": 63,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:05:58.710888"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:05:58.710895",
+    "batch_network": {
+      "batch": "Winter 2013",
+      "total_batch_mates": 45,
+      "active_batch_mates": 17,
+      "batch_success_rate": 37.8,
+      "notable_batch_mates": [
+        {
+          "name": "Screenhero",
+          "slug": "screenhero",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Collaborative Screen Sharing \u2014\u00a0you each get your own mouse, and\u2026"
+        },
+        {
+          "name": "Scuba",
+          "slug": "interana",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Analytics for impatient people."
+        },
+        {
+          "name": "North",
+          "slug": "north",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Wearable computing hardware: biosignal gesture recognition"
+        },
+        {
+          "name": "VaycayHero",
+          "slug": "vaycayhero",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "VaycayHero is a marketplace of professionally managed vacation\u2026"
+        },
+        {
+          "name": "Fivetran",
+          "slug": "fivetran",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "The leader in automated data movement"
+        },
+        {
+          "name": "GrepData",
+          "slug": "grepdata",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Big Data Analytics"
+        },
+        {
+          "name": "Bitnami",
+          "slug": "bitnami",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The App Store for Server Software"
+        },
+        {
+          "name": "Meldium",
+          "slug": "meldium",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Simple password & identity management for teams. Acquired by LogMeIn\u2026"
+        },
+        {
+          "name": "Heap",
+          "slug": "heap",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Captures user interactions with no code to generate analytics."
+        },
+        {
+          "name": "MedXT",
+          "slug": "medxt",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Radiology in the cloud.  X-rays, CAT scans, MRI's, and\u2026"
+        }
+      ],
+      "batch_size": 46
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Amiato",
+          "slug": "amiato",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "The BI bridge for unstructured data. We automatically bridge the gap\u2026"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Simple multiplayer game servers."
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Backlift allows front-end only developers to build entire websites\u2026"
+        },
+        {
+          "name": "Documents.Me",
+          "slug": "documents-me",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Client-side encryption for your devices and the cloud."
+        },
+        {
+          "name": "Apollo",
+          "slug": "apollo",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Apollo helps engineering teams accelerate delivery"
+        },
+        {
+          "name": "Proxino",
+          "slug": "proxino",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Javascript proxy."
+        },
+        {
+          "name": "PhoneSys",
+          "slug": "phonesys",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "The Phone System for Sales Teams."
+        },
+        {
+          "name": "Cryptoseal",
+          "slug": "cryptoseal",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Server key management, VPN as a Service, Privacy VPN.  Sold to\u2026"
+        },
+        {
+          "name": "Citus Data",
+          "slug": "citus-data",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Real-time. Big data. PostgreSQL"
+        },
+        {
+          "name": "Realm",
+          "slug": "realm",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Better data structures = no DB."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "San Francisco",
+      "location": "San Francisco, CA, USA; Remote",
+      "companies_in_city": 2007,
+      "active_in_city": 1339,
+      "nearby_companies": [
+        {
+          "name": "42Floors",
+          "slug": "42floors",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "PlanGrid",
+          "slug": "plangrid",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "MyVR",
+          "slug": "myvr",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Couple",
+          "slug": "couple",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HackPad",
+          "slug": "hackpad",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Gusto",
+          "slug": "gusto",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "FamilyLeaf",
+          "slug": "familyleaf",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Chute",
+          "slug": "chute",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Make School",
+          "slug": "make-school",
+          "batch": "Winter 2012",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Exec",
+          "slug": "exec",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Public"
+        },
+        {
+          "name": "LendUp",
+          "slug": "lendup",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tilt",
+          "slug": "tilt",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fond",
+          "slug": "fond",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Bitnami",
+        "slug": "bitnami",
+        "batch": "Winter 2013",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Etleap",
+        "slug": "etleap",
+        "batch": "Winter 2013",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Logiblock",
+        "slug": "logiblock",
+        "batch": "Winter 2013",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Padlet",
+        "slug": "padlet",
+        "batch": "Winter 2013",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Fivetran",
+        "slug": "fivetran",
+        "batch": "Winter 2013",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "GrepData",
+        "slug": "grepdata",
+        "batch": "Winter 2013",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Cheetah",
+        "slug": "cheetah",
+        "batch": "Winter 2013",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Meldium",
+        "slug": "meldium",
+        "batch": "Winter 2013",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Heap",
+        "slug": "heap",
+        "batch": "Winter 2013",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Zenefits",
+        "slug": "zenefits",
+        "batch": "Winter 2013",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 4798,
+      "network_density_score": 89.0,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:05:58.718033"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:05:58.718041",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:05:59.033471",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:05:59.269808",
+    "basic_info": {
+      "is_hiring": true,
+      "team_size": 210,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:27.585234",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increased adoption of IoT devices",
+        "Growing need for real-time data analytics",
+        "Rise of DevOps practices"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Strong open-source community and established technology in time-series database market.",
+      "differentiation": "Purpose-built time-series database optimized for high-volume data ingestion and analysis.",
+      "competitive_advantages": [
+        "Strong developer community",
+        "Optimized for time-series data"
+      ],
+      "competitive_vulnerabilities": [
+        "Competition from larger cloud providers with integrated solutions",
+        "Complexity of managing open-source projects"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "Increasing customer base",
+        "Expansion of product offerings"
+      ],
+      "growth_bottlenecks": [
+        "Sales cycle length",
+        "Competition in the cloud market"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Competition from cloud providers",
+        "Maintaining open-source community engagement",
+        "Economic downturn affecting IT spending"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong technology in a growing market",
+        "Established customer base",
+        "Active open-source community"
+      ],
+      "concerns": [
+        "Competition from larger players",
+        "Potential for open-source fatigue"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Datadog",
+        "New Relic"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on enterprise sales and partnerships",
+        "Expand cloud offerings and integrations"
+      ],
+      "expansion_opportunities": [
+        "Vertical-specific solutions",
+        "Edge computing applications"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 714,
+      "completion": 577,
+      "total": 1291,
+      "estimated_cost": 0.000227
+    }
+  },
+  "phase8_complete": true
+}

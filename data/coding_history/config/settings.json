@@ -1,0 +1,18 @@
+{
+  "capture_enabled": true,
+  "capture_commands": true,
+  "capture_outputs": true,
+  "capture_errors": true,
+  "max_chunk_size": 100000,
+  "compression_level": 3,
+  "auto_index": true,
+  "auto_embed": false,
+  "excluded_patterns": [
+    "password:",
+    "api_key:",
+    "secret:",
+    "token:"
+  ],
+  "included_projects": [],
+  "excluded_projects": []
+}

@@ -1,0 +1,234 @@
+{
+  "market_intelligence": {
+    "target_markets": [
+      {
+        "market_description": "Developers and entrepreneurs who want to maximize productivity with AI coding tools",
+        "demographics": [
+          "developers",
+          "entrepreneurs",
+          "people building apps"
+        ],
+        "pain_points": [
+          "not getting the most out of Cursor",
+          "inefficient AI agent usage",
+          "lack of proper workflow structure"
+        ],
+        "market_size_indicators": "Growing market of people trying Cursor but not optimizing usage"
+      },
+      {
+        "market_description": "Non-developers interested in building software products",
+        "demographics": [
+          "non-technical entrepreneurs",
+          "people who don't want to look at code",
+          "aspiring app builders"
+        ],
+        "pain_points": [
+          "wanting to build apps without coding knowledge",
+          "reaching limitations without understanding code"
+        ],
+        "market_size_indicators": "Millions of people who will build software vs artisanal coders"
+      }
+    ],
+    "problems_validated": [
+      {
+        "problem": "Developers are not maximizing the potential of AI coding tools like Cursor",
+        "severity": "Moderate - people are using the tool but inefficiently",
+        "current_solutions": "Basic Cursor usage without optimization",
+        "market_gap": "Lack of advanced tutorials and best practices from actual Cursor team members"
+      }
+    ]
+  },
+  "products_tools": [
+    {
+      "name": "Cursor AI",
+      "category": "ai-tool",
+      "use_case": "AI-powered code editor with agents for development tasks",
+      "sentiment": "positive/recommended",
+      "pricing": "not mentioned",
+      "metrics": "not mentioned"
+    },
+    {
+      "name": "Bracks",
+      "category": "saas",
+      "use_case": "Financial management and spend visibility for entrepreneurs",
+      "sentiment": "positive/recommended",
+      "pricing": "not mentioned",
+      "metrics": "not mentioned"
+    }
+  ],
+  "business_strategies": [
+    {
+      "strategy_type": "operations",
+      "strategy": "Use AI agents for discrete, specific tasks rather than complex multi-task conversations",
+      "implementation": "Create new chats for each task, keep conversations focused and short",
+      "expected_results": "Better quality outputs from AI agents, more efficient development",
+      "case_study": "Lee ran 20 different agent conversations in one day, each handling 30-75 line changes"
+    }
+  ],
+  "problems_solutions": [
+    {
+      "problem": "AI agents producing low-quality code or making errors",
+      "category": "technical",
+      "solution": "Set up proper development environment with linting, formatting, and tests so agents can self-correct",
+      "steps": [
+        "Use TypeScript",
+        "Set up linter",
+        "Configure formatting",
+        "Add tests",
+        "Let agents read their own outputs"
+      ],
+      "tools_needed": [
+        "TypeScript",
+        "Linter",
+        "Formatter",
+        "Testing framework"
+      ],
+      "difficulty": "intermediate",
+      "time_estimate": "not mentioned"
+    },
+    {
+      "problem": "Inefficient context usage with AI agents",
+      "category": "technical",
+      "solution": "Start new conversations for each discrete task to avoid clogging context window",
+      "steps": [
+        "Identify discrete tasks",
+        "Create new chat for each task",
+        "Keep conversations focused",
+        "Explicitly tag relevant files"
+      ],
+      "tools_needed": [
+        "Cursor AI"
+      ],
+      "difficulty": "beginner",
+      "time_estimate": "not mentioned"
+    }
+  ],
+  "startup_ideas": [
+    {
+      "idea": "Course platform and documentation site for AI coding tools",
+      "target_market": "Developers wanting to learn AI coding optimization",
+      "problem_solved": "Lack of comprehensive education on AI coding best practices",
+      "business_model": "Course sales and documentation subscriptions",
+      "validation": "Lee is actively building this as a real project",
+      "investment_needed": "not mentioned"
+    }
+  ],
+  "mistakes_to_avoid": [
+    {
+      "mistake": "Using long, complex conversations with AI agents for multiple tasks",
+      "consequences": "Clogging up context window (working memory), lower quality outputs, agents forgetting earlier context",
+      "prevention": "Start new chats for each discrete task, keep conversations focused",
+      "example": "Like talking to someone for 30 minutes - they'll forget what you said at the beginning"
+    },
+    {
+      "mistake": "Not setting up proper development environment for AI agents",
+      "consequences": "Agents produce buggy code that requires manual fixing",
+      "prevention": "Set up TypeScript, linting, formatting, and tests so agents can self-correct",
+      "example": "Lee's agents automatically fix linter errors without manual intervention"
+    }
+  ],
+  "growth_tactics": [],
+  "ai_workflows": [
+    {
+      "workflow_name": "Self-Correcting AI Agent Development",
+      "tools_used": [
+        "Cursor AI",
+        "TypeScript",
+        "Linter",
+        "Formatter",
+        "Testing framework"
+      ],
+      "steps": [
+        "Set up TypeScript environment",
+        "Configure linter and formatter",
+        "Add tests",
+        "Create new chat for specific task",
+        "Tag relevant files explicitly",
+        "Let agent read and fix its own outputs"
+      ],
+      "automation_level": "semi-automated",
+      "use_case": "High-quality code generation with minimal manual intervention"
+    },
+    {
+      "workflow_name": "Discrete Task Agent Management",
+      "tools_used": [
+        "Cursor AI"
+      ],
+      "steps": [
+        "Identify specific task",
+        "Create new conversation",
+        "Write direct, simple prompt",
+        "Tag relevant files",
+        "Monitor context window usage (keep under ~17%)"
+      ],
+      "automation_level": "manual",
+      "use_case": "Efficient AI agent task management for development work"
+    }
+  ],
+  "metrics_kpis": [
+    {
+      "metric": "Context window usage",
+      "benchmark": "Around 17% maximum for optimal performance",
+      "tracking_method": "Monitor context percentage in Cursor interface",
+      "optimization_tip": "Start new conversations when context gets too high"
+    }
+  ],
+  "trends_signals": [
+    {
+      "trend": "Growing divide between code-focused developers and no-code builders",
+      "category": "technology",
+      "stage": "growing",
+      "opportunity": "Tools and education for both segments - artisanal coders and no-code builders"
+    },
+    {
+      "trend": "AI agents becoming more autonomous with self-correction capabilities",
+      "category": "technology",
+      "stage": "early",
+      "opportunity": "Development environments optimized for AI agent workflows"
+    }
+  ],
+  "actionable_quotes": [
+    {
+      "quote": "It's important that you're making new chats or new conversations for each kind of discrete task because every single time you're giving context to the model",
+      "context": "Explaining optimal AI agent usage patterns",
+      "category": "tactical",
+      "actionability": "Start new Cursor conversations for each separate development task"
+    },
+    {
+      "quote": "The code is the source of truth and now you can just do whatever you want",
+      "context": "Explaining why understanding code gives you superpowers",
+      "category": "mindset",
+      "actionability": "Learn to read and understand code even if you're not a developer"
+    },
+    {
+      "quote": "I've taken some measures ahead of time to make sure that the agent can basically fix its own outputs inside of this codebase",
+      "context": "Setting up development environment for AI success",
+      "category": "strategy",
+      "actionability": "Set up linting, formatting, and tests before using AI agents"
+    }
+  ],
+  "key_statistics": [
+    {
+      "statistic": "20 different agent conversations in one day",
+      "context": "Lee's actual usage pattern while building a real application",
+      "source_reliability": "verified"
+    },
+    {
+      "statistic": "Most conversations resulted in 30-75 line changes",
+      "context": "Typical scope of discrete AI agent tasks",
+      "source_reliability": "verified"
+    },
+    {
+      "statistic": "17% context window usage",
+      "context": "Optimal context usage for AI agent tasks",
+      "source_reliability": "verified"
+    }
+  ],
+  "meta": {
+    "video_id": "8QN23ZThdRY",
+    "title": "Cursor AI Agents Work Like 10 Developers (Cursor VP Live Demo)",
+    "extracted_at": "2025-10-15T21:49:30.348258",
+    "model": "claude-sonnet-4-20250514",
+    "transcript_length": 30830
+  }
+}

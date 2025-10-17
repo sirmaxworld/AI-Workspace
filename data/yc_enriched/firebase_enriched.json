@@ -1,0 +1,1575 @@
+{
+  "slug": "firebase",
+  "name": "Firebase",
+  "yc_id": 97,
+  "batch": "Summer 2011",
+  "website": "http://firebase.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:29:28.875756",
+    "website": "http://firebase.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 1152.64,
+      "final_url": "https://firebase.google.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:29:30.028409"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "firebase.com",
+      "registrar": "MarkMonitor Inc.",
+      "creation_date": "1997-10-02T04:00:00",
+      "expiration_date": "2026-10-01T04:00:00",
+      "domain_age_days": 10241,
+      "domain_age_years": 28.0,
+      "name_servers": [
+        "NS-CLOUD-C1.GOOGLEDOMAINS.COM",
+        "NS-CLOUD-C2.GOOGLEDOMAINS.COM",
+        "NS-CLOUD-C3.GOOGLEDOMAINS.COM",
+        "NS-CLOUD-C4.GOOGLEDOMAINS.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": "//x.com/Firebase",
+      "linkedin": null,
+      "github": "//github.com/firebase/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": "//www.youtube.com/user/Firebase"
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": true,
+      "x_frame_options": false,
+      "x_content_type_options": true,
+      "x_xss_protection": true,
+      "referrer_policy": false,
+      "security_score": 66,
+      "server": "Google Frontend"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:12:35.549790",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:46:59.085056",
+    "place_data": {
+      "status": "not_found",
+      "query": "Mountain View, CA, USA"
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:46:59.189567",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/firebase"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 100,
+        "packages": [
+          {
+            "name": "@firebase/component",
+            "description": "Firebase Component Platform",
+            "version": "0.7.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@firebase/component"
+          },
+          {
+            "name": "@firebase/database-types",
+            "description": "@firebase/database Types",
+            "version": "1.0.16",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@firebase/database-types"
+          },
+          {
+            "name": "@firebase/auth",
+            "description": "The Firebase Authenticaton component of the Firebase JS SDK.",
+            "version": "1.11.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@firebase/auth"
+          },
+          {
+            "name": "@firebase/app-types",
+            "description": "@firebase/app Types",
+            "version": "0.9.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@firebase/app-types"
+          },
+          {
+            "name": "@firebase/functions",
+            "description": "This is the Firebase Functions component of the Firebase JS SDK.",
+            "version": "0.13.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@firebase/functions"
+          },
+          {
+            "name": "@firebase/database",
+            "description": "This is the Firebase Realtime Database component of the Firebase JS SDK.",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@firebase/database"
+          },
+          {
+            "name": "@firebase/functions-types",
+            "description": "@firebase/functions Types",
+            "version": "0.6.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@firebase/functions-types"
+          },
+          {
+            "name": "@firebase/analytics-types",
+            "description": "@firebase/analytics Types",
+            "version": "0.8.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@firebase/analytics-types"
+          },
+          {
+            "name": "@firebase/performance",
+            "description": "Firebase performance for web",
+            "version": "0.7.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@firebase/performance"
+          },
+          {
+            "name": "@firebase/messaging",
+            "description": "This is the Firebase Cloud Messaging component of the Firebase JS SDK.",
+            "version": "0.12.23",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@firebase/messaging"
+          },
+          {
+            "name": "@firebase/firestore-types",
+            "description": "@firebase/firestore Types",
+            "version": "3.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@firebase/firestore-types"
+          },
+          {
+            "name": "@firebase/storage-types",
+            "description": "@firebase/storage Types",
+            "version": "0.8.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@firebase/storage-types"
+          },
+          {
+            "name": "@firebase/auth-types",
+            "description": "@firebase/auth Types",
+            "version": "0.13.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@firebase/auth-types"
+          },
+          {
+            "name": "firebase",
+            "description": "Firebase JavaScript library for web and Node.js",
+            "version": "12.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/firebase"
+          },
+          {
+            "name": "@firebase/auth-interop-types",
+            "description": "@firebase/auth interop Types",
+            "version": "0.2.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@firebase/auth-interop-types"
+          },
+          {
+            "name": "firebase-admin",
+            "description": "Firebase admin SDK for Node.js",
+            "version": "13.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/firebase-admin"
+          },
+          {
+            "name": "@firebase/ai",
+            "description": "The Firebase AI SDK",
+            "version": "2.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@firebase/ai"
+          },
+          {
+            "name": "@firebase/remote-config-types",
+            "description": "@firebase/remote-config Types",
+            "version": "0.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@firebase/remote-config-types"
+          },
+          {
+            "name": "@firebase/storage-compat",
+            "description": "The Firebase Firestore compatibility package",
+            "version": "0.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@firebase/storage-compat"
+          },
+          {
+            "name": "@firebase/app-check-types",
+            "description": "@firebase/app-check Types",
+            "version": "0.5.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@firebase/app-check-types"
+          },
+          {
+            "name": "@firebase/analytics",
+            "description": "A analytics package for new firebase packages",
+            "version": "0.10.19",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@firebase/analytics"
+          },
+          {
+            "name": "@firebase/performance-compat",
+            "description": "The compatibility package of Firebase Performance",
+            "version": "0.2.22",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@firebase/performance-compat"
+          },
+          {
+            "name": "@firebase/messaging-interop-types",
+            "description": "@firebase/messaging-interop-types Types",
+            "version": "0.2.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@firebase/messaging-interop-types"
+          },
+          {
+            "name": "@firebase/analytics-compat",
+            "description": "This is the compatibility layer for the Firebase Analytics component of the Firebase JS SDK.",
+            "version": "0.2.25",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@firebase/analytics-compat"
+          },
+          {
+            "name": "@firebase/app",
+            "description": "The primary entrypoint to the Firebase JS SDK",
+            "version": "0.14.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@firebase/app"
+          },
+          {
+            "name": "@firebase/logger",
+            "description": "A logger package for use in the Firebase JS SDK",
+            "version": "0.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@firebase/logger"
+          },
+          {
+            "name": "@firebase/firestore",
+            "description": "The Cloud Firestore component of the Firebase JS SDK.",
+            "version": "4.9.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@firebase/firestore"
+          },
+          {
+            "name": "@firebase/app-check-interop-types",
+            "description": "@firebase/app-check-interop-types Types",
+            "version": "0.3.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@firebase/app-check-interop-types"
+          },
+          {
+            "name": "@firebase/util",
+            "description": "_NOTE: This is specifically tailored for Firebase JS SDK usage, if you are not a member of the Firebase team, please avoid using this package_",
+            "version": "1.13.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@firebase/util"
+          },
+          {
+            "name": "firebase-tools",
+            "description": "Command-Line Interface for Firebase",
+            "version": "14.20.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/firebase-tools"
+          },
+          {
+            "name": "firebase-functions",
+            "description": "Firebase SDK for Cloud Functions",
+            "version": "6.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/firebase-functions"
+          },
+          {
+            "name": "@firebase/database-compat",
+            "description": "The Realtime Database component of the Firebase JS SDK.",
+            "version": "2.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@firebase/database-compat"
+          },
+          {
+            "name": "@firebase/app-compat",
+            "description": "The primary entrypoint to the Firebase JS SDK",
+            "version": "0.5.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@firebase/app-compat"
+          },
+          {
+            "name": "@firebase/vertexai",
+            "description": "A Firebase SDK for VertexAI",
+            "version": "1.2.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@firebase/vertexai"
+          },
+          {
+            "name": "@firebase/firestore-compat",
+            "description": "The Cloud Firestore component of the Firebase JS SDK.",
+            "version": "0.4.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@firebase/firestore-compat"
+          },
+          {
+            "name": "@firebase/storage",
+            "description": "This is the Cloud Storage component of the Firebase JS SDK.",
+            "version": "0.14.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@firebase/storage"
+          },
+          {
+            "name": "@firebase/app-check",
+            "description": "The App Check component of the Firebase JS SDK",
+            "version": "0.11.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@firebase/app-check"
+          },
+          {
+            "name": "@firebase/remote-config",
+            "description": "The Remote Config package of the Firebase JS SDK",
+            "version": "0.7.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@firebase/remote-config"
+          },
+          {
+            "name": "@firebase/messaging-types",
+            "description": "@firebase/messaging Types",
+            "version": "0.6.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@firebase/messaging-types"
+          },
+          {
+            "name": "@firebase/performance-types",
+            "description": "@firebase/performance Types",
+            "version": "0.2.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@firebase/performance-types"
+          },
+          {
+            "name": "@firebase/installations-types",
+            "description": "@firebase/installations Types",
+            "version": "0.5.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@firebase/installations-types"
+          },
+          {
+            "name": "@firebase/app-check-compat",
+            "description": "A compat App Check package for new firebase packages",
+            "version": "0.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@firebase/app-check-compat"
+          },
+          {
+            "name": "@firebase/vertexai-preview",
+            "description": "A Firebase SDK for VertexAI (preview)",
+            "version": "0.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@firebase/vertexai-preview"
+          },
+          {
+            "name": "@firebase/installations-compat",
+            "description": "This is a compatability layer  for the Firebase Installations SDK",
+            "version": "0.2.19",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@firebase/installations-compat"
+          },
+          {
+            "name": "@firebase/auth-compat",
+            "description": "FirebaseAuth compatibility package that uses API style compatible with Firebase@8 and prior versions",
+            "version": "0.6.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@firebase/auth-compat"
+          },
+          {
+            "name": "firebase-functions-test",
+            "description": "A testing companion to firebase-functions.",
+            "version": "3.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/firebase-functions-test"
+          },
+          {
+            "name": "@react-native-firebase/messaging",
+            "description": "React Native Firebase - React Native Firebase provides native integration of Firebase Cloud Messaging (FCM) for both Android & iOS. FCM is a cost free service, allowing for server-device and device-device communication. The React Native Firebase Messaging",
+            "version": "23.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@react-native-firebase/messaging"
+          },
+          {
+            "name": "react-firebase-hooks",
+            "description": "React Hooks for Firebase",
+            "version": "5.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-firebase-hooks"
+          },
+          {
+            "name": "@genkit-ai/firebase",
+            "description": "Genkit AI framework plugin for Firebase including Firestore trace/state store and deployment helpers for Cloud Functions for Firebase.",
+            "version": "1.21.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@genkit-ai/firebase"
+          },
+          {
+            "name": "@react-native-firebase/crashlytics",
+            "description": "React Native Firebase - Firebase Crashlytics is a lightweight, realtime crash reporter that helps you track, prioritize, and fix stability issues that erode your app quality. React Native Firebase provides automatic crash reporting for both native and Jav",
+            "version": "23.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@react-native-firebase/crashlytics"
+          },
+          {
+            "name": "@firebase/polyfill",
+            "description": "This is the a set of polyfills/shims used by the Firebase JS SDK. This package is completely standalone and can be loaded to standardize environments for use with the Firebase JS SDK.",
+            "version": "0.3.36",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@firebase/polyfill"
+          },
+          {
+            "name": "@capacitor-firebase/analytics",
+            "description": "Capacitor plugin for Firebase Analytics.",
+            "version": "7.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@capacitor-firebase/analytics"
+          },
+          {
+            "name": "@capacitor-firebase/authentication",
+            "description": "Capacitor plugin for Firebase Authentication.",
+            "version": "7.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@capacitor-firebase/authentication"
+          },
+          {
+            "name": "@react-native-firebase/auth",
+            "description": "React Native Firebase - The authentication module provides an easy-to-use API to integrate an authentication workflow into new and existing applications. React Native Firebase provides access to all Firebase authentication methods and identity providers.",
+            "version": "23.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@react-native-firebase/auth"
+          },
+          {
+            "name": "@react-native-firebase/installations",
+            "description": "React Native Firebase - Installations",
+            "version": "23.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@react-native-firebase/installations"
+          },
+          {
+            "name": "nestjs-firebase",
+            "description": "@nestjs with firebase",
+            "version": "11.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/nestjs-firebase"
+          },
+          {
+            "name": "@angular/fire",
+            "description": "Angular + Firebase = \u2764\ufe0f",
+            "version": "20.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@angular/fire"
+          },
+          {
+            "name": "@react-native-firebase/perf",
+            "description": "React Native Firebase - React Native Firebase provides native integration with Performance Monitoring to gain insight into key performance characteristics within your React Native application.",
+            "version": "23.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@react-native-firebase/perf"
+          },
+          {
+            "name": "@capacitor-firebase/crashlytics",
+            "description": "Capacitor plugin for Firebase Crashlytics.",
+            "version": "7.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@capacitor-firebase/crashlytics"
+          },
+          {
+            "name": "@react-native-firebase/app-check",
+            "description": "React Native Firebase - App Check",
+            "version": "23.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@react-native-firebase/app-check"
+          },
+          {
+            "name": "@react-native-firebase/analytics",
+            "description": "React Native Firebase - The analytics module provides out of the box support with Google Analytics for Firebase. Integration with the Android & iOS allows for in-depth analytical insight reporting, such as device information, location, user actions and mo",
+            "version": "23.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@react-native-firebase/analytics"
+          },
+          {
+            "name": "rxfire",
+            "description": "Firebase JavaScript library RxJS",
+            "version": "6.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rxfire"
+          },
+          {
+            "name": "@react-native-firebase/storage",
+            "description": "React Native Firebase - React Native Firebase provides native integration with Cloud Storage, providing support to upload and download files directly from your device and from your Firebase Cloud Storage bucket.",
+            "version": "23.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@react-native-firebase/storage"
+          },
+          {
+            "name": "@capacitor-firebase/messaging",
+            "description": "Capacitor plugin for Firebase Cloud Messaging (FCM).",
+            "version": "7.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@capacitor-firebase/messaging"
+          },
+          {
+            "name": "passport-firebase-jwt",
+            "description": "Passport authentication strategy for Firebase JWT token",
+            "version": "1.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/passport-firebase-jwt"
+          },
+          {
+            "name": "@react-native-firebase/functions",
+            "description": "React Native Firebase - Cloud Functions for Firebase lets you automatically run backend code in response to events triggered by Firebase features and HTTPS requests. React Native Firebase supports integration with production and locally emulated Cloud Fun",
+            "version": "23.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@react-native-firebase/functions"
+          },
+          {
+            "name": "@capacitor-community/firebase-analytics",
+            "description": "A native plugin for firebase analytics.",
+            "version": "7.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@capacitor-community/firebase-analytics"
+          },
+          {
+            "name": "@react-native-firebase/remote-config",
+            "description": "React Native Firebase - React Native Firebase provides native integration with Remote Config, allowing you to change the appearance and/or functionality of your app without requiring an app update.",
+            "version": "23.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@react-native-firebase/remote-config"
+          },
+          {
+            "name": "@react-native-firebase/database",
+            "description": "React Native Firebase - The Firebase Realtime Database is a cloud-hosted database. Data is stored as JSON and synchronized in realtime to every connected client. React Native Firebase provides native integration with the Android & iOS Firebase SDKs, suppo",
+            "version": "23.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@react-native-firebase/database"
+          },
+          {
+            "name": "cypress-firebase",
+            "description": "Utilities to help testing Firebase projects with Cypress.",
+            "version": "4.2.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/cypress-firebase"
+          },
+          {
+            "name": "@capacitor-firebase/app",
+            "description": "Capacitor plugin for Firebase App.",
+            "version": "7.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@capacitor-firebase/app"
+          },
+          {
+            "name": "firebase-mock",
+            "description": "Firebase mock library for writing unit tests",
+            "version": "2.3.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/firebase-mock"
+          },
+          {
+            "name": "nativescript-plugin-firebase",
+            "description": "Fire. Base. Firebase!",
+            "version": "10.6.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/nativescript-plugin-firebase"
+          },
+          {
+            "name": "@capacitor-firebase/remote-config",
+            "description": "Capacitor plugin for Firebase Remote Config.",
+            "version": "7.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@capacitor-firebase/remote-config"
+          },
+          {
+            "name": "@auth/firebase-adapter",
+            "description": "Firebase adapter for Auth.js",
+            "version": "2.11.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@auth/firebase-adapter"
+          },
+          {
+            "name": "@react-native-firebase/app-distribution",
+            "description": "React Native Firebase - App Distribution",
+            "version": "23.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@react-native-firebase/app-distribution"
+          },
+          {
+            "name": "firebase-dynamic-links",
+            "description": "unofficial package to create firebase dynamic links",
+            "version": "1.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/firebase-dynamic-links"
+          },
+          {
+            "name": "firebase-token-generator",
+            "description": "A utility to generate signed Firebase Authentication Tokens",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/firebase-token-generator"
+          },
+          {
+            "name": "firebase-auto-ids",
+            "description": "Generate random time-based IDs like Firebase",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/firebase-auto-ids"
+          },
+          {
+            "name": "@nativescript/firebase-core",
+            "description": "NativeScript Firebase - Core",
+            "version": "5.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@nativescript/firebase-core"
+          },
+          {
+            "name": "next-firebase-auth",
+            "description": "Simple Firebase authentication for all Next.js rendering strategies",
+            "version": "1.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/next-firebase-auth"
+          },
+          {
+            "name": "@react-native-firebase/firestore",
+            "description": "React Native Firebase - Cloud Firestore is a NoSQL cloud database to store and sync data between your React Native application and Firebase's database. The API matches the Firebase Web SDK whilst taking advantage of the native SDKs performance and offline",
+            "version": "23.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@react-native-firebase/firestore"
+          },
+          {
+            "name": "@vueuse/firebase",
+            "description": "Enables realtime bindings for Firebase",
+            "version": "14.0.0-alpha.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@vueuse/firebase"
+          },
+          {
+            "name": "@firebase/analytics-interop-types",
+            "description": "@firebase/analytics Types",
+            "version": "0.3.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@firebase/analytics-interop-types"
+          },
+          {
+            "name": "@react-native-firebase/app",
+            "description": "A well tested, feature rich Firebase implementation for React Native, supporting iOS & Android. Individual module support for Admob, Analytics, Auth, Crash Reporting, Cloud Firestore, Database, Dynamic Links, Functions, Messaging (FCM), Remote Config, Sto",
+            "version": "23.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@react-native-firebase/app"
+          },
+          {
+            "name": "expo-firebase-core",
+            "description": "Core support for Google Firebase",
+            "version": "6.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo-firebase-core"
+          },
+          {
+            "name": "@nativescript/firebase-messaging",
+            "description": "NativeScript Firebase - Messaging",
+            "version": "5.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@nativescript/firebase-messaging"
+          },
+          {
+            "name": "@react-native-firebase/in-app-messaging",
+            "description": "React Native Firebase - Firebase In-App Messaging helps you engage your app's active users by sending them targeted, contextual messages that encourage them to use key app features. React Native Firebase provides support for both native Android & iOS inte",
+            "version": "23.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@react-native-firebase/in-app-messaging"
+          },
+          {
+            "name": "next-firebase-auth-edge",
+            "description": "Next.js Firebase Authentication for Edge and server runtimes. Compatible with latest Next.js features.",
+            "version": "1.11.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/next-firebase-auth-edge"
+          },
+          {
+            "name": "@capacitor-firebase/performance",
+            "description": "Capacitor plugin for Firebase Performance Monitoring.",
+            "version": "7.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@capacitor-firebase/performance"
+          },
+          {
+            "name": "@next-auth/firebase-adapter",
+            "description": "Firebase adapter for next-auth.",
+            "version": "2.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@next-auth/firebase-adapter"
+          },
+          {
+            "name": "@simondotm/nx-firebase",
+            "description": "A Firebase plugin for Nx monorepo workspaces.",
+            "version": "2.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@simondotm/nx-firebase"
+          },
+          {
+            "name": "cordova-plugin-firebase-analytics",
+            "description": "Cordova plugin for Firebase Analytics",
+            "version": "8.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/cordova-plugin-firebase-analytics"
+          },
+          {
+            "name": "firebase-key",
+            "description": "Firebase key utility and encoding/decoding functions",
+            "version": "2.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/firebase-key"
+          },
+          {
+            "name": "reactfire",
+            "description": "Firebase library for React",
+            "version": "4.2.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/reactfire"
+          },
+          {
+            "name": "@nativescript/firebase-analytics",
+            "description": "NativeScript Firebase - Analytics",
+            "version": "5.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@nativescript/firebase-analytics"
+          },
+          {
+            "name": "firebase-tools-with-isolate",
+            "description": "Command-Line Interface for Firebase with monorepo support",
+            "version": "14.16.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/firebase-tools-with-isolate"
+          },
+          {
+            "name": "firebase-json",
+            "description": "Parser for JSON based Firebase rules files",
+            "version": "0.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/firebase-json"
+          },
+          {
+            "name": "firebase-auth",
+            "description": "A simple wrapper around firebase token authentication",
+            "version": "0.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/firebase-auth"
+          },
+          {
+            "name": "firebase-auth-cloudflare-workers",
+            "description": "Zero-dependencies firebase auth library for Cloudflare Workers.",
+            "version": "2.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/firebase-auth-cloudflare-workers"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 20,
+        "packages": [
+          {
+            "name": "firebase",
+            "version": "0.2.8",
+            "downloads": 7073266,
+            "url": "https://rubygems.org/gems/firebase"
+          },
+          {
+            "name": "firebase_token_generator",
+            "version": "2.0.0",
+            "downloads": 1073437,
+            "url": "https://rubygems.org/gems/firebase_token_generator"
+          },
+          {
+            "name": "firebase_dynamic_link",
+            "version": "3.0.0",
+            "downloads": 737799,
+            "url": "https://rubygems.org/gems/firebase_dynamic_link"
+          },
+          {
+            "name": "firebase-admin",
+            "version": "0.3.0",
+            "downloads": 84591,
+            "url": "https://rubygems.org/gems/firebase-admin"
+          },
+          {
+            "name": "firebase_id_token",
+            "version": "3.0.0",
+            "downloads": 506748,
+            "url": "https://rubygems.org/gems/firebase_id_token"
+          },
+          {
+            "name": "rest-firebase",
+            "version": "1.1.0",
+            "downloads": 505009,
+            "url": "https://rubygems.org/gems/rest-firebase"
+          },
+          {
+            "name": "dpl-firebase",
+            "version": "1.10.16",
+            "downloads": 408359,
+            "url": "https://rubygems.org/gems/dpl-firebase"
+          },
+          {
+            "name": "firebase_cloud_messenger",
+            "version": "0.4.1",
+            "downloads": 310353,
+            "url": "https://rubygems.org/gems/firebase_cloud_messenger"
+          },
+          {
+            "name": "firebase-auth",
+            "version": "0.1.4",
+            "downloads": 35492,
+            "url": "https://rubygems.org/gems/firebase-auth"
+          },
+          {
+            "name": "firebase-admin-sdk",
+            "version": "0.3.1",
+            "downloads": 128744,
+            "url": "https://rubygems.org/gems/firebase-admin-sdk"
+          },
+          {
+            "name": "firebase-auth-rails",
+            "version": "0.1.2",
+            "downloads": 85935,
+            "url": "https://rubygems.org/gems/firebase-auth-rails"
+          },
+          {
+            "name": "motion-firebase",
+            "version": "4.0.0",
+            "downloads": 99012,
+            "url": "https://rubygems.org/gems/motion-firebase"
+          },
+          {
+            "name": "firebase-stats",
+            "version": "1.0.7",
+            "downloads": 14974,
+            "url": "https://rubygems.org/gems/firebase-stats"
+          },
+          {
+            "name": "firebase_token_auth",
+            "version": "1.5.1",
+            "downloads": 59653,
+            "url": "https://rubygems.org/gems/firebase_token_auth"
+          },
+          {
+            "name": "firebase-ruby",
+            "version": "0.3.1",
+            "downloads": 11422,
+            "url": "https://rubygems.org/gems/firebase-ruby"
+          },
+          {
+            "name": "fastlane-plugin-firebase_app_distribution",
+            "version": "0.10.1",
+            "downloads": 42426136,
+            "url": "https://rubygems.org/gems/fastlane-plugin-firebase_app_distribution"
+          },
+          {
+            "name": "firebase-authentication",
+            "version": "1.0.0",
+            "downloads": 6091,
+            "url": "https://rubygems.org/gems/firebase-authentication"
+          },
+          {
+            "name": "firebase-messaging",
+            "version": "1.0.1",
+            "downloads": 4671,
+            "url": "https://rubygems.org/gems/firebase-messaging"
+          },
+          {
+            "name": "firebase_idtoken",
+            "version": "0.1.3",
+            "downloads": 4198,
+            "url": "https://rubygems.org/gems/firebase_idtoken"
+          },
+          {
+            "name": "firebase-cloning-tool",
+            "version": "0.1.6",
+            "downloads": 15762,
+            "url": "https://rubygems.org/gems/firebase-cloning-tool"
+          }
+        ]
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 10,
+        "packages": [
+          {
+            "name": "firebase",
+            "description": "Rust based library for working with Firebase, currently still under heavy development",
+            "version": "0.9.1",
+            "downloads": 9163,
+            "url": "https://crates.io/crates/firebase"
+          },
+          {
+            "name": "firebase-sdk",
+            "description": "A complete Firebase SDK in Rust, with modular support for Authentication, Messaging, Firestore, Storage, and Realtime Database.",
+            "version": "0.1.0",
+            "downloads": 494,
+            "url": "https://crates.io/crates/firebase-sdk"
+          },
+          {
+            "name": "firebase-rs",
+            "description": "Rust based Firebase library",
+            "version": "2.2.2",
+            "downloads": 41891,
+            "url": "https://crates.io/crates/firebase-rs"
+          },
+          {
+            "name": "rusted-firebase",
+            "description": "Rust based Firebase library, forked from emreyalvac/firebase-rs",
+            "version": "0.1.0",
+            "downloads": 1461,
+            "url": "https://crates.io/crates/rusted-firebase"
+          },
+          {
+            "name": "axum-firebase-middleware",
+            "description": "Axum middleware for authenticating Firebase ID tokens",
+            "version": "0.1.0",
+            "downloads": 419,
+            "url": "https://crates.io/crates/axum-firebase-middleware"
+          },
+          {
+            "name": "firebase-js-sys",
+            "description": "`wasm32-unknown-unknown` bindings for the Firebase modular JS SDK (`npm` firebase@9)",
+            "version": "0.1.0",
+            "downloads": 2001,
+            "url": "https://crates.io/crates/firebase-js-sys"
+          },
+          {
+            "name": "firebase-rs-sdk-unofficial",
+            "description": "Unofficial Rust port of the Firebase JS SDK",
+            "version": "0.9.1",
+            "downloads": 251,
+            "url": "https://crates.io/crates/firebase-rs-sdk-unofficial"
+          },
+          {
+            "name": "rocket_firebase_auth",
+            "description": "Encode/decode firebase tokens in rocket apps with ease",
+            "version": "0.5.0",
+            "downloads": 16882,
+            "url": "https://crates.io/crates/rocket_firebase_auth"
+          },
+          {
+            "name": "firebase-auth",
+            "description": "Firebase authentication extractor for Actix Web and Axum",
+            "version": "0.5.1",
+            "downloads": 57469,
+            "url": "https://crates.io/crates/firebase-auth"
+          },
+          {
+            "name": "firebase-auth-sdk",
+            "description": "Firebase authentication SDK for rust.",
+            "version": "0.1.0",
+            "downloads": 3762,
+            "url": "https://crates.io/crates/firebase-auth-sdk"
+          }
+        ]
+      },
+      "total_packages": 130,
+      "has_packages": true,
+      "checked_at": "2025-10-17T09:47:00.956340"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:47:00.956365",
+    "batch_network": {
+      "batch": "Summer 2011",
+      "total_batch_mates": 59,
+      "active_batch_mates": 14,
+      "batch_success_rate": 23.7,
+      "notable_batch_mates": [
+        {
+          "name": "Freshplum",
+          "slug": "freshplum",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Analytics with action"
+        },
+        {
+          "name": "Clutch",
+          "slug": "clutch",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "An easy to integrate library for native iOS applications designed to\u2026"
+        },
+        {
+          "name": "Stypi",
+          "slug": "stypi",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Realtime collaborative coding"
+        },
+        {
+          "name": "Genius",
+          "slug": "genius",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Music Intelligence"
+        },
+        {
+          "name": "Aisle50",
+          "slug": "aisle50",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Grocery deals."
+        },
+        {
+          "name": "Debteye",
+          "slug": "debteye",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Automate credit counseling."
+        },
+        {
+          "name": "Science Exchange",
+          "slug": "science-exchange",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Powering scientific outsourcing"
+        },
+        {
+          "name": "Codecademy",
+          "slug": "codecademy",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "The leading online learning platform for technical skills."
+        },
+        {
+          "name": "Cryptoseal",
+          "slug": "cryptoseal",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Server key management, VPN as a Service, Privacy VPN.  Sold to\u2026"
+        },
+        {
+          "name": "Segment",
+          "slug": "segment",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Software and APIs to collect, clean, and control customer data."
+        }
+      ],
+      "batch_size": 60
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1969,
+      "direct_competitors": [
+        {
+          "name": "Amiato",
+          "slug": "amiato",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "The BI bridge for unstructured data. We automatically bridge the gap\u2026"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Simple multiplayer game servers."
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Backlift allows front-end only developers to build entire websites\u2026"
+        },
+        {
+          "name": "Documents.Me",
+          "slug": "documents-me",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Client-side encryption for your devices and the cloud."
+        },
+        {
+          "name": "Apollo",
+          "slug": "apollo",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Apollo helps engineering teams accelerate delivery"
+        },
+        {
+          "name": "Proxino",
+          "slug": "proxino",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Javascript proxy."
+        },
+        {
+          "name": "PhoneSys",
+          "slug": "phonesys",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "The Phone System for Sales Teams."
+        },
+        {
+          "name": "Cryptoseal",
+          "slug": "cryptoseal",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Server key management, VPN as a Service, Privacy VPN.  Sold to\u2026"
+        },
+        {
+          "name": "Citus Data",
+          "slug": "citus-data",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Real-time. Big data. PostgreSQL"
+        },
+        {
+          "name": "Realm",
+          "slug": "realm",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Better data structures = no DB."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Mountain View",
+      "location": "Mountain View, CA, USA",
+      "companies_in_city": 84,
+      "active_in_city": 31,
+      "nearby_companies": [
+        {
+          "name": "SlidePay",
+          "slug": "slidepay",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "BarSense",
+          "slug": "barsense",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "YourMechanic",
+          "slug": "yourmechanic",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Carsabi",
+          "slug": "carsabi",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HackerRank",
+          "slug": "hackerrank",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "PhoneSys",
+          "slug": "phonesys",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Cryptoseal",
+          "slug": "cryptoseal",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Everyme",
+          "slug": "everyme",
+          "batch": "Summer 2011",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Kicksend",
+          "slug": "kicksend",
+          "batch": "Summer 2011",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Beetailer",
+          "slug": "beetailer",
+          "batch": "Winter 2011",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "TalkBin",
+          "slug": "talkbin",
+          "batch": "Winter 2011",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "GazeHawk",
+          "slug": "gazehawk",
+          "batch": "Summer 2010",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Whereoscope",
+          "slug": "whereoscope",
+          "batch": "Summer 2010",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Newcope",
+          "slug": "newcope",
+          "batch": "Winter 2010",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HighlightCam",
+          "slug": "highlightcam",
+          "batch": "Summer 2009",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Bump",
+          "slug": "bump",
+          "batch": "Summer 2009",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Recurious",
+          "slug": "recurious",
+          "batch": "Winter 2009",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Picurio",
+          "slug": "picurio",
+          "batch": "Winter 2009",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Virtualmin",
+          "slug": "virtualmin",
+          "batch": "Winter 2007",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Zenter",
+          "slug": "zenter",
+          "batch": "Winter 2007",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "PhoneSys",
+        "slug": "phonesys",
+        "batch": "Summer 2011",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Cryptoseal",
+        "slug": "cryptoseal",
+        "batch": "Summer 2011",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Apollo",
+        "slug": "apollo",
+        "batch": "Summer 2011",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "HackerRank",
+        "slug": "hackerrank",
+        "batch": "Summer 2011",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Proxino",
+        "slug": "proxino",
+        "batch": "Summer 2011",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Citus Data",
+        "slug": "citus-data",
+        "batch": "Summer 2011",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Realm",
+        "slug": "realm",
+        "batch": "Summer 2011",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "imgix",
+        "slug": "imgix",
+        "batch": "Summer 2011",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Compose",
+        "slug": "compose",
+        "batch": "Summer 2011",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Virtualmin",
+        "slug": "virtualmin",
+        "batch": "Winter 2007",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 2889,
+      "network_density_score": 68.6,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T09:47:00.971944"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:47:00.971957",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:47:01.300197",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:47:01.405046",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 500,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:18.019046",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "mature",
+      "key_trends": [
+        "Mobile-first development",
+        "Serverless architectures",
+        "Low-code/No-code platforms"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Strong integration with Google ecosystem, comprehensive suite of services",
+      "differentiation": "Unified platform for app development, backend services, and analytics",
+      "competitive_advantages": [
+        "Google's infrastructure and resources",
+        "Developer-friendly tools and documentation"
+      ],
+      "competitive_vulnerabilities": [
+        "Vendor lock-in with Google",
+        "Complexity of the platform for simple apps"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "mature",
+      "growth_indicators": [
+        "Number of apps using Firebase",
+        "Active developers on the platform"
+      ],
+      "growth_bottlenecks": [
+        "Competition from other cloud providers",
+        "Adoption in enterprises with strict security requirements"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "low",
+      "technology_risk": "low",
+      "execution_risk": "low",
+      "overall_risk_score": 2,
+      "key_risks": [
+        "Dependence on Google's strategy",
+        "Data privacy regulations",
+        "Security breaches"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Comprehensive platform",
+        "Strong Google integration",
+        "Large developer community"
+      ],
+      "concerns": [
+        "Potential for Google to prioritize other products",
+        "Complexity can deter some users"
+      ],
+      "exit_potential": "strategic",
+      "comparable_companies": [
+        "AWS Amplify",
+        "Azure Mobile Apps"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on enterprise adoption",
+        "Expand serverless capabilities"
+      ],
+      "expansion_opportunities": [
+        "Deeper integration with Google Cloud",
+        "Partnerships with mobile app development agencies"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 659,
+      "completion": 479,
+      "total": 1138,
+      "estimated_cost": 0.000193
+    }
+  },
+  "phase8_complete": true
+}

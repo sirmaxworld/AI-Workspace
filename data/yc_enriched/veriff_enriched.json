@@ -1,0 +1,664 @@
+{
+  "slug": "veriff",
+  "name": "Veriff",
+  "yc_id": 1876,
+  "batch": "Winter 2018",
+  "website": "https://veriff.com/",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:42:02.936144",
+    "website": "https://veriff.com/",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 2683.77,
+      "final_url": "https://www.veriff.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:42:05.619929"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "veriff.com",
+      "registrar": "GoDaddy.com, LLC",
+      "creation_date": "2006-04-12T17:11:04",
+      "expiration_date": "2028-04-12T17:11:04",
+      "domain_age_days": 7127,
+      "domain_age_years": 19.5,
+      "name_servers": [
+        "NS-1214.AWSDNS-23.ORG",
+        "NS-1766.AWSDNS-28.CO.UK",
+        "NS-475.AWSDNS-59.COM",
+        "NS-632.AWSDNS-15.NET"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/Veriff",
+      "linkedin": "https://www.linkedin.com/company/veriff/",
+      "github": "https://github.com/Veriff",
+      "facebook": "https://www.facebook.com/veriff/",
+      "instagram": "https://www.instagram.com/veriffidv/",
+      "youtube": "https://www.youtube.com/@veriff"
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": true,
+      "x_frame_options": true,
+      "x_content_type_options": true,
+      "x_xss_protection": true,
+      "referrer_policy": true,
+      "security_score": 100,
+      "server": "Off"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:20:19.865406",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:20:03.810617",
+    "place_data": {
+      "status": "not_found",
+      "query": "Tallinn, Harju County, Estonia; New York, NY, USA; London, England, United Kingdom; Barcelona, CT, Spain",
+      "methods_tried": [
+        "static_db",
+        "nominatim",
+        "geonames"
+      ]
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:20:06.487055",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/Veriff"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 14,
+        "packages": [
+          {
+            "name": "@veriff/incontext-sdk",
+            "description": "In-Context Veriff browser integration",
+            "version": "2.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@veriff/incontext-sdk"
+          },
+          {
+            "name": "@veriff/js-sdk",
+            "description": "JavaScript SDK for Veriff identity verification",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@veriff/js-sdk"
+          },
+          {
+            "name": "@veriff/react-native-sdk",
+            "description": "React Native SDK for Veriff identity verification",
+            "version": "11.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@veriff/react-native-sdk"
+          },
+          {
+            "name": "@veriff/cordova-plugin-veriff",
+            "description": "Cordova Plugin for Veriff identity verification",
+            "version": "3.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@veriff/cordova-plugin-veriff"
+          },
+          {
+            "name": "npm-cordova-plugin-veriff",
+            "description": "Cordova plugin exposing Veriff SDK",
+            "version": "1.6.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/npm-cordova-plugin-veriff"
+          },
+          {
+            "name": "capacitor-plugin-veriff",
+            "description": "Capacitor plugin exposing Veriff SDK",
+            "version": "1.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/capacitor-plugin-veriff"
+          },
+          {
+            "name": "cordova-plugin-veriff",
+            "description": "Cordova plugin exposing Veriff SDK",
+            "version": "2.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/cordova-plugin-veriff"
+          },
+          {
+            "name": "@pipedream/veriff",
+            "description": "Pipedream Veriff Components",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@pipedream/veriff"
+          },
+          {
+            "name": "tokenboost-veriff-kyc",
+            "description": "Veriff KYC contracts and express backend for TokenBoost",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/tokenboost-veriff-kyc"
+          },
+          {
+            "name": "@earthid/react-native-sdk",
+            "description": "React Native SDK for Veriff identity verification",
+            "version": "2.14.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@earthid/react-native-sdk"
+          },
+          {
+            "name": "@42flows/node-red-contrib-veriff",
+            "description": "KYC module",
+            "version": "0.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@42flows/node-red-contrib-veriff"
+          },
+          {
+            "name": "joseph-onboarding",
+            "description": "Puzzl onboarding for React Native",
+            "version": "7.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/joseph-onboarding"
+          },
+          {
+            "name": "puzzl-rn-onboarding",
+            "description": "Puzzl onboarding for React Native",
+            "version": "1.0.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/puzzl-rn-onboarding"
+          },
+          {
+            "name": "node-red-contrib-veriff",
+            "description": "KYC module",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/node-red-contrib-veriff"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 1,
+        "packages": [
+          {
+            "name": "veriff",
+            "version": "0.2.2",
+            "downloads": 34305,
+            "url": "https://rubygems.org/gems/veriff"
+          }
+        ]
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 15,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:20:07.826802"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:20:07.826809",
+    "batch_network": {
+      "batch": "Winter 2018",
+      "total_batch_mates": 145,
+      "active_batch_mates": 83,
+      "batch_success_rate": 57.2,
+      "notable_batch_mates": [
+        {
+          "name": "Newfront",
+          "slug": "newfront-insurance",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "Modern insurance brokerage."
+        },
+        {
+          "name": "Mayhem",
+          "slug": "mayhem",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Mayhem is the easiest way to play with your gaming community."
+        },
+        {
+          "name": "Pulse",
+          "slug": "pulse-2",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "We're crowdsourced Gartner so IT executives can learn directly from\u2026"
+        },
+        {
+          "name": "Bear Flag Robotics",
+          "slug": "bear-flag-robotics",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Autonomous driving technology for farm tractors."
+        },
+        {
+          "name": "ClearBrain",
+          "slug": "clearbrain",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Causal Analytics for Growth Teams"
+        },
+        {
+          "name": "Sepsis Scout",
+          "slug": "sepsis-scout",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Wearables and AI to predict and prevent sepsis outside the hospital"
+        },
+        {
+          "name": "onederful",
+          "slug": "onederful",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Dental Insurance API"
+        },
+        {
+          "name": "CodeStream",
+          "slug": "codestream",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "CodeStream is a Developer Collaboration Platform designed to\u2026"
+        },
+        {
+          "name": "Glimpse K12",
+          "slug": "glimpse-k12",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Glimpse eliminates ineffective spending in schools."
+        },
+        {
+          "name": "Squad",
+          "slug": "squad",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Squad is an app for live communities to have shared experiences\u2026"
+        }
+      ],
+      "batch_size": 146
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "status": "Active",
+          "batch": "Winter 2012",
+          "one_liner": "High Performance Computing Built for the Cloud"
+        },
+        {
+          "name": "Marft",
+          "slug": "marft",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Marft creates embeddable machine learning models for application\u2026"
+        },
+        {
+          "name": "Pixelapse",
+          "slug": "pixelapse",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Github for designers. We automatically keep track of revisions of\u2026"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Palantir for sales people"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Smart search for the modern team."
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Authy is a Two-Factor Authentication platform for developers"
+        },
+        {
+          "name": "Flutter",
+          "slug": "flutter",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Flutter combined computer vision technology with the built-in webcams\u2026"
+        },
+        {
+          "name": "SolidStage",
+          "slug": "solidstage",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Sysadmin as a service. We make deploying, configuring, monitoring,\u2026"
+        },
+        {
+          "name": "Clutch",
+          "slug": "clutch",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "An easy to integrate library for native iOS applications designed to\u2026"
+        },
+        {
+          "name": "OneSignal",
+          "slug": "onesignal",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Engage customers through personalized omni-channel messaging"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Tallinn",
+      "location": "Tallinn, Harju County, Estonia; New York, NY, USA; London, England, United Kingdom; Barcelona, CT, Spain",
+      "companies_in_city": 2,
+      "active_in_city": 1,
+      "nearby_companies": [
+        {
+          "name": "Striga",
+          "slug": "striga",
+          "batch": "Winter 2021",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Membo",
+          "slug": "membo",
+          "batch": "Summer 2021",
+          "industry": "Consumer",
+          "status": "Inactive"
+        }
+      ],
+      "ecosystem_density": "low"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Shogun",
+        "slug": "shogun",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "CodeStream",
+        "slug": "codestream",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "NewCraft",
+        "slug": "newcraft",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Draftbit",
+        "slug": "draftbit",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "EnvKey",
+        "slug": "envkey",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Haiku",
+        "slug": "haiku",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "miru",
+        "slug": "miru",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Storyline",
+        "slug": "storyline",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Pagedraw",
+        "slug": "pagedraw",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Voicery",
+        "slug": "voicery",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 2893,
+      "network_density_score": 69.4,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": false,
+      "calculated_at": "2025-10-17T10:20:07.835059"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:20:07.835065",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:20:08.155083",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:20:08.235098",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 550,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "gpt-4o",
+    "enriched_at": "2025-10-17T11:34:11.893925",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "increased digital transactions",
+        "rising fraud incidents",
+        "regulatory compliance demands"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "advanced AI and machine learning capabilities",
+      "differentiation": "ability to verify IDs from over 190 countries quickly",
+      "competitive_advantages": [
+        "global reach",
+        "comprehensive ID database"
+      ],
+      "competitive_vulnerabilities": [
+        "reliance on technology accuracy",
+        "potential regulatory changes"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "expanding client base",
+        "increasing transaction volumes"
+      ],
+      "growth_bottlenecks": [
+        "scaling operational infrastructure",
+        "maintaining data privacy standards"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 3,
+      "key_risks": [
+        "data breaches",
+        "AI model inaccuracies",
+        "competitive pressure"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "strong technological foundation",
+        "broad market applicability",
+        "experienced leadership"
+      ],
+      "concerns": [
+        "intense competition",
+        "regulatory hurdles"
+      ],
+      "exit_potential": "IPO",
+      "comparable_companies": [
+        "Onfido",
+        "Jumio"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "enhance AI capabilities",
+        "strengthen data security measures"
+      ],
+      "expansion_opportunities": [
+        "enter new geographic markets",
+        "expand into new sectors like healthcare"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 676,
+      "completion": 406,
+      "total": 1082,
+      "estimated_cost": 0.00575
+    }
+  },
+  "phase8_complete": true
+}

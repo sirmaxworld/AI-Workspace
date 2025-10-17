@@ -1,0 +1,534 @@
+{
+  "slug": "carwoo",
+  "name": "CarWoo",
+  "yc_id": 251,
+  "batch": "Summer 2009",
+  "website": "http://carwoo.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:30:47.252720",
+    "website": "http://carwoo.com",
+    "website_status": {
+      "reachable": false,
+      "error": "timeout"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "carwoo.com",
+      "registrar": "MarkMonitor, Inc.",
+      "creation_date": "2008-10-02T22:40:47",
+      "expiration_date": "2026-10-02T22:40:47",
+      "domain_age_days": 6223,
+      "domain_age_years": 17.0,
+      "name_servers": [
+        "NS-119.AWSDNS-14.COM",
+        "NS-1500.AWSDNS-59.ORG",
+        "NS-2022.AWSDNS-60.CO.UK",
+        "NS-956.AWSDNS-55.NET",
+        "ns-2022.awsdns-60.co.uk.",
+        "ns-1500.awsdns-59.org.",
+        "ns-119.awsdns-14.com.",
+        "ns-956.awsdns-55.net."
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "error": "HTTPConnectionPool(host='carwoo.com', port=80): Max retries exceeded with url: / (Caused by ConnectT"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:13:06.511722",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:55:42.670553",
+    "place_data": {
+      "status": "not_found",
+      "query": "Burlingame, CA, USA"
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:55:42.779919",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:55:42.779929",
+    "batch_network": {
+      "batch": "Summer 2009",
+      "total_batch_mates": 25,
+      "active_batch_mates": 7,
+      "batch_success_rate": 28.0,
+      "notable_batch_mates": [
+        {
+          "name": "Stripe",
+          "slug": "stripe",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "Economic infrastructure for the internet."
+        },
+        {
+          "name": "DailyBooth",
+          "slug": "dailybooth",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": ""
+        },
+        {
+          "name": "Bump",
+          "slug": "bump",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Bump, Flock, Photoroll (unreleased) => Google Photos"
+        },
+        {
+          "name": "WePay",
+          "slug": "wepay",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Payments for platform businesses."
+        },
+        {
+          "name": "RethinkDB",
+          "slug": "rethinkdb",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The open source database for the realtime web."
+        },
+        {
+          "name": "Mixpanel",
+          "slug": "mixpanel",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "Mixpanel is event analytics for builders that need answers."
+        },
+        {
+          "name": "Lockitron",
+          "slug": "lockitron",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Lockitron makes electronic locks you can control locally from your\u2026"
+        },
+        {
+          "name": "GraffitiGeo",
+          "slug": "graffitigeo",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "We let you know where to go and what to get once you get there.\u2026"
+        },
+        {
+          "name": "Flightcaster",
+          "slug": "flightcaster",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": ""
+        }
+      ],
+      "batch_size": 26
+    },
+    "industry_network": {
+      "industries": [
+        "Consumer",
+        "Transportation Services"
+      ],
+      "total_industry_peers": 852,
+      "active_industry_peers": 408,
+      "direct_competitors": [
+        {
+          "name": "YourMechanic",
+          "slug": "yourmechanic",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Car Repairs, Reinvented:a. Mechanic comes to your home or work to fix\u2026"
+        },
+        {
+          "name": "Carsabi",
+          "slug": "carsabi",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Carsabi is the search engine for used cars"
+        },
+        {
+          "name": "Embark",
+          "slug": "embark",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Public transit apps. Acquired by Apple in 2013."
+        },
+        {
+          "name": "Ridejoy",
+          "slug": "ridejoy",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Long-distance carpooling marketplace. Shut down in early 2013."
+        },
+        {
+          "name": "Viacycle",
+          "slug": "viacycle",
+          "status": "Inactive",
+          "batch": "Summer 2012",
+          "one_liner": "viaCycle makes simple, inexpensive bicycle sharing systems that allow\u2026"
+        },
+        {
+          "name": "RoverRide",
+          "slug": "roverride",
+          "status": "Inactive",
+          "batch": "Winter 2013",
+          "one_liner": "A universal urban transit app. Given all transportation options\u2026"
+        },
+        {
+          "name": "Carlypso",
+          "slug": "carlypso",
+          "status": "Acquired",
+          "batch": "Summer 2014",
+          "one_liner": "Used car marketplace"
+        },
+        {
+          "name": "Fixed",
+          "slug": "fixed",
+          "status": "Inactive",
+          "batch": "Summer 2014",
+          "one_liner": "iPhone app to fight your parking tickets."
+        },
+        {
+          "name": "SpotAngels",
+          "slug": "spotangels",
+          "status": "Active",
+          "batch": "Summer 2014",
+          "one_liner": "Waze for parking"
+        },
+        {
+          "name": "Chariot",
+          "slug": "chariot",
+          "status": "Acquired",
+          "batch": "Winter 2015",
+          "one_liner": "The world's first private mass transit service providing a commuting\u2026"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Burlingame",
+      "location": "Burlingame, CA, USA",
+      "companies_in_city": 5,
+      "active_in_city": 2,
+      "nearby_companies": [
+        {
+          "name": "ZumoDrive",
+          "slug": "zumodrive",
+          "batch": "Summer 2007",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Vastrm",
+          "slug": "vastrm",
+          "batch": "Summer 2012",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Double Robotics",
+          "slug": "double-robotics",
+          "batch": "Summer 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Kuna Systems",
+          "slug": null,
+          "batch": "Winter 2014",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "garten",
+          "slug": "garten",
+          "batch": "Summer 2016",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "low"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Listia",
+        "slug": "listia",
+        "batch": "Summer 2009",
+        "industry": "Consumer",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "HighlightCam",
+        "slug": "highlightcam",
+        "batch": "Summer 2009",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "DailyBooth",
+        "slug": "dailybooth",
+        "batch": "Summer 2009",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Bump",
+        "slug": "bump",
+        "batch": "Summer 2009",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Directed Edge",
+        "slug": "directed-edge",
+        "batch": "Summer 2009",
+        "industry": "Consumer",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Jobspice",
+        "slug": "jobspice",
+        "batch": "Summer 2009",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Lockitron",
+        "slug": "lockitron",
+        "batch": "Summer 2009",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Plurchase",
+        "slug": "plurchase",
+        "batch": "Summer 2009",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "GraffitiGeo",
+        "slug": "graffitigeo",
+        "batch": "Summer 2009",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Flightcaster",
+        "slug": "flightcaster",
+        "batch": "Summer 2009",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 882,
+      "network_density_score": 46.0,
+      "has_strong_batch_network": false,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": false,
+      "calculated_at": "2025-10-17T09:55:42.786749"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:55:42.786756",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:55:43.111443",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:55:43.239081",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 11,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:39:16.079637",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "mature",
+      "key_trends": [
+        "Digital transformation of auto retail",
+        "Direct-to-consumer sales growth",
+        "Consolidation of dealership networks"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Dealer network relationships and multi-dealer comparison platform",
+      "differentiation": "Stress-free organized shopping experience across multiple dealers",
+      "competitive_advantages": [
+        "Established dealer relationships",
+        "Customer acquisition experience"
+      ],
+      "competitive_vulnerabilities": [
+        "Dependence on traditional dealership model",
+        "Limited technological innovation"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "marketplace",
+      "scalability": "medium",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "mature",
+      "growth_indicators": [
+        "Hundreds of thousands of customers served",
+        "11-person team size"
+      ],
+      "growth_bottlenecks": [
+        "Traditional dealership resistance",
+        "Limited digital innovation"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "high",
+      "technology_risk": "medium",
+      "execution_risk": "high",
+      "overall_risk_score": 8,
+      "key_risks": [
+        "Industry disruption by Tesla/direct sales",
+        "Dealership disintermediation",
+        "Inactive status indicates execution challenges"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Large addressable market",
+        "Proven customer traction",
+        "Y Combinator pedigree"
+      ],
+      "concerns": [
+        "Inactive status",
+        "Disrupted industry model",
+        "Limited technological differentiation"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Carvana",
+        "Vroom",
+        "CarGurus"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Investigate reasons for inactive status",
+        "Assess pivot opportunities in automotive fintech"
+      ],
+      "expansion_opportunities": [
+        "Used car marketplace",
+        "Automotive financing platform"
+      ]
+    },
+    "tokens_used": {
+      "input": 696,
+      "output": 504,
+      "total": 1200,
+      "estimated_cost": 0.009648
+    }
+  },
+  "phase8_complete": true
+}

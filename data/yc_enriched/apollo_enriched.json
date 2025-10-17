@@ -1,0 +1,1423 @@
+{
+  "slug": "apollo",
+  "name": "Apollo",
+  "yc_id": 72,
+  "batch": "Summer 2011",
+  "website": "http://apollographql.com/",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:29:16.788013",
+    "website": "http://apollographql.com/",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 1379.17,
+      "final_url": "https://www.apollographql.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:29:18.167217"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "apollographql.com",
+      "registrar": "NAMECHEAP INC",
+      "creation_date": "2016-10-10T22:05:26",
+      "expiration_date": "2026-10-10T22:05:26",
+      "domain_age_days": 3293,
+      "domain_age_years": 9.0,
+      "name_servers": [
+        "NS-CLOUD-B1.GOOGLEDOMAINS.COM",
+        "NS-CLOUD-B2.GOOGLEDOMAINS.COM",
+        "NS-CLOUD-B3.GOOGLEDOMAINS.COM",
+        "NS-CLOUD-B4.GOOGLEDOMAINS.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/apollographql",
+      "linkedin": "https://www.linkedin.com/company/apollo-graphql",
+      "github": "https://github.com/apollographql",
+      "facebook": null,
+      "instagram": null,
+      "youtube": "https://www.youtube.com/c/ApolloGraphQL"
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": true,
+      "x_frame_options": true,
+      "x_content_type_options": true,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 66,
+      "server": "Netlify"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:12:30.671342",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:45:38.099935",
+    "place_data": {
+      "status": "not_found",
+      "query": "San Francisco, CA, USA; Remote"
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:45:38.202922",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/apollographql"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 100,
+        "packages": [
+          {
+            "name": "graphql-subscriptions-client",
+            "description": "A simpler client for graphql subscriptions based on apollographql/subscriptions-transport-ws",
+            "version": "0.16.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/graphql-subscriptions-client"
+          },
+          {
+            "name": "@apollo/experimental-nextjs-app-support",
+            "description": "<div align=\"center\"> <img src=\"https://raw.githubusercontent.com/apollographql/apollo-client-integrations/main/banner.jpg\" width=\"500\" alt=\"Apollo Client + Next.js App Router\" /> </div>",
+            "version": "0.14.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@apollo/experimental-nextjs-app-support"
+          },
+          {
+            "name": "@apollo/client-integration-nextjs",
+            "description": "<div align=\"center\"> <img src=\"https://raw.githubusercontent.com/apollographql/apollo-client-integrations/main/banner.jpg\" width=\"500\" alt=\"Apollo Client + Next.js App Router\" /> </div>",
+            "version": "0.14.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@apollo/client-integration-nextjs"
+          },
+          {
+            "name": "apollo-test-utils",
+            "description": "[![Greenkeeper badge](https://badges.greenkeeper.io/apollographql/apollo-test-utils.svg)](https://greenkeeper.io/)",
+            "version": "0.3.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/apollo-test-utils"
+          },
+          {
+            "name": "@apollo/client-react-streaming",
+            "description": "This package provides building blocks to create framework-level integration of Apollo Client with React's streaming SSR. See the [@apollo/client-integration-nextjs](https://github.com/apollographql/apollo-client-integrations/tree/main/packages/nextjs) pac",
+            "version": "0.14.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@apollo/client-react-streaming"
+          },
+          {
+            "name": "@apollographql/graphql-playground-html",
+            "description": "GraphQL IDE for better development workflows (GraphQL Subscriptions, interactive docs & collaboration).",
+            "version": "1.6.29",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@apollographql/graphql-playground-html"
+          },
+          {
+            "name": "apollo-link-mock",
+            "description": "This package containts a correctly transpiled test-links.ts file from [react-apollo](https://github.com/apollographql/react-apollo/blob/master/src/test-links.ts) repository.",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/apollo-link-mock"
+          },
+          {
+            "name": "react-apollo-hooks",
+            "description": "Use [Apollo Client](https://github.com/apollographql/apollo-client) as React [hooks](https://reactjs.org/docs/hooks-intro.html).",
+            "version": "0.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-apollo-hooks"
+          },
+          {
+            "name": "gatsby-plugin-graphql-loader",
+            "description": "A Gatsby plugin for loading graphql and gql files, using apollographql/graphql-tag/loader.",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/gatsby-plugin-graphql-loader"
+          },
+          {
+            "name": "@treorisoft/graphql-pubsub",
+            "description": "This library started off as mostly a clone of https://github.com/apollographql/graphql-subscriptions.",
+            "version": "1.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@treorisoft/graphql-pubsub"
+          },
+          {
+            "name": "mock-socket-with-protocol",
+            "description": "Javascript mocking library for websockets and socket.io, compatible with apollographql subscriptions-transport-ws",
+            "version": "7.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/mock-socket-with-protocol"
+          },
+          {
+            "name": "@apollo/graphql-testing-library",
+            "description": "<div align=\"center\">   <p> \t  <a href=\"https://www.apollographql.com/\"><img src=\"https://raw.githubusercontent.com/apollographql/apollo-client-devtools/main/assets/apollo-wordmark.svg\" height=\"100\" alt=\"Apollo GraphQL Logo\"></a>   </p>   <h1>GraphQL Testi",
+            "version": "0.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@apollo/graphql-testing-library"
+          },
+          {
+            "name": "@apollographql/graphql-upload-8-fork",
+            "description": "Fork of graphql-upload@8 that works with graphql@15 for compatibility with apollo-server@2",
+            "version": "8.1.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@apollographql/graphql-upload-8-fork"
+          },
+          {
+            "name": "@apollographql/apollo-tools",
+            "description": null,
+            "version": "0.5.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@apollographql/apollo-tools"
+          },
+          {
+            "name": "@envelop/apollo-tracing",
+            "description": "This plugin tracks execution and resolvers and reports it using [`apollo-tracing`](https://github.com/apollographql/apollo-server/tree/main/packages/apollo-tracing) format (based on GraphQL `extensions`).",
+            "version": "8.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@envelop/apollo-tracing"
+          },
+          {
+            "name": "apollo-server-memcached",
+            "description": "[![npm version](https://badge.fury.io/js/apollo-server-memcached.svg)](https://badge.fury.io/js/apollo-server-memcached) [![Build Status](https://circleci.com/gh/apollographql/apollo-server.svg?style=svg)](https://circleci.com/gh/apollographql/apollo-serv",
+            "version": "0.1.0-rc.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/apollo-server-memcached"
+          },
+          {
+            "name": "zipolupu-apollo",
+            "description": "[![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg?maxAge=2592000)](https://raw.githubusercontent.com/apollographql/apollo-tooling/master/LICENSE) [![npm](https://img.shields.io/npm/v/apollo.svg)](https://www.npmjs.com/package/apoll",
+            "version": "2.6.3-experimental",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/zipolupu-apollo"
+          },
+          {
+            "name": "apollo-cache-persist-encrypt",
+            "description": "This repository is a fork from [apollographql/apollo-cache-persist](https://github.com/apollographql/apollo-cache-persist) and extends Apollo Persist Options to accept encryptionKey.",
+            "version": "0.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/apollo-cache-persist-encrypt"
+          },
+          {
+            "name": "@apollographql/graphql-language-service-utils",
+            "description": "Utilities to support the GraphQL Language Service",
+            "version": "2.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@apollographql/graphql-language-service-utils"
+          },
+          {
+            "name": "@apollographql/graphql-language-service-interface",
+            "description": "Interface to the GraphQL Language Service",
+            "version": "2.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@apollographql/graphql-language-service-interface"
+          },
+          {
+            "name": "@apollographql/graphql-playground-react",
+            "description": "GraphQL IDE for better development workflows (GraphQL Subscriptions, interactive docs & collaboration).",
+            "version": "1.7.42",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@apollographql/graphql-playground-react"
+          },
+          {
+            "name": "@apollographql/apollo-upload-server",
+            "description": "Enhances Apollo GraphQL Server for intuitive file uploads via GraphQL mutations.",
+            "version": "5.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@apollographql/apollo-upload-server"
+          },
+          {
+            "name": "@apollographql/graphql-language-service-parser",
+            "description": "An online parser for GraphQL for use in syntax-highlighters and code intelligence tools",
+            "version": "2.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@apollographql/graphql-language-service-parser"
+          },
+          {
+            "name": "@apollographql/graphql-language-service-types",
+            "description": "Types for building GraphQL language services for IDEs",
+            "version": "2.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@apollographql/graphql-language-service-types"
+          },
+          {
+            "name": "graphql-tools-type-uint",
+            "description": "UInt (unsigned int) scalar type for [graphql-tools](https://github.com/apollographql/graphql-tools)",
+            "version": "2.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/graphql-tools-type-uint"
+          },
+          {
+            "name": "zen-observable-ts",
+            "description": "Thin wrapper around zen-observable and @types/zen-observable, to support ESM exports as well as CommonJS exports",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/zen-observable-ts"
+          },
+          {
+            "name": "apollo-store",
+            "description": "state management for apollographql",
+            "version": "1.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/apollo-store"
+          },
+          {
+            "name": "apollo3-cache-persist",
+            "description": "Simple persistence for all Apollo cache implementations",
+            "version": "0.15.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/apollo3-cache-persist"
+          },
+          {
+            "name": "@apollo/client",
+            "description": "A fully-featured caching GraphQL client.",
+            "version": "4.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@apollo/client"
+          },
+          {
+            "name": "graphql-tag",
+            "description": "A JavaScript template literal tag that parses GraphQL queries",
+            "version": "2.12.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/graphql-tag"
+          },
+          {
+            "name": "@apollo/server",
+            "description": "Core engine for Apollo GraphQL server",
+            "version": "5.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@apollo/server"
+          },
+          {
+            "name": "@apollo/rover",
+            "description": "The new Apollo CLI",
+            "version": "0.36.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@apollo/rover"
+          },
+          {
+            "name": "apollo-server-redis",
+            "description": "[![npm version](https://badge.fury.io/js/apollo-server-redis.svg)](https://badge.fury.io/js/apollo-server-redis) [![Build Status](https://circleci.com/gh/apollographql/apollo-server.svg?style=svg)](https://circleci.com/gh/apollographql/apollo-server)",
+            "version": "0.1.0-rc.11",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/apollo-server-redis"
+          },
+          {
+            "name": "eslint-plugin-graphql",
+            "description": "GraphQL ESLint plugin.",
+            "version": "4.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/eslint-plugin-graphql"
+          },
+          {
+            "name": "@apollo/react-hooks",
+            "description": "React Apollo Hooks.",
+            "version": "4.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@apollo/react-hooks"
+          },
+          {
+            "name": "@apollo/react-testing",
+            "description": "React Apollo testing utilities.",
+            "version": "4.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@apollo/react-testing"
+          },
+          {
+            "name": "@kamilkisiela/graphql-tools",
+            "description": "Useful tools to create and manipulate GraphQL schemas.",
+            "version": "4.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@kamilkisiela/graphql-tools"
+          },
+          {
+            "name": "graphql-ws",
+            "description": "Coherent, zero-dependency, lazy, simple, GraphQL over WebSocket Protocol compliant server and client",
+            "version": "6.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/graphql-ws"
+          },
+          {
+            "name": "@apollo/react-common",
+            "description": "React Apollo common utilities.",
+            "version": "3.1.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@apollo/react-common"
+          },
+          {
+            "name": "ts-invariant",
+            "description": "TypeScript implementation of invariant(condition, message)",
+            "version": "0.10.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ts-invariant"
+          },
+          {
+            "name": "@apollo/react-ssr",
+            "description": "React Apollo server-side rendering utilities",
+            "version": "4.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@apollo/react-ssr"
+          },
+          {
+            "name": "@apollo/react-components",
+            "description": "React Apollo Query, Mutation and Subscription components.",
+            "version": "4.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@apollo/react-components"
+          },
+          {
+            "name": "@ardatan/graphql-tools",
+            "description": "Useful tools to create and manipulate GraphQL schemas.",
+            "version": "4.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ardatan/graphql-tools"
+          },
+          {
+            "name": "graphqltoolstypeint64",
+            "description": "Int64 scalar type for [graphql-tools](https://github.com/apollographql/graphql-tools)",
+            "version": "2.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/graphqltoolstypeint64"
+          },
+          {
+            "name": "@apollo/react-hoc",
+            "description": "React Apollo `graphql` higher-order component.",
+            "version": "4.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@apollo/react-hoc"
+          },
+          {
+            "name": "@jeremydurnell/react-apollo-hooks",
+            "description": "Use [Apollo Client](https://github.com/apollographql/apollo-client) as React [hooks](https://reactjs.org/docs/hooks-intro.html).",
+            "version": "0.4.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@jeremydurnell/react-apollo-hooks"
+          },
+          {
+            "name": "@cilice/apollo-mocklink",
+            "description": "Extracted from [@apollo/react-testing](https://github.com/apollographql/react-apollo/tree/master/packages/testing/), since it depends on React.",
+            "version": "0.1.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@cilice/apollo-mocklink"
+          },
+          {
+            "name": "apollo-engine-reporting",
+            "description": "Send reports about your GraphQL services to Apollo Graph Manager (previously known as Apollo Engine)",
+            "version": "2.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/apollo-engine-reporting"
+          },
+          {
+            "name": "@subsquid/apollo-server-express",
+            "description": "Production-ready Node.js GraphQL server for Express",
+            "version": "3.14.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@subsquid/apollo-server-express"
+          },
+          {
+            "name": "@sendoutcards/apollo",
+            "description": "CLI for apollographql",
+            "version": "1.7.25",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sendoutcards/apollo"
+          },
+          {
+            "name": "graphql-subscriptions",
+            "description": "GraphQL subscriptions for node.js",
+            "version": "3.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/graphql-subscriptions"
+          },
+          {
+            "name": "@subsquid/apollo-server-core",
+            "description": "Core engine for Apollo GraphQL server",
+            "version": "3.14.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@subsquid/apollo-server-core"
+          },
+          {
+            "name": "@apollo/federation-subgraph-compatibility-tests",
+            "description": "Apollo Federation Subgraph Compatibility tests",
+            "version": "2.2.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@apollo/federation-subgraph-compatibility-tests"
+          },
+          {
+            "name": "apollo-link-rest",
+            "description": "Query existing REST services with GraphQL",
+            "version": "0.9.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/apollo-link-rest"
+          },
+          {
+            "name": "@apollo/datasource-rest",
+            "description": "REST DataSource for Apollo Server v4",
+            "version": "6.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@apollo/datasource-rest"
+          },
+          {
+            "name": "@apollo/gateway",
+            "description": "Apollo Gateway",
+            "version": "2.11.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@apollo/gateway"
+          },
+          {
+            "name": "aws-lambda-graphql",
+            "description": "Apollo server for AWS Lambda with WebSocket subscriptions support over API Gateway v1 + v2",
+            "version": "1.0.0-alpha.24",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/aws-lambda-graphql"
+          },
+          {
+            "name": "graphql-redis-subscriptions",
+            "description": "A graphql-subscriptions PubSub Engine using redis",
+            "version": "2.7.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/graphql-redis-subscriptions"
+          },
+          {
+            "name": "apollo",
+            "description": "Command line tool for Apollo GraphQL",
+            "version": "2.34.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/apollo"
+          },
+          {
+            "name": "apollo-server-module-graphiql",
+            "description": "GraphiQL renderer for Apollo GraphQL Server",
+            "version": "1.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/apollo-server-module-graphiql"
+          },
+          {
+            "name": "apollo-client",
+            "description": "A simple yet functional GraphQL client.",
+            "version": "2.6.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/apollo-client"
+          },
+          {
+            "name": "@apollo/link-error",
+            "description": "Error Apollo Link for GraphQL Network Stack",
+            "version": "2.0.0-beta.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@apollo/link-error"
+          },
+          {
+            "name": "@apollo/link-context",
+            "description": "An easy way to set and cache context changes for Apollo Link",
+            "version": "2.0.0-beta.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@apollo/link-context"
+          },
+          {
+            "name": "@homebound/graphql-id-linter",
+            "description": null,
+            "version": "2.14.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@homebound/graphql-id-linter"
+          },
+          {
+            "name": "@leveluptuts/comboquery",
+            "description": "Inspired by: https://github.com/apollographql/graphql-tag/issues/169#issuecomment-568752182",
+            "version": "0.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@leveluptuts/comboquery"
+          },
+          {
+            "name": "sucrase",
+            "description": "Super-fast alternative to Babel for when you can target modern JS runtimes",
+            "version": "3.35.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sucrase"
+          },
+          {
+            "name": "@apollo/federation-subgraph-compatibility",
+            "description": "A CLI tool for checking a subgraph's compatibility with a federated gateway",
+            "version": "2.2.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@apollo/federation-subgraph-compatibility"
+          },
+          {
+            "name": "graphql-schema-linter",
+            "description": "Command line tool and package to validate GraphQL schemas against a set of rules.",
+            "version": "3.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/graphql-schema-linter"
+          },
+          {
+            "name": "graphql-anywhere",
+            "description": "Run GraphQL queries with no schema and just one resolver",
+            "version": "4.2.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/graphql-anywhere"
+          },
+          {
+            "name": "@apollo/utils.fetcher",
+            "description": "Minimal web-style fetch TypeScript typings",
+            "version": "3.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@apollo/utils.fetcher"
+          },
+          {
+            "name": "react-apollo",
+            "description": "React Apollo Hooks, Components, and HOC.",
+            "version": "3.1.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-apollo"
+          },
+          {
+            "name": "apollo-cache-persist",
+            "description": "Simple persistence for all Apollo cache implementations",
+            "version": "0.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/apollo-cache-persist"
+          },
+          {
+            "name": "@groundmuffin/react-apollo-hooks",
+            "description": "Use [Apollo Client](https://github.com/apollographql/apollo-client) as React [hooks](https://reactjs.org/docs/hooks-intro.html).",
+            "version": "0.4.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@groundmuffin/react-apollo-hooks"
+          },
+          {
+            "name": "@speedlo/react-apollo-hooks",
+            "description": "Use [Apollo Client](https://github.com/apollographql/apollo-client) as React [hooks](https://reactjs.org/docs/hooks-intro.html).",
+            "version": "1.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@speedlo/react-apollo-hooks"
+          },
+          {
+            "name": "@apollo/sandbox",
+            "description": "This repo hosts the source for Apollo Studio's Embeddable Sandbox",
+            "version": "2.7.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@apollo/sandbox"
+          },
+          {
+            "name": "storybook-addon-apollo-client",
+            "description": "Use Apollo Client in your Storybook stories.",
+            "version": "9.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/storybook-addon-apollo-client"
+          },
+          {
+            "name": "codegen-typescript-graphql-module-declarations-plugin",
+            "description": "This [graphql-code-generator](https://graphql-code-generator.com/) plugin is based on the [TypeScript GraphQL Files Modules](https://graphql-code-generator.com/docs/plugins/typescript-graphql-files-modules), but generates typed document nodes, using the t",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/codegen-typescript-graphql-module-declarations-plugin"
+          },
+          {
+            "name": "duplicate-operation-name",
+            "description": "A static analysis tool for GraphQL projects.",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/duplicate-operation-name"
+          },
+          {
+            "name": "@landingexp/apollo-server-caching",
+            "description": "[![npm version](https://badge.fury.io/js/apollo-server-caching.svg)](https://badge.fury.io/js/apollo-server-caching) [![Build Status](https://circleci.com/gh/apollographql/apollo-server/tree/main.svg?style=svg)](https://circleci.com/gh/apollographql/apoll",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@landingexp/apollo-server-caching"
+          },
+          {
+            "name": "vite-plugin-graphql-loader",
+            "description": "A Vite plugin for loading GraphQL files.",
+            "version": "4.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/vite-plugin-graphql-loader"
+          },
+          {
+            "name": "fastify-apollo-tracing",
+            "description": "> [Apollo Tracing](https://github.com/apollographql/apollo-tracing) for [fastify](https://fastify.io).",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/fastify-apollo-tracing"
+          },
+          {
+            "name": "apollographql",
+            "description": null,
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/apollographql"
+          },
+          {
+            "name": "@dc0de/react-apollo-hooks",
+            "description": "Use [Apollo Client](https://github.com/apollographql/apollo-client) as React [hooks](https://reactjs.org/docs/hooks-intro.html).",
+            "version": "0.0.1-alpha.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@dc0de/react-apollo-hooks"
+          },
+          {
+            "name": "@brikl/apollo-server-monorepo",
+            "description": "[![npm version](https://badge.fury.io/js/apollo-server-core.svg)](https://badge.fury.io/js/apollo-server-core) [![Build Status](https://circleci.com/gh/apollographql/apollo-server.svg?style=svg)](https://circleci.com/gh/apollographql/apollo-server) [![Joi",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@brikl/apollo-server-monorepo"
+          },
+          {
+            "name": "@apollo/link-ws",
+            "description": "WebSocket transport layer for GraphQL",
+            "version": "2.0.0-beta.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@apollo/link-ws"
+          },
+          {
+            "name": "@kazekyo/nau",
+            "description": "Nau is a tool that makes the use of Apollo Client more productive for users using Relay GraphQL Server Specification compliant backends.",
+            "version": "0.4.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@kazekyo/nau"
+          },
+          {
+            "name": "apollo-link-persisted-queries",
+            "description": "Use persisted queries with Apollo Link",
+            "version": "0.2.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/apollo-link-persisted-queries"
+          },
+          {
+            "name": "@apollo/explorer",
+            "description": "This repo hosts the source for Apollo Studio's Embeddable Explorer",
+            "version": "3.7.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@apollo/explorer"
+          },
+          {
+            "name": "@apollo/link-retry",
+            "description": "Retry Apollo Link for GraphQL Network Stack",
+            "version": "2.0.0-beta.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@apollo/link-retry"
+          },
+          {
+            "name": "next-with-apollo",
+            "description": "Apollo HOC for Next.js",
+            "version": "5.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/next-with-apollo"
+          },
+          {
+            "name": "apollographql-sequelize",
+            "description": "translate graphql in apollo to readable sequelize object",
+            "version": "1.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/apollographql-sequelize"
+          },
+          {
+            "name": "arc-apollo",
+            "description": "CLI for apollographql with ArcBlock support",
+            "version": "1.6.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/arc-apollo"
+          },
+          {
+            "name": "@theo.gravity/apollo-client",
+            "description": "A fully-featured caching GraphQL client.",
+            "version": "3.6.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@theo.gravity/apollo-client"
+          },
+          {
+            "name": "apollo-server-adonis",
+            "description": "Production-ready Node.js GraphQL server for Adonis Framework",
+            "version": "1.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/apollo-server-adonis"
+          },
+          {
+            "name": "babel-plugin-graphql-tag",
+            "description": "Compiles GraphQL tagged template strings using graphql-tag",
+            "version": "3.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/babel-plugin-graphql-tag"
+          },
+          {
+            "name": "vscode-apollo",
+            "description": "Rich editor support for GraphQL client and server development that seamlessly integrates with the Apollo platform",
+            "version": "2.6.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/vscode-apollo"
+          },
+          {
+            "name": "@graphql-tools/webpack-loader",
+            "description": "A set of utils for faster development of GraphQL tools",
+            "version": "7.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@graphql-tools/webpack-loader"
+          },
+          {
+            "name": "@apollo/link-batch-http",
+            "description": "Batch HTTP transport layer for GraphQL",
+            "version": "2.0.0-beta.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@apollo/link-batch-http"
+          },
+          {
+            "name": "@apollo/link-batch",
+            "description": "Apollo Link that performs batching and operation on batched Operations",
+            "version": "2.0.0-beta.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@apollo/link-batch"
+          },
+          {
+            "name": "graphql-relay-tools",
+            "description": "A library that allows the easy creation of Relay compliant servers using the GraphQL type language.",
+            "version": "0.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/graphql-relay-tools"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 5,
+        "packages": [
+          {
+            "name": "apollo-compiler",
+            "description": "A compiler for the GraphQL query language.",
+            "version": "1.30.0",
+            "downloads": 413891,
+            "url": "https://crates.io/crates/apollo-compiler"
+          },
+          {
+            "name": "apollo-encoder",
+            "description": "Library to serialise GraphQL Schemas.",
+            "version": "0.8.0",
+            "downloads": 226341,
+            "url": "https://crates.io/crates/apollo-encoder"
+          },
+          {
+            "name": "apollo-parser",
+            "description": "Spec-compliant GraphQL parser.",
+            "version": "0.8.4",
+            "downloads": 617990,
+            "url": "https://crates.io/crates/apollo-parser"
+          },
+          {
+            "name": "apollo-smith",
+            "description": "A GraphQL test case generator.",
+            "version": "0.15.1",
+            "downloads": 64214,
+            "url": "https://crates.io/crates/apollo-smith"
+          },
+          {
+            "name": "deduplicate",
+            "description": "caching, asynchronous, request deduplication",
+            "version": "0.4.1",
+            "downloads": 39532,
+            "url": "https://crates.io/crates/deduplicate"
+          }
+        ]
+      },
+      "total_packages": 105,
+      "has_packages": true,
+      "checked_at": "2025-10-17T09:45:40.832456"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:45:40.832488",
+    "batch_network": {
+      "batch": "Summer 2011",
+      "total_batch_mates": 59,
+      "active_batch_mates": 13,
+      "batch_success_rate": 22.0,
+      "notable_batch_mates": [
+        {
+          "name": "Freshplum",
+          "slug": "freshplum",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Analytics with action"
+        },
+        {
+          "name": "Clutch",
+          "slug": "clutch",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "An easy to integrate library for native iOS applications designed to\u2026"
+        },
+        {
+          "name": "Stypi",
+          "slug": "stypi",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Realtime collaborative coding"
+        },
+        {
+          "name": "Genius",
+          "slug": "genius",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Music Intelligence"
+        },
+        {
+          "name": "Aisle50",
+          "slug": "aisle50",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Grocery deals."
+        },
+        {
+          "name": "Debteye",
+          "slug": "debteye",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Automate credit counseling."
+        },
+        {
+          "name": "Science Exchange",
+          "slug": "science-exchange",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Powering scientific outsourcing"
+        },
+        {
+          "name": "Codecademy",
+          "slug": "codecademy",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "The leading online learning platform for technical skills."
+        },
+        {
+          "name": "Cryptoseal",
+          "slug": "cryptoseal",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Server key management, VPN as a Service, Privacy VPN.  Sold to\u2026"
+        },
+        {
+          "name": "Segment",
+          "slug": "segment",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Software and APIs to collect, clean, and control customer data."
+        }
+      ],
+      "batch_size": 60
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Amiato",
+          "slug": "amiato",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "The BI bridge for unstructured data. We automatically bridge the gap\u2026"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Simple multiplayer game servers."
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Backlift allows front-end only developers to build entire websites\u2026"
+        },
+        {
+          "name": "Documents.Me",
+          "slug": "documents-me",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Client-side encryption for your devices and the cloud."
+        },
+        {
+          "name": "Proxino",
+          "slug": "proxino",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Javascript proxy."
+        },
+        {
+          "name": "PhoneSys",
+          "slug": "phonesys",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "The Phone System for Sales Teams."
+        },
+        {
+          "name": "Cryptoseal",
+          "slug": "cryptoseal",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Server key management, VPN as a Service, Privacy VPN.  Sold to\u2026"
+        },
+        {
+          "name": "Citus Data",
+          "slug": "citus-data",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Real-time. Big data. PostgreSQL"
+        },
+        {
+          "name": "Realm",
+          "slug": "realm",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Better data structures = no DB."
+        },
+        {
+          "name": "Firebase",
+          "slug": "firebase",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Build and grow iOS, Android, and Web apps."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "San Francisco",
+      "location": "San Francisco, CA, USA; Remote",
+      "companies_in_city": 2007,
+      "active_in_city": 1339,
+      "nearby_companies": [
+        {
+          "name": "42Floors",
+          "slug": "42floors",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "PlanGrid",
+          "slug": "plangrid",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "MyVR",
+          "slug": "myvr",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Couple",
+          "slug": "couple",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HackPad",
+          "slug": "hackpad",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Gusto",
+          "slug": "gusto",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "FamilyLeaf",
+          "slug": "familyleaf",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Chute",
+          "slug": "chute",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Make School",
+          "slug": "make-school",
+          "batch": "Winter 2012",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Exec",
+          "slug": "exec",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Public"
+        },
+        {
+          "name": "LendUp",
+          "slug": "lendup",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tilt",
+          "slug": "tilt",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fond",
+          "slug": "fond",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Citus Data",
+        "slug": "citus-data",
+        "batch": "Summer 2011",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Realm",
+        "slug": "realm",
+        "batch": "Summer 2011",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "imgix",
+        "slug": "imgix",
+        "batch": "Summer 2011",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Freshplum",
+        "slug": "freshplum",
+        "batch": "Summer 2011",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Clutch",
+        "slug": "clutch",
+        "batch": "Summer 2011",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Stypi",
+        "slug": "stypi",
+        "batch": "Summer 2011",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Proxino",
+        "slug": "proxino",
+        "batch": "Summer 2011",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "PhoneSys",
+        "slug": "phonesys",
+        "batch": "Summer 2011",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Cryptoseal",
+        "slug": "cryptoseal",
+        "batch": "Summer 2011",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Segment",
+        "slug": "segment",
+        "batch": "Summer 2011",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 4812,
+      "network_density_score": 91.8,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T09:45:40.848526"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:45:40.848539",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:45:41.181354",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:45:41.277939",
+    "basic_info": {
+      "is_hiring": true,
+      "team_size": 200,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:42:27.583220",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increasing adoption of GraphQL",
+        "Shift towards API-first architectures",
+        "Demand for unified data access layers"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Strong open-source community and established market leadership in GraphQL technologies.",
+      "differentiation": "Leader in GraphQL client, server, and gateway technologies with a large open-source community.",
+      "competitive_advantages": [
+        "Large open-source community",
+        "Enterprise-grade features and support"
+      ],
+      "competitive_vulnerabilities": [
+        "Potential disruption from newer GraphQL implementations",
+        "Reliance on open-source contributions"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "Increasing downloads of open-source tools",
+        "Expansion of enterprise customer base"
+      ],
+      "growth_bottlenecks": [
+        "Competition in the API management space",
+        "Maintaining open-source community engagement"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "low",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Emergence of competing GraphQL solutions",
+        "Security vulnerabilities in open-source components",
+        "Difficulty in converting open-source users to paying customers"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Market leader in a growing market",
+        "Strong open-source community",
+        "Enterprise-ready platform"
+      ],
+      "concerns": [
+        "Competition from other API management solutions",
+        "Reliance on open-source contributions"
+      ],
+      "exit_potential": "IPO/acquisition",
+      "comparable_companies": [
+        "Kong",
+        "Mulesoft"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Continue to invest in open-source community",
+        "Expand enterprise sales and marketing efforts"
+      ],
+      "expansion_opportunities": [
+        "Develop new GraphQL-related tools and services",
+        "Integrate with other API management platforms"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 715,
+      "completion": 609,
+      "total": 1324,
+      "estimated_cost": 0.000236
+    }
+  },
+  "phase8_complete": true
+}

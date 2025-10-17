@@ -1,0 +1,631 @@
+{
+  "slug": "hive",
+  "name": "Hive",
+  "yc_id": 714,
+  "batch": "Summer 2014",
+  "website": "http://www.hive.co",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:34:29.072615",
+    "website": "http://www.hive.co",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 843.41,
+      "final_url": "https://www.hive.co:443/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:34:29.916034"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "hive.co",
+      "registrar": "GoDaddy.com, LLC",
+      "creation_date": "2011-09-29T15:57:53",
+      "expiration_date": "2027-09-28T23:59:59",
+      "domain_age_days": 5131,
+      "domain_age_years": 14.0,
+      "name_servers": [
+        "NS-311.AWSDNS-38.COM",
+        "NS-568.AWSDNS-07.NET",
+        "NS-1275.AWSDNS-31.ORG",
+        "NS-1567.AWSDNS-03.CO.UK"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/hivealive",
+      "linkedin": "https://www.linkedin.com/company/hivehq",
+      "github": null,
+      "facebook": "https://www.facebook.com/hivehq/",
+      "instagram": "https://www.instagram.com/hivehq/",
+      "youtube": "https://www.youtube.com/@Hiveco/videos"
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": true,
+      "x_frame_options": true,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 50,
+      "server": "nginx/1.14.0 (Ubuntu)"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:15:03.661595",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:14:51.012433",
+    "place_data": {
+      "status": "success",
+      "method": "nominatim",
+      "formatted_address": "Bell Canada remote, 2, Windflower Drive, Laurentian West, Kitchener, Region of Waterloo, Ontario, N2E 4B3, Canada",
+      "coordinates": {
+        "latitude": 43.4130313,
+        "longitude": -80.518738
+      },
+      "place_types": [
+        "yes"
+      ],
+      "retrieved_at": "2025-10-17T10:14:51.197255"
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:14:51.197966",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:14:51.197970",
+    "batch_network": {
+      "batch": "Summer 2014",
+      "total_batch_mates": 77,
+      "active_batch_mates": 23,
+      "batch_success_rate": 29.9,
+      "notable_batch_mates": [
+        {
+          "name": "Zip Phone",
+          "slug": "zip-phone",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Whatsapp for voice"
+        },
+        {
+          "name": "Parenthoods",
+          "slug": "parenthoods",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Communities for expecting and new parents. "
+        },
+        {
+          "name": "Bitaccess",
+          "slug": "bitaccess",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "We make bitcoin simple. "
+        },
+        {
+          "name": "Carlypso",
+          "slug": "carlypso",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Used car marketplace"
+        },
+        {
+          "name": "Checkr",
+          "slug": "checkr",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "People infrastructure for the future of work"
+        },
+        {
+          "name": "Clara Labs",
+          "slug": "clara-labs",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Clara is a human-in-the-loop assistant that helps automate repetitive\u2026"
+        },
+        {
+          "name": "Craft Coffee",
+          "slug": "craft-coffee",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Better coffee for less money"
+        },
+        {
+          "name": "PersistIQ",
+          "slug": "persistiq",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "PersistIQ is a free email automation platform to send a small batch\u2026"
+        },
+        {
+          "name": "GovPredict",
+          "slug": "govpredict",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The system of record for government affairs."
+        },
+        {
+          "name": "Blockspring",
+          "slug": "blockspring",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Automate data collection for spreadsheets and productivity tools."
+        }
+      ],
+      "batch_size": 78
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Marketing"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Optilly/Installmonetizer",
+          "slug": "optilly-installmonetizer",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Fb ad optimization platform "
+        },
+        {
+          "name": "Chute",
+          "slug": "chute",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Discover the photos and videos people are taking of your brand or\u2026"
+        },
+        {
+          "name": "Priceonomics",
+          "slug": "priceonomics",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "We help companies turn their data into great stories."
+        },
+        {
+          "name": "GiveSpark",
+          "slug": "givespark",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Givespark was a celebrity charity fundraising platform"
+        },
+        {
+          "name": "Dubjoy",
+          "slug": "dubjoy",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Dubjoy translates and voice-overs your video to any language"
+        },
+        {
+          "name": "Videopixie",
+          "slug": "videopixie",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Marketplace for Video Production Services.  We help you hire the best\u2026"
+        },
+        {
+          "name": "Vidyard",
+          "slug": "vidyard",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Video for business."
+        },
+        {
+          "name": "TapEngage",
+          "slug": "tapengage",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Tablet ad network, acquired by Dropbox in July 2012"
+        },
+        {
+          "name": "Perfect Audience",
+          "slug": "perfect-audience",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Self-service display advertising for SaaS and online retail."
+        },
+        {
+          "name": "Userfox",
+          "slug": "userfox",
+          "status": "Inactive",
+          "batch": "Winter 2011",
+          "one_liner": "User retention as a service.  Drip email"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Kitchener",
+      "location": "Kitchener, ON, Canada; Remote",
+      "companies_in_city": 15,
+      "active_in_city": 11,
+      "nearby_companies": [
+        {
+          "name": "Vidyard",
+          "slug": "vidyard",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "North",
+          "slug": "north",
+          "batch": "Winter 2013",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Reebee",
+          "slug": "reebee",
+          "batch": "Summer 2013",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "PiinPoint",
+          "slug": "piinpoint",
+          "batch": "Winter 2014",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "MetricWire",
+          "slug": "metricwire",
+          "batch": "Summer 2014",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Pave",
+          "slug": "pave",
+          "batch": "Winter 2016",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Georgette Packaging",
+          "slug": "georgette-packaging",
+          "batch": "Winter 2016",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Kenota (formerly ExVivo Labs)",
+          "slug": "kenota",
+          "batch": "Summer 2016",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Arylla",
+          "slug": "arylla",
+          "batch": "Winter 2017",
+          "industry": "Industrials",
+          "status": "Inactive"
+        },
+        {
+          "name": "OSIMple",
+          "slug": "osimple",
+          "batch": "Winter 2018",
+          "industry": "Real Estate and Construction",
+          "status": "Inactive"
+        },
+        {
+          "name": "Vena Medical",
+          "slug": "vena-medical",
+          "batch": "Winter 2018",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "TyltGO",
+          "slug": "tyltgo",
+          "batch": "Summer 2020",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Scispot",
+          "slug": "scispot-io",
+          "batch": "Summer 2021",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Samos Insurance",
+          "slug": "samos-insurance",
+          "batch": "Winter 2022",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Palitronica Inc",
+          "slug": "palitronica-inc",
+          "batch": "Winter 2022",
+          "industry": "B2B",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "low"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Permutive",
+        "slug": "permutive",
+        "batch": "Summer 2014",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Tenjin",
+        "slug": "tenjin",
+        "batch": "Summer 2014",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Think Gaming",
+        "slug": "think-gaming",
+        "batch": "Summer 2014",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Vidyard",
+        "slug": "vidyard",
+        "batch": "Summer 2011",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Aptible",
+        "slug": "aptible",
+        "batch": "Summer 2014",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Bannerman",
+        "slug": "bannerman",
+        "batch": "Summer 2014",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Checkr",
+        "slug": "checkr",
+        "batch": "Summer 2014",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Clara Labs",
+        "slug": "clara-labs",
+        "batch": "Summer 2014",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "PersistIQ",
+        "slug": "persistiq",
+        "batch": "Summer 2014",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Doblet",
+        "slug": "doblet",
+        "batch": "Summer 2014",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 2838,
+      "network_density_score": 58.4,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": false,
+      "calculated_at": "2025-10-17T10:14:51.226025"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:14:51.226032",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:14:51.546347",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:14:51.645212",
+    "basic_info": {
+      "is_hiring": true,
+      "team_size": 65,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:44:37.988814",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Event industry digitization post-COVID",
+        "Increased demand for personalized marketing automation",
+        "Integration-first marketing stack consolidation"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Deep event industry integrations with 25+ partners including Ticketmaster, creating switching costs and data network effects",
+      "differentiation": "Purpose-built for event marketers with industry-specific workflows and deep ticketing platform integrations",
+      "competitive_advantages": [
+        "Extensive partner ecosystem",
+        "10+ years of event industry expertise",
+        "Rich customer data from ticketing integrations"
+      ],
+      "competitive_vulnerabilities": [
+        "Dependence on partner platforms",
+        "Niche market limits total addressable market",
+        "Potential for larger martech players to build event-specific features"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "low"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "1500+ clients suggests strong product-market fit",
+        "65-person team indicates significant scale",
+        "10-year track record shows durability"
+      ],
+      "growth_bottlenecks": [
+        "Limited to event industry vertical",
+        "Dependent on live events market health",
+        "Integration complexity may slow customer acquisition"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "low",
+      "overall_risk_score": 3,
+      "key_risks": [
+        "Event industry cyclicality and external shocks",
+        "Platform dependency on ticketing partners",
+        "Competition from horizontal martech solutions"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong vertical focus with deep domain expertise",
+        "Established customer base of 1500+ clients",
+        "Mature team and 10-year operational history"
+      ],
+      "concerns": [
+        "Limited market expansion beyond events",
+        "Potential margin pressure from partner revenue sharing"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Mailchimp",
+        "Eventbrite",
+        "HubSpot"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Explore adjacent verticals like hospitality or retail",
+        "Develop proprietary data products from event insights"
+      ],
+      "expansion_opportunities": [
+        "International market expansion",
+        "AI-powered predictive analytics for event success",
+        "White-label solutions for ticketing platforms"
+      ]
+    },
+    "tokens_used": {
+      "input": 752,
+      "output": 623,
+      "total": 1375,
+      "estimated_cost": 0.011601
+    }
+  },
+  "phase8_complete": true
+}

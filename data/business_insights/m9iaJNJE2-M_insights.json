@@ -1,0 +1,214 @@
+{
+  "market_intelligence": {
+    "target_markets": [
+      {
+        "market_description": "Content creators, marketers, and business owners who want to automate their content creation and marketing processes",
+        "demographics": [
+          "entrepreneurs",
+          "marketing professionals",
+          "content creators"
+        ],
+        "pain_points": [
+          "spending 10-15 hours per week on content creation",
+          "hate creating content for certain platforms like LinkedIn",
+          "need to test content angles and topics faster",
+          "manual research is time-consuming"
+        ],
+        "market_size_indicators": "Large enough market that people are willing to spend significant time (10-15 hours/week) on content creation"
+      }
+    ],
+    "problems_validated": [
+      {
+        "problem": "Content creators spend too much time manually creating and researching content across platforms",
+        "severity": "High - 10-15 hours per week time investment mentioned",
+        "current_solutions": "Manual content creation, basic AI tools like Claude or ChatGPT without context",
+        "market_gap": "Current AI solutions provide subpar results without proper context and research"
+      }
+    ]
+  },
+  "products_tools": [
+    {
+      "name": "N8N",
+      "category": "automation-platform",
+      "use_case": "Building AI content automation workflows",
+      "sentiment": "positive/recommended",
+      "pricing": "not mentioned",
+      "metrics": "not mentioned"
+    },
+    {
+      "name": "Claude",
+      "category": "ai-tool",
+      "use_case": "AI content generation within workflows",
+      "sentiment": "positive",
+      "pricing": "not mentioned",
+      "metrics": "not mentioned"
+    },
+    {
+      "name": "Apify",
+      "category": "saas",
+      "use_case": "Web scraping for Instagram, Amazon, TikTok, YouTube, X (Twitter)",
+      "sentiment": "positive/recommended",
+      "pricing": "not mentioned",
+      "metrics": "not mentioned"
+    },
+    {
+      "name": "OpenAI",
+      "category": "ai-tool",
+      "use_case": "LLM for content idea generation",
+      "sentiment": "positive",
+      "pricing": "not mentioned",
+      "metrics": "not mentioned"
+    }
+  ],
+  "business_strategies": [
+    {
+      "strategy_type": "operations",
+      "strategy": "Automate content creation and testing using AI agents to run marketing on autopilot",
+      "implementation": "Build workflows that research, generate, and automatically publish content",
+      "expected_results": "Save 10-15 hours per week, test content faster, get better engagement",
+      "case_study": "Speaker uses this for LinkedIn content creation since they hate manual LinkedIn posting"
+    },
+    {
+      "strategy_type": "growth",
+      "strategy": "Test content angles, hooks, and topics way faster using automated research and AI generation",
+      "implementation": "Use AI to analyze top-performing content and generate fresh angles",
+      "expected_results": "Better performing content based on data-driven insights",
+      "case_study": "Speaker tests content on secret accounts and deletes unsuccessful posts"
+    }
+  ],
+  "problems_solutions": [
+    {
+      "problem": "Manual content research and creation is extremely time-consuming",
+      "category": "business",
+      "solution": "Build an automated AI workflow that scrapes top-performing content, analyzes it, and generates new content ideas",
+      "steps": [
+        "Enter a topic keyword",
+        "Scrape top YouTube videos and X posts on that topic",
+        "Transcribe video content",
+        "Merge all data into one text block",
+        "Use AI to generate fresh content ideas",
+        "Create and optionally auto-publish content"
+      ],
+      "tools_needed": [
+        "N8N",
+        "Apify",
+        "Claude/OpenAI",
+        "YouTube API",
+        "X API"
+      ],
+      "difficulty": "intermediate",
+      "time_estimate": "saves 10-15 hours per week once set up"
+    }
+  ],
+  "startup_ideas": [],
+  "mistakes_to_avoid": [
+    {
+      "mistake": "Using basic AI tools like Claude or ChatGPT without proper context",
+      "consequences": "Getting subpar content results",
+      "prevention": "Feed AI tools with comprehensive research and context before generating content",
+      "example": "Instead of just opening Claude, first research top-performing content in your niche"
+    },
+    {
+      "mistake": "Directly copying other people's content",
+      "consequences": "Lack of originality and potential copyright issues",
+      "prevention": "Use existing content as inspiration to generate fresh angles rather than replicating",
+      "example": "Analyze successful content but create your own unique ideas based on those insights"
+    }
+  ],
+  "growth_tactics": [
+    {
+      "channel": "content",
+      "tactic": "Automated content testing and optimization using AI workflows",
+      "steps": [
+        "Set up automated content research",
+        "Generate multiple content variations",
+        "Test content automatically",
+        "Analyze performance",
+        "Refine based on results"
+      ],
+      "cost_estimate": "not mentioned",
+      "results_expected": "Higher engagement rates, faster content iteration"
+    }
+  ],
+  "ai_workflows": [
+    {
+      "workflow_name": "AI Content Agent with N8N and Claude",
+      "tools_used": [
+        "N8N",
+        "Claude",
+        "Apify",
+        "OpenAI",
+        "YouTube API",
+        "X API"
+      ],
+      "steps": [
+        "Enter topic keyword in chat interface",
+        "Scrape top 20-30 YouTube videos with high engagement",
+        "Scrape relevant X posts",
+        "Transcribe all video content",
+        "Merge all data into single text block",
+        "Feed data to AI content idea generator",
+        "Generate fresh marketing angles",
+        "Create content with images",
+        "Optionally auto-publish or review before publishing"
+      ],
+      "automation_level": "semi-automated",
+      "use_case": "Automate content research, generation, and publishing for social media platforms"
+    }
+  ],
+  "metrics_kpis": [
+    {
+      "metric": "Time saved per week",
+      "benchmark": "10-15 hours saved",
+      "tracking_method": "Compare manual vs automated workflow time",
+      "optimization_tip": "Focus on high-engagement content sources for better results"
+    }
+  ],
+  "trends_signals": [
+    {
+      "trend": "AI-powered content automation and marketing agents",
+      "category": "technology",
+      "stage": "growing",
+      "opportunity": "Businesses can run marketing on autopilot while maintaining quality and engagement"
+    }
+  ],
+  "actionable_quotes": [
+    {
+      "quote": "What if you can automate your marketing team with AI agents and just have content on autopilot?",
+      "context": "Opening statement about the potential of AI automation in marketing",
+      "category": "strategy",
+      "actionability": "Consider implementing AI agents for marketing automation"
+    },
+    {
+      "quote": "Instead of getting a subpar result just from opening up Claude or Chat GPT, this is going to get a lot of context, a lot of information, and it's going to create top performing content based off of that",
+      "context": "Explaining why context-rich AI workflows perform better than basic AI tool usage",
+      "category": "tactical",
+      "actionability": "Always provide comprehensive context to AI tools before content generation"
+    },
+    {
+      "quote": "Find things that are already performing and you know doing that for content that's similar to doing things like trying to create a startup idea or something like that too. You know you want to find things that are already working so you can sort of shortcut that and take those learnings and make it your own",
+      "context": "Explaining the strategy of analyzing successful content before creating new content",
+      "category": "strategy",
+      "actionability": "Research top-performing content in your niche before creating original content"
+    }
+  ],
+  "key_statistics": [
+    {
+      "statistic": "Save 10-15 hours per week using automated content workflows",
+      "context": "Time savings from implementing the AI content automation workflow",
+      "source_reliability": "claimed"
+    },
+    {
+      "statistic": "Scraping 20-30 high-engagement YouTube videos per topic",
+      "context": "Volume of content analyzed in the research phase of the workflow",
+      "source_reliability": "claimed"
+    }
+  ],
+  "meta": {
+    "video_id": "m9iaJNJE2-M",
+    "title": "I Built an AI Content Agent With N8N and Claude (Step-by-Step)",
+    "extracted_at": "2025-10-15T21:50:03.094233",
+    "model": "claude-sonnet-4-20250514",
+    "transcript_length": 22537
+  }
+}

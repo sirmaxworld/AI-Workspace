@@ -1,0 +1,701 @@
+{
+  "slug": "gitduck",
+  "name": "Duckly",
+  "yc_id": 21848,
+  "batch": "Summer 2020",
+  "website": "https://duckly.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:55:26.451957",
+    "website": "https://duckly.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 2028.72,
+      "final_url": "https://duckly.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:55:28.480678"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "duckly.com",
+      "registrar": "GoDaddy.com, LLC",
+      "creation_date": "2015-06-27T18:23:54",
+      "expiration_date": "2027-06-27T18:23:54",
+      "domain_age_days": 3764,
+      "domain_age_years": 10.3,
+      "name_servers": [
+        "BELLA.NS.CLOUDFLARE.COM",
+        "HUGH.NS.CLOUDFLARE.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/DucklyHQ",
+      "linkedin": null,
+      "github": "https://github.com/GitDuckHQ",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": true,
+      "x_content_type_options": true,
+      "x_xss_protection": true,
+      "referrer_policy": false,
+      "security_score": 66,
+      "server": "cloudflare"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:25:11.233545",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:25:02.097412",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "San Francisco, CA, USA",
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:14:18.656822",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:25:02.097578",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/GitDuckHQ"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 0,
+      "has_packages": false,
+      "checked_at": "2025-10-17T10:25:03.390422"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:25:03.390433",
+    "batch_network": {
+      "batch": "Summer 2020",
+      "total_batch_mates": 207,
+      "active_batch_mates": 131,
+      "batch_success_rate": 63.3,
+      "notable_batch_mates": [
+        {
+          "name": "Ladder",
+          "slug": "ladder",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Labor Marketplace for Construction"
+        },
+        {
+          "name": "Fig",
+          "slug": "fig",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Fig adds visual apps, shortcuts, and autocomplete to your terminal."
+        },
+        {
+          "name": "Altro",
+          "slug": "altro",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Build Credit With Your Subscriptions"
+        },
+        {
+          "name": "Jemi",
+          "slug": "jemi",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Jemi helps people build beautiful websites and stores."
+        },
+        {
+          "name": "LSK Technologies",
+          "slug": "lsk-technologies",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A diagnostic lab in a box"
+        },
+        {
+          "name": "Command AI",
+          "slug": "command-ai",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "AI-powered user assistance platform"
+        },
+        {
+          "name": "Bandit ML",
+          "slug": "bandit-ml",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Bandit ML builds machine learning tools for e-commerce companies."
+        },
+        {
+          "name": "Momence",
+          "slug": "momence",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Scheduling and payments for experiences"
+        },
+        {
+          "name": "Gather",
+          "slug": "gather",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Project management software for People Operations"
+        },
+        {
+          "name": "Finmark",
+          "slug": "finmark",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Financial planning software for startups"
+        }
+      ],
+      "batch_size": 208
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1969,
+      "direct_competitors": [
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "status": "Active",
+          "batch": "Winter 2012",
+          "one_liner": "High Performance Computing Built for the Cloud"
+        },
+        {
+          "name": "Marft",
+          "slug": "marft",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Marft creates embeddable machine learning models for application\u2026"
+        },
+        {
+          "name": "Pixelapse",
+          "slug": "pixelapse",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Github for designers. We automatically keep track of revisions of\u2026"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Palantir for sales people"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Smart search for the modern team."
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Authy is a Two-Factor Authentication platform for developers"
+        },
+        {
+          "name": "Flutter",
+          "slug": "flutter",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Flutter combined computer vision technology with the built-in webcams\u2026"
+        },
+        {
+          "name": "SolidStage",
+          "slug": "solidstage",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Sysadmin as a service. We make deploying, configuring, monitoring,\u2026"
+        },
+        {
+          "name": "Clutch",
+          "slug": "clutch",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "An easy to integrate library for native iOS applications designed to\u2026"
+        },
+        {
+          "name": "OneSignal",
+          "slug": "onesignal",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Engage customers through personalized omni-channel messaging"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "San Francisco",
+      "location": "San Francisco, CA, USA; Remote",
+      "companies_in_city": 2007,
+      "active_in_city": 1340,
+      "nearby_companies": [
+        {
+          "name": "42Floors",
+          "slug": "42floors",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "PlanGrid",
+          "slug": "plangrid",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "MyVR",
+          "slug": "myvr",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Couple",
+          "slug": "couple",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HackPad",
+          "slug": "hackpad",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Gusto",
+          "slug": "gusto",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "FamilyLeaf",
+          "slug": "familyleaf",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Chute",
+          "slug": "chute",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Make School",
+          "slug": "make-school",
+          "batch": "Winter 2012",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Exec",
+          "slug": "exec",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Public"
+        },
+        {
+          "name": "LendUp",
+          "slug": "lendup",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tilt",
+          "slug": "tilt",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fond",
+          "slug": "fond",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Openbase",
+        "slug": "openbase",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Fig",
+        "slug": "fig",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Luminai",
+        "slug": "luminai",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Command AI",
+        "slug": "command-ai",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Roboflow",
+        "slug": "roboflow",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Seam",
+        "slug": "seam",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Monosi",
+        "slug": "monosi",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Humanloop",
+        "slug": "humanloop",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Finch",
+        "slug": "finch",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Unfaze AI",
+        "slug": "unfaze-ai",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 4960,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:25:03.405769"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:25:03.405781",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:25:03.734977",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:25:03.852812",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 5,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:42:26.292168",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increased remote work adoption",
+        "Demand for seamless collaboration tools",
+        "Focus on developer-centric workflows"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Potential network effects if collaboration features drive user adoption and retention. Integration with developer tools could also create a switching cost.",
+      "differentiation": "Real-time collaboration features integrated directly into video chat, with a focus on developer workflows (IDE and terminal sharing).",
+      "competitive_advantages": [
+        "Ease of use with simple URL join",
+        "Developer-focused collaboration tools"
+      ],
+      "competitive_vulnerabilities": [
+        "Competition from established players (Zoom, Slack, Microsoft Teams)",
+        "Reliance on browser technology for real-time collaboration which can be inconsistent"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "seed",
+      "growth_indicators": [
+        "User acquisition rate",
+        "Engagement metrics (time spent collaborating)",
+        "Conversion rate from free to paid plans"
+      ],
+      "growth_bottlenecks": [
+        "Competition for user attention",
+        "Achieving critical mass for network effects",
+        "Building integrations with popular developer tools"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "high",
+      "overall_risk_score": 7,
+      "key_risks": [
+        "Inability to compete with larger, well-funded companies",
+        "Failure to achieve product-market fit",
+        "Technical challenges in maintaining real-time collaboration features"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Focus on a specific niche (developer collaboration)",
+        "Potential for strong network effects",
+        "Simple and easy-to-use product"
+      ],
+      "concerns": [
+        "Highly competitive market",
+        "Inactive status raises questions about viability"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Around.co",
+        "Gather.town"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Re-evaluate product-market fit based on user feedback",
+        "Focus on a specific developer workflow to differentiate",
+        "Explore partnerships with developer tool providers"
+      ],
+      "expansion_opportunities": [
+        "Integrate with more IDEs and terminal emulators",
+        "Develop advanced collaboration features (e.g., shared debugging)"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 720,
+      "completion": 682,
+      "total": 1402,
+      "estimated_cost": 0.000259
+    }
+  },
+  "phase8_complete": true
+}

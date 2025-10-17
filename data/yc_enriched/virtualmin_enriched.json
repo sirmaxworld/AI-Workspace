@@ -1,0 +1,665 @@
+{
+  "slug": "virtualmin",
+  "name": "Virtualmin",
+  "yc_id": 343,
+  "batch": "Winter 2007",
+  "website": "http://virtualmin.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:31:35.976900",
+    "website": "http://virtualmin.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 4346.76,
+      "final_url": "https://www.virtualmin.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:31:40.323682"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "virtualmin.com",
+      "registrar": "NameCheap, Inc.",
+      "creation_date": "2003-06-28T18:14:30",
+      "expiration_date": "2026-06-28T18:14:30",
+      "domain_age_days": 8146,
+      "domain_age_years": 22.3,
+      "name_servers": [
+        "NS1.VIRTUALMIN.COM",
+        "NS2.VIRTUALMIN.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": "https://github.com/virtualmin",
+      "facebook": null,
+      "instagram": null,
+      "youtube": "https://youtube.com/virtualmin"
+    },
+    "security_headers": {
+      "strict_transport_security": false,
+      "content_security_policy": true,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 16,
+      "server": "Apache"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:13:25.260573",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:00:49.777159",
+    "place_data": {
+      "status": "not_found",
+      "query": "Mountain View, CA, USA"
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:00:49.887256",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/virtualmin"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 2,
+        "packages": [
+          {
+            "name": "generator-virtualmin",
+            "description": "Generates virtual servers for virtualmin",
+            "version": "1.0.71",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/generator-virtualmin"
+          },
+          {
+            "name": "virtualmin-api",
+            "description": "Its a simples wrapper for plug your api with Virtualmin-Api",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/virtualmin-api"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 2,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:00:51.390025"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:00:51.390034",
+    "batch_network": {
+      "batch": "Winter 2007",
+      "total_batch_mates": 12,
+      "active_batch_mates": 1,
+      "batch_success_rate": 8.3,
+      "notable_batch_mates": [
+        {
+          "name": "Weebly",
+          "slug": "weebly",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Build a free website that grows with your business."
+        },
+        {
+          "name": "Octopart",
+          "slug": "octopart",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Octopart is a search engine for electronic components"
+        },
+        {
+          "name": "Zenter",
+          "slug": "zenter",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Zenter is the gmail of slides"
+        },
+        {
+          "name": "Auctomatic",
+          "slug": "auctomatic",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": ""
+        },
+        {
+          "name": "Heysan",
+          "slug": "heysan",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Free messaging on mobile phones"
+        },
+        {
+          "name": "Twitch",
+          "slug": "twitch",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "A global community creating the future of live entertainment."
+        }
+      ],
+      "batch_size": 13
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Amiato",
+          "slug": "amiato",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "The BI bridge for unstructured data. We automatically bridge the gap\u2026"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Simple multiplayer game servers."
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Backlift allows front-end only developers to build entire websites\u2026"
+        },
+        {
+          "name": "Documents.Me",
+          "slug": "documents-me",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Client-side encryption for your devices and the cloud."
+        },
+        {
+          "name": "Apollo",
+          "slug": "apollo",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Apollo helps engineering teams accelerate delivery"
+        },
+        {
+          "name": "Proxino",
+          "slug": "proxino",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Javascript proxy."
+        },
+        {
+          "name": "PhoneSys",
+          "slug": "phonesys",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "The Phone System for Sales Teams."
+        },
+        {
+          "name": "Cryptoseal",
+          "slug": "cryptoseal",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Server key management, VPN as a Service, Privacy VPN.  Sold to\u2026"
+        },
+        {
+          "name": "Citus Data",
+          "slug": "citus-data",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Real-time. Big data. PostgreSQL"
+        },
+        {
+          "name": "Realm",
+          "slug": "realm",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Better data structures = no DB."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Mountain View",
+      "location": "Mountain View, CA, USA",
+      "companies_in_city": 84,
+      "active_in_city": 30,
+      "nearby_companies": [
+        {
+          "name": "SlidePay",
+          "slug": "slidepay",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "BarSense",
+          "slug": "barsense",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "YourMechanic",
+          "slug": "yourmechanic",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Carsabi",
+          "slug": "carsabi",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HackerRank",
+          "slug": "hackerrank",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "PhoneSys",
+          "slug": "phonesys",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Cryptoseal",
+          "slug": "cryptoseal",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Firebase",
+          "slug": "firebase",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Everyme",
+          "slug": "everyme",
+          "batch": "Summer 2011",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Kicksend",
+          "slug": "kicksend",
+          "batch": "Summer 2011",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Beetailer",
+          "slug": "beetailer",
+          "batch": "Winter 2011",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "TalkBin",
+          "slug": "talkbin",
+          "batch": "Winter 2011",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "GazeHawk",
+          "slug": "gazehawk",
+          "batch": "Summer 2010",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Whereoscope",
+          "slug": "whereoscope",
+          "batch": "Summer 2010",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Newcope",
+          "slug": "newcope",
+          "batch": "Winter 2010",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HighlightCam",
+          "slug": "highlightcam",
+          "batch": "Summer 2009",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Bump",
+          "slug": "bump",
+          "batch": "Summer 2009",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Recurious",
+          "slug": "recurious",
+          "batch": "Winter 2009",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Picurio",
+          "slug": "picurio",
+          "batch": "Winter 2009",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Zenter",
+          "slug": "zenter",
+          "batch": "Winter 2007",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Zenter",
+        "slug": "zenter",
+        "batch": "Winter 2007",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "PhoneSys",
+        "slug": "phonesys",
+        "batch": "Summer 2011",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Cryptoseal",
+        "slug": "cryptoseal",
+        "batch": "Summer 2011",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Firebase",
+        "slug": "firebase",
+        "batch": "Summer 2011",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Parakey",
+        "slug": "parakey",
+        "batch": "Summer 2005",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Redspread",
+        "slug": "redspread",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Activeloop",
+        "slug": "activeloop",
+        "batch": "Summer 2018",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Ardis AI",
+        "slug": "ardis-ai",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "FlowDeploy",
+        "slug": "flowdeploy",
+        "batch": "Winter 2022",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "IOMETE",
+        "slug": "iomete",
+        "batch": "Winter 2022",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 2842,
+      "network_density_score": 59.2,
+      "has_strong_batch_network": false,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:00:51.423769"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:00:51.423777",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:00:51.758457",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:00:51.894709",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 2,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:47.611963",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "medium",
+      "market_stage": "mature",
+      "key_trends": [
+        "Increased demand for simplified server management",
+        "Growing adoption of cloud-based solutions",
+        "Rise of no-code/low-code platforms"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Established user base and open-source nature create a barrier to entry.",
+      "differentiation": "Focus on accessibility for non-technical users and simplified installation of popular applications.",
+      "competitive_advantages": [
+        "Ease of use compared to complex alternatives",
+        "Open-source option provides flexibility and cost savings"
+      ],
+      "competitive_vulnerabilities": [
+        "Potential limitations in advanced features for experienced users",
+        "Reliance on community support may impact response times"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS and potentially premium support/features",
+      "scalability": "high",
+      "capital_intensity": "low"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "Website traffic and user engagement",
+        "Adoption rate of new features"
+      ],
+      "growth_bottlenecks": [
+        "Competition from established players",
+        "Keeping pace with evolving technology and user needs"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "low",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Security vulnerabilities",
+        "Dependence on open-source community contributions",
+        "Evolving cloud infrastructure landscape"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong focus on user-friendliness",
+        "Established presence in the market",
+        "Open-source option attracts a wider audience"
+      ],
+      "concerns": [
+        "Competition from larger, well-funded companies",
+        "Potential limitations in advanced features"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Plesk",
+        "cPanel"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Expand integrations with popular cloud platforms",
+        "Develop premium features for advanced users"
+      ],
+      "expansion_opportunities": [
+        "Offer managed hosting services",
+        "Target specific niche markets (e.g., small businesses, bloggers)"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 674,
+      "completion": 623,
+      "total": 1297,
+      "estimated_cost": 0.000237
+    }
+  },
+  "phase8_complete": true
+}

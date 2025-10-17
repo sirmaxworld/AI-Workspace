@@ -1,0 +1,726 @@
+{
+  "slug": "terra-api",
+  "name": "Terra API",
+  "yc_id": 23612,
+  "batch": "Winter 2021",
+  "website": "http://tryterra.co",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T01:03:18.310115",
+    "website": "http://tryterra.co",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 3072.05,
+      "final_url": "https://tryterra.co/",
+      "redirected": true,
+      "checked_at": "2025-10-17T01:03:21.382174"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "tryterra.co",
+      "registrar": "Domain.com",
+      "creation_date": "2020-12-09T22:45:08",
+      "expiration_date": "2029-12-09T23:59:59",
+      "domain_age_days": 1772,
+      "domain_age_years": 4.9,
+      "name_servers": [
+        "ELLIOT.NS.CLOUDFLARE.COM",
+        "UMA.NS.CLOUDFLARE.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/TerraAPI",
+      "linkedin": "https://www.linkedin.com/company/terraapi",
+      "github": "https://github.com/tryterra",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": false,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 0,
+      "server": "cloudflare"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:28:10.096834",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:27:59.662837",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "London, UK",
+      "coordinates": {
+        "latitude": 51.5074,
+        "longitude": -0.1278
+      },
+      "timezone": {
+        "timezone_id": "Europe/London",
+        "timezone_name": "Europe/London"
+      },
+      "retrieved_at": "2025-10-17T10:14:19.264834",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:27:59.662893",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/tryterra"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 3,
+        "packages": [
+          {
+            "name": "@tryterra/terra-ui",
+            "description": "A simple library of ready-to-go components for your react apps.",
+            "version": "0.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@tryterra/terra-ui"
+          },
+          {
+            "name": "terra-api",
+            "description": "[![fern shield](https://img.shields.io/badge/%F0%9F%8C%BF-Built%20with%20Fern-brightgreen)](https://buildwithfern.com?utm_source=github&utm_medium=github&utm_campaign=readme&utm_source=https%3A%2F%2Fgithub.com%2Ftryterra%2Fterra-client-js) [![npm shield](",
+            "version": "2.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/terra-api"
+          },
+          {
+            "name": "react-native-terra-react-graphs",
+            "description": "Terra SDK support for Graph API",
+            "version": "0.1.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-native-terra-react-graphs"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 2,
+        "packages": [
+          {
+            "name": "tryterra_api",
+            "version": "1.0.1",
+            "downloads": 5593,
+            "url": "https://rubygems.org/gems/tryterra_api"
+          },
+          {
+            "name": "tryterra-client",
+            "version": "0.2.1",
+            "downloads": 1484,
+            "url": "https://rubygems.org/gems/tryterra-client"
+          }
+        ]
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 5,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:28:00.927035"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:28:00.927041",
+    "batch_network": {
+      "batch": "Winter 2021",
+      "total_batch_mates": 335,
+      "active_batch_mates": 244,
+      "batch_success_rate": 72.8,
+      "notable_batch_mates": [
+        {
+          "name": "Stacksi",
+          "slug": "stacksi",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Automated Answers to Security Questionnaires"
+        },
+        {
+          "name": "Furmacy",
+          "slug": "furmacy",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Digital e-prescribing software for veterinarians."
+        },
+        {
+          "name": "Fountain9",
+          "slug": "fountain9",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Helping food brands and retailers reduce food wastage"
+        },
+        {
+          "name": "Zepto",
+          "slug": "zepto",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "10-Minute Grocery Delivery in India"
+        },
+        {
+          "name": "Segments.ai",
+          "slug": "segments-ai",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Build better computer vision models by building better datasets"
+        },
+        {
+          "name": "PingPong",
+          "slug": "pingpong",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Video messaging app for remote teams."
+        },
+        {
+          "name": "ClipDrop",
+          "slug": "clipdrop",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Turn regular mobile photos into professional product visuals"
+        },
+        {
+          "name": "Avenue",
+          "slug": "avenue",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Observability platform for operations teams"
+        },
+        {
+          "name": "Flok",
+          "slug": "flok",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "End to end company retreat planning"
+        },
+        {
+          "name": "HyperGlue",
+          "slug": "hyperglue",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Business intelligence on text"
+        }
+      ],
+      "batch_size": 336
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "status": "Active",
+          "batch": "Winter 2012",
+          "one_liner": "High Performance Computing Built for the Cloud"
+        },
+        {
+          "name": "Marft",
+          "slug": "marft",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Marft creates embeddable machine learning models for application\u2026"
+        },
+        {
+          "name": "Pixelapse",
+          "slug": "pixelapse",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Github for designers. We automatically keep track of revisions of\u2026"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Palantir for sales people"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Smart search for the modern team."
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Authy is a Two-Factor Authentication platform for developers"
+        },
+        {
+          "name": "Flutter",
+          "slug": "flutter",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Flutter combined computer vision technology with the built-in webcams\u2026"
+        },
+        {
+          "name": "SolidStage",
+          "slug": "solidstage",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Sysadmin as a service. We make deploying, configuring, monitoring,\u2026"
+        },
+        {
+          "name": "Clutch",
+          "slug": "clutch",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "An easy to integrate library for native iOS applications designed to\u2026"
+        },
+        {
+          "name": "OneSignal",
+          "slug": "onesignal",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Engage customers through personalized omni-channel messaging"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "London",
+      "location": "London, England, United Kingdom",
+      "companies_in_city": 133,
+      "active_in_city": 104,
+      "nearby_companies": [
+        {
+          "name": "CircuitHub",
+          "slug": "circuithub",
+          "batch": "Winter 2012",
+          "industry": "Industrials",
+          "status": "Active"
+        },
+        {
+          "name": "GoCardless",
+          "slug": "gocardless",
+          "batch": "Summer 2011",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Lanyrd",
+          "slug": "lanyrd",
+          "batch": "Winter 2011",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Post.fm",
+          "slug": "post-fm",
+          "batch": "Summer 2010",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Infogami",
+          "slug": "infogami",
+          "batch": "Summer 2005",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "GoScale",
+          "slug": "goscale",
+          "batch": "Summer 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Shoobs",
+          "slug": "shoobs",
+          "batch": "Winter 2014",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Hyperpad",
+          "slug": "hyperpad",
+          "batch": "Summer 2014",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Permutive",
+          "slug": "permutive",
+          "batch": "Summer 2014",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "SalesSift",
+          "slug": "salessift",
+          "batch": "Summer 2014",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "GiveMeTap",
+          "slug": "givemetap",
+          "batch": "Winter 2015",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Tab",
+          "slug": "tab",
+          "batch": "Winter 2015",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Heroic Labs",
+          "slug": "heroic-labs",
+          "batch": "Summer 2015",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Sphere Secure Workspace",
+          "slug": "sphere-secure-workspace",
+          "batch": "Summer 2015",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "80,000 Hours",
+          "slug": "80-000-hours",
+          "batch": "Summer 2015",
+          "industry": "Unspecified",
+          "status": "Active"
+        },
+        {
+          "name": "SmartSite",
+          "slug": "smartsite",
+          "batch": "Summer 2016",
+          "industry": "Real Estate and Construction",
+          "status": "Inactive"
+        },
+        {
+          "name": "Shipamax",
+          "slug": "shipamax",
+          "batch": "Winter 2017",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fat Llama",
+          "slug": "fat-llama",
+          "batch": "Summer 2017",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Entocycle",
+          "slug": "entocycle",
+          "batch": "Summer 2017",
+          "industry": "Industrials",
+          "status": "Active"
+        },
+        {
+          "name": "Opearlo",
+          "slug": "opearlo",
+          "batch": "Summer 2017",
+          "industry": "Consumer",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Webiny",
+        "slug": "webiny",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Runway",
+        "slug": "runway",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "authzed",
+        "slug": "authzed",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Humaans",
+        "slug": "humaans",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Taloflow",
+        "slug": "taloflow",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "SBX Robotics",
+        "slug": "sbx-robotics",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Pensil",
+        "slug": "pensil",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Triplit",
+        "slug": "triplit",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Clay",
+        "slug": "clay",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Axiom.ai",
+        "slug": "axiom-ai",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 3214,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:28:00.935468"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:28:00.935475",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:28:01.247357",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:28:01.346250",
+    "basic_info": {
+      "is_hiring": true,
+      "team_size": 25,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:42:04.106969",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Digital health transformation accelerating",
+        "Wearables and IoT health devices proliferating",
+        "Healthcare data interoperability becoming critical"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Network effects from device integrations and developer ecosystem, plus technical complexity of maintaining multiple API connections",
+      "differentiation": "Unified API approach simplifying health data integration across multiple sources",
+      "competitive_advantages": [
+        "First-mover advantage in unified health API space",
+        "Strong technical team with deep integration expertise"
+      ],
+      "competitive_vulnerabilities": [
+        "Large tech companies could build competing solutions",
+        "Dependent on third-party device manufacturers for data access"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "series-a",
+      "growth_indicators": [
+        "25-person team suggests significant traction",
+        "4.9-year domain age shows sustained development"
+      ],
+      "growth_bottlenecks": [
+        "Need for continuous device integration maintenance",
+        "Sales cycle complexity in healthcare market"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Regulatory changes in health data privacy",
+        "Device manufacturers restricting API access",
+        "Competition from big tech platforms"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Massive addressable market in digital health",
+        "Critical infrastructure play with high switching costs",
+        "Strong technical execution with 25-person team"
+      ],
+      "concerns": [
+        "Dependency on third-party integrations",
+        "Regulatory compliance complexity"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Validic",
+        "Human API"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on enterprise healthcare customers for higher ACV",
+        "Build strategic partnerships with major EHR providers"
+      ],
+      "expansion_opportunities": [
+        "International market expansion",
+        "Vertical-specific solutions for fitness, clinical trials, or insurance"
+      ]
+    },
+    "tokens_used": {
+      "input": 661,
+      "output": 560,
+      "total": 1221,
+      "estimated_cost": 0.010383
+    }
+  },
+  "phase8_complete": true
+}

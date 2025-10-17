@@ -1,0 +1,1451 @@
+{
+  "slug": "enso",
+  "name": "Enso",
+  "yc_id": 24270,
+  "batch": "Summer 2021",
+  "website": "https://ensoanalytics.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T01:06:03.369269",
+    "website": "https://ensoanalytics.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 6510.8,
+      "final_url": "https://www.ensoanalytics.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T01:06:09.880074"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "ensoanalytics.com",
+      "registrar": "Network Solutions, LLC",
+      "creation_date": "2024-04-26T21:16:29",
+      "expiration_date": "2026-04-26T21:16:29",
+      "domain_age_days": 538,
+      "domain_age_years": 1.5,
+      "name_servers": [
+        "NS-1134.AWSDNS-13.ORG",
+        "NS-1582.AWSDNS-05.CO.UK",
+        "NS-424.AWSDNS-53.COM",
+        "NS-579.AWSDNS-08.NET"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": "https://github.com/orgs/enso-org/projects",
+      "facebook": null,
+      "instagram": null,
+      "youtube": "https://www.youtube.com/@Enso_Analytics"
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": true,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 33,
+      "server": "Pepyaka"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:29:24.405300",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:29:10.676427",
+    "place_data": {
+      "status": "not_found",
+      "query": "Krak\u00f3w, Lesser Poland Voivodeship, Poland; Remote",
+      "methods_tried": [
+        "static_db",
+        "nominatim",
+        "geonames"
+      ]
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:29:10.922906",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/orgs"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 100,
+        "packages": [
+          {
+            "name": "@salesforce/plugin-org",
+            "description": "Commands to interact with Salesforce orgs",
+            "version": "5.9.32",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@salesforce/plugin-org"
+          },
+          {
+            "name": "@salesforce/core",
+            "description": "Core libraries to interact with SFDX projects, orgs, and APIs.",
+            "version": "8.23.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@salesforce/core"
+          },
+          {
+            "name": "@salesforce/core-bundle",
+            "description": "Core libraries to interact with SFDX projects, orgs, and APIs.",
+            "version": "8.21.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@salesforce/core-bundle"
+          },
+          {
+            "name": "meta-compare",
+            "description": "A CLI tool to compare Salesforce metadata between two orgs, view KPIs, and export CSV results.",
+            "version": "1.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/meta-compare"
+          },
+          {
+            "name": "@heroku-cli/plugin-orgs-v5",
+            "description": "CLI to manage Heroku Organizations",
+            "version": "8.11.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@heroku-cli/plugin-orgs-v5"
+          },
+          {
+            "name": "@jayree/sfdx-plugin-prettier",
+            "description": "A Salesforce CLI plugin containing a hook that uses prettier to format Salesforce metadata source files retrieved or pulled from Salesforce orgs.",
+            "version": "1.3.136",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@jayree/sfdx-plugin-prettier"
+          },
+          {
+            "name": "@medable/mdctl-axon-tools",
+            "description": "Medable Axon Tools :: Tools For interaction with Axon orgs",
+            "version": "1.0.73",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@medable/mdctl-axon-tools"
+          },
+          {
+            "name": "ethereumjs-blockstream",
+            "description": "A library to turn an unreliable remote source of Ethereum blocks into a reliable stream of blocks with removals on re-orgs and backfills on skips.",
+            "version": "7.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ethereumjs-blockstream"
+          },
+          {
+            "name": "@apexdevtools/benchmarker",
+            "description": "Benchmarks performance of processes on Salesforce Orgs",
+            "version": "5.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@apexdevtools/benchmarker"
+          },
+          {
+            "name": "@1hive/apps-dandelion-voting",
+            "description": "Voting app for dandelion orgs",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@1hive/apps-dandelion-voting"
+          },
+          {
+            "name": "sfdx-ext",
+            "description": "sfdx extensions to retrieve and compare salesforce metadata from multiple orgs",
+            "version": "0.1.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sfdx-ext"
+          },
+          {
+            "name": "@jayree/sfdx-plugin-manifest",
+            "description": "A powerful Salesforce CLI plugin and Node.js library to effortlessly generate, clean up, and manage package.xml and destructiveChanges.xml manifests directly from your Salesforce orgs or from Git changes in your SF projects. Unlock faster, safer, and smar",
+            "version": "4.0.82",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@jayree/sfdx-plugin-manifest"
+          },
+          {
+            "name": "@salesforce/plugin-data-seeding",
+            "description": "Migrate real data, generate fake data using GenAI, or deploy data files to target orgs.",
+            "version": "1.1.61",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@salesforce/plugin-data-seeding"
+          },
+          {
+            "name": "@advanced-communities/salesforce-mcp-server",
+            "description": "MCP server enabling AI assistants to interact with Salesforce orgs through the Salesforce CLI",
+            "version": "1.5.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@advanced-communities/salesforce-mcp-server"
+          },
+          {
+            "name": "sf-meta-diff",
+            "description": "CLI tool to diff Salesforce metadata between two orgs using Monaco Editor and Tailwind dark theme",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sf-meta-diff"
+          },
+          {
+            "name": "hzn-cli",
+            "description": "Open Horizon CLI toolkit helps streamline the process of preparing node agents and perform tasks between orgs environments",
+            "version": "0.9.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/hzn-cli"
+          },
+          {
+            "name": "heroku-orgs",
+            "description": "CLI to manage Heroku Organizations",
+            "version": "1.7.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/heroku-orgs"
+          },
+          {
+            "name": "@trigo/atrix",
+            "description": "[![NSP Status](https://nodesecurity.io/orgs/trigo-gmbh/projects/6f4ad9d2-40fc-452b-8ae1-41433733d816/badge)](https://nodesecurity.io/orgs/trigo-gmbh/projects/6f4ad9d2-40fc-452b-8ae1-41433733d816)",
+            "version": "7.0.0-alpha5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@trigo/atrix"
+          },
+          {
+            "name": "@migration-accelerator/migration-accelerator-cli",
+            "description": "CLI for Migration Accelerator: manage orgs, sites, templates, components, mappings, AI mapping, and migrations.",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@migration-accelerator/migration-accelerator-cli"
+          },
+          {
+            "name": "@digital-taco/base-library",
+            "description": "Github Project: https://github.com/orgs/digital-taco/projects/1/views/1",
+            "version": "0.1.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@digital-taco/base-library"
+          },
+          {
+            "name": "@glaz-techfi/create-scratch",
+            "description": "Plugin to create scratch orgs and automatically install and push sources",
+            "version": "0.8.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@glaz-techfi/create-scratch"
+          },
+          {
+            "name": "allure-js-commons",
+            "description": "Allure JS Commons",
+            "version": "3.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/allure-js-commons"
+          },
+          {
+            "name": "orglinter",
+            "description": "Ensure proper membership list and config for GitHub orgs",
+            "version": "0.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/orglinter"
+          },
+          {
+            "name": "easy-aws-utils",
+            "description": "This is a library for calling AWS services dynamically across orgs, accounts and services.",
+            "version": "1.0.32",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/easy-aws-utils"
+          },
+          {
+            "name": "@heroku-cli/plugin-orgs",
+            "description": "CLI to manage Heroku Organizations",
+            "version": "1.8.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@heroku-cli/plugin-orgs"
+          },
+          {
+            "name": "@bevry/github-orgs",
+            "description": "JSON listing of all the Bevry managed GitHub organisations",
+            "version": "3.6.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@bevry/github-orgs"
+          },
+          {
+            "name": "flow-activator",
+            "description": "Flow Activator is a command-line tool that allows users to activate the latest version of specified flows in connected Salesforce orgs. This script supports multi-select functionality for choosing the orgs where the flows should be activated.",
+            "version": "1.0.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/flow-activator"
+          },
+          {
+            "name": "allure-playwright",
+            "description": "Allure Playwright integration",
+            "version": "3.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/allure-playwright"
+          },
+          {
+            "name": "allure-commandline",
+            "description": "Wrapper to install Allure-commandline via NPM",
+            "version": "2.34.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/allure-commandline"
+          },
+          {
+            "name": "lakarkadaek-orgs",
+            "description": "Lakar Kadaek",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/lakarkadaek-orgs"
+          },
+          {
+            "name": "orgs",
+            "description": "Get publicly available information about an organization, or for all organizations for one or more users, from the GitHub API.",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/orgs"
+          },
+          {
+            "name": "npm",
+            "description": "a package manager for JavaScript",
+            "version": "11.6.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/npm"
+          },
+          {
+            "name": "augur-blockstream",
+            "description": "A library to turn an unreliable remote source of Ethereum blocks into a reliable stream of blocks with removals on re-orgs and backfills on skips.",
+            "version": "5.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/augur-blockstream"
+          },
+          {
+            "name": "gulp",
+            "description": "The streaming build system.",
+            "version": "5.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/gulp"
+          },
+          {
+            "name": "allure-vitest",
+            "description": "Allure Vitest integration",
+            "version": "3.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/allure-vitest"
+          },
+          {
+            "name": "allure-cucumberjs",
+            "description": "Allure Cucumber.JS integration",
+            "version": "3.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/allure-cucumberjs"
+          },
+          {
+            "name": "repos",
+            "description": "Tiny wrapper around github-base for getting publicly available information for a repository, or all of the repositories for one or more users or orgs, from the GitHub API.",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/repos"
+          },
+          {
+            "name": "allure-jest",
+            "description": "Allure Jest integration",
+            "version": "3.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/allure-jest"
+          },
+          {
+            "name": "xyz-xyz-xyz",
+            "description": "testing npm orgs and auth and etc stuff",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/xyz-xyz-xyz"
+          },
+          {
+            "name": "@liquid-labs/orgs-model",
+            "description": "Liquid organizations model.",
+            "version": "1.0.0-beta.110",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@liquid-labs/orgs-model"
+          },
+          {
+            "name": "mo-dx-plugin",
+            "description": "A plugin for Salesforce DX CLI that provides ability to save Apex Classes, Apex Triggers, Visualforce Page, Visualforce Components ,AuraBundle(Lightning Components) and Static Resource to Salesforce org (Scratch/Non-Scratch orgs) using Tooling API.",
+            "version": "0.3.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/mo-dx-plugin"
+          },
+          {
+            "name": "sfdc-org-compare",
+            "description": "A client that uses the Salesforce Metadata API to compare metadata between two Orgs",
+            "version": "1.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sfdc-org-compare"
+          },
+          {
+            "name": "allure-mocha",
+            "description": "Allure Mocha integration",
+            "version": "3.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/allure-mocha"
+          },
+          {
+            "name": "@allurereport/service",
+            "description": "Allure Service API",
+            "version": "3.0.0-beta.20",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@allurereport/service"
+          },
+          {
+            "name": "@tleef/type-js",
+            "description": "![npm (scoped)](https://img.shields.io/npm/v/@tleef/type-js.svg) ![Travis (.org)](https://img.shields.io/travis/tleef/type-js.svg) ![Coveralls github](https://img.shields.io/coveralls/github/tleef/type-js.svg) ![NSP Status](https://nodesecurity.io/orgs/tl",
+            "version": "1.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@tleef/type-js"
+          },
+          {
+            "name": "@allurereport/web-commons",
+            "description": "Collection of utilities used across the web Allure reports",
+            "version": "3.0.0-beta.20",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@allurereport/web-commons"
+          },
+          {
+            "name": "@allurereport/core-api",
+            "description": "Allure Core API",
+            "version": "3.0.0-beta.20",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@allurereport/core-api"
+          },
+          {
+            "name": "@allurereport/web-classic",
+            "description": "The static files for Allure Classic Report",
+            "version": "3.0.0-beta.20",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@allurereport/web-classic"
+          },
+          {
+            "name": "@allurereport/ci",
+            "description": "Utilities set to get useful report data from different CI",
+            "version": "3.0.0-beta.20",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@allurereport/ci"
+          },
+          {
+            "name": "primeng",
+            "description": "PrimeNG is an open source UI library for Angular featuring a rich set of 80+ components, a theme designer, various theme alternatives such as Material, Bootstrap, Tailwind, premium templates and professional support. In addition, it integrates with PrimeB",
+            "version": "20.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/primeng"
+          },
+          {
+            "name": "@allurereport/reader",
+            "description": "Collection of utilities which helps to process different kind of test results as Allure Results",
+            "version": "3.0.0-beta.20",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@allurereport/reader"
+          },
+          {
+            "name": "@aragon/apps-dandelion-voting",
+            "description": "Voting app for dandelion orgs",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aragon/apps-dandelion-voting"
+          },
+          {
+            "name": "@allurereport/core",
+            "description": "Collection of generic Allure utilities used across the entire project",
+            "version": "3.0.0-beta.20",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@allurereport/core"
+          },
+          {
+            "name": "@allurereport/plugin-api",
+            "description": "Allure Plugin API",
+            "version": "3.0.0-beta.20",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@allurereport/plugin-api"
+          },
+          {
+            "name": "@allurereport/web-allure2",
+            "description": "The static files for Allure Classic Report",
+            "version": "3.0.0-beta.20",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@allurereport/web-allure2"
+          },
+          {
+            "name": "primevue",
+            "description": "PrimeVue is an open source UI library for Vue featuring a rich set of 80+ components, a theme designer, various theme alternatives such as Material, Bootstrap, Tailwind, premium templates and professional support. In addition, it integrates with PrimeBloc",
+            "version": "4.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/primevue"
+          },
+          {
+            "name": "@allurereport/web-awesome",
+            "description": "The static files for Allure Awesome Report",
+            "version": "3.0.0-beta.20",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@allurereport/web-awesome"
+          },
+          {
+            "name": "@allurereport/reader-api",
+            "description": "Allure Reader API",
+            "version": "3.0.0-beta.20",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@allurereport/reader-api"
+          },
+          {
+            "name": "@allurereport/directory-watcher",
+            "description": "File system watcher for directories",
+            "version": "3.0.0-beta.20",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@allurereport/directory-watcher"
+          },
+          {
+            "name": "@allurereport/web-dashboard",
+            "description": "The static files for Allure Dashboard Report",
+            "version": "3.0.0-beta.20",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@allurereport/web-dashboard"
+          },
+          {
+            "name": "newman-reporter-allure",
+            "description": "Allure Newman integration",
+            "version": "3.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/newman-reporter-allure"
+          },
+          {
+            "name": "github-repo-list-cli",
+            "description": "CLI to export an inventory of one or more GitHub orgs into a CSV",
+            "version": "1.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/github-repo-list-cli"
+          },
+          {
+            "name": "@allurereport/plugin-server-reload",
+            "description": "Allure Plugin to reload Allure Static Server on state change",
+            "version": "3.0.0-beta.20",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@allurereport/plugin-server-reload"
+          },
+          {
+            "name": "@allurereport/plugin-progress",
+            "description": "Allure Plugin to show generation progress in console",
+            "version": "3.0.0-beta.20",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@allurereport/plugin-progress"
+          },
+          {
+            "name": "@aurahelper/connector",
+            "description": "Powerfull Libraries to connect with Salesforce to list, describe, deploy or retrieve metadata types. Also can describe SObjects, Create Projects, Authorize Orgs, Execute Queries, Export or Import Data... To the correct work of this library, you need to ha",
+            "version": "2.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aurahelper/connector"
+          },
+          {
+            "name": "allure-codeceptjs",
+            "description": "Allure codeceptjs integration",
+            "version": "3.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/allure-codeceptjs"
+          },
+          {
+            "name": "arktype",
+            "description": "TypeScript's 1:1 validator, optimized from editor to runtime",
+            "version": "2.1.23",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/arktype"
+          },
+          {
+            "name": "allure-cypress",
+            "description": "Allure Cypress integration",
+            "version": "3.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/allure-cypress"
+          },
+          {
+            "name": "@dashbook/keycloak-orgs",
+            "description": "OpenAPI client for keycloak-orgs",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@dashbook/keycloak-orgs"
+          },
+          {
+            "name": "@allurereport/plugin-testplan",
+            "description": "Allure Plugin to generate testplan.json",
+            "version": "3.0.0-beta.20",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@allurereport/plugin-testplan"
+          },
+          {
+            "name": "@allurereport/plugin-slack",
+            "description": "Allure Plugin to Report results to Slack",
+            "version": "3.0.0-beta.20",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@allurereport/plugin-slack"
+          },
+          {
+            "name": "tap-github-issues",
+            "description": "Test reporter that converts TAP output into github issues in multiple orgs/repos",
+            "version": "0.10.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/tap-github-issues"
+          },
+          {
+            "name": "typhonjs-github-inspect-orgs-transform",
+            "description": "A NPM module transforming compound GitHub queries for many-repo projects from typhonjs-github-inspect-orgs to HTML, JSON, Markdown or text.",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/typhonjs-github-inspect-orgs-transform"
+          },
+          {
+            "name": "allure",
+            "description": "Allure Commandline Tool",
+            "version": "3.0.0-beta.20",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/allure"
+          },
+          {
+            "name": "@buster/repos",
+            "description": "Tiny wrapper around github-base for getting publicly available information for a repository, or all of the repositories for one or more users or orgs, from the GitHub API.",
+            "version": "4.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@buster/repos"
+          },
+          {
+            "name": "@allurereport/plugin-log",
+            "description": "Allure Plugin to write report in stdout",
+            "version": "3.0.0-beta.20",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@allurereport/plugin-log"
+          },
+          {
+            "name": "@allurereport/plugin-csv",
+            "description": "Allure CSV report",
+            "version": "3.0.0-beta.20",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@allurereport/plugin-csv"
+          },
+          {
+            "name": "@pyroscope/nodejs",
+            "description": "pyroscope nodejs package",
+            "version": "0.4.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@pyroscope/nodejs"
+          },
+          {
+            "name": "get-installed-path",
+            "description": "Get installation path where the given package is installed. Works for globally and locally installed packages",
+            "version": "4.0.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/get-installed-path"
+          },
+          {
+            "name": "@digital-springboard/install-it-all",
+            "description": "Run `npm install` in many projects in parallel with one command. Great for npm orgs.",
+            "version": "1.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@digital-springboard/install-it-all"
+          },
+          {
+            "name": "@allurereport/plugin-allure2",
+            "description": "The classic version of Allure HTML report",
+            "version": "3.0.0-beta.20",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@allurereport/plugin-allure2"
+          },
+          {
+            "name": "@allurereport/static-server",
+            "description": "Minimalistic web-server for serving static files",
+            "version": "3.0.0-beta.20",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@allurereport/static-server"
+          },
+          {
+            "name": "apiconnect-cli-orgs",
+            "description": "Plugin for IBM API Connect Developer Toolkit",
+            "version": "7.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/apiconnect-cli-orgs"
+          },
+          {
+            "name": "@allurereport/plugin-classic",
+            "description": "The classic version of Allure HTML report",
+            "version": "3.0.0-beta.20",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@allurereport/plugin-classic"
+          },
+          {
+            "name": "@allurereport/plugin-awesome",
+            "description": "Allure Awesome Plugin \u2013 brand new HTML report with modern design and new features",
+            "version": "3.0.0-beta.20",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@allurereport/plugin-awesome"
+          },
+          {
+            "name": "@allurereport/summary",
+            "description": "Allure Summary Plugin \u2013 dashboard page generator with charts for Allure Report",
+            "version": "3.0.0-beta.20",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@allurereport/summary"
+          },
+          {
+            "name": "amazon-chime-sdk-js",
+            "description": "Amazon Chime SDK for JavaScript",
+            "version": "3.29.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/amazon-chime-sdk-js"
+          },
+          {
+            "name": "@sap/xs-tools",
+            "description": "XS Tools API",
+            "version": "1.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap/xs-tools"
+          },
+          {
+            "name": "@allurereport/plugin-dashboard",
+            "description": "Allure Dashboard Plugin \u2013 plugin for generating dashboard with a mix of charts",
+            "version": "3.0.0-beta.20",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@allurereport/plugin-dashboard"
+          },
+          {
+            "name": "@aragon/kits-beta-base",
+            "description": "Beta Base contract for Kits for Aragon orgs",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aragon/kits-beta-base"
+          },
+          {
+            "name": "@allurereport/web-components",
+            "description": "Collection of Preact components used across the web Allure reports",
+            "version": "3.0.0-beta.20",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@allurereport/web-components"
+          },
+          {
+            "name": "@octokit/endpoint",
+            "description": "Turns REST API endpoints into generic request options",
+            "version": "11.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@octokit/endpoint"
+          },
+          {
+            "name": "allure-decorators",
+            "description": "Write your tests in a Java-like annotation-driven manner via JS decorators.",
+            "version": "2.15.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/allure-decorators"
+          },
+          {
+            "name": "primereact",
+            "description": "PrimeReact is an open source UI library for React featuring a rich set of 90+ components, a theme designer, various theme alternatives such as Material, Bootstrap, Tailwind, premium templates and professional support. In addition, it integrates with Prime",
+            "version": "10.9.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/primereact"
+          },
+          {
+            "name": "@bud-tools/core",
+            "description": "Core libraries to interact with BTDX projects, orgs, and APIs.",
+            "version": "0.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@bud-tools/core"
+          },
+          {
+            "name": "cdk-vscode-fargate",
+            "description": "`cdk-vscode-fargate` is a JSII construct library for AWS CDK that allows you to deploy [Code-server](https://github.com/orgs/linuxserver/packages/container/package/code-server) running VS Code remotely, on a AWS Fargate container.",
+            "version": "0.0.43",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/cdk-vscode-fargate"
+          },
+          {
+            "name": "@sap/cf-tools",
+            "description": "Cloud Foundry API tools",
+            "version": "3.2.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap/cf-tools"
+          },
+          {
+            "name": "@octokit/core",
+            "description": "Extendable client for GitHub's REST & GraphQL APIs",
+            "version": "7.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@octokit/core"
+          },
+          {
+            "name": "@vidstack/react",
+            "description": "Build awesome media experiences on the web.",
+            "version": "0.6.15",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@vidstack/react"
+          },
+          {
+            "name": "@financial-times/o-comment-count",
+            "description": "\ud83d\udce2 **This component has been deprecated. The comment count functionality has been moved into [`o-comments`](https://github.com/Financial-Times/o-comments). Please speak to the [Comments team](https://github.com/orgs/Financial-Times/teams/comments) if you ",
+            "version": "0.5.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@financial-times/o-comment-count"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 20,
+        "packages": [
+          {
+            "name": "ucb_orgs",
+            "version": "1.1.0",
+            "downloads": 6684,
+            "url": "https://rubygems.org/gems/ucb_orgs"
+          },
+          {
+            "name": "hockey_orgs",
+            "version": "0.1.2",
+            "downloads": 3203,
+            "url": "https://rubygems.org/gems/hockey_orgs"
+          },
+          {
+            "name": "we_bridge_rails_engine_orgs",
+            "version": "0.1.16",
+            "downloads": 39370,
+            "url": "https://rubygems.org/gems/we_bridge_rails_engine_orgs"
+          },
+          {
+            "name": "org-ruby",
+            "version": "0.9.12",
+            "downloads": 36152026,
+            "url": "https://rubygems.org/gems/org-ruby"
+          },
+          {
+            "name": "knife-org-utils",
+            "version": "1.1.1",
+            "downloads": 23925,
+            "url": "https://rubygems.org/gems/knife-org-utils"
+          },
+          {
+            "name": "rspec_org_formatter",
+            "version": "0.2.3",
+            "downloads": 16560,
+            "url": "https://rubygems.org/gems/rspec_org_formatter"
+          },
+          {
+            "name": "qiita_org",
+            "version": "0.2.2",
+            "downloads": 66405,
+            "url": "https://rubygems.org/gems/qiita_org"
+          },
+          {
+            "name": "xmldsig",
+            "version": "0.7.0",
+            "downloads": 8269263,
+            "url": "https://rubygems.org/gems/xmldsig"
+          },
+          {
+            "name": "tdiary-style-org",
+            "version": "0.0.2",
+            "downloads": 5376,
+            "url": "https://rubygems.org/gems/tdiary-style-org"
+          },
+          {
+            "name": "org-converge",
+            "version": "0.0.17",
+            "downloads": 45766,
+            "url": "https://rubygems.org/gems/org-converge"
+          },
+          {
+            "name": "orgy",
+            "version": "0.2.0",
+            "downloads": 10914,
+            "url": "https://rubygems.org/gems/orgy"
+          },
+          {
+            "name": "jekyll-org-mode-converter",
+            "version": "0.1.7",
+            "downloads": 18255,
+            "url": "https://rubygems.org/gems/jekyll-org-mode-converter"
+          },
+          {
+            "name": "middleman-org",
+            "version": "0.3.0",
+            "downloads": 8236,
+            "url": "https://rubygems.org/gems/middleman-org"
+          },
+          {
+            "name": "secondplanet-toto",
+            "version": "0.4.9",
+            "downloads": 3738,
+            "url": "https://rubygems.org/gems/secondplanet-toto"
+          },
+          {
+            "name": "neruda",
+            "version": "0.2.6",
+            "downloads": 30106,
+            "url": "https://rubygems.org/gems/neruda"
+          },
+          {
+            "name": "jekyll-org",
+            "version": "1.1.1",
+            "downloads": 14061,
+            "url": "https://rubygems.org/gems/jekyll-org"
+          },
+          {
+            "name": "capybara-select-2",
+            "version": "0.5.1",
+            "downloads": 2303151,
+            "url": "https://rubygems.org/gems/capybara-select-2"
+          },
+          {
+            "name": "tocolist",
+            "version": "0.0.1",
+            "downloads": 4622,
+            "url": "https://rubygems.org/gems/tocolist"
+          },
+          {
+            "name": "org-parse",
+            "version": "0.1.2",
+            "downloads": 8652,
+            "url": "https://rubygems.org/gems/org-parse"
+          },
+          {
+            "name": "gigest",
+            "version": "3.2.0",
+            "downloads": 31825,
+            "url": "https://rubygems.org/gems/gigest"
+          }
+        ]
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 10,
+        "packages": [
+          {
+            "name": "openapi-github",
+            "description": "OpenAPI specs from https://github.com/github/rest-api-description with the 'x-octokit' extension required by the Octokit SDKs",
+            "version": "0.1.0",
+            "downloads": 1276,
+            "url": "https://crates.io/crates/openapi-github"
+          },
+          {
+            "name": "bitwarden-api-api",
+            "description": "Api bindings for the Bitwarden API.",
+            "version": "1.0.0",
+            "downloads": 228124,
+            "url": "https://crates.io/crates/bitwarden-api-api"
+          },
+          {
+            "name": "gitea-client",
+            "description": "This documentation describes the Gitea API.",
+            "version": "1.22.1",
+            "downloads": 1828,
+            "url": "https://crates.io/crates/gitea-client"
+          },
+          {
+            "name": "gitea-rs",
+            "description": "This documentation describes the Gitea API.",
+            "version": "1.19.0",
+            "downloads": 2275,
+            "url": "https://crates.io/crates/gitea-rs"
+          },
+          {
+            "name": "bmbp_marco",
+            "description": "BMBP Marco",
+            "version": "0.0.15",
+            "downloads": 7988,
+            "url": "https://crates.io/crates/bmbp_marco"
+          },
+          {
+            "name": "bmbp_marco_bean",
+            "description": "BMBP Marco",
+            "version": "0.0.15",
+            "downloads": 10470,
+            "url": "https://crates.io/crates/bmbp_marco_bean"
+          },
+          {
+            "name": "bmbp_marco_curd",
+            "description": "BMBP Marco",
+            "version": "0.0.15",
+            "downloads": 8141,
+            "url": "https://crates.io/crates/bmbp_marco_curd"
+          },
+          {
+            "name": "bmbp_marco_rdbc",
+            "description": "BMBP Marco",
+            "version": "0.0.18",
+            "downloads": 13231,
+            "url": "https://crates.io/crates/bmbp_marco_rdbc"
+          },
+          {
+            "name": "bmbp_marco_sql",
+            "description": "BMBP Marco",
+            "version": "0.0.15",
+            "downloads": 7819,
+            "url": "https://crates.io/crates/bmbp_marco_sql"
+          },
+          {
+            "name": "bmbp_marco_util",
+            "description": "BMBP Marco",
+            "version": "0.0.18",
+            "downloads": 14595,
+            "url": "https://crates.io/crates/bmbp_marco_util"
+          }
+        ]
+      },
+      "total_packages": 130,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:29:12.896062"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:29:12.896097",
+    "batch_network": {
+      "batch": "Summer 2021",
+      "total_batch_mates": 390,
+      "active_batch_mates": 316,
+      "batch_success_rate": 81.0,
+      "notable_batch_mates": [
+        {
+          "name": "Hyper",
+          "slug": "hyper",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Sell memberships to your Discord server"
+        },
+        {
+          "name": "Beeper",
+          "slug": "beeper",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "One chat app to rule them all"
+        },
+        {
+          "name": "Level",
+          "slug": "level",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Fast and simple fintech financing"
+        },
+        {
+          "name": "Goodkind",
+          "slug": "goodkind",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Student communications platform for higher education"
+        },
+        {
+          "name": "Sleek",
+          "slug": "sleek",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "1-click checkout from every store on the internet + cashback rewards."
+        },
+        {
+          "name": "MadEats",
+          "slug": "madeats",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Online delivery-only restaurant group in the Philippines"
+        },
+        {
+          "name": "Maroo",
+          "slug": "maroo",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Business management platform for creatives"
+        },
+        {
+          "name": "Tarsal",
+          "slug": "tarsal",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Data pipeline for your security data lake."
+        },
+        {
+          "name": "Hilos",
+          "slug": "quid",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Close and activate your customers on WhatsApp"
+        },
+        {
+          "name": "Keyri",
+          "slug": "keyri",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Secure fraud prevention and authentication platform for developers"
+        }
+      ],
+      "batch_size": 391
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Analytics"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "status": "Public",
+          "batch": "Winter 2012",
+          "one_liner": "Digital Analytics Platform"
+        },
+        {
+          "name": "Freshplum",
+          "slug": "freshplum",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Analytics with action"
+        },
+        {
+          "name": "Segment",
+          "slug": "segment",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Software and APIs to collect, clean, and control customer data."
+        },
+        {
+          "name": "Pagelever",
+          "slug": "pagelever",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Facebook analytics. Acquired by Unified in January 2013. \r\n"
+        },
+        {
+          "name": "Custora",
+          "slug": "custora",
+          "status": "Acquired",
+          "batch": "Winter 2011",
+          "one_liner": "Custora is a predictive analytics platform for e-commerce marketing\u2026"
+        },
+        {
+          "name": "Chartio",
+          "slug": "chartio",
+          "status": "Acquired",
+          "batch": "Summer 2010",
+          "one_liner": "Chartio is changing how companies work by building the best\u2026"
+        },
+        {
+          "name": "Data Marketplace",
+          "slug": "data-marketplace",
+          "status": "Inactive",
+          "batch": "Winter 2010",
+          "one_liner": ""
+        },
+        {
+          "name": "Mixpanel",
+          "slug": "mixpanel",
+          "status": "Active",
+          "batch": "Summer 2009",
+          "one_liner": "Mixpanel is event analytics for builders that need answers."
+        },
+        {
+          "name": "Poll Everywhere",
+          "slug": "poll-everywhere",
+          "status": "Active",
+          "batch": "Summer 2008",
+          "one_liner": "Interactive meetings and presentations"
+        },
+        {
+          "name": "Infogami",
+          "slug": "infogami",
+          "status": "Inactive",
+          "batch": "Summer 2005",
+          "one_liner": ""
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Krak\u00f3w",
+      "location": "Krak\u00f3w, Lesser Poland Voivodeship, Poland; Remote",
+      "companies_in_city": 2,
+      "active_in_city": 2,
+      "nearby_companies": [
+        {
+          "name": "Estimote, Inc.",
+          "slug": "estimote-inc",
+          "batch": "Summer 2013",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "stoic.",
+          "slug": "stoic",
+          "batch": "Summer 2019",
+          "industry": "Healthcare",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "low"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Varos",
+        "slug": "varos",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Patterns",
+        "slug": "patterns",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Secoda",
+        "slug": "secoda",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Cloudthread",
+        "slug": "cloudthread",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Dot",
+        "slug": "dot",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Whaly",
+        "slug": "whaly",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Evidently AI",
+        "slug": "evidently-ai",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Shape",
+        "slug": "shape",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Evidence",
+        "slug": "evidence",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Datlo",
+        "slug": "datlo",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 3138,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": false,
+      "calculated_at": "2025-10-17T10:29:12.930524"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:29:12.930544",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:29:13.282850",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:29:13.392620",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 20,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "gpt-4o",
+    "enriched_at": "2025-10-17T11:42:51.484889",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "large",
+      "market_stage": "growing",
+      "key_trends": [
+        "increased demand for data analytics",
+        "shift towards self-service platforms",
+        "integration of AI in data processing"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "technology and ease of use",
+      "differentiation": "self-service platform with real-time updates and seamless environment transitions",
+      "competitive_advantages": [
+        "user-friendly for both non-programmers and developers",
+        "cloud and desktop options"
+      ],
+      "competitive_vulnerabilities": [
+        "potential competition from larger established players",
+        "reliance on continuous tech updates"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "low"
+    },
+    "growth_assessment": {
+      "growth_stage": "seed",
+      "growth_indicators": [
+        "active status",
+        "team size of 20"
+      ],
+      "growth_bottlenecks": [
+        "market penetration",
+        "customer acquisition cost"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 3,
+      "key_risks": [
+        "competition from established players",
+        "technological obsolescence",
+        "scalability challenges"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "innovative self-service platform",
+        "broad target audience",
+        "real-time updates"
+      ],
+      "concerns": [
+        "competitive landscape",
+        "scalability of customer support"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Alteryx",
+        "Tableau"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "enhance marketing efforts to increase brand awareness",
+        "focus on customer feedback for continuous improvement"
+      ],
+      "expansion_opportunities": [
+        "explore partnerships with larger analytics firms",
+        "expand into new geographical markets"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 667,
+      "completion": 435,
+      "total": 1102,
+      "estimated_cost": 0.006018
+    }
+  },
+  "phase8_complete": true
+}

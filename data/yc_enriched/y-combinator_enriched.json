@@ -1,0 +1,423 @@
+{
+  "slug": "y-combinator",
+  "name": "Y Combinator",
+  "yc_id": 64,
+  "batch": "Unspecified",
+  "website": "https://www.ycombinator.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:29:13.256485",
+    "website": "https://www.ycombinator.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 1451.74,
+      "final_url": "https://www.ycombinator.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:29:14.708251"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "ycombinator.com",
+      "registrar": "Gandi SAS",
+      "creation_date": "2005-03-20T23:51:07",
+      "expiration_date": "2026-03-20T22:51:07",
+      "domain_age_days": 7515,
+      "domain_age_years": 20.6,
+      "name_servers": [
+        "NS-1411.AWSDNS-48.ORG",
+        "NS-1914.AWSDNS-47.CO.UK",
+        "NS-225.AWSDNS-28.COM",
+        "NS-556.AWSDNS-05.NET"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/ycombinator",
+      "linkedin": null,
+      "github": null,
+      "facebook": "https://www.facebook.com/YCombinator/",
+      "instagram": "https://www.instagram.com/ycombinator",
+      "youtube": "https://www.youtube.com/c/ycombinator"
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": true,
+      "x_content_type_options": true,
+      "x_xss_protection": true,
+      "referrer_policy": true,
+      "security_score": 83,
+      "server": "cloudflare"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:12:29.242079",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:45:14.571245",
+    "place_data": {
+      "status": "not_found",
+      "query": "Y Combinator"
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:45:14.677844",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:45:14.677856",
+    "batch_network": {
+      "batch": "Unspecified",
+      "total_batch_mates": 0,
+      "active_batch_mates": 0,
+      "batch_success_rate": 0,
+      "notable_batch_mates": [],
+      "batch_size": 1
+    },
+    "industry_network": {
+      "industries": [
+        "Fintech"
+      ],
+      "total_industry_peers": 597,
+      "active_industry_peers": 447,
+      "direct_competitors": [
+        {
+          "name": "Stripe",
+          "slug": "stripe",
+          "status": "Active",
+          "batch": "Summer 2009",
+          "one_liner": "Economic infrastructure for the internet."
+        },
+        {
+          "name": "True Link",
+          "slug": "true-link",
+          "status": "Active",
+          "batch": "Summer 2013",
+          "one_liner": "Financial Services for Financial Caregivers. "
+        },
+        {
+          "name": "OpenInvest",
+          "slug": "openinvest",
+          "status": "Acquired",
+          "batch": "Summer 2015",
+          "one_liner": "Values based personalization at scale for asset and wealth management"
+        },
+        {
+          "name": "Paribus",
+          "slug": "paribus",
+          "status": "Acquired",
+          "batch": "Summer 2015",
+          "one_liner": ""
+        },
+        {
+          "name": "FAZZ",
+          "slug": "fazz",
+          "status": "Active",
+          "batch": "Summer 2017",
+          "one_liner": "All-in-one Finance for Every Southeast Asia Business"
+        },
+        {
+          "name": "CoinTracker",
+          "slug": "cointracker",
+          "status": "Active",
+          "batch": "Winter 2018",
+          "one_liner": "The gold standard in cryptocurrency portfolio tracking and taxes"
+        },
+        {
+          "name": "OWNY",
+          "slug": "owny",
+          "status": "Active",
+          "batch": "Summer 2018",
+          "one_liner": "Manage capital, investors & banking in one place."
+        },
+        {
+          "name": "Nova",
+          "slug": "nova-2",
+          "status": "Acquired",
+          "batch": "Summer 2018",
+          "one_liner": "Digital subscriptions that delight investors."
+        },
+        {
+          "name": "Kalshi",
+          "slug": "kalshi",
+          "status": "Active",
+          "batch": "Winter 2019",
+          "one_liner": "1st federally regulated exchange where people can trade on events"
+        },
+        {
+          "name": "Fuse",
+          "slug": "fuse",
+          "status": "Inactive",
+          "batch": "Winter 2019",
+          "one_liner": "Unified API for financial data aggregators."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "status": "no_location_data"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "SlidePay",
+        "slug": "slidepay",
+        "batch": "Winter 2012",
+        "industry": "Fintech",
+        "status": "Acquired",
+        "similarity_score": 3,
+        "similarity_reasons": [
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "LendUp",
+        "slug": "lendup",
+        "batch": "Winter 2012",
+        "industry": "Fintech",
+        "status": "Inactive",
+        "similarity_score": 3,
+        "similarity_reasons": [
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Tilt",
+        "slug": "tilt",
+        "batch": "Winter 2012",
+        "industry": "Fintech",
+        "status": "Acquired",
+        "similarity_score": 3,
+        "similarity_reasons": [
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Sendwave",
+        "slug": "sendwave",
+        "batch": "Winter 2012",
+        "industry": "Fintech",
+        "status": "Acquired",
+        "similarity_score": 3,
+        "similarity_reasons": [
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Debteye",
+        "slug": "debteye",
+        "batch": "Summer 2011",
+        "industry": "Fintech",
+        "status": "Acquired",
+        "similarity_score": 3,
+        "similarity_reasons": [
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "GoCardless",
+        "slug": "gocardless",
+        "batch": "Summer 2011",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 3,
+        "similarity_reasons": [
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "MarketBrief",
+        "slug": "marketbrief",
+        "batch": "Summer 2011",
+        "industry": "Fintech",
+        "status": "Inactive",
+        "similarity_score": 3,
+        "similarity_reasons": [
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Leaky",
+        "slug": "leaky",
+        "batch": "Summer 2011",
+        "industry": "Fintech",
+        "status": "Inactive",
+        "similarity_score": 3,
+        "similarity_reasons": [
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Tremendous",
+        "slug": "tremendous",
+        "batch": "Winter 2011",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 3,
+        "similarity_reasons": [
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Balanced",
+        "slug": "balanced",
+        "batch": "Winter 2011",
+        "industry": "Fintech",
+        "status": "Inactive",
+        "similarity_score": 3,
+        "similarity_reasons": [
+          "shared_industries:1",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 597,
+      "network_density_score": 40.0,
+      "has_strong_batch_network": false,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": false,
+      "calculated_at": "2025-10-17T09:45:14.711974"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:45:14.711986",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:45:15.027619",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:45:15.136256",
+    "basic_info": {
+      "is_hiring": true,
+      "team_size": 100,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:44.865722",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "mature",
+      "key_trends": [
+        "Increased startup activity globally",
+        "Demand for early-stage funding",
+        "Growth of accelerator programs"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Strong brand recognition, extensive network, proven track record, and standardized processes.",
+      "differentiation": "Most reputable accelerator program with a global network and standardized processes.",
+      "competitive_advantages": [
+        "Strong brand",
+        "Extensive alumni network"
+      ],
+      "competitive_vulnerabilities": [
+        "Increasing competition from other accelerators",
+        "Dependence on quality of incoming startups"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "Equity stake in startups",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "mature",
+      "growth_indicators": [
+        "Number of applications",
+        "Valuation of portfolio companies"
+      ],
+      "growth_bottlenecks": [
+        "Maintaining quality of startups",
+        "Competition from other accelerators"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Economic downturn affecting startup funding",
+        "Decreasing quality of startup applicants",
+        "Reputational damage from failed startups"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Proven track record",
+        "Strong brand",
+        "Extensive network"
+      ],
+      "concerns": [
+        "Increasing competition",
+        "Dependence on startup quality"
+      ],
+      "exit_potential": "IPO/acquisition",
+      "comparable_companies": [
+        "Techstars",
+        "500 Startups"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Expand internationally",
+        "Increase focus on specific verticals"
+      ],
+      "expansion_opportunities": [
+        "Develop a venture fund",
+        "Offer later-stage funding"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 614,
+      "completion": 467,
+      "total": 1081,
+      "estimated_cost": 0.000186
+    }
+  },
+  "phase8_complete": true
+}

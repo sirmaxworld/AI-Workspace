@@ -1,0 +1,1407 @@
+{
+  "slug": "ultralight",
+  "name": "Ultralight",
+  "yc_id": 11946,
+  "batch": "Winter 2019",
+  "website": "https://ultralig.ht",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:45:06.554088",
+    "website": "https://ultralig.ht",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 1781.79,
+      "final_url": "https://ultralig.ht/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:45:08.335896"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "ultralig.ht",
+      "registrar": "1API GmbH",
+      "creation_date": "2017-04-27T19:01:23",
+      "expiration_date": "2026-04-27T19:01:23",
+      "domain_age_days": 3094,
+      "domain_age_years": 8.5,
+      "name_servers": [
+        "ns10.dnsmadeeasy.com",
+        "ns12.dnsmadeeasy.com",
+        "ns11.dnsmadeeasy.com",
+        "ns13.dnsmadeeasy.com",
+        "ns14.dnsmadeeasy.com"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://x.com/ultralight_ux",
+      "linkedin": null,
+      "github": "https://github.com/ultralight-ux/ultralight/issues",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": true,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 33,
+      "server": "Netlify"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:21:18.157721",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:21:04.486029",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "San Francisco, CA, USA",
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:12:40.434017",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:21:04.486148",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/ultralight-ux"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 100,
+        "packages": [
+          {
+            "name": "@sap-ux/project-input-validator",
+            "description": "Library to validate Fiori project input formats",
+            "version": "0.6.26",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap-ux/project-input-validator"
+          },
+          {
+            "name": "@sap-ux/yaml",
+            "description": "Library to manipulate YAML file contents",
+            "version": "0.17.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap-ux/yaml"
+          },
+          {
+            "name": "@sap-ux/text-document-utils",
+            "description": "Library for text document utility functions and types",
+            "version": "0.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap-ux/text-document-utils"
+          },
+          {
+            "name": "@sap-ux/project-access",
+            "description": "Library to access SAP Fiori tools projects",
+            "version": "1.32.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap-ux/project-access"
+          },
+          {
+            "name": "@sap-ux/system-access",
+            "description": "Reusable module allowing to access systems using the store or prompts.",
+            "version": "0.6.20",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap-ux/system-access"
+          },
+          {
+            "name": "@sap-ux/nodejs-utils",
+            "description": "Nodejs utility wrappers",
+            "version": "0.2.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap-ux/nodejs-utils"
+          },
+          {
+            "name": "@sap-ux/telemetry",
+            "description": "Library for sending usage telemetry data",
+            "version": "0.6.29",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap-ux/telemetry"
+          },
+          {
+            "name": "@sap-ux/btp-utils",
+            "description": "Library to simplify working with SAP BTP specific features especially in SAP Business Application",
+            "version": "1.1.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap-ux/btp-utils"
+          },
+          {
+            "name": "@sap-ux/guided-answers-helper",
+            "description": "Guided Answers Helper",
+            "version": "0.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap-ux/guided-answers-helper"
+          },
+          {
+            "name": "@sap-ux/i18n",
+            "description": "Library for i18n",
+            "version": "0.3.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap-ux/i18n"
+          },
+          {
+            "name": "@sap-ux/mockserver-config-writer",
+            "description": "Add or update configuration for SAP Fiori tools mockserver",
+            "version": "0.9.21",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap-ux/mockserver-config-writer"
+          },
+          {
+            "name": "@sap-ux/vocabularies-types",
+            "description": "SAP Fiori OData - TS types for vocabularies",
+            "version": "0.13.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap-ux/vocabularies-types"
+          },
+          {
+            "name": "@arweave/wasm-secp256k1",
+            "description": "Minimal wrapper around libsecp256k1 library (https://github.com/bitcoin-core/secp256k1).",
+            "version": "0.0.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@arweave/wasm-secp256k1"
+          },
+          {
+            "name": "@symfony/stimulus-bridge",
+            "description": "Stimulus integration bridge for Symfony projects",
+            "version": "4.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@symfony/stimulus-bridge"
+          },
+          {
+            "name": "@sap-ux/ui5-info",
+            "description": "SAP Fiori UI5 info",
+            "version": "0.13.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap-ux/ui5-info"
+          },
+          {
+            "name": "@sap-ux/fiori-generator-shared",
+            "description": "Commonly used shared functionality and types to support the fiori generator.",
+            "version": "0.13.23",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap-ux/fiori-generator-shared"
+          },
+          {
+            "name": "@sap-ux/annotation-converter",
+            "description": "SAP Fiori OData - Annotation converter",
+            "version": "0.10.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap-ux/annotation-converter"
+          },
+          {
+            "name": "@sap-ux/ui5-config",
+            "description": "Library to UI5 configuration artifacts",
+            "version": "0.29.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap-ux/ui5-config"
+          },
+          {
+            "name": "@sap-ux/adp-tooling",
+            "description": "Tooling for UI5 adaptation projects",
+            "version": "0.16.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap-ux/adp-tooling"
+          },
+          {
+            "name": "@sap-ux/fe-mockserver-core",
+            "description": "SAP Fiori OData - Fiori elements mock server core",
+            "version": "1.6.11",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap-ux/fe-mockserver-core"
+          },
+          {
+            "name": "@sap-ux/edmx-parser",
+            "description": "SAP Fiori OData - EDMX File parser",
+            "version": "0.9.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap-ux/edmx-parser"
+          },
+          {
+            "name": "@sap-ux/odata-service-writer",
+            "description": "Writer module allowing to add an OData service to a UI5 project.",
+            "version": "0.27.25",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap-ux/odata-service-writer"
+          },
+          {
+            "name": "@sap-ux/inquirer-common",
+            "description": "Commonly used shared functionality and types to support inquirer modules.",
+            "version": "0.8.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap-ux/inquirer-common"
+          },
+          {
+            "name": "@sap-ux/feature-toggle",
+            "description": "Feature toggle manager for Fiori tools",
+            "version": "0.3.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap-ux/feature-toggle"
+          },
+          {
+            "name": "@sap-ux/fiori-annotation-api",
+            "description": "Library that provides API for reading and writing annotations in SAP Fiori elements projects.",
+            "version": "0.7.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap-ux/fiori-annotation-api"
+          },
+          {
+            "name": "@sap-ux/fe-fpm-writer",
+            "description": "SAP Fiori elements flexible programming model writer",
+            "version": "0.39.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap-ux/fe-fpm-writer"
+          },
+          {
+            "name": "@sap-ux/abap-deploy-config-writer",
+            "description": "Writer module to add abap deployment configuration to an existing Fiori application",
+            "version": "0.2.22",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap-ux/abap-deploy-config-writer"
+          },
+          {
+            "name": "@sap-ux/odata-vocabularies",
+            "description": "Supported OASIS and SAP vocabularies",
+            "version": "0.4.17",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap-ux/odata-vocabularies"
+          },
+          {
+            "name": "@sap/ux-cds-compiler-facade",
+            "description": "SAP Fiori tools - CDS compiler facade",
+            "version": "1.19.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap/ux-cds-compiler-facade"
+          },
+          {
+            "name": "@sap-ux/environment-check",
+            "description": "SAP Fiori environment check",
+            "version": "0.18.37",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap-ux/environment-check"
+          },
+          {
+            "name": "ultralight-core",
+            "description": "Ultralight core package for reporting",
+            "version": "0.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ultralight-core"
+          },
+          {
+            "name": "@sap-ux/cds-odata-annotation-converter",
+            "description": "Converter for OData annotations in CDS format.",
+            "version": "0.6.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap-ux/cds-odata-annotation-converter"
+          },
+          {
+            "name": "@sap-ux/ui5-middleware-fe-mockserver",
+            "description": "SAP Fiori tools - UI5 middleware for the Fiori elements mock server",
+            "version": "2.3.11",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap-ux/ui5-middleware-fe-mockserver"
+          },
+          {
+            "name": "@sap-ux/store",
+            "description": "NPM module for storing persistent data",
+            "version": "1.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap-ux/store"
+          },
+          {
+            "name": "@sap-ux/odata-annotation-core",
+            "description": "Annotation Core",
+            "version": "0.2.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap-ux/odata-annotation-core"
+          },
+          {
+            "name": "@salesforce-ux/eslint-plugin-slds",
+            "description": "ESLint plugin provides custom linting rules specifically built for Salesforce Lightning Design System 2 (SLDS 2 beta)",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@salesforce-ux/eslint-plugin-slds"
+          },
+          {
+            "name": "@sap-ux/xml-odata-annotation-converter",
+            "description": "Converter for OData annotations in XML format.",
+            "version": "0.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap-ux/xml-odata-annotation-converter"
+          },
+          {
+            "name": "@salesforce/sf-plugins-core",
+            "description": "Utils for writing Salesforce CLI plugins",
+            "version": "12.2.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@salesforce/sf-plugins-core"
+          },
+          {
+            "name": "@sap-ux/eslint-plugin-fiori-tools",
+            "description": "Custom linting plugin for Fiori tools apps",
+            "version": "0.6.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap-ux/eslint-plugin-fiori-tools"
+          },
+          {
+            "name": "scss-parser",
+            "description": "A library to parse/stringify SCSS",
+            "version": "1.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/scss-parser"
+          },
+          {
+            "name": "@assistant-ui/react",
+            "description": "TypeScript/React library for AI Chat",
+            "version": "0.11.29",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@assistant-ui/react"
+          },
+          {
+            "name": "@sap-ux/logger",
+            "description": "A simple logging module",
+            "version": "0.7.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap-ux/logger"
+          },
+          {
+            "name": "@symfony/ux-live-component",
+            "description": "Live Component: bring server-side re-rendering & model binding to any element.",
+            "version": "2.30.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@symfony/ux-live-component"
+          },
+          {
+            "name": "@sap-ux/cds-annotation-parser",
+            "description": "Annotation Parser for CDS",
+            "version": "0.2.20",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap-ux/cds-annotation-parser"
+          },
+          {
+            "name": "@skyux/packages",
+            "description": "Handles the `ng update` command for SKY UX component libraries.",
+            "version": "13.6.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@skyux/packages"
+          },
+          {
+            "name": "geoip-ultralight",
+            "description": "Super lightweight GeoIP implementation with country data",
+            "version": "0.1.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/geoip-ultralight"
+          },
+          {
+            "name": "svelte-ux",
+            "description": "A large collection of Svelte components, actions, stores and utils to simplify creating highly interactive and visual applications.  Built using Tailwind with extensibility and customization in mind.",
+            "version": "1.0.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/svelte-ux"
+          },
+          {
+            "name": "@datatr-ux/uxlib",
+            "description": "`@datatr-ux/uxlib` is a library of prebuilt UI components themed using the [OVHcloud Design System](https://github.com/ovh/design-system). It leverages [shadcn components](https://ui.shadcn.com/docs) to provide a flexible and modern UI toolkit tailored fo",
+            "version": "1.0.0-alpha-12",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@datatr-ux/uxlib"
+          },
+          {
+            "name": "@arcblock/ux",
+            "description": "Common used react components for arcblock products",
+            "version": "3.1.51",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@arcblock/ux"
+          },
+          {
+            "name": "@skyux/manifest",
+            "description": null,
+            "version": "13.6.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@skyux/manifest"
+          },
+          {
+            "name": "query-ast",
+            "description": "A library to traverse/modify an AST",
+            "version": "1.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/query-ast"
+          },
+          {
+            "name": "@sap-ux/fe-mockserver-plugin-cds",
+            "description": "SAP Fiori Tools - FE Mockserver CDS Plugin",
+            "version": "1.2.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap-ux/fe-mockserver-plugin-cds"
+          },
+          {
+            "name": "@ovh-ux/translate-async-loader",
+            "description": "Angular translate asynchronous loader",
+            "version": "1.0.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ovh-ux/translate-async-loader"
+          },
+          {
+            "name": "@lskjs/dashboard",
+            "description": "LSK ux subrepo: dashboard",
+            "version": "2.9.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@lskjs/dashboard"
+          },
+          {
+            "name": "@sap/ux-specification",
+            "description": "SAP Fiori tools - Specification",
+            "version": "1.136.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap/ux-specification"
+          },
+          {
+            "name": "@sap-ux/odata-annotation-core-types",
+            "description": "Annotation Core types",
+            "version": "0.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap-ux/odata-annotation-core-types"
+          },
+          {
+            "name": "react-native-ux-cam",
+            "description": "React Native wrapper for uxcam.com.",
+            "version": "6.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-native-ux-cam"
+          },
+          {
+            "name": "@sap-ux/odata-entity-model",
+            "description": "OData model representation without annotations",
+            "version": "0.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap-ux/odata-entity-model"
+          },
+          {
+            "name": "@db-ux/core-components",
+            "description": "General technical components (styling, fonts and icons) out of DB UX Design System (Version 3)",
+            "version": "4.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@db-ux/core-components"
+          },
+          {
+            "name": "@symfony/ux-autocomplete",
+            "description": "JavaScript Autocomplete functionality for Symfony",
+            "version": "2.30.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@symfony/ux-autocomplete"
+          },
+          {
+            "name": "@symfony/ux-turbo",
+            "description": "Hotwire Turbo integration for Symfony",
+            "version": "2.30.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@symfony/ux-turbo"
+          },
+          {
+            "name": "react-sliding-pane",
+            "description": "Full height sliding pane",
+            "version": "7.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-sliding-pane"
+          },
+          {
+            "name": "@salesforce-ux/sds-metadata",
+            "description": "This package simplifies the management, distribution, and usage of Salesforce Design System metadata, ensuring that developers and designers can easily access and integrate design system metadata into their workflows.",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@salesforce-ux/sds-metadata"
+          },
+          {
+            "name": "@symfony/ux-react",
+            "description": "Integration of React in Symfony",
+            "version": "2.30.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@symfony/ux-react"
+          },
+          {
+            "name": "@blackbaud/skyux-logger",
+            "description": "Logging functionality used in SKY UX CLI and SKY UX Builder.",
+            "version": "1.2.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@blackbaud/skyux-logger"
+          },
+          {
+            "name": "@salesforce-ux/c360-popover",
+            "description": "A Popover used to display floating transient content in relation to a target.",
+            "version": "0.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@salesforce-ux/c360-popover"
+          },
+          {
+            "name": "@abtnode/ux",
+            "description": "UX components shared across abtnode packages",
+            "version": "1.16.53",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@abtnode/ux"
+          },
+          {
+            "name": "@salesforce-ux/c360-button",
+            "description": "The button represent an control that should invoke an action",
+            "version": "0.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@salesforce-ux/c360-button"
+          },
+          {
+            "name": "@ovh-ux/manager-common-translations",
+            "description": "Common translations for Manager \u00b5-apps",
+            "version": "0.19.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ovh-ux/manager-common-translations"
+          },
+          {
+            "name": "yet-another-react-lightbox",
+            "description": "Modern React lightbox component",
+            "version": "3.25.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/yet-another-react-lightbox"
+          },
+          {
+            "name": "copy-to-clipboard-ultralight",
+            "description": "Copy text to clipboard, support TypeScript. Smaller than 1kb",
+            "version": "1.0.15",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/copy-to-clipboard-ultralight"
+          },
+          {
+            "name": "@salesforce-ux/c360-badge",
+            "description": "A badge is a read only element used to label content.",
+            "version": "0.1.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@salesforce-ux/c360-badge"
+          },
+          {
+            "name": "@sap-ux/control-property-editor",
+            "description": "Control Property Editor",
+            "version": "0.7.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap-ux/control-property-editor"
+          },
+          {
+            "name": "@salesforce-ux/c360-foundation",
+            "description": "A set of foundations supporting the C360 Design System at Salesforce.",
+            "version": "0.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@salesforce-ux/c360-foundation"
+          },
+          {
+            "name": "@salesforce-ux/c360-icon",
+            "description": "Icons are symbols used to represent features, functionality, or content.",
+            "version": "0.1.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@salesforce-ux/c360-icon"
+          },
+          {
+            "name": "@db-ux/v-core-components",
+            "description": "Vue components for @db-ux/core-components",
+            "version": "4.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@db-ux/v-core-components"
+          },
+          {
+            "name": "@db-ux/core-foundations",
+            "description": "Provides basic tokens and assets based on DB UX Design System (Version 3).",
+            "version": "4.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@db-ux/core-foundations"
+          },
+          {
+            "name": "@solar-republic/cosmos-grpc",
+            "description": "Generates tree-shakable TypeScript APIs from the .proto files of any blockchain built using Cosmos-SDK.",
+            "version": "0.17.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@solar-republic/cosmos-grpc"
+          },
+          {
+            "name": "@salesforce-ux/sds-styling-hooks",
+            "description": "Global Styling hooks use CSS custom properties which make it easy to customize application-wide styling.",
+            "version": "1.1.0-alpha.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@salesforce-ux/sds-styling-hooks"
+          },
+          {
+            "name": "@sap-ux/create",
+            "description": "SAP Fiori tools module to add or remove features",
+            "version": "0.13.136",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap-ux/create"
+          },
+          {
+            "name": "@sap-ux/preview-middleware",
+            "description": "Preview middleware",
+            "version": "0.23.27",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap-ux/preview-middleware"
+          },
+          {
+            "name": "@salesforce-ux/c360-styling-hooks",
+            "description": "Global Styling hooks for C360 use CSS custom properties which make it easy to customize application-wide styling.",
+            "version": "0.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@salesforce-ux/c360-styling-hooks"
+          },
+          {
+            "name": "@ovh-ux/ng-ovh-user-pref",
+            "description": "An AngularJS service to create/get/delete user preferences",
+            "version": "2.1.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ovh-ux/ng-ovh-user-pref"
+          },
+          {
+            "name": "@salesforce-ux/design-system",
+            "description": "Salesforce Lightning Design System",
+            "version": "2.28.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@salesforce-ux/design-system"
+          },
+          {
+            "name": "detect-it",
+            "description": "Detect if a device is mouse only, touch only, or hybrid",
+            "version": "4.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/detect-it"
+          },
+          {
+            "name": "@ovh-ux/rollup-plugin-less-inject",
+            "description": "A Rollup plugin for injecting Less files as CSS into HTML document's head",
+            "version": "1.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ovh-ux/rollup-plugin-less-inject"
+          },
+          {
+            "name": "@db-ux/react-core-components",
+            "description": "React components for @db-ux/core-components",
+            "version": "4.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@db-ux/react-core-components"
+          },
+          {
+            "name": "@salesforce-ux/c360-grid",
+            "description": "The C360 grid system provides a flexible, mobile-first, device-agnostic layout system. It has features to control alignment, flow, and gaps.",
+            "version": "0.1.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@salesforce-ux/c360-grid"
+          },
+          {
+            "name": "@kern-ux/native",
+            "description": "Das Native Package beinhaltet alle zur Komponenten-Bibliothek geh\u00f6renden Styles.",
+            "version": "2.3.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@kern-ux/native"
+          },
+          {
+            "name": "@salesforce-ux/sds-styling-aliases",
+            "description": "Global Aliases used for decoupling name and value design properties, used in SDS Styling Hooks",
+            "version": "0.2.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@salesforce-ux/sds-styling-aliases"
+          },
+          {
+            "name": "@blocklet/launcher-ux",
+            "description": "Launcher UX lib",
+            "version": "2.5.34",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@blocklet/launcher-ux"
+          },
+          {
+            "name": "@jellyfin/ux-web",
+            "description": "UX resources for the Jellyfin Web client.",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@jellyfin/ux-web"
+          },
+          {
+            "name": "@db-ux/db-theme-icons",
+            "description": "We provide db-theme-icons for DB Apps in this package. Because of legal concern some files are encrypted. To decrypt them you need to go to [Marketingportal](https://marketingportal.extranet.deutschebahn.com/marketingportal/Design-Anwendungen/db-ux-design",
+            "version": "3.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@db-ux/db-theme-icons"
+          },
+          {
+            "name": "@s-ui/react-form-checkbox",
+            "description": "_**Important:**_ _The `@s-ui/react-form-checkbox` component **is not yet fully compliant with UX Design**, as it is still in WIP by UX team._ _**Please take into account the specifications defined [here](https://paper.dropbox.com/doc/SUI-Form-Elements-WIP",
+            "version": "1.12.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@s-ui/react-form-checkbox"
+          },
+          {
+            "name": "@algolia/autocomplete-plugin-query-suggestions",
+            "description": "A plugin to add query suggestions to Algolia Autocomplete.",
+            "version": "1.19.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@algolia/autocomplete-plugin-query-suggestions"
+          },
+          {
+            "name": "@symfony/ux-chartjs",
+            "description": "Chart.js integration for Symfony",
+            "version": "2.30.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@symfony/ux-chartjs"
+          },
+          {
+            "name": "@db-ux/db-theme",
+            "description": "We provide a db-theme for Deutsche Bahn Apps in this package. Some asset files are encrypted. To decrypt them you need to go to [Marketingportal](https://marketingportal.extranet.deutschebahn.com/marketingportal/Design-Anwendungen/db-ux-design-system/reso",
+            "version": "5.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@db-ux/db-theme"
+          },
+          {
+            "name": "@db-ux/db-theme-fonts",
+            "description": "We provide fonts for DB Apps in this package. Because of legal concern some files from dependencies are encrypted. To decrypt them you need to go to [Marketingportal](https://marketingportal.extranet.deutschebahn.com/marketingportal/Design-Anwendungen/db-",
+            "version": "2.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@db-ux/db-theme-fonts"
+          },
+          {
+            "name": "@ovh-ux/ui-kit",
+            "description": "A component framework for the OVHcloud brand.",
+            "version": "6.10.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ovh-ux/ui-kit"
+          },
+          {
+            "name": "@db-ux/db-theme-illustrative-icons",
+            "description": "We provide illustrative-icons for DB Apps in this package. Because of legal concern some files are encrypted. To decrypt them you need to go to [Marketingportal](https://marketingportal.extranet.deutschebahn.com/marketingportal/Design-Anwendungen/db-ux-de",
+            "version": "2.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@db-ux/db-theme-illustrative-icons"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 100,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:21:06.403269"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:21:06.403285",
+    "batch_network": {
+      "batch": "Winter 2019",
+      "total_batch_mates": 194,
+      "active_batch_mates": 124,
+      "batch_success_rate": 63.9,
+      "notable_batch_mates": [
+        {
+          "name": "Searchlight",
+          "slug": "searchlight",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Talent AI improving quality of hire"
+        },
+        {
+          "name": "Fuzzbuzz",
+          "slug": "fuzzbuzz",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Fuzzing as a Service"
+        },
+        {
+          "name": "ZeroStorefront",
+          "slug": "zerostorefront",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "#1 Data platform for restaurants. Acquired by Thanx"
+        },
+        {
+          "name": "Geosite",
+          "slug": "geosite",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Geosite is an enterprise SaaS platform for spatial data."
+        },
+        {
+          "name": "Insight",
+          "slug": "insight",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The first extensible browser for iOS"
+        },
+        {
+          "name": "InterPrime",
+          "slug": "interprime",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Safe & Secure Cash Management for Businesses"
+        },
+        {
+          "name": "Preflight",
+          "slug": "preflight",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "No-code Web Apps testing for everyone"
+        },
+        {
+          "name": "Windsor",
+          "slug": "windsor",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "AI Powered Personalized Videos"
+        },
+        {
+          "name": "Ascen",
+          "slug": "ascen",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "EOR for the staffing industry"
+        },
+        {
+          "name": "Convex",
+          "slug": "convex",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Software for the commercial services industry. "
+        }
+      ],
+      "batch_size": 195
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "status": "Active",
+          "batch": "Winter 2012",
+          "one_liner": "High Performance Computing Built for the Cloud"
+        },
+        {
+          "name": "Marft",
+          "slug": "marft",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Marft creates embeddable machine learning models for application\u2026"
+        },
+        {
+          "name": "Pixelapse",
+          "slug": "pixelapse",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Github for designers. We automatically keep track of revisions of\u2026"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Palantir for sales people"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Smart search for the modern team."
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Authy is a Two-Factor Authentication platform for developers"
+        },
+        {
+          "name": "Flutter",
+          "slug": "flutter",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Flutter combined computer vision technology with the built-in webcams\u2026"
+        },
+        {
+          "name": "SolidStage",
+          "slug": "solidstage",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Sysadmin as a service. We make deploying, configuring, monitoring,\u2026"
+        },
+        {
+          "name": "Clutch",
+          "slug": "clutch",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "An easy to integrate library for native iOS applications designed to\u2026"
+        },
+        {
+          "name": "OneSignal",
+          "slug": "onesignal",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Engage customers through personalized omni-channel messaging"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "San Francisco",
+      "location": "San Francisco, CA, USA",
+      "companies_in_city": 2007,
+      "active_in_city": 1339,
+      "nearby_companies": [
+        {
+          "name": "42Floors",
+          "slug": "42floors",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "PlanGrid",
+          "slug": "plangrid",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "MyVR",
+          "slug": "myvr",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Couple",
+          "slug": "couple",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HackPad",
+          "slug": "hackpad",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Gusto",
+          "slug": "gusto",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "FamilyLeaf",
+          "slug": "familyleaf",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Chute",
+          "slug": "chute",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Make School",
+          "slug": "make-school",
+          "batch": "Winter 2012",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Exec",
+          "slug": "exec",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Public"
+        },
+        {
+          "name": "LendUp",
+          "slug": "lendup",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tilt",
+          "slug": "tilt",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fond",
+          "slug": "fond",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Basilica",
+        "slug": "basilica",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Elph",
+        "slug": "elph",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Dagger",
+        "slug": "dagger",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Glide",
+        "slug": "glide",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Cosmic",
+        "slug": "cosmic",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Searchlight",
+        "slug": "searchlight",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "JuziBot",
+        "slug": "juzibot",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Overview",
+        "slug": "overview",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Fuzzbuzz",
+        "slug": "fuzzbuzz",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Flockjay",
+        "slug": "flockjay",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 4947,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:21:06.418477"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:21:06.418487",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:21:06.751796",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:21:06.849252",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 1,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:45:43.018777",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "medium",
+      "market_stage": "growing",
+      "key_trends": [
+        "Cross-platform game development growth",
+        "Native app UI modernization demand",
+        "GPU acceleration adoption in rendering"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Technical expertise in GPU-accelerated WebKit fork with deep game industry partnerships",
+      "differentiation": "Pure-GPU HTML renderer specifically optimized for games and native apps across multiple platforms",
+      "competitive_advantages": [
+        "Game studio collaboration and validation",
+        "Multi-platform support including consoles",
+        "Lightweight WebKit fork optimized for performance"
+      ],
+      "competitive_vulnerabilities": [
+        "Single-person team scalability",
+        "Dependence on WebKit upstream changes",
+        "Limited marketing reach vs larger competitors"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "Software licensing",
+      "scalability": "high",
+      "capital_intensity": "low"
+    },
+    "growth_assessment": {
+      "growth_stage": "seed",
+      "growth_indicators": [
+        "8.5 year domain age showing persistence",
+        "Active status with game studio partnerships",
+        "Multi-platform support demonstrating technical maturity"
+      ],
+      "growth_bottlenecks": [
+        "Single-person team limiting sales and support",
+        "Niche market requiring specialized knowledge",
+        "Long enterprise sales cycles in gaming industry"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "high",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Key person dependency with team of 1",
+        "WebKit maintenance and security updates",
+        "Competition from larger rendering engine providers"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Proven technical solution with game studio validation",
+        "High-performance niche with limited direct competitors",
+        "Strong multi-platform coverage including consoles"
+      ],
+      "concerns": [
+        "Extremely small team for B2B enterprise sales",
+        "Limited total addressable market in gaming UI"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Coherent UI",
+        "NGUI",
+        "Dear ImGui"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Hire sales/business development talent",
+        "Expand team to reduce key person risk"
+      ],
+      "expansion_opportunities": [
+        "Enterprise desktop application market",
+        "Web-based application embedding",
+        "AR/VR interface rendering"
+      ]
+    },
+    "tokens_used": {
+      "input": 698,
+      "output": 594,
+      "total": 1292,
+      "estimated_cost": 0.011004
+    }
+  },
+  "phase8_complete": true
+}

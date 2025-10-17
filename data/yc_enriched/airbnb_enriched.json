@@ -1,0 +1,625 @@
+{
+  "slug": "airbnb",
+  "name": "Airbnb",
+  "yc_id": 271,
+  "batch": "Winter 2009",
+  "website": "http://airbnb.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:30:58.042135",
+    "website": "http://airbnb.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 1355.62,
+      "final_url": "https://www.airbnb.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:30:59.397767"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "airbnb.com",
+      "registrar": "MarkMonitor Inc.",
+      "creation_date": "2008-08-05T07:29:00",
+      "expiration_date": "2026-08-05T07:29:00",
+      "domain_age_days": 6281,
+      "domain_age_years": 17.2,
+      "name_servers": [
+        "DNS1.P08.NSONE.NET",
+        "DNS2.P08.NSONE.NET",
+        "DNS3.P08.NSONE.NET",
+        "DNS4.P08.NSONE.NET",
+        "NS-1453.AWSDNS-53.ORG",
+        "NS-1932.AWSDNS-49.CO.UK",
+        "NS-474.AWSDNS-59.COM",
+        "NS-558.AWSDNS-05.NET"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": true,
+      "x_frame_options": true,
+      "x_content_type_options": true,
+      "x_xss_protection": true,
+      "referrer_policy": false,
+      "security_score": 83,
+      "server": "nginx"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:13:10.587937",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:56:46.883877",
+    "place_data": {
+      "status": "not_found",
+      "query": "San Francisco, CA, USA"
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:56:46.981862",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:56:46.981876",
+    "batch_network": {
+      "batch": "Winter 2009",
+      "total_batch_mates": 15,
+      "active_batch_mates": 1,
+      "batch_success_rate": 6.7,
+      "notable_batch_mates": [
+        {
+          "name": "Heyzap",
+          "slug": "heyzap",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Heyzap (acquired by Fyber for $45m in 2016) is one of the largest\u2026"
+        },
+        {
+          "name": "Divvyshot",
+          "slug": "divvyshot",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": ""
+        },
+        {
+          "name": "reMail",
+          "slug": "remail",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Email search for iPhone. Acquired by Google in Feb 2010."
+        },
+        {
+          "name": "Echodio",
+          "slug": "echodio",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Sync and stream your music across any device. Acquired in 2009. "
+        },
+        {
+          "name": "Cloudkick",
+          "slug": "cloudkick",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": ""
+        }
+      ],
+      "batch_size": 16
+    },
+    "industry_network": {
+      "industries": [
+        "Consumer",
+        "Travel, Leisure and Tourism"
+      ],
+      "total_industry_peers": 852,
+      "active_industry_peers": 408,
+      "direct_competitors": [
+        {
+          "name": "Hipmunk",
+          "slug": "hipmunk",
+          "status": "Acquired",
+          "batch": "Summer 2010",
+          "one_liner": "Hipmunk takes the agony out of searching for flights, accommodations,\u2026"
+        },
+        {
+          "name": "Flightcaster",
+          "slug": "flightcaster",
+          "status": "Acquired",
+          "batch": "Summer 2009",
+          "one_liner": ""
+        },
+        {
+          "name": "Ticket Stumbler",
+          "slug": "ticket-stumbler",
+          "status": "Inactive",
+          "batch": "Summer 2008",
+          "one_liner": ""
+        },
+        {
+          "name": "Songkick",
+          "slug": "songkick",
+          "status": "Acquired",
+          "batch": "Summer 2007",
+          "one_liner": ""
+        },
+        {
+          "name": "Vayable",
+          "slug": "vayable",
+          "status": "Acquired",
+          "batch": "Summer 2012",
+          "one_liner": "We're building a marketplace for unique travel experiences (it's\u2026"
+        },
+        {
+          "name": "GetGoing",
+          "slug": "getgoing",
+          "status": "Inactive",
+          "batch": "Summer 2012",
+          "one_liner": "We are building a \"transparent opaque\" airfare and hotel booking site\u2026"
+        },
+        {
+          "name": "VaycayHero",
+          "slug": "vaycayhero",
+          "status": "Acquired",
+          "batch": "Winter 2013",
+          "one_liner": "VaycayHero is a marketplace of professionally managed vacation\u2026"
+        },
+        {
+          "name": "FlightCar",
+          "slug": "flightcar",
+          "status": "Inactive",
+          "batch": "Winter 2013",
+          "one_liner": "FlightCar is the Airbnb of Car Rentals at Airports.\r\nWe allow people\u2026"
+        },
+        {
+          "name": "AirHelp",
+          "slug": "airhelp",
+          "status": "Active",
+          "batch": "Winter 2014",
+          "one_liner": "AirHelp helps air passengers get compensation for delayed, cancelled\u2026"
+        },
+        {
+          "name": "Shoobs",
+          "slug": "shoobs",
+          "status": "Active",
+          "batch": "Winter 2014",
+          "one_liner": "We help you find and book tickets to great entertainment events that\u2026"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "San Francisco",
+      "location": "San Francisco, CA, USA",
+      "companies_in_city": 2007,
+      "active_in_city": 1340,
+      "nearby_companies": [
+        {
+          "name": "42Floors",
+          "slug": "42floors",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "PlanGrid",
+          "slug": "plangrid",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "MyVR",
+          "slug": "myvr",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Couple",
+          "slug": "couple",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HackPad",
+          "slug": "hackpad",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Gusto",
+          "slug": "gusto",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "FamilyLeaf",
+          "slug": "familyleaf",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Chute",
+          "slug": "chute",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Make School",
+          "slug": "make-school",
+          "batch": "Winter 2012",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Exec",
+          "slug": "exec",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Public"
+        },
+        {
+          "name": "LendUp",
+          "slug": "lendup",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tilt",
+          "slug": "tilt",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fond",
+          "slug": "fond",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Heyzap",
+        "slug": "heyzap",
+        "batch": "Winter 2009",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Foodoro",
+        "slug": "foodoro",
+        "batch": "Winter 2009",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Divvyshot",
+        "slug": "divvyshot",
+        "batch": "Winter 2009",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Echodio",
+        "slug": "echodio",
+        "batch": "Winter 2009",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Nambii",
+        "slug": "nambii",
+        "batch": "Winter 2009",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Hipmunk",
+        "slug": "hipmunk",
+        "batch": "Summer 2010",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Flightcaster",
+        "slug": "flightcaster",
+        "batch": "Summer 2009",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Vayable",
+        "slug": "vayable",
+        "batch": "Summer 2012",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "VaycayHero",
+        "slug": "vaycayhero",
+        "batch": "Winter 2013",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "FlightCar",
+        "slug": "flightcar",
+        "batch": "Winter 2013",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 2874,
+      "network_density_score": 83.0,
+      "has_strong_batch_network": false,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T09:56:46.991317"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:56:46.991328",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:56:47.356576",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:56:47.461592",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 6132,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:46:53.211855",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "mature",
+      "key_trends": [
+        "Remote work driving longer stays",
+        "Experience-focused travel over traditional hotels",
+        "Regulatory scrutiny and compliance requirements"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Strong network effects with millions of hosts and guests, brand trust, and global marketplace liquidity",
+      "differentiation": "Unique, local accommodations and experiences vs standardized hotel rooms",
+      "competitive_advantages": [
+        "First-mover advantage in home-sharing",
+        "Global scale and brand recognition"
+      ],
+      "competitive_vulnerabilities": [
+        "Regulatory challenges in key markets",
+        "Quality control inconsistencies"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "marketplace",
+      "scalability": "high",
+      "capital_intensity": "low"
+    },
+    "growth_assessment": {
+      "growth_stage": "mature",
+      "growth_indicators": [
+        "6132 team size indicates scale",
+        "Public status with proven business model"
+      ],
+      "growth_bottlenecks": [
+        "Market saturation in developed countries",
+        "Regulatory restrictions limiting supply"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "low",
+      "overall_risk_score": 3,
+      "key_risks": [
+        "Regulatory crackdowns reducing available inventory",
+        "Economic downturns affecting travel demand",
+        "Competition from hotels adopting similar models"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Proven business model at massive scale",
+        "Strong network effects",
+        "Diversified global presence"
+      ],
+      "concerns": [
+        "Growth rate deceleration in mature markets",
+        "Ongoing regulatory challenges"
+      ],
+      "exit_potential": "IPO",
+      "comparable_companies": [
+        "Booking Holdings",
+        "Expedia Group"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on emerging market expansion",
+        "Develop regulatory compliance frameworks"
+      ],
+      "expansion_opportunities": [
+        "Corporate travel and extended stays",
+        "Experiences and activities beyond accommodation"
+      ]
+    },
+    "tokens_used": {
+      "input": 745,
+      "output": 521,
+      "total": 1266,
+      "estimated_cost": 0.01005
+    }
+  },
+  "phase8_complete": true
+}

@@ -1,0 +1,1389 @@
+{
+  "slug": "sails-co",
+  "name": "Sails Co.",
+  "yc_id": 786,
+  "batch": "Winter 2015",
+  "website": "https://sailsjs.com/about",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:35:00.798251",
+    "website": "https://sailsjs.com/about",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 625.61,
+      "final_url": "https://sailsjs.com/about",
+      "redirected": false,
+      "checked_at": "2025-10-17T00:35:01.423896"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "sailsjs.com",
+      "registrar": "GoDaddy.com, LLC",
+      "creation_date": "2012-03-20T06:37:12",
+      "expiration_date": "2026-08-14T11:59:59",
+      "domain_age_days": 4958,
+      "domain_age_years": 13.6,
+      "name_servers": [
+        "CHUCK.NS.CLOUDFLARE.COM",
+        "DORA.NS.CLOUDFLARE.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/sailsjs",
+      "linkedin": null,
+      "github": "https://github.com/balderdashy/sails",
+      "facebook": "https://www.facebook.com/sailsjs",
+      "instagram": null,
+      "youtube": "https://www.youtube.com/watch?v=nZKG7hLhbRs"
+    },
+    "security_headers": {
+      "strict_transport_security": false,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 0,
+      "server": "cloudflare"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:15:27.153233",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:15:15.739191",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "Austin, TX, USA",
+      "coordinates": {
+        "latitude": 30.2672,
+        "longitude": -97.7431
+      },
+      "timezone": {
+        "timezone_id": "America/Chicago",
+        "timezone_name": "America/Chicago"
+      },
+      "retrieved_at": "2025-10-17T10:15:15.739253"
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:15:15.739280",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/balderdashy"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 100,
+        "packages": [
+          {
+            "name": "waterline-cursor",
+            "description": "waterline-cursor ================ [![Build Status](https://travis-ci.org/balderdashy/waterline-cursor.svg?branch=master)](https://travis-ci.org/balderdashy/waterline-cursor) [![npm version](https://badge.fury.io/js/waterline-cursor.svg)](http://badge.fury",
+            "version": "0.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/waterline-cursor"
+          },
+          {
+            "name": "skipper-disk",
+            "description": "Receive streaming file uploads on your local filesystem.",
+            "version": "0.5.12",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/skipper-disk"
+          },
+          {
+            "name": "skipper",
+            "description": "Bodyparser for Express/Sails. Exposes simple API for streaming multiple files to disk, S3, etc. without buffering to a .tmp directory.",
+            "version": "0.9.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/skipper"
+          },
+          {
+            "name": "captains-log",
+            "description": "Lightweight logger with a simple pass-through configuration for use with fancier logging libraries",
+            "version": "2.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/captains-log"
+          },
+          {
+            "name": "waterline",
+            "description": "An ORM for Node.js and the Sails framework",
+            "version": "0.15.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/waterline"
+          },
+          {
+            "name": "waterline-sql-builder",
+            "description": "Generate SQL (stage 5 query) from a Waterline statement (stage 4 query).",
+            "version": "3.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/waterline-sql-builder"
+          },
+          {
+            "name": "waterline-criteria",
+            "description": "Utility library for working with Waterline criterias.  Especially useful when building Sails adapters for key/value databases.",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/waterline-criteria"
+          },
+          {
+            "name": "waterline-schema",
+            "description": "The core schema builder used in the Waterline ORM.",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/waterline-schema"
+          },
+          {
+            "name": "skipper-s3",
+            "description": "Stream file uploads, downloads, and transloads to and from S3.  Plus some other utilities like `rm` and `ls`.",
+            "version": "0.6.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/skipper-s3"
+          },
+          {
+            "name": "@types/waterline",
+            "description": "TypeScript definitions for waterline",
+            "version": "0.13.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@types/waterline"
+          },
+          {
+            "name": "sails-generate-backend",
+            "description": "Default generator for backend code files in new Sails projects. Creates the default contents of the `api/` and `config/` folders when you run `sails new` on the command line.",
+            "version": "0.12.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sails-generate-backend"
+          },
+          {
+            "name": "waterline-adapter-tests",
+            "description": "Integration tests for waterline adapters",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/waterline-adapter-tests"
+          },
+          {
+            "name": "sails.io.js-dist",
+            "description": "Distribution version of sails.io.js for browsers, including bundled socket.io-client.",
+            "version": "1.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sails.io.js-dist"
+          },
+          {
+            "name": "skipper-openstack",
+            "description": "[Skipper](https://github.com/balderdashy/skipper) is an awesome piece of middleware for Express that allows you to pipe/stream multipart form uploads for various storage endpoints.  This project implements an Openstack Swift adapter for Skipper",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/skipper-openstack"
+          },
+          {
+            "name": "connect-waterline",
+            "description": "Waterline session store for Express and Connect",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/connect-waterline"
+          },
+          {
+            "name": "sails-filemaker",
+            "description": "Provides easy access to [FileMaker](http://www.filemaker.com) Databases hosted on a FileMaker Server from [Sails.js](http://sailsjs.org/) & [Waterline](https://github.com/balderdashy/waterline). It can also be used with [hapi.js](http://hapijs.com/) throu",
+            "version": "0.2.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sails-filemaker"
+          },
+          {
+            "name": "machinepack-redis",
+            "description": "Structured Node.js bindings for Redis.",
+            "version": "2.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/machinepack-redis"
+          },
+          {
+            "name": "sails-redis",
+            "description": "A lightweight Redis adapter for Sails / Waterline.",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sails-redis"
+          },
+          {
+            "name": "@sailshq/lodash",
+            "description": "A fork of Lodash 3.10.x with ongoing maintenance from the Sails core team.",
+            "version": "3.10.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sailshq/lodash"
+          },
+          {
+            "name": "machine",
+            "description": "Build functions in standardized containers.",
+            "version": "15.2.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/machine"
+          },
+          {
+            "name": "sails",
+            "description": "API-driven framework for building realtime apps, using MVC conventions (based on Express and Socket.io)",
+            "version": "1.5.15",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sails"
+          },
+          {
+            "name": "sails-postgresql-redacted",
+            "description": "a PostgreSQL adapter for Waterline and Sails.js.  Tracking upstream, but with passwords redacted from error messages",
+            "version": "1.0.2-9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sails-postgresql-redacted"
+          },
+          {
+            "name": "anchor",
+            "description": "High-level validation library for Node.js (used in Waterline)",
+            "version": "1.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/anchor"
+          },
+          {
+            "name": "include-all",
+            "description": "An easy way to include all node.js modules within a directory.",
+            "version": "4.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/include-all"
+          },
+          {
+            "name": "machinepack-http",
+            "description": "Send HTTP requests, scrape webpages, and stream data in your JavaScript/Node.js/Sails.js app with a simple, `jQuery.get()`-like interface for sending HTTP requests and processing server responses.",
+            "version": "9.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/machinepack-http"
+          },
+          {
+            "name": "zero-model",
+            "description": "This module use [waterline](https://github.com/balderdashy/waterline) to create database connection for relier module.",
+            "version": "0.0.19",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/zero-model"
+          },
+          {
+            "name": "sails-hook-sockets",
+            "description": "Implements socket.io support in Sails",
+            "version": "3.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sails-hook-sockets"
+          },
+          {
+            "name": "skipper-csv",
+            "description": "Stream transform Skipper's file uploads to a CSV parser",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/skipper-csv"
+          },
+          {
+            "name": "skipper-gridfs",
+            "description": "A skipper adapter to allow uploading files to MongoDB's GridFS",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/skipper-gridfs"
+          },
+          {
+            "name": "sails-hook-autoreload",
+            "description": "Sails JS hook to autoreload controllers and models when changed.",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sails-hook-autoreload"
+          },
+          {
+            "name": "sails-memory",
+            "description": "Non-persistent in-memory adapter for Sails.js / Waterline",
+            "version": "0.10.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sails-memory"
+          },
+          {
+            "name": "sails-postgresql-cluster",
+            "description": "a postgreSQL adapter for Waterline and Sails.js",
+            "version": "0.11.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sails-postgresql-cluster"
+          },
+          {
+            "name": "skipper-gcstorage",
+            "description": "A skipper adapter used for uploading files to Google Cloud Storage",
+            "version": "2.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/skipper-gcstorage"
+          },
+          {
+            "name": "sails-hook-email",
+            "description": "Email hook for Sails",
+            "version": "0.12.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sails-hook-email"
+          },
+          {
+            "name": "@researchdatabox/sails-hook-redbox-storage-mongo",
+            "description": "A MongoDB storage plugin for ReDBox.",
+            "version": "1.4.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@researchdatabox/sails-hook-redbox-storage-mongo"
+          },
+          {
+            "name": "enpeem",
+            "description": "Lightweight wrapper for accessing npm programmatically (alternative to adding `npm` as a dependency)",
+            "version": "2.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/enpeem"
+          },
+          {
+            "name": "sails-generate-frontend",
+            "description": "Default generator for frontend code files in new Sails projects. Creates the default contents of the `assets/` folder when you run `sails new` on the command-line.  Also creates a subset of the boilerplate Grunt task files (in `tasks/`); specifically, the",
+            "version": "0.12.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sails-generate-frontend"
+          },
+          {
+            "name": "sails-util",
+            "description": "Shared utilities between sails, waterline, etc.",
+            "version": "0.11.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sails-util"
+          },
+          {
+            "name": "marciemarc425-waterline-sql-builder",
+            "description": "Generate SQL (stage 5 query) from a Waterline statement (stage 4 query).",
+            "version": "3.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/marciemarc425-waterline-sql-builder"
+          },
+          {
+            "name": "@dmedina2015/skipper-gridfs",
+            "description": "Alternative skipper adapter to allow uploading files to MongoDB's GridFS. Fork made by Daniel Medina.",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@dmedina2015/skipper-gridfs"
+          },
+          {
+            "name": "sails-sequelize",
+            "description": "<h1>\r <a href=\"http://sailsjs.org\"><img alt=\"Sails.js logo\" src=\"http://balderdashy.github.io/sails/images/logo.png\" title=\"Sails.js\"/></a>\r </h1>",
+            "version": "0.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sails-sequelize"
+          },
+          {
+            "name": "sails-local-fs",
+            "description": "Local filesystem streaming binary adapter for Sails.js / Waterline",
+            "version": "0.9.11",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sails-local-fs"
+          },
+          {
+            "name": "waternile-adapter-tests",
+            "description": "Integration tests for sails-orientjs/waternile adapters",
+            "version": "1.0.17",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/waternile-adapter-tests"
+          },
+          {
+            "name": "@pcs/sails-postgresql",
+            "description": "a postgreSQL adapter for Waterline and Sails.js",
+            "version": "0.11.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@pcs/sails-postgresql"
+          },
+          {
+            "name": "skipper-azure",
+            "description": "A Skipper adapter for Microsoft Azure storage.",
+            "version": "0.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/skipper-azure"
+          },
+          {
+            "name": "sails.io.js",
+            "description": "Javascript SDK for communicating w/ a Sails server via WebSockets/socket.io.",
+            "version": "1.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sails.io.js"
+          },
+          {
+            "name": "@hublo/sails-postgresql",
+            "description": "a postgreSQL adapter for Waterline and Sails.js",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@hublo/sails-postgresql"
+          },
+          {
+            "name": "sails-sqlite3",
+            "description": "Waterline Adapter for SQLite in Sails.js",
+            "version": "0.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sails-sqlite3"
+          },
+          {
+            "name": "provakil-skipper-s3",
+            "description": "Stream file uploads, downloads, and transloads to and from S3.  Plus some other utilities like `rm` and `ls`.",
+            "version": "0.6.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/provakil-skipper-s3"
+          },
+          {
+            "name": "@petrocloud/sails",
+            "description": "API-driven framework for building realtime apps, using MVC conventions (based on Express and Socket.io)",
+            "version": "0.12.15-rc4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@petrocloud/sails"
+          },
+          {
+            "name": "offshore-criteria",
+            "description": "Utility library for use in offshore adapters where you need to filter a list of output using a criteria object",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/offshore-criteria"
+          },
+          {
+            "name": "machinepack-gravatar",
+            "description": "Communicate with the Gravatar api to get a gravatar image.",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/machinepack-gravatar"
+          },
+          {
+            "name": "sails-mongo-cloud",
+            "description": "Mongo DB adapter for Sails.js/Waterline. Forked from sails-mongo and updated with Mongodb Driver v4.9.1",
+            "version": "3.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sails-mongo-cloud"
+          },
+          {
+            "name": "@chezearth/machinepack-http",
+            "description": "Send HTTP requests, scrape webpages, and stream data in your JavaScript/Node.js/Sails.js app with a simple, `jQuery.get()`-like interface for sending HTTP requests and processing server responses.",
+            "version": "6.0.2-2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@chezearth/machinepack-http"
+          },
+          {
+            "name": "sails-cli",
+            "description": "Experimental standalone CLI package for Sails.",
+            "version": "0.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sails-cli"
+          },
+          {
+            "name": "sails-orientdb",
+            "description": "OrientDB adapter for Waterline / Sails.js ORM",
+            "version": "0.10.60",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sails-orientdb"
+          },
+          {
+            "name": "nxus-storage",
+            "description": "Storage framework for Nxus applications",
+            "version": "4.0.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/nxus-storage"
+          },
+          {
+            "name": "waternile",
+            "description": "An ORM for Node.js and the Sails framework (Modified for Orient-JS but non-breaking)",
+            "version": "0.40.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/waternile"
+          },
+          {
+            "name": "skipper-better-s3",
+            "description": "A better approach to Amazon S3 file management for Skipper",
+            "version": "2.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/skipper-better-s3"
+          },
+          {
+            "name": "sails-cassandra",
+            "description": "Apache Cassandra adapter for Sails/Waterline",
+            "version": "0.12.15",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sails-cassandra"
+          },
+          {
+            "name": "sails-rabbitmq",
+            "description": "sails-rabbitmq adapter for Sails / Waterline",
+            "version": "0.12.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sails-rabbitmq"
+          },
+          {
+            "name": "waterline_test9481",
+            "description": "An ORM for Node.js and the Sails framework",
+            "version": "0.12.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/waterline_test9481"
+          },
+          {
+            "name": "sails-oracle-database",
+            "description": "Oracle Database adapter for Sails.js.",
+            "version": "0.4.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sails-oracle-database"
+          },
+          {
+            "name": "water-orm",
+            "description": "A monolith version of Standalone waterline ORM",
+            "version": "0.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/water-orm"
+          },
+          {
+            "name": "ctartist621-waterline",
+            "description": "An ORM for Node.js and the Sails framework",
+            "version": "0.12.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ctartist621-waterline"
+          },
+          {
+            "name": "sails-oracledb",
+            "description": "Oracle Database adapter for Sails.js",
+            "version": "0.0.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sails-oracledb"
+          },
+          {
+            "name": "sails-generate-controller-coffee",
+            "description": "Generate a controller.coffee for Sails.",
+            "version": "0.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sails-generate-controller-coffee"
+          },
+          {
+            "name": "sails-dynamodb",
+            "description": "Amazon DynamoDB adapter for Sails / Waterline",
+            "version": "0.12.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sails-dynamodb"
+          },
+          {
+            "name": "@motniemtin/waterline",
+            "description": "An ORM for Node.js and the Sails framework",
+            "version": "0.15.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@motniemtin/waterline"
+          },
+          {
+            "name": "@blueprod/include-all",
+            "description": "An easy way to include all node.js modules within a directory.",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@blueprod/include-all"
+          },
+          {
+            "name": "skipper-memory",
+            "description": "Skipper adapter for a dumb (development-only) in-RAM filesystem simulation",
+            "version": "0.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/skipper-memory"
+          },
+          {
+            "name": "sails-generate-humpback-view",
+            "description": "sails generate humpback-view",
+            "version": "0.11.16",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sails-generate-humpback-view"
+          },
+          {
+            "name": "doc-templater",
+            "description": "Compiles a tree of Github-flavored markdown files into themable HTML templates.  Supports pulling directly from multiple remote or local git repositories and exposes lifecycle hooks for transforming markdown input (beforeConvert) or HTML output (afterConv",
+            "version": "0.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/doc-templater"
+          },
+          {
+            "name": "sails-postgresql-pp",
+            "description": "A postgreSQL adapter for Waterline and Sails.js based in sails-postgresql 0.11.4",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sails-postgresql-pp"
+          },
+          {
+            "name": "dogwater",
+            "description": "A hapi plugin integrating Waterline ORM",
+            "version": "2.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/dogwater"
+          },
+          {
+            "name": "skipper-minio",
+            "description": "Receive streaming file uploads to Minio/Amazon S3.",
+            "version": "0.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/skipper-minio"
+          },
+          {
+            "name": "sails-postgresql-super",
+            "description": "a postgreSQL adapter for Waterline and Sails.js",
+            "version": "0.12.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sails-postgresql-super"
+          },
+          {
+            "name": "skipper-ftp",
+            "description": "This is used to upload files directly to FTP server skipper adapter",
+            "version": "2.8.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/skipper-ftp"
+          },
+          {
+            "name": "@sauban/skipper",
+            "description": "Bodyparser for Express/Sails. Exposes simple API for streaming multiple files to disk, S3, etc. without buffering to a .tmp directory.",
+            "version": "0.8.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sauban/skipper"
+          },
+          {
+            "name": "t1bao-waterline",
+            "description": "An ORM for Node.js and the Sails framework",
+            "version": "0.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/t1bao-waterline"
+          },
+          {
+            "name": "frill",
+            "description": "A flux + api application framework, using hapi and React.",
+            "version": "0.6.20",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/frill"
+          },
+          {
+            "name": "quail-rest",
+            "description": "Hassle free mongodb rest app",
+            "version": "1.1.27",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/quail-rest"
+          },
+          {
+            "name": "driver-interface",
+            "description": "Standardized interface for common functionality, expressed in layers.  Covers communication with databases, hardware, web services, and more.",
+            "version": "1.0.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/driver-interface"
+          },
+          {
+            "name": "skipper-openstack-gremi",
+            "description": "[Skipper](https://github.com/balderdashy/skipper) is an awesome piece of middleware for Express that allows you to pipe/stream multipart form uploads for various storage endpoints.  This project implements an Openstack Swift adapter for Skipper",
+            "version": "0.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/skipper-openstack-gremi"
+          },
+          {
+            "name": "sails-postgresql-adikus",
+            "description": "a postgreSQL adapter for Waterline and Sails.js",
+            "version": "0.9.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sails-postgresql-adikus"
+          },
+          {
+            "name": "sails-hook-mongo-auto-index",
+            "description": "Sails Hook to auto create mongo indexes",
+            "version": "0.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sails-hook-mongo-auto-index"
+          },
+          {
+            "name": "@lanrey/sails-postgresql",
+            "description": "a postgreSQL adapter for Waterline and Sails.js",
+            "version": "0.12.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@lanrey/sails-postgresql"
+          },
+          {
+            "name": "sails-mongo-sensitive",
+            "description": "Mongo DB adapter for Sails.js",
+            "version": "0.11.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sails-mongo-sensitive"
+          },
+          {
+            "name": "sails-postgresql-godeep",
+            "description": "a postgreSQL adapter for Waterline and Sails.js",
+            "version": "0.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sails-postgresql-godeep"
+          },
+          {
+            "name": "infinite-table",
+            "description": "Editable infinite scrolling table",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/infinite-table"
+          },
+          {
+            "name": "sails-generate-fullmodel",
+            "description": "sails generate fullmodel",
+            "version": "0.10.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sails-generate-fullmodel"
+          },
+          {
+            "name": "simpledblayer",
+            "description": "Simple, generic, no fuss DB layer for NodeJS",
+            "version": "0.3.38",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/simpledblayer"
+          },
+          {
+            "name": "sails-oradb",
+            "description": "Oracle Database adapter for Waterline and Sails.js.",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sails-oradb"
+          },
+          {
+            "name": "sails-deploy-azure",
+            "description": "Deploy a Sails app to Azure (a strategy for sails-deploy).",
+            "version": "0.2.12",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sails-deploy-azure"
+          },
+          {
+            "name": "waterline-sequel-orientdb",
+            "description": "A helper library for generating OrientDB SQL queries from the Waterline Query Language.",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/waterline-sequel-orientdb"
+          },
+          {
+            "name": "sails-s3",
+            "description": "s3 adapter for sails/waterline",
+            "version": "0.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sails-s3"
+          },
+          {
+            "name": "sane-cli",
+            "description": "A command-line tool for creating full stack sails-ember applications using docker",
+            "version": "0.0.24",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sane-cli"
+          },
+          {
+            "name": "@traverse-data/sails-memory",
+            "description": "Non-persistent in-memory adapter for Sails.js / Waterline",
+            "version": "0.10.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@traverse-data/sails-memory"
+          },
+          {
+            "name": "@walkthechat/skipper-aliyunoss",
+            "description": "Streaming file uploads to Aliyun OSS",
+            "version": "0.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@walkthechat/skipper-aliyunoss"
+          },
+          {
+            "name": "sails-admin",
+            "description": "Generate a new Sails admin interface for your Sails app",
+            "version": "0.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sails-admin"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 100,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:15:17.177242"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:15:17.177264",
+    "batch_network": {
+      "batch": "Winter 2015",
+      "total_batch_mates": 110,
+      "active_batch_mates": 41,
+      "batch_success_rate": 37.3,
+      "notable_batch_mates": [
+        {
+          "name": "Notable Labs",
+          "slug": "notable-labs",
+          "status": "Public",
+          "top_company": true,
+          "one_liner": "Personalized drug discovery for blood cancer."
+        },
+        {
+          "name": "Final",
+          "slug": "final",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A credit card that drastically reduces payment fraud and gives\u2026"
+        },
+        {
+          "name": "Pomello",
+          "slug": "pomello",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Analytics software that helps companies measure organizational\u2026"
+        },
+        {
+          "name": "Tech in Asia",
+          "slug": "tech-in-asia",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Tech in Asia (YC W15) is the largest English-language technology\u2026"
+        },
+        {
+          "name": "Smyte",
+          "slug": "smyte",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Smyte stops bad actors on social networks and marketplaces."
+        },
+        {
+          "name": "Bizzy",
+          "slug": "bizzy",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Bizzy is omni-channel marketing for ecommerce businesses."
+        },
+        {
+          "name": "Bluesmart",
+          "slug": "bluesmart",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Bluesmart makes smart luggage powered by an app to empower people to\u2026"
+        },
+        {
+          "name": "CyberFend",
+          "slug": "cyberfend",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Cyberfend delivers robust, real-time web and mobile security by\u2026"
+        },
+        {
+          "name": "GrubMarket",
+          "slug": "grubmarket",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "AI-powered technology enabler and digital transformer of American\u2026"
+        },
+        {
+          "name": "WorkLife",
+          "slug": "worklife",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "WorkLife is a SaaS application that helps teams have more effective\u2026"
+        }
+      ],
+      "batch_size": 111
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "status": "Active",
+          "batch": "Winter 2012",
+          "one_liner": "High Performance Computing Built for the Cloud"
+        },
+        {
+          "name": "Marft",
+          "slug": "marft",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Marft creates embeddable machine learning models for application\u2026"
+        },
+        {
+          "name": "Pixelapse",
+          "slug": "pixelapse",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Github for designers. We automatically keep track of revisions of\u2026"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Palantir for sales people"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Smart search for the modern team."
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Authy is a Two-Factor Authentication platform for developers"
+        },
+        {
+          "name": "Flutter",
+          "slug": "flutter",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Flutter combined computer vision technology with the built-in webcams\u2026"
+        },
+        {
+          "name": "SolidStage",
+          "slug": "solidstage",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Sysadmin as a service. We make deploying, configuring, monitoring,\u2026"
+        },
+        {
+          "name": "Clutch",
+          "slug": "clutch",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "An easy to integrate library for native iOS applications designed to\u2026"
+        },
+        {
+          "name": "OneSignal",
+          "slug": "onesignal",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Engage customers through personalized omni-channel messaging"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Austin",
+      "location": "Austin, TX, USA",
+      "companies_in_city": 51,
+      "active_in_city": 40,
+      "nearby_companies": [
+        {
+          "name": "OwnLocal",
+          "slug": "ownlocal",
+          "batch": "Winter 2010",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Plivo",
+          "slug": "plivo",
+          "batch": "Summer 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Cratejoy",
+          "slug": "cratejoy",
+          "batch": "Summer 2013",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Mobydish",
+          "slug": "mobydish",
+          "batch": "Winter 2015",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Interviewed",
+          "slug": "interviewed",
+          "batch": "Summer 2015",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Mio",
+          "slug": "mio",
+          "batch": "Winter 2016",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "MineralSoft",
+          "slug": "mineralsoft",
+          "batch": "Winter 2016",
+          "industry": "Industrials",
+          "status": "Acquired"
+        },
+        {
+          "name": "Goodybag",
+          "slug": "goodybag",
+          "batch": "Winter 2016",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "NuCypher (aka Threshold Network)",
+          "slug": "nucypher-aka-threshold-network",
+          "batch": "Summer 2016",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Reebeez",
+          "slug": "reebeez",
+          "batch": "Summer 2016",
+          "industry": "Industrials",
+          "status": "Inactive"
+        },
+        {
+          "name": "Skyways",
+          "slug": "skyways",
+          "batch": "Summer 2017",
+          "industry": "Industrials",
+          "status": "Active"
+        },
+        {
+          "name": "UpCodes",
+          "slug": "upcodes",
+          "batch": "Summer 2017",
+          "industry": "Real Estate and Construction",
+          "status": "Active"
+        },
+        {
+          "name": "Rabbet",
+          "slug": "rabbet",
+          "batch": "Summer 2017",
+          "industry": "Real Estate and Construction",
+          "status": "Active"
+        },
+        {
+          "name": "PullRequest",
+          "slug": "pullrequest",
+          "batch": "Summer 2017",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Jasper.ai",
+          "slug": "jasper-ai",
+          "batch": "Winter 2018",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Macromoltek",
+          "slug": "macromoltek",
+          "batch": "Winter 2018",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Pocket Worlds",
+          "slug": "pocket-worlds",
+          "batch": "Summer 2018",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Green Energy Exchange",
+          "slug": "green-energy-exchange",
+          "batch": "Winter 2019",
+          "industry": "Industrials",
+          "status": "Inactive"
+        },
+        {
+          "name": "Windwalk",
+          "slug": "windwalk",
+          "batch": "Winter 2019",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Method Financial",
+          "slug": "method-financial",
+          "batch": "Summer 2019",
+          "industry": "Fintech",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Omniref",
+        "slug": "omniref",
+        "batch": "Winter 2015",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Paperspace",
+        "slug": "paperspace",
+        "batch": "Winter 2015",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "ReadMe",
+        "slug": "readme",
+        "batch": "Winter 2015",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Mobydish",
+        "slug": "mobydish",
+        "batch": "Winter 2015",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Yhat",
+        "slug": "yhat",
+        "batch": "Winter 2015",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "GitLab",
+        "slug": "gitlab",
+        "batch": "Winter 2015",
+        "industry": "B2B",
+        "status": "Public",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "SigOpt",
+        "slug": "sigopt",
+        "batch": "Winter 2015",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Mio",
+        "slug": "mio",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "PullRequest",
+        "slug": "pullrequest",
+        "batch": "Summer 2017",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Hoss",
+        "slug": "hoss",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 2907,
+      "network_density_score": 72.2,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:15:17.194309"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:15:17.194320",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:15:17.547376",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:15:17.646273",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 4,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:14.551203",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "medium",
+      "market_stage": "mature",
+      "key_trends": [
+        "Low-code/No-code platforms",
+        "Serverless architectures",
+        "Demand for full-stack development expertise"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Brand recognition and community around the Sails framework.",
+      "differentiation": "Founded by the creators of Sails.js, offering both the framework and professional services.",
+      "competitive_advantages": [
+        "Deep expertise in Sails.js",
+        "Direct access to the framework's creators"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on a single framework",
+        "Competition from larger, more diversified development studios"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "Services (web, mobile, cloud development) and Support",
+      "scalability": "medium",
+      "capital_intensity": "low"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "Demand for Sails.js expertise",
+        "Number of enterprise support contracts"
+      ],
+      "growth_bottlenecks": [
+        "Hiring and retaining skilled Sails.js developers",
+        "Marketing and sales efforts to reach larger clients"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Dependence on the continued popularity of Sails.js",
+        "Competition from alternative frameworks and development approaches",
+        "Difficulty scaling the services business"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong brand recognition within the Sails.js community",
+        "Unique expertise in the framework",
+        "Potential for recurring revenue through support contracts"
+      ],
+      "concerns": [
+        "Limited diversification beyond Sails.js",
+        "Scalability challenges of a services-based business"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Professional services firms specializing in specific frameworks",
+        "Companies offering commercial support for open-source projects"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Expand service offerings to adjacent technologies to reduce reliance on Sails.js",
+        "Develop packaged solutions or products based on Sails.js to improve scalability"
+      ],
+      "expansion_opportunities": [
+        "Training and certification programs for Sails.js developers",
+        "Partnerships with cloud providers or other technology vendors"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 670,
+      "completion": 666,
+      "total": 1336,
+      "estimated_cost": 0.00025
+    }
+  },
+  "phase8_complete": true
+}

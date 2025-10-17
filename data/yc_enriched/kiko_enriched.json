@@ -1,0 +1,621 @@
+{
+  "slug": "kiko",
+  "name": "Kiko",
+  "yc_id": 378,
+  "batch": "Summer 2005",
+  "website": "http://kiko.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:31:57.642922",
+    "website": "http://kiko.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 1014.85,
+      "final_url": "https://bestshop.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:31:58.657785"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "kiko.com",
+      "registrar": "GoDaddy.com, LLC",
+      "creation_date": "2004-07-11T18:29:25",
+      "expiration_date": "2026-07-11T18:29:25",
+      "domain_age_days": 7767,
+      "domain_age_years": 21.3,
+      "name_servers": [
+        "NS37.DOMAINCONTROL.COM",
+        "NS38.DOMAINCONTROL.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": false,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 0,
+      "server": "awselb/2.0"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:13:32.392804",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:04:07.046989",
+    "place_data": {
+      "status": "success",
+      "method": "nominatim",
+      "formatted_address": "Cambridge, Middlesex County, Massachusetts, United States",
+      "coordinates": {
+        "latitude": 42.3656347,
+        "longitude": -71.1040018
+      },
+      "place_types": [
+        "administrative"
+      ],
+      "retrieved_at": "2025-10-17T10:04:08.123058"
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:04:08.127173",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:04:08.127195",
+    "batch_network": {
+      "batch": "Summer 2005",
+      "total_batch_mates": 8,
+      "active_batch_mates": 0,
+      "batch_success_rate": 0.0,
+      "notable_batch_mates": [
+        {
+          "name": "Loopt",
+          "slug": "loopt",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": ""
+        },
+        {
+          "name": "TextPayMe",
+          "slug": "textpayme",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": ""
+        },
+        {
+          "name": "Clickfacts",
+          "slug": "clickfacts",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": ""
+        },
+        {
+          "name": "Reddit",
+          "slug": "reddit",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "The frontpage of the internet."
+        },
+        {
+          "name": "Parakey",
+          "slug": "parakey",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": ""
+        }
+      ],
+      "batch_size": 9
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Productivity"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1969,
+      "direct_competitors": [
+        {
+          "name": "WireOver",
+          "slug": "wireover",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Really secure file sending for big files."
+        },
+        {
+          "name": "SendHub",
+          "slug": "sendhub",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Simple Business SMS. SMBs to Large Enterprise."
+        },
+        {
+          "name": "HackPad",
+          "slug": "hackpad",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "A realtime wiki for getting things done."
+        },
+        {
+          "name": "Screenleap",
+          "slug": "screenleap-inc",
+          "status": "Active",
+          "batch": "Winter 2012",
+          "one_liner": "One-click screen sharing with installation-free viewing on all devices"
+        },
+        {
+          "name": "Glider",
+          "slug": "glider",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "We filter distracting emails away from your inbox."
+        },
+        {
+          "name": "Stypi",
+          "slug": "stypi",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Realtime collaborative coding"
+        },
+        {
+          "name": "Zenbox",
+          "slug": "zenbox",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Brings dozens of SaaS's (Mailchimp, Stripe, Shopify, Salesforce,\u2026"
+        },
+        {
+          "name": "Interstate",
+          "slug": "interstate",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Create & Share Product Roadmaps"
+        },
+        {
+          "name": "Draft",
+          "slug": "draft",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Making Draft. Super simple version control and collaboration for\u2026"
+        },
+        {
+          "name": "TellFi",
+          "slug": "tellfi",
+          "status": "Inactive",
+          "batch": "Winter 2011",
+          "one_liner": "Google Voice for business."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Cambridge",
+      "location": "Cambridge, MA, USA",
+      "companies_in_city": 27,
+      "active_in_city": 15,
+      "nearby_companies": [
+        {
+          "name": "WireOver",
+          "slug": "wireover",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "CO2Stats",
+          "slug": "co2stats",
+          "batch": "Summer 2008",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tsumobi",
+          "slug": "tsumobi",
+          "batch": "Winter 2007",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Likebetter",
+          "slug": "likebetter",
+          "batch": "Summer 2006",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "BIOS Health",
+          "slug": "bios-health",
+          "batch": "Winter 2017",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Cambridge Cancer Genomics",
+          "slug": "cambridge-cancer-genomics",
+          "batch": "Summer 2017",
+          "industry": "Healthcare",
+          "status": "Inactive"
+        },
+        {
+          "name": "Biobot Analytics",
+          "slug": "biobot-analytics",
+          "batch": "Winter 2018",
+          "industry": "Government",
+          "status": "Active"
+        },
+        {
+          "name": "Reverie Labs",
+          "slug": "reverie-labs",
+          "batch": "Winter 2018",
+          "industry": "Healthcare",
+          "status": "Inactive"
+        },
+        {
+          "name": "Swipehouse",
+          "slug": "swipehouse",
+          "batch": "Winter 2018",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Point API",
+          "slug": "point-api",
+          "batch": "Winter 2018",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Radix Labs",
+          "slug": "radix-labs",
+          "batch": "Summer 2018",
+          "industry": "Healthcare",
+          "status": "Inactive"
+        },
+        {
+          "name": "The Supplant Company",
+          "slug": "stem-sugar",
+          "batch": "Summer 2018",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Volta Labs, Inc.",
+          "slug": "volta-labs-inc",
+          "batch": "Winter 2019",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "XGenomes",
+          "slug": "xgenomes",
+          "batch": "Winter 2019",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "OpenBiome",
+          "slug": "openbiome",
+          "batch": "Winter 2020",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Kernal Biologics",
+          "slug": "kernal-biologics",
+          "batch": "Summer 2020",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "CoVerified",
+          "slug": "coverified",
+          "batch": "Winter 2021",
+          "industry": "Healthcare",
+          "status": "Inactive"
+        },
+        {
+          "name": "inBalance",
+          "slug": "inbalance",
+          "batch": "Winter 2021",
+          "industry": "Industrials",
+          "status": "Acquired"
+        },
+        {
+          "name": "Parallel Bio",
+          "slug": "parallel-bio",
+          "batch": "Summer 2021",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Tenyks",
+          "slug": "tenyks",
+          "batch": "Summer 2021",
+          "industry": "B2B",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "WireOver",
+        "slug": "wireover",
+        "batch": "Winter 2012",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Point API",
+        "slug": "point-api",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Clickfacts",
+        "slug": "clickfacts",
+        "batch": "Summer 2005",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Memamp",
+        "slug": "memamp",
+        "batch": "Summer 2005",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Infogami",
+        "slug": "infogami",
+        "batch": "Summer 2005",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Parakey",
+        "slug": "parakey",
+        "batch": "Summer 2005",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "SendHub",
+        "slug": "sendhub",
+        "batch": "Winter 2012",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 5,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "HackPad",
+        "slug": "hackpad",
+        "batch": "Winter 2012",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 5,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Screenleap",
+        "slug": "screenleap-inc",
+        "batch": "Winter 2012",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 5,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Glider",
+        "slug": "glider",
+        "batch": "Winter 2012",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 5,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 2781,
+      "network_density_score": 47.0,
+      "has_strong_batch_network": false,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:04:08.141657"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:04:08.141665",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:04:08.475282",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:04:08.656485",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 0,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:44:24.268538",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "emerging",
+      "key_trends": [
+        "shift from desktop to web applications",
+        "mobile internet adoption accelerating",
+        "collaborative work tools gaining traction"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "early mover advantage in web-based calendaring with mobile integration",
+      "differentiation": "natural language processing for event creation and cross-platform synchronization",
+      "competitive_advantages": [
+        "mobile integration ahead of competitors",
+        "intuitive natural language interface"
+      ],
+      "competitive_vulnerabilities": [
+        "Google entering calendar space",
+        "Microsoft Outlook dominance",
+        "limited resources vs tech giants"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "low"
+    },
+    "growth_assessment": {
+      "growth_stage": "seed",
+      "growth_indicators": [
+        "web 2.0 adoption",
+        "calendar sharing demand"
+      ],
+      "growth_bottlenecks": [
+        "user acquisition costs",
+        "competing against free alternatives"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "high",
+      "technology_risk": "medium",
+      "execution_risk": "high",
+      "overall_risk_score": 8,
+      "key_risks": [
+        "Google Calendar launch imminent",
+        "Microsoft competitive response",
+        "small team execution challenges"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "first-mover in web calendaring",
+        "strong mobile integration vision",
+        "user-friendly natural language interface"
+      ],
+      "concerns": [
+        "team size of zero",
+        "impending big tech competition",
+        "monetization unclear"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "30boxes",
+        "Zimbra"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "build team immediately",
+        "accelerate user acquisition before Google launches"
+      ],
+      "expansion_opportunities": [
+        "enterprise calendar solutions",
+        "calendar API for third-party integration"
+      ]
+    },
+    "tokens_used": {
+      "input": 750,
+      "output": 500,
+      "total": 1250,
+      "estimated_cost": 0.00975
+    }
+  },
+  "phase8_complete": true
+}

@@ -1,0 +1,661 @@
+{
+  "slug": "bountiful",
+  "name": "Bountiful",
+  "yc_id": 1444,
+  "batch": "Winter 2017",
+  "website": "https://bountiful.ag/",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:38:25.465832",
+    "website": "https://bountiful.ag/",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 819.92,
+      "final_url": "https://bountiful.ag/",
+      "redirected": false,
+      "checked_at": "2025-10-17T00:38:26.285774"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "bountiful.ag",
+      "registrar": "GoDaddy.com, LLC",
+      "creation_date": "2019-07-25T23:55:44",
+      "expiration_date": "2026-07-25T23:55:44",
+      "domain_age_days": 2275,
+      "domain_age_years": 6.2,
+      "name_servers": [
+        "ns17.domaincontrol.com",
+        "ns18.domaincontrol.com"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://x.com/BountifulAg",
+      "linkedin": "http://linkedin.com/company/bountifulag",
+      "github": null,
+      "facebook": "https://www.facebook.com/BountifulAg/",
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": true,
+      "x_frame_options": true,
+      "x_content_type_options": true,
+      "x_xss_protection": true,
+      "referrer_policy": true,
+      "security_score": 100,
+      "server": "nginx"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:17:56.835025",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:17:47.914250",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "San Francisco, CA, USA",
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:12:40.434017",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:17:47.914280",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:17:47.914283",
+    "batch_network": {
+      "batch": "Winter 2017",
+      "total_batch_mates": 115,
+      "active_batch_mates": 55,
+      "batch_success_rate": 47.8,
+      "notable_batch_mates": [
+        {
+          "name": "Clear Genetics",
+          "slug": "clear-genetics",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Clear Genetics is scaling delivery of Genomic services"
+        },
+        {
+          "name": "Scribe",
+          "slug": "scribe",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Scribe is an AI based Sales Development Representative that you can\u2026"
+        },
+        {
+          "name": "Loop Support",
+          "slug": "loop-support",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Predict job applicant performance for entry-level support roles"
+        },
+        {
+          "name": "Rippling",
+          "slug": "rippling",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "One place to run all your HR, IT, and Finance. Globally."
+        },
+        {
+          "name": "lvl5",
+          "slug": "lvl5",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "HD maps for self-driving cars."
+        },
+        {
+          "name": "Arthena",
+          "slug": "arthena",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Quantitative Investment in Art Assets "
+        },
+        {
+          "name": "Shipamax",
+          "slug": "shipamax",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Simple, end-to-end automation for logistics orgs"
+        },
+        {
+          "name": "Volansi",
+          "slug": "volansi",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Autonomous VTOL delivery solutions."
+        },
+        {
+          "name": "Soomgo",
+          "slug": "soomgo",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Local services marketplace that connects providers with new customers"
+        },
+        {
+          "name": "Scaphold.io",
+          "slug": "scaphold-io",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The Universal API"
+        }
+      ],
+      "batch_size": 116
+    },
+    "industry_network": {
+      "industries": [
+        "Industrials",
+        "Agriculture"
+      ],
+      "total_industry_peers": 318,
+      "active_industry_peers": 245,
+      "direct_competitors": [
+        {
+          "name": "FarmLogs",
+          "slug": "farmlogs",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Software that helps farmers operate more profitable businesses."
+        },
+        {
+          "name": "Edyn",
+          "slug": "edyn",
+          "status": "Inactive",
+          "batch": "Winter 2014",
+          "one_liner": "Nest for lawn and garden"
+        },
+        {
+          "name": "Terravion",
+          "slug": "terravion",
+          "status": "Inactive",
+          "batch": "Winter 2014",
+          "one_liner": "Real time Google Earth for agriculture -- imagery collected weekly\u2026"
+        },
+        {
+          "name": "Tule",
+          "slug": "tule",
+          "status": "Acquired",
+          "batch": "Summer 2014",
+          "one_liner": "Help farmers make irrigation decisions with sensors / computer vision "
+        },
+        {
+          "name": "Thrive Agritech",
+          "slug": "thrive-agritech",
+          "status": "Active",
+          "batch": "Summer 2015",
+          "one_liner": "We design and manufacture energy efficient LED lighting fixtures for\u2026"
+        },
+        {
+          "name": "PickTrace",
+          "slug": "picktrace",
+          "status": "Active",
+          "batch": "Summer 2015",
+          "one_liner": "Workforce Management for Large Farms"
+        },
+        {
+          "name": "Inevitable Tech",
+          "slug": "inevitable-tech",
+          "status": "Inactive",
+          "batch": "Winter 2016",
+          "one_liner": "To make food a renewable resource, for everyone"
+        },
+        {
+          "name": "Kisan Network",
+          "slug": "kisan-network",
+          "status": "Inactive",
+          "batch": "Winter 2016",
+          "one_liner": "Tech enabled and fully integrated PAN India agri produce supply chain"
+        },
+        {
+          "name": "Trade",
+          "slug": "trade",
+          "status": "Inactive",
+          "batch": "Winter 2017",
+          "one_liner": "We're building Africa's Commodity Exchange. "
+        },
+        {
+          "name": "Cowlar",
+          "slug": "cowlar",
+          "status": "Inactive",
+          "batch": "Winter 2017",
+          "one_liner": "Fitbit for dairy cows. Farms use cowlar's alerts & recommendations to\u2026"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "San Francisco",
+      "location": "San Francisco, CA, USA",
+      "companies_in_city": 2007,
+      "active_in_city": 1339,
+      "nearby_companies": [
+        {
+          "name": "42Floors",
+          "slug": "42floors",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "PlanGrid",
+          "slug": "plangrid",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "MyVR",
+          "slug": "myvr",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Couple",
+          "slug": "couple",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HackPad",
+          "slug": "hackpad",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Gusto",
+          "slug": "gusto",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "FamilyLeaf",
+          "slug": "familyleaf",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Chute",
+          "slug": "chute",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Make School",
+          "slug": "make-school",
+          "batch": "Winter 2012",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Exec",
+          "slug": "exec",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Public"
+        },
+        {
+          "name": "LendUp",
+          "slug": "lendup",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tilt",
+          "slug": "tilt",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fond",
+          "slug": "fond",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Trade",
+        "slug": "trade",
+        "batch": "Winter 2017",
+        "industry": "Industrials",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Cowlar",
+        "slug": "cowlar",
+        "batch": "Winter 2017",
+        "industry": "Industrials",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Volansi",
+        "slug": "volansi",
+        "batch": "Winter 2017",
+        "industry": "Industrials",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Modular Science",
+        "slug": "modular-science",
+        "batch": "Summer 2017",
+        "industry": "Industrials",
+        "status": "Inactive",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Bindwell",
+        "slug": "bindwell",
+        "batch": "Winter 2025",
+        "industry": "Industrials",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Nexa Labs",
+        "slug": "nexa-labs",
+        "batch": "Summer 2025",
+        "industry": "Industrials",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Clear Genetics",
+        "slug": "clear-genetics",
+        "batch": "Winter 2017",
+        "industry": "Healthcare",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Speak",
+        "slug": "speak",
+        "batch": "Winter 2017",
+        "industry": "Consumer",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Pearl",
+        "slug": "pearl",
+        "batch": "Winter 2017",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Sinovia Technologies",
+        "slug": "sinovia-technologies",
+        "batch": "Winter 2017",
+        "industry": "Industrials",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 2440,
+      "network_density_score": 88.4,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:17:47.921569"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:17:47.921573",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:17:48.241701",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:17:48.343015",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 4,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:41:05.459437",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Digital transformation in agriculture",
+        "Precision farming adoption",
+        "Supply chain optimization demand"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Data network effects from farmer usage and proprietary yield prediction algorithms",
+      "differentiation": "Focus on specialty crops with integrated OS approach vs point solutions",
+      "competitive_advantages": [
+        "7+ years of agricultural data collection",
+        "Proven ROI in yield prediction accuracy"
+      ],
+      "competitive_vulnerabilities": [
+        "Large agtech players with more resources",
+        "Potential commoditization of prediction algorithms"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "series-a",
+      "growth_indicators": [
+        "6+ years of operation",
+        "Established domain presence"
+      ],
+      "growth_bottlenecks": [
+        "Farmer adoption cycles",
+        "Integration complexity with existing farm operations"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "low",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Weather dependency affecting model accuracy",
+        "Slow agricultural technology adoption",
+        "Competition from established players"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Large addressable market",
+        "Proven problem-solution fit",
+        "Long operational track record"
+      ],
+      "concerns": [
+        "Agricultural market adoption challenges",
+        "Potential for larger competitors to replicate"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Climate Corporation",
+        "Granular"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Expand to additional specialty crop verticals",
+        "Develop strategic partnerships with equipment manufacturers"
+      ],
+      "expansion_opportunities": [
+        "International markets",
+        "Adjacent agricultural sectors beyond specialty crops"
+      ]
+    },
+    "tokens_used": {
+      "input": 733,
+      "output": 500,
+      "total": 1233,
+      "estimated_cost": 0.009699
+    }
+  },
+  "phase8_complete": true
+}

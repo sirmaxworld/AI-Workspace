@@ -1,0 +1,1399 @@
+{
+  "slug": "aden",
+  "name": "Aden",
+  "yc_id": 13141,
+  "batch": "Winter 2020",
+  "website": "https://adenhq.com/",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:51:46.650012",
+    "website": "https://adenhq.com/",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 2716.62,
+      "final_url": "https://adenhq.com/",
+      "redirected": false,
+      "checked_at": "2025-10-17T00:51:49.366651"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "adenhq.com",
+      "registrar": "GoDaddy.com, LLC",
+      "creation_date": "2024-09-09T01:26:49",
+      "expiration_date": "2027-09-09T01:26:49",
+      "domain_age_days": 402,
+      "domain_age_years": 1.1,
+      "name_servers": [
+        "NS59.DOMAINCONTROL.COM",
+        "NS60.DOMAINCONTROL.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://x.com/aden_hq",
+      "linkedin": "https://linkedin.com/company/teamaden",
+      "github": "https://github.com/acho-dev/aden",
+      "facebook": null,
+      "instagram": null,
+      "youtube": "https://www.youtube.com/@adenhq"
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 16,
+      "server": "Google Frontend"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:23:50.634685",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:23:38.337514",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "San Francisco, CA, USA",
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:12:40.434017",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:23:38.337623",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/acho-dev"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 100,
+        "packages": [
+          {
+            "name": "acho-skin-cli",
+            "description": "A correct levels of logs for create CLI commands",
+            "version": "2.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/acho-skin-cli"
+          },
+          {
+            "name": "acho",
+            "description": "The Hackable Log",
+            "version": "4.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/acho"
+          },
+          {
+            "name": "@acho-inc/acho-js",
+            "description": "Acho Javascript SDK",
+            "version": "1.11.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@acho-inc/acho-js"
+          },
+          {
+            "name": "webpack-dev-middleware",
+            "description": "A development middleware for webpack",
+            "version": "7.4.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/webpack-dev-middleware"
+          },
+          {
+            "name": "existential",
+            "description": "The missing existential operator for JavaScript. Returns true unless a variable is null or undefined",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/existential"
+          },
+          {
+            "name": "webpack-dev-server",
+            "description": "Serves a webpack app. Updates the browser on changes.",
+            "version": "5.2.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/webpack-dev-server"
+          },
+          {
+            "name": "@babel/code-frame",
+            "description": "Generate errors that contain a code frame that point to source locations.",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/code-frame"
+          },
+          {
+            "name": "@babel/parser",
+            "description": "A JavaScript parser",
+            "version": "7.28.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/parser"
+          },
+          {
+            "name": "untildify",
+            "description": "Convert a tilde path to an absolute path: `~/dev` \u2192 `/Users/sindresorhus/dev`",
+            "version": "6.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/untildify"
+          },
+          {
+            "name": "@babel/helpers",
+            "description": "Collection of helper functions used by Babel transforms.",
+            "version": "7.28.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/helpers"
+          },
+          {
+            "name": "@babel/core",
+            "description": "Babel compiler core.",
+            "version": "7.28.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/core"
+          },
+          {
+            "name": "@babel/types",
+            "description": "Babel Types is a Lodash-esque utility library for AST nodes",
+            "version": "7.28.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/types"
+          },
+          {
+            "name": "@babel/generator",
+            "description": "Turns an AST into code.",
+            "version": "7.28.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/generator"
+          },
+          {
+            "name": "@vitest/mocker",
+            "description": "Vitest module mocker implementation",
+            "version": "3.2.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@vitest/mocker"
+          },
+          {
+            "name": "@babel/template",
+            "description": "Generate an AST from a string template.",
+            "version": "7.27.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/template"
+          },
+          {
+            "name": "@babel/helper-define-polyfill-provider",
+            "description": "Babel helper to create your own polyfill provider",
+            "version": "0.6.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/helper-define-polyfill-provider"
+          },
+          {
+            "name": "@babel/traverse",
+            "description": "The Babel Traverse module maintains the overall tree state, and is responsible for replacing, removing, and adding nodes",
+            "version": "7.28.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/traverse"
+          },
+          {
+            "name": "@babel/plugin-syntax-typescript",
+            "description": "Allow parsing of TypeScript syntax",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-syntax-typescript"
+          },
+          {
+            "name": "ts-node-dev",
+            "description": "Compiles your TS app and restarts when files are modified.",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ts-node-dev"
+          },
+          {
+            "name": "@babel/plugin-syntax-class-properties",
+            "description": "Allow parsing of class properties",
+            "version": "7.12.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-syntax-class-properties"
+          },
+          {
+            "name": "@babel/plugin-syntax-nullish-coalescing-operator",
+            "description": "Allow parsing of the nullish-coalescing operator",
+            "version": "7.8.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-syntax-nullish-coalescing-operator"
+          },
+          {
+            "name": "@babel/plugin-syntax-jsx",
+            "description": "Allow parsing of jsx",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-syntax-jsx"
+          },
+          {
+            "name": "@jimp/plugins",
+            "description": "Default Jimp plugin.",
+            "version": "0.22.12",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@jimp/plugins"
+          },
+          {
+            "name": "@babel/plugin-syntax-async-generators",
+            "description": "Allow parsing of async generator functions",
+            "version": "7.8.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-syntax-async-generators"
+          },
+          {
+            "name": "@babel/plugin-syntax-optional-chaining",
+            "description": "Allow parsing of optional properties",
+            "version": "7.8.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-syntax-optional-chaining"
+          },
+          {
+            "name": "@babel/highlight",
+            "description": "Syntax highlight JavaScript strings for output in terminals.",
+            "version": "7.25.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/highlight"
+          },
+          {
+            "name": "@babel/plugin-syntax-optional-catch-binding",
+            "description": "Allow parsing of optional catch bindings",
+            "version": "7.8.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-syntax-optional-catch-binding"
+          },
+          {
+            "name": "@babel/plugin-syntax-top-level-await",
+            "description": "Allow parsing of top-level await in modules",
+            "version": "7.14.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-syntax-top-level-await"
+          },
+          {
+            "name": "@babel/plugin-syntax-numeric-separator",
+            "description": "Allow parsing of Decimal, Binary, Hex and Octal literals that contain a Numeric Literal Separator",
+            "version": "7.10.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-syntax-numeric-separator"
+          },
+          {
+            "name": "@babel/plugin-syntax-logical-assignment-operators",
+            "description": "Allow parsing of the logical assignment operators",
+            "version": "7.10.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-syntax-logical-assignment-operators"
+          },
+          {
+            "name": "@babel/plugin-syntax-bigint",
+            "description": "Allow parsing of BigInt literals",
+            "version": "7.8.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-syntax-bigint"
+          },
+          {
+            "name": "@babel/plugin-transform-block-scoping",
+            "description": "Compile ES2015 block scoping (const and let) to ES5",
+            "version": "7.28.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-block-scoping"
+          },
+          {
+            "name": "@babel/plugin-transform-arrow-functions",
+            "description": "Compile ES2015 arrow functions to ES5",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-arrow-functions"
+          },
+          {
+            "name": "@babel/plugin-transform-function-name",
+            "description": "Apply ES2015 function.name semantics to all functions",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-function-name"
+          },
+          {
+            "name": "@babel/plugin-transform-property-literals",
+            "description": "Ensure that reserved words are quoted in object property keys",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-property-literals"
+          },
+          {
+            "name": "@babel/plugin-syntax-json-strings",
+            "description": "Allow parsing of the U+2028 LINE SEPARATOR and U+2029 PARAGRAPH SEPARATOR in JS strings",
+            "version": "7.8.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-syntax-json-strings"
+          },
+          {
+            "name": "@acho-inc/acho-viz",
+            "description": "<div align=\"center\">   <img align=\"center\" width=\"230\" src=\"acho-logo.png\" />   <blockquote>Acho's visualization library (built on top of d3)</blockquote> </div>",
+            "version": "0.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@acho-inc/acho-viz"
+          },
+          {
+            "name": "clean-stack",
+            "description": "Clean up error stack traces",
+            "version": "5.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/clean-stack"
+          },
+          {
+            "name": "@babel/plugin-transform-classes",
+            "description": "Compile ES2015 classes to ES5",
+            "version": "7.28.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-classes"
+          },
+          {
+            "name": "@babel/plugin-transform-destructuring",
+            "description": "Compile ES2015 destructuring to ES5",
+            "version": "7.28.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-destructuring"
+          },
+          {
+            "name": "@babel/plugin-syntax-import-meta",
+            "description": "Allow parsing of import.meta",
+            "version": "7.10.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-syntax-import-meta"
+          },
+          {
+            "name": "@babel/plugin-transform-unicode-escapes",
+            "description": "Compile ES2015 Unicode escapes to ES5",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-unicode-escapes"
+          },
+          {
+            "name": "@babel/plugin-transform-shorthand-properties",
+            "description": "Compile ES2015 shorthand properties to ES5",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-shorthand-properties"
+          },
+          {
+            "name": "@babel/plugin-transform-parameters",
+            "description": "Compile ES2015 default and rest parameters to ES5",
+            "version": "7.27.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-parameters"
+          },
+          {
+            "name": "expo-dev-menu",
+            "description": "Expo/React Native module with the developer menu.",
+            "version": "7.0.14",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo-dev-menu"
+          },
+          {
+            "name": "@babel/plugin-syntax-object-rest-spread",
+            "description": "Allow parsing of object rest/spread",
+            "version": "7.8.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-syntax-object-rest-spread"
+          },
+          {
+            "name": "@babel/plugin-transform-regenerator",
+            "description": "Explode async and generator functions into a state machine.",
+            "version": "7.28.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-regenerator"
+          },
+          {
+            "name": "@babel/plugin-transform-computed-properties",
+            "description": "Compile ES2015 computed properties to ES5",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-computed-properties"
+          },
+          {
+            "name": "@babel/plugin-transform-unicode-regex",
+            "description": "Compile ES2015 Unicode regex to ES5",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-unicode-regex"
+          },
+          {
+            "name": "@babel/plugin-transform-sticky-regex",
+            "description": "Compile ES2015 sticky regex to an ES5 RegExp constructor",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-sticky-regex"
+          },
+          {
+            "name": "@babel/plugin-transform-modules-umd",
+            "description": "This plugin transforms ES2015 modules to UMD",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-modules-umd"
+          },
+          {
+            "name": "@rspack/dev-server",
+            "description": "Development server for rspack",
+            "version": "1.1.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@rspack/dev-server"
+          },
+          {
+            "name": "@babel/plugin-transform-modules-systemjs",
+            "description": "This plugin transforms ES2015 modules to SystemJS",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-modules-systemjs"
+          },
+          {
+            "name": "@babel/plugin-transform-modules-amd",
+            "description": "This plugin transforms ES2015 modules to AMD",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-modules-amd"
+          },
+          {
+            "name": "@babel/plugin-syntax-private-property-in-object",
+            "description": "Allow parsing of '#foo in obj' brand checks",
+            "version": "7.14.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-syntax-private-property-in-object"
+          },
+          {
+            "name": "@babel/plugin-transform-exponentiation-operator",
+            "description": "Compile exponentiation operator to ES5",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-exponentiation-operator"
+          },
+          {
+            "name": "@babel/plugin-transform-numeric-separator",
+            "description": "Remove numeric separators from Decimal, Binary, Hex and Octal literals",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-numeric-separator"
+          },
+          {
+            "name": "@babel/plugin-syntax-import-assertions",
+            "description": "Allow parsing of the module assertion attributes in the import statement",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-syntax-import-assertions"
+          },
+          {
+            "name": "@babel/plugin-transform-block-scoped-functions",
+            "description": "Babel plugin to ensure function declarations at the block level are block scoped",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-block-scoped-functions"
+          },
+          {
+            "name": "@babel/plugin-syntax-import-attributes",
+            "description": "Allow parsing of the module attributes in the import statement",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-syntax-import-attributes"
+          },
+          {
+            "name": "@babel/plugin-transform-modules-commonjs",
+            "description": "This plugin transforms ES2015 modules to CommonJS",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-modules-commonjs"
+          },
+          {
+            "name": "@babel/plugin-transform-optional-chaining",
+            "description": "Transform optional chaining operators into a series of nil checks",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-optional-chaining"
+          },
+          {
+            "name": "@babel/plugin-transform-spread",
+            "description": "Compile ES2015 spread to ES5",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-spread"
+          },
+          {
+            "name": "@babel/plugin-transform-literals",
+            "description": "Compile ES2015 unicode string and number literals to ES5",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-literals"
+          },
+          {
+            "name": "@babel/plugin-transform-template-literals",
+            "description": "Compile ES2015 template literals to ES5",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-template-literals"
+          },
+          {
+            "name": "@babel/plugin-transform-private-methods",
+            "description": "This plugin transforms private class methods",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-private-methods"
+          },
+          {
+            "name": "@babel/plugin-transform-object-super",
+            "description": "Compile ES2015 object super to ES5",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-object-super"
+          },
+          {
+            "name": "@babel/plugin-transform-typescript",
+            "description": "Transform TypeScript into ES.next",
+            "version": "7.28.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-typescript"
+          },
+          {
+            "name": "@babel/preset-env",
+            "description": "A Babel preset for each environment.",
+            "version": "7.28.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/preset-env"
+          },
+          {
+            "name": "@babel/plugin-syntax-class-static-block",
+            "description": "Allow parsing of class static blocks",
+            "version": "7.14.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-syntax-class-static-block"
+          },
+          {
+            "name": "@babel/plugin-syntax-unicode-sets-regex",
+            "description": "Parse regular expressions' unicodeSets (v) flag.",
+            "version": "7.18.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-syntax-unicode-sets-regex"
+          },
+          {
+            "name": "@babel/plugin-transform-member-expression-literals",
+            "description": "Ensure that reserved words are quoted in property accesses",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-member-expression-literals"
+          },
+          {
+            "name": "@babel/plugin-transform-for-of",
+            "description": "Compile ES2015 for...of to ES5",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-for-of"
+          },
+          {
+            "name": "@babel/plugin-transform-new-target",
+            "description": "Transforms new.target meta property",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-new-target"
+          },
+          {
+            "name": "@babel/plugin-transform-reserved-words",
+            "description": "Ensure that no reserved words are used.",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-reserved-words"
+          },
+          {
+            "name": "@babel/plugin-transform-async-to-generator",
+            "description": "Turn async functions into ES2015 generators",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-async-to-generator"
+          },
+          {
+            "name": "@babel/plugin-transform-dynamic-import",
+            "description": "Transform import() expressions",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-dynamic-import"
+          },
+          {
+            "name": "@babel/plugin-transform-named-capturing-groups-regex",
+            "description": "Compile regular expressions using named groups to ES5.",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-named-capturing-groups-regex"
+          },
+          {
+            "name": "@babel/plugin-transform-typeof-symbol",
+            "description": "This transformer wraps all typeof expressions with a method that replicates native behaviour. (ie. returning \u201csymbol\u201d for symbols)",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-typeof-symbol"
+          },
+          {
+            "name": "@babel/plugin-transform-dotall-regex",
+            "description": "Compile regular expressions using the `s` (`dotAll`) flag to ES5.",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-dotall-regex"
+          },
+          {
+            "name": "@babel/plugin-transform-class-static-block",
+            "description": "Transform class static blocks",
+            "version": "7.28.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-class-static-block"
+          },
+          {
+            "name": "@babel/plugin-transform-duplicate-keys",
+            "description": "Compile objects with duplicate keys to valid strict ES5",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-duplicate-keys"
+          },
+          {
+            "name": "@babel/plugin-transform-react-jsx",
+            "description": "Turn JSX into React function calls",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-react-jsx"
+          },
+          {
+            "name": "@babel/plugin-syntax-dynamic-import",
+            "description": "Allow parsing of import()",
+            "version": "7.8.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-syntax-dynamic-import"
+          },
+          {
+            "name": "@babel/plugin-transform-runtime",
+            "description": "Externalise references to helpers and builtins, automatically polyfilling your code without polluting globals",
+            "version": "7.28.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-runtime"
+          },
+          {
+            "name": "@babel/plugin-transform-class-properties",
+            "description": "This plugin transforms static class properties as well as properties declared with the property initializer syntax",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-class-properties"
+          },
+          {
+            "name": "@babel/plugin-transform-object-rest-spread",
+            "description": "Compile object rest and spread to ES5",
+            "version": "7.28.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-object-rest-spread"
+          },
+          {
+            "name": "@babel/plugin-transform-nullish-coalescing-operator",
+            "description": "Remove nullish coalescing operator",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-nullish-coalescing-operator"
+          },
+          {
+            "name": "@babel/plugin-transform-optional-catch-binding",
+            "description": "Compile optional catch bindings",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-optional-catch-binding"
+          },
+          {
+            "name": "@babel/plugin-transform-regexp-modifiers",
+            "description": "Compile inline regular expression modifiers",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-regexp-modifiers"
+          },
+          {
+            "name": "@babel/preset-typescript",
+            "description": "Babel preset for TypeScript.",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/preset-typescript"
+          },
+          {
+            "name": "@babel/plugin-transform-unicode-sets-regex",
+            "description": "Compile regular expressions' unicodeSets (v) flag.",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-unicode-sets-regex"
+          },
+          {
+            "name": "@babel/plugin-transform-json-strings",
+            "description": "Escape U+2028 LINE SEPARATOR and U+2029 PARAGRAPH SEPARATOR in JS strings",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-json-strings"
+          },
+          {
+            "name": "@babel/plugin-syntax-flow",
+            "description": "Allow parsing of the flow syntax",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-syntax-flow"
+          },
+          {
+            "name": "tildify",
+            "description": "Convert an absolute path to a tilde path: `/Users/sindresorhus/dev` \u2192 `~/dev`",
+            "version": "3.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/tildify"
+          },
+          {
+            "name": "@react-native/dev-middleware",
+            "description": "Dev server middleware for React Native",
+            "version": "0.82.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@react-native/dev-middleware"
+          },
+          {
+            "name": "@babel/plugin-transform-async-generator-functions",
+            "description": "Turn async generator functions into ES2015 generators",
+            "version": "7.28.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-async-generator-functions"
+          },
+          {
+            "name": "@babel/plugin-transform-react-display-name",
+            "description": "Add displayName to React.createClass calls",
+            "version": "7.28.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-react-display-name"
+          },
+          {
+            "name": "@babel/plugin-transform-private-property-in-object",
+            "description": "This plugin transforms checks for a private property in an object",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-private-property-in-object"
+          },
+          {
+            "name": "@babel/plugin-transform-export-namespace-from",
+            "description": "Compile export namespace to ES2015",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-export-namespace-from"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 100,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:23:39.756032"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:23:39.756037",
+    "batch_network": {
+      "batch": "Winter 2020",
+      "total_batch_mates": 228,
+      "active_batch_mates": 148,
+      "batch_success_rate": 64.9,
+      "notable_batch_mates": [
+        {
+          "name": "Zaraz",
+          "slug": "zaraz",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A third-party manager, built for speed. "
+        },
+        {
+          "name": "Phonic",
+          "slug": "phonic",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The best way to collect and analyze voice and video feedback"
+        },
+        {
+          "name": "Okay",
+          "slug": "okay",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Dashboards and actionable insights for high-performing engineering\u2026"
+        },
+        {
+          "name": "Volumetric",
+          "slug": "volumetric",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Volumetric builds living multicellular tissues with a focus on the\u2026"
+        },
+        {
+          "name": "Hoss",
+          "slug": "hoss",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The developer experience platform"
+        },
+        {
+          "name": "FitnessAI",
+          "slug": "fitnessai",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "App offering AI powered workout plans with anytime access to coaches"
+        },
+        {
+          "name": "Flowdash",
+          "slug": "flowdash",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Quickly build internal tools for your ops team's manual workflows"
+        },
+        {
+          "name": "Dashworks",
+          "slug": "dashworks",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Your team's intelligent start page."
+        },
+        {
+          "name": "Eternal",
+          "slug": "zelos",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Own the best moments in streaming"
+        },
+        {
+          "name": "Glimpse",
+          "slug": "glimpse",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A social video chat."
+        }
+      ],
+      "batch_size": 229
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Amiato",
+          "slug": "amiato",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "The BI bridge for unstructured data. We automatically bridge the gap\u2026"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Simple multiplayer game servers."
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Backlift allows front-end only developers to build entire websites\u2026"
+        },
+        {
+          "name": "Documents.Me",
+          "slug": "documents-me",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Client-side encryption for your devices and the cloud."
+        },
+        {
+          "name": "Apollo",
+          "slug": "apollo",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Apollo helps engineering teams accelerate delivery"
+        },
+        {
+          "name": "Proxino",
+          "slug": "proxino",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Javascript proxy."
+        },
+        {
+          "name": "PhoneSys",
+          "slug": "phonesys",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "The Phone System for Sales Teams."
+        },
+        {
+          "name": "Cryptoseal",
+          "slug": "cryptoseal",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Server key management, VPN as a Service, Privacy VPN.  Sold to\u2026"
+        },
+        {
+          "name": "Citus Data",
+          "slug": "citus-data",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Real-time. Big data. PostgreSQL"
+        },
+        {
+          "name": "Realm",
+          "slug": "realm",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Better data structures = no DB."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "San Francisco",
+      "location": "San Francisco, CA, USA",
+      "companies_in_city": 2007,
+      "active_in_city": 1339,
+      "nearby_companies": [
+        {
+          "name": "42Floors",
+          "slug": "42floors",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "PlanGrid",
+          "slug": "plangrid",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "MyVR",
+          "slug": "myvr",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Couple",
+          "slug": "couple",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HackPad",
+          "slug": "hackpad",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Gusto",
+          "slug": "gusto",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "FamilyLeaf",
+          "slug": "familyleaf",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Chute",
+          "slug": "chute",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Make School",
+          "slug": "make-school",
+          "batch": "Winter 2012",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Exec",
+          "slug": "exec",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Public"
+        },
+        {
+          "name": "LendUp",
+          "slug": "lendup",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tilt",
+          "slug": "tilt",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fond",
+          "slug": "fond",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "MindsDB",
+        "slug": "mindsdb",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Replicate",
+        "slug": "replicate",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Cortex",
+        "slug": "cortex",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Airbyte",
+        "slug": "airbyte",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Chaos Genius",
+        "slug": "chaos-genius",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Finlens",
+        "slug": "finlens",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Motion",
+        "slug": "motion",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Zaraz",
+        "slug": "zaraz",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Accord",
+        "slug": "accord",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Okay",
+        "slug": "okay",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 4981,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:23:39.765477"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:23:39.765480",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:23:40.094435",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:23:40.235960",
+    "basic_info": {
+      "is_hiring": true,
+      "team_size": 12,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:12.237073",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "AI-driven automation",
+        "Cloud-based ERP adoption",
+        "Demand for process optimization"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Technology: AI-native architecture and multi-agent system create a defensible technology moat. Customization and rapid deployment also contribute.",
+      "differentiation": "AI-native, multi-agent ERP platform focused on operational efficiency and rapid deployment, unlike traditional ERP systems.",
+      "competitive_advantages": [
+        "AI-powered automation",
+        "Rapid deployment and customization"
+      ],
+      "competitive_vulnerabilities": [
+        "New entrant in a crowded ERP market",
+        "Reliance on AI accuracy and reliability"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "series-a",
+      "growth_indicators": [
+        "Customer acquisition rate",
+        "Expansion within existing accounts"
+      ],
+      "growth_bottlenecks": [
+        "Sales cycle length",
+        "Integration complexity with legacy systems"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Competition from established ERP vendors",
+        "AI model drift and accuracy issues",
+        "Customer adoption and integration challenges"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong AI-driven differentiation",
+        "Focus on operational efficiency",
+        "Rapid deployment capabilities"
+      ],
+      "concerns": [
+        "Market acceptance of AI-native ERP",
+        "Integration challenges with existing systems"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "UiPath",
+        "Automation Anywhere"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on specific industry verticals",
+        "Develop pre-built integrations with common business systems"
+      ],
+      "expansion_opportunities": [
+        "Expand into adjacent operational domains (e.g., logistics)",
+        "Offer AI-powered consulting services"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 702,
+      "completion": 511,
+      "total": 1213,
+      "estimated_cost": 0.000206
+    }
+  },
+  "phase8_complete": true
+}

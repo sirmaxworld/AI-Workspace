@@ -1,0 +1,110 @@
+{
+  "domain": "ai_trends",
+  "display_name": "AI Trends & Emerging Technology",
+  "description": "Latest developments in AI, LLMs, agents, and emerging technologies",
+  
+  "youtube": {
+    "channels": [
+      {
+        "id": "@TwoMinutePapers",
+        "name": "Two Minute Papers",
+        "focus": "AI research paper summaries"
+      },
+      {
+        "id": "@AIExplained-Official",
+        "name": "AI Explained",
+        "focus": "Deep dives into AI developments"
+      },
+      {
+        "id": "@matthew_berman",
+        "name": "Matthew Berman",
+        "focus": "AI tools, models, and tutorials"
+      },
+      {
+        "id": "@WorldofAI",
+        "name": "World of AI",
+        "focus": "Daily AI news and updates"
+      },
+      {
+        "id": "@AllAboutAI",
+        "name": "All About AI",
+        "focus": "AI product reviews and guides"
+      }
+    ],
+    "search_terms": [
+      "Claude AI",
+      "GPT-4",
+      "LLM agents",
+      "AI coding tools",
+      "multimodal AI",
+      "AI regulation"
+    ],
+    "max_videos_per_channel": 50,
+    "days_back": 30
+  },
+  
+  "research": {
+    "arxiv_categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.LG",
+      "cs.CV",
+      "cs.MA"
+    ],
+    "search_queries": [
+      "large language models",
+      "AI agents",
+      "multimodal learning",
+      "retrieval augmented generation",
+      "prompt engineering"
+    ],
+    "max_papers_per_query": 100,
+    "days_back": 90,
+    "semantic_scholar": {
+      "enabled": true,
+      "fields": ["title", "abstract", "authors", "year", "citationCount", "url"]
+    }
+  },
+  
+  "social": {
+    "reddit": {
+      "subreddits": [
+        "MachineLearning",
+        "artificial",
+        "LocalLLaMA",
+        "ArtificialIntelligence",
+        "OpenAI",
+        "ClaudeAI",
+        "singularity"
+      ],
+      "sort": "hot",
+      "time_filter": "week",
+      "max_posts_per_sub": 50
+    },
+    "twitter": {
+      "enabled": false,
+      "note": "Twitter API requires paid access ($100/mo)",
+      "hashtags": ["#AI", "#LLM", "#MachineLearning"],
+      "accounts": []
+    }
+  },
+  
+  "sentiment": {
+    "enabled": true,
+    "method": "vader",
+    "sources": ["reddit", "youtube_comments"]
+  },
+  
+  "knowledge_base": {
+    "collection_name": "ai_trends_kb",
+    "embedding_model": "text-embedding-3-small",
+    "chunk_size": 500,
+    "chunk_overlap": 50
+  },
+  
+  "schedule": {
+    "youtube": "daily",
+    "research": "daily",
+    "social": "daily"
+  }
+}

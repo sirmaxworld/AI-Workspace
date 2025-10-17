@@ -1,0 +1,540 @@
+{
+  "slug": "interana",
+  "name": "Scuba",
+  "yc_id": 473,
+  "batch": "Winter 2013",
+  "website": "https://www.scuba.io",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:32:50.455938",
+    "website": "https://www.scuba.io",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 525.91,
+      "final_url": "https://behavure.ai/?ref=redirect",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:32:50.981856"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "scuba.io",
+      "registrar": "GoDaddy.com, LLC",
+      "creation_date": "2012-02-28T15:30:11",
+      "expiration_date": "2026-02-28T15:30:11",
+      "domain_age_days": 4979,
+      "domain_age_years": 13.6,
+      "name_servers": [
+        "pdns11.domaincontrol.com",
+        "pdns12.domaincontrol.com"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://x.com/Behavure",
+      "linkedin": "https://www.linkedin.com/company/behavure/",
+      "github": "https://github.com/behavure",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": true,
+      "x_frame_options": true,
+      "x_content_type_options": true,
+      "x_xss_protection": true,
+      "referrer_policy": true,
+      "security_score": 100,
+      "server": "Vercel"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:13:50.918921",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:05:36.049200",
+    "place_data": {
+      "status": "success",
+      "method": "nominatim",
+      "formatted_address": "Scuba, Via Giovanna Murari Br\u00e0, Golosine, Sud-Ovest, Verona, Veneto, 37136, Italia",
+      "coordinates": {
+        "latitude": 45.4208523,
+        "longitude": 10.9761219
+      },
+      "place_types": [
+        "cafe"
+      ],
+      "retrieved_at": "2025-10-17T10:05:36.193818"
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:05:36.194362",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/behavure"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 0,
+      "has_packages": false,
+      "checked_at": "2025-10-17T10:05:37.975464"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:05:37.975499",
+    "batch_network": {
+      "batch": "Winter 2013",
+      "total_batch_mates": 45,
+      "active_batch_mates": 18,
+      "batch_success_rate": 40.0,
+      "notable_batch_mates": [
+        {
+          "name": "Screenhero",
+          "slug": "screenhero",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Collaborative Screen Sharing \u2014\u00a0you each get your own mouse, and\u2026"
+        },
+        {
+          "name": "North",
+          "slug": "north",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Wearable computing hardware: biosignal gesture recognition"
+        },
+        {
+          "name": "VaycayHero",
+          "slug": "vaycayhero",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "VaycayHero is a marketplace of professionally managed vacation\u2026"
+        },
+        {
+          "name": "Fivetran",
+          "slug": "fivetran",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "The leader in automated data movement"
+        },
+        {
+          "name": "GrepData",
+          "slug": "grepdata",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Big Data Analytics"
+        },
+        {
+          "name": "Bitnami",
+          "slug": "bitnami",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The App Store for Server Software"
+        },
+        {
+          "name": "Meldium",
+          "slug": "meldium",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Simple password & identity management for teams. Acquired by LogMeIn\u2026"
+        },
+        {
+          "name": "Heap",
+          "slug": "heap",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Captures user interactions with no code to generate analytics."
+        },
+        {
+          "name": "MedXT",
+          "slug": "medxt",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Radiology in the cloud.  X-rays, CAT scans, MRI's, and\u2026"
+        },
+        {
+          "name": "Coin",
+          "slug": "coin",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A mobile wallet that allows you to pay everywhere credit cards are\u2026"
+        }
+      ],
+      "batch_size": 46
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Analytics"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1969,
+      "direct_competitors": [
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "status": "Public",
+          "batch": "Winter 2012",
+          "one_liner": "Digital Analytics Platform"
+        },
+        {
+          "name": "Freshplum",
+          "slug": "freshplum",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Analytics with action"
+        },
+        {
+          "name": "Segment",
+          "slug": "segment",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Software and APIs to collect, clean, and control customer data."
+        },
+        {
+          "name": "Pagelever",
+          "slug": "pagelever",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Facebook analytics. Acquired by Unified in January 2013. \r\n"
+        },
+        {
+          "name": "Custora",
+          "slug": "custora",
+          "status": "Acquired",
+          "batch": "Winter 2011",
+          "one_liner": "Custora is a predictive analytics platform for e-commerce marketing\u2026"
+        },
+        {
+          "name": "Chartio",
+          "slug": "chartio",
+          "status": "Acquired",
+          "batch": "Summer 2010",
+          "one_liner": "Chartio is changing how companies work by building the best\u2026"
+        },
+        {
+          "name": "Data Marketplace",
+          "slug": "data-marketplace",
+          "status": "Inactive",
+          "batch": "Winter 2010",
+          "one_liner": ""
+        },
+        {
+          "name": "Mixpanel",
+          "slug": "mixpanel",
+          "status": "Active",
+          "batch": "Summer 2009",
+          "one_liner": "Mixpanel is event analytics for builders that need answers."
+        },
+        {
+          "name": "Poll Everywhere",
+          "slug": "poll-everywhere",
+          "status": "Active",
+          "batch": "Summer 2008",
+          "one_liner": "Interactive meetings and presentations"
+        },
+        {
+          "name": "Infogami",
+          "slug": "infogami",
+          "status": "Inactive",
+          "batch": "Summer 2005",
+          "one_liner": ""
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "status": "no_location_data"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "GrepData",
+        "slug": "grepdata",
+        "batch": "Winter 2013",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Heap",
+        "slug": "heap",
+        "batch": "Winter 2013",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "CircuitLab",
+        "slug": "circuitlab",
+        "batch": "Winter 2013",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Screenhero",
+        "slug": "screenhero",
+        "batch": "Winter 2013",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Appcubator",
+        "slug": "appcubator",
+        "batch": "Winter 2013",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Swish",
+        "slug": "swish",
+        "batch": "Winter 2013",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "PayTango",
+        "slug": "paytango",
+        "batch": "Winter 2013",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Trainzen",
+        "slug": "trainzen",
+        "batch": "Winter 2013",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Padlet",
+        "slug": "padlet",
+        "batch": "Winter 2013",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Fivetran",
+        "slug": "fivetran",
+        "batch": "Winter 2013",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 2791,
+      "network_density_score": 49.0,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": false,
+      "calculated_at": "2025-10-17T10:05:37.993064"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:05:37.993073",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:05:38.329547",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:05:38.463103",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 51,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:42:11.102063",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increasing data volumes",
+        "Demand for real-time analytics",
+        "Shift towards self-service analytics"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Technology: Focus on speed and scalability for event-based data.",
+      "differentiation": "Speed and scalability for event-based analytics, enabling faster insights.",
+      "competitive_advantages": [
+        "Fast query performance",
+        "Scalable architecture"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on specific data types (event-based)",
+        "Potential competition from larger analytics platforms"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "Customer acquisition rate",
+        "Revenue growth"
+      ],
+      "growth_bottlenecks": [
+        "Sales cycle length",
+        "Competition"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Competition from larger players",
+        "Changing data privacy regulations",
+        "Integration challenges with existing systems"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong technology for event-based analytics",
+        "Addresses a growing market need",
+        "Successful acquisition validates the model"
+      ],
+      "concerns": [
+        "Reliance on a specific niche",
+        "Potential for disruption by new technologies"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Amplitude",
+        "Mixpanel"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Continue to innovate on speed and scalability",
+        "Expand integrations with other data sources"
+      ],
+      "expansion_opportunities": [
+        "Target specific verticals with high event data volumes",
+        "Offer more advanced analytics features"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 699,
+      "completion": 573,
+      "total": 1272,
+      "estimated_cost": 0.000224
+    }
+  },
+  "phase8_complete": true
+}

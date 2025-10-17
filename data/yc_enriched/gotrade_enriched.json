@@ -1,0 +1,525 @@
+{
+  "slug": "gotrade",
+  "name": "Gotrade",
+  "yc_id": 12829,
+  "batch": "Summer 2019",
+  "website": "https://www.heygotrade.com/",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:50:07.647750",
+    "website": "https://www.heygotrade.com/",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 3027.19,
+      "final_url": "https://www.heygotrade.com/",
+      "redirected": false,
+      "checked_at": "2025-10-17T00:50:10.674960"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "heygotrade.com",
+      "registrar": "NAMECHEAP INC",
+      "creation_date": "2020-04-09T02:48:47",
+      "expiration_date": "2026-04-09T02:48:47",
+      "domain_age_days": 2016,
+      "domain_age_years": 5.5,
+      "name_servers": [
+        "NS-1527.AWSDNS-62.ORG",
+        "NS-1782.AWSDNS-30.CO.UK",
+        "NS-41.AWSDNS-05.COM",
+        "NS-769.AWSDNS-32.NET"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/realheygotrade",
+      "linkedin": "https://www.linkedin.com/company/tr8",
+      "github": null,
+      "facebook": "https://www.facebook.com/heygotrade",
+      "instagram": "https://www.instagram.com/heygotrade",
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": false,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 0,
+      "server": "AmazonS3"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:23:12.299092",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:23:01.827147",
+    "place_data": {
+      "status": "success",
+      "method": "nominatim",
+      "formatted_address": "Earth, Lamb County, Texas, United States",
+      "coordinates": {
+        "latitude": 34.2331373,
+        "longitude": -102.4107493
+      },
+      "place_types": [
+        "administrative"
+      ],
+      "retrieved_at": "2025-10-17T10:23:02.141083"
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:23:02.144224",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:23:02.144243",
+    "batch_network": {
+      "batch": "Summer 2019",
+      "total_batch_mates": 175,
+      "active_batch_mates": 113,
+      "batch_success_rate": 64.6,
+      "notable_batch_mates": [
+        {
+          "name": "Together Software",
+          "slug": "together-software",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Learn from the experts at your company. "
+        },
+        {
+          "name": "PopSQL",
+          "slug": "popsql",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "SQL editor for teams"
+        },
+        {
+          "name": "Cuboh",
+          "slug": "cuboh",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "We help restaurants manage their online orders."
+        },
+        {
+          "name": "Palifer",
+          "slug": "palifer",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Predictive maintenance models for trains and heavy industry"
+        },
+        {
+          "name": "Symplex",
+          "slug": "symplex",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Applied Reinforcement Learning Research Laboratory"
+        },
+        {
+          "name": "Kraftful",
+          "slug": "kraftful",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Copilot for product teams"
+        },
+        {
+          "name": "Odeko",
+          "slug": "odeko",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "Our operations software makes it easier to run--and grow--your cafe"
+        },
+        {
+          "name": "Bayes",
+          "slug": "bayes",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": ""
+        },
+        {
+          "name": "Voyage Biomedical",
+          "slug": "voyage-biomedical",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Using cooling to end brain damage during stroke."
+        },
+        {
+          "name": "Intersect Labs",
+          "slug": "intersect-labs",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Collaborative data noteboook for business teams"
+        }
+      ],
+      "batch_size": 176
+    },
+    "industry_network": {
+      "industries": [
+        "Fintech",
+        "Consumer Finance"
+      ],
+      "total_industry_peers": 597,
+      "active_industry_peers": 447,
+      "direct_competitors": [
+        {
+          "name": "Tilt",
+          "slug": "tilt",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Mobile crowdfunding: The easiest way to collect, fundraise, and sell\u2026"
+        },
+        {
+          "name": "Debteye",
+          "slug": "debteye",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Automate credit counseling."
+        },
+        {
+          "name": "GoCardless",
+          "slug": "gocardless",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "We\u2019re building the world\u2019s bank payment network."
+        },
+        {
+          "name": "MarketBrief",
+          "slug": "marketbrief",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Generate stories from SEC filings."
+        },
+        {
+          "name": "Leaky",
+          "slug": "leaky",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Online auto and business insurance. (Acquired 2013)"
+        },
+        {
+          "name": "Balanced",
+          "slug": "balanced",
+          "status": "Inactive",
+          "batch": "Winter 2011",
+          "one_liner": "Payments for Marketplaces"
+        },
+        {
+          "name": "FutureAdvisor",
+          "slug": "futureadvisor",
+          "status": "Acquired",
+          "batch": "Summer 2010",
+          "one_liner": "The online financial management service for everyone."
+        },
+        {
+          "name": "Ready For Zero",
+          "slug": "ready-for-zero",
+          "status": "Inactive",
+          "batch": "Summer 2010",
+          "one_liner": "Personal debt and credit management. Acquired by Avant in 2015."
+        },
+        {
+          "name": "Buxfer",
+          "slug": "buxfer",
+          "status": "Active",
+          "batch": "Winter 2007",
+          "one_liner": "Buxfer helps you make better spending decisions by making it easy to\u2026"
+        },
+        {
+          "name": "TextPayMe",
+          "slug": "textpayme",
+          "status": "Acquired",
+          "batch": "Summer 2005",
+          "one_liner": ""
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Earth",
+      "location": "Earth, TX, USA",
+      "companies_in_city": 0,
+      "active_in_city": 0,
+      "nearby_companies": [],
+      "ecosystem_density": "low"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Swadesh",
+        "slug": "swadesh",
+        "batch": "Summer 2019",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Path",
+        "slug": "path",
+        "batch": "Summer 2019",
+        "industry": "Fintech",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Sable",
+        "slug": "sable",
+        "batch": "Summer 2019",
+        "industry": "Fintech",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Rainbow",
+        "slug": "rainbow",
+        "batch": "Summer 2019",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Compound",
+        "slug": "compound",
+        "batch": "Summer 2019",
+        "industry": "Fintech",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Zippi",
+        "slug": "zippi",
+        "batch": "Summer 2019",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Vouch",
+        "slug": "vouch",
+        "batch": "Summer 2019",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Lofty",
+        "slug": "lofty",
+        "batch": "Summer 2019",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Method Financial",
+        "slug": "method-financial",
+        "batch": "Summer 2019",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Zeal",
+        "slug": "zeal",
+        "batch": "Summer 2019",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 772,
+      "network_density_score": 75.0,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": false,
+      "calculated_at": "2025-10-17T10:23:02.208975"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:23:02.208984",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:23:02.548761",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:23:02.670411",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 22,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:39:17.368855",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Global retail investing democratization",
+        "Fractional share adoption",
+        "Mobile-first financial services in emerging markets"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "First-mover advantage in underserved international markets with regulatory compliance infrastructure",
+      "differentiation": "Commission-free fractional US stock trading for global users outside traditional brokerage reach",
+      "competitive_advantages": [
+        "International market focus",
+        "Fractional share accessibility",
+        "Mobile-native platform"
+      ],
+      "competitive_vulnerabilities": [
+        "Regulatory dependency",
+        "Limited to US stocks only",
+        "Competition from local brokers expanding internationally"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "Payment for order flow and premium subscriptions",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "series-a",
+      "growth_indicators": [
+        "5.5 year domain age showing persistence",
+        "22-person team indicating scale",
+        "Active status post-2019"
+      ],
+      "growth_bottlenecks": [
+        "Regulatory approval in new markets",
+        "Customer acquisition costs",
+        "Currency conversion complexities"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Regulatory changes in target markets",
+        "Competition from established players",
+        "Dependence on US market performance"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Large addressable market",
+        "Proven team execution over 5+ years",
+        "Clear value proposition for underserved markets"
+      ],
+      "concerns": [
+        "Intense competition from well-funded incumbents",
+        "Regulatory complexity across multiple jurisdictions"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Robinhood",
+        "eToro",
+        "Trading 212"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Expand to additional asset classes beyond US stocks",
+        "Develop local partnerships for market entry"
+      ],
+      "expansion_opportunities": [
+        "Cryptocurrency trading",
+        "Local stock market access",
+        "Financial education and advisory services"
+      ]
+    },
+    "tokens_used": {
+      "input": 647,
+      "output": 568,
+      "total": 1215,
+      "estimated_cost": 0.010461
+    }
+  },
+  "phase8_complete": true
+}

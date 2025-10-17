@@ -1,0 +1,652 @@
+{
+  "slug": "promise",
+  "name": "Promise",
+  "yc_id": 1769,
+  "batch": "Winter 2018",
+  "website": "http://promise-pay.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:40:51.679622",
+    "website": "http://promise-pay.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 5350.97,
+      "final_url": "https://www.promise-pay.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:40:57.030603"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "promise-pay.com",
+      "registrar": "Cloudflare, Inc.",
+      "creation_date": "2019-08-17T18:35:20",
+      "expiration_date": "2026-08-17T18:35:20",
+      "domain_age_days": 2252,
+      "domain_age_years": 6.2,
+      "name_servers": [
+        "GERALD.NS.CLOUDFLARE.COM",
+        "NANCY.NS.CLOUDFLARE.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": "https://www.linkedin.com/company/joinpromise",
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": "https://www.youtube.com/watch?v=NUcVNfsoPxU"
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": true,
+      "x_frame_options": true,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 50,
+      "server": "Unknown"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:19:39.089812",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:19:29.360611",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "Oakland, CA, USA",
+      "coordinates": {
+        "latitude": 37.8044,
+        "longitude": -122.2712
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:14:20.286759",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:29.360636",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:29.360638",
+    "batch_network": {
+      "batch": "Winter 2018",
+      "total_batch_mates": 145,
+      "active_batch_mates": 83,
+      "batch_success_rate": 57.2,
+      "notable_batch_mates": [
+        {
+          "name": "Newfront",
+          "slug": "newfront-insurance",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "Modern insurance brokerage."
+        },
+        {
+          "name": "Mayhem",
+          "slug": "mayhem",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Mayhem is the easiest way to play with your gaming community."
+        },
+        {
+          "name": "Pulse",
+          "slug": "pulse-2",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "We're crowdsourced Gartner so IT executives can learn directly from\u2026"
+        },
+        {
+          "name": "Bear Flag Robotics",
+          "slug": "bear-flag-robotics",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Autonomous driving technology for farm tractors."
+        },
+        {
+          "name": "ClearBrain",
+          "slug": "clearbrain",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Causal Analytics for Growth Teams"
+        },
+        {
+          "name": "Sepsis Scout",
+          "slug": "sepsis-scout",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Wearables and AI to predict and prevent sepsis outside the hospital"
+        },
+        {
+          "name": "onederful",
+          "slug": "onederful",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Dental Insurance API"
+        },
+        {
+          "name": "CodeStream",
+          "slug": "codestream",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "CodeStream is a Developer Collaboration Platform designed to\u2026"
+        },
+        {
+          "name": "Glimpse K12",
+          "slug": "glimpse-k12",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Glimpse eliminates ineffective spending in schools."
+        },
+        {
+          "name": "Squad",
+          "slug": "squad",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Squad is an app for live communities to have shared experiences\u2026"
+        }
+      ],
+      "batch_size": 146
+    },
+    "industry_network": {
+      "industries": [
+        "Government"
+      ],
+      "total_industry_peers": 39,
+      "active_industry_peers": 29,
+      "direct_competitors": [
+        {
+          "name": "GovPredict",
+          "slug": "govpredict",
+          "status": "Acquired",
+          "batch": "Summer 2014",
+          "one_liner": "The system of record for government affairs."
+        },
+        {
+          "name": "Remix",
+          "slug": "remix",
+          "status": "Acquired",
+          "batch": "Winter 2015",
+          "one_liner": "We\u2019re building a platform to empower cities to plan the best possible\u2026"
+        },
+        {
+          "name": "Rescue Forensics",
+          "slug": "rescue-forensics",
+          "status": "Inactive",
+          "batch": "Winter 2015",
+          "one_liner": "Actionable human trafficking intelligence"
+        },
+        {
+          "name": "Zenysis",
+          "slug": "zenysis",
+          "status": "Active",
+          "batch": "Winter 2016",
+          "one_liner": "Building powerful data analysis software for developing countries."
+        },
+        {
+          "name": "Seneca Systems",
+          "slug": "seneca-systems",
+          "status": "Acquired",
+          "batch": "Summer 2016",
+          "one_liner": "Constituent system-of-record and service request management software\u2026"
+        },
+        {
+          "name": "DemocracyOS",
+          "slug": "democracyos",
+          "status": "Active",
+          "batch": "Winter 2015",
+          "one_liner": "Online space for deliberation, policy making and democratic\u2026"
+        },
+        {
+          "name": "Token Transit",
+          "slug": "token-transit",
+          "status": "Active",
+          "batch": "Winter 2017",
+          "one_liner": "Complete fare payment platform for public transportation"
+        },
+        {
+          "name": "Elucd",
+          "slug": "elucd",
+          "status": "Acquired",
+          "batch": "Summer 2017",
+          "one_liner": "Polling through mobile ads to enable governments to make better\u2026"
+        },
+        {
+          "name": "Value Voting",
+          "slug": "value-voting",
+          "status": "Inactive",
+          "batch": "Summer 2017",
+          "one_liner": "Platform to defeat political extremism through strategic primary\u2026"
+        },
+        {
+          "name": "RideAlong",
+          "slug": "ridealong",
+          "status": "Inactive",
+          "batch": "Summer 2017",
+          "one_liner": "We save lives by giving police and health workers key info to safely\u2026"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Oakland",
+      "location": "Oakland, CA, USA",
+      "companies_in_city": 38,
+      "active_in_city": 23,
+      "nearby_companies": [
+        {
+          "name": "Fivetran",
+          "slug": "fivetran",
+          "batch": "Winter 2013",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Chargehound",
+          "slug": "chargehound",
+          "batch": "Winter 2014",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Edyn",
+          "slug": "edyn",
+          "batch": "Winter 2014",
+          "industry": "Industrials",
+          "status": "Inactive"
+        },
+        {
+          "name": "Final",
+          "slug": "final",
+          "batch": "Winter 2015",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "The Human Utility",
+          "slug": "the-human-utility",
+          "batch": "Winter 2015",
+          "industry": "Unspecified",
+          "status": "Active"
+        },
+        {
+          "name": "Teleport",
+          "slug": "teleport",
+          "batch": "Summer 2015",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "SourceDNA",
+          "slug": "sourcedna",
+          "batch": "Summer 2015",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Shotput",
+          "slug": "shotput",
+          "batch": "Summer 2015",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Patchwork Security",
+          "slug": "patchwork-security",
+          "batch": "Winter 2016",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Hingeto",
+          "slug": "hingeto",
+          "batch": "Winter 2016",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Perlara",
+          "slug": "perlara",
+          "batch": "Winter 2016",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Emote",
+          "slug": "emote",
+          "batch": "Summer 2016",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Suiteness",
+          "slug": "suiteness",
+          "batch": "Summer 2016",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Elemeno Health",
+          "slug": "elemeno-health",
+          "batch": "Summer 2016",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "UtilityScore (formerly Pando)",
+          "slug": "utilityscore",
+          "batch": "Summer 2016",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "boxouse",
+          "slug": "boxouse",
+          "batch": "Winter 2017",
+          "industry": "Real Estate and Construction",
+          "status": "Inactive"
+        },
+        {
+          "name": "Rev Genomics",
+          "slug": "rev-genomics",
+          "batch": "Summer 2017",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Mighty Buildings",
+          "slug": "mighty-buildings",
+          "batch": "Winter 2018",
+          "industry": "Real Estate and Construction",
+          "status": "Active"
+        },
+        {
+          "name": "tEQuitable",
+          "slug": "tequitable",
+          "batch": "Winter 2018",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Elpha",
+          "slug": "elpha",
+          "batch": "Summer 2019",
+          "industry": "Consumer",
+          "status": "Inactive"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Mighty Buildings",
+        "slug": "mighty-buildings",
+        "batch": "Winter 2018",
+        "industry": "Real Estate and Construction",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Biobot Analytics",
+        "slug": "biobot-analytics",
+        "batch": "Winter 2018",
+        "industry": "Government",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "tEQuitable",
+        "slug": "tequitable",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Newfront",
+        "slug": "newfront-insurance",
+        "batch": "Winter 2018",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 4,
+        "similarity_reasons": [
+          "same_batch",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Lucy Goods, Inc",
+        "slug": "lucy-goods-inc",
+        "batch": "Winter 2018",
+        "industry": "Consumer",
+        "status": "Active",
+        "similarity_score": 4,
+        "similarity_reasons": [
+          "same_batch",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Proven Group",
+        "slug": "proven-group",
+        "batch": "Winter 2018",
+        "industry": "Consumer",
+        "status": "Active",
+        "similarity_score": 4,
+        "similarity_reasons": [
+          "same_batch",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Sketchbox",
+        "slug": "sketchbox",
+        "batch": "Winter 2018",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 4,
+        "similarity_reasons": [
+          "same_batch",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Precious",
+        "slug": "precious",
+        "batch": "Winter 2018",
+        "industry": "Consumer",
+        "status": "Active",
+        "similarity_score": 4,
+        "similarity_reasons": [
+          "same_batch",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Mayhem",
+        "slug": "mayhem",
+        "batch": "Winter 2018",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 4,
+        "similarity_reasons": [
+          "same_batch",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Quantstamp",
+        "slug": "quantstamp",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 4,
+        "similarity_reasons": [
+          "same_batch",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 222,
+      "network_density_score": 39.7,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": false,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:19:29.365456"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:29.365461",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:29.692176",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:29.797379",
+    "basic_info": {
+      "is_hiring": true,
+      "team_size": 80,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:44:24.973121",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "emerging",
+      "key_trends": [
+        "Digital government transformation",
+        "Focus on citizen experience improvement",
+        "Revenue recovery optimization for cash-strapped municipalities"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Government relationships and compliance expertise combined with specialized payment infrastructure",
+      "differentiation": "Dual focus on government revenue recovery and citizen payment flexibility with humane approach",
+      "competitive_advantages": [
+        "Deep government domain expertise",
+        "Established client relationships and trust"
+      ],
+      "competitive_vulnerabilities": [
+        "Long government sales cycles",
+        "Potential for large incumbents to enter market"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "80-person team size indicates significant traction",
+        "6+ years of domain expertise and market presence"
+      ],
+      "growth_bottlenecks": [
+        "Government procurement timelines",
+        "Need for compliance certifications across jurisdictions"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Regulatory changes in government payment systems",
+        "Budget constraints in government sector",
+        "Competition from established fintech players"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Large addressable market with high switching costs",
+        "Mission-driven approach aligns with social impact trends",
+        "Proven team execution with substantial growth"
+      ],
+      "concerns": [
+        "Government sales cycle complexity",
+        "Dependence on public sector budget cycles"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Tyler Technologies",
+        "Govtech startups like Citibeats"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Expand to adjacent government payment verticals",
+        "Build strategic partnerships with major government software vendors"
+      ],
+      "expansion_opportunities": [
+        "International government markets",
+        "Integration with broader civic engagement platforms"
+      ]
+    },
+    "tokens_used": {
+      "input": 659,
+      "output": 534,
+      "total": 1193,
+      "estimated_cost": 0.009987
+    }
+  },
+  "phase8_complete": true
+}

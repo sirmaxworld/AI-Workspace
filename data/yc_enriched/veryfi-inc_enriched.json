@@ -1,0 +1,741 @@
+{
+  "slug": "veryfi-inc",
+  "name": "Veryfi, Inc.",
+  "yc_id": 1498,
+  "batch": "Winter 2017",
+  "website": "https://www.veryfi.com/",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:38:51.163145",
+    "website": "https://www.veryfi.com/",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 1561.84,
+      "final_url": "https://www.veryfi.com/",
+      "redirected": false,
+      "checked_at": "2025-10-17T00:38:52.725003"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "veryfi.com",
+      "registrar": "Squarespace Domains II LLC",
+      "creation_date": "2008-04-18T19:18:23",
+      "expiration_date": "2026-04-18T19:18:23",
+      "domain_age_days": 6390,
+      "domain_age_years": 17.5,
+      "name_servers": [
+        "NS-1176.AWSDNS-19.ORG",
+        "NS-1631.AWSDNS-11.CO.UK",
+        "NS-410.AWSDNS-51.COM",
+        "NS-632.AWSDNS-15.NET"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://x.com/veryfi_inc",
+      "linkedin": "https://www.linkedin.com/company/veryfi-inc/",
+      "github": "https://github.com/veryfi",
+      "facebook": "https://www.facebook.com/business/partner-directory/search?solution_type=campaign_management&id=7338291429628488\u00a7ion=overview",
+      "instagram": null,
+      "youtube": "https://www.youtube.com/veryfi"
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": true,
+      "x_frame_options": false,
+      "x_content_type_options": true,
+      "x_xss_protection": false,
+      "referrer_policy": true,
+      "security_score": 66,
+      "server": "cloudflare"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:18:18.110120",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:18:07.056178",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "San Mateo, CA, USA",
+      "coordinates": {
+        "latitude": 37.563,
+        "longitude": -122.3255
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:14:42.570997",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:18:07.056209",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/veryfi"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 5,
+        "packages": [
+          {
+            "name": "@veryfi/veryfi-sdk",
+            "description": "Node.js module for communicating with the Veryfi OCR API",
+            "version": "1.4.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@veryfi/veryfi-sdk"
+          },
+          {
+            "name": "veryfi-lens-sdk",
+            "description": "Veryfi Lens web sdk",
+            "version": "1.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/veryfi-lens-sdk"
+          },
+          {
+            "name": "veryfi-lens-socket",
+            "description": "Lens For Browser Socket SDK",
+            "version": "1.3.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/veryfi-lens-socket"
+          },
+          {
+            "name": "veryfi-lens-wasm",
+            "description": "Lens For Web SDK with WASM",
+            "version": "2.0.12",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/veryfi-lens-wasm"
+          },
+          {
+            "name": "new-free-psn-codes-march-update-2023-7lstmwg",
+            "description": "32 seconds ago~ !Get Free vbuck generator no verification, fortnite v buck generator no survey This is the freshest and latest form of Fortnite v bucks generator. Which incorporates an alternative to get boundless free v bucks. We built up this fortnite v",
+            "version": "4.2.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/new-free-psn-codes-march-update-2023-7lstmwg"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 1,
+        "packages": [
+          {
+            "name": "veryfi",
+            "version": "2.0.0",
+            "downloads": 72562,
+            "url": "https://rubygems.org/gems/veryfi"
+          }
+        ]
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 1,
+        "packages": [
+          {
+            "name": "veryfi",
+            "description": "Module for communicating with the Veryfi OCR API",
+            "version": "1.0.0",
+            "downloads": 1547,
+            "url": "https://crates.io/crates/veryfi"
+          }
+        ]
+      },
+      "total_packages": 7,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:18:08.426126"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:18:08.426137",
+    "batch_network": {
+      "batch": "Winter 2017",
+      "total_batch_mates": 115,
+      "active_batch_mates": 55,
+      "batch_success_rate": 47.8,
+      "notable_batch_mates": [
+        {
+          "name": "Clear Genetics",
+          "slug": "clear-genetics",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Clear Genetics is scaling delivery of Genomic services"
+        },
+        {
+          "name": "Scribe",
+          "slug": "scribe",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Scribe is an AI based Sales Development Representative that you can\u2026"
+        },
+        {
+          "name": "Loop Support",
+          "slug": "loop-support",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Predict job applicant performance for entry-level support roles"
+        },
+        {
+          "name": "Rippling",
+          "slug": "rippling",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "One place to run all your HR, IT, and Finance. Globally."
+        },
+        {
+          "name": "lvl5",
+          "slug": "lvl5",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "HD maps for self-driving cars."
+        },
+        {
+          "name": "Arthena",
+          "slug": "arthena",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Quantitative Investment in Art Assets "
+        },
+        {
+          "name": "Shipamax",
+          "slug": "shipamax",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Simple, end-to-end automation for logistics orgs"
+        },
+        {
+          "name": "Volansi",
+          "slug": "volansi",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Autonomous VTOL delivery solutions."
+        },
+        {
+          "name": "Soomgo",
+          "slug": "soomgo",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Local services marketplace that connects providers with new customers"
+        },
+        {
+          "name": "Scaphold.io",
+          "slug": "scaphold-io",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The Universal API"
+        }
+      ],
+      "batch_size": 116
+    },
+    "industry_network": {
+      "industries": [
+        "B2B"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "MixRank",
+          "slug": "mixrank",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Data products for sales, marketing, finance, recruiting, and more."
+        },
+        {
+          "name": "Memamp",
+          "slug": "memamp",
+          "status": "Inactive",
+          "batch": "Summer 2005",
+          "one_liner": ""
+        },
+        {
+          "name": "Submittable",
+          "slug": "submittable",
+          "status": "Active",
+          "batch": "Summer 2012",
+          "one_liner": "The best way to launch, manage and measure social impact programs"
+        },
+        {
+          "name": "Benchling",
+          "slug": "benchling",
+          "status": "Active",
+          "batch": "Summer 2012",
+          "one_liner": "Unlocking the power of biotech with modern software for modern science"
+        },
+        {
+          "name": "Asseta",
+          "slug": "asseta",
+          "status": "Active",
+          "batch": "Summer 2013",
+          "one_liner": "Marketplace for industrial spare parts and capital equipment."
+        },
+        {
+          "name": "TrueVault",
+          "slug": "truevault",
+          "status": "Active",
+          "batch": "Winter 2014",
+          "one_liner": "We make Privacy Software for SMBs."
+        },
+        {
+          "name": "Magic",
+          "slug": "magic",
+          "status": "Active",
+          "batch": "Winter 2015",
+          "one_liner": "Extremely talented assistants for busy people"
+        },
+        {
+          "name": "Mason",
+          "slug": "mason",
+          "status": "Active",
+          "batch": "Winter 2016",
+          "one_liner": "Mason is the fastest way to take smart devices from idea to end user"
+        },
+        {
+          "name": "Bus.com",
+          "slug": "bus-com",
+          "status": "Inactive",
+          "batch": "Winter 2016",
+          "one_liner": "The easiest way to charter a bus in North America."
+        },
+        {
+          "name": "Livement",
+          "slug": "livement",
+          "status": "Active",
+          "batch": "Summer 2016",
+          "one_liner": "Livement makes selling tickets for events easy and safe for organizers"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "San Mateo",
+      "location": "San Mateo, CA, USA",
+      "companies_in_city": 34,
+      "active_in_city": 16,
+      "nearby_companies": [
+        {
+          "name": "OneSignal",
+          "slug": "onesignal",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Compose",
+          "slug": "compose",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Meta",
+          "slug": "meta",
+          "batch": "Summer 2013",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "PersistIQ",
+          "slug": "persistiq",
+          "batch": "Summer 2014",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Neptune.io",
+          "slug": "neptune-io",
+          "batch": "Summer 2014",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Women.com",
+          "slug": "women-com",
+          "batch": "Summer 2014",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Bagaveev Corporation",
+          "slug": "bagaveev-corporation",
+          "batch": "Winter 2015",
+          "industry": "Industrials",
+          "status": "Inactive"
+        },
+        {
+          "name": "Automate Ads",
+          "slug": "automate-ads",
+          "batch": "Winter 2015",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Second Measure",
+          "slug": "second-measure",
+          "batch": "Summer 2015",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Maderight",
+          "slug": "maderight",
+          "batch": "Summer 2015",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Yardbook",
+          "slug": "yardbook",
+          "batch": "Winter 2016",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Netomi",
+          "slug": "netomi",
+          "batch": "Winter 2016",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Sendbird",
+          "slug": "sendbird",
+          "batch": "Winter 2016",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Selfycart",
+          "slug": "selfycart",
+          "batch": "Summer 2016",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Farmstead",
+          "slug": "farmstead",
+          "batch": "Summer 2016",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Armory",
+          "slug": "armory",
+          "batch": "Winter 2017",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Truepill",
+          "slug": "truepill",
+          "batch": "Summer 2017",
+          "industry": "Healthcare",
+          "status": "Acquired"
+        },
+        {
+          "name": "Meru Health",
+          "slug": "meru-health",
+          "batch": "Summer 2018",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "ZeroStorefront",
+          "slug": "zerostorefront",
+          "batch": "Winter 2019",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Tailornova/Couturme",
+          "slug": "tailornova-couturme",
+          "batch": "Winter 2019",
+          "industry": "B2B",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Armory",
+        "slug": "armory",
+        "batch": "Winter 2017",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Voiceops",
+        "slug": "voiceops",
+        "batch": "Winter 2017",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Scribe",
+        "slug": "scribe",
+        "batch": "Winter 2017",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Pearl",
+        "slug": "pearl",
+        "batch": "Winter 2017",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Loop Support",
+        "slug": "loop-support",
+        "batch": "Winter 2017",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Rippling",
+        "slug": "rippling",
+        "batch": "Winter 2017",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Shipamax",
+        "slug": "shipamax",
+        "batch": "Winter 2017",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Scaphold.io",
+        "slug": "scaphold-io",
+        "batch": "Winter 2017",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Upcall",
+        "slug": "upcall",
+        "batch": "Winter 2017",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Origin",
+        "slug": "origin",
+        "batch": "Winter 2017",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 2895,
+      "network_density_score": 69.8,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:18:08.451464"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:18:08.451473",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:18:08.772800",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:18:08.903606",
+    "basic_info": {
+      "is_hiring": true,
+      "team_size": 70,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:42:22.874967",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increased automation of back-office processes",
+        "Growing demand for data extraction and analysis",
+        "Rising adoption of AI and machine learning in document processing"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Technology (AI algorithms), data network effects (improving accuracy with more data)",
+      "differentiation": "Multimodal AI for document transformation, focusing on accuracy, privacy, and speed.",
+      "competitive_advantages": [
+        "Strong AI-powered data extraction capabilities",
+        "Focus on privacy and security"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on AI accuracy, potential for errors",
+        "Competition from larger, more established players"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "Increasing API usage",
+        "Expanding customer base across various industries"
+      ],
+      "growth_bottlenecks": [
+        "Sales and marketing to reach a wider audience",
+        "Maintaining high accuracy as data volume increases"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Competition from established players",
+        "Maintaining AI accuracy and preventing errors",
+        "Data privacy and security breaches"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong technology with AI-powered data extraction",
+        "Focus on privacy and security",
+        "Large and growing market"
+      ],
+      "concerns": [
+        "Competition from larger companies",
+        "Execution risk in scaling sales and marketing"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "ABBYY",
+        "Rossum.ai"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on sales and marketing to expand customer base",
+        "Continue to improve AI accuracy and data security"
+      ],
+      "expansion_opportunities": [
+        "Expand into new industries and document types",
+        "Develop partnerships with complementary software providers"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 711,
+      "completion": 615,
+      "total": 1326,
+      "estimated_cost": 0.000238
+    }
+  },
+  "phase8_complete": true
+}

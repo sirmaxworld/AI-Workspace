@@ -1,0 +1,663 @@
+{
+  "slug": "next-caller",
+  "name": "Next Caller",
+  "yc_id": 606,
+  "batch": "Winter 2014",
+  "website": "http://nextcaller.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:33:39.204007",
+    "website": "http://nextcaller.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 2011.22,
+      "final_url": "https://www.pindrop.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:33:41.215237"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "nextcaller.com",
+      "registrar": "GoDaddy.com, LLC",
+      "creation_date": "2004-02-21T17:41:29",
+      "expiration_date": "2026-02-21T17:41:29",
+      "domain_age_days": 7908,
+      "domain_age_years": 21.7,
+      "name_servers": [
+        "NS-15.AWSDNS-01.COM",
+        "NS-1522.AWSDNS-62.ORG",
+        "NS-1974.AWSDNS-54.CO.UK",
+        "NS-990.AWSDNS-59.NET"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/pindrop",
+      "linkedin": "https://www.linkedin.com/company/pindrop/",
+      "github": null,
+      "facebook": "https://www.facebook.com/PindropSec",
+      "instagram": "https://www.instagram.com/pindrophq/",
+      "youtube": "https://www.youtube.com/@Pindropsecurity"
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": true,
+      "x_frame_options": true,
+      "x_content_type_options": true,
+      "x_xss_protection": false,
+      "referrer_policy": true,
+      "security_score": 83,
+      "server": "cloudflare"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:14:16.821053",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:07:46.344044",
+    "place_data": {
+      "status": "success",
+      "method": "nominatim",
+      "formatted_address": "City of New York, New York, United States",
+      "coordinates": {
+        "latitude": 40.7127281,
+        "longitude": -74.0060152
+      },
+      "place_types": [
+        "administrative"
+      ],
+      "retrieved_at": "2025-10-17T10:03:25.058915",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:07:46.344101",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:07:46.344106",
+    "batch_network": {
+      "batch": "Winter 2014",
+      "total_batch_mates": 73,
+      "active_batch_mates": 30,
+      "batch_success_rate": 41.1,
+      "notable_batch_mates": [
+        {
+          "name": "Abacus",
+          "slug": "abacus",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Making expense reports obsolete"
+        },
+        {
+          "name": "Boostable",
+          "slug": "boostable",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Advertising platform tools for marketplace sellers. "
+        },
+        {
+          "name": "Two Tap",
+          "slug": "two-tap",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Two Tap connects retailers to companies that want to sell their\u2026"
+        },
+        {
+          "name": "Bellabeat",
+          "slug": "bellabeat",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "Tech-powered women's wellness."
+        },
+        {
+          "name": "Chargehound",
+          "slug": "chargehound",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Automate your chargeback dispute process. (Acquired by PayPal)"
+        },
+        {
+          "name": "Cruise",
+          "slug": "cruise",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Self-driving cars."
+        },
+        {
+          "name": "Eventjoy",
+          "slug": "eventjoy",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Fee-free ticketing, optimized for mobile."
+        },
+        {
+          "name": "Flexport",
+          "slug": "flexport",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "Platform for global logistics."
+        },
+        {
+          "name": "Axoni",
+          "slug": "axoni",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Axoni is building the next generation of capital markets technology"
+        },
+        {
+          "name": "Kimono Labs",
+          "slug": "kimono-labs",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Create APIs where they don't exist. With kimono you can quickly\u2026"
+        }
+      ],
+      "batch_size": 74
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Sales"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1969,
+      "direct_competitors": [
+        {
+          "name": "Streak",
+          "slug": "streak",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Streak transforms Gmail into a powerful CRM"
+        },
+        {
+          "name": "LeadGenius",
+          "slug": "leadgenius",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "LeadGenius is an account-based marketing and lead generation\u2026"
+        },
+        {
+          "name": "Close",
+          "slug": "close",
+          "status": "Active",
+          "batch": "Winter 2011",
+          "one_liner": "CRM and sales automation tools for startups and SMBs"
+        },
+        {
+          "name": "Etacts",
+          "slug": "etacts",
+          "status": "Acquired",
+          "batch": "Winter 2010",
+          "one_liner": ""
+        },
+        {
+          "name": "Partnered",
+          "slug": "partnered",
+          "status": "Inactive",
+          "batch": "Summer 2012",
+          "one_liner": "Partnered is a digital platform automating business development\u2026"
+        },
+        {
+          "name": "Mattermark",
+          "slug": "mattermark",
+          "status": "Acquired",
+          "batch": "Summer 2012",
+          "one_liner": "Big Data Meets Startup Investing\r\n\r\nThe best tool for tracking and\u2026"
+        },
+        {
+          "name": "BackerKit",
+          "slug": "backerkit",
+          "status": "Active",
+          "batch": "Summer 2012",
+          "one_liner": "The only end-to-end crowdfunding platform built for today\u2019s creators"
+        },
+        {
+          "name": "Ambition",
+          "slug": "ambition",
+          "status": "Active",
+          "batch": "Winter 2014",
+          "one_liner": "Coaching and gamification software for sales teams. "
+        },
+        {
+          "name": "StackLead",
+          "slug": "stacklead",
+          "status": "Acquired",
+          "batch": "Winter 2014",
+          "one_liner": "Lead intelligence as a service. We want to be your personal lead\u2026"
+        },
+        {
+          "name": "PersistIQ",
+          "slug": "persistiq",
+          "status": "Acquired",
+          "batch": "Summer 2014",
+          "one_liner": "PersistIQ is a free email automation platform to send a small batch\u2026"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "New York",
+      "location": "New York, NY, USA",
+      "companies_in_city": 523,
+      "active_in_city": 398,
+      "nearby_companies": [
+        {
+          "name": "The Muse",
+          "slug": "the-muse",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "HireArt",
+          "slug": "hireart",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Shoptiques",
+          "slug": "shoptiques",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Grouper",
+          "slug": "grouper",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "99dresses",
+          "slug": "99dresses",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Codecademy",
+          "slug": "codecademy",
+          "batch": "Summer 2011",
+          "industry": "Education",
+          "status": "Acquired"
+        },
+        {
+          "name": "Custora",
+          "slug": "custora",
+          "batch": "Winter 2011",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Recurse Center",
+          "slug": "recurse-center",
+          "batch": "Summer 2010",
+          "industry": "Education",
+          "status": "Active"
+        },
+        {
+          "name": "MessageParty",
+          "slug": "messageparty",
+          "batch": "Summer 2010",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Fabricly",
+          "slug": "fabricly",
+          "batch": "Winter 2010",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "RentHop",
+          "slug": "renthop",
+          "batch": "Summer 2009",
+          "industry": "Real Estate and Construction",
+          "status": "Active"
+        },
+        {
+          "name": "Youlicit",
+          "slug": "youlicit",
+          "batch": "Summer 2008",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "SocialPicks",
+          "slug": "socialpicks",
+          "batch": "Summer 2007",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Octopart",
+          "slug": "octopart",
+          "batch": "Winter 2007",
+          "industry": "Industrials",
+          "status": "Acquired"
+        },
+        {
+          "name": "OMGPop",
+          "slug": "omgpop",
+          "batch": "Summer 2006",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Canopy Labs",
+          "slug": "canopy-labs",
+          "batch": "Summer 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Fullstack Academy",
+          "slug": "fullstack-academy",
+          "batch": "Summer 2012",
+          "industry": "Education",
+          "status": "Acquired"
+        },
+        {
+          "name": "DataNitro",
+          "slug": "datanitro",
+          "batch": "Summer 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "SmartAsset",
+          "slug": "smartasset",
+          "batch": "Summer 2012",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "StyleUp",
+          "slug": "styleup",
+          "batch": "Winter 2013",
+          "industry": "Consumer",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Abacus",
+        "slug": "abacus",
+        "batch": "Winter 2014",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Ambition",
+        "slug": "ambition",
+        "batch": "Winter 2014",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "StackLead",
+        "slug": "stacklead",
+        "batch": "Winter 2014",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Rocketrip",
+        "slug": "rocketrip",
+        "batch": "Winter 2014",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Voiceops",
+        "slug": "voiceops",
+        "batch": "Winter 2017",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Letterdrop",
+        "slug": "letterdrop",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Salesform",
+        "slug": "salesform",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Partnered",
+        "slug": "partnered-2",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Watu",
+        "slug": "watu",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Trellus",
+        "slug": "trellus",
+        "batch": "Winter 2022",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 3342,
+      "network_density_score": 94.6,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:07:46.357788"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:07:46.357794",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:07:46.679658",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:07:46.800215",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 20,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:30.189127",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "medium",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increased phone fraud",
+        "Demand for better customer experience",
+        "Adoption of real-time verification technologies"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Proprietary VeriCall\u2122 technology and data analysis capabilities.",
+      "differentiation": "Focus on real-time call verification for positive customer experience and fraud prevention.",
+      "competitive_advantages": [
+        "Real-time verification",
+        "Fraud prevention capabilities"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on data accuracy",
+        "Potential for technology to be replicated"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "mature",
+      "growth_indicators": [
+        "Customer acquisition",
+        "Partnerships with telecom providers"
+      ],
+      "growth_bottlenecks": [
+        "Market saturation",
+        "Competition from larger players"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "low",
+      "overall_risk_score": 4,
+      "key_risks": [
+        "Evolving fraud tactics",
+        "Data privacy regulations",
+        "Integration challenges with existing systems"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong technology",
+        "Focus on customer experience",
+        "Proven fraud prevention capabilities"
+      ],
+      "concerns": [
+        "Competition",
+        "Reliance on data accuracy"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Pindrop",
+        "Neustar"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Expand into new verticals",
+        "Enhance data analytics capabilities"
+      ],
+      "expansion_opportunities": [
+        "International markets",
+        "Partnerships with CRM providers"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 699,
+      "completion": 551,
+      "total": 1250,
+      "estimated_cost": 0.000218
+    }
+  },
+  "phase8_complete": true
+}

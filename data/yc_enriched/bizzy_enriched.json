@@ -1,0 +1,1595 @@
+{
+  "slug": "bizzy",
+  "name": "Bizzy",
+  "yc_id": 752,
+  "batch": "Winter 2015",
+  "website": "http://bizzy.io",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:34:45.182955",
+    "website": "http://bizzy.io",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 1037.25,
+      "final_url": "https://sendgrid.com/en-us",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:34:46.220231"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "bizzy.io",
+      "registrar": "MarkMonitor, Inc.",
+      "creation_date": "2014-04-14T16:12:18",
+      "expiration_date": "2027-04-14T16:12:18",
+      "domain_age_days": 4203,
+      "domain_age_years": 11.5,
+      "name_servers": [
+        "ns10.dnsmadeeasy.com",
+        "ns11.dnsmadeeasy.com",
+        "ns12.dnsmadeeasy.com",
+        "ns13.dnsmadeeasy.com",
+        "ns14.dnsmadeeasy.com",
+        "ns15.dnsmadeeasy.com"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/sendgrid",
+      "linkedin": "https://www.linkedin.com/company/sendgrid",
+      "github": "https://github.com/sendgrid",
+      "facebook": "https://www.facebook.com/SendGrid",
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": true,
+      "x_frame_options": true,
+      "x_content_type_options": true,
+      "x_xss_protection": false,
+      "referrer_policy": true,
+      "security_score": 83,
+      "server": "nginx"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:15:17.744011",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:15:03.566763",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "San Francisco, CA, USA",
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:12:40.434017",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:15:03.566820",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/sendgrid"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 100,
+        "packages": [
+          {
+            "name": "@sendgrid/helpers",
+            "description": "Twilio SendGrid NodeJS internal helpers",
+            "version": "8.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sendgrid/helpers"
+          },
+          {
+            "name": "@sendgrid/mail",
+            "description": "Twilio SendGrid NodeJS mail service",
+            "version": "8.1.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sendgrid/mail"
+          },
+          {
+            "name": "@sendgrid/client",
+            "description": "Twilio SendGrid NodeJS API client",
+            "version": "8.1.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sendgrid/client"
+          },
+          {
+            "name": "nodemailer-sendgrid",
+            "description": "SendGrid transport object for Nodemailer.",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/nodemailer-sendgrid"
+          },
+          {
+            "name": "@sendgrid/eventwebhook",
+            "description": "Twilio SendGrid NodeJS Event Webhook",
+            "version": "8.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sendgrid/eventwebhook"
+          },
+          {
+            "name": "@types/nodemailer-sendgrid",
+            "description": "TypeScript definitions for nodemailer-sendgrid",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@types/nodemailer-sendgrid"
+          },
+          {
+            "name": "nodemailer-sendgrid-transport",
+            "description": "SendGrid transport for Nodemailer",
+            "version": "0.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/nodemailer-sendgrid-transport"
+          },
+          {
+            "name": "@strapi/provider-email-sendgrid",
+            "description": "Sendgrid provider for strapi email",
+            "version": "5.28.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@strapi/provider-email-sendgrid"
+          },
+          {
+            "name": "@medusajs/notification-sendgrid",
+            "description": "Sendgrid notification provider for Medusa",
+            "version": "2.10.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@medusajs/notification-sendgrid"
+          },
+          {
+            "name": "@secretlint/secretlint-rule-sendgrid",
+            "description": "A secretlint rule for sendgrid api keys.",
+            "version": "11.2.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@secretlint/secretlint-rule-sendgrid"
+          },
+          {
+            "name": "@sendgrid/inbound-mail-parser",
+            "description": "Twilio SendGrid NodeJS inbound mail parser",
+            "version": "8.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sendgrid/inbound-mail-parser"
+          },
+          {
+            "name": "@anchan828/nest-sendgrid",
+            "description": "SendGrid module for Nest framework (node.js)",
+            "version": "0.9.18",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@anchan828/nest-sendgrid"
+          },
+          {
+            "name": "medusa-plugin-sendgrid",
+            "description": "SendGrid transactional emails",
+            "version": "1.3.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/medusa-plugin-sendgrid"
+          },
+          {
+            "name": "smtpapi",
+            "description": "Build SendGrid X-SMTPAPI headers in nodejs.",
+            "version": "1.4.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/smtpapi"
+          },
+          {
+            "name": "@rocketmakers/orbit-notify-sendgrid",
+            "description": "SendGrid implementation of Orbit Notify",
+            "version": "3.1.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@rocketmakers/orbit-notify-sendgrid"
+          },
+          {
+            "name": "@sendgrid/contact-importer",
+            "description": "Twilio SendGrid NodeJS contact importer",
+            "version": "8.1.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sendgrid/contact-importer"
+          },
+          {
+            "name": "@ntegral/nestjs-sendgrid-client",
+            "description": "Provides an injectable SendGrid Client for the SendGrid v3 Web API",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ntegral/nestjs-sendgrid-client"
+          },
+          {
+            "name": "@mobizerg/nest-sendgrid-mail",
+            "description": "A sendgrid mail integration module for nestjs framework",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mobizerg/nest-sendgrid-mail"
+          },
+          {
+            "name": "parse-server-sendgrid-adapter",
+            "description": "Simple sendgrid adapter for parse server",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/parse-server-sendgrid-adapter"
+          },
+          {
+            "name": "@neoxia-js/nodemailer-sendgrid-transport",
+            "description": "sendgrid transport for nodemailer",
+            "version": "0.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@neoxia-js/nodemailer-sendgrid-transport"
+          },
+          {
+            "name": "@ntegral/sendgrid-client",
+            "description": "Client for the SendGrid v3 Web API",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ntegral/sendgrid-client"
+          },
+          {
+            "name": "@newesissrl/nodemailer-sendgrid",
+            "description": "SendGrid transport for Nodemailer",
+            "version": "1.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@newesissrl/nodemailer-sendgrid"
+          },
+          {
+            "name": "@memberjunction/communication-sendgrid",
+            "description": "MemberJunction: SendGrid Provider for the MJ Communication Framework",
+            "version": "2.107.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@memberjunction/communication-sendgrid"
+          },
+          {
+            "name": "@logto/connector-sendgrid-email",
+            "description": "SendGrid Email Service connector implementation.",
+            "version": "1.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@logto/connector-sendgrid-email"
+          },
+          {
+            "name": "@secretlint/secretlint-rule-github",
+            "description": "A secretlint rule for sendgrid api keys.",
+            "version": "11.2.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@secretlint/secretlint-rule-github"
+          },
+          {
+            "name": "sendgrid-mail",
+            "description": "The easiest way to send mail with sendgrid.",
+            "version": "0.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sendgrid-mail"
+          },
+          {
+            "name": "@anchan828/nest-sendgrid-terminus",
+            "description": "A terminus of @sendgrid/mail module for Nest framework (node.js)",
+            "version": "0.9.18",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@anchan828/nest-sendgrid-terminus"
+          },
+          {
+            "name": "@onivoro/server-sendgrid",
+            "description": "A simple SendGrid integration module for NestJS applications, providing basic email sending functionality.",
+            "version": "24.30.16",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@onivoro/server-sendgrid"
+          },
+          {
+            "name": "loopback-connector-sendgrid",
+            "description": "Loopback connector module which allow to send emails via SendGrid",
+            "version": "2.2.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/loopback-connector-sendgrid"
+          },
+          {
+            "name": "@pipedream/sendgrid",
+            "description": "Pipedream Sendgrid Components",
+            "version": "0.5.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@pipedream/sendgrid"
+          },
+          {
+            "name": "nodemailer-sendgrid-create-transport",
+            "description": "SendGrid transport object for Nodemailer.",
+            "version": "2.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/nodemailer-sendgrid-create-transport"
+          },
+          {
+            "name": "medusa-plugin-sendgrid-typescript",
+            "description": "SendGrid transactional emails typescript",
+            "version": "2.2.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/medusa-plugin-sendgrid-typescript"
+          },
+          {
+            "name": "@grouparoo/sendgrid",
+            "description": "The Grouparoo Sendgrid Plugin",
+            "version": "0.9.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@grouparoo/sendgrid"
+          },
+          {
+            "name": "@danfebooks/nodemailer-sendgrid-transport",
+            "description": "SendGrid transport for Nodemailer",
+            "version": "0.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@danfebooks/nodemailer-sendgrid-transport"
+          },
+          {
+            "name": "sendgrid-rest",
+            "description": "HTTP REST client, simplified for Node.js.",
+            "version": "2.6.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sendgrid-rest"
+          },
+          {
+            "name": "@itentialopensource/adapter-sendgrid",
+            "description": "This adapter integrates with system described as: SendGrid.",
+            "version": "0.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@itentialopensource/adapter-sendgrid"
+          },
+          {
+            "name": "@codeverse-gp/scaffolder-backend-module-sendgrid",
+            "description": "The sendgrid module for @backstage/plugin-scaffolder-backend",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@codeverse-gp/scaffolder-backend-module-sendgrid"
+          },
+          {
+            "name": "@zapal/payload-email-sendgrid",
+            "description": "Payload CMS SendGrid Email Adapter",
+            "version": "1.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@zapal/payload-email-sendgrid"
+          },
+          {
+            "name": "@upyo/sendgrid",
+            "description": "SendGrid transport for Upyo email library",
+            "version": "0.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@upyo/sendgrid"
+          },
+          {
+            "name": "node-red-contrib-sendgrid",
+            "description": "Sending e-mail node using SendGrid service",
+            "version": "0.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/node-red-contrib-sendgrid"
+          },
+          {
+            "name": "@akemona-org/strapi-provider-email-sendgrid",
+            "description": "Sendgrid provider for strapi email",
+            "version": "3.17.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@akemona-org/strapi-provider-email-sendgrid"
+          },
+          {
+            "name": "adonis-sendgrid-mail",
+            "description": "AdonisJS SendGrid mail service provider",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/adonis-sendgrid-mail"
+          },
+          {
+            "name": "@sendgrid/design-icons",
+            "description": "Sendgrid icon library",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sendgrid/design-icons"
+          },
+          {
+            "name": "parse-server-sendgrid-email-adapter",
+            "description": "parse server email adapter which uses SendGrid transactional email templates",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/parse-server-sendgrid-email-adapter"
+          },
+          {
+            "name": "@cocreate/sendgrid",
+            "description": "A simple sendgrid component in vanilla javascript. Easily configured using HTML5 attributes and/or JavaScript API.",
+            "version": "1.13.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@cocreate/sendgrid"
+          },
+          {
+            "name": "@objectif-lune/node-red-contrib-sendgrid",
+            "description": "Node-RED node to send email content generated by OL Connect using SendGrid service",
+            "version": "0.9.19",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@objectif-lune/node-red-contrib-sendgrid"
+          },
+          {
+            "name": "loopback-connector-twilio",
+            "description": "LoopBack connector for Twilio & SendGrid",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/loopback-connector-twilio"
+          },
+          {
+            "name": "@8medusa/notification-sendgrid",
+            "description": "Sendgrid notification provider for Medusa",
+            "version": "2.7.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@8medusa/notification-sendgrid"
+          },
+          {
+            "name": "kuzzle-plugin-hermes-messenger",
+            "description": "Kuzzle plugin to send messages using various providers like Twilio, Sendgrid, etc",
+            "version": "1.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/kuzzle-plugin-hermes-messenger"
+          },
+          {
+            "name": "sendgrid-template-helper",
+            "description": "The Sendgrid wrapper helps to send an email with a dynamic template stored on disk.",
+            "version": "1.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sendgrid-template-helper"
+          },
+          {
+            "name": "fastify-sendgrid",
+            "description": "Sendgrid Mail for Fastify",
+            "version": "1.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/fastify-sendgrid"
+          },
+          {
+            "name": "@babl.one/sender-sendgrid",
+            "description": "Wrapper for SendGrid send emails requires @babl.one/sender",
+            "version": "0.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babl.one/sender-sendgrid"
+          },
+          {
+            "name": "@ntegral/nestjs-sendgrid",
+            "description": "Provides an injectable lulu api client to provide features to the Lulu API",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ntegral/nestjs-sendgrid"
+          },
+          {
+            "name": "@sologence/nest-js-email-sendgrid",
+            "description": "NestJS SendGrid email integration",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sologence/nest-js-email-sendgrid"
+          },
+          {
+            "name": "custom-medusa-sendgrid-plugin",
+            "description": "SendGrid transactional emails typescript",
+            "version": "1.0.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/custom-medusa-sendgrid-plugin"
+          },
+          {
+            "name": "@evershop/sendgrid",
+            "description": "A SendGrid extension for EverShop.",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@evershop/sendgrid"
+          },
+          {
+            "name": "@etohq/notification-sendgrid",
+            "description": "Sendgrid notification provider for Eto",
+            "version": "1.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@etohq/notification-sendgrid"
+          },
+          {
+            "name": "@toanz/strapi-provider-email-sendgrid",
+            "description": "Sendgrid provider for strapi email",
+            "version": "3.13.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@toanz/strapi-provider-email-sendgrid"
+          },
+          {
+            "name": "@activepieces/piece-sendgrid",
+            "description": "This library was generated with [Nx](https://nx.dev).",
+            "version": "0.3.11",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@activepieces/piece-sendgrid"
+          },
+          {
+            "name": "bloggify-sendgrid",
+            "description": "Bloggify plugin for sending emails via SendGrid.",
+            "version": "3.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/bloggify-sendgrid"
+          },
+          {
+            "name": "parse-server-sendgrid-customizable-adapter",
+            "description": "Simple sendgrid adapter for parse server",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/parse-server-sendgrid-customizable-adapter"
+          },
+          {
+            "name": "@kumologica/kumologica-contrib-sendgrid",
+            "description": "Node that send email using SendGrid platform",
+            "version": "0.0.11",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@kumologica/kumologica-contrib-sendgrid"
+          },
+          {
+            "name": "nodemailer-transport-sendgrid",
+            "description": "Transport for nodemailer using sendgrid",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/nodemailer-transport-sendgrid"
+          },
+          {
+            "name": "@biryanihouse/notification-sendgrid",
+            "description": "Sendgrid notification provider for Medusa",
+            "version": "2.4.21",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@biryanihouse/notification-sendgrid"
+          },
+          {
+            "name": "react-native-sendgrid",
+            "description": "Is a API Wrapper to send emails using SendGrid",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-native-sendgrid"
+          },
+          {
+            "name": "@feryardiant/sendgrid-inbound-parser",
+            "description": "Simple library to parse SendGrid Inbound Mail",
+            "version": "0.1.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@feryardiant/sendgrid-inbound-parser"
+          },
+          {
+            "name": "@sendgrid/design-primitives",
+            "description": "SendGrid design primitives",
+            "version": "1.3.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sendgrid/design-primitives"
+          },
+          {
+            "name": "nox-emailer",
+            "description": "Configurable HTML Email Template and SendGrid Integration",
+            "version": "1.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/nox-emailer"
+          },
+          {
+            "name": "@macaw-email/provider-sendgrid",
+            "description": "Sendgrid provider adapter for Macaw.",
+            "version": "1.2.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@macaw-email/provider-sendgrid"
+          },
+          {
+            "name": "@gapi/sendgrid",
+            "description": "```ts import { SendgridModule } from '@gapi/sendgrid'; import { Module } from '@rxdi/core';",
+            "version": "1.8.151",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@gapi/sendgrid"
+          },
+          {
+            "name": "loopback-sendgrid-connector",
+            "description": "Loopback connector for SendGrid",
+            "version": "0.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/loopback-sendgrid-connector"
+          },
+          {
+            "name": "nodebb-plugin-emailer-sendgrid",
+            "description": "An emailer plugin for NodeBB using SendGrid as a third party service",
+            "version": "3.1.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/nodebb-plugin-emailer-sendgrid"
+          },
+          {
+            "name": "sendgrid-v3-node",
+            "description": "This library allows you to quickly and easily use the Sendgrid API V3 via Node.js.",
+            "version": "1.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sendgrid-v3-node"
+          },
+          {
+            "name": "@airhornjs/twilio",
+            "description": "Twilio SMS and SendGrid Email provider for Airhorn notification system",
+            "version": "5.0.12",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@airhornjs/twilio"
+          },
+          {
+            "name": "@rf.memarian/mindfire-sendgrid",
+            "description": "This is SendGrid app for MindFire marketing orchestration engine",
+            "version": "0.5.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@rf.memarian/mindfire-sendgrid"
+          },
+          {
+            "name": "sendim-sendgrid",
+            "description": "A simple library to send email with Sendim for SendGrid.",
+            "version": "1.0.165",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sendim-sendgrid"
+          },
+          {
+            "name": "sails-hook-sendgrid",
+            "description": "SendGrid support into your Sails.js application",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sails-hook-sendgrid"
+          },
+          {
+            "name": "@novo-x/sendgrid",
+            "description": "Sendgrid core",
+            "version": "1.0.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@novo-x/sendgrid"
+          },
+          {
+            "name": "@x-team/strapi-provider-email-sendgrid",
+            "description": "Sendgrid provider for strapi email",
+            "version": "3.8.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@x-team/strapi-provider-email-sendgrid"
+          },
+          {
+            "name": "nunjucks-emailer",
+            "description": "Simple email sender utilizing nunjucks templates for html and txt with tpl helpers, send via sendgrid or brevo, or write to disk",
+            "version": "4.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/nunjucks-emailer"
+          },
+          {
+            "name": "posteon-sendgrid-adapter",
+            "description": "Sendgrid adapter for ",
+            "version": "0.1.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/posteon-sendgrid-adapter"
+          },
+          {
+            "name": "@fusebit-int/sendgrid-connector",
+            "description": "Sendgrid Connector",
+            "version": "7.53.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@fusebit-int/sendgrid-connector"
+          },
+          {
+            "name": "wbb-send-email",
+            "description": "Allows you to send rich emails using popular platforms such as SendGrid and Mailersend.",
+            "version": "0.0.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/wbb-send-email"
+          },
+          {
+            "name": "sendgrid-mcp-server",
+            "description": "An MCP extension to send emails using the SendGrid API.",
+            "version": "0.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sendgrid-mcp-server"
+          },
+          {
+            "name": "sendgrid-mcp",
+            "description": "MCP Server for SendGrid API v3 operations",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sendgrid-mcp"
+          },
+          {
+            "name": "fsdk-plugin-sendgrid",
+            "description": "SendGrid transactional emails",
+            "version": "1.0.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/fsdk-plugin-sendgrid"
+          },
+          {
+            "name": "@materia/sendgrid",
+            "description": "Send emails in your application using Sendgrid",
+            "version": "0.3.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@materia/sendgrid"
+          },
+          {
+            "name": "nestjs-email-module",
+            "description": "A plug-and-play module for handling transactional emails in NestJS using providers like SendGrid, AWS SES, or Nodemailer.",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/nestjs-email-module"
+          },
+          {
+            "name": "@n4it/utility-sendgrid",
+            "description": "Package to manage emails on an event-driven way using NestJS and SendGrid.",
+            "version": "1.2.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@n4it/utility-sendgrid"
+          },
+          {
+            "name": "inbound-parse-multipart-parser",
+            "description": "A javascript/nodejs multipart/form-data parser which operates on data from SendGrid's Inbound Parse Webhook. e.g. A SendGrid Inbound Parse webhook pointing to an Azure Function.",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/inbound-parse-multipart-parser"
+          },
+          {
+            "name": "@api-buddy/sendgrid",
+            "description": "API Buddy integration for SendGrid - Email delivery service for transactional and marketing emails",
+            "version": "3.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@api-buddy/sendgrid"
+          },
+          {
+            "name": "adonis-v6-sendgrid-mail",
+            "description": "AdonisJS Mail transport for SendGrid",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/adonis-v6-sendgrid-mail"
+          },
+          {
+            "name": "medusa-plugin-sendgrid-wine",
+            "description": "SendGrid transactional emails",
+            "version": "0.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/medusa-plugin-sendgrid-wine"
+          },
+          {
+            "name": "@weweb/backend-sendgrid",
+            "description": "SendGrid integration for WeWeb backend services",
+            "version": "0.2.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@weweb/backend-sendgrid"
+          },
+          {
+            "name": "sendgrid-dynamic-templates",
+            "description": "Tool to generate dynamic templates and upload to Sendgrid",
+            "version": "1.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sendgrid-dynamic-templates"
+          },
+          {
+            "name": "ne-sendgrid",
+            "description": "Sendgrid emails intergration for Node Engine",
+            "version": "1.1.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ne-sendgrid"
+          },
+          {
+            "name": "lma-sdgrid",
+            "description": "LAMA sendgrid plugin",
+            "version": "1.3.132",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/lma-sdgrid"
+          },
+          {
+            "name": "@noscai/medusa-plugin-sendgrid",
+            "description": "SendGrid transactional emails custom plugin by NoscAi",
+            "version": "1.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@noscai/medusa-plugin-sendgrid"
+          },
+          {
+            "name": "@alligatorjazz/sg-edge",
+            "description": "Utility functions for using the Sendgrid API on edge / cloud functions.",
+            "version": "1.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@alligatorjazz/sg-edge"
+          },
+          {
+            "name": "byteskode-mailer",
+            "description": "byteskode sendgrid mailer with mongoose persistence and kue support",
+            "version": "1.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/byteskode-mailer"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 20,
+        "packages": [
+          {
+            "name": "sendgrid",
+            "version": "1.2.4",
+            "downloads": 5956471,
+            "url": "https://rubygems.org/gems/sendgrid"
+          },
+          {
+            "name": "sendgrid-ruby",
+            "version": "6.7.0",
+            "downloads": 50228277,
+            "url": "https://rubygems.org/gems/sendgrid-ruby"
+          },
+          {
+            "name": "sendgrid-rails",
+            "version": "3.1.0",
+            "downloads": 7578490,
+            "url": "https://rubygems.org/gems/sendgrid-rails"
+          },
+          {
+            "name": "sendgrid-actionmailer",
+            "version": "3.2.0",
+            "downloads": 6199284,
+            "url": "https://rubygems.org/gems/sendgrid-actionmailer"
+          },
+          {
+            "name": "sendgrid_toolkit",
+            "version": "1.4.0",
+            "downloads": 807334,
+            "url": "https://rubygems.org/gems/sendgrid_toolkit"
+          },
+          {
+            "name": "griddler-sendgrid",
+            "version": "1.2.0",
+            "downloads": 3155131,
+            "url": "https://rubygems.org/gems/griddler-sendgrid"
+          },
+          {
+            "name": "sendgrid_webapi",
+            "version": "0.2.1",
+            "downloads": 248755,
+            "url": "https://rubygems.org/gems/sendgrid_webapi"
+          },
+          {
+            "name": "sendgrid_smtpapi",
+            "version": "1.0.1",
+            "downloads": 103081,
+            "url": "https://rubygems.org/gems/sendgrid_smtpapi"
+          },
+          {
+            "name": "sendgrid-parse",
+            "version": "0.1.9",
+            "downloads": 43049,
+            "url": "https://rubygems.org/gems/sendgrid-parse"
+          },
+          {
+            "name": "sendgrid-api",
+            "version": "0.0.5",
+            "downloads": 34224,
+            "url": "https://rubygems.org/gems/sendgrid-api"
+          },
+          {
+            "name": "sendgrid-enphase",
+            "version": "1.1.0",
+            "downloads": 25328,
+            "url": "https://rubygems.org/gems/sendgrid-enphase"
+          },
+          {
+            "name": "sendgrid_ruby",
+            "version": "0.0.6",
+            "downloads": 23062,
+            "url": "https://rubygems.org/gems/sendgrid_ruby"
+          },
+          {
+            "name": "sendgrid_notification",
+            "version": "0.2.1",
+            "downloads": 19228,
+            "url": "https://rubygems.org/gems/sendgrid_notification"
+          },
+          {
+            "name": "sendgrid-mailer",
+            "version": "0.1.8",
+            "downloads": 18352,
+            "url": "https://rubygems.org/gems/sendgrid-mailer"
+          },
+          {
+            "name": "sendgrid-web",
+            "version": "0.1.0",
+            "downloads": 14356,
+            "url": "https://rubygems.org/gems/sendgrid-web"
+          },
+          {
+            "name": "sendgrid_events",
+            "version": "0.0.4",
+            "downloads": 13523,
+            "url": "https://rubygems.org/gems/sendgrid_events"
+          },
+          {
+            "name": "sendgrid_api",
+            "version": "0.0.2",
+            "downloads": 9779,
+            "url": "https://rubygems.org/gems/sendgrid_api"
+          },
+          {
+            "name": "brightbytes-sendgrid",
+            "version": "0.1.7",
+            "downloads": 45771,
+            "url": "https://rubygems.org/gems/brightbytes-sendgrid"
+          },
+          {
+            "name": "sendgrid_actionmailer_adapter",
+            "version": "0.3.2",
+            "downloads": 29826,
+            "url": "https://rubygems.org/gems/sendgrid_actionmailer_adapter"
+          },
+          {
+            "name": "pokey-sendgrid",
+            "version": "0.1.2",
+            "downloads": 31540,
+            "url": "https://rubygems.org/gems/pokey-sendgrid"
+          }
+        ]
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 10,
+        "packages": [
+          {
+            "name": "sendgrid",
+            "description": "An unofficial client library for the SendGrid API",
+            "version": "0.24.1",
+            "downloads": 1653417,
+            "url": "https://crates.io/crates/sendgrid"
+          },
+          {
+            "name": "sendgrid-wasi",
+            "description": "An unofficial client library for the SendGrid API",
+            "version": "0.19.2",
+            "downloads": 2078,
+            "url": "https://crates.io/crates/sendgrid-wasi"
+          },
+          {
+            "name": "sendgrid_thin",
+            "description": "A small unofficial library to send emails using Sendgrid.",
+            "version": "0.5.100",
+            "downloads": 22235,
+            "url": "https://crates.io/crates/sendgrid_thin"
+          },
+          {
+            "name": "sendgrid-api",
+            "description": "A fully generated & opinionated API client for the SendGrid API.",
+            "version": "0.7.0",
+            "downloads": 178121,
+            "url": "https://crates.io/crates/sendgrid-api"
+          },
+          {
+            "name": "sendgrid-rs",
+            "description": "A \"no batteries included\", \"no assumptions made\" wrapper around SendGrid's mail API",
+            "version": "0.1.1",
+            "downloads": 4405,
+            "url": "https://crates.io/crates/sendgrid-rs"
+          },
+          {
+            "name": "sendgrid-flows",
+            "description": "SendGrid integration for flows.network",
+            "version": "0.1.2",
+            "downloads": 4227,
+            "url": "https://crates.io/crates/sendgrid-flows"
+          },
+          {
+            "name": "lori",
+            "description": "A CLI utility that receives emails from SMTP and sends them to SendGrid.",
+            "version": "0.3.0",
+            "downloads": 3788,
+            "url": "https://crates.io/crates/lori"
+          },
+          {
+            "name": "sendgrid-async",
+            "description": "An async-std based client for sending emails with SendGrid",
+            "version": "0.1.1",
+            "downloads": 47301,
+            "url": "https://crates.io/crates/sendgrid-async"
+          },
+          {
+            "name": "smtpapi",
+            "description": "This crate allows you to quickly and more easily generate SendGrid X-SMTPAPI headers.",
+            "version": "0.1.3",
+            "downloads": 7501,
+            "url": "https://crates.io/crates/smtpapi"
+          },
+          {
+            "name": "keyscope",
+            "description": "Keyscope is a key and secret workflow ",
+            "version": "1.4.2",
+            "downloads": 2805,
+            "url": "https://crates.io/crates/keyscope"
+          }
+        ]
+      },
+      "total_packages": 130,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:15:05.337292"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:15:05.337297",
+    "batch_network": {
+      "batch": "Winter 2015",
+      "total_batch_mates": 110,
+      "active_batch_mates": 42,
+      "batch_success_rate": 38.2,
+      "notable_batch_mates": [
+        {
+          "name": "Notable Labs",
+          "slug": "notable-labs",
+          "status": "Public",
+          "top_company": true,
+          "one_liner": "Personalized drug discovery for blood cancer."
+        },
+        {
+          "name": "Final",
+          "slug": "final",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A credit card that drastically reduces payment fraud and gives\u2026"
+        },
+        {
+          "name": "Pomello",
+          "slug": "pomello",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Analytics software that helps companies measure organizational\u2026"
+        },
+        {
+          "name": "Tech in Asia",
+          "slug": "tech-in-asia",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Tech in Asia (YC W15) is the largest English-language technology\u2026"
+        },
+        {
+          "name": "Smyte",
+          "slug": "smyte",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Smyte stops bad actors on social networks and marketplaces."
+        },
+        {
+          "name": "Bluesmart",
+          "slug": "bluesmart",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Bluesmart makes smart luggage powered by an app to empower people to\u2026"
+        },
+        {
+          "name": "CyberFend",
+          "slug": "cyberfend",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Cyberfend delivers robust, real-time web and mobile security by\u2026"
+        },
+        {
+          "name": "GrubMarket",
+          "slug": "grubmarket",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "AI-powered technology enabler and digital transformer of American\u2026"
+        },
+        {
+          "name": "WorkLife",
+          "slug": "worklife",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "WorkLife is a SaaS application that helps teams have more effective\u2026"
+        },
+        {
+          "name": "HigherMe",
+          "slug": "higherme",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Helping restaurant employers find & hire better employees faster"
+        }
+      ],
+      "batch_size": 111
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Retail"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1969,
+      "direct_competitors": [
+        {
+          "name": "BookSolid",
+          "slug": "booksolid",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "BookSolid is the opentable for tour operators."
+        },
+        {
+          "name": "Beetailer",
+          "slug": "beetailer",
+          "status": "Inactive",
+          "batch": "Winter 2011",
+          "one_liner": "Facebook stores."
+        },
+        {
+          "name": "Talkable",
+          "slug": "talkable",
+          "status": "Active",
+          "batch": "Winter 2011",
+          "one_liner": "Online store referrals."
+        },
+        {
+          "name": "Flotype",
+          "slug": "flotype",
+          "status": "Inactive",
+          "batch": "Winter 2011",
+          "one_liner": "Third generation of web apps."
+        },
+        {
+          "name": "Fivestars",
+          "slug": "fivestars",
+          "status": "Acquired",
+          "batch": "Winter 2011",
+          "one_liner": "Customer loyalty and payments platform for small businesses."
+        },
+        {
+          "name": "TalkBin",
+          "slug": "talkbin",
+          "status": "Acquired",
+          "batch": "Winter 2011",
+          "one_liner": "Consumer to business messaging. "
+        },
+        {
+          "name": "Presto",
+          "slug": "presto",
+          "status": "Public",
+          "batch": "Summer 2010",
+          "one_liner": "Digital meets physical for big chain restaurants"
+        },
+        {
+          "name": "Mertado",
+          "slug": "mertado",
+          "status": "Acquired",
+          "batch": "Winter 2010",
+          "one_liner": ""
+        },
+        {
+          "name": "500Friends",
+          "slug": "500friends",
+          "status": "Acquired",
+          "batch": "Winter 2010",
+          "one_liner": "the best loyalty and retention marketing partner for CMOs. "
+        },
+        {
+          "name": "Fabricly",
+          "slug": "fabricly",
+          "status": "Inactive",
+          "batch": "Winter 2010",
+          "one_liner": ""
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "San Francisco",
+      "location": "San Francisco, CA, USA",
+      "companies_in_city": 2007,
+      "active_in_city": 1340,
+      "nearby_companies": [
+        {
+          "name": "42Floors",
+          "slug": "42floors",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "PlanGrid",
+          "slug": "plangrid",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "MyVR",
+          "slug": "myvr",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Couple",
+          "slug": "couple",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HackPad",
+          "slug": "hackpad",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Gusto",
+          "slug": "gusto",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "FamilyLeaf",
+          "slug": "familyleaf",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Chute",
+          "slug": "chute",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Make School",
+          "slug": "make-school",
+          "batch": "Winter 2012",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Exec",
+          "slug": "exec",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Public"
+        },
+        {
+          "name": "LendUp",
+          "slug": "lendup",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tilt",
+          "slug": "tilt",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fond",
+          "slug": "fond",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Dealyze",
+        "slug": "dealyze",
+        "batch": "Winter 2015",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Meadow",
+        "slug": "meadow",
+        "batch": "Winter 2015",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Pomello",
+        "slug": "pomello",
+        "batch": "Winter 2015",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Smyte",
+        "slug": "smyte",
+        "batch": "Winter 2015",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "GrubMarket",
+        "slug": "grubmarket",
+        "batch": "Winter 2015",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "WorkLife",
+        "slug": "worklife",
+        "batch": "Winter 2015",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Kickpay",
+        "slug": "kickpay",
+        "batch": "Winter 2015",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Omniref",
+        "slug": "omniref",
+        "batch": "Winter 2015",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Pachyderm",
+        "slug": "pachyderm",
+        "batch": "Winter 2015",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Pakible",
+        "slug": "pakible",
+        "batch": "Winter 2015",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 4863,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:15:05.344358"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:15:05.344362",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:15:05.677950",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:15:05.793888",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 2,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:42:07.620009",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Personalized marketing",
+        "AI-powered automation",
+        "Omnichannel customer experience"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "First-mover advantage in centralizing customer data for marketing automation; potential data network effects.",
+      "differentiation": "Centralized customer data driving dynamic campaign adaptation.",
+      "competitive_advantages": [
+        "Early adoption of customer data platform (CDP) principles",
+        "Automated campaign optimization"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on data quality",
+        "Potential for feature parity with larger marketing platforms"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "Customer acquisition rate",
+        "Marketing campaign performance metrics"
+      ],
+      "growth_bottlenecks": [
+        "Integration complexity with diverse e-commerce platforms",
+        "Maintaining data privacy compliance"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "low",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Data security breaches",
+        "Competition from established marketing automation players",
+        "Changing data privacy regulations"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong value proposition for e-commerce businesses",
+        "Automated marketing optimization",
+        "Early mover advantage"
+      ],
+      "concerns": [
+        "Dependence on data accuracy",
+        "Scalability of customer support"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Klaviyo",
+        "HubSpot"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Expand platform integrations",
+        "Develop advanced analytics dashboards"
+      ],
+      "expansion_opportunities": [
+        "Target specific e-commerce verticals",
+        "Offer white-label solutions for agencies"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 676,
+      "completion": 482,
+      "total": 1158,
+      "estimated_cost": 0.000195
+    }
+  },
+  "phase8_complete": true
+}

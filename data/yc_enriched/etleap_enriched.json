@@ -1,0 +1,669 @@
+{
+  "slug": "etleap",
+  "name": "Etleap",
+  "yc_id": 488,
+  "batch": "Winter 2013",
+  "website": "https://etleap.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:32:54.160543",
+    "website": "https://etleap.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 349.13,
+      "final_url": "https://etleap.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:32:54.509683"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "etleap.com",
+      "registrar": "Gandi SAS",
+      "creation_date": "2013-03-15T07:17:36",
+      "expiration_date": "2026-03-15T07:17:36",
+      "domain_age_days": 4598,
+      "domain_age_years": 12.6,
+      "name_servers": [
+        "JESSICA.NS.CLOUDFLARE.COM",
+        "VERN.NS.CLOUDFLARE.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://x.com/etleap?lang=en",
+      "linkedin": "https://www.linkedin.com/company/etleap/",
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": true,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 33,
+      "server": "Framer/56b5dd6"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:13:53.973602",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:05:51.862236",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "San Francisco, CA, USA",
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:03:07.888811",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:05:51.862265",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:05:51.862268",
+    "batch_network": {
+      "batch": "Winter 2013",
+      "total_batch_mates": 45,
+      "active_batch_mates": 17,
+      "batch_success_rate": 37.8,
+      "notable_batch_mates": [
+        {
+          "name": "Screenhero",
+          "slug": "screenhero",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Collaborative Screen Sharing \u2014\u00a0you each get your own mouse, and\u2026"
+        },
+        {
+          "name": "Scuba",
+          "slug": "interana",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Analytics for impatient people."
+        },
+        {
+          "name": "North",
+          "slug": "north",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Wearable computing hardware: biosignal gesture recognition"
+        },
+        {
+          "name": "VaycayHero",
+          "slug": "vaycayhero",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "VaycayHero is a marketplace of professionally managed vacation\u2026"
+        },
+        {
+          "name": "Fivetran",
+          "slug": "fivetran",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "The leader in automated data movement"
+        },
+        {
+          "name": "GrepData",
+          "slug": "grepdata",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Big Data Analytics"
+        },
+        {
+          "name": "Bitnami",
+          "slug": "bitnami",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The App Store for Server Software"
+        },
+        {
+          "name": "Meldium",
+          "slug": "meldium",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Simple password & identity management for teams. Acquired by LogMeIn\u2026"
+        },
+        {
+          "name": "Heap",
+          "slug": "heap",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Captures user interactions with no code to generate analytics."
+        },
+        {
+          "name": "MedXT",
+          "slug": "medxt",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Radiology in the cloud.  X-rays, CAT scans, MRI's, and\u2026"
+        }
+      ],
+      "batch_size": 46
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Amiato",
+          "slug": "amiato",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "The BI bridge for unstructured data. We automatically bridge the gap\u2026"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Simple multiplayer game servers."
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Backlift allows front-end only developers to build entire websites\u2026"
+        },
+        {
+          "name": "Documents.Me",
+          "slug": "documents-me",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Client-side encryption for your devices and the cloud."
+        },
+        {
+          "name": "Apollo",
+          "slug": "apollo",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Apollo helps engineering teams accelerate delivery"
+        },
+        {
+          "name": "Proxino",
+          "slug": "proxino",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Javascript proxy."
+        },
+        {
+          "name": "PhoneSys",
+          "slug": "phonesys",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "The Phone System for Sales Teams."
+        },
+        {
+          "name": "Cryptoseal",
+          "slug": "cryptoseal",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Server key management, VPN as a Service, Privacy VPN.  Sold to\u2026"
+        },
+        {
+          "name": "Citus Data",
+          "slug": "citus-data",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Real-time. Big data. PostgreSQL"
+        },
+        {
+          "name": "Realm",
+          "slug": "realm",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Better data structures = no DB."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "San Francisco",
+      "location": "San Francisco, CA, USA",
+      "companies_in_city": 2007,
+      "active_in_city": 1339,
+      "nearby_companies": [
+        {
+          "name": "42Floors",
+          "slug": "42floors",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "PlanGrid",
+          "slug": "plangrid",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "MyVR",
+          "slug": "myvr",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Couple",
+          "slug": "couple",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HackPad",
+          "slug": "hackpad",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Gusto",
+          "slug": "gusto",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "FamilyLeaf",
+          "slug": "familyleaf",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Chute",
+          "slug": "chute",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Make School",
+          "slug": "make-school",
+          "batch": "Winter 2012",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Exec",
+          "slug": "exec",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Public"
+        },
+        {
+          "name": "LendUp",
+          "slug": "lendup",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tilt",
+          "slug": "tilt",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fond",
+          "slug": "fond",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Bitnami",
+        "slug": "bitnami",
+        "batch": "Winter 2013",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "InfluxData",
+        "slug": "influxdata",
+        "batch": "Winter 2013",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Logiblock",
+        "slug": "logiblock",
+        "batch": "Winter 2013",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Padlet",
+        "slug": "padlet",
+        "batch": "Winter 2013",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Fivetran",
+        "slug": "fivetran",
+        "batch": "Winter 2013",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "GrepData",
+        "slug": "grepdata",
+        "batch": "Winter 2013",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Cheetah",
+        "slug": "cheetah",
+        "batch": "Winter 2013",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Meldium",
+        "slug": "meldium",
+        "batch": "Winter 2013",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Heap",
+        "slug": "heap",
+        "batch": "Winter 2013",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Zenefits",
+        "slug": "zenefits",
+        "batch": "Winter 2013",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 4798,
+      "network_density_score": 89.0,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:05:51.868921"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:05:51.868925",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:05:52.190534",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:05:52.295428",
+    "basic_info": {
+      "is_hiring": true,
+      "team_size": 11,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:42:24.744782",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increased data volume and velocity",
+        "Demand for real-time analytics",
+        "Rise of cloud-based data warehouses"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Technology (automation of ETL processes)",
+      "differentiation": "Focus on ease of use and analyst empowerment, reducing engineering overhead.",
+      "competitive_advantages": [
+        "Simplified ETL for analysts",
+        "Faster time to value"
+      ],
+      "competitive_vulnerabilities": [
+        "Potential limitations with highly complex transformations",
+        "Reliance on specific data sources and destinations"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "Customer acquisition rate",
+        "Expansion within existing accounts"
+      ],
+      "growth_bottlenecks": [
+        "Sales cycle length",
+        "Competition from larger vendors"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "low",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Integration challenges with new data sources",
+        "Evolving data privacy regulations",
+        "Competition from open-source alternatives"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong value proposition for data analysts",
+        "Automated ETL reduces operational costs",
+        "Scalable SaaS model"
+      ],
+      "concerns": [
+        "Competitive landscape",
+        "Dependency on cloud infrastructure"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Fivetran",
+        "Matillion"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Expand integrations with popular data sources",
+        "Develop advanced data transformation capabilities"
+      ],
+      "expansion_opportunities": [
+        "Target specific industry verticals",
+        "Offer consulting services for complex data pipelines"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 683,
+      "completion": 475,
+      "total": 1158,
+      "estimated_cost": 0.000194
+    }
+  },
+  "phase8_complete": true
+}

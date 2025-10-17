@@ -1,0 +1,256 @@
+{
+  "knowledge_domains": {
+    "3d_printing": {
+      "name": "3D Printing & Additive Manufacturing",
+      "description": "Comprehensive knowledge on 3D printing technologies, materials, techniques",
+      "qdrant_collection": "kb_3d_printing",
+      "data_sources": {
+        "youtube_channels": [
+          "Maker's Muse",
+          "3D Printing Nerd",
+          "CNC Kitchen",
+          "Teaching Tech",
+          "Thomas Sanladerer"
+        ],
+        "research_sources": [
+          "arxiv:cs.RO",
+          "IEEE Xplore: additive manufacturing",
+          "MDPI Materials",
+          "Additive Manufacturing Journal"
+        ],
+        "social_media": {
+          "reddit": ["r/3Dprinting", "r/AdditiveManufacturing"],
+          "twitter_keywords": ["#3Dprinting", "#AdditiveManufacturing", "#FDM", "#SLA"]
+        },
+        "industry_blogs": [
+          "All3DP",
+          "3DPrint.com",
+          "Formlabs Blog"
+        ]
+      },
+      "update_frequency": "daily",
+      "priority": "high"
+    },
+    "robotics": {
+      "name": "Robotics & Automation",
+      "description": "Robot development, control systems, computer vision, ROS",
+      "qdrant_collection": "kb_robotics",
+      "data_sources": {
+        "youtube_channels": [
+          "Boston Dynamics",
+          "Two Minute Papers",
+          "Robots Conference",
+          "The Construct",
+          "Articulated Robotics"
+        ],
+        "research_sources": [
+          "arxiv:cs.RO",
+          "IEEE Robotics and Automation",
+          "International Journal of Robotics Research",
+          "Robotics: Science and Systems"
+        ],
+        "social_media": {
+          "reddit": ["r/robotics", "r/ROS", "r/ComputerVision"],
+          "twitter_keywords": ["#robotics", "#ROS2", "#autonomy", "#manipulation"]
+        },
+        "industry_blogs": [
+          "IEEE Spectrum Robotics",
+          "The Robot Report",
+          "Robotics Business Review"
+        ]
+      },
+      "update_frequency": "daily",
+      "priority": "high"
+    },
+    "manufacturing_automation": {
+      "name": "Manufacturing Automation & Industry 4.0",
+      "description": "Smart factories, IIoT, PLCs, SCADA systems, process automation",
+      "qdrant_collection": "kb_manufacturing",
+      "data_sources": {
+        "youtube_channels": [
+          "Industry 4.0 TV",
+          "Automation Direct",
+          "Siemens",
+          "Rockwell Automation"
+        ],
+        "research_sources": [
+          "Journal of Manufacturing Systems",
+          "CIRP Annals - Manufacturing Technology",
+          "International Journal of Production Research"
+        ],
+        "social_media": {
+          "reddit": ["r/PLC", "r/manufacturing", "r/IndustrialAutomation"],
+          "twitter_keywords": ["#Industry40", "#SmartFactory", "#IIoT", "#MES"]
+        },
+        "industry_blogs": [
+          "Manufacturing.net",
+          "Automation World",
+          "Control Engineering"
+        ]
+      },
+      "update_frequency": "weekly",
+      "priority": "medium"
+    },
+    "visual_ai": {
+      "name": "Visual AI & Computer Vision",
+      "description": "Image generation, video synthesis, CV models, diffusion, GANs",
+      "qdrant_collection": "kb_visual_ai",
+      "data_sources": {
+        "youtube_channels": [
+          "Two Minute Papers",
+          "Yannic Kilcher",
+          "AI Explained",
+          "AI Coffee Break",
+          "Corridor Crew"
+        ],
+        "research_sources": [
+          "arxiv:cs.CV",
+          "CVPR papers",
+          "ICCV papers",
+          "NeurIPS vision papers"
+        ],
+        "social_media": {
+          "reddit": ["r/StableDiffusion", "r/ComputerVision", "r/MediaSynthesis"],
+          "twitter_keywords": ["#ComputerVision", "#Diffusion", "#ImageGeneration", "#VideoAI"]
+        },
+        "industry_blogs": [
+          "Hugging Face Blog",
+          "OpenAI Blog",
+          "Stability AI Blog"
+        ]
+      },
+      "update_frequency": "daily",
+      "priority": "very_high"
+    },
+    "multimedia": {
+      "name": "Multimedia Production & AI Tools",
+      "description": "Video editing, audio processing, content creation, AI tools",
+      "qdrant_collection": "kb_multimedia",
+      "data_sources": {
+        "youtube_channels": [
+          "Corridor Crew",
+          "Film Riot",
+          "Peter McKinnon",
+          "DSLR Video Shooter",
+          "Matt Wolfe"
+        ],
+        "research_sources": [
+          "arxiv:cs.MM",
+          "ACM Multimedia",
+          "IEEE Transactions on Multimedia"
+        ],
+        "social_media": {
+          "reddit": ["r/VideoEditing", "r/audioengineering", "r/ContentCreation"],
+          "twitter_keywords": ["#VideoProduction", "#AudioAI", "#ContentCreation"]
+        },
+        "industry_blogs": [
+          "No Film School",
+          "PremiumBeat Blog",
+          "Creative Bloq"
+        ]
+      },
+      "update_frequency": "weekly",
+      "priority": "medium"
+    },
+    "mental_health": {
+      "name": "Mental Health & Psychology",
+      "description": "Psychology research, therapy techniques, mental wellness, AI applications",
+      "qdrant_collection": "kb_mental_health",
+      "data_sources": {
+        "youtube_channels": [
+          "Andrew Huberman",
+          "Dr. K (HealthyGamerGG)",
+          "The School of Life",
+          "Therapy in a Nutshell",
+          "Psych2Go"
+        ],
+        "research_sources": [
+          "PubMed: mental health",
+          "Journal of Clinical Psychology",
+          "Psychological Science",
+          "Nature Mental Health"
+        ],
+        "social_media": {
+          "reddit": ["r/psychology", "r/mentalhealth", "r/neuroscience"],
+          "twitter_keywords": ["#MentalHealth", "#Psychology", "#Neuroscience"]
+        },
+        "industry_blogs": [
+          "Psychology Today",
+          "Mind Blog",
+          "APA News"
+        ]
+      },
+      "update_frequency": "weekly",
+      "priority": "high"
+    },
+    "business_strategy": {
+      "name": "Business Strategy & Growth",
+      "description": "Startup strategies, scaling, marketing, product management",
+      "qdrant_collection": "kb_business",
+      "data_sources": {
+        "youtube_channels": [
+          "Y Combinator",
+          "Lenny's Podcast",
+          "My First Million",
+          "Alex Hormozi",
+          "GaryVee"
+        ],
+        "research_sources": [
+          "Harvard Business Review",
+          "MIT Sloan Management Review",
+          "Strategic Management Journal"
+        ],
+        "social_media": {
+          "reddit": ["r/startups", "r/Entrepreneur", "r/GrowthHacking"],
+          "twitter_keywords": ["#StartupLife", "#ProductManagement", "#GrowthHacking"]
+        },
+        "industry_blogs": [
+          "First Round Review",
+          "a16z Blog",
+          "Product Hunt Blog"
+        ]
+      },
+      "update_frequency": "daily",
+      "priority": "high"
+    },
+    "ai_trends": {
+      "name": "AI Trends & Emerging Technologies",
+      "description": "Latest AI developments, models, tools, industry news",
+      "qdrant_collection": "kb_ai_trends",
+      "data_sources": {
+        "youtube_channels": [
+          "Two Minute Papers",
+          "Matt Wolfe",
+          "AI Explained",
+          "Yannic Kilcher",
+          "Lex Fridman"
+        ],
+        "research_sources": [
+          "arxiv:cs.AI",
+          "arxiv:cs.LG",
+          "NeurIPS",
+          "ICML papers"
+        ],
+        "social_media": {
+          "reddit": ["r/MachineLearning", "r/LocalLLaMA", "r/ArtificialIntelligence"],
+          "twitter_keywords": ["#AI", "#LLM", "#MachineLearning", "#AGI"]
+        },
+        "industry_blogs": [
+          "OpenAI Blog",
+          "DeepMind Blog",
+          "Anthropic Blog",
+          "Hugging Face Blog"
+        ]
+      },
+      "update_frequency": "daily",
+      "priority": "very_high"
+    }
+  },
+  "global_settings": {
+    "base_path": "/Users/yourox/AI-Workspace",
+    "data_directory": "/Users/yourox/AI-Workspace/data",
+    "qdrant_path": "/Users/yourox/AI-Workspace/data/qdrant",
+    "default_embedding_model": "text-embedding-3-small",
+    "default_llm": "claude-sonnet-4-20250514"
+  }
+}

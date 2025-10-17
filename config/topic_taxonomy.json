@@ -1,0 +1,112 @@
+{
+  "version": "1.0",
+  "last_updated": "2025-10-13",
+  "description": "Master topic taxonomy for AI-Workspace knowledge base",
+  
+  "disciplines": {
+    "artificial_intelligence": {
+      "name": "Artificial Intelligence",
+      "domains": {
+        "machine_learning": {
+          "name": "Machine Learning",
+          "sub_domains": ["deep_learning", "reinforcement_learning", "supervised_learning", "unsupervised_learning"]
+        },
+        "nlp": {
+          "name": "Natural Language Processing",
+          "sub_domains": ["transformers", "language_models", "text_generation", "embeddings"]
+        },
+        "computer_vision": {
+          "name": "Computer Vision",
+          "sub_domains": ["image_generation", "video_generation", "object_detection", "image_classification"]
+        },
+        "ai_agents": {
+          "name": "AI Agents & Automation",
+          "sub_domains": ["autonomous_agents", "multi_agent_systems", "workflow_automation", "agent_orchestration"]
+        }
+      }
+    },
+    "business": {
+      "name": "Business & Entrepreneurship",
+      "domains": {
+        "startups": {
+          "name": "Startups",
+          "sub_domains": ["funding", "growth_strategies", "product_market_fit", "scaling"]
+        },
+        "ai_business": {
+          "name": "AI in Business",
+          "sub_domains": ["ai_products", "automation_tools", "ai_consulting", "ai_integration"]
+        },
+        "content_creation": {
+          "name": "Content Creation",
+          "sub_domains": ["video_production", "social_media", "marketing", "branding"]
+        }
+      }
+    },
+    "technology": {
+      "name": "Technology & Development",
+      "domains": {
+        "software_development": {
+          "name": "Software Development",
+          "sub_domains": ["web_development", "apis", "databases", "cloud_computing"]
+        },
+        "ai_tools": {
+          "name": "AI Tools & Platforms",
+          "sub_domains": ["openai", "anthropic", "google_ai", "open_source_models"]
+        }
+      }
+    }
+  },
+  
+  "concepts": {
+    "transformers": {
+      "discipline": "artificial_intelligence",
+      "domain": "nlp",
+      "definition": "Neural network architecture using self-attention mechanisms",
+      "prerequisites": ["neural_networks", "attention_mechanism"],
+      "enables": ["gpt_models", "bert", "language_understanding"]
+    },
+    "embeddings": {
+      "discipline": "artificial_intelligence",
+      "domain": "nlp",
+      "definition": "Dense vector representations of text or data",
+      "prerequisites": ["vector_spaces", "semantic_similarity"],
+      "enables": ["semantic_search", "rag_systems", "recommendation_engines"]
+    },
+    "rag": {
+      "discipline": "artificial_intelligence",
+      "domain": "nlp",
+      "definition": "Retrieval-Augmented Generation for context-aware AI responses",
+      "prerequisites": ["embeddings", "vector_databases", "llms"],
+      "enables": ["knowledge_base_qa", "context_aware_agents"]
+    }
+  },
+  
+  "expertise_levels": {
+    "beginner": {
+      "description": "Introductory content, no prerequisites",
+      "examples": ["What is AI?", "Getting started with ChatGPT"]
+    },
+    "intermediate": {
+      "description": "Requires basic knowledge, practical applications",
+      "examples": ["Building with LLM APIs", "Prompt engineering techniques"]
+    },
+    "advanced": {
+      "description": "In-depth technical knowledge required",
+      "examples": ["Fine-tuning models", "Advanced prompt patterns"]
+    },
+    "expert": {
+      "description": "Research-level or highly specialized",
+      "examples": ["Model architecture design", "Custom training pipelines"]
+    }
+  },
+  
+  "content_types": {
+    "tutorial": "Step-by-step instructional content",
+    "demonstration": "Showing tools or techniques in action",
+    "theory": "Conceptual explanations and principles",
+    "case_study": "Real-world application examples",
+    "interview": "Discussion with experts or practitioners",
+    "review": "Analysis and evaluation of tools or methods",
+    "news": "Current events and announcements"
+  }
+}

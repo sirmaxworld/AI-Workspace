@@ -1,0 +1,702 @@
+{
+  "slug": "safebeat",
+  "name": "SafeBeat",
+  "yc_id": 24166,
+  "batch": "Summer 2021",
+  "website": "https://safebeat.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T01:05:18.555382",
+    "website": "https://safebeat.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 3040.67,
+      "final_url": "https://safebeat.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T01:05:21.596065"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "safebeat.com",
+      "registrar": "Squarespace Domains II LLC",
+      "creation_date": "2013-01-09T19:23:39",
+      "expiration_date": "2027-01-09T19:23:39",
+      "domain_age_days": 4663,
+      "domain_age_years": 12.8,
+      "name_servers": [
+        "NS-CLOUD-A1.GOOGLEDOMAINS.COM",
+        "NS-CLOUD-A2.GOOGLEDOMAINS.COM",
+        "NS-CLOUD-A3.GOOGLEDOMAINS.COM",
+        "NS-CLOUD-A4.GOOGLEDOMAINS.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/SafeBeat",
+      "linkedin": "https://www.linkedin.com/company/safebeatrx/",
+      "github": "https://github.com/safebeatrx",
+      "facebook": "https://www.facebook.com/safebeatrx",
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": false,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 0,
+      "server": "Apache"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:29:05.350447",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:28:52.121915",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "San Francisco, CA, USA",
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:12:40.434017",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:28:52.122037",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/safebeatrx"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 0,
+      "has_packages": false,
+      "checked_at": "2025-10-17T10:28:53.627532"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:28:53.627566",
+    "batch_network": {
+      "batch": "Summer 2021",
+      "total_batch_mates": 390,
+      "active_batch_mates": 316,
+      "batch_success_rate": 81.0,
+      "notable_batch_mates": [
+        {
+          "name": "Hyper",
+          "slug": "hyper",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Sell memberships to your Discord server"
+        },
+        {
+          "name": "Beeper",
+          "slug": "beeper",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "One chat app to rule them all"
+        },
+        {
+          "name": "Level",
+          "slug": "level",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Fast and simple fintech financing"
+        },
+        {
+          "name": "Goodkind",
+          "slug": "goodkind",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Student communications platform for higher education"
+        },
+        {
+          "name": "Sleek",
+          "slug": "sleek",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "1-click checkout from every store on the internet + cashback rewards."
+        },
+        {
+          "name": "MadEats",
+          "slug": "madeats",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Online delivery-only restaurant group in the Philippines"
+        },
+        {
+          "name": "Maroo",
+          "slug": "maroo",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Business management platform for creatives"
+        },
+        {
+          "name": "Tarsal",
+          "slug": "tarsal",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Data pipeline for your security data lake."
+        },
+        {
+          "name": "Hilos",
+          "slug": "quid",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Close and activate your customers on WhatsApp"
+        },
+        {
+          "name": "Keyri",
+          "slug": "keyri",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Secure fraud prevention and authentication platform for developers"
+        }
+      ],
+      "batch_size": 391
+    },
+    "industry_network": {
+      "industries": [
+        "Healthcare",
+        "Medical Devices"
+      ],
+      "total_industry_peers": 642,
+      "active_industry_peers": 502,
+      "direct_competitors": [
+        {
+          "name": "Shift Labs",
+          "slug": "shift-labs",
+          "status": "Acquired",
+          "batch": "Winter 2015",
+          "one_liner": "Makers of simple, affordable medical devices. Our award-winning\u2026"
+        },
+        {
+          "name": "Standard Cyborg",
+          "slug": "standard-cyborg",
+          "status": "Inactive",
+          "batch": "Winter 2015",
+          "one_liner": "Buid, test and deploy perception applications"
+        },
+        {
+          "name": "Zenflow",
+          "slug": "zenflow",
+          "status": "Active",
+          "batch": "Winter 2015",
+          "one_liner": "Medical device that provides a more effective, less invasive\u2026"
+        },
+        {
+          "name": "iSono Health",
+          "slug": "isono-health",
+          "status": "Active",
+          "batch": "Winter 2016",
+          "one_liner": "AI-powered platform for Accessible and Personalized Breast Health\u2026"
+        },
+        {
+          "name": "InnoVein",
+          "slug": "innovein",
+          "status": "Inactive",
+          "batch": "Winter 2016",
+          "one_liner": "We cure intractable leg wounds with a replacement valve for veins. "
+        },
+        {
+          "name": "UroDev Medical",
+          "slug": "urodev-medical",
+          "status": "Acquired",
+          "batch": "Winter 2016",
+          "one_liner": "Devices to improve the quality of life for people with Spinal Cord\u2026"
+        },
+        {
+          "name": "Volt Health",
+          "slug": "volt-health",
+          "status": "Inactive",
+          "batch": "Winter 2017",
+          "one_liner": "Volt Health is developing medical devices that deliver electrical\u2026"
+        },
+        {
+          "name": "HelpWear",
+          "slug": "helpwear",
+          "status": "Active",
+          "batch": "Summer 2017",
+          "one_liner": ""
+        },
+        {
+          "name": "AesculaTech",
+          "slug": "aesculatech",
+          "status": "Active",
+          "batch": "Winter 2018",
+          "one_liner": "Responsive materials, better lives. "
+        },
+        {
+          "name": "ArchForm",
+          "slug": "archform",
+          "status": "Active",
+          "batch": "Winter 2018",
+          "one_liner": "Replacing orthodontic braces with our clear aligner and software"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "San Francisco",
+      "location": "San Francisco, CA, USA",
+      "companies_in_city": 2007,
+      "active_in_city": 1339,
+      "nearby_companies": [
+        {
+          "name": "42Floors",
+          "slug": "42floors",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "PlanGrid",
+          "slug": "plangrid",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "MyVR",
+          "slug": "myvr",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Couple",
+          "slug": "couple",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HackPad",
+          "slug": "hackpad",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Gusto",
+          "slug": "gusto",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "FamilyLeaf",
+          "slug": "familyleaf",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Chute",
+          "slug": "chute",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Make School",
+          "slug": "make-school",
+          "batch": "Winter 2012",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Exec",
+          "slug": "exec",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Public"
+        },
+        {
+          "name": "LendUp",
+          "slug": "lendup",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tilt",
+          "slug": "tilt",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fond",
+          "slug": "fond",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Ananya Health",
+        "slug": "ananya-health",
+        "batch": "Summer 2021",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Mable",
+        "slug": "mable",
+        "batch": "Summer 2021",
+        "industry": "Healthcare",
+        "status": "Acquired",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Legion Health",
+        "slug": "legion-health",
+        "batch": "Summer 2021",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Mindstate Design Labs",
+        "slug": "mindstate-design-labs",
+        "batch": "Summer 2021",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Zeit Medical",
+        "slug": "zeit-medical",
+        "batch": "Summer 2021",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "V-Flow Medical",
+        "slug": "v-flow-medical-inc",
+        "batch": "Summer 2021",
+        "industry": "Healthcare",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Epinoma",
+        "slug": "epinoma",
+        "batch": "Summer 2021",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Fitia",
+        "slug": "fitia",
+        "batch": "Summer 2021",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Rinse",
+        "slug": "rinse",
+        "batch": "Summer 2021",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Momo Medical",
+        "slug": "momo-medical",
+        "batch": "Summer 2021",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 3039,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:28:53.641723"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:28:53.641731",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:28:53.997150",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:28:54.102302",
+    "basic_info": {
+      "is_hiring": true,
+      "team_size": 9,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:41:36.066334",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Remote patient monitoring adoption",
+        "AI/ML integration in healthcare",
+        "Shift from reactive to proactive cardiac care"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "ML-powered ECG analysis integrated with FDA-cleared wearables for therapeutic guidance",
+      "differentiation": "Focus on therapeutic guidance rather than just diagnostics, enabling medication management through mobile platform",
+      "competitive_advantages": [
+        "Physician-led team with clinical expertise",
+        "Integration with existing FDA-cleared devices",
+        "ML software for automated drug dosing approval"
+      ],
+      "competitive_vulnerabilities": [
+        "Dependence on third-party wearable manufacturers",
+        "Regulatory approval requirements for therapeutic recommendations"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "series-a",
+      "growth_indicators": [
+        "Large addressable market of 38M patients",
+        "Strong founding team with medical expertise",
+        "Y Combinator backing"
+      ],
+      "growth_bottlenecks": [
+        "FDA regulatory approval process",
+        "Healthcare provider adoption cycles",
+        "Integration complexity with existing workflows"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "low",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Regulatory approval delays",
+        "Competition from established cardiac monitoring companies",
+        "Liability concerns with therapeutic recommendations"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Massive TAM in cardiac care",
+        "Clinical team with domain expertise",
+        "Clear value proposition for cost reduction and patient outcomes"
+      ],
+      "concerns": [
+        "Regulatory complexity",
+        "Long sales cycles in healthcare"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "AliveCor",
+        "BioTelemetry",
+        "Cardiologs"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Secure FDA clearance for therapeutic guidance features",
+        "Build partnerships with major wearable device manufacturers"
+      ],
+      "expansion_opportunities": [
+        "Expand to other chronic conditions requiring medication monitoring",
+        "International market expansion post-FDA approval"
+      ]
+    },
+    "tokens_used": {
+      "input": 731,
+      "output": 575,
+      "total": 1306,
+      "estimated_cost": 0.010818
+    }
+  },
+  "phase8_complete": true
+}

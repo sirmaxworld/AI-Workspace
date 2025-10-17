@@ -1,0 +1,673 @@
+{
+  "slug": "framed-data",
+  "name": "Framed Data",
+  "yc_id": 646,
+  "batch": "Winter 2014",
+  "website": "http://www.framed.io",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:33:58.842406",
+    "website": "http://www.framed.io",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 531.92,
+      "final_url": "http://framed.io/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:33:59.374369"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "framed.io",
+      "registrar": "Gandi SAS",
+      "creation_date": "2013-02-10T18:23:37",
+      "expiration_date": "2028-02-10T18:23:37",
+      "domain_age_days": 4631,
+      "domain_age_years": 12.7,
+      "name_servers": [
+        "ns1.linode.com",
+        "ns2.linode.com",
+        "ns3.linode.com",
+        "ns4.linode.com"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": false,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": true,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 16,
+      "server": "Squarespace"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:14:39.856642",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:14:28.689882",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "San Francisco, CA, USA",
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:12:40.434017",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:14:28.689928",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:14:28.689933",
+    "batch_network": {
+      "batch": "Winter 2014",
+      "total_batch_mates": 73,
+      "active_batch_mates": 30,
+      "batch_success_rate": 41.1,
+      "notable_batch_mates": [
+        {
+          "name": "Abacus",
+          "slug": "abacus",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Making expense reports obsolete"
+        },
+        {
+          "name": "Boostable",
+          "slug": "boostable",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Advertising platform tools for marketplace sellers. "
+        },
+        {
+          "name": "Two Tap",
+          "slug": "two-tap",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Two Tap connects retailers to companies that want to sell their\u2026"
+        },
+        {
+          "name": "Bellabeat",
+          "slug": "bellabeat",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "Tech-powered women's wellness."
+        },
+        {
+          "name": "Chargehound",
+          "slug": "chargehound",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Automate your chargeback dispute process. (Acquired by PayPal)"
+        },
+        {
+          "name": "Cruise",
+          "slug": "cruise",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Self-driving cars."
+        },
+        {
+          "name": "Eventjoy",
+          "slug": "eventjoy",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Fee-free ticketing, optimized for mobile."
+        },
+        {
+          "name": "Flexport",
+          "slug": "flexport",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "Platform for global logistics."
+        },
+        {
+          "name": "Axoni",
+          "slug": "axoni",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Axoni is building the next generation of capital markets technology"
+        },
+        {
+          "name": "Kimono Labs",
+          "slug": "kimono-labs",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Create APIs where they don't exist. With kimono you can quickly\u2026"
+        }
+      ],
+      "batch_size": 74
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Analytics"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1969,
+      "direct_competitors": [
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "status": "Public",
+          "batch": "Winter 2012",
+          "one_liner": "Digital Analytics Platform"
+        },
+        {
+          "name": "Freshplum",
+          "slug": "freshplum",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Analytics with action"
+        },
+        {
+          "name": "Segment",
+          "slug": "segment",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Software and APIs to collect, clean, and control customer data."
+        },
+        {
+          "name": "Pagelever",
+          "slug": "pagelever",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Facebook analytics. Acquired by Unified in January 2013. \r\n"
+        },
+        {
+          "name": "Custora",
+          "slug": "custora",
+          "status": "Acquired",
+          "batch": "Winter 2011",
+          "one_liner": "Custora is a predictive analytics platform for e-commerce marketing\u2026"
+        },
+        {
+          "name": "Chartio",
+          "slug": "chartio",
+          "status": "Acquired",
+          "batch": "Summer 2010",
+          "one_liner": "Chartio is changing how companies work by building the best\u2026"
+        },
+        {
+          "name": "Data Marketplace",
+          "slug": "data-marketplace",
+          "status": "Inactive",
+          "batch": "Winter 2010",
+          "one_liner": ""
+        },
+        {
+          "name": "Mixpanel",
+          "slug": "mixpanel",
+          "status": "Active",
+          "batch": "Summer 2009",
+          "one_liner": "Mixpanel is event analytics for builders that need answers."
+        },
+        {
+          "name": "Poll Everywhere",
+          "slug": "poll-everywhere",
+          "status": "Active",
+          "batch": "Summer 2008",
+          "one_liner": "Interactive meetings and presentations"
+        },
+        {
+          "name": "Infogami",
+          "slug": "infogami",
+          "status": "Inactive",
+          "batch": "Summer 2005",
+          "one_liner": ""
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "San Francisco",
+      "location": "San Francisco, CA, USA",
+      "companies_in_city": 2007,
+      "active_in_city": 1340,
+      "nearby_companies": [
+        {
+          "name": "42Floors",
+          "slug": "42floors",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "PlanGrid",
+          "slug": "plangrid",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "MyVR",
+          "slug": "myvr",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Couple",
+          "slug": "couple",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HackPad",
+          "slug": "hackpad",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Gusto",
+          "slug": "gusto",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "FamilyLeaf",
+          "slug": "familyleaf",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Chute",
+          "slug": "chute",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Make School",
+          "slug": "make-school",
+          "batch": "Winter 2012",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Exec",
+          "slug": "exec",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Public"
+        },
+        {
+          "name": "LendUp",
+          "slug": "lendup",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tilt",
+          "slug": "tilt",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fond",
+          "slug": "fond",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "42",
+        "slug": "42",
+        "batch": "Winter 2014",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Boostable",
+        "slug": "boostable",
+        "batch": "Winter 2014",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Two Tap",
+        "slug": "two-tap",
+        "batch": "Winter 2014",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Threadable",
+        "slug": "threadable",
+        "batch": "Winter 2014",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Yumbin",
+        "slug": "yumbin",
+        "batch": "Winter 2014",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Eventjoy",
+        "slug": "eventjoy",
+        "batch": "Winter 2014",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Flexport",
+        "slug": "flexport",
+        "batch": "Winter 2014",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Kimono Labs",
+        "slug": "kimono-labs",
+        "batch": "Winter 2014",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "StackLead",
+        "slug": "stacklead",
+        "batch": "Winter 2014",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Liftigniter",
+        "slug": "liftigniter",
+        "batch": "Winter 2014",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 4826,
+      "network_density_score": 94.6,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:14:28.704399"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:14:28.704411",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:14:29.071994",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:14:29.170018",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 2,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:38:55.175017",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Enterprise AI/ML adoption accelerating",
+        "Customer retention becoming critical metric",
+        "Demand for no-code analytics solutions"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Machine learning algorithms and predictive models for churn detection with enterprise-grade accuracy",
+      "differentiation": "Focus on democratizing data science without requiring additional headcount",
+      "competitive_advantages": [
+        "Early mover in predictive churn analytics",
+        "Enterprise-focused approach"
+      ],
+      "competitive_vulnerabilities": [
+        "Small team size limiting scalability",
+        "Potential competition from larger analytics platforms"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "low"
+    },
+    "growth_assessment": {
+      "growth_stage": "series-a",
+      "growth_indicators": [
+        "Successful acquisition by Block",
+        "Enterprise customer focus"
+      ],
+      "growth_bottlenecks": [
+        "Limited team size",
+        "Need for sales and marketing scale"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "low",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Competition from established analytics players",
+        "Difficulty scaling ML models across industries",
+        "Customer acquisition costs in enterprise market"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong market timing with ML adoption",
+        "Clear enterprise value proposition",
+        "Successful exit validates model"
+      ],
+      "concerns": [
+        "Small team execution capacity",
+        "Competitive landscape intensity"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Mixpanel",
+        "Amplitude",
+        "Palantir"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Scale engineering team",
+        "Develop industry-specific solutions"
+      ],
+      "expansion_opportunities": [
+        "Vertical-specific churn models",
+        "Broader predictive analytics suite"
+      ]
+    },
+    "tokens_used": {
+      "input": 731,
+      "output": 513,
+      "total": 1244,
+      "estimated_cost": 0.009888
+    }
+  },
+  "phase8_complete": true
+}

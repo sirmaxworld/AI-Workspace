@@ -1,0 +1,757 @@
+{
+  "slug": "lago",
+  "name": "Lago",
+  "yc_id": 24151,
+  "batch": "Summer 2021",
+  "website": "https://www.getlago.com/",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T01:05:08.431111",
+    "website": "https://www.getlago.com/",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 1296.2,
+      "final_url": "https://www.getlago.com/",
+      "redirected": false,
+      "checked_at": "2025-10-17T01:05:09.727333"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "getlago.com",
+      "registrar": "Gandi SAS",
+      "creation_date": "2020-11-27T18:16:53",
+      "expiration_date": "2030-11-27T18:16:53",
+      "domain_age_days": 1784,
+      "domain_age_years": 4.9,
+      "name_servers": [
+        "NS-1377.AWSDNS-44.ORG",
+        "NS-1885.AWSDNS-43.CO.UK",
+        "NS-367.AWSDNS-45.COM",
+        "NS-694.AWSDNS-22.NET"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/GetLago",
+      "linkedin": null,
+      "github": "https://github.com/getlago/lago",
+      "facebook": null,
+      "instagram": null,
+      "youtube": "https://www.youtube.com/channel/UCp6ltp7n3SgDVsmerJ7O7ZA"
+    },
+    "security_headers": {
+      "strict_transport_security": false,
+      "content_security_policy": true,
+      "x_frame_options": true,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 33,
+      "server": "cloudflare"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:28:59.699816",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:28:47.704621",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "Paris, France",
+      "coordinates": {
+        "latitude": 48.8566,
+        "longitude": 2.3522
+      },
+      "timezone": {
+        "timezone_id": "Europe/Paris",
+        "timezone_name": "Europe/Paris"
+      },
+      "retrieved_at": "2025-10-17T10:14:38.765080",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:28:47.704733",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/getlago"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 9,
+        "packages": [
+          {
+            "name": "lago-javascript-client",
+            "description": "Lago JavaScript API Client",
+            "version": "1.33.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/lago-javascript-client"
+          },
+          {
+            "name": "@getlago/intercom",
+            "description": "Lago Intercom Destination",
+            "version": "1.0.1-alpha.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@getlago/intercom"
+          },
+          {
+            "name": "@getlago/lago-http-client",
+            "description": "Http client for lago destinations",
+            "version": "1.0.1-alpha.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@getlago/lago-http-client"
+          },
+          {
+            "name": "@getlago/lago-destination",
+            "description": "Lago global destination structure",
+            "version": "1.0.1-alpha.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@getlago/lago-destination"
+          },
+          {
+            "name": "@getlago/postgres-connector",
+            "description": "Lago Postgres connector",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@getlago/postgres-connector"
+          },
+          {
+            "name": "@getlago/pgsql-ast-parser",
+            "description": "Yet another simple Postgres SQL parser/modifier",
+            "version": "8.1.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@getlago/pgsql-ast-parser"
+          },
+          {
+            "name": "@getlago/lago-connector",
+            "description": "Lago global connector structure",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@getlago/lago-connector"
+          },
+          {
+            "name": "@getlago/passport-intercom",
+            "description": "Intercom authentication strategy for Passport.",
+            "version": "0.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@getlago/passport-intercom"
+          },
+          {
+            "name": "n8n-nodes-lago-api",
+            "description": "n8n node to interact with Lago API",
+            "version": "0.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/n8n-nodes-lago-api"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 9,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:28:49.162188"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:28:49.162203",
+    "batch_network": {
+      "batch": "Summer 2021",
+      "total_batch_mates": 390,
+      "active_batch_mates": 316,
+      "batch_success_rate": 81.0,
+      "notable_batch_mates": [
+        {
+          "name": "Hyper",
+          "slug": "hyper",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Sell memberships to your Discord server"
+        },
+        {
+          "name": "Beeper",
+          "slug": "beeper",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "One chat app to rule them all"
+        },
+        {
+          "name": "Level",
+          "slug": "level",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Fast and simple fintech financing"
+        },
+        {
+          "name": "Goodkind",
+          "slug": "goodkind",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Student communications platform for higher education"
+        },
+        {
+          "name": "Sleek",
+          "slug": "sleek",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "1-click checkout from every store on the internet + cashback rewards."
+        },
+        {
+          "name": "MadEats",
+          "slug": "madeats",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Online delivery-only restaurant group in the Philippines"
+        },
+        {
+          "name": "Maroo",
+          "slug": "maroo",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Business management platform for creatives"
+        },
+        {
+          "name": "Tarsal",
+          "slug": "tarsal",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Data pipeline for your security data lake."
+        },
+        {
+          "name": "Hilos",
+          "slug": "quid",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Close and activate your customers on WhatsApp"
+        },
+        {
+          "name": "Keyri",
+          "slug": "keyri",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Secure fraud prevention and authentication platform for developers"
+        }
+      ],
+      "batch_size": 391
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Finance and Accounting"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "inDinero",
+          "slug": "indinero",
+          "status": "Active",
+          "batch": "Summer 2010",
+          "one_liner": "Financial dashboard for businesses."
+        },
+        {
+          "name": "Inkling",
+          "slug": "inkling",
+          "status": "Acquired",
+          "batch": "Winter 2006",
+          "one_liner": ""
+        },
+        {
+          "name": "PayTango",
+          "slug": "paytango",
+          "status": "Inactive",
+          "batch": "Winter 2013",
+          "one_liner": "Simple invoicing"
+        },
+        {
+          "name": "Abacus",
+          "slug": "abacus",
+          "status": "Acquired",
+          "batch": "Winter 2014",
+          "one_liner": "Making expense reports obsolete"
+        },
+        {
+          "name": "Chargehound",
+          "slug": "chargehound",
+          "status": "Acquired",
+          "batch": "Winter 2014",
+          "one_liner": "Automate your chargeback dispute process. (Acquired by PayPal)"
+        },
+        {
+          "name": "Rocketrip",
+          "slug": "rocketrip",
+          "status": "Acquired",
+          "batch": "Winter 2014",
+          "one_liner": "Rocketrip helps companies save money on travel expenses by aligning\u2026"
+        },
+        {
+          "name": "Unicornly",
+          "slug": "unicornly",
+          "status": "Inactive",
+          "batch": "Winter 2014",
+          "one_liner": "Unicorn.ly makes fundraising more efficient for both angel investors\u2026"
+        },
+        {
+          "name": "Paid",
+          "slug": "paid",
+          "status": "Inactive",
+          "batch": "Summer 2014",
+          "one_liner": "Autopilot for Accounts Receivable"
+        },
+        {
+          "name": "Payable",
+          "slug": "payable",
+          "status": "Acquired",
+          "batch": "Summer 2014",
+          "one_liner": "Simple payments and tax compliance for your contract workforce."
+        },
+        {
+          "name": "Kickpay",
+          "slug": "kickpay",
+          "status": "Inactive",
+          "batch": "Winter 2015",
+          "one_liner": "A platform to finance inventory for e-commerce companies."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Paris",
+      "location": "Paris, \u00cele-de-France, France",
+      "companies_in_city": 55,
+      "active_in_city": 36,
+      "nearby_companies": [
+        {
+          "name": "Motionlead",
+          "slug": "motionlead",
+          "batch": "Winter 2014",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Hublo",
+          "slug": "hublo",
+          "batch": "Summer 2014",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Afrostream",
+          "slug": "afrostream",
+          "batch": "Summer 2015",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Whyd",
+          "slug": "whyd",
+          "batch": "Summer 2016",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Bulldozair",
+          "slug": "bulldozair",
+          "batch": "Summer 2016",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Request Network",
+          "slug": "request-network",
+          "batch": "Winter 2017",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Anasen",
+          "slug": "anasen",
+          "batch": "Winter 2017",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Airthium",
+          "slug": "airthium",
+          "batch": "Summer 2017",
+          "industry": "Industrials",
+          "status": "Active"
+        },
+        {
+          "name": "Goosebump",
+          "slug": "goosebump",
+          "batch": "Summer 2017",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Station",
+          "slug": "station",
+          "batch": "Winter 2018",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Mojo",
+          "slug": "mojo",
+          "batch": "Winter 2018",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Dashblock",
+          "slug": "dashblock",
+          "batch": "Summer 2019",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "OpenReplay",
+          "slug": "asayer",
+          "batch": "Summer 2019",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Data Mechanics",
+          "slug": "data-mechanics",
+          "batch": "Summer 2019",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Multis",
+          "slug": "multis",
+          "batch": "Summer 2019",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Photoroom",
+          "slug": "photoroom",
+          "batch": "Summer 2020",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Riot",
+          "slug": "riot",
+          "batch": "Winter 2020",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Jitter",
+          "slug": "jitter",
+          "batch": "Winter 2020",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Mailwarm",
+          "slug": "mailwarm",
+          "batch": "Summer 2020",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "OneKey",
+          "slug": "onekey",
+          "batch": "Summer 2020",
+          "industry": "Fintech",
+          "status": "Inactive"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Hyperseed",
+        "slug": "hyperseed",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "PaletteHQ",
+        "slug": "palettehq",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Blixo",
+        "slug": "blixo",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Confido",
+        "slug": "confido",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Swipe",
+        "slug": "swipe-2",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Keeper",
+        "slug": "keeper",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Konta.com",
+        "slug": "konta-com",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Maroo",
+        "slug": "maroo",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Formance",
+        "slug": "formance",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Aleph",
+        "slug": "aleph",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 3191,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:28:49.181014"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:28:49.181021",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:28:49.529437",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:28:49.635026",
+    "basic_info": {
+      "is_hiring": true,
+      "team_size": 23,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:54.525600",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increasing adoption of usage-based pricing models",
+        "Demand for transparent and customizable billing solutions",
+        "Growing preference for open-source software in enterprise infrastructure"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Open-source community, developer mindshare, and first-mover advantage in the open-source billing space.",
+      "differentiation": "Open-source nature, focus on developer experience, and composability for complex pricing scenarios.",
+      "competitive_advantages": [
+        "Transparency and control over billing infrastructure",
+        "Strong community support and extensibility"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on community contributions for feature development",
+        "Potential for commercial competitors to offer more comprehensive support and features"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS (likely offering hosted and support services for the open-source platform)",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "series-a",
+      "growth_indicators": [
+        "Community growth and engagement",
+        "Adoption rate of the open-source platform",
+        "Conversion rate to paid support/hosting services"
+      ],
+      "growth_bottlenecks": [
+        "Scaling the support infrastructure for a growing user base",
+        "Balancing open-source development with commercial priorities"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Competition from established billing providers (Stripe, Chargebee)",
+        "Sustaining community engagement and contributions",
+        "Successfully monetizing the open-source platform"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong team with prior experience in building billing systems at scale",
+        "Growing market for usage-based pricing and open-source solutions",
+        "Potential to disrupt the billing industry with a more transparent and customizable approach"
+      ],
+      "concerns": [
+        "Monetization strategy and ability to compete with well-funded incumbents",
+        "Reliance on the open-source community for long-term sustainability"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Stripe Billing",
+        "Chargebee"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on building a strong and engaged community",
+        "Develop a clear and compelling monetization strategy"
+      ],
+      "expansion_opportunities": [
+        "Expand integrations with other developer tools and platforms",
+        "Offer more advanced features and support for enterprise customers"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 706,
+      "completion": 704,
+      "total": 1410,
+      "estimated_cost": 0.000264
+    }
+  },
+  "phase8_complete": true
+}

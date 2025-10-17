@@ -1,0 +1,648 @@
+{
+  "slug": "trac",
+  "name": "TRAC",
+  "yc_id": 1059,
+  "batch": "Winter 2016",
+  "website": "https://www.tracchicago.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:37:08.206849",
+    "website": "https://www.tracchicago.com",
+    "website_status": {
+      "reachable": false,
+      "error": "connection_error"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "tracchicago.com",
+      "registrar": "GoDaddy.com, LLC",
+      "creation_date": "2015-07-09T23:45:58",
+      "expiration_date": "2026-07-09T23:45:58",
+      "domain_age_days": 3752,
+      "domain_age_years": 10.3,
+      "name_servers": [
+        "NS21.DOMAINCONTROL.COM",
+        "NS22.DOMAINCONTROL.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "error": "HTTPSConnectionPool(host='www.tracchicago.com', port=443): Max retries exceeded with url: / (Caused "
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:17:03.247494",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:16:52.368307",
+    "place_data": {
+      "status": "success",
+      "method": "nominatim",
+      "formatted_address": "Chicago, Cook County, Illinois, United States",
+      "coordinates": {
+        "latitude": 41.8755616,
+        "longitude": -87.6244212
+      },
+      "place_types": [
+        "administrative"
+      ],
+      "retrieved_at": "2025-10-17T10:14:48.016444",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:52.368446",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:52.368461",
+    "batch_network": {
+      "batch": "Winter 2016",
+      "total_batch_mates": 121,
+      "active_batch_mates": 59,
+      "batch_success_rate": 48.8,
+      "notable_batch_mates": [
+        {
+          "name": "Stilt",
+          "slug": "stilt",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Financial products for immigrants (acquired by JG Wentworth)"
+        },
+        {
+          "name": "Embark Trucks",
+          "slug": "embark-trucks",
+          "status": "Public",
+          "top_company": false,
+          "one_liner": "Self-driving semi trucks."
+        },
+        {
+          "name": "Loop Genomics",
+          "slug": "loop-genomics",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Novel long-read DNA sequencing technology"
+        },
+        {
+          "name": "Able Health",
+          "slug": "able-health",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Able Health gets doctors paid more for higher quality care"
+        },
+        {
+          "name": "Truebill",
+          "slug": "truebill",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Live your best financial life"
+        },
+        {
+          "name": "LendEDU",
+          "slug": "lendedu",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "LendEDU is a marketplace for consumer financial products."
+        },
+        {
+          "name": "Luminist Labs",
+          "slug": "luminist-labs",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Diagnostic platform for early detection of liver disease"
+        },
+        {
+          "name": "MineralSoft",
+          "slug": "mineralsoft",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Data management platform for oil & gas assets"
+        },
+        {
+          "name": "Pulpix",
+          "slug": "pulpix",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Binge-watching technology for video platforms. "
+        },
+        {
+          "name": "Paystack",
+          "slug": "paystack",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Modern payments infrastructure for Africa"
+        }
+      ],
+      "batch_size": 122
+    },
+    "industry_network": {
+      "industries": [
+        "Healthcare",
+        "Consumer Health and Wellness"
+      ],
+      "total_industry_peers": 642,
+      "active_industry_peers": 503,
+      "direct_competitors": [
+        {
+          "name": "Crohnology (by Healthy Labs)",
+          "slug": "crohnology-by-healthy-labs",
+          "status": "Inactive",
+          "batch": "Summer 2012",
+          "one_liner": "We turn Patients into Researchers."
+        },
+        {
+          "name": "Amulyte",
+          "slug": "amulyte",
+          "status": "Inactive",
+          "batch": "Summer 2013",
+          "one_liner": "Remote monitoring & activity tracking system for seniors. "
+        },
+        {
+          "name": "SoundFocus",
+          "slug": "soundfocus",
+          "status": "Inactive",
+          "batch": "Summer 2013",
+          "one_liner": "We are giving you 20/20 hearing when listening to the devices you\u2026"
+        },
+        {
+          "name": "Weilos",
+          "slug": "weilos",
+          "status": "Acquired",
+          "batch": "Summer 2013",
+          "one_liner": "Weight loss coaching."
+        },
+        {
+          "name": "SpringWit",
+          "slug": "springwit",
+          "status": "Inactive",
+          "batch": "Summer 2014",
+          "one_liner": "Brain health and awareness"
+        },
+        {
+          "name": "TAXA Biotechnologies",
+          "slug": "taxa-biotechnologies",
+          "status": "Inactive",
+          "batch": "Summer 2014",
+          "one_liner": "We enable cheaper, faster, and better genetic engineering of plants.\u2026"
+        },
+        {
+          "name": "Tempo",
+          "slug": "tempo",
+          "status": "Active",
+          "batch": "Winter 2015",
+          "one_liner": "Live home fitness training powered by computer vision."
+        },
+        {
+          "name": "VetPronto",
+          "slug": "vetpronto",
+          "status": "Inactive",
+          "batch": "Winter 2015",
+          "one_liner": "On demand veterinary house calls. "
+        },
+        {
+          "name": "Wink Health",
+          "slug": "wink-health",
+          "status": "Inactive",
+          "batch": "Winter 2015",
+          "one_liner": "The digital sleep clinic"
+        },
+        {
+          "name": "Lully",
+          "slug": "lully",
+          "status": "Inactive",
+          "batch": "Winter 2015",
+          "one_liner": "Lully is developing an under-the-mattress technology that precisely\u2026"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Chicago",
+      "location": "Chicago, IL, USA",
+      "companies_in_city": 26,
+      "active_in_city": 14,
+      "nearby_companies": [
+        {
+          "name": "Aisle50",
+          "slug": "aisle50",
+          "batch": "Summer 2011",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Debteye",
+          "slug": "debteye",
+          "batch": "Summer 2011",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Draft",
+          "slug": "draft",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tutorspree",
+          "slug": "tutorspree",
+          "batch": "Winter 2011",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "Inkling",
+          "slug": "inkling",
+          "batch": "Winter 2006",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "CodeNow",
+          "slug": "codenow",
+          "batch": "Winter 2014",
+          "industry": "Unspecified",
+          "status": "Active"
+        },
+        {
+          "name": "ShipBob",
+          "slug": "shipbob",
+          "batch": "Summer 2014",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Popular Pays",
+          "slug": "popular-pays",
+          "batch": "Winter 2015",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Bluecrew",
+          "slug": "bluecrew",
+          "batch": "Summer 2015",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Tovala",
+          "slug": "tovala",
+          "batch": "Winter 2016",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "mRelief",
+          "slug": "mrelief",
+          "batch": "Winter 2016",
+          "industry": "Unspecified",
+          "status": "Active"
+        },
+        {
+          "name": "Airfordable",
+          "slug": "airfordable",
+          "batch": "Summer 2016",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Draftbit",
+          "slug": "draftbit",
+          "batch": "Winter 2018",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "HappiLabs",
+          "slug": "happilabs",
+          "batch": "Summer 2018",
+          "industry": "Healthcare",
+          "status": "Acquired"
+        },
+        {
+          "name": "Preflight",
+          "slug": "preflight",
+          "batch": "Winter 2019",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Obie",
+          "slug": "obie",
+          "batch": "Summer 2019",
+          "industry": "Real Estate and Construction",
+          "status": "Active"
+        },
+        {
+          "name": "TaxProper",
+          "slug": "taxproper",
+          "batch": "Summer 2019",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Protobase",
+          "slug": "protobase",
+          "batch": "Winter 2020",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Fly.io",
+          "slug": "fly-io",
+          "batch": "Winter 2020",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Synapticure",
+          "slug": "synapticure",
+          "batch": "Summer 2020",
+          "industry": "Healthcare",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "DoseDr",
+        "slug": "dosedr",
+        "batch": "Winter 2016",
+        "industry": "Healthcare",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Enflux",
+        "slug": "enflux",
+        "batch": "Winter 2016",
+        "industry": "Healthcare",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "NURX",
+        "slug": "nurx",
+        "batch": "Winter 2016",
+        "industry": "Healthcare",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Qvin",
+        "slug": "qvin",
+        "batch": "Winter 2016",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Liv Labs",
+        "slug": "liv-labs-inc",
+        "batch": "Summer 2021",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "iSono Health",
+        "slug": "isono-health",
+        "batch": "Winter 2016",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Tovala",
+        "slug": "tovala",
+        "batch": "Winter 2016",
+        "industry": "Consumer",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Loop Genomics",
+        "slug": "loop-genomics",
+        "batch": "Winter 2016",
+        "industry": "Healthcare",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Able Health",
+        "slug": "able-health",
+        "batch": "Winter 2016",
+        "industry": "Healthcare",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "InnoVein",
+        "slug": "innovein",
+        "batch": "Winter 2016",
+        "industry": "Healthcare",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 789,
+      "network_density_score": 69.4,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:16:52.380984"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:52.380992",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:52.712714",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:52.800666",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 2,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:41.643957",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "medium",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increased adoption of wearable technology in sports",
+        "Growing demand for real-time performance data",
+        "Rising popularity of amateur and professional athletic events"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Potentially some tech moat around their integrated RFID timing system, but easily replicable.",
+      "differentiation": "Integrated RFID timing system with cellular data transmission and application-based software.",
+      "competitive_advantages": [
+        "Precision timing",
+        "Immediate feedback to athletes and coaches"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on RFID technology which can be susceptible to interference",
+        "Competition from established sports timing companies"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "Hardware and SaaS",
+      "scalability": "medium",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "seed",
+      "growth_indicators": [
+        "Number of athletic events using TRAC system",
+        "Customer acquisition rate"
+      ],
+      "growth_bottlenecks": [
+        "Sales cycle to athletic organizations",
+        "Competition from established players"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "high",
+      "overall_risk_score": 7,
+      "key_risks": [
+        "Inability to scale sales and marketing efforts",
+        "Competition from larger, well-funded companies",
+        "Dependence on a small team"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Integrated solution",
+        "Real-time data feedback",
+        "Addresses a specific need in athletic event timing"
+      ],
+      "concerns": [
+        "Inactive status suggests potential challenges",
+        "Limited team size"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Lynx System Developers",
+        "Race Result"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Re-evaluate market fit and competitive landscape",
+        "Focus on a niche market segment (e.g., smaller track meets)"
+      ],
+      "expansion_opportunities": [
+        "Partnerships with athletic organizations",
+        "Integration with other sports performance platforms"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 686,
+      "completion": 611,
+      "total": 1297,
+      "estimated_cost": 0.000235
+    }
+  },
+  "phase8_complete": true
+}

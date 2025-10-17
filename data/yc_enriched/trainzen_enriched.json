@@ -1,0 +1,660 @@
+{
+  "slug": "trainzen",
+  "name": "Trainzen",
+  "yc_id": 480,
+  "batch": "Winter 2013",
+  "website": "http://terascore.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:32:52.772800",
+    "website": "http://terascore.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 801.66,
+      "final_url": "https://www.sent.dm/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:32:53.574464"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "terascore.com",
+      "registrar": "Name.com, Inc.",
+      "creation_date": "2024-12-03T11:07:42",
+      "expiration_date": "2025-12-03T11:07:42",
+      "domain_age_days": 317,
+      "domain_age_years": 0.9,
+      "name_servers": [
+        "NS1CRV.NAME.COM",
+        "NS2HJL.NAME.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/sent_dm",
+      "linkedin": null,
+      "github": "https://github.com/sentdm",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 16,
+      "server": "cloudflare"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:13:52.344261",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:05:44.460140",
+    "place_data": {
+      "status": "success",
+      "method": "nominatim",
+      "formatted_address": "Sunnyvale, Santa Clara County, California, United States",
+      "coordinates": {
+        "latitude": 37.3688301,
+        "longitude": -122.036349
+      },
+      "place_types": [
+        "administrative"
+      ],
+      "retrieved_at": "2025-10-17T10:05:44.726474"
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:05:44.727948",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/sentdm"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 1,
+        "packages": [
+          {
+            "name": "sent-dm",
+            "description": "The official TypeScript library for the Sent Dm API",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sent-dm"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 1,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:05:46.632760"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:05:46.632769",
+    "batch_network": {
+      "batch": "Winter 2013",
+      "total_batch_mates": 45,
+      "active_batch_mates": 18,
+      "batch_success_rate": 40.0,
+      "notable_batch_mates": [
+        {
+          "name": "Screenhero",
+          "slug": "screenhero",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Collaborative Screen Sharing \u2014\u00a0you each get your own mouse, and\u2026"
+        },
+        {
+          "name": "Scuba",
+          "slug": "interana",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Analytics for impatient people."
+        },
+        {
+          "name": "North",
+          "slug": "north",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Wearable computing hardware: biosignal gesture recognition"
+        },
+        {
+          "name": "VaycayHero",
+          "slug": "vaycayhero",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "VaycayHero is a marketplace of professionally managed vacation\u2026"
+        },
+        {
+          "name": "Fivetran",
+          "slug": "fivetran",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "The leader in automated data movement"
+        },
+        {
+          "name": "GrepData",
+          "slug": "grepdata",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Big Data Analytics"
+        },
+        {
+          "name": "Bitnami",
+          "slug": "bitnami",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The App Store for Server Software"
+        },
+        {
+          "name": "Meldium",
+          "slug": "meldium",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Simple password & identity management for teams. Acquired by LogMeIn\u2026"
+        },
+        {
+          "name": "Heap",
+          "slug": "heap",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Captures user interactions with no code to generate analytics."
+        },
+        {
+          "name": "MedXT",
+          "slug": "medxt",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Radiology in the cloud.  X-rays, CAT scans, MRI's, and\u2026"
+        }
+      ],
+      "batch_size": 46
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Human Resources"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1969,
+      "direct_competitors": [
+        {
+          "name": "Gusto",
+          "slug": "gusto",
+          "status": "Active",
+          "batch": "Winter 2012",
+          "one_liner": "Provides growing businesses with everything to take care of their team"
+        },
+        {
+          "name": "Fond",
+          "slug": "fond",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Rewards and recognition SaaS for HR leaders"
+        },
+        {
+          "name": "RoboHR",
+          "slug": "robohr",
+          "status": "Inactive",
+          "batch": "Summer 2009",
+          "one_liner": ""
+        },
+        {
+          "name": "OctaveWealth",
+          "slug": "octavewealth",
+          "status": "Active",
+          "batch": "Summer 2012",
+          "one_liner": "The 401(k) that helps you grow"
+        },
+        {
+          "name": "MicroEval",
+          "slug": "microeval",
+          "status": "Inactive",
+          "batch": "Summer 2012",
+          "one_liner": "Changing the way companies review employee performance with\u2026"
+        },
+        {
+          "name": "Zenefits",
+          "slug": "zenefits",
+          "status": "Acquired",
+          "batch": "Winter 2013",
+          "one_liner": "HR for small businesses: onboarding, payroll and benefits."
+        },
+        {
+          "name": "Teleborder",
+          "slug": "teleborder",
+          "status": "Inactive",
+          "batch": "Summer 2013",
+          "one_liner": "Dashboard for companies to manage immigration for their employees."
+        },
+        {
+          "name": "Checkr",
+          "slug": "checkr",
+          "status": "Active",
+          "batch": "Summer 2014",
+          "one_liner": "People infrastructure for the future of work"
+        },
+        {
+          "name": "Impraise",
+          "slug": "impraise",
+          "status": "Acquired",
+          "batch": "Summer 2014",
+          "one_liner": "Enable managers to create an effective work environment for their team"
+        },
+        {
+          "name": "teaBOT",
+          "slug": "teabot",
+          "status": "Active",
+          "batch": "Summer 2015",
+          "one_liner": "A robot that makes tea!"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Sunnyvale",
+      "location": "Sunnyvale, CA, USA",
+      "companies_in_city": 15,
+      "active_in_city": 9,
+      "nearby_companies": [
+        {
+          "name": "Matterport",
+          "slug": "matterport",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Public"
+        },
+        {
+          "name": "Talkray (TiKL)",
+          "slug": "talkray-tikl",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Ixiplay",
+          "slug": "ixiplay",
+          "batch": "Summer 2013",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "VizeraLabs",
+          "slug": "vizeralabs",
+          "batch": "Summer 2014",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Escher Reality",
+          "slug": "escher-reality",
+          "batch": "Summer 2017",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Cairns Health",
+          "slug": "cairns-health",
+          "batch": "Summer 2017",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Percept.AI",
+          "slug": "percept-ai",
+          "batch": "Summer 2017",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "ArchForm",
+          "slug": "archform",
+          "batch": "Winter 2018",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Swif.ai",
+          "slug": "swif-ai",
+          "batch": "Summer 2020",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Cloudanix",
+          "slug": "cloudanix",
+          "batch": "Summer 2021",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "OneStopKitchen",
+          "slug": "onestopkitchen",
+          "batch": "Summer 2021",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Careerist",
+          "slug": "careerist",
+          "batch": "Summer 2021",
+          "industry": "Education",
+          "status": "Active"
+        },
+        {
+          "name": "HypaHub",
+          "slug": "hypahub",
+          "batch": "Winter 2022",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Logital AI (Teclada)",
+          "slug": "logital-ai-teclada",
+          "batch": "Winter 2023",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Epsilla",
+          "slug": "epsilla",
+          "batch": "Summer 2023",
+          "industry": "B2B",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "low"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Zenefits",
+        "slug": "zenefits",
+        "batch": "Winter 2013",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "CircuitLab",
+        "slug": "circuitlab",
+        "batch": "Winter 2013",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Screenhero",
+        "slug": "screenhero",
+        "batch": "Winter 2013",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Scuba",
+        "slug": "interana",
+        "batch": "Winter 2013",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Appcubator",
+        "slug": "appcubator",
+        "batch": "Winter 2013",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Swish",
+        "slug": "swish",
+        "batch": "Winter 2013",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "PayTango",
+        "slug": "paytango",
+        "batch": "Winter 2013",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Padlet",
+        "slug": "padlet",
+        "batch": "Winter 2013",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Fivetran",
+        "slug": "fivetran",
+        "batch": "Winter 2013",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "GrepData",
+        "slug": "grepdata",
+        "batch": "Winter 2013",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 2806,
+      "network_density_score": 52.0,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": false,
+      "calculated_at": "2025-10-17T10:05:46.640461"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:05:46.640470",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:05:46.970650",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:05:47.061060",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 2,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:44:23.123337",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Digital transformation in education",
+        "Remote learning acceleration",
+        "Data-driven educational insights"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Question bank and analytics capabilities, but limited network effects",
+      "differentiation": "Instant analytics on question quality and difficulty with reusable question banks",
+      "competitive_advantages": [
+        "Real-time feedback loop",
+        "Teacher efficiency focus"
+      ],
+      "competitive_vulnerabilities": [
+        "Large incumbents with resources",
+        "Low switching costs for basic features"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "low"
+    },
+    "growth_assessment": {
+      "growth_stage": "pre-seed",
+      "growth_indicators": [
+        "Large addressable market",
+        "Clear pain point"
+      ],
+      "growth_bottlenecks": [
+        "Teacher adoption resistance",
+        "School procurement cycles"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "high",
+      "overall_risk_score": 7,
+      "key_risks": [
+        "Status shows as inactive",
+        "Crowded competitive landscape",
+        "Slow education market adoption"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Large education market",
+        "Clear value proposition",
+        "Scalable SaaS model"
+      ],
+      "concerns": [
+        "Company appears inactive",
+        "Intense competition",
+        "Small team size"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Kahoot",
+        "Quizizz"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Verify current company status",
+        "Assess competitive differentiation"
+      ],
+      "expansion_opportunities": [
+        "Corporate training market",
+        "International education markets"
+      ]
+    },
+    "tokens_used": {
+      "input": 732,
+      "output": 477,
+      "total": 1209,
+      "estimated_cost": 0.009351
+    }
+  },
+  "phase8_complete": true
+}

@@ -1,0 +1,1590 @@
+{
+  "slug": "reploy",
+  "name": "Reploy",
+  "yc_id": 13732,
+  "batch": "Summer 2020",
+  "website": "https://getreploy.com/",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:54:43.870385",
+    "website": "https://getreploy.com/",
+    "website_status": {
+      "reachable": true,
+      "status_code": 404,
+      "response_time_ms": 2050.62,
+      "final_url": "https://getreploy.com/",
+      "redirected": false,
+      "checked_at": "2025-10-17T00:54:45.921014"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "getreploy.com",
+      "registrar": "Cloudflare, Inc.",
+      "creation_date": "2019-11-23T03:17:03",
+      "expiration_date": "2025-11-23T03:17:03",
+      "domain_age_days": 2154,
+      "domain_age_years": 5.9,
+      "name_servers": [
+        "DANTE.NS.CLOUDFLARE.COM",
+        "KIA.NS.CLOUDFLARE.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/githubstatus",
+      "linkedin": null,
+      "github": "https://help.github.com/pages/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": false,
+      "content_security_policy": true,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 16,
+      "server": "cloudflare"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:24:58.514436",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:24:43.247426",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "San Francisco, CA, USA",
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:12:40.434017",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:43.247471",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/pages"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 100,
+        "packages": [
+          {
+            "name": "@docusaurus/plugin-content-pages",
+            "description": "Pages plugin for Docusaurus.",
+            "version": "3.9.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@docusaurus/plugin-content-pages"
+          },
+          {
+            "name": "gh-pages",
+            "description": "Publish to a gh-pages branch on GitHub (or any other branch on any other remote)",
+            "version": "6.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/gh-pages"
+          },
+          {
+            "name": "@types/gh-pages",
+            "description": "TypeScript definitions for gh-pages",
+            "version": "6.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@types/gh-pages"
+          },
+          {
+            "name": "grapesjs-pages",
+            "description": "Grapesjs Pages",
+            "version": "1.0.19",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/grapesjs-pages"
+          },
+          {
+            "name": "domhandler",
+            "description": "Handler for htmlparser2 that turns pages into a dom",
+            "version": "5.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/domhandler"
+          },
+          {
+            "name": "gatsby-page-utils",
+            "description": "Gatsby library that helps creating pages",
+            "version": "3.15.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/gatsby-page-utils"
+          },
+          {
+            "name": "grunt-gh-pages",
+            "description": "Publish to GitHub Pages with Grunt.",
+            "version": "4.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/grunt-gh-pages"
+          },
+          {
+            "name": "@remix-run/cloudflare-pages",
+            "description": "Cloudflare Pages request handler for Remix",
+            "version": "2.17.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@remix-run/cloudflare-pages"
+          },
+          {
+            "name": "gulp-gh-pages",
+            "description": "gulp plugin to publish contents to Github pages",
+            "version": "0.5.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/gulp-gh-pages"
+          },
+          {
+            "name": "@cloudflare/pages-plugin-honeycomb",
+            "description": "# Honeycomb Pages Plugin",
+            "version": "1.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@cloudflare/pages-plugin-honeycomb"
+          },
+          {
+            "name": "@sentry/cloudflare",
+            "description": "Official Sentry SDK for Cloudflare Workers and Pages",
+            "version": "10.20.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sentry/cloudflare"
+          },
+          {
+            "name": "@cloudflare/pages-plugin-cloudflare-access",
+            "description": "# Cloudflare Access Pages Plugin",
+            "version": "1.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@cloudflare/pages-plugin-cloudflare-access"
+          },
+          {
+            "name": "@percy/cli-snapshot",
+            "description": "Snapshot a list or static directory of web pages.",
+            "version": "1.31.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@percy/cli-snapshot"
+          },
+          {
+            "name": "@cloudflare/pages-plugin-turnstile",
+            "description": "# Turnstile Pages Plugin",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@cloudflare/pages-plugin-turnstile"
+          },
+          {
+            "name": "@cloudflare/pages-plugin-vercel-og",
+            "description": "# `@vercel/og` Pages Plugin",
+            "version": "0.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@cloudflare/pages-plugin-vercel-og"
+          },
+          {
+            "name": "rijs.pages",
+            "description": "[![Coverage Status](https://coveralls.io/repos/rijs/pages/badge.svg?branch=master&service=github)](https://coveralls.io/github/rijs/pages?branch=master)\r [![Build Status](https://travis-ci.org/rijs/pages.svg)](https://travis-ci.org/rijs/pages)",
+            "version": "1.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rijs.pages"
+          },
+          {
+            "name": "@polymer/iron-pages",
+            "description": "Organizes a set of pages and shows one at a time",
+            "version": "3.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@polymer/iron-pages"
+          },
+          {
+            "name": "ember-cli-github-pages",
+            "description": "Easily manage gh-pages of your ember-cli addon",
+            "version": "0.2.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ember-cli-github-pages"
+          },
+          {
+            "name": "@astrojs/cloudflare",
+            "description": "Deploy your site to Cloudflare Workers/Pages",
+            "version": "12.6.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@astrojs/cloudflare"
+          },
+          {
+            "name": "vite-plugin-pages-sitemap",
+            "description": "vite-plugin-pages based sitemap generator",
+            "version": "1.7.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/vite-plugin-pages-sitemap"
+          },
+          {
+            "name": "@cloudflare/pages-plugin-graphql",
+            "description": "# GraphQL Pages Plugin",
+            "version": "1.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@cloudflare/pages-plugin-graphql"
+          },
+          {
+            "name": "gatsby-plugin-page-creator",
+            "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+            "version": "5.15.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/gatsby-plugin-page-creator"
+          },
+          {
+            "name": "@cloudflare/pages-plugin-google-chat",
+            "description": "# Google Chat Pages Plugin",
+            "version": "1.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@cloudflare/pages-plugin-google-chat"
+          },
+          {
+            "name": "@cloudflare/pages-plugin-hcaptcha",
+            "description": "# hCaptcha Pages Plugin",
+            "version": "1.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@cloudflare/pages-plugin-hcaptcha"
+          },
+          {
+            "name": "@cloudflare/pages-plugin-static-forms",
+            "description": "# Static Forms Pages Plugin",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@cloudflare/pages-plugin-static-forms"
+          },
+          {
+            "name": "gh-pages-generator",
+            "description": "Multi-page site generator converting markdown files to github pages",
+            "version": "0.2.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/gh-pages-generator"
+          },
+          {
+            "name": "@cloudflare/pages-plugin-stytch",
+            "description": "# Stytch Pages Plugin",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@cloudflare/pages-plugin-stytch"
+          },
+          {
+            "name": "@microsoft/api-documenter",
+            "description": "Read JSON files from api-extractor, generate documentation pages",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@microsoft/api-documenter"
+          },
+          {
+            "name": "@astrojs/mdx",
+            "description": "Add support for MDX pages in your Astro site",
+            "version": "4.3.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@astrojs/mdx"
+          },
+          {
+            "name": "gh-pages-deploy",
+            "description": "deploy to gh-pages with one command",
+            "version": "0.5.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/gh-pages-deploy"
+          },
+          {
+            "name": "nodewrite-core-pages",
+            "description": "core pages for nodewrite",
+            "version": "1.0.21",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/nodewrite-core-pages"
+          },
+          {
+            "name": "@datadog/browser-logs",
+            "description": "Send logs to Datadog from web browser pages with the browser logs SDK.",
+            "version": "6.22.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@datadog/browser-logs"
+          },
+          {
+            "name": "liquidjs",
+            "description": "A simple, expressive and safe Shopify / Github Pages compatible template engine in pure JavaScript.",
+            "version": "10.22.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/liquidjs"
+          },
+          {
+            "name": "vite-plugin-gh-pages",
+            "description": "Vite plugin to publish your app to GitHub Pages",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/vite-plugin-gh-pages"
+          },
+          {
+            "name": "@hono/vite-cloudflare-pages",
+            "description": "Vite plugin to build your Hono app for Cloudflare Pages",
+            "version": "0.4.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@hono/vite-cloudflare-pages"
+          },
+          {
+            "name": "@blocklet/pages-kit-core",
+            "description": "Pages Kit core",
+            "version": "0.6.99",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@blocklet/pages-kit-core"
+          },
+          {
+            "name": "paginationator",
+            "description": "Paginate an array into pages of items.",
+            "version": "0.1.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/paginationator"
+          },
+          {
+            "name": "@wordpress/router",
+            "description": "Router API for WordPress pages.",
+            "version": "1.32.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@wordpress/router"
+          },
+          {
+            "name": "@react-email/link",
+            "description": "A hyperlink to web pages, email addresses, or anything else a URL can address",
+            "version": "0.0.12",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@react-email/link"
+          },
+          {
+            "name": "defuddle",
+            "description": "Extract article content and metadata from web pages.",
+            "version": "0.6.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/defuddle"
+          },
+          {
+            "name": "@axe-core/playwright",
+            "description": "Provides a method to inject and analyze web pages using axe",
+            "version": "4.10.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@axe-core/playwright"
+          },
+          {
+            "name": "@sveltejs/adapter-cloudflare",
+            "description": "Adapter for building SvelteKit applications on Cloudflare Pages with Workers integration",
+            "version": "7.2.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sveltejs/adapter-cloudflare"
+          },
+          {
+            "name": "@qiwi/semantic-release-gh-pages-plugin",
+            "description": "gh-pages publishing plugin for semantic-release",
+            "version": "5.4.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@qiwi/semantic-release-gh-pages-plugin"
+          },
+          {
+            "name": "@auto-it/gh-pages",
+            "description": "Automate publishing to your gh-pages documentation website",
+            "version": "11.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@auto-it/gh-pages"
+          },
+          {
+            "name": "notion-to-md",
+            "description": "convert notion pages, block and list of blocks to markdown (supports nesting)",
+            "version": "3.1.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/notion-to-md"
+          },
+          {
+            "name": "ooxml-signature-pages",
+            "description": "Generate OOXML markup for signature pages",
+            "version": "3.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ooxml-signature-pages"
+          },
+          {
+            "name": "vitepress-pages",
+            "description": "![npm badge](https://img.shields.io/npm/v/vitepress-pages?color=%23eee&style=for-the-badge)",
+            "version": "2.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/vitepress-pages"
+          },
+          {
+            "name": "@aztrix/pages",
+            "description": "Aztrix pages",
+            "version": "1.46.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aztrix/pages"
+          },
+          {
+            "name": "pages-to-stream",
+            "description": "Create a RxStream from pages generator",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/pages-to-stream"
+          },
+          {
+            "name": "@yext/pages-components",
+            "description": "A React component library that supports Yext Pages development",
+            "version": "1.1.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@yext/pages-components"
+          },
+          {
+            "name": "@graphcommerce/framer-next-pages",
+            "description": "- Ability to create pages that are overlays over other pages. - Ability to create multiple levels of overlays over other pages. - Ability to create entry and exit animations. - Ability to maintain a SharedComponent between multiple pages. - Handles proper",
+            "version": "9.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@graphcommerce/framer-next-pages"
+          },
+          {
+            "name": "@blocklet/pages-kit-runtime",
+            "description": "Pages Kit runtime library",
+            "version": "0.6.99",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@blocklet/pages-kit-runtime"
+          },
+          {
+            "name": "@knodes/typedoc-plugin-pages",
+            "description": "A TypeDoc plugin that lets you integrate your own pages into the documentation output",
+            "version": "0.23.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@knodes/typedoc-plugin-pages"
+          },
+          {
+            "name": "@cnbritain/merlin-www-js-pages",
+            "description": "The javascript to the www app pages",
+            "version": "3.8.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@cnbritain/merlin-www-js-pages"
+          },
+          {
+            "name": "next-superjson-plugin",
+            "description": "Automatically transform your Next.js Pages to use SuperJSON with SWC",
+            "version": "0.6.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/next-superjson-plugin"
+          },
+          {
+            "name": "@heroui/pagination",
+            "description": "The Pagination component allows you to display active page and navigate between multiple pages.",
+            "version": "2.2.24",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@heroui/pagination"
+          },
+          {
+            "name": "penthouse",
+            "description": "Generate critical path CSS for web pages",
+            "version": "2.3.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/penthouse"
+          },
+          {
+            "name": "@antora/redirect-producer",
+            "description": "Produces redirects (HTTP redirections) for pages in an Antora site.",
+            "version": "3.1.14",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@antora/redirect-producer"
+          },
+          {
+            "name": "pathpida",
+            "description": "TypeScript friendly pages and static path generator for Next.js",
+            "version": "0.25.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/pathpida"
+          },
+          {
+            "name": "gatsby-plugin-canonical-urls",
+            "description": "Add canonical links to HTML pages Gatsby generates.",
+            "version": "5.15.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/gatsby-plugin-canonical-urls"
+          },
+          {
+            "name": "@blocklet/pages-kit",
+            "description": "Pages Kit components and utils for blocklet(s)",
+            "version": "0.6.99",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@blocklet/pages-kit"
+          },
+          {
+            "name": "@mat-datetimepicker/core",
+            "description": "> **The example application is on [GitHub Pages](https://kuhnroyal.github.io/mat-datetimepicker/)!**",
+            "version": "16.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mat-datetimepicker/core"
+          },
+          {
+            "name": "zenscroll",
+            "description": "A module to smooth-scroll web pages and scrollable elements (like DIVs)",
+            "version": "4.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/zenscroll"
+          },
+          {
+            "name": "next-translate",
+            "description": "Tiny and powerful i18n tools (Next plugin + API) to translate your Next.js pages.",
+            "version": "2.6.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/next-translate"
+          },
+          {
+            "name": "angular-cli-ghpages",
+            "description": "Deploy your Angular app to GitHub Pages or Cloudflare Pages directly from the Angular CLI (ng deploy)",
+            "version": "2.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/angular-cli-ghpages"
+          },
+          {
+            "name": "@blocklet/pages-kit-inner-components",
+            "description": "Pages Kit inner components library",
+            "version": "0.6.99",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@blocklet/pages-kit-inner-components"
+          },
+          {
+            "name": "gatsby-disable-404",
+            "description": "Disable 404 pages for Gatsby websites",
+            "version": "0.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/gatsby-disable-404"
+          },
+          {
+            "name": "gatsby-plugin-cloudflare-pages",
+            "description": "A Gatsby plugin for sites deployed to Cloudflare Pages",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/gatsby-plugin-cloudflare-pages"
+          },
+          {
+            "name": "@flaregun-net/proxyflare-for-pages",
+            "description": "A reverse proxy for your website on Cloudflare Pages",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@flaregun-net/proxyflare-for-pages"
+          },
+          {
+            "name": "@auto-canary/gh-pages",
+            "description": "Automate publishing to your gh-pages documentation website",
+            "version": "9.17.0-canary.3d532a8a.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@auto-canary/gh-pages"
+          },
+          {
+            "name": "next-pages-preimport",
+            "description": "Speed up first render of pages in your Next.js application.",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/next-pages-preimport"
+          },
+          {
+            "name": "typedoc-plugin-pages-fork",
+            "description": "A TypeDoc plugin that lets you integrate your own pages into the documentation output",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/typedoc-plugin-pages-fork"
+          },
+          {
+            "name": "git-deploy-gh-pages",
+            "description": "Builds and pushes your GH pages deployment.",
+            "version": "1.5.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/git-deploy-gh-pages"
+          },
+          {
+            "name": "@hckr_/cloudflare-pages-plugin-rollbar",
+            "description": "Rollbar integration plugin for Cloudflare Pages",
+            "version": "1.1.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@hckr_/cloudflare-pages-plugin-rollbar"
+          },
+          {
+            "name": "next-navigation-guard",
+            "description": "Navigation Guard for Next.js App Router and Pages Router.",
+            "version": "0.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/next-navigation-guard"
+          },
+          {
+            "name": "@nuxtjs/router",
+            "description": "Nuxt.js module to use router.js instead of pages/ directory",
+            "version": "1.7.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@nuxtjs/router"
+          },
+          {
+            "name": "@swup/preload-plugin",
+            "description": "A swup plugin for preloading pages and faster navigation",
+            "version": "3.2.11",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@swup/preload-plugin"
+          },
+          {
+            "name": "vite-pages-theme-doc",
+            "description": "A document theme for vite-plugin-react-pages.",
+            "version": "5.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/vite-pages-theme-doc"
+          },
+          {
+            "name": "@antora/site-mapper",
+            "description": "Generates sitemap files that list all publishable pages in an Antora documentation pipeline.",
+            "version": "3.1.14",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@antora/site-mapper"
+          },
+          {
+            "name": "@arcblock/result-html-pages",
+            "description": "This package provide a function that generates html code for common error pages such as 404, 500, etc.",
+            "version": "3.1.51",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@arcblock/result-html-pages"
+          },
+          {
+            "name": "nextjs-sitemap-generator",
+            "description": "Generate sitemap.xml from nextjs pages",
+            "version": "1.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/nextjs-sitemap-generator"
+          },
+          {
+            "name": "@commercetools-uikit/pagination",
+            "description": "Components for navigating through pages of items",
+            "version": "20.2.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@commercetools-uikit/pagination"
+          },
+          {
+            "name": "typedoc-plugin-redirect",
+            "description": "Add redirect pages to your generated TypeDoc site.",
+            "version": "1.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/typedoc-plugin-redirect"
+          },
+          {
+            "name": "@blocklet/pages-kit-block-studio",
+            "description": "Pages Kit block studio for blocklet(s)",
+            "version": "0.6.99",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@blocklet/pages-kit-block-studio"
+          },
+          {
+            "name": "typedoc-plugin-pages",
+            "description": "A TypeDoc plugin that lets you integrate your own pages into the documentation output",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/typedoc-plugin-pages"
+          },
+          {
+            "name": "nuxt-pages-plus",
+            "description": "A Nuxt module that enables complex routing for Nuxt Pages.",
+            "version": "1.0.0-beta.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/nuxt-pages-plus"
+          },
+          {
+            "name": "@blocklet/pages-kit-agents",
+            "description": "AIGNE based agents for pages kit",
+            "version": "0.6.99",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@blocklet/pages-kit-agents"
+          },
+          {
+            "name": "codeflask",
+            "description": "A micro code-editor for awesome web pages",
+            "version": "1.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/codeflask"
+          },
+          {
+            "name": "@s-ui/react-molecule-pagination",
+            "description": "`MoleculePagination` is a component that displays a range of pages with the current page highlighted and the proper buttons to navigate across the available pages in the entire range of total pages",
+            "version": "2.22.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@s-ui/react-molecule-pagination"
+          },
+          {
+            "name": "grunt-github-pages",
+            "description": "Push to gh-pages no problem",
+            "version": "0.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/grunt-github-pages"
+          },
+          {
+            "name": "next-translate-plugin",
+            "description": "Tiny and powerful i18n plugin to translate your Next.js pages.",
+            "version": "2.6.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/next-translate-plugin"
+          },
+          {
+            "name": "prerender",
+            "description": "Service to prerender Javascript rendered pages for SEO",
+            "version": "5.21.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/prerender"
+          },
+          {
+            "name": "tldr",
+            "description": "Simplified and community-driven man pages",
+            "version": "3.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/tldr"
+          },
+          {
+            "name": "remark-man",
+            "description": "remark plugin to compile markdown to man pages",
+            "version": "9.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/remark-man"
+          },
+          {
+            "name": "@ttoss/landing-pages",
+            "description": "Package for creating landing pages.",
+            "version": "0.12.51",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ttoss/landing-pages"
+          },
+          {
+            "name": "@incubateur-ademe/legal-pages-markdown",
+            "description": "Legal pages as components as raw markdown",
+            "version": "0.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@incubateur-ademe/legal-pages-markdown"
+          },
+          {
+            "name": "express-force-ssl",
+            "description": "Force SSL on particular/all pages in Express",
+            "version": "0.3.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/express-force-ssl"
+          },
+          {
+            "name": "top-sites",
+            "description": "List of the top 500 domains and pages on the web",
+            "version": "1.1.222",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/top-sites"
+          },
+          {
+            "name": "browser-reload",
+            "description": "Reload web pages on change",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/browser-reload"
+          },
+          {
+            "name": "@axe-core/webdriverio",
+            "description": "Provides a method to inject and analyze web pages using axe",
+            "version": "4.10.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@axe-core/webdriverio"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 20,
+        "packages": [
+          {
+            "name": "github-pages",
+            "version": "232",
+            "downloads": 7106335,
+            "url": "https://rubygems.org/gems/github-pages"
+          },
+          {
+            "name": "dpl-pages",
+            "version": "1.10.16",
+            "downloads": 3350041,
+            "url": "https://rubygems.org/gems/dpl-pages"
+          },
+          {
+            "name": "pages",
+            "version": "0.5.0",
+            "downloads": 25866,
+            "url": "https://rubygems.org/gems/pages"
+          },
+          {
+            "name": "pages_cms",
+            "version": "3.0.0",
+            "downloads": 78116,
+            "url": "https://rubygems.org/gems/pages_cms"
+          },
+          {
+            "name": "refinerycms-pages",
+            "version": "4.0.3",
+            "downloads": 459800,
+            "url": "https://rubygems.org/gems/refinerycms-pages"
+          },
+          {
+            "name": "decidim-pages",
+            "version": "0.30.2",
+            "downloads": 329990,
+            "url": "https://rubygems.org/gems/decidim-pages"
+          },
+          {
+            "name": "constructor-pages",
+            "version": "0.9.1",
+            "downloads": 219254,
+            "url": "https://rubygems.org/gems/constructor-pages"
+          },
+          {
+            "name": "pages_core",
+            "version": "3.15.5",
+            "downloads": 33424,
+            "url": "https://rubygems.org/gems/pages_core"
+          },
+          {
+            "name": "brightcontent-pages",
+            "version": "2.6.0",
+            "downloads": 194576,
+            "url": "https://rubygems.org/gems/brightcontent-pages"
+          },
+          {
+            "name": "effective_pages",
+            "version": "3.15.2",
+            "downloads": 172910,
+            "url": "https://rubygems.org/gems/effective_pages"
+          },
+          {
+            "name": "beef-pages",
+            "version": "0.3.26",
+            "downloads": 165483,
+            "url": "https://rubygems.org/gems/beef-pages"
+          },
+          {
+            "name": "sinatra-pages",
+            "version": "1.5.3",
+            "downloads": 132702,
+            "url": "https://rubygems.org/gems/sinatra-pages"
+          },
+          {
+            "name": "puffer_pages",
+            "version": "0.5.1",
+            "downloads": 76928,
+            "url": "https://rubygems.org/gems/puffer_pages"
+          },
+          {
+            "name": "cartoonist-pages",
+            "version": "0.0.20",
+            "downloads": 71342,
+            "url": "https://rubygems.org/gems/cartoonist-pages"
+          },
+          {
+            "name": "rack-server-pages",
+            "version": "0.2.1",
+            "downloads": 653177,
+            "url": "https://rubygems.org/gems/rack-server-pages"
+          },
+          {
+            "name": "github-pages-health-check",
+            "version": "1.19.0",
+            "downloads": 5910668,
+            "url": "https://rubygems.org/gems/github-pages-health-check"
+          },
+          {
+            "name": "rails_apps_pages",
+            "version": "0.6.7",
+            "downloads": 625866,
+            "url": "https://rubygems.org/gems/rails_apps_pages"
+          },
+          {
+            "name": "middleman-gh-pages",
+            "version": "0.4.1",
+            "downloads": 464570,
+            "url": "https://rubygems.org/gems/middleman-gh-pages"
+          },
+          {
+            "name": "mymedia-pages",
+            "version": "0.6.1",
+            "downloads": 46877,
+            "url": "https://rubygems.org/gems/mymedia-pages"
+          },
+          {
+            "name": "jquery-infinite-pages",
+            "version": "0.2.0",
+            "downloads": 357897,
+            "url": "https://rubygems.org/gems/jquery-infinite-pages"
+          }
+        ]
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 10,
+        "packages": [
+          {
+            "name": "pages",
+            "description": "A dynamically-sized heap-backed data page. Comprises a user-chosen header and data array packed into a single allocation.",
+            "version": "0.2.0",
+            "downloads": 3949,
+            "url": "https://crates.io/crates/pages"
+          },
+          {
+            "name": "libharu",
+            "description": "Rust binding for libharu(http://libharu.org/) PDF library.",
+            "version": "0.1.5",
+            "downloads": 4087,
+            "url": "https://crates.io/crates/libharu"
+          },
+          {
+            "name": "page-hunter",
+            "description": "The pagination powerhouse, built with Rust",
+            "version": "0.5.2",
+            "downloads": 12217,
+            "url": "https://crates.io/crates/page-hunter"
+          },
+          {
+            "name": "lopdf",
+            "description": "A Rust library for PDF document manipulation.",
+            "version": "0.38.0",
+            "downloads": 2757938,
+            "url": "https://crates.io/crates/lopdf"
+          },
+          {
+            "name": "wkhtmlapp",
+            "description": "Convert html to pdf or image",
+            "version": "1.0.2",
+            "downloads": 14584,
+            "url": "https://crates.io/crates/wkhtmlapp"
+          },
+          {
+            "name": "pdfium-render",
+            "description": "A high-level idiomatic Rust wrapper around Pdfium, the C++ PDF library used by the Google Chromium project.",
+            "version": "0.8.35",
+            "downloads": 575174,
+            "url": "https://crates.io/crates/pdfium-render"
+          },
+          {
+            "name": "oxidize-pdf",
+            "description": "A pure Rust PDF generation and manipulation library with zero external dependencies",
+            "version": "1.6.0",
+            "downloads": 8452,
+            "url": "https://crates.io/crates/oxidize-pdf"
+          },
+          {
+            "name": "moosicbox_paging",
+            "description": "MoosicBox paging package",
+            "version": "0.1.4",
+            "downloads": 4696,
+            "url": "https://crates.io/crates/moosicbox_paging"
+          },
+          {
+            "name": "iced_navigation",
+            "description": "Navigation library for the iced GUI framework",
+            "version": "1.5.0",
+            "downloads": 4452,
+            "url": "https://crates.io/crates/iced_navigation"
+          },
+          {
+            "name": "sushi-gen",
+            "description": "A simple but customizable static site generator / blog generator",
+            "version": "0.2.12",
+            "downloads": 14464,
+            "url": "https://crates.io/crates/sushi-gen"
+          }
+        ]
+      },
+      "total_packages": 130,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:24:44.416380"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:44.416417",
+    "batch_network": {
+      "batch": "Summer 2020",
+      "total_batch_mates": 207,
+      "active_batch_mates": 131,
+      "batch_success_rate": 63.3,
+      "notable_batch_mates": [
+        {
+          "name": "Ladder",
+          "slug": "ladder",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Labor Marketplace for Construction"
+        },
+        {
+          "name": "Fig",
+          "slug": "fig",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Fig adds visual apps, shortcuts, and autocomplete to your terminal."
+        },
+        {
+          "name": "Altro",
+          "slug": "altro",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Build Credit With Your Subscriptions"
+        },
+        {
+          "name": "Jemi",
+          "slug": "jemi",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Jemi helps people build beautiful websites and stores."
+        },
+        {
+          "name": "LSK Technologies",
+          "slug": "lsk-technologies",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A diagnostic lab in a box"
+        },
+        {
+          "name": "Command AI",
+          "slug": "command-ai",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "AI-powered user assistance platform"
+        },
+        {
+          "name": "Bandit ML",
+          "slug": "bandit-ml",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Bandit ML builds machine learning tools for e-commerce companies."
+        },
+        {
+          "name": "Momence",
+          "slug": "momence",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Scheduling and payments for experiences"
+        },
+        {
+          "name": "Gather",
+          "slug": "gather",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Project management software for People Operations"
+        },
+        {
+          "name": "Finmark",
+          "slug": "finmark",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Financial planning software for startups"
+        }
+      ],
+      "batch_size": 208
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1969,
+      "direct_competitors": [
+        {
+          "name": "Amiato",
+          "slug": "amiato",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "The BI bridge for unstructured data. We automatically bridge the gap\u2026"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Simple multiplayer game servers."
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Backlift allows front-end only developers to build entire websites\u2026"
+        },
+        {
+          "name": "Documents.Me",
+          "slug": "documents-me",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Client-side encryption for your devices and the cloud."
+        },
+        {
+          "name": "Apollo",
+          "slug": "apollo",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Apollo helps engineering teams accelerate delivery"
+        },
+        {
+          "name": "Proxino",
+          "slug": "proxino",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Javascript proxy."
+        },
+        {
+          "name": "PhoneSys",
+          "slug": "phonesys",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "The Phone System for Sales Teams."
+        },
+        {
+          "name": "Cryptoseal",
+          "slug": "cryptoseal",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Server key management, VPN as a Service, Privacy VPN.  Sold to\u2026"
+        },
+        {
+          "name": "Citus Data",
+          "slug": "citus-data",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Real-time. Big data. PostgreSQL"
+        },
+        {
+          "name": "Realm",
+          "slug": "realm",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Better data structures = no DB."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "San Francisco",
+      "location": "San Francisco, CA, USA",
+      "companies_in_city": 2007,
+      "active_in_city": 1340,
+      "nearby_companies": [
+        {
+          "name": "42Floors",
+          "slug": "42floors",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "PlanGrid",
+          "slug": "plangrid",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "MyVR",
+          "slug": "myvr",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Couple",
+          "slug": "couple",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HackPad",
+          "slug": "hackpad",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Gusto",
+          "slug": "gusto",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "FamilyLeaf",
+          "slug": "familyleaf",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Chute",
+          "slug": "chute",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Make School",
+          "slug": "make-school",
+          "batch": "Winter 2012",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Exec",
+          "slug": "exec",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Public"
+        },
+        {
+          "name": "LendUp",
+          "slug": "lendup",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tilt",
+          "slug": "tilt",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fond",
+          "slug": "fond",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Metamanagement",
+        "slug": "metamanagement",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Aquarium Learning",
+        "slug": "aquarium-learning",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Supabase",
+        "slug": "supabase",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Mozart Data",
+        "slug": "mozart-data",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Unfaze AI",
+        "slug": "unfaze-ai",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Porter",
+        "slug": "porter",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Openbase",
+        "slug": "openbase",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Fig",
+        "slug": "fig",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Response",
+        "slug": "response",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Recurrency",
+        "slug": "recurrency",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 4960,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:24:44.449204"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:44.449223",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:44.807945",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:44.944073",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 4,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:35.991694",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "medium",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increased adoption of DevOps practices",
+        "Growing demand for faster software delivery cycles",
+        "Rise of cloud-native development"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "First-mover advantage, potential for network effects if teams widely adopt the platform for collaboration.",
+      "differentiation": "Focus on ease of use and instant environment creation, targeting developers directly.",
+      "competitive_advantages": [
+        "Simple setup and integration",
+        "Fast environment provisioning"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on underlying cloud infrastructure",
+        "Potential for feature parity from larger players"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "seed",
+      "growth_indicators": [
+        "Adoption rate among development teams",
+        "Number of active environments created"
+      ],
+      "growth_bottlenecks": [
+        "Integration complexity with diverse tech stacks",
+        "Sales and marketing to reach target audience"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "high",
+      "overall_risk_score": 7,
+      "key_risks": [
+        "Competition from established players",
+        "Maintaining uptime and reliability",
+        "Acquisition cost of users"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Addresses a clear pain point for developers",
+        "Potential for rapid adoption within teams",
+        "Leverages trends in DevOps and cloud computing"
+      ],
+      "concerns": [
+        "Inactive status raises questions about viability",
+        "Dependence on cloud providers"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Env0",
+        "Qovery"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Re-evaluate product-market fit based on inactivity",
+        "Focus on specific niche within the broader market"
+      ],
+      "expansion_opportunities": [
+        "Integrate with more CI/CD tools",
+        "Offer enterprise-grade security and compliance features"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 647,
+      "completion": 603,
+      "total": 1250,
+      "estimated_cost": 0.000229
+    }
+  },
+  "phase8_complete": true
+}

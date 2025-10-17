@@ -1,0 +1,137 @@
+{
+  "slug": "tusk",
+  "name": "Tusk",
+  "yc_id": 29310,
+  "batch": "Winter 2024",
+  "website": "https://usetusk.ai",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T01:27:50.620270",
+    "website": "https://usetusk.ai",
+    "website_status": {
+      "reachable": false,
+      "error": "ssl_error"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "usetusk.ai",
+      "registrar": "GoDaddy.com, LLC",
+      "creation_date": "2023-06-14T01:26:57",
+      "expiration_date": "2027-06-14T01:26:57",
+      "domain_age_days": 856,
+      "domain_age_years": 2.3,
+      "name_servers": [
+        "ns55.domaincontrol.com",
+        "ns56.domaincontrol.com"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "error": "HTTPSConnectionPool(host='usetusk.ai', port=443): Max retries exceeded with url: / (Caused by SSLErr"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:39:19.524513",
+  "phase1_complete": true,
+  "phase2_complete": false,
+  "phase3_complete": false,
+  "phase4_complete": false,
+  "phase5_complete": false,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:42:13.045721",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "medium",
+      "market_stage": "emerging",
+      "key_trends": [
+        "Increased adoption of CI/CD pipelines",
+        "Growing demand for automated testing solutions",
+        "Advancements in AI-powered code generation"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Early mover advantage in AI-powered test generation, potential for data network effects as the AI learns from more codebases.",
+      "differentiation": "Focus on automated test generation within the CI pipeline, providing continuous coverage.",
+      "competitive_advantages": [
+        "Integration with existing CI/CD workflows",
+        "AI-driven test generation reduces manual effort"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on AI accuracy; potential for false positives/negatives",
+        "Dependence on codebase context; may struggle with poorly documented code"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "seed",
+      "growth_indicators": [
+        "Adoption rate among engineering teams",
+        "Test coverage improvement metrics"
+      ],
+      "growth_bottlenecks": [
+        "AI model accuracy and reliability",
+        "Integration complexity with diverse CI/CD systems"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Competition from established players in testing",
+        "AI model drift and maintenance",
+        "Security vulnerabilities in generated tests"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Addresses a significant pain point for developers",
+        "Leverages AI to automate a time-consuming task",
+        "Potential for high scalability and recurring revenue"
+      ],
+      "concerns": [
+        "AI accuracy and reliability need to be proven",
+        "Market acceptance of AI-generated tests"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Diffblue",
+        "SeaLights"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on improving AI model accuracy and reducing false positives",
+        "Develop integrations with popular CI/CD platforms"
+      ],
+      "expansion_opportunities": [
+        "Support for more programming languages and testing frameworks",
+        "Offer premium features such as test optimization and security analysis"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 663,
+      "completion": 646,
+      "total": 1309,
+      "estimated_cost": 0.000244
+    }
+  },
+  "phase8_complete": true
+}

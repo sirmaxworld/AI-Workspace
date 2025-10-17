@@ -1,0 +1,717 @@
+{
+  "slug": "meson",
+  "name": "Meson",
+  "yc_id": 1799,
+  "batch": "Winter 2018",
+  "website": "https://meson.fi/",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:41:17.903154",
+    "website": "https://meson.fi/",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 1477.34,
+      "final_url": "https://meson.fi/",
+      "redirected": false,
+      "checked_at": "2025-10-17T00:41:19.380523"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "meson.fi",
+      "registrar": "Gandi SAS",
+      "creation_date": "2021-11-01T00:00:00",
+      "expiration_date": "2026-11-01T00:00:00",
+      "domain_age_days": 1446,
+      "domain_age_years": 4.0,
+      "name_servers": [
+        "ns3.dnsimple.com",
+        "ns1.dnsimple.com",
+        "ns2.dnsimple.com",
+        "ns4.dnsimple.com"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://x.com/mesonfi",
+      "linkedin": null,
+      "github": "https://github.com/MesonFi",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": false,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 0,
+      "server": "Heroku"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:19:51.097147",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:19:39.346649",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "Singapore",
+      "coordinates": {
+        "latitude": 1.3521,
+        "longitude": 103.8198
+      },
+      "timezone": {
+        "timezone_id": "Asia/Singapore",
+        "timezone_name": "Asia/Singapore"
+      },
+      "retrieved_at": "2025-10-17T10:19:39.346691"
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:39.346704",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/MesonFi"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 4,
+        "packages": [
+          {
+            "name": "@mesonfi/to",
+            "description": "The blockchain world has entered a period of multi-chain coexistence. For web3 app developers, they often encounter a problem: they need to deploy smart contracts on a specific chain, but this will greatly limit them to attract assets and users on other c",
+            "version": "2.0.0-rc.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mesonfi/to"
+          },
+          {
+            "name": "mesonfi-contract-abis",
+            "description": null,
+            "version": "1.14.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/mesonfi-contract-abis"
+          },
+          {
+            "name": "mesonfi-contract-types",
+            "description": null,
+            "version": "1.13.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/mesonfi-contract-types"
+          },
+          {
+            "name": "mesonfi-sdk",
+            "description": null,
+            "version": "1.16.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/mesonfi-sdk"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 4,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:19:40.589513"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:40.589517",
+    "batch_network": {
+      "batch": "Winter 2018",
+      "total_batch_mates": 145,
+      "active_batch_mates": 84,
+      "batch_success_rate": 57.9,
+      "notable_batch_mates": [
+        {
+          "name": "Newfront",
+          "slug": "newfront-insurance",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "Modern insurance brokerage."
+        },
+        {
+          "name": "Mayhem",
+          "slug": "mayhem",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Mayhem is the easiest way to play with your gaming community."
+        },
+        {
+          "name": "Pulse",
+          "slug": "pulse-2",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "We're crowdsourced Gartner so IT executives can learn directly from\u2026"
+        },
+        {
+          "name": "Bear Flag Robotics",
+          "slug": "bear-flag-robotics",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Autonomous driving technology for farm tractors."
+        },
+        {
+          "name": "ClearBrain",
+          "slug": "clearbrain",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Causal Analytics for Growth Teams"
+        },
+        {
+          "name": "Sepsis Scout",
+          "slug": "sepsis-scout",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Wearables and AI to predict and prevent sepsis outside the hospital"
+        },
+        {
+          "name": "onederful",
+          "slug": "onederful",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Dental Insurance API"
+        },
+        {
+          "name": "CodeStream",
+          "slug": "codestream",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "CodeStream is a Developer Collaboration Platform designed to\u2026"
+        },
+        {
+          "name": "Glimpse K12",
+          "slug": "glimpse-k12",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Glimpse eliminates ineffective spending in schools."
+        },
+        {
+          "name": "Squad",
+          "slug": "squad",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Squad is an app for live communities to have shared experiences\u2026"
+        }
+      ],
+      "batch_size": 146
+    },
+    "industry_network": {
+      "industries": [
+        "Consumer"
+      ],
+      "total_industry_peers": 852,
+      "active_industry_peers": 408,
+      "direct_competitors": [
+        {
+          "name": "Mixed Media Labs",
+          "slug": "mixed-media-labs",
+          "status": "Inactive",
+          "batch": "Winter 2010",
+          "one_liner": ""
+        },
+        {
+          "name": "Grid",
+          "slug": "binary-thumb",
+          "status": "Inactive",
+          "batch": "Summer 2012",
+          "one_liner": ""
+        },
+        {
+          "name": "Shopagram",
+          "slug": "shopagram",
+          "status": "Inactive",
+          "batch": "Winter 2014",
+          "one_liner": "Next Generation Home Shopping Network"
+        },
+        {
+          "name": "MixerBox",
+          "slug": "mixerbox",
+          "status": "Active",
+          "batch": "Winter 2014",
+          "one_liner": "AI Super-Apps to Live Easier | The anything anytime superapps\u2026"
+        },
+        {
+          "name": "Vote.org",
+          "slug": "vote-org",
+          "status": "Active",
+          "batch": "Summer 2016",
+          "one_liner": ""
+        },
+        {
+          "name": "Xberts",
+          "slug": "xberts",
+          "status": "Inactive",
+          "batch": "Summer 2016",
+          "one_liner": "Xberts.com is a cross-border marketplace for Chinese hardware\u2026"
+        },
+        {
+          "name": "The Essential",
+          "slug": "the-essential",
+          "status": "Active",
+          "batch": "Winter 2017",
+          "one_liner": "E-commerce 2.0"
+        },
+        {
+          "name": "Rally Tennis",
+          "slug": "zestful",
+          "status": "Inactive",
+          "batch": "Winter 2017",
+          "one_liner": "Join tennis league and play competitively with people nearby"
+        },
+        {
+          "name": "Leon & George",
+          "slug": "leon-and-george",
+          "status": "Active",
+          "batch": "Summer 2017",
+          "one_liner": "Buying and owning indoor potted plants made easy."
+        },
+        {
+          "name": "Proven Group",
+          "slug": "proven-group",
+          "status": "Active",
+          "batch": "Winter 2018",
+          "one_liner": "PROVEN is using AI, data and personalization to disrupt CPG"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Singapore",
+      "location": "Singapore, Singapore; San Francisco, CA, USA; Remote",
+      "companies_in_city": 50,
+      "active_in_city": 37,
+      "nearby_companies": [
+        {
+          "name": "Tech in Asia",
+          "slug": "tech-in-asia",
+          "batch": "Winter 2015",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "X-Zell",
+          "slug": "x-zell",
+          "batch": "Winter 2015",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Xfers",
+          "slug": "xfers",
+          "batch": "Summer 2015",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Saleswhale",
+          "slug": "saleswhale",
+          "batch": "Summer 2016",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "AlemHealth",
+          "slug": "alemhealth",
+          "batch": "Winter 2017",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Aspire",
+          "slug": "aspire",
+          "batch": "Winter 2018",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "ErudiFi",
+          "slug": "erudifi",
+          "batch": "Winter 2018",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Bot MD",
+          "slug": "bot-md",
+          "batch": "Summer 2018",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Maitian.ai",
+          "slug": "maitian-ai",
+          "batch": "Winter 2019",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Traverse Technologies",
+          "slug": "traverse-technologies",
+          "batch": "Winter 2019",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Shiok Meats",
+          "slug": "shiok-meats",
+          "batch": "Winter 2019",
+          "industry": "Healthcare",
+          "status": "Acquired"
+        },
+        {
+          "name": "twoplus fertility",
+          "slug": "hannah-life-technologies",
+          "batch": "Summer 2020",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Jenfi",
+          "slug": "jenfi",
+          "batch": "Winter 2020",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Volopay",
+          "slug": "volopay",
+          "batch": "Summer 2020",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Hypotenuse AI",
+          "slug": "hypotenuse-ai",
+          "batch": "Summer 2020",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Spenmo",
+          "slug": "spenmo",
+          "batch": "Summer 2020",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "OctiFi",
+          "slug": "octifi",
+          "batch": "Winter 2021",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Greywing",
+          "slug": "greywing",
+          "batch": "Winter 2021",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Finantier",
+          "slug": "finantier",
+          "batch": "Winter 2021",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Friz",
+          "slug": "friz",
+          "batch": "Winter 2021",
+          "industry": "Consumer",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Lucy Goods, Inc",
+        "slug": "lucy-goods-inc",
+        "batch": "Winter 2018",
+        "industry": "Consumer",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Proven Group",
+        "slug": "proven-group",
+        "batch": "Winter 2018",
+        "industry": "Consumer",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Sketchbox",
+        "slug": "sketchbox",
+        "batch": "Winter 2018",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Precious",
+        "slug": "precious",
+        "batch": "Winter 2018",
+        "industry": "Consumer",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Mayhem",
+        "slug": "mayhem",
+        "batch": "Winter 2018",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Spellbrush",
+        "slug": "spellbrush",
+        "batch": "Winter 2018",
+        "industry": "Consumer",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "California Dreamin",
+        "slug": "california-dreamin",
+        "batch": "Winter 2018",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Rhythmm",
+        "slug": "rhythmm",
+        "batch": "Winter 2018",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Necto",
+        "slug": "necto",
+        "batch": "Winter 2018",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Skip",
+        "slug": "skip",
+        "batch": "Winter 2018",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 1047,
+      "network_density_score": 79.0,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:19:40.594376"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:40.594379",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:40.930352",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:41.076628",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 10,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:42:15.576621",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "medium",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increasing demand for cross-chain interoperability",
+        "Growth of stablecoin usage",
+        "Expansion of Layer-2 solutions"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Potential network effects if they achieve significant adoption and liquidity. Technology around zero-slippage swaps.",
+      "differentiation": "Focus on zero-slippage stablecoin swaps across chains.",
+      "competitive_advantages": [
+        "Faster transactions",
+        "Lower costs compared to traditional bridges"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on security of underlying blockchains",
+        "Potential for smart contract vulnerabilities"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "Marketplace (transaction fees)",
+      "scalability": "high",
+      "capital_intensity": "low"
+    },
+    "growth_assessment": {
+      "growth_stage": "seed",
+      "growth_indicators": [
+        "Transaction volume",
+        "Number of supported chains"
+      ],
+      "growth_bottlenecks": [
+        "Adoption by stablecoin users",
+        "Integration with new blockchains and Layer-2s"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "high",
+      "execution_risk": "medium",
+      "overall_risk_score": 7,
+      "key_risks": [
+        "Security breaches",
+        "Regulatory uncertainty",
+        "Competition from other cross-chain solutions"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Addresses a growing need for cross-chain stablecoin transfers",
+        "Potential for high scalability",
+        "Focus on zero-slippage is a strong value proposition"
+      ],
+      "concerns": [
+        "Inactive status raises serious questions about viability",
+        "Competition in the cross-chain space is intense"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Synapse Protocol",
+        "LayerZero"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Investigate reasons for inactivity and assess potential for revival",
+        "Focus on building partnerships with stablecoin issuers and Layer-2 providers"
+      ],
+      "expansion_opportunities": [
+        "Support for more stablecoins and blockchains",
+        "Integration with DeFi protocols"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 652,
+      "completion": 616,
+      "total": 1268,
+      "estimated_cost": 0.000234
+    }
+  },
+  "phase8_complete": true
+}

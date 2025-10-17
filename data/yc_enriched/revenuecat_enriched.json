@@ -1,0 +1,974 @@
+{
+  "slug": "revenuecat",
+  "name": "RevenueCat",
+  "yc_id": 1907,
+  "batch": "Summer 2018",
+  "website": "https://www.revenuecat.com/",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:42:30.475677",
+    "website": "https://www.revenuecat.com/",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 2823.86,
+      "final_url": "https://www.revenuecat.com/",
+      "redirected": false,
+      "checked_at": "2025-10-17T00:42:33.299549"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "revenuecat.com",
+      "registrar": "Tucows Domains Inc.",
+      "creation_date": "2017-09-29T15:03:43",
+      "expiration_date": "2027-09-29T15:03:43",
+      "domain_age_days": 2939,
+      "domain_age_years": 8.0,
+      "name_servers": [
+        "NS-1435.AWSDNS-51.ORG",
+        "NS-1760.AWSDNS-28.CO.UK",
+        "NS-43.AWSDNS-05.COM",
+        "NS-869.AWSDNS-44.NET"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/revenuecat",
+      "linkedin": null,
+      "github": "https://github.com/RevenueCat",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": true,
+      "x_content_type_options": true,
+      "x_xss_protection": true,
+      "referrer_policy": true,
+      "security_score": 83,
+      "server": "Netlify"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:20:28.647824",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:20:14.592782",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "San Francisco, CA, USA",
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:14:18.656822",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:20:14.592819",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/RevenueCat"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 38,
+        "packages": [
+          {
+            "name": "@revenuecat/purchases-js",
+            "description": "Web subscriptions made easy. Powered by RevenueCat",
+            "version": "1.16.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@revenuecat/purchases-js"
+          },
+          {
+            "name": "@revenuecat/purchases-capacitor-ui",
+            "description": "UI components for RevenueCat Capacitor SDK",
+            "version": "11.2.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@revenuecat/purchases-capacitor-ui"
+          },
+          {
+            "name": "revenuecat",
+            "description": "Revenuecat Rest API for Node.js and TypeScript (Unofficial)",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/revenuecat"
+          },
+          {
+            "name": "@revenuecat/purchases-ui-js",
+            "description": "Web components for Paywalls. Powered by RevenueCat",
+            "version": "2.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@revenuecat/purchases-ui-js"
+          },
+          {
+            "name": "revenuecat-api",
+            "description": "Type-safe RevenueCat API client using fetch with automatic rate limiting",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/revenuecat-api"
+          },
+          {
+            "name": "revenuecat-mcp",
+            "description": "MCP server exposing complete RevenueCat v2 REST API for IDE integration with AI agents",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/revenuecat-mcp"
+          },
+          {
+            "name": "@revenuecat/purchases-capacitor",
+            "description": "Capacitor in-app purchases and subscriptions made easy. Support for iOS and Android.",
+            "version": "11.2.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@revenuecat/purchases-capacitor"
+          },
+          {
+            "name": "@mleleux/nativescript-revenuecat",
+            "description": "NativeScript plugin for RevenueCat SDK",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mleleux/nativescript-revenuecat"
+          },
+          {
+            "name": "@puzzmo/revenue-cat-webhook-types",
+            "description": "TypeScript types for RevenueCat Webhooks. Hand-crafted from their docs, with JSDoc when appropriate and nullability manually added.",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@puzzmo/revenue-cat-webhook-types"
+          },
+          {
+            "name": "react-native-purchases",
+            "description": "React Native in-app purchases and subscriptions made easy. Supports iOS and Android. ",
+            "version": "9.5.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-native-purchases"
+          },
+          {
+            "name": "@revenuecat/purchases-typescript-internal",
+            "description": "Typescript code to be used by RevenueCat's hybrid SDKs. Not meant for external usage.",
+            "version": "17.10.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@revenuecat/purchases-typescript-internal"
+          },
+          {
+            "name": "react-native-purchases-ui",
+            "description": "React Native in-app purchases and subscriptions made easy. Supports iOS and Android.",
+            "version": "9.5.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-native-purchases-ui"
+          },
+          {
+            "name": "@tafelnl/revenuecat-purchases-capacitor",
+            "description": "Capacitor in-app purchases and subscriptions made easy. Support for iOS and Android.",
+            "version": "6.1.0-capacitor6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@tafelnl/revenuecat-purchases-capacitor"
+          },
+          {
+            "name": "@revenuecat/purchases-js-hybrid-mappings",
+            "description": "RevenueCat's JavaScript hybrid mappings for purchases-js",
+            "version": "17.10.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@revenuecat/purchases-js-hybrid-mappings"
+          },
+          {
+            "name": "@alfonsoperez/purchases-js",
+            "description": "Web subscriptions made easy. Powered by RevenueCat",
+            "version": "1.5.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@alfonsoperez/purchases-js"
+          },
+          {
+            "name": "@revenuecat/purchases-typescript-internal-esm",
+            "description": "Typescript code to be used by RevenueCat's hybrid SDKs. Not meant for external usage.",
+            "version": "17.10.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@revenuecat/purchases-typescript-internal-esm"
+          },
+          {
+            "name": "cordova-plugin-purchases",
+            "description": "Purchases Cordova Plugin",
+            "version": "7.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/cordova-plugin-purchases"
+          },
+          {
+            "name": "@alfonsoperez/purchases-js-tests",
+            "description": "Web subscriptions made easy. Powered by RevenueCat",
+            "version": "1.5.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@alfonsoperez/purchases-js-tests"
+          },
+          {
+            "name": "@ionic-native/purchases",
+            "description": "Ionic Native - Native plugins for ionic apps",
+            "version": "5.36.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ionic-native/purchases"
+          },
+          {
+            "name": "revenuecat-openapi-sdk-nodejs",
+            "description": "RevenueCat OpenAPI SDK for Node.js",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/revenuecat-openapi-sdk-nodejs"
+          },
+          {
+            "name": "fara-wrapped-sdk",
+            "description": "Unified Expo SDK for Mobile Services - wrapping Firebase, Adjust, and RevenueCat",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/fara-wrapped-sdk"
+          },
+          {
+            "name": "cordova-plugin-revenuecatshim",
+            "description": "> This is deprecated. Use the [official Ionic / Cordova SDK](https://github.com/RevenueCat/cordova-plugin-purchases) by RevenueCat.",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/cordova-plugin-revenuecatshim"
+          },
+          {
+            "name": "nativescript-revenuecat",
+            "description": "Your awesome NativeScript plugin.",
+            "version": "0.1.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/nativescript-revenuecat"
+          },
+          {
+            "name": "@oapkg/revenuecat-typeorm",
+            "description": "TypeORM driver for NestJS database integration",
+            "version": "0.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@oapkg/revenuecat-typeorm"
+          },
+          {
+            "name": "@oapkg/revenuecat-core",
+            "description": "Core functionality for NestJS database drivers",
+            "version": "0.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@oapkg/revenuecat-core"
+          },
+          {
+            "name": "@oapkg/revenuecat-mongoose",
+            "description": "MongoDB driver for NestJS database integration",
+            "version": "0.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@oapkg/revenuecat-mongoose"
+          },
+          {
+            "name": "capacitor-active-subscriptions-counter",
+            "description": "A lightweight Capacitor plugin that counts the number of active subscriptions on the device's App Store or Google Play account, independent of which user is logged into your app.",
+            "version": "1.0.16",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/capacitor-active-subscriptions-counter"
+          },
+          {
+            "name": "@tommyle/revenuecat-api",
+            "description": "OpenAPI client for @revenuecat-api",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@tommyle/revenuecat-api"
+          },
+          {
+            "name": "a0-purchases",
+            "description": "Lightweight subscription management for AI apps with auto-detecting providers",
+            "version": "0.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/a0-purchases"
+          },
+          {
+            "name": "dracopay",
+            "description": "DracoPay uses revenuecat to process payments",
+            "version": "0.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/dracopay"
+          },
+          {
+            "name": "@reddimon/expo-attribution",
+            "description": "Expo Attribution SDK",
+            "version": "1.1.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@reddimon/expo-attribution"
+          },
+          {
+            "name": "@devidw/purchases-capacitor",
+            "description": "Capacitor in-app purchases and subscriptions made easy. Support for iOS and Android.",
+            "version": "10.2.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@devidw/purchases-capacitor"
+          },
+          {
+            "name": "@laurentgoudet/ionic-native-purchases",
+            "description": "Ionic Native - Native plugins for ionic apps",
+            "version": "5.29.0-fork",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@laurentgoudet/ionic-native-purchases"
+          },
+          {
+            "name": "typed-cat",
+            "description": "- https://www.revenuecat.com/docs/integrations/webhooks/event-types-and-fields",
+            "version": "12024.8.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/typed-cat"
+          },
+          {
+            "name": "@rgomezp/react-native-purchases-ui",
+            "description": "React Native in-app purchases and subscriptions made easy. Supports iOS and Android.",
+            "version": "8.9.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@rgomezp/react-native-purchases-ui"
+          },
+          {
+            "name": "insert-affiliate-js-sdk",
+            "description": "## Overview",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/insert-affiliate-js-sdk"
+          },
+          {
+            "name": "@tryheliumai/expo-helium",
+            "description": "Helium paywalls expo sdk",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@tryheliumai/expo-helium"
+          },
+          {
+            "name": "expo-utils",
+            "description": "CLI tool and utility library that automates 90% of the initial setup for Expo/React Native projects",
+            "version": "1.0.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo-utils"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 1,
+        "packages": [
+          {
+            "name": "tarpon",
+            "version": "0.6.1",
+            "downloads": 108912,
+            "url": "https://rubygems.org/gems/tarpon"
+          }
+        ]
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 39,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:20:15.807069"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:20:15.807076",
+    "batch_network": {
+      "batch": "Summer 2018",
+      "total_batch_mates": 130,
+      "active_batch_mates": 78,
+      "batch_success_rate": 60.0,
+      "notable_batch_mates": [
+        {
+          "name": "Allotrope Medical",
+          "slug": "allotrope-medical",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Advancing surgical precision through safe electrical stimulation. "
+        },
+        {
+          "name": "Honeylove",
+          "slug": "honeylove",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "Honeylove makes functional undergarments for women"
+        },
+        {
+          "name": "Phiar",
+          "slug": "phiar",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "We are developing a revolutionary AI-powered augmented reality\u2026"
+        },
+        {
+          "name": "Lowkey",
+          "slug": "lowkey",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Capture, create, & share gaming moments (Acquired by Niantic!)"
+        },
+        {
+          "name": "Demeanor.co",
+          "slug": "demeanor-co",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Now part of thentwrk.com"
+        },
+        {
+          "name": "Optic",
+          "slug": "optic",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Making APIs Developer-friendly "
+        },
+        {
+          "name": "OneGraph",
+          "slug": "onegraph",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "GraphQL API to connect all of the internet's APIs. Join us at Netlify!"
+        },
+        {
+          "name": "Scanwell Health",
+          "slug": "scanwell-health",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Smartphone-enabled, at-home diagnostics"
+        },
+        {
+          "name": "Berbix",
+          "slug": "berbix",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Convert more verified users. Instantly & accurately validate user IDs."
+        },
+        {
+          "name": "Impactive (formerly Outvote)",
+          "slug": "impactive",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Political/civic tech helping progressive campaigns organize & mobilize"
+        }
+      ],
+      "batch_size": 131
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "status": "Active",
+          "batch": "Winter 2012",
+          "one_liner": "High Performance Computing Built for the Cloud"
+        },
+        {
+          "name": "Marft",
+          "slug": "marft",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Marft creates embeddable machine learning models for application\u2026"
+        },
+        {
+          "name": "Pixelapse",
+          "slug": "pixelapse",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Github for designers. We automatically keep track of revisions of\u2026"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Palantir for sales people"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Smart search for the modern team."
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Authy is a Two-Factor Authentication platform for developers"
+        },
+        {
+          "name": "Flutter",
+          "slug": "flutter",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Flutter combined computer vision technology with the built-in webcams\u2026"
+        },
+        {
+          "name": "SolidStage",
+          "slug": "solidstage",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Sysadmin as a service. We make deploying, configuring, monitoring,\u2026"
+        },
+        {
+          "name": "Clutch",
+          "slug": "clutch",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "An easy to integrate library for native iOS applications designed to\u2026"
+        },
+        {
+          "name": "OneSignal",
+          "slug": "onesignal",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Engage customers through personalized omni-channel messaging"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "San Francisco",
+      "location": "San Francisco, CA, USA; Remote",
+      "companies_in_city": 2007,
+      "active_in_city": 1339,
+      "nearby_companies": [
+        {
+          "name": "42Floors",
+          "slug": "42floors",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "PlanGrid",
+          "slug": "plangrid",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "MyVR",
+          "slug": "myvr",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Couple",
+          "slug": "couple",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HackPad",
+          "slug": "hackpad",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Gusto",
+          "slug": "gusto",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "FamilyLeaf",
+          "slug": "familyleaf",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Chute",
+          "slug": "chute",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Make School",
+          "slug": "make-school",
+          "batch": "Winter 2012",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Exec",
+          "slug": "exec",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Public"
+        },
+        {
+          "name": "LendUp",
+          "slug": "lendup",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tilt",
+          "slug": "tilt",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fond",
+          "slug": "fond",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "User Hero",
+        "slug": "user-hero",
+        "batch": "Summer 2018",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "numericcal, inc.",
+        "slug": "numericcal-inc",
+        "batch": "Summer 2018",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Federacy",
+        "slug": "federacy",
+        "batch": "Summer 2018",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Xkit",
+        "slug": "xkit",
+        "batch": "Summer 2018",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "OneGraph",
+        "slug": "onegraph",
+        "batch": "Summer 2018",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Berbix",
+        "slug": "berbix",
+        "batch": "Summer 2018",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Warpdrive by Synthetic Minds",
+        "slug": "synthetic-minds",
+        "batch": "Summer 2018",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Klarity",
+        "slug": "klarity",
+        "batch": "Summer 2018",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Modern Treasury",
+        "slug": "modern-treasury",
+        "batch": "Summer 2018",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "OpenWrench",
+        "slug": "openwrench",
+        "batch": "Summer 2018",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 4883,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:20:15.814618"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:20:15.814624",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:20:16.138234",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:20:16.238374",
+    "basic_info": {
+      "is_hiring": true,
+      "team_size": 70,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:36.209050",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increasing adoption of subscription business models in mobile apps",
+        "Growing complexity of app store subscription management",
+        "Demand for analytics and insights related to subscription performance"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Strong first-mover advantage and established brand recognition in the in-app subscription management space. Data network effects as they aggregate subscription data across many apps.",
+      "differentiation": "Focus on simplicity and developer experience, providing a comprehensive solution for managing subscriptions across iOS and Android.",
+      "competitive_advantages": [
+        "Strong developer community and integrations",
+        "Comprehensive feature set covering all aspects of subscription management"
+      ],
+      "competitive_vulnerabilities": [
+        "Potential for larger cloud providers to offer similar services",
+        "Reliance on app store policies and APIs"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "low"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "Increasing number of paying customers",
+        "Expansion into new platforms and features"
+      ],
+      "growth_bottlenecks": [
+        "Acquisition of new customers",
+        "Maintaining a high level of customer satisfaction as they scale"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "low",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Changes in app store policies",
+        "Emergence of new competitors",
+        "Security breaches or data privacy issues"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong market position in a growing market",
+        "Scalable business model",
+        "Experienced team"
+      ],
+      "concerns": [
+        "Dependence on app store ecosystem",
+        "Potential for competition from larger players"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Adapty",
+        "Apphud"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Expand integrations with other developer tools",
+        "Focus on enterprise sales and partnerships"
+      ],
+      "expansion_opportunities": [
+        "Offer more advanced analytics and reporting features",
+        "Expand into other areas of mobile app monetization"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 663,
+      "completion": 631,
+      "total": 1294,
+      "estimated_cost": 0.000239
+    }
+  },
+  "phase8_complete": true
+}

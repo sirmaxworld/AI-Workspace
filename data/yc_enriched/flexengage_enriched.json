@@ -1,0 +1,527 @@
+{
+  "slug": "flexengage",
+  "name": "flexEngage",
+  "yc_id": 1088,
+  "batch": "Winter 2016",
+  "website": "http://www.flexengage.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:37:22.315636",
+    "website": "http://www.flexengage.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 246.76,
+      "final_url": "https://www.flexengage.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:37:22.562419"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "flexengage.com",
+      "registrar": "Amazon Registrar, Inc.",
+      "creation_date": "2014-11-18T20:08:08",
+      "expiration_date": "2026-11-18T20:08:08",
+      "domain_age_days": 3985,
+      "domain_age_years": 10.9,
+      "name_servers": [
+        "NS-1255.AWSDNS-28.ORG",
+        "NS-1633.AWSDNS-12.CO.UK",
+        "NS-452.AWSDNS-56.COM",
+        "NS-989.AWSDNS-59.NET"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/flexengage",
+      "linkedin": "https://www.linkedin.com/company/flexengage/",
+      "github": null,
+      "facebook": "https://www.facebook.com/flexengage/",
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": false,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 0,
+      "server": "AmazonS3"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:17:16.901042",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:17:02.329320",
+    "place_data": {
+      "status": "success",
+      "method": "nominatim",
+      "formatted_address": "Orlando, Orange County, Florida, United States",
+      "coordinates": {
+        "latitude": 28.5421109,
+        "longitude": -81.3790304
+      },
+      "place_types": [
+        "administrative"
+      ],
+      "retrieved_at": "2025-10-17T10:17:05.200017"
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:17:05.201601",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:17:05.201608",
+    "batch_network": {
+      "batch": "Winter 2016",
+      "total_batch_mates": 121,
+      "active_batch_mates": 59,
+      "batch_success_rate": 48.8,
+      "notable_batch_mates": [
+        {
+          "name": "Stilt",
+          "slug": "stilt",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Financial products for immigrants (acquired by JG Wentworth)"
+        },
+        {
+          "name": "Embark Trucks",
+          "slug": "embark-trucks",
+          "status": "Public",
+          "top_company": false,
+          "one_liner": "Self-driving semi trucks."
+        },
+        {
+          "name": "Loop Genomics",
+          "slug": "loop-genomics",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Novel long-read DNA sequencing technology"
+        },
+        {
+          "name": "Able Health",
+          "slug": "able-health",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Able Health gets doctors paid more for higher quality care"
+        },
+        {
+          "name": "Truebill",
+          "slug": "truebill",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Live your best financial life"
+        },
+        {
+          "name": "LendEDU",
+          "slug": "lendedu",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "LendEDU is a marketplace for consumer financial products."
+        },
+        {
+          "name": "Luminist Labs",
+          "slug": "luminist-labs",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Diagnostic platform for early detection of liver disease"
+        },
+        {
+          "name": "MineralSoft",
+          "slug": "mineralsoft",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Data management platform for oil & gas assets"
+        },
+        {
+          "name": "Pulpix",
+          "slug": "pulpix",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Binge-watching technology for video platforms. "
+        },
+        {
+          "name": "Paystack",
+          "slug": "paystack",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Modern payments infrastructure for Africa"
+        }
+      ],
+      "batch_size": 122
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Retail"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1969,
+      "direct_competitors": [
+        {
+          "name": "BookSolid",
+          "slug": "booksolid",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "BookSolid is the opentable for tour operators."
+        },
+        {
+          "name": "Beetailer",
+          "slug": "beetailer",
+          "status": "Inactive",
+          "batch": "Winter 2011",
+          "one_liner": "Facebook stores."
+        },
+        {
+          "name": "Talkable",
+          "slug": "talkable",
+          "status": "Active",
+          "batch": "Winter 2011",
+          "one_liner": "Online store referrals."
+        },
+        {
+          "name": "Flotype",
+          "slug": "flotype",
+          "status": "Inactive",
+          "batch": "Winter 2011",
+          "one_liner": "Third generation of web apps."
+        },
+        {
+          "name": "Fivestars",
+          "slug": "fivestars",
+          "status": "Acquired",
+          "batch": "Winter 2011",
+          "one_liner": "Customer loyalty and payments platform for small businesses."
+        },
+        {
+          "name": "TalkBin",
+          "slug": "talkbin",
+          "status": "Acquired",
+          "batch": "Winter 2011",
+          "one_liner": "Consumer to business messaging. "
+        },
+        {
+          "name": "Presto",
+          "slug": "presto",
+          "status": "Public",
+          "batch": "Summer 2010",
+          "one_liner": "Digital meets physical for big chain restaurants"
+        },
+        {
+          "name": "Mertado",
+          "slug": "mertado",
+          "status": "Acquired",
+          "batch": "Winter 2010",
+          "one_liner": ""
+        },
+        {
+          "name": "500Friends",
+          "slug": "500friends",
+          "status": "Acquired",
+          "batch": "Winter 2010",
+          "one_liner": "the best loyalty and retention marketing partner for CMOs. "
+        },
+        {
+          "name": "Fabricly",
+          "slug": "fabricly",
+          "status": "Inactive",
+          "batch": "Winter 2010",
+          "one_liner": ""
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Orlando",
+      "location": "Orlando, FL, USA",
+      "companies_in_city": 1,
+      "active_in_city": 1,
+      "nearby_companies": [
+        {
+          "name": "Spire Law",
+          "slug": "spire-law",
+          "batch": "Winter 2019",
+          "industry": "B2B",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "low"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Focal Systems",
+        "slug": "focal-systems",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Podium",
+        "slug": "podium",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Caper",
+        "slug": "caper",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Modal",
+        "slug": "modal",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Mux",
+        "slug": "mux",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Lattice",
+        "slug": "lattice",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Compgun",
+        "slug": "compgun",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Deepgram",
+        "slug": "deepgram",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Stealth Worker",
+        "slug": "stealth-worker",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Yardbook",
+        "slug": "yardbook",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 2868,
+      "network_density_score": 64.4,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": false,
+      "calculated_at": "2025-10-17T10:17:05.214250"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:17:05.214254",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:17:05.556229",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:17:05.661687",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 25,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:46:43.602712",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Retail digitization acceleration",
+        "Customer data privacy regulations",
+        "Omnichannel experience demand"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Integration complexity and data network effects from processing millions of transactions",
+      "differentiation": "Focus on post-purchase touchpoint optimization rather than pre-purchase marketing",
+      "competitive_advantages": [
+        "Direct POS integration",
+        "Real-time transaction data processing"
+      ],
+      "competitive_vulnerabilities": [
+        "Large tech companies entering space",
+        "Retailer in-house development"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "mature",
+      "growth_indicators": [
+        "25-person team size",
+        "Acquisition status"
+      ],
+      "growth_bottlenecks": [
+        "Retail industry slow adoption",
+        "Integration complexity"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "low",
+      "overall_risk_score": 3,
+      "key_risks": [
+        "Retail industry consolidation",
+        "Economic downturn impact on retail",
+        "Competition from payment processors"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Proven market validation through acquisition",
+        "Large addressable market",
+        "Strong team execution"
+      ],
+      "concerns": [
+        "Retail industry challenges",
+        "Competitive pressure from incumbents"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Yotpo",
+        "Klaviyo"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Leverage acquisition for broader platform integration",
+        "Expand to adjacent retail technologies"
+      ],
+      "expansion_opportunities": [
+        "International retail markets",
+        "E-commerce platform integrations"
+      ]
+    },
+    "tokens_used": {
+      "input": 723,
+      "output": 493,
+      "total": 1216,
+      "estimated_cost": 0.009564
+    }
+  },
+  "phase8_complete": true
+}

@@ -1,0 +1,1261 @@
+{
+  "slug": "request-network",
+  "name": "Request Network",
+  "yc_id": 1507,
+  "batch": "Winter 2017",
+  "website": "https://request.network",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:38:54.712177",
+    "website": "https://request.network",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 232.52,
+      "final_url": "https://request.network/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:38:54.944718"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "request.network",
+      "error": "Whois command returned no output"
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/RequestNetwork",
+      "linkedin": "https://www.linkedin.com/company/request-network",
+      "github": "https://github.com/RequestNetwork/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": true,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 33,
+      "server": "Framer/56b5dd6"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:18:20.364944",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:18:08.778200",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "Paris, France",
+      "coordinates": {
+        "latitude": 48.8566,
+        "longitude": 2.3522
+      },
+      "timezone": {
+        "timezone_id": "Europe/Paris",
+        "timezone_name": "Europe/Paris"
+      },
+      "retrieved_at": "2025-10-17T10:18:08.778271"
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:18:08.778296",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/RequestNetwork"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 83,
+        "packages": [
+          {
+            "name": "@requestnetwork/types",
+            "description": "Types for Request Network packages.",
+            "version": "0.54.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@requestnetwork/types"
+          },
+          {
+            "name": "@requestnetwork/payment-detection",
+            "description": "Payment detection using ethers.",
+            "version": "0.54.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@requestnetwork/payment-detection"
+          },
+          {
+            "name": "@requestnetwork/currency",
+            "description": "Currency tools for Request Network packages.",
+            "version": "0.28.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@requestnetwork/currency"
+          },
+          {
+            "name": "@requestnetwork/utils",
+            "description": "General tools for Request Network packages.",
+            "version": "0.54.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@requestnetwork/utils"
+          },
+          {
+            "name": "@requestnetwork/payment-processor",
+            "description": "Payment processing using ethers.",
+            "version": "0.57.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@requestnetwork/payment-processor"
+          },
+          {
+            "name": "@requestnetwork/smart-contracts",
+            "description": "Smart contracts for the Request protocol.",
+            "version": "0.48.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@requestnetwork/smart-contracts"
+          },
+          {
+            "name": "@requestnetwork/ethereum-storage",
+            "description": "Request Network storage layer based on ethereum.",
+            "version": "0.45.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@requestnetwork/ethereum-storage"
+          },
+          {
+            "name": "@requestnetwork/data-format",
+            "description": "Data format for the Request Network protocol.",
+            "version": "0.20.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@requestnetwork/data-format"
+          },
+          {
+            "name": "@requestnetwork/advanced-logic",
+            "description": "Main package for the Advanced Request Network logic layer.",
+            "version": "0.54.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@requestnetwork/advanced-logic"
+          },
+          {
+            "name": "@requestnetwork/request-node",
+            "description": "Basic node for request network v2.",
+            "version": "0.45.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@requestnetwork/request-node"
+          },
+          {
+            "name": "@requestnetwork/request-client.js",
+            "description": "Client side library for Request Network.",
+            "version": "0.59.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@requestnetwork/request-client.js"
+          },
+          {
+            "name": "@requestnetwork/multi-format",
+            "description": "Multi-format for Request Network packages.",
+            "version": "0.28.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@requestnetwork/multi-format"
+          },
+          {
+            "name": "@requestnetwork/request-logic",
+            "description": "Main package for the Request Network logic layer.",
+            "version": "0.44.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@requestnetwork/request-logic"
+          },
+          {
+            "name": "@requestnetwork/web3-signature",
+            "description": "Signature provider using web3 ethereum library.",
+            "version": "0.9.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@requestnetwork/web3-signature"
+          },
+          {
+            "name": "@requestnetwork/epk-signature",
+            "description": "Signature provider using ethereum private keys.",
+            "version": "0.10.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@requestnetwork/epk-signature"
+          },
+          {
+            "name": "@requestnetwork/transaction-manager",
+            "description": "Request Network transaction layer, handle signature and encryption for the transaction.",
+            "version": "0.45.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@requestnetwork/transaction-manager"
+          },
+          {
+            "name": "@requestnetwork/epk-decryption",
+            "description": "Decryption provider using ethereum private keys.",
+            "version": "0.8.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@requestnetwork/epk-decryption"
+          },
+          {
+            "name": "@requestnetwork/data-access",
+            "description": "Main package for the Request Network data access layer.",
+            "version": "0.45.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@requestnetwork/data-access"
+          },
+          {
+            "name": "@requestnetwork/epk-cipher",
+            "description": "Cipher provider using ethereum private keys.",
+            "version": "0.10.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@requestnetwork/epk-cipher"
+          },
+          {
+            "name": "@requestnetwork/invoice-dashboard",
+            "description": "[![npm version](https://badge.fury.io/js/%40requestnetwork%2Finvoice-dashboard.svg)](https://badge.fury.io/js/%40requestnetwork%2Finvoice-dashboard)",
+            "version": "0.15.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@requestnetwork/invoice-dashboard"
+          },
+          {
+            "name": "@requestnetwork/lit-protocol-cipher",
+            "description": "Lit Protocol Cipher Provider.",
+            "version": "0.10.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@requestnetwork/lit-protocol-cipher"
+          },
+          {
+            "name": "@requestnetwork/create-invoice-form",
+            "description": "[![npm version](https://badge.fury.io/js/%40requestnetwork%2Fcreate-invoice-form.svg)](https://badge.fury.io/js/%40requestnetwork%2Fcreate-invoice-form)",
+            "version": "0.13.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@requestnetwork/create-invoice-form"
+          },
+          {
+            "name": "@requestnetwork/payment-widget",
+            "description": "A web component for accepting crypto payments using Request Network.",
+            "version": "0.3.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@requestnetwork/payment-widget"
+          },
+          {
+            "name": "@requestnetwork/thegraph-data-access",
+            "description": "Request Storage backed by TheGraph indexing.",
+            "version": "0.51.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@requestnetwork/thegraph-data-access"
+          },
+          {
+            "name": "@requestnetwork/payments",
+            "description": "A set of front-end components to provide a payment checkout UI.",
+            "version": "0.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@requestnetwork/payments"
+          },
+          {
+            "name": "requestnetwork",
+            "description": "Not working yet",
+            "version": "1.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/requestnetwork"
+          },
+          {
+            "name": "@requestnetwork/add-stakeholder",
+            "description": "[![npm version](https://badge.fury.io/js/%40requestnetwork%2Fadd-stakeholder.svg)](https://badge.fury.io/js/%40requestnetwork%2Fadd-stakeholder)",
+            "version": "0.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@requestnetwork/add-stakeholder"
+          },
+          {
+            "name": "@requestnetwork/shared",
+            "description": "[![npm version](https://badge.fury.io/js/%40requestnetwork%2Fshared.svg)](https://badge.fury.io/js/%40requestnetwork%2Fshared)",
+            "version": "0.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@requestnetwork/shared"
+          },
+          {
+            "name": "requestnetwork-data-format",
+            "description": "Data format for the Request Network protocol",
+            "version": "0.1.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/requestnetwork-data-format"
+          },
+          {
+            "name": "@requestnetwork/xdeployer",
+            "description": "Fork of https://github.com/pcaversaccio/xdeployer",
+            "version": "1.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@requestnetwork/xdeployer"
+          },
+          {
+            "name": "@requestnetwork/single-invoice",
+            "description": "[![npm version](https://badge.fury.io/js/%40requestnetwork%2Fsingle-invoice.svg)](https://badge.fury.io/js/%40requestnetwork%2Fsingle-invoice)",
+            "version": "0.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@requestnetwork/single-invoice"
+          },
+          {
+            "name": "@huma-shan/multi-formatt",
+            "description": "Multi-format for Request Network packages.",
+            "version": "0.19.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@huma-shan/multi-formatt"
+          },
+          {
+            "name": "@requestnetwork/payments-server",
+            "description": "Usage:",
+            "version": "0.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@requestnetwork/payments-server"
+          },
+          {
+            "name": "requestnetwork.js",
+            "description": "Not working yet",
+            "version": "1.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/requestnetwork.js"
+          },
+          {
+            "name": "@requestnetwork/react-components",
+            "description": "A set of React Component to enhance DX when using Request Network",
+            "version": "0.3.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@requestnetwork/react-components"
+          },
+          {
+            "name": "@huma-shan/web3-signature",
+            "description": "Signature provider using web3 ethereum library.",
+            "version": "0.5.11",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@huma-shan/web3-signature"
+          },
+          {
+            "name": "@huma-shan/payment-processor",
+            "description": "Payment processing using ethers.",
+            "version": "0.42.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@huma-shan/payment-processor"
+          },
+          {
+            "name": "@huma-shan/advanced-logic",
+            "description": "Main package for the Advanced Request Network logic layer.",
+            "version": "0.39.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@huma-shan/advanced-logic"
+          },
+          {
+            "name": "@requestnetwork/crowdfunding-react-components",
+            "description": null,
+            "version": "0.3.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@requestnetwork/crowdfunding-react-components"
+          },
+          {
+            "name": "@frinkly/epk-signature",
+            "description": "Signature provider using ethereum private keys.",
+            "version": "0.6.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@frinkly/epk-signature"
+          },
+          {
+            "name": "@ariesgun/create-invoice-form",
+            "description": "[![npm version](https://badge.fury.io/js/%40requestnetwork%2Fcreate-invoice-form.svg)](https://badge.fury.io/js/%40requestnetwork%2Fcreate-invoice-form)",
+            "version": "0.5.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ariesgun/create-invoice-form"
+          },
+          {
+            "name": "@huma-shan/ethereum-storage",
+            "description": "Request Network storage layer based on ethereum.",
+            "version": "0.31.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@huma-shan/ethereum-storage"
+          },
+          {
+            "name": "@frinkly/web3-signature",
+            "description": "Signature provider using web3 ethereum library.",
+            "version": "0.4.38",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@frinkly/web3-signature"
+          },
+          {
+            "name": "@frinkly/request-node",
+            "description": "Basic node for request network v2.",
+            "version": "0.28.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@frinkly/request-node"
+          },
+          {
+            "name": "@huma-shan/request-client.js",
+            "description": "Client side library for Request Network.",
+            "version": "0.44.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@huma-shan/request-client.js"
+          },
+          {
+            "name": "@ariesgun/invoice-dashboard",
+            "description": "[![npm version](https://badge.fury.io/js/%40requestnetwork%2Finvoice-dashboard.svg)](https://badge.fury.io/js/%40requestnetwork%2Finvoice-dashboard)",
+            "version": "0.4.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ariesgun/invoice-dashboard"
+          },
+          {
+            "name": "@frinkly/utils",
+            "description": "General tools for Request Network packages.",
+            "version": "0.37.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@frinkly/utils"
+          },
+          {
+            "name": "@portech/invoice-dashboard",
+            "description": "[![npm version](https://badge.fury.io/js/%40requestnetwork%2Finvoice-dashboard.svg)](https://badge.fury.io/js/%40requestnetwork%2Finvoice-dashboard)",
+            "version": "0.4.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@portech/invoice-dashboard"
+          },
+          {
+            "name": "@kali6o4/currency",
+            "description": "Currency tools for Request Network packages.",
+            "version": "0.8.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@kali6o4/currency"
+          },
+          {
+            "name": "@portech/create-invoice-form",
+            "description": "[![npm version](https://badge.fury.io/js/%40requestnetwork%2Fcreate-invoice-form.svg)](https://badge.fury.io/js/%40requestnetwork%2Fcreate-invoice-form)",
+            "version": "0.5.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@portech/create-invoice-form"
+          },
+          {
+            "name": "@frinkly/request-client.js",
+            "description": "Client side library for Request Network.",
+            "version": "0.41.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@frinkly/request-client.js"
+          },
+          {
+            "name": "@frinkly/types",
+            "description": "Types for Request Network packages.",
+            "version": "0.37.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@frinkly/types"
+          },
+          {
+            "name": "@huma-shan/request-node",
+            "description": "Basic node for request network v2.",
+            "version": "0.31.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@huma-shan/request-node"
+          },
+          {
+            "name": "@huma-shan/payment-detection",
+            "description": "Payment detection using ethers.",
+            "version": "0.40.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@huma-shan/payment-detection"
+          },
+          {
+            "name": "@frinkly/ethereum-storage",
+            "description": "Request Network storage layer based on ethereum.",
+            "version": "0.28.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@frinkly/ethereum-storage"
+          },
+          {
+            "name": "@huma-shan/epk-decryption",
+            "description": "Decryption provider using ethereum private keys.",
+            "version": "0.7.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@huma-shan/epk-decryption"
+          },
+          {
+            "name": "@huma-shan/data-format",
+            "description": "Data format for the Request Network protocol.",
+            "version": "0.14.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@huma-shan/data-format"
+          },
+          {
+            "name": "@huma-shan/data-access",
+            "description": "Main package for the Request Network data access layer.",
+            "version": "0.31.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@huma-shan/data-access"
+          },
+          {
+            "name": "@huma-shan/request-logic",
+            "description": "Main package for the Request Network logic layer.",
+            "version": "0.31.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@huma-shan/request-logic"
+          },
+          {
+            "name": "@ariesgun/shared",
+            "description": "[![npm version](https://badge.fury.io/js/%40requestnetwork%2Fshared.svg)](https://badge.fury.io/js/%40requestnetwork%2Fshared)",
+            "version": "0.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ariesgun/shared"
+          },
+          {
+            "name": "@frinkly/payment-detection",
+            "description": "Payment detection using ethers.",
+            "version": "0.37.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@frinkly/payment-detection"
+          },
+          {
+            "name": "@huma-shan/multi-format",
+            "description": "Multi-format for Request Network packages.",
+            "version": "0.18.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@huma-shan/multi-format"
+          },
+          {
+            "name": "@huma-shan/currency",
+            "description": "Currency tools for Request Network packages.",
+            "version": "0.13.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@huma-shan/currency"
+          },
+          {
+            "name": "@huma-shan/transaction-manager",
+            "description": "Request Network transaction layer, handle signature and encryption for the transaction.",
+            "version": "0.31.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@huma-shan/transaction-manager"
+          },
+          {
+            "name": "request-network-custom-js",
+            "description": "A JavaScript library for interacting with the Request Network protocol",
+            "version": "0.8.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/request-network-custom-js"
+          },
+          {
+            "name": "@skivy71/add-stakeholder",
+            "description": "## Introduction",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@skivy71/add-stakeholder"
+          },
+          {
+            "name": "@huma-shan/epk-signature",
+            "description": "Signature provider using ethereum private keys.",
+            "version": "0.9.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@huma-shan/epk-signature"
+          },
+          {
+            "name": "@skivy71/add-s",
+            "description": "## Introduction",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@skivy71/add-s"
+          },
+          {
+            "name": "@frinkly/epk-decryption",
+            "description": "Decryption provider using ethereum private keys.",
+            "version": "0.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@frinkly/epk-decryption"
+          },
+          {
+            "name": "@frinkly/payment-processor",
+            "description": "Payment processing using ethers.",
+            "version": "0.39.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@frinkly/payment-processor"
+          },
+          {
+            "name": "@frinkly/advanced-logic",
+            "description": "Main package for the Advanced Request Network logic layer.",
+            "version": "0.36.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@frinkly/advanced-logic"
+          },
+          {
+            "name": "@frinkly/multi-format",
+            "description": "Multi-format for Request Network packages.",
+            "version": "0.16.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@frinkly/multi-format"
+          },
+          {
+            "name": "@huma-shan/types",
+            "description": "Types for Request Network packages.",
+            "version": "0.40.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@huma-shan/types"
+          },
+          {
+            "name": "@frinkly/data-format",
+            "description": "Data format for the Request Network protocol.",
+            "version": "0.11.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@frinkly/data-format"
+          },
+          {
+            "name": "@frinkly/request-logic",
+            "description": "Main package for the Request Network logic layer.",
+            "version": "0.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@frinkly/request-logic"
+          },
+          {
+            "name": "@frinkly/transaction-manager",
+            "description": "Request Network transaction layer, handle signature and encryption for the transaction.",
+            "version": "0.28.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@frinkly/transaction-manager"
+          },
+          {
+            "name": "@frinkly/data-access",
+            "description": "Main package for the Request Network data access layer.",
+            "version": "0.28.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@frinkly/data-access"
+          },
+          {
+            "name": "@huma-shan/utils",
+            "description": "General tools for Request Network packages.",
+            "version": "0.40.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@huma-shan/utils"
+          },
+          {
+            "name": "@frinkly/smart-contracts",
+            "description": "Smart contracts for the Request protocol.",
+            "version": "0.30.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@frinkly/smart-contracts"
+          },
+          {
+            "name": "@frinkly/currency",
+            "description": "Currency tools for Request Network packages.",
+            "version": "0.10.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@frinkly/currency"
+          },
+          {
+            "name": "request-payments",
+            "description": "A set of front-end components to provide a payment checkout UI.",
+            "version": "0.4.0-alpha.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/request-payments"
+          },
+          {
+            "name": "@huma-shan/smart-contracts",
+            "description": "Smart contracts for the Request protocol.",
+            "version": "0.33.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@huma-shan/smart-contracts"
+          },
+          {
+            "name": "request-fiat-to-erc20-payment",
+            "description": "A handler to pay your Request network invoices in cryptos. Only works in this way: FIAT \u27a1\ufe0f ERC20 (for now \ud83d\ude09).",
+            "version": "0.0.12",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/request-fiat-to-erc20-payment"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 83,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:18:10.013313"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:18:10.013325",
+    "batch_network": {
+      "batch": "Winter 2017",
+      "total_batch_mates": 115,
+      "active_batch_mates": 55,
+      "batch_success_rate": 47.8,
+      "notable_batch_mates": [
+        {
+          "name": "Clear Genetics",
+          "slug": "clear-genetics",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Clear Genetics is scaling delivery of Genomic services"
+        },
+        {
+          "name": "Scribe",
+          "slug": "scribe",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Scribe is an AI based Sales Development Representative that you can\u2026"
+        },
+        {
+          "name": "Loop Support",
+          "slug": "loop-support",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Predict job applicant performance for entry-level support roles"
+        },
+        {
+          "name": "Rippling",
+          "slug": "rippling",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "One place to run all your HR, IT, and Finance. Globally."
+        },
+        {
+          "name": "lvl5",
+          "slug": "lvl5",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "HD maps for self-driving cars."
+        },
+        {
+          "name": "Arthena",
+          "slug": "arthena",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Quantitative Investment in Art Assets "
+        },
+        {
+          "name": "Shipamax",
+          "slug": "shipamax",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Simple, end-to-end automation for logistics orgs"
+        },
+        {
+          "name": "Volansi",
+          "slug": "volansi",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Autonomous VTOL delivery solutions."
+        },
+        {
+          "name": "Soomgo",
+          "slug": "soomgo",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Local services marketplace that connects providers with new customers"
+        },
+        {
+          "name": "Scaphold.io",
+          "slug": "scaphold-io",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The Universal API"
+        }
+      ],
+      "batch_size": 116
+    },
+    "industry_network": {
+      "industries": [
+        "Fintech",
+        "Payments"
+      ],
+      "total_industry_peers": 597,
+      "active_industry_peers": 447,
+      "direct_competitors": [
+        {
+          "name": "SlidePay",
+          "slug": "slidepay",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Banking and Payment Platform APIs. Exited October 2014."
+        },
+        {
+          "name": "Sendwave",
+          "slug": "sendwave",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Instant, no fee international remittances."
+        },
+        {
+          "name": "Tremendous",
+          "slug": "tremendous",
+          "status": "Active",
+          "batch": "Winter 2011",
+          "one_liner": "How businesses send money to people at scale. Fast, free, global."
+        },
+        {
+          "name": "WePay",
+          "slug": "wepay",
+          "status": "Acquired",
+          "batch": "Summer 2009",
+          "one_liner": "Payments for platform businesses."
+        },
+        {
+          "name": "Tipjoy",
+          "slug": "tipjoy",
+          "status": "Inactive",
+          "batch": "Winter 2008",
+          "one_liner": "social micropayments"
+        },
+        {
+          "name": "Billforward",
+          "slug": "billforward",
+          "status": "Active",
+          "batch": "Summer 2014",
+          "one_liner": "Subscription billing, rate plan management and analytics as a\u2026"
+        },
+        {
+          "name": "Kash",
+          "slug": "kash",
+          "status": "Acquired",
+          "batch": "Summer 2014",
+          "one_liner": "We are fixing how money works."
+        },
+        {
+          "name": "Apto Payments",
+          "slug": "apto-payments",
+          "status": "Acquired",
+          "batch": "Summer 2014",
+          "one_liner": "API platform for partners to issue branded debit and credit cards to\u2026"
+        },
+        {
+          "name": "Final",
+          "slug": "final",
+          "status": "Acquired",
+          "batch": "Winter 2015",
+          "one_liner": "A credit card that drastically reduces payment fraud and gives\u2026"
+        },
+        {
+          "name": "Razorpay",
+          "slug": "razorpay",
+          "status": "Active",
+          "batch": "Winter 2015",
+          "one_liner": "India's only full-stack financial solutions company for businesses."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Paris",
+      "location": "Paris, \u00cele-de-France, France; Remote",
+      "companies_in_city": 55,
+      "active_in_city": 36,
+      "nearby_companies": [
+        {
+          "name": "Motionlead",
+          "slug": "motionlead",
+          "batch": "Winter 2014",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Hublo",
+          "slug": "hublo",
+          "batch": "Summer 2014",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Afrostream",
+          "slug": "afrostream",
+          "batch": "Summer 2015",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Whyd",
+          "slug": "whyd",
+          "batch": "Summer 2016",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Bulldozair",
+          "slug": "bulldozair",
+          "batch": "Summer 2016",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Anasen",
+          "slug": "anasen",
+          "batch": "Winter 2017",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Airthium",
+          "slug": "airthium",
+          "batch": "Summer 2017",
+          "industry": "Industrials",
+          "status": "Active"
+        },
+        {
+          "name": "Goosebump",
+          "slug": "goosebump",
+          "batch": "Summer 2017",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Station",
+          "slug": "station",
+          "batch": "Winter 2018",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Mojo",
+          "slug": "mojo",
+          "batch": "Winter 2018",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Dashblock",
+          "slug": "dashblock",
+          "batch": "Summer 2019",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "OpenReplay",
+          "slug": "asayer",
+          "batch": "Summer 2019",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Data Mechanics",
+          "slug": "data-mechanics",
+          "batch": "Summer 2019",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Multis",
+          "slug": "multis",
+          "batch": "Summer 2019",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Photoroom",
+          "slug": "photoroom",
+          "batch": "Summer 2020",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Riot",
+          "slug": "riot",
+          "batch": "Winter 2020",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Jitter",
+          "slug": "jitter",
+          "batch": "Winter 2020",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Mailwarm",
+          "slug": "mailwarm",
+          "batch": "Summer 2020",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "OneKey",
+          "slug": "onekey",
+          "batch": "Summer 2020",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Nextstore",
+          "slug": "nextstore",
+          "batch": "Summer 2020",
+          "industry": "B2B",
+          "status": "Inactive"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Nomba",
+        "slug": "nomba",
+        "batch": "Winter 2017",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Pit.AI",
+        "slug": "pit-ai",
+        "batch": "Winter 2017",
+        "industry": "Fintech",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Arthena",
+        "slug": "arthena",
+        "batch": "Winter 2017",
+        "industry": "Fintech",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Ledger Investing",
+        "slug": "ledger-investing",
+        "batch": "Winter 2017",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Zinc Platform",
+        "slug": "zinc-platform",
+        "batch": "Winter 2017",
+        "industry": "Fintech",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Sandbox Banking",
+        "slug": "sandbox-banking",
+        "batch": "Winter 2017",
+        "industry": "Fintech",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Penny",
+        "slug": "penny",
+        "batch": "Winter 2017",
+        "industry": "Fintech",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Aella",
+        "slug": "aella",
+        "batch": "Winter 2017",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Neema",
+        "slug": "neema",
+        "batch": "Winter 2017",
+        "industry": "Fintech",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "OneFin",
+        "slug": "onefin",
+        "batch": "Winter 2017",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 767,
+      "network_density_score": 74.0,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:18:10.020424"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:18:10.020434",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:18:10.345204",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:18:10.508890",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 12,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:42:13.391629",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "medium",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increasing adoption of cryptocurrencies",
+        "Demand for efficient cross-border payments",
+        "Growing need for transparent and auditable financial transactions"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Network effects from ecosystem of apps and integrations; first-mover advantage in crypto invoicing.",
+      "differentiation": "Focus on payment requests rather than direct transfers, enabling more complex payment workflows and data attachments.",
+      "competitive_advantages": [
+        "Early mover in crypto invoicing",
+        "Ecosystem of integrated apps"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on cryptocurrency adoption",
+        "Competition from traditional payment processors adapting to crypto"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "low"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "Adoption rate of Request Invoicing",
+        "Transaction volume on the Request Network"
+      ],
+      "growth_bottlenecks": [
+        "Regulatory uncertainty surrounding cryptocurrencies",
+        "User education and onboarding challenges"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Cryptocurrency price volatility",
+        "Competition from established payment platforms",
+        "Regulatory changes impacting crypto payments"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong team with YC background",
+        "Innovative payment request technology",
+        "Growing ecosystem of apps"
+      ],
+      "concerns": [
+        "Dependence on crypto market sentiment",
+        "Potential for regulatory hurdles"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Circle",
+        "Coinbase"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on user acquisition and retention",
+        "Expand integrations with other crypto platforms and accounting software"
+      ],
+      "expansion_opportunities": [
+        "Develop enterprise-grade features for larger businesses",
+        "Explore partnerships with traditional financial institutions"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 673,
+      "completion": 506,
+      "total": 1179,
+      "estimated_cost": 0.000202
+    }
+  },
+  "phase8_complete": true
+}

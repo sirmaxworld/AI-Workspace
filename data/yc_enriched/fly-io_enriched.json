@@ -1,0 +1,1099 @@
+{
+  "slug": "fly-io",
+  "name": "Fly.io",
+  "yc_id": 13175,
+  "batch": "Winter 2020",
+  "website": "https://fly.io",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:52:12.820399",
+    "website": "https://fly.io",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 1896.22,
+      "final_url": "https://fly.io/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:52:14.716626"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "fly.io",
+      "registrar": "Gandi SAS",
+      "creation_date": "2004-07-15T00:57:21",
+      "expiration_date": "2031-07-15T00:57:21",
+      "domain_age_days": 7763,
+      "domain_age_years": 21.3,
+      "name_servers": [
+        "ns479.hosted.flydns.net",
+        "ns967.hosted.flydns.net",
+        "ns1077.hosted.flydns.net",
+        "ns1970.hosted.flydns.net"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/flydotio",
+      "linkedin": null,
+      "github": "https://github.com/superfly/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": false,
+      "content_security_policy": false,
+      "x_frame_options": true,
+      "x_content_type_options": true,
+      "x_xss_protection": false,
+      "referrer_policy": true,
+      "security_score": 50,
+      "server": "Fly/31563e821d (2025-10-15)"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:24:03.108740",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:23:47.548034",
+    "place_data": {
+      "status": "not_found",
+      "query": "Chicago, IL, USA; Remote",
+      "methods_tried": [
+        "static_db",
+        "nominatim",
+        "geonames"
+      ]
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:23:47.803912",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/superfly"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 59,
+        "packages": [
+          {
+            "name": "superfly-css-task-build",
+            "description": "Build task for superfly-css modules",
+            "version": "0.3.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/superfly-css-task-build"
+          },
+          {
+            "name": "superfly-timeline",
+            "description": "Resolver for defining objects with temporal boolean logic relationships on a timeline",
+            "version": "9.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/superfly-timeline"
+          },
+          {
+            "name": "superfly-css-task-deploy",
+            "description": "Deploy task for superfly-css modules",
+            "version": "0.0.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/superfly-css-task-deploy"
+          },
+          {
+            "name": "superfly-css-task-lint",
+            "description": "Lints built superfly-css modules after performing autocorretion",
+            "version": "0.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/superfly-css-task-lint"
+          },
+          {
+            "name": "superfly-css-utilities-colors",
+            "description": "Color utilities",
+            "version": "0.1.16",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/superfly-css-utilities-colors"
+          },
+          {
+            "name": "superfly-css-utilities-layout",
+            "description": "Layout utilities",
+            "version": "0.3.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/superfly-css-utilities-layout"
+          },
+          {
+            "name": "superfly-css-variables-colors",
+            "description": "Shared color variables",
+            "version": "0.0.19",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/superfly-css-variables-colors"
+          },
+          {
+            "name": "superfly-css-utilities-fonts",
+            "description": "Font utilities",
+            "version": "0.0.21",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/superfly-css-utilities-fonts"
+          },
+          {
+            "name": "superfly-css-component-button",
+            "description": "CSS Button Component.",
+            "version": "0.0.14",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/superfly-css-component-button"
+          },
+          {
+            "name": "superfly-css-utilities-effects",
+            "description": "Effects utilities",
+            "version": "0.0.14",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/superfly-css-utilities-effects"
+          },
+          {
+            "name": "superfly-css-component-test",
+            "description": "Test component",
+            "version": "0.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/superfly-css-component-test"
+          },
+          {
+            "name": "superfly-css-pli",
+            "description": "Standard directory layout for all SuperflyCSS modules",
+            "version": "0.0.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/superfly-css-pli"
+          },
+          {
+            "name": "superfly-css-foundation",
+            "description": "Extensions / additions to normalize.css html element resets.",
+            "version": "0.0.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/superfly-css-foundation"
+          },
+          {
+            "name": "superfly-css-task-test",
+            "description": "Test task",
+            "version": "0.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/superfly-css-task-test"
+          },
+          {
+            "name": "pulumi-superfly",
+            "description": "A native Pulumi provider for Fly.io. This package is still in early development. There is basically no documentation and APIs are likely to change.",
+            "version": "0.0.46",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/pulumi-superfly"
+          },
+          {
+            "name": "superfly-css-variables-fonts",
+            "description": "Font variables",
+            "version": "0.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/superfly-css-variables-fonts"
+          },
+          {
+            "name": "superfly-css-component-site",
+            "description": "Site component",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/superfly-css-component-site"
+          },
+          {
+            "name": "casparcg-connection",
+            "description": "Node.js Javascript/Typescript library for CasparCG connection and commands.",
+            "version": "6.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/casparcg-connection"
+          },
+          {
+            "name": "superfly-css-variables-dimension",
+            "description": "Dimension variables",
+            "version": "0.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/superfly-css-variables-dimension"
+          },
+          {
+            "name": "@deckchairlabs/superfly",
+            "description": null,
+            "version": "0.0.0-202152062435",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@deckchairlabs/superfly"
+          },
+          {
+            "name": "@fly/v8env",
+            "description": "Open source Edge Application runtime",
+            "version": "0.55.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@fly/v8env"
+          },
+          {
+            "name": "@fly/cli",
+            "description": "fly cli",
+            "version": "0.56.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@fly/cli"
+          },
+          {
+            "name": "@superflycss/component-test",
+            "description": "Test component",
+            "version": "3.6.30",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@superflycss/component-test"
+          },
+          {
+            "name": "@superflycss/variables-colors",
+            "description": "Color variables",
+            "version": "3.1.12",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@superflycss/variables-colors"
+          },
+          {
+            "name": "@superflycss/pli",
+            "description": "Standard directory layout for all SuperflyCSS modules",
+            "version": "3.0.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@superflycss/pli"
+          },
+          {
+            "name": "superfly-css-component-lead",
+            "description": "Lead component",
+            "version": "0.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/superfly-css-component-lead"
+          },
+          {
+            "name": "superfly-css-component-list",
+            "description": "List component",
+            "version": "0.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/superfly-css-component-list"
+          },
+          {
+            "name": "flyctl",
+            "description": "A convenient Node.js wrapper to interact with fly.io",
+            "version": "1.2.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/flyctl"
+          },
+          {
+            "name": "@deckchairlabs/vite-plugin-superfly",
+            "description": null,
+            "version": "0.0.0-202152062435",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@deckchairlabs/vite-plugin-superfly"
+          },
+          {
+            "name": "superfly",
+            "description": "A library for building user interfaces",
+            "version": "0.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/superfly"
+          },
+          {
+            "name": "superfly-css-task-clean",
+            "description": "Deletes the target folder (Cleans the build folder)",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/superfly-css-task-clean"
+          },
+          {
+            "name": "@cdwr/fly-node",
+            "description": "The flyctl node wrapper for programmatic deployments to fly.io.",
+            "version": "0.2.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@cdwr/fly-node"
+          },
+          {
+            "name": "superfly-css-utilities-icons",
+            "description": "Icon utilities",
+            "version": "0.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/superfly-css-utilities-icons"
+          },
+          {
+            "name": "@fly/cdn",
+            "description": "Fly's TypeScript CDN",
+            "version": "0.5.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@fly/cdn"
+          },
+          {
+            "name": "@deckchairlabs/fastify-superfly",
+            "description": null,
+            "version": "0.0.0-202152062435",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@deckchairlabs/fastify-superfly"
+          },
+          {
+            "name": "superfly-css-component-display",
+            "description": "Display heading component",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/superfly-css-component-display"
+          },
+          {
+            "name": "@fly/edge",
+            "description": "Fly's TypeScript Edge",
+            "version": "0.10.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@fly/edge"
+          },
+          {
+            "name": "superfly-css-typography",
+            "description": "Typography",
+            "version": "0.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/superfly-css-typography"
+          },
+          {
+            "name": "superfly-css-variables-sizes",
+            "description": "Size variables",
+            "version": "0.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/superfly-css-variables-sizes"
+          },
+          {
+            "name": "@superflycss/utilities-layout",
+            "description": "Layout utilities",
+            "version": "4.0.25",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@superflycss/utilities-layout"
+          },
+          {
+            "name": "@superflycss/component-header",
+            "description": "Header component",
+            "version": "2.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@superflycss/component-header"
+          },
+          {
+            "name": "@superflycss/utilities-effects",
+            "description": "Effects utilities",
+            "version": "2.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@superflycss/utilities-effects"
+          },
+          {
+            "name": "@mykkode/test-casparcg-connection",
+            "description": "Node.js Javascript/Typescript library for CasparCG connection and commands.",
+            "version": "5.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mykkode/test-casparcg-connection"
+          },
+          {
+            "name": "@superflycss/utilities-format",
+            "description": "Format utilities",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@superflycss/utilities-format"
+          },
+          {
+            "name": "@superflycss/task-clean",
+            "description": "Deletes the target and deploy folders",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@superflycss/task-clean"
+          },
+          {
+            "name": "@cdwr/nx-fly-deployment-action",
+            "description": "The Nx Fly Deployment Action will manage your deployments to fly.io.",
+            "version": "0.3.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@cdwr/nx-fly-deployment-action"
+          },
+          {
+            "name": "@superflycss/variables-layout",
+            "description": "Layout variables",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@superflycss/variables-layout"
+          },
+          {
+            "name": "@krinteron/casparcg-connection-for-docker",
+            "description": "Node.js Javascript/Typescript library for CasparCG connection and commands.",
+            "version": "6.0.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@krinteron/casparcg-connection-for-docker"
+          },
+          {
+            "name": "@superflycss/component-navbox",
+            "description": "Navbox component",
+            "version": "1.0.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@superflycss/component-navbox"
+          },
+          {
+            "name": "@superflycss/component-gherkin",
+            "description": "Gherkin css components and nunjucks templates.",
+            "version": "1.0.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@superflycss/component-gherkin"
+          },
+          {
+            "name": "@superflycss/component-button",
+            "description": "Button component",
+            "version": "2.0.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@superflycss/component-button"
+          },
+          {
+            "name": "@superflycss/component-link",
+            "description": "Link component",
+            "version": "1.0.11",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@superflycss/component-link"
+          },
+          {
+            "name": "@superflycss/component-grid",
+            "description": "Grid component",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@superflycss/component-grid"
+          },
+          {
+            "name": "component-navbox",
+            "description": "Navbox component",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/component-navbox"
+          },
+          {
+            "name": "onehostname",
+            "description": "A Fly Edge App to route requests on one hostname to multiple backend sources",
+            "version": "0.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/onehostname"
+          },
+          {
+            "name": "@superflycss/component-body",
+            "description": "Body component",
+            "version": "1.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@superflycss/component-body"
+          },
+          {
+            "name": "@superflytv/comlink",
+            "description": "Comlink makes WebWorkers enjoyable",
+            "version": "4.4.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@superflytv/comlink"
+          },
+          {
+            "name": "@superflycss/superflycss",
+            "description": "Superflycss project description and branding components",
+            "version": "1.0.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@superflycss/superflycss"
+          },
+          {
+            "name": "gobot-litefs",
+            "description": "litefs helper for Gobot",
+            "version": "0.5.11-alpha.23",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/gobot-litefs"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 59,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:23:49.610206"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:23:49.610210",
+    "batch_network": {
+      "batch": "Winter 2020",
+      "total_batch_mates": 228,
+      "active_batch_mates": 148,
+      "batch_success_rate": 64.9,
+      "notable_batch_mates": [
+        {
+          "name": "Zaraz",
+          "slug": "zaraz",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A third-party manager, built for speed. "
+        },
+        {
+          "name": "Phonic",
+          "slug": "phonic",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The best way to collect and analyze voice and video feedback"
+        },
+        {
+          "name": "Okay",
+          "slug": "okay",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Dashboards and actionable insights for high-performing engineering\u2026"
+        },
+        {
+          "name": "Volumetric",
+          "slug": "volumetric",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Volumetric builds living multicellular tissues with a focus on the\u2026"
+        },
+        {
+          "name": "Hoss",
+          "slug": "hoss",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The developer experience platform"
+        },
+        {
+          "name": "FitnessAI",
+          "slug": "fitnessai",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "App offering AI powered workout plans with anytime access to coaches"
+        },
+        {
+          "name": "Flowdash",
+          "slug": "flowdash",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Quickly build internal tools for your ops team's manual workflows"
+        },
+        {
+          "name": "Dashworks",
+          "slug": "dashworks",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Your team's intelligent start page."
+        },
+        {
+          "name": "Eternal",
+          "slug": "zelos",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Own the best moments in streaming"
+        },
+        {
+          "name": "Glimpse",
+          "slug": "glimpse",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A social video chat."
+        }
+      ],
+      "batch_size": 229
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Amiato",
+          "slug": "amiato",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "The BI bridge for unstructured data. We automatically bridge the gap\u2026"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Simple multiplayer game servers."
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Backlift allows front-end only developers to build entire websites\u2026"
+        },
+        {
+          "name": "Documents.Me",
+          "slug": "documents-me",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Client-side encryption for your devices and the cloud."
+        },
+        {
+          "name": "Apollo",
+          "slug": "apollo",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Apollo helps engineering teams accelerate delivery"
+        },
+        {
+          "name": "Proxino",
+          "slug": "proxino",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Javascript proxy."
+        },
+        {
+          "name": "PhoneSys",
+          "slug": "phonesys",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "The Phone System for Sales Teams."
+        },
+        {
+          "name": "Cryptoseal",
+          "slug": "cryptoseal",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Server key management, VPN as a Service, Privacy VPN.  Sold to\u2026"
+        },
+        {
+          "name": "Citus Data",
+          "slug": "citus-data",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Real-time. Big data. PostgreSQL"
+        },
+        {
+          "name": "Realm",
+          "slug": "realm",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Better data structures = no DB."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Chicago",
+      "location": "Chicago, IL, USA; Remote",
+      "companies_in_city": 26,
+      "active_in_city": 13,
+      "nearby_companies": [
+        {
+          "name": "Aisle50",
+          "slug": "aisle50",
+          "batch": "Summer 2011",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Debteye",
+          "slug": "debteye",
+          "batch": "Summer 2011",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Draft",
+          "slug": "draft",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tutorspree",
+          "slug": "tutorspree",
+          "batch": "Winter 2011",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "Inkling",
+          "slug": "inkling",
+          "batch": "Winter 2006",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "CodeNow",
+          "slug": "codenow",
+          "batch": "Winter 2014",
+          "industry": "Unspecified",
+          "status": "Active"
+        },
+        {
+          "name": "ShipBob",
+          "slug": "shipbob",
+          "batch": "Summer 2014",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Popular Pays",
+          "slug": "popular-pays",
+          "batch": "Winter 2015",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Bluecrew",
+          "slug": "bluecrew",
+          "batch": "Summer 2015",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Tovala",
+          "slug": "tovala",
+          "batch": "Winter 2016",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "mRelief",
+          "slug": "mrelief",
+          "batch": "Winter 2016",
+          "industry": "Unspecified",
+          "status": "Active"
+        },
+        {
+          "name": "TRAC",
+          "slug": "trac",
+          "batch": "Winter 2016",
+          "industry": "Healthcare",
+          "status": "Inactive"
+        },
+        {
+          "name": "Airfordable",
+          "slug": "airfordable",
+          "batch": "Summer 2016",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Draftbit",
+          "slug": "draftbit",
+          "batch": "Winter 2018",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "HappiLabs",
+          "slug": "happilabs",
+          "batch": "Summer 2018",
+          "industry": "Healthcare",
+          "status": "Acquired"
+        },
+        {
+          "name": "Preflight",
+          "slug": "preflight",
+          "batch": "Winter 2019",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Obie",
+          "slug": "obie",
+          "batch": "Summer 2019",
+          "industry": "Real Estate and Construction",
+          "status": "Active"
+        },
+        {
+          "name": "TaxProper",
+          "slug": "taxproper",
+          "batch": "Summer 2019",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Protobase",
+          "slug": "protobase",
+          "batch": "Winter 2020",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Synapticure",
+          "slug": "synapticure",
+          "batch": "Summer 2020",
+          "industry": "Healthcare",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "MindsDB",
+        "slug": "mindsdb",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Ardis AI",
+        "slug": "ardis-ai",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Aden",
+        "slug": "aden",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Replicate",
+        "slug": "replicate",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Protobase",
+        "slug": "protobase",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Signadot",
+        "slug": "signadot",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Scout",
+        "slug": "scout",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Cortex",
+        "slug": "cortex",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "BuildBuddy",
+        "slug": "buildbuddy",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Termii",
+        "slug": "termii",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 3000,
+      "network_density_score": 90.8,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:23:49.616691"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:23:49.616694",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:23:50.024784",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:23:50.147621",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 72,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:27.372796",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Edge computing adoption",
+        "Serverless architectures",
+        "Demand for low-latency applications"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Strong technical moat in managing edge infrastructure and global deployment.",
+      "differentiation": "Focus on simplicity and developer experience for deploying full-stack apps globally.",
+      "competitive_advantages": [
+        "Simplified deployment process",
+        "Global network of edge locations"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on Docker images",
+        "Potential complexity in managing a large number of edge locations"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "Increasing developer adoption",
+        "Expansion of edge locations"
+      ],
+      "growth_bottlenecks": [
+        "Complexity of managing global infrastructure",
+        "Competition from larger cloud providers"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Competition from established cloud providers",
+        "Security vulnerabilities at the edge",
+        "Maintaining consistent performance across all locations"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong developer focus",
+        "First-mover advantage in edge deployment",
+        "Simple deployment process"
+      ],
+      "concerns": [
+        "Competition from larger players",
+        "Long-term viability of edge-only strategy"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Cloudflare Workers",
+        "Fastly"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Expand partnerships with database providers",
+        "Develop more advanced monitoring and management tools"
+      ],
+      "expansion_opportunities": [
+        "Target specific industry verticals (e.g., gaming, IoT)",
+        "Offer managed database services"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 661,
+      "completion": 582,
+      "total": 1243,
+      "estimated_cost": 0.000224
+    }
+  },
+  "phase8_complete": true
+}

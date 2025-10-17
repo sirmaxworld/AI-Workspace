@@ -1,0 +1,140 @@
+{
+  "domain_id": "cycling_trends",
+  "display_name": "Cycling & Mountain Biking Trends",
+  "description": "Mountain biking industry trends, product insights, and community sentiment from Pinkbike and related sources",
+  "version": "1.0.0",
+  "created_at": "2025-10-16",
+
+  "pinkbike": {
+    "enabled": true,
+    "sections": [
+      "https://www.pinkbike.com/news/tags/reviews/",
+      "https://www.pinkbike.com/news/tags/field-test/",
+      "https://www.pinkbike.com/news/tags/reviews-and-tech/",
+      "https://www.pinkbike.com/news/"
+    ],
+    "max_articles_per_section": 10,
+    "comments_per_article": 50,
+    "schedule": "daily",
+    "priority_categories": [
+      "reviews",
+      "field-test",
+      "gear",
+      "bikes",
+      "components"
+    ],
+    "collection_settings": {
+      "respect_rate_limits": true,
+      "delay_between_articles": 5,
+      "delay_between_sections": 10,
+      "max_retries": 3,
+      "timeout": 60
+    }
+  },
+
+  "data_categories": {
+    "cycling_products": {
+      "types": [
+        "mountain_bikes",
+        "road_bikes",
+        "gravel_bikes",
+        "e_bikes",
+        "frames",
+        "forks",
+        "shocks",
+        "wheels",
+        "tires",
+        "drivetrains",
+        "brakes",
+        "pedals",
+        "handlebars",
+        "stems",
+        "seatposts",
+        "saddles",
+        "helmets",
+        "protective_gear",
+        "apparel",
+        "accessories"
+      ]
+    },
+    "cycling_trends": {
+      "categories": [
+        "bike_geometry",
+        "suspension_tech",
+        "drivetrain_tech",
+        "wheel_sizes",
+        "tire_trends",
+        "e_bike_adoption",
+        "materials",
+        "pricing",
+        "market_segments"
+      ]
+    },
+    "gear_recommendations": {
+      "sources": [
+        "editor_picks",
+        "field_test_winners",
+        "best_value",
+        "innovation_awards",
+        "community_favorites"
+      ]
+    },
+    "cycling_problems": {
+      "categories": [
+        "reliability_issues",
+        "compatibility",
+        "availability",
+        "pricing_concerns",
+        "performance_gaps",
+        "maintenance_challenges"
+      ]
+    },
+    "community_insights": {
+      "sentiment_categories": [
+        "product_satisfaction",
+        "brand_perception",
+        "value_assessment",
+        "trend_adoption",
+        "feature_requests"
+      ]
+    }
+  },
+
+  "extraction_schema": {
+    "version": "1.0.0",
+    "fields": {
+      "required": [
+        "article_id",
+        "title",
+        "url",
+        "content",
+        "publish_date",
+        "extracted_at"
+      ],
+      "optional": [
+        "author",
+        "tags",
+        "products_mentioned",
+        "comments",
+        "images",
+        "videos"
+      ]
+    }
+  },
+
+  "processing": {
+    "ai_model": "claude-sonnet-4",
+    "extract_insights": true,
+    "sentiment_analysis": true,
+    "product_extraction": true,
+    "trend_detection": true,
+    "comment_analysis": true
+  },
+
+  "storage": {
+    "articles_dir": "/Users/yourox/AI-Workspace/data/pinkbike_articles",
+    "insights_dir": "/Users/yourox/AI-Workspace/data/pinkbike_insights",
+    "database": "supabase",
+    "vector_db": "qdrant"
+  }
+}

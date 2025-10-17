@@ -1,0 +1,1508 @@
+{
+  "slug": "sst",
+  "name": "SST",
+  "yc_id": 22986,
+  "batch": "Winter 2021",
+  "website": "https://sst.dev",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T01:00:42.912885",
+    "website": "https://sst.dev",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 2183.0,
+      "final_url": "https://sst.dev/",
+      "redirected": true,
+      "checked_at": "2025-10-17T01:00:45.095892"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "sst.dev",
+      "registrar": null,
+      "creation_date": null,
+      "expiration_date": null,
+      "domain_age_days": null,
+      "domain_age_years": null,
+      "name_servers": []
+    },
+    "social_links": {
+      "twitter": "https://x.com/SST_dev",
+      "linkedin": "https://www.linkedin.com/company/sst-dev",
+      "github": "https://github.com/sst/sst",
+      "facebook": null,
+      "instagram": null,
+      "youtube": "https://www.youtube.com/c/sst-dev"
+    },
+    "security_headers": {
+      "strict_transport_security": false,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 0,
+      "server": "AmazonS3"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:27:09.642483",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:26:58.768663",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "Toronto, Canada",
+      "coordinates": {
+        "latitude": 43.6532,
+        "longitude": -79.3832
+      },
+      "timezone": {
+        "timezone_id": "America/Toronto",
+        "timezone_name": "America/Toronto"
+      },
+      "retrieved_at": "2025-10-17T10:15:10.051277",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:26:58.768720",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/sst"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 100,
+        "packages": [
+          {
+            "name": "create-sst",
+            "description": "Create SST apps",
+            "version": "2.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/create-sst"
+          },
+          {
+            "name": "@serverless-stack/core",
+            "description": "Core of SST.",
+            "version": "1.18.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@serverless-stack/core"
+          },
+          {
+            "name": "sst-helper",
+            "description": "A helper for SST.",
+            "version": "0.0.96",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sst-helper"
+          },
+          {
+            "name": "astro-sst",
+            "description": "Adapter that allows Astro to deploy your site to AWS utilizing SST.",
+            "version": "3.1.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/astro-sst"
+          },
+          {
+            "name": "@serverless-stack/cli",
+            "description": "A CLI to help deploy SST apps.",
+            "version": "1.18.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@serverless-stack/cli"
+          },
+          {
+            "name": "eslint-config-serverless-stack",
+            "description": "Base eslint config for SST apps.",
+            "version": "0.69.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/eslint-config-serverless-stack"
+          },
+          {
+            "name": "ts-sst-plugin",
+            "description": "TypeScript SST Plugin",
+            "version": "1.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ts-sst-plugin"
+          },
+          {
+            "name": "@serverless-stack/resources",
+            "description": "Helper AWS CDK constructs for SST apps.",
+            "version": "1.18.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@serverless-stack/resources"
+          },
+          {
+            "name": "sst-file-routes",
+            "description": "Filed-based routing for SST applications.",
+            "version": "0.0.25",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sst-file-routes"
+          },
+          {
+            "name": "@intelligems/sst",
+            "description": "A CLI to help deploy SST apps.",
+            "version": "2.47.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@intelligems/sst"
+          },
+          {
+            "name": "@kirschbaum-development/sst-laravel",
+            "description": "An unofficial extension of SST to deploy containerized Laravel applications to AWS Fargate.",
+            "version": "0.0.22",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@kirschbaum-development/sst-laravel"
+          },
+          {
+            "name": "@initencounter/sst",
+            "description": "Sst\u8bed\u97f3\u8bc6\u522b\u670d\u52a1",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@initencounter/sst"
+          },
+          {
+            "name": "@queuebar/sst-webhook-service",
+            "description": "A multi-tenant webhook service built with SST for event delivery and management",
+            "version": "1.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@queuebar/sst-webhook-service"
+          },
+          {
+            "name": "@rushstack/heft-serverless-stack-plugin",
+            "description": "Heft plugin for building apps using the Serverless Stack (SST) framework",
+            "version": "1.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@rushstack/heft-serverless-stack-plugin"
+          },
+          {
+            "name": "sst-http",
+            "description": "Decorator-based routing for SST v3 with a single Lambda and Firebase JWT authorizer.",
+            "version": "0.2.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sst-http"
+          },
+          {
+            "name": "@serverless-stack/static-site-env",
+            "description": "A simple CLI that allows your static site to load the environment variables from your SST app.",
+            "version": "1.18.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@serverless-stack/static-site-env"
+          },
+          {
+            "name": "@croudtech/sst-utils",
+            "description": "Common SST configuration utilities",
+            "version": "0.1.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@croudtech/sst-utils"
+          },
+          {
+            "name": "@k11r/nx-sst",
+            "description": "Nx Plugin for SST",
+            "version": "2.11.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@k11r/nx-sst"
+          },
+          {
+            "name": "remotion-sst",
+            "description": "The easiest way to deploy Remotion Lambda to AWS with SST/Pulumi and use in your applications.",
+            "version": "0.0.11",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/remotion-sst"
+          },
+          {
+            "name": "projen-sst",
+            "description": "Helpers for Projen projects that use SST.",
+            "version": "0.0.63",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/projen-sst"
+          },
+          {
+            "name": "dkershner6-projen-sst-app",
+            "description": "DKershner's preferred constructs for Projen SST Apps.",
+            "version": "0.0.88",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/dkershner6-projen-sst-app"
+          },
+          {
+            "name": "@auriclabs/sst-types",
+            "description": "A TypeScript typings package that provides comprehensive type definitions for SST (Serverless Stack) development.",
+            "version": "0.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@auriclabs/sst-types"
+          },
+          {
+            "name": "projen-sonar",
+            "description": "Helpers for Projen projects that use SST.",
+            "version": "0.0.54",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/projen-sonar"
+          },
+          {
+            "name": "svelte-kit-sst",
+            "description": "Adapter for SvelteKit apps to work on AWS Lambda and AWS Lambda@Edge.",
+            "version": "2.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/svelte-kit-sst"
+          },
+          {
+            "name": "@eredzik/dsc-sst-utils",
+            "description": "```bash npm install @eredzik/dsc-sst-utils ```",
+            "version": "1.1.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@eredzik/dsc-sst-utils"
+          },
+          {
+            "name": "sst",
+            "description": null,
+            "version": "3.17.19",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sst"
+          },
+          {
+            "name": "dkershner6-projen-sst-nextjs-app",
+            "description": "DKershner's preferred constructs for Projen SST Apps using Nextjs.",
+            "version": "0.0.47",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/dkershner6-projen-sst-nextjs-app"
+          },
+          {
+            "name": "@lewisl9029/sst",
+            "description": "A CLI to help deploy SST apps.",
+            "version": "2.41.5-3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@lewisl9029/sst"
+          },
+          {
+            "name": "sst-custom",
+            "description": "A Pulumi provider for defining custom SST components.",
+            "version": "0.0.11",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sst-custom"
+          },
+          {
+            "name": "@dizzzmas/sst-url-shortener",
+            "description": "[![NPM version](https://img.shields.io/npm/v/@dizzzmas/sst-url-shortener.svg)](https://npmjs.org/package/@dizzzmas/sst-url-shortener) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/@dizzzmas/sst-url-shortener)",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@dizzzmas/sst-url-shortener"
+          },
+          {
+            "name": "@maple-ai/sst",
+            "description": "SST CLI (meta) - maple fork",
+            "version": "3.17.13-maple.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@maple-ai/sst"
+          },
+          {
+            "name": "@maple-ai/sst-linux-arm64",
+            "description": "SST CLI (linux arm64) - maple fork",
+            "version": "3.17.13-maple.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@maple-ai/sst-linux-arm64"
+          },
+          {
+            "name": "@maple-ai/sst-linux-x64",
+            "description": "SST CLI (linux x64) - maple fork",
+            "version": "3.17.13-maple.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@maple-ai/sst-linux-x64"
+          },
+          {
+            "name": "@maple-ai/sst-darwin-arm64",
+            "description": "SST CLI (darwin arm64) - maple fork",
+            "version": "3.17.13-maple.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@maple-ai/sst-darwin-arm64"
+          },
+          {
+            "name": "@maple-ai/sst-darwin-x64",
+            "description": "SST CLI (darwin x64) - maple fork",
+            "version": "3.17.13-maple.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@maple-ai/sst-darwin-x64"
+          },
+          {
+            "name": "@nick-kang/sst",
+            "description": "A CLI to help deploy SST apps.",
+            "version": "2.47.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@nick-kang/sst"
+          },
+          {
+            "name": "@maple-ai/sst-win32-x64",
+            "description": "SST CLI (win32 x64) - maple fork",
+            "version": "3.17.13-maple.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@maple-ai/sst-win32-x64"
+          },
+          {
+            "name": "tuirc",
+            "description": "IRC + [OpenTUI](https://github.com/sst/opentui)",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/tuirc"
+          },
+          {
+            "name": "sst-cloud",
+            "description": "sst-cloud.com interface",
+            "version": "0.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sst-cloud"
+          },
+          {
+            "name": "@project-sst/sst-api",
+            "description": "swagger client for sst-api",
+            "version": "1.0.6-SNAPSHOT.20191104",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@project-sst/sst-api"
+          },
+          {
+            "name": "@xcelsior/comment-api",
+            "description": "A serverless comment-as-a-service built with SST, supporting rich text comments, threaded replies, and API key authentication.",
+            "version": "1.0.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@xcelsior/comment-api"
+          },
+          {
+            "name": "@berenddeboer/nx-sst",
+            "description": "Nx plugin for Serverless Stack apps",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@berenddeboer/nx-sst"
+          },
+          {
+            "name": "@dizzzmas/sst-url-shortener-sdk",
+            "description": "The official TypeScript library for the Sst URL Shortener API",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@dizzzmas/sst-url-shortener-sdk"
+          },
+          {
+            "name": "lambda-live",
+            "description": "A CLI to help deploy SST apps.",
+            "version": "2.44.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/lambda-live"
+          },
+          {
+            "name": "@xcelsior/mfa-api",
+            "description": "A serverless Multi-Factor Authentication (MFA) service built with SST, supporting both app authenticator (TOTP) and email one-time password (OTP) methods.",
+            "version": "1.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@xcelsior/mfa-api"
+          },
+          {
+            "name": "react-sst",
+            "description": "React-bindings for sst",
+            "version": "0.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-sst"
+          },
+          {
+            "name": "sst-vuetify-components",
+            "description": "Custom Vuetify components for Suzuyo",
+            "version": "1.0.26",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sst-vuetify-components"
+          },
+          {
+            "name": "eslint-sst-config",
+            "description": "SST JS coding standard",
+            "version": "1.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/eslint-sst-config"
+          },
+          {
+            "name": "@appsync-butler/sst",
+            "description": "Load resolvers into SST AppSync API constructs.",
+            "version": "0.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@appsync-butler/sst"
+          },
+          {
+            "name": "@cute-me-on-repos/sst-analyzer",
+            "description": "Core validation library for SST projects with CLI support",
+            "version": "0.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@cute-me-on-repos/sst-analyzer"
+          },
+          {
+            "name": "@lamware/sst",
+            "description": "Lamware Middleware to enable SST runtime",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@lamware/sst"
+          },
+          {
+            "name": "sst-linux-x64",
+            "description": null,
+            "version": "3.17.19",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sst-linux-x64"
+          },
+          {
+            "name": "@arianee/token-provider",
+            "description": "A library for services and applications that need to generate **S**mart Asset **S**haring **T**okens (SST), a type of token that can be used to share the content and transfer rights of a smart asset on the Arianee protocol without losing ownership of the ",
+            "version": "1.105.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@arianee/token-provider"
+          },
+          {
+            "name": "solid-start-sst",
+            "description": "Adapter for Solid apps to work on AWS Lambda and AWS Lambda@Edge.",
+            "version": "2.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/solid-start-sst"
+          },
+          {
+            "name": "sst-warmer",
+            "description": "Extends SST SsrSites with an optional warming feature. Applies to RemixSite, SvelteKitSite, AstroSite, and SolidStartSite.",
+            "version": "0.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sst-warmer"
+          },
+          {
+            "name": "homebridge-sst-cloud",
+            "description": "SST Cloud plugin for Homebridge.",
+            "version": "1.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/homebridge-sst-cloud"
+          },
+          {
+            "name": "@arianee/service-provider",
+            "description": "A library for services and applications that need to use **S**mart Asset **S**haring **T**okens (SST), a type of token that can be used to share the content and transfer rights of a smart asset on the Arianee protocol without losing ownership of the under",
+            "version": "1.105.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@arianee/service-provider"
+          },
+          {
+            "name": "sst-aws-cdk",
+            "description": "AWS CDK CLI, the command line tool for CDK apps",
+            "version": "2.1018.1-3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sst-aws-cdk"
+          },
+          {
+            "name": "sst-linux-arm64",
+            "description": null,
+            "version": "3.17.19",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sst-linux-arm64"
+          },
+          {
+            "name": "sst-darwin-x64",
+            "description": null,
+            "version": "3.17.19",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sst-darwin-x64"
+          },
+          {
+            "name": "sst-linux-x86",
+            "description": null,
+            "version": "3.17.19",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sst-linux-x86"
+          },
+          {
+            "name": "exquisite-sst",
+            "description": "Screenshot testing utility",
+            "version": "1.6.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/exquisite-sst"
+          },
+          {
+            "name": "sst-darwin-arm64",
+            "description": null,
+            "version": "3.17.19",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sst-darwin-arm64"
+          },
+          {
+            "name": "@estyrke/sst",
+            "description": "A CLI to help deploy SST apps.",
+            "version": "0.0.0-20230420074943",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@estyrke/sst"
+          },
+          {
+            "name": "sst-win32-x64",
+            "description": null,
+            "version": "3.17.19",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sst-win32-x64"
+          },
+          {
+            "name": "sst-win32-arm64",
+            "description": null,
+            "version": "3.17.19",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sst-win32-arm64"
+          },
+          {
+            "name": "sst-win32-x86",
+            "description": null,
+            "version": "3.17.19",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sst-win32-x86"
+          },
+          {
+            "name": "@whoof/infra",
+            "description": "SST application factory functions for consistent patterns in Whop applications",
+            "version": "0.1.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@whoof/infra"
+          },
+          {
+            "name": "svelte-kit-sst-streaming",
+            "description": "Adapter for SvelteKit apps to work on AWS Lambda with streaming enabled.",
+            "version": "0.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/svelte-kit-sst-streaming"
+          },
+          {
+            "name": "@canopyinc/sst",
+            "description": "A CLI to help deploy SST apps.",
+            "version": "2.27.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@canopyinc/sst"
+          },
+          {
+            "name": "@zzal/inboot",
+            "description": "Bootstrap fullstack projects on using SST or Amplify",
+            "version": "0.0.2-alpha.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@zzal/inboot"
+          },
+          {
+            "name": "react-native-sst-storage-db",
+            "description": "A powerful file-based MongoDB-like database for React Native. Single JSON file storage with collections, advanced querying, indexing, and atomic operations. No AsyncStorage dependency.",
+            "version": "2.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-native-sst-storage-db"
+          },
+          {
+            "name": "open-next",
+            "description": "Open source Next.js serverless adapter",
+            "version": "3.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/open-next"
+          },
+          {
+            "name": "@sst-provider/neon",
+            "description": "A Pulumi provider dynamically bridged from neon.",
+            "version": "0.9.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sst-provider/neon"
+          },
+          {
+            "name": "serverless-bundle",
+            "description": "An extension of the serverless-webpack plugin that bundles your ES6 + TypeScript Node.js Lambda functions.",
+            "version": "6.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/serverless-bundle"
+          },
+          {
+            "name": "@fenleap/sst",
+            "description": "A CLI to help deploy SST apps.",
+            "version": "2.8.12",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@fenleap/sst"
+          },
+          {
+            "name": "stylelint-config-sst",
+            "description": "SST Styles coding standard",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/stylelint-config-sst"
+          },
+          {
+            "name": "@symplify-conversion/sst-sdk-nodejs",
+            "description": "This is the Node.js implementation of the Symplify Server-Side Testing SDK.",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@symplify-conversion/sst-sdk-nodejs"
+          },
+          {
+            "name": "@sst-provider/planetscale",
+            "description": "A Pulumi provider dynamically bridged from planetscale.",
+            "version": "0.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sst-provider/planetscale"
+          },
+          {
+            "name": "@serverless-stack/cli2",
+            "description": "A CLI to help deploy SST apps.",
+            "version": "1.18.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@serverless-stack/cli2"
+          },
+          {
+            "name": "@sstlv/sst",
+            "description": "A CLI to help deploy SST apps.",
+            "version": "2.26.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sstlv/sst"
+          },
+          {
+            "name": "@salient-sys/cloud-sst",
+            "description": "Data Transfer Objects used both in the front and the backend of the Cloud product.",
+            "version": "1.0.194",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@salient-sys/cloud-sst"
+          },
+          {
+            "name": "sst-cdk",
+            "description": "CDK Toolkit, the command line tool for CDK apps",
+            "version": "1.91.0-rc.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sst-cdk"
+          },
+          {
+            "name": "@opennextjs/aws",
+            "description": "Open source Next.js serverless adapter",
+            "version": "3.8.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@opennextjs/aws"
+          },
+          {
+            "name": "@sst-provider/infisical",
+            "description": "A Pulumi provider dynamically bridged from infisical.",
+            "version": "0.15.11",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sst-provider/infisical"
+          },
+          {
+            "name": "sst-vue-cli",
+            "description": "A vue template with Element UI & axios & iconfont & permission control & lint & vuex ",
+            "version": "1.0.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sst-vue-cli"
+          },
+          {
+            "name": "sstiscanner",
+            "description": "SST-I is a powerful Server Side Template injection vulnerability scanner that helps you quickly identify and mitigate potential security risks in your web applications.",
+            "version": "0.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sstiscanner"
+          },
+          {
+            "name": "serverless-stack-mt-core",
+            "description": "Core of Serverless Stack.",
+            "version": "0.44.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/serverless-stack-mt-core"
+          },
+          {
+            "name": "pug-lint-config-sst",
+            "description": "SST Pug coding standard",
+            "version": "1.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/pug-lint-config-sst"
+          },
+          {
+            "name": "sst-private",
+            "description": "The official TypeScript library for the Cloudflare API",
+            "version": "3.2.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sst-private"
+          },
+          {
+            "name": "@auriclabs/sst-utils",
+            "description": null,
+            "version": "0.0.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@auriclabs/sst-utils"
+          },
+          {
+            "name": "create-serverless-stack",
+            "description": "Create Serverless Stack apps.",
+            "version": "0.69.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/create-serverless-stack"
+          },
+          {
+            "name": "@opentui/core",
+            "description": "OpenTUI is a TypeScript library for building terminal user interfaces (TUIs)",
+            "version": "0.1.27",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@opentui/core"
+          },
+          {
+            "name": "@sst-provider/cloudflare5",
+            "description": "A Pulumi provider dynamically bridged from cloudflare.",
+            "version": "5.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sst-provider/cloudflare5"
+          },
+          {
+            "name": "@appsync-butler/core",
+            "description": "A simple yet powerful AppSync development framework. Compatible with CDK and SST. \ud83d\ude80 Highly-suitable for Single Table design applications.",
+            "version": "0.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@appsync-butler/core"
+          },
+          {
+            "name": "@mikecbrant/create-appsyncjs",
+            "description": "Scaffold generator for an SST-based AWS AppSync + DynamoDB repo with example User CRUD using @mikecbrant/appsyncjs-dynamo and tests using @mikecbrant/appsyncjs-test-utils.",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mikecbrant/create-appsyncjs"
+          },
+          {
+            "name": "@sst-provider/turso",
+            "description": "A Pulumi provider dynamically bridged from turso.",
+            "version": "0.2.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sst-provider/turso"
+          },
+          {
+            "name": "@otterdev/nx-sst",
+            "description": "Nx plugin for Serverless Stack apps",
+            "version": "0.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@otterdev/nx-sst"
+          },
+          {
+            "name": "serverless-stack-govcloud-tweaks-while-waiting-for-pull-request",
+            "description": "Create your first SST app.",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/serverless-stack-govcloud-tweaks-while-waiting-for-pull-request"
+          },
+          {
+            "name": "sst-plugin-platform",
+            "description": null,
+            "version": "0.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sst-plugin-platform"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 8,
+        "packages": [
+          {
+            "name": "rangefinder-sst",
+            "version": "0.1.1",
+            "downloads": 11475,
+            "url": "https://rubygems.org/gems/rangefinder-sst"
+          },
+          {
+            "name": "sstat",
+            "version": "0.0.12",
+            "downloads": 25945,
+            "url": "https://rubygems.org/gems/sstat"
+          },
+          {
+            "name": "sstephenson-sprockets",
+            "version": "1.0.2",
+            "downloads": 22827,
+            "url": "https://rubygems.org/gems/sstephenson-sprockets"
+          },
+          {
+            "name": "sstephenson-yui-compressor",
+            "version": "0.9.1",
+            "downloads": 6863,
+            "url": "https://rubygems.org/gems/sstephenson-yui-compressor"
+          },
+          {
+            "name": "sstruct",
+            "version": "1.0.1",
+            "downloads": 4898,
+            "url": "https://rubygems.org/gems/sstruct"
+          },
+          {
+            "name": "sstacey_palindrome",
+            "version": "0.3.0",
+            "downloads": 4822,
+            "url": "https://rubygems.org/gems/sstacey_palindrome"
+          },
+          {
+            "name": "sstephenson-rubyosa",
+            "version": "0.5.1",
+            "downloads": 3586,
+            "url": "https://rubygems.org/gems/sstephenson-rubyosa"
+          },
+          {
+            "name": "sstlistpplabs",
+            "version": "1.0.1",
+            "downloads": 676,
+            "url": "https://rubygems.org/gems/sstlistpplabs"
+          }
+        ]
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 10,
+        "packages": [
+          {
+            "name": "sst",
+            "description": "SST provides a sorted string table abstraction.",
+            "version": "0.18.0",
+            "downloads": 19205,
+            "url": "https://crates.io/crates/sst"
+          },
+          {
+            "name": "sst-sst",
+            "description": "sst-sst",
+            "version": "0.1.0",
+            "downloads": 723,
+            "url": "https://crates.io/crates/sst-sst"
+          },
+          {
+            "name": "sst_sdk",
+            "description": "Rust SDK for SST",
+            "version": "0.1.0",
+            "downloads": 1016,
+            "url": "https://crates.io/crates/sst_sdk"
+          },
+          {
+            "name": "aes-gcm-sst",
+            "description": " TODO\n",
+            "version": "0.1.0",
+            "downloads": 1739,
+            "url": "https://crates.io/crates/aes-gcm-sst"
+          },
+          {
+            "name": "gcm-sst",
+            "description": "  TODO\n",
+            "version": "0.1.0",
+            "downloads": 1535,
+            "url": "https://crates.io/crates/gcm-sst"
+          },
+          {
+            "name": "shorterDB",
+            "description": "A simple Key value store built using SkipLists, De-LSM arch, embeddable and grpc enabled.",
+            "version": "0.1.1",
+            "downloads": 947,
+            "url": "https://crates.io/crates/shorterDB"
+          },
+          {
+            "name": "sst-kestrel",
+            "description": "sst-kestrel",
+            "version": "0.1.1",
+            "downloads": 1320,
+            "url": "https://crates.io/crates/sst-kestrel"
+          },
+          {
+            "name": "sst-kestrel-cli",
+            "description": "sst-kestrel-cli",
+            "version": "0.1.1",
+            "downloads": 1326,
+            "url": "https://crates.io/crates/sst-kestrel-cli"
+          },
+          {
+            "name": "sst-kestrel-zeromq",
+            "description": "sst-kestrel-zeromq",
+            "version": "0.1.1",
+            "downloads": 689,
+            "url": "https://crates.io/crates/sst-kestrel-zeromq"
+          },
+          {
+            "name": "bitcoinleveldb-filter",
+            "description": "a filter block is stored near the end of a table file.  It contains filters (eg blooms) for all data blocks in the table combined into a single filter block.",
+            "version": "0.1.16-alpha.0",
+            "downloads": 27478,
+            "url": "https://crates.io/crates/bitcoinleveldb-filter"
+          }
+        ]
+      },
+      "total_packages": 118,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:27:00.167387"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:27:00.167415",
+    "batch_network": {
+      "batch": "Winter 2021",
+      "total_batch_mates": 335,
+      "active_batch_mates": 244,
+      "batch_success_rate": 72.8,
+      "notable_batch_mates": [
+        {
+          "name": "Stacksi",
+          "slug": "stacksi",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Automated Answers to Security Questionnaires"
+        },
+        {
+          "name": "Furmacy",
+          "slug": "furmacy",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Digital e-prescribing software for veterinarians."
+        },
+        {
+          "name": "Fountain9",
+          "slug": "fountain9",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Helping food brands and retailers reduce food wastage"
+        },
+        {
+          "name": "Zepto",
+          "slug": "zepto",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "10-Minute Grocery Delivery in India"
+        },
+        {
+          "name": "Segments.ai",
+          "slug": "segments-ai",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Build better computer vision models by building better datasets"
+        },
+        {
+          "name": "PingPong",
+          "slug": "pingpong",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Video messaging app for remote teams."
+        },
+        {
+          "name": "ClipDrop",
+          "slug": "clipdrop",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Turn regular mobile photos into professional product visuals"
+        },
+        {
+          "name": "Avenue",
+          "slug": "avenue",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Observability platform for operations teams"
+        },
+        {
+          "name": "Flok",
+          "slug": "flok",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "End to end company retreat planning"
+        },
+        {
+          "name": "HyperGlue",
+          "slug": "hyperglue",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Business intelligence on text"
+        }
+      ],
+      "batch_size": 336
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Amiato",
+          "slug": "amiato",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "The BI bridge for unstructured data. We automatically bridge the gap\u2026"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Simple multiplayer game servers."
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Backlift allows front-end only developers to build entire websites\u2026"
+        },
+        {
+          "name": "Documents.Me",
+          "slug": "documents-me",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Client-side encryption for your devices and the cloud."
+        },
+        {
+          "name": "Apollo",
+          "slug": "apollo",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Apollo helps engineering teams accelerate delivery"
+        },
+        {
+          "name": "Proxino",
+          "slug": "proxino",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Javascript proxy."
+        },
+        {
+          "name": "PhoneSys",
+          "slug": "phonesys",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "The Phone System for Sales Teams."
+        },
+        {
+          "name": "Cryptoseal",
+          "slug": "cryptoseal",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Server key management, VPN as a Service, Privacy VPN.  Sold to\u2026"
+        },
+        {
+          "name": "Citus Data",
+          "slug": "citus-data",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Real-time. Big data. PostgreSQL"
+        },
+        {
+          "name": "Realm",
+          "slug": "realm",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Better data structures = no DB."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Toronto",
+      "location": "Toronto, ON, Canada; Remote",
+      "companies_in_city": 74,
+      "active_in_city": 49,
+      "nearby_companies": [
+        {
+          "name": "Per Vices",
+          "slug": "per-vices",
+          "batch": "Winter 2012",
+          "industry": "Industrials",
+          "status": "Active"
+        },
+        {
+          "name": "Upverter",
+          "slug": "upverter",
+          "batch": "Winter 2011",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "DevCycle",
+          "slug": "devcycle",
+          "batch": "Winter 2014",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Whirlscape",
+          "slug": "whirlscape",
+          "batch": "Winter 2014",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HigherMe",
+          "slug": "higherme",
+          "batch": "Winter 2015",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Dabble",
+          "slug": "dabble",
+          "batch": "Winter 2015",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Vanhawks",
+          "slug": "vanhawks",
+          "batch": "Winter 2015",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "teaBOT",
+          "slug": "teabot",
+          "batch": "Summer 2015",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "PartnerStack",
+          "slug": "partnerstack",
+          "batch": "Summer 2015",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Appcanary",
+          "slug": "appcanary",
+          "batch": "Summer 2015",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Rose Rocket",
+          "slug": "rose-rocket",
+          "batch": "Summer 2016",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Sage Care",
+          "slug": "sage-care",
+          "batch": "Summer 2016",
+          "industry": "Healthcare",
+          "status": "Inactive"
+        },
+        {
+          "name": "Validere",
+          "slug": "validere",
+          "batch": "Summer 2016",
+          "industry": "Industrials",
+          "status": "Active"
+        },
+        {
+          "name": "Fiix",
+          "slug": "fiix",
+          "batch": "Winter 2017",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Humi",
+          "slug": "humi",
+          "batch": "Winter 2017",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "HelpWear",
+          "slug": "helpwear",
+          "batch": "Summer 2017",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "OneLocal",
+          "slug": "onelocal",
+          "batch": "Summer 2017",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Quantstamp",
+          "slug": "quantstamp",
+          "batch": "Winter 2018",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "LUS Brands",
+          "slug": "lus-brands",
+          "batch": "Winter 2018",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "BioRender",
+          "slug": "biorender",
+          "batch": "Winter 2018",
+          "industry": "B2B",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "SBX Robotics",
+        "slug": "sbx-robotics",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "SigNoz",
+        "slug": "signoz",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "SlashAuth",
+        "slug": "slashauth",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Encord",
+        "slug": "encord",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "QuickNode",
+        "slug": "quiknode",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Nimbus",
+        "slug": "nimbus-3",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Dyte",
+        "slug": "dyte",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Feroot Security",
+        "slug": "feroot-security",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Galaxy",
+        "slug": "galaxy",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Svix",
+        "slug": "svix",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 3155,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:27:00.186944"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:27:00.186956",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:27:00.540704",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:27:00.653898",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 3,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "gpt-4o",
+    "enriched_at": "2025-10-17T11:27:35.522050",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "large",
+      "market_stage": "growing",
+      "key_trends": [
+        "increased adoption of open-source tools",
+        "rise of serverless architectures",
+        "growth in developer tooling"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "strong tech stack and open-source community engagement",
+      "differentiation": "focus on open-source developer tools with a comprehensive suite",
+      "competitive_advantages": [
+        "strong community support",
+        "integrated toolset"
+      ],
+      "competitive_vulnerabilities": [
+        "small team size",
+        "reliance on open-source contributions"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "low"
+    },
+    "growth_assessment": {
+      "growth_stage": "seed",
+      "growth_indicators": [
+        "active community engagement",
+        "increasing tool adoption"
+      ],
+      "growth_bottlenecks": [
+        "limited marketing reach",
+        "resource constraints"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "medium",
+      "overall_risk_score": 3,
+      "key_risks": [
+        "scaling challenges",
+        "competition from larger players",
+        "dependency on open-source"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "strong open-source presence",
+        "innovative product suite",
+        "growing market"
+      ],
+      "concerns": [
+        "small team size",
+        "scalability of operations"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "HashiCorp",
+        "Netlify"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "increase marketing efforts",
+        "expand team"
+      ],
+      "expansion_opportunities": [
+        "enterprise partnerships",
+        "additional tool integrations"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 593,
+      "completion": 407,
+      "total": 1000,
+      "estimated_cost": 0.005553
+    }
+  },
+  "phase8_complete": true
+}

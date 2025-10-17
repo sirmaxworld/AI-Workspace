@@ -1,0 +1,628 @@
+{
+  "slug": "wepay",
+  "name": "WePay",
+  "yc_id": 244,
+  "batch": "Summer 2009",
+  "website": "http://wepay.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:30:44.551490",
+    "website": "http://wepay.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 1083.7,
+      "final_url": "https://go.wepay.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:30:45.635197"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "wepay.com",
+      "registrar": "GoDaddy.com, LLC",
+      "creation_date": "1998-12-06T05:00:00",
+      "expiration_date": "2026-07-22T11:59:59",
+      "domain_age_days": 9811,
+      "domain_age_years": 26.9,
+      "name_servers": [
+        "NS-1301.AWSDNS-34.ORG",
+        "NS-1605.AWSDNS-08.CO.UK",
+        "NS-166.AWSDNS-20.COM",
+        "NS-982.AWSDNS-58.NET"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": true,
+      "x_frame_options": true,
+      "x_content_type_options": true,
+      "x_xss_protection": true,
+      "referrer_policy": false,
+      "security_score": 83,
+      "server": "AmazonS3"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:13:05.090328",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:55:20.078088",
+    "place_data": {
+      "status": "not_found",
+      "query": "Redwood City, CA, USA"
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:55:20.195616",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:55:20.195626",
+    "batch_network": {
+      "batch": "Summer 2009",
+      "total_batch_mates": 25,
+      "active_batch_mates": 7,
+      "batch_success_rate": 28.0,
+      "notable_batch_mates": [
+        {
+          "name": "Stripe",
+          "slug": "stripe",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "Economic infrastructure for the internet."
+        },
+        {
+          "name": "DailyBooth",
+          "slug": "dailybooth",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": ""
+        },
+        {
+          "name": "Bump",
+          "slug": "bump",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Bump, Flock, Photoroll (unreleased) => Google Photos"
+        },
+        {
+          "name": "RethinkDB",
+          "slug": "rethinkdb",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The open source database for the realtime web."
+        },
+        {
+          "name": "Mixpanel",
+          "slug": "mixpanel",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "Mixpanel is event analytics for builders that need answers."
+        },
+        {
+          "name": "Lockitron",
+          "slug": "lockitron",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Lockitron makes electronic locks you can control locally from your\u2026"
+        },
+        {
+          "name": "GraffitiGeo",
+          "slug": "graffitigeo",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "We let you know where to go and what to get once you get there.\u2026"
+        },
+        {
+          "name": "Flightcaster",
+          "slug": "flightcaster",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": ""
+        }
+      ],
+      "batch_size": 26
+    },
+    "industry_network": {
+      "industries": [
+        "Fintech",
+        "Payments"
+      ],
+      "total_industry_peers": 597,
+      "active_industry_peers": 448,
+      "direct_competitors": [
+        {
+          "name": "SlidePay",
+          "slug": "slidepay",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Banking and Payment Platform APIs. Exited October 2014."
+        },
+        {
+          "name": "Sendwave",
+          "slug": "sendwave",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Instant, no fee international remittances."
+        },
+        {
+          "name": "Tremendous",
+          "slug": "tremendous",
+          "status": "Active",
+          "batch": "Winter 2011",
+          "one_liner": "How businesses send money to people at scale. Fast, free, global."
+        },
+        {
+          "name": "Tipjoy",
+          "slug": "tipjoy",
+          "status": "Inactive",
+          "batch": "Winter 2008",
+          "one_liner": "social micropayments"
+        },
+        {
+          "name": "Billforward",
+          "slug": "billforward",
+          "status": "Active",
+          "batch": "Summer 2014",
+          "one_liner": "Subscription billing, rate plan management and analytics as a\u2026"
+        },
+        {
+          "name": "Kash",
+          "slug": "kash",
+          "status": "Acquired",
+          "batch": "Summer 2014",
+          "one_liner": "We are fixing how money works."
+        },
+        {
+          "name": "Apto Payments",
+          "slug": "apto-payments",
+          "status": "Acquired",
+          "batch": "Summer 2014",
+          "one_liner": "API platform for partners to issue branded debit and credit cards to\u2026"
+        },
+        {
+          "name": "Final",
+          "slug": "final",
+          "status": "Acquired",
+          "batch": "Winter 2015",
+          "one_liner": "A credit card that drastically reduces payment fraud and gives\u2026"
+        },
+        {
+          "name": "Razorpay",
+          "slug": "razorpay",
+          "status": "Active",
+          "batch": "Winter 2015",
+          "one_liner": "India's only full-stack financial solutions company for businesses."
+        },
+        {
+          "name": "Plate IQ",
+          "slug": "plate-iq",
+          "status": "Active",
+          "batch": "Summer 2015",
+          "one_liner": "Automated Accounts Payable"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Redwood City",
+      "location": "Redwood City, CA, USA",
+      "companies_in_city": 26,
+      "active_in_city": 15,
+      "nearby_companies": [
+        {
+          "name": "iCracked",
+          "slug": "icracked",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Shopular",
+          "slug": "shopular",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Comprehend",
+          "slug": "comprehend",
+          "batch": "Winter 2011",
+          "industry": "Healthcare",
+          "status": "Acquired"
+        },
+        {
+          "name": "Mertado",
+          "slug": "mertado",
+          "batch": "Winter 2010",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "GetGoing",
+          "slug": "getgoing",
+          "batch": "Summer 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "CircuitLab",
+          "slug": "circuitlab",
+          "batch": "Winter 2013",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Roomstorm",
+          "slug": "roomstorm",
+          "batch": "Summer 2014",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "NimbleRx",
+          "slug": "nimblerx",
+          "batch": "Winter 2015",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Reach",
+          "slug": "reach",
+          "batch": "Summer 2015",
+          "industry": "Industrials",
+          "status": "Active"
+        },
+        {
+          "name": "VOIQ",
+          "slug": "voiq",
+          "batch": "Summer 2015",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Seneca Systems",
+          "slug": "seneca-systems",
+          "batch": "Summer 2016",
+          "industry": "Government",
+          "status": "Acquired"
+        },
+        {
+          "name": "Indivio",
+          "slug": "indivio",
+          "batch": "Summer 2017",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Phiar",
+          "slug": "phiar",
+          "batch": "Summer 2018",
+          "industry": "Industrials",
+          "status": "Acquired"
+        },
+        {
+          "name": "DreamCraft Entertainment, Inc.",
+          "slug": "dreamcraft-entertainment-inc",
+          "batch": "Summer 2018",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Rain Neuromorphics",
+          "slug": "rain-neuromorphics",
+          "batch": "Summer 2018",
+          "industry": "Industrials",
+          "status": "Acquired"
+        },
+        {
+          "name": "Leena AI",
+          "slug": "leena-ai",
+          "batch": "Summer 2018",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Preclusio",
+          "slug": "preclusio",
+          "batch": "Summer 2019",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Vorticity",
+          "slug": "vorticity",
+          "batch": "Summer 2019",
+          "industry": "Industrials",
+          "status": "Active"
+        },
+        {
+          "name": "DreamWorld",
+          "slug": "dreamworld",
+          "batch": "Winter 2021",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Zeit Medical",
+          "slug": "zeit-medical",
+          "batch": "Summer 2021",
+          "industry": "Healthcare",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Stripe",
+        "slug": "stripe",
+        "batch": "Summer 2009",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "SlidePay",
+        "slug": "slidepay",
+        "batch": "Winter 2012",
+        "industry": "Fintech",
+        "status": "Acquired",
+        "similarity_score": 5,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Sendwave",
+        "slug": "sendwave",
+        "batch": "Winter 2012",
+        "industry": "Fintech",
+        "status": "Acquired",
+        "similarity_score": 5,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Tremendous",
+        "slug": "tremendous",
+        "batch": "Winter 2011",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 5,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Tipjoy",
+        "slug": "tipjoy",
+        "batch": "Winter 2008",
+        "industry": "Fintech",
+        "status": "Inactive",
+        "similarity_score": 5,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Billforward",
+        "slug": "billforward",
+        "batch": "Summer 2014",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 5,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Kash",
+        "slug": "kash",
+        "batch": "Summer 2014",
+        "industry": "Fintech",
+        "status": "Acquired",
+        "similarity_score": 5,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Apto Payments",
+        "slug": "apto-payments",
+        "batch": "Summer 2014",
+        "industry": "Fintech",
+        "status": "Acquired",
+        "similarity_score": 5,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Final",
+        "slug": "final",
+        "batch": "Winter 2015",
+        "industry": "Fintech",
+        "status": "Acquired",
+        "similarity_score": 5,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Razorpay",
+        "slug": "razorpay",
+        "batch": "Winter 2015",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 5,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 648,
+      "network_density_score": 50.2,
+      "has_strong_batch_network": false,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T09:55:20.201808"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:55:20.201817",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:55:20.560170",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:55:20.697635",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 400,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:34.699837",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "mature",
+      "key_trends": [
+        "Embedded finance",
+        "Platform economy growth",
+        "Increased regulatory scrutiny"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Strong API and platform integrations, brand recognition, and trust built over time. Acquisition by JPMorgan Chase provides significant resources and credibility.",
+      "differentiation": "Payments API specifically designed for platform businesses, focusing on multi-party payments and complex workflows.",
+      "competitive_advantages": [
+        "Deep platform integrations",
+        "Strong brand recognition (post-acquisition)"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on JPMorgan Chase's strategy",
+        "Potential for slower innovation due to corporate structure"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS (API usage fees, transaction fees)",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "mature",
+      "growth_indicators": [
+        "Transaction volume growth",
+        "Platform adoption rate"
+      ],
+      "growth_bottlenecks": [
+        "Integration complexity",
+        "Competition from other payment providers"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "low",
+      "overall_risk_score": 3,
+      "key_risks": [
+        "Regulatory changes",
+        "Security breaches",
+        "Integration challenges for platforms"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong market position",
+        "Acquisition by JPMorgan Chase",
+        "Focus on a specific niche (platform businesses)"
+      ],
+      "concerns": [
+        "Integration with JPMorgan Chase could stifle innovation",
+        "Competition from larger players"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Stripe Connect",
+        "Adyen"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Continue to enhance API functionality",
+        "Expand platform integrations"
+      ],
+      "expansion_opportunities": [
+        "Geographic expansion",
+        "New product offerings (e.g., lending, insurance)"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 640,
+      "completion": 585,
+      "total": 1225,
+      "estimated_cost": 0.000224
+    }
+  },
+  "phase8_complete": true
+}

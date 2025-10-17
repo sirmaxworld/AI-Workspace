@@ -1,0 +1,661 @@
+{
+  "slug": "techmate",
+  "name": "Techmate",
+  "yc_id": 1230,
+  "batch": "Summer 2016",
+  "website": "https://www.techmate.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:37:46.996531",
+    "website": "https://www.techmate.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 1341.04,
+      "final_url": "https://techmate.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:37:48.337596"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "techmate.com",
+      "registrar": "Tucows Domains Inc.",
+      "creation_date": "1994-05-24T04:00:00",
+      "expiration_date": "2033-05-23T04:00:00",
+      "domain_age_days": 11468,
+      "domain_age_years": 31.4,
+      "name_servers": [
+        "VIDA.NS.CLOUDFLARE.COM",
+        "WILL.NS.CLOUDFLARE.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/TechmateTechs",
+      "linkedin": "https://www.linkedin.com/company/techmates",
+      "github": null,
+      "facebook": "https://www.facebook.com/techmateteam",
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": false,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 0,
+      "server": "nginx"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:17:29.486438",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:17:18.684709",
+    "place_data": {
+      "status": "success",
+      "method": "nominatim",
+      "formatted_address": "City of New York, New York, United States",
+      "coordinates": {
+        "latitude": 40.7127281,
+        "longitude": -74.0060152
+      },
+      "place_types": [
+        "administrative"
+      ],
+      "retrieved_at": "2025-10-17T10:12:57.698487",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:17:18.684735",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:17:18.684739",
+    "batch_network": {
+      "batch": "Summer 2016",
+      "total_batch_mates": 101,
+      "active_batch_mates": 47,
+      "batch_success_rate": 46.5,
+      "notable_batch_mates": [
+        {
+          "name": "Seneca Systems",
+          "slug": "seneca-systems",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Constituent system-of-record and service request management software\u2026"
+        },
+        {
+          "name": "SimpleCitizen",
+          "slug": "simplecitizen",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "From signup to citizenship, only SimpleCitizen guides applicants\u2026"
+        },
+        {
+          "name": "Iris Automation",
+          "slug": "iris-automation",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Enabling autonomous drone operations globally through AI software"
+        },
+        {
+          "name": "Opsolutely",
+          "slug": "opsolutely",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Automated deployments for software teams."
+        },
+        {
+          "name": "Fabric",
+          "slug": "fabric",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Fabric is a personal location-based journal that catalogs experiences\u2026"
+        },
+        {
+          "name": "garten",
+          "slug": "garten",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Creating workplace wellbeing."
+        },
+        {
+          "name": "Burrow",
+          "slug": "burrow",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A design brand creating innovative, award winning furniture."
+        },
+        {
+          "name": "Pursuit",
+          "slug": "pursuit",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Revlo helps broadcasters on Twitch engage and monetize their fan\u2026"
+        },
+        {
+          "name": "Symple",
+          "slug": "symple",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Last mile logistics for delivery & service teams. We bring real-time\u2026"
+        },
+        {
+          "name": "Vidcode",
+          "slug": "vidcode",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Coding for teens"
+        }
+      ],
+      "batch_size": 102
+    },
+    "industry_network": {
+      "industries": [
+        "Consumer",
+        "Home and Personal"
+      ],
+      "total_industry_peers": 852,
+      "active_industry_peers": 408,
+      "direct_competitors": [
+        {
+          "name": "iCracked",
+          "slug": "icracked",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "On-demand smartphone repair in 3 countries and launching smart home\u2026"
+        },
+        {
+          "name": "Exec",
+          "slug": "exec",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Exec is a house cleaning service that users can book from their\u2026"
+        },
+        {
+          "name": "BarSense",
+          "slug": "barsense",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Kid's first smartphone with web-based parental controls."
+        },
+        {
+          "name": "Shopular",
+          "slug": "shopular",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Deals, Coupons & Cash Back for your favorite stores."
+        },
+        {
+          "name": "Picplum",
+          "slug": "picplum",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": ""
+        },
+        {
+          "name": "Aisle50",
+          "slug": "aisle50",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Grocery deals."
+        },
+        {
+          "name": "Fobo",
+          "slug": "fobo",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Sell to people nearby."
+        },
+        {
+          "name": "Opez",
+          "slug": "opez",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Yelp for service pros."
+        },
+        {
+          "name": "Kicksend",
+          "slug": "kicksend",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Send and print photo albums with people you love.\r\n\r\nAcquired by Lyft"
+        },
+        {
+          "name": "Instapainting",
+          "slug": "instapainting",
+          "status": "Active",
+          "batch": "Winter 2011",
+          "one_liner": "Custom-made artwork from artists e-commerce marketplace."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "New York",
+      "location": "New York, NY, USA",
+      "companies_in_city": 523,
+      "active_in_city": 398,
+      "nearby_companies": [
+        {
+          "name": "The Muse",
+          "slug": "the-muse",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "HireArt",
+          "slug": "hireart",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Shoptiques",
+          "slug": "shoptiques",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Grouper",
+          "slug": "grouper",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "99dresses",
+          "slug": "99dresses",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Codecademy",
+          "slug": "codecademy",
+          "batch": "Summer 2011",
+          "industry": "Education",
+          "status": "Acquired"
+        },
+        {
+          "name": "Custora",
+          "slug": "custora",
+          "batch": "Winter 2011",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Recurse Center",
+          "slug": "recurse-center",
+          "batch": "Summer 2010",
+          "industry": "Education",
+          "status": "Active"
+        },
+        {
+          "name": "MessageParty",
+          "slug": "messageparty",
+          "batch": "Summer 2010",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Fabricly",
+          "slug": "fabricly",
+          "batch": "Winter 2010",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "RentHop",
+          "slug": "renthop",
+          "batch": "Summer 2009",
+          "industry": "Real Estate and Construction",
+          "status": "Active"
+        },
+        {
+          "name": "Youlicit",
+          "slug": "youlicit",
+          "batch": "Summer 2008",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "SocialPicks",
+          "slug": "socialpicks",
+          "batch": "Summer 2007",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Octopart",
+          "slug": "octopart",
+          "batch": "Winter 2007",
+          "industry": "Industrials",
+          "status": "Acquired"
+        },
+        {
+          "name": "OMGPop",
+          "slug": "omgpop",
+          "batch": "Summer 2006",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Canopy Labs",
+          "slug": "canopy-labs",
+          "batch": "Summer 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Fullstack Academy",
+          "slug": "fullstack-academy",
+          "batch": "Summer 2012",
+          "industry": "Education",
+          "status": "Acquired"
+        },
+        {
+          "name": "DataNitro",
+          "slug": "datanitro",
+          "batch": "Summer 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "SmartAsset",
+          "slug": "smartasset",
+          "batch": "Summer 2012",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "StyleUp",
+          "slug": "styleup",
+          "batch": "Winter 2013",
+          "industry": "Consumer",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Burrow",
+        "slug": "burrow",
+        "batch": "Summer 2016",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Squire Technologies",
+        "slug": "squire-technologies",
+        "batch": "Summer 2016",
+        "industry": "Consumer",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Joy",
+        "slug": "joy",
+        "batch": "Summer 2016",
+        "industry": "Consumer",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "SimpleCitizen",
+        "slug": "simplecitizen",
+        "batch": "Summer 2016",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "The Flex Company",
+        "slug": "the-flex-company",
+        "batch": "Summer 2016",
+        "industry": "Consumer",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "GoGoGrandparent",
+        "slug": "gogograndparent",
+        "batch": "Summer 2016",
+        "industry": "Consumer",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Miso",
+        "slug": "miso",
+        "batch": "Summer 2016",
+        "industry": "Consumer",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Abundance Labs",
+        "slug": "abundance-labs",
+        "batch": "Summer 2016",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "UtilityScore (formerly Pando)",
+        "slug": "utilityscore",
+        "batch": "Summer 2016",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Lawdingo",
+        "slug": "lawdingo",
+        "batch": "Winter 2013",
+        "industry": "Consumer",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 1476,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:17:18.712642"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:17:18.712650",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:17:19.035253",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:17:19.137286",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 11,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:45:39.728650",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "large",
+      "market_stage": "mature",
+      "key_trends": [
+        "Remote work driving tech support demand",
+        "SMB digital transformation acceleration",
+        "Shift from break-fix to managed services"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Local technician network and rapid response times create operational barriers",
+      "differentiation": "On-demand model with 2-hour response time for both onsite and virtual support",
+      "competitive_advantages": [
+        "Fast response times",
+        "Transparent pricing model"
+      ],
+      "competitive_vulnerabilities": [
+        "Easily replicable service model",
+        "High dependence on technician availability"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "Service marketplace",
+      "scalability": "medium",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "mature",
+      "growth_indicators": [
+        "11-person team size",
+        "Acquisition status indicates validation"
+      ],
+      "growth_bottlenecks": [
+        "Geographic expansion constraints",
+        "Technician recruitment and training"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "low",
+      "technology_risk": "low",
+      "execution_risk": "medium",
+      "overall_risk_score": 3,
+      "key_risks": [
+        "Commoditized service offering",
+        "Scaling operational complexity",
+        "Large incumbent competition"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Proven market demand",
+        "Asset-light model",
+        "Successful exit validates concept"
+      ],
+      "concerns": [
+        "Limited differentiation",
+        "Operational scaling challenges"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Geek Squad",
+        "HelloTech"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on enterprise client acquisition",
+        "Develop proprietary diagnostic tools"
+      ],
+      "expansion_opportunities": [
+        "Managed IT services for SMBs",
+        "IoT device support specialization"
+      ]
+    },
+    "tokens_used": {
+      "input": 696,
+      "output": 498,
+      "total": 1194,
+      "estimated_cost": 0.009558
+    }
+  },
+  "phase8_complete": true
+}

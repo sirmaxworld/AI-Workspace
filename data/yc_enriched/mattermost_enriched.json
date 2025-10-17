@@ -1,0 +1,1550 @@
+{
+  "slug": "mattermost",
+  "name": "Mattermost",
+  "yc_id": 407,
+  "batch": "Summer 2012",
+  "website": "http://mattermost.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:32:17.521567",
+    "website": "http://mattermost.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 1548.49,
+      "final_url": "https://mattermost.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:32:19.070069"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "mattermost.com",
+      "registrar": "Amazon Registrar, Inc.",
+      "creation_date": "2012-12-22T21:48:04",
+      "expiration_date": "2025-12-22T21:48:04",
+      "domain_age_days": 4681,
+      "domain_age_years": 12.8,
+      "name_servers": [
+        "ARAGORN.NS.CLOUDFLARE.COM",
+        "NADIA.NS.CLOUDFLARE.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/mattermost",
+      "linkedin": "https://www.linkedin.com/company/mattermost/",
+      "github": "https://github.com/mattermost/",
+      "facebook": "https://www.facebook.com/Mattermost-2300985916642531/",
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": true,
+      "x_frame_options": true,
+      "x_content_type_options": true,
+      "x_xss_protection": true,
+      "referrer_policy": true,
+      "security_score": 100,
+      "server": "cloudflare"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:13:37.692018",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:04:31.289141",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "Palo Alto, CA, USA",
+      "coordinates": {
+        "latitude": 37.4419,
+        "longitude": -122.143
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:04:31.289200"
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:04:31.289224",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/mattermost"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 100,
+        "packages": [
+          {
+            "name": "@mattermost/client",
+            "description": "JavaScript/TypeScript client for Mattermost",
+            "version": "10.12.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mattermost/client"
+          },
+          {
+            "name": "@mattermost/types",
+            "description": "Shared type definitions used by the Mattermost web app",
+            "version": "10.12.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mattermost/types"
+          },
+          {
+            "name": "semantic-release-mattermost",
+            "description": "semantic-release plugin to get release notifications on mattermost via webhooks",
+            "version": "1.2.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/semantic-release-mattermost"
+          },
+          {
+            "name": "@mattermost/eslint-plugin",
+            "description": "ESLint configuration and custom rules used by Mattermost",
+            "version": "1.1.0-0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mattermost/eslint-plugin"
+          },
+          {
+            "name": "mattermost-redux",
+            "description": "Common code (API client, Redux stores, logic, utility functions) for building a Mattermost client",
+            "version": "10.12.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/mattermost-redux"
+          },
+          {
+            "name": "mattermost-client",
+            "description": "Mattermost client",
+            "version": "6.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/mattermost-client"
+          },
+          {
+            "name": "@mattermost/commonmark",
+            "description": "the Mattermost fork of a strongly specified, highly compatible variant of Markdown",
+            "version": "0.31.2-0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mattermost/commonmark"
+          },
+          {
+            "name": "node-mattermost",
+            "description": "Send and receive Mattermost Webhooks easily!",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/node-mattermost"
+          },
+          {
+            "name": "x-mattermost-redux",
+            "description": "Common code (API client, Redux stores, logic, utility functions) for building a Mattermost client",
+            "version": "5.29.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/x-mattermost-redux"
+          },
+          {
+            "name": "hubot-sea-mattermost",
+            "description": "Manages Mattermost integrations for Hubot",
+            "version": "0.0.0-alpha1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/hubot-sea-mattermost"
+          },
+          {
+            "name": "mattermost",
+            "description": "Javascript library for interacting with the Mattermost API",
+            "version": "3.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/mattermost"
+          },
+          {
+            "name": "@designveloper/n8n-nodes-mattermost-trigger",
+            "description": "An n8n custom trigger node for Mattermost WebSocket integration",
+            "version": "2.3.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@designveloper/n8n-nodes-mattermost-trigger"
+          },
+          {
+            "name": "winston-mattermost-webhook-transport",
+            "description": "A Mattermost transport for Winston 3 that logs to a channel via webhooks. Fork of winston-mattermost-webhook-transport",
+            "version": "0.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/winston-mattermost-webhook-transport"
+          },
+          {
+            "name": "slackstream",
+            "description": "Pipe things into Slack or Mattermost",
+            "version": "0.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/slackstream"
+          },
+          {
+            "name": "@itentialopensource/adapter-mattermost",
+            "description": "This adapter integrates with system described as: Mattermost",
+            "version": "0.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@itentialopensource/adapter-mattermost"
+          },
+          {
+            "name": "hubot-matteruser",
+            "description": "Mattermost Adapter",
+            "version": "5.4.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/hubot-matteruser"
+          },
+          {
+            "name": "@mymoons/mattermost-notifications",
+            "description": "Package to send messages to mattermost users",
+            "version": "1.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mymoons/mattermost-notifications"
+          },
+          {
+            "name": "@artymaximus/n8n-nodes-mattermost-trigger-enhanced",
+            "description": "Enhanced N8N node with auto-reconnection for Mattermost events",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@artymaximus/n8n-nodes-mattermost-trigger-enhanced"
+          },
+          {
+            "name": "fox-mattermost",
+            "description": "\"Foxford mattermost client and types\"",
+            "version": "1.4.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/fox-mattermost"
+          },
+          {
+            "name": "mattermost-desktop",
+            "description": "Mattermost",
+            "version": "3.6.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/mattermost-desktop"
+          },
+          {
+            "name": "@mattermost/calls-common",
+            "description": "Common code shared between calls webapp, desktop, and mobile.",
+            "version": "0.27.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mattermost/calls-common"
+          },
+          {
+            "name": "hubot-mattermost",
+            "description": "A hubot adapter for mattermost",
+            "version": "1.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/hubot-mattermost"
+          },
+          {
+            "name": "mattermost-ctrf",
+            "description": "> Send MatterMost message with test result from popular testing frameworks",
+            "version": "0.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/mattermost-ctrf"
+          },
+          {
+            "name": "@dakatan/mcp-mattermost",
+            "description": "MCP (Model Context Protocol) server for Mattermost",
+            "version": "0.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@dakatan/mcp-mattermost"
+          },
+          {
+            "name": "@provisioner/mattermost",
+            "description": "CodeZero provisioner for MatterMost",
+            "version": "0.0.31",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@provisioner/mattermost"
+          },
+          {
+            "name": "@girish17/op-mattermost",
+            "description": "OpenProject integration for Mattermost",
+            "version": "0.5.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@girish17/op-mattermost"
+          },
+          {
+            "name": "@pipedream/mattermost",
+            "description": "Pipedream Mattermost Components",
+            "version": "0.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@pipedream/mattermost"
+          },
+          {
+            "name": "n8n-nodes-mattermost-trigger",
+            "description": "N8N node community. For receive Mattermost events",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/n8n-nodes-mattermost-trigger"
+          },
+          {
+            "name": "mdk",
+            "description": "Command line tool for generating Mattermost integration and plugin templates",
+            "version": "0.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/mdk"
+          },
+          {
+            "name": "@mattermost/playwright-lib",
+            "description": "A comprehensive end-to-end testing library for Mattermost web, desktop and plugin applications using Playwright",
+            "version": "10.7.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mattermost/playwright-lib"
+          },
+          {
+            "name": "tes-int-matter",
+            "description": "[Mattermost](https://mattermost.com) is an open source platform for secure collaboration across the entire software development lifecycle. This repo is the primary source for core development on the Mattermost platform; it's written in Golang and React, a",
+            "version": "0.0.21",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/tes-int-matter"
+          },
+          {
+            "name": "@mattermost/react-native-emm",
+            "description": "React Native package for EMM managed configurations",
+            "version": "1.6.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mattermost/react-native-emm"
+          },
+          {
+            "name": "@pvm/plugin-mattermost",
+            "description": "Api utilities for sending messages to mattermost",
+            "version": "0.56.16-beta.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@pvm/plugin-mattermost"
+          },
+          {
+            "name": "@bealers/plugin-mattermost",
+            "description": "Mattermost client plugin for ElizaOS - enables AI agent integration with Mattermost chat platforms",
+            "version": "0.5.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@bealers/plugin-mattermost"
+          },
+          {
+            "name": "winston-transport-mattermost",
+            "description": "A Winston 3+ transport for Mattermost",
+            "version": "1.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/winston-transport-mattermost"
+          },
+          {
+            "name": "@mattermost/mattermost-redux",
+            "description": "The project purpose is consolidating the storage, web utilities and logic of the webapp and React Native mobile clients into a single driver. We encourage you to use mattermost-redux to power your own Mattermost clients or integrations.",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mattermost/mattermost-redux"
+          },
+          {
+            "name": "@brightscout/mattermost-ui-library",
+            "description": "The Mattermost UI Library is a collection of React components based on the [Compass design system](https://zeroheight.com/29be2c109/p/4429ac-components). The intention behind this UI library is to create a unified look and feel across the Mattermost's plu",
+            "version": "2.3.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@brightscout/mattermost-ui-library"
+          },
+          {
+            "name": "jest-mattermost-reporter",
+            "description": "Help report to mattermost",
+            "version": "1.0.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/jest-mattermost-reporter"
+          },
+          {
+            "name": "@mattermost/react-native-paste-input",
+            "description": "React Native TextInput replacement to allow pasting files",
+            "version": "0.8.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mattermost/react-native-paste-input"
+          },
+          {
+            "name": "themer-mattermost",
+            "description": "Mattermost template for themer",
+            "version": "1.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/themer-mattermost"
+          },
+          {
+            "name": "sbueringer-mattermost-client",
+            "description": "Mattermost Client",
+            "version": "4.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sbueringer-mattermost-client"
+          },
+          {
+            "name": "hubot-mattermost-adapter",
+            "description": "Hubot Mattermost Adapter ========================",
+            "version": "1.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/hubot-mattermost-adapter"
+          },
+          {
+            "name": "node-red-contrib-mattermost",
+            "description": "A node-red module to post to your mattermost server",
+            "version": "0.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/node-red-contrib-mattermost"
+          },
+          {
+            "name": "ng-mattermost-core",
+            "description": "A typescript port of the Mattermost API",
+            "version": "0.3.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ng-mattermost-core"
+          },
+          {
+            "name": "@activepieces/piece-mattermost",
+            "description": "This library was generated with [Nx](https://nx.dev).",
+            "version": "0.3.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@activepieces/piece-mattermost"
+          },
+          {
+            "name": "@mattermost/react-native-network-client",
+            "description": "Configurable network clients for React Native. Uses Alamofire for iOS and OkHttp3 for Android.",
+            "version": "1.8.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mattermost/react-native-network-client"
+          },
+          {
+            "name": "node-red-contrib-mattermost-ws",
+            "description": "Interface with mattermost, based on initial node-red-contrib-mattermost, with small modifications to allow direct access to all methods exposed in mattermost-client lib. This module requires to create a bot account on mattermost, and uses websocket for co",
+            "version": "2.2.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/node-red-contrib-mattermost-ws"
+          },
+          {
+            "name": "@mattermost/react-native-turbo-log",
+            "description": "test",
+            "version": "0.6.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mattermost/react-native-turbo-log"
+          },
+          {
+            "name": "node-red-contrib-mattermost-incoming",
+            "description": "A node-red module to post to your mattermost server",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/node-red-contrib-mattermost-incoming"
+          },
+          {
+            "name": "@mattermost/compass-icons",
+            "description": null,
+            "version": "0.1.49",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mattermost/compass-icons"
+          },
+          {
+            "name": "@pvm/mattermost",
+            "description": "Api utilities for sending messages to mattermost",
+            "version": "0.56.18",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@pvm/mattermost"
+          },
+          {
+            "name": "ep_oauth_mattermost",
+            "description": "Etherpad-lite OAuth2 authentication plugin based on passport for Mattermost",
+            "version": "0.0.33",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ep_oauth_mattermost"
+          },
+          {
+            "name": "hubot-sbueringer-matteruser",
+            "description": "Mattermost Adapter",
+            "version": "4.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/hubot-sbueringer-matteruser"
+          },
+          {
+            "name": "mm-client-node",
+            "description": "Mattermost client",
+            "version": "7.2.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/mm-client-node"
+          },
+          {
+            "name": "waldorf",
+            "description": "Simple Mattermost Bot",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/waldorf"
+          },
+          {
+            "name": "@mattermost/desktop-api",
+            "description": "Shared types for the Desktop App API provided to the Web App",
+            "version": "6.0.0-1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mattermost/desktop-api"
+          },
+          {
+            "name": "mcp-server-mattermost",
+            "description": "A Model Context Protocol server for Mattermost",
+            "version": "0.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/mcp-server-mattermost"
+          },
+          {
+            "name": "@cedricziel/node-red-contrib-mattermost-app",
+            "description": "Interact with Mattermost through the apps framework",
+            "version": "1.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@cedricziel/node-red-contrib-mattermost-app"
+          },
+          {
+            "name": "emojiporter",
+            "description": "CLI to export/import custom emojis for Mattermost",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/emojiporter"
+          },
+          {
+            "name": "mattermost-slashbot",
+            "description": "A Hubot script that parses slash commands from Mattermost, forwards them to the bot, then formats the bot response to be slash command friendly.",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/mattermost-slashbot"
+          },
+          {
+            "name": "@hoangnvpck/n8n-nodes-mattermost-trigger",
+            "description": "An n8n custom trigger node for Mattermost WebSocket integration",
+            "version": "0.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@hoangnvpck/n8n-nodes-mattermost-trigger"
+          },
+          {
+            "name": "winston-mattermost",
+            "description": "A Mattermost transport for winston",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/winston-mattermost"
+          },
+          {
+            "name": "iamb-mattermost",
+            "description": "Mattermost client library for iamb",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/iamb-mattermost"
+          },
+          {
+            "name": "n8n-nodes-mattermost-extended",
+            "description": "Extended Mattermost functionality for n8n with direct messaging capabilities and enhanced user operations",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/n8n-nodes-mattermost-extended"
+          },
+          {
+            "name": "@mattermost/compass-components",
+            "description": "components aligning to the compass design system",
+            "version": "0.2.12",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mattermost/compass-components"
+          },
+          {
+            "name": "node-red-contrib-mm-ws",
+            "description": "adds Node to listen to all events on a mattermost websocket for a user by Personal Access Token adds Node to send messages with attachments support",
+            "version": "2.1.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/node-red-contrib-mm-ws"
+          },
+          {
+            "name": "bg-mattermost-client",
+            "description": "Mattermost client",
+            "version": "6.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/bg-mattermost-client"
+          },
+          {
+            "name": "mmws",
+            "description": "Mattermost websocket client.",
+            "version": "0.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/mmws"
+          },
+          {
+            "name": "@chikistudio/block-mattermost",
+            "description": "This library was generated with [Nx](https://nx.dev).",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@chikistudio/block-mattermost"
+          },
+          {
+            "name": "mm-redux",
+            "description": "Common code (API client, Redux stores, logic, utility functions) for building a Mattermost client",
+            "version": "5.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/mm-redux"
+          },
+          {
+            "name": "matterfront",
+            "description": "Mattermost frontend app powered by electron",
+            "version": "1.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/matterfront"
+          },
+          {
+            "name": "@mattermost/react-native-turbo-mailer",
+            "description": "An adaptation of react-native-mail that supports Turbo Module",
+            "version": "0.2.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mattermost/react-native-turbo-mailer"
+          },
+          {
+            "name": "@gig177/mattermost-driver-javascript",
+            "description": "Javascript library for interacting with the Mattermost API",
+            "version": "3.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@gig177/mattermost-driver-javascript"
+          },
+          {
+            "name": "@wolfxlabs/mattermost",
+            "description": "A mattermost wrapper for wolf",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@wolfxlabs/mattermost"
+          },
+          {
+            "name": "fox-mattermost-client",
+            "description": "JavaScript/TypeScript client for Mattermost",
+            "version": "9.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/fox-mattermost-client"
+          },
+          {
+            "name": "passport-mattermost-oauth2",
+            "description": "Implementation of Mattermost OAuth2 passport strategy",
+            "version": "0.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/passport-mattermost-oauth2"
+          },
+          {
+            "name": "matterbot",
+            "description": "A super-simple bot API for Mattermost",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/matterbot"
+          },
+          {
+            "name": "mattermost-driver-fork",
+            "description": "Javascript library for interacting with the Mattermost API",
+            "version": "3.4.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/mattermost-driver-fork"
+          },
+          {
+            "name": "mattermost-plugin-rtl",
+            "description": "This plugin adds RTL support to the mattermost webapp",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/mattermost-plugin-rtl"
+          },
+          {
+            "name": "fox-mattermost-types",
+            "description": "Shared type definitions used by the Mattermost web app",
+            "version": "9.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/fox-mattermost-types"
+          },
+          {
+            "name": "fox-loop-sdk",
+            "description": "\u041f\u0430\u043a\u0435\u0442 SDK \u0434\u043b\u044f Loop",
+            "version": "1.5.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/fox-loop-sdk"
+          },
+          {
+            "name": "rsf-mattermostable",
+            "description": "a module for exposing a very super simple API for sending/receiving mattermost messages as an eventemitter",
+            "version": "1.0.16",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rsf-mattermostable"
+          },
+          {
+            "name": "@chat-bots/mattermost",
+            "description": null,
+            "version": "0.1.14",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@chat-bots/mattermost"
+          },
+          {
+            "name": "alfred-mattermost",
+            "description": "Alfred workflow for Mattermost chat servers",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/alfred-mattermost"
+          },
+          {
+            "name": "@feinote/eslint-config-mattermost",
+            "description": "ESLint configuration used by Mattermost",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@feinote/eslint-config-mattermost"
+          },
+          {
+            "name": "jest-mattermost",
+            "description": "this is a package send a notification to mattermost as soon as you run your tests",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/jest-mattermost"
+          },
+          {
+            "name": "@activeboxes/piece-mattermost",
+            "description": "This library was generated with [Nx](https://nx.dev).",
+            "version": "0.3.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@activeboxes/piece-mattermost"
+          },
+          {
+            "name": "hubot-matteruser5",
+            "description": "Mattermost Adapter",
+            "version": "5.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/hubot-matteruser5"
+          },
+          {
+            "name": "mattermost-api",
+            "description": "Mattermost api library for node.js. Get notification when error or message arrive.",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/mattermost-api"
+          },
+          {
+            "name": "kien-nguyen-support",
+            "description": "\ud83d\udea8 MultiChannelAlert - Ultimate multi-channel alert system supporting 15+ platforms (Telegram, Slack, Discord, Email, WhatsApp, Zalo, etc.) with zero dependencies. Advanced logging, notifications, and webhook management with enhanced formatting and smart ",
+            "version": "2.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/kien-nguyen-support"
+          },
+          {
+            "name": "mattermoster",
+            "description": "Node.js + Express base API for Mattermost slash command integrations",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/mattermoster"
+          },
+          {
+            "name": "status-cats",
+            "description": "A mattermost bot inspired by https://http.cat",
+            "version": "0.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/status-cats"
+          },
+          {
+            "name": "vantuan88291lint",
+            "description": "ESLint configuration used by MatterMost",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/vantuan88291lint"
+          },
+          {
+            "name": "@kien2k1/multi-channel-alert",
+            "description": "\ud83d\udea8 MultiChannelAlert - Ultimate multi-channel alert system supporting 15+ platforms (Telegram, Slack, Discord, Email, WhatsApp, Zalo, etc.) with zero dependencies. Advanced logging, notifications, and webhook management with enhanced formatting and smart ",
+            "version": "1.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@kien2k1/multi-channel-alert"
+          },
+          {
+            "name": "@teleflow/mattermost",
+            "description": "A mattermost wrapper for teleflow",
+            "version": "0.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@teleflow/mattermost"
+          },
+          {
+            "name": "@nimbella/commander-cli",
+            "description": "Commander CLI is a Nimbella Commander development tool that allows you to create, run & publish your serverless functions as commands that can run in Slack, Microsoft Teams, and Mattermost.",
+            "version": "1.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@nimbella/commander-cli"
+          },
+          {
+            "name": "mmlog",
+            "description": "view chat logs from a Mattermost server",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/mmlog"
+          },
+          {
+            "name": "ladifire-redux",
+            "description": "Common code (API client, Redux stores, logic, utility functions) for building a Ladifire client",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ladifire-redux"
+          },
+          {
+            "name": "@autohive/cell-mattermost",
+            "description": "This library was generated with [Nx](https://nx.dev).",
+            "version": "0.3.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@autohive/cell-mattermost"
+          },
+          {
+            "name": "@lubycon/mattermost",
+            "description": "\ub8e8\ube44\ucf58 \ub9e4\ud130\ubaa8\uc2a4\ud2b8 SDK",
+            "version": "1.2.45",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@lubycon/mattermost"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 14,
+        "packages": [
+          {
+            "name": "mattermost",
+            "version": "0.1.0",
+            "downloads": 4425,
+            "url": "https://rubygems.org/gems/mattermost"
+          },
+          {
+            "name": "mattermost-ruby",
+            "version": "0.4",
+            "downloads": 24898,
+            "url": "https://rubygems.org/gems/mattermost-ruby"
+          },
+          {
+            "name": "mattermost-api4-ruby",
+            "version": "0.0.10",
+            "downloads": 139933,
+            "url": "https://rubygems.org/gems/mattermost-api4-ruby"
+          },
+          {
+            "name": "fastlane-plugin-mattermost",
+            "version": "1.3.2",
+            "downloads": 406387,
+            "url": "https://rubygems.org/gems/fastlane-plugin-mattermost"
+          },
+          {
+            "name": "mattermost_notification",
+            "version": "0.9.0",
+            "downloads": 2305,
+            "url": "https://rubygems.org/gems/mattermost_notification"
+          },
+          {
+            "name": "redmine-mattermost",
+            "version": "0.3",
+            "downloads": 4695,
+            "url": "https://rubygems.org/gems/redmine-mattermost"
+          },
+          {
+            "name": "simple_mattermost",
+            "version": "0.1.0",
+            "downloads": 3252,
+            "url": "https://rubygems.org/gems/simple_mattermost"
+          },
+          {
+            "name": "lita-mattermost",
+            "version": "0.2.0",
+            "downloads": 3183,
+            "url": "https://rubygems.org/gems/lita-mattermost"
+          },
+          {
+            "name": "mattermost-messenger",
+            "version": "0.0.2",
+            "downloads": 1247,
+            "url": "https://rubygems.org/gems/mattermost-messenger"
+          },
+          {
+            "name": "fluent-plugin-mattermost",
+            "version": "0.2.2",
+            "downloads": 12190,
+            "url": "https://rubygems.org/gems/fluent-plugin-mattermost"
+          },
+          {
+            "name": "adsedare_mattermost",
+            "version": "0.0.4",
+            "downloads": 942,
+            "url": "https://rubygems.org/gems/adsedare_mattermost"
+          },
+          {
+            "name": "omniauth-mattermost",
+            "version": "2.0.0",
+            "downloads": 577,
+            "url": "https://rubygems.org/gems/omniauth-mattermost"
+          },
+          {
+            "name": "hipmost",
+            "version": "1.0",
+            "downloads": 2513,
+            "url": "https://rubygems.org/gems/hipmost"
+          },
+          {
+            "name": "systemd_mon_mod",
+            "version": "0.1.3",
+            "downloads": 6032,
+            "url": "https://rubygems.org/gems/systemd_mon_mod"
+          }
+        ]
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 10,
+        "packages": [
+          {
+            "name": "automattermostatus",
+            "description": "Automate your mattermost custom status with the help of visible wifi SSID.",
+            "version": "0.2.1",
+            "downloads": 8288,
+            "url": "https://crates.io/crates/automattermostatus"
+          },
+          {
+            "name": "mattermost_api",
+            "description": "Rust bindings for the Mattermost API",
+            "version": "0.8.1",
+            "downloads": 8759,
+            "url": "https://crates.io/crates/mattermost_api"
+          },
+          {
+            "name": "mattermost-bot",
+            "description": "Create a Mattermost bot that listens and responds to commands",
+            "version": "0.3.0",
+            "downloads": 1615,
+            "url": "https://crates.io/crates/mattermost-bot"
+          },
+          {
+            "name": "mattermost-client",
+            "description": "An attempt to provde a sane Rust interface to the Mattermost API",
+            "version": "0.1.2",
+            "downloads": 4544,
+            "url": "https://crates.io/crates/mattermost-client"
+          },
+          {
+            "name": "mattermost-rust-client",
+            "description": "Rust client for Mattermost",
+            "version": "4.0.8",
+            "downloads": 11520,
+            "url": "https://crates.io/crates/mattermost-rust-client"
+          },
+          {
+            "name": "mattermost-api-rust-driver",
+            "description": "Mattermost Client API driver",
+            "version": "0.1.2",
+            "downloads": 2801,
+            "url": "https://crates.io/crates/mattermost-api-rust-driver"
+          },
+          {
+            "name": "kcr_installation_mattermost_com",
+            "description": "Kubernetes Custom Resource Bindings",
+            "version": "2.20250927.172157",
+            "downloads": 5171,
+            "url": "https://crates.io/crates/kcr_installation_mattermost_com"
+          },
+          {
+            "name": "kcr_mattermost_com",
+            "description": "Kubernetes Custom Resource Bindings",
+            "version": "2.20250928.92502",
+            "downloads": 4385,
+            "url": "https://crates.io/crates/kcr_mattermost_com"
+          },
+          {
+            "name": "mmrs",
+            "description": "Small library to send POST requests to MatterMost Server",
+            "version": "0.1.2",
+            "downloads": 4255,
+            "url": "https://crates.io/crates/mmrs"
+          },
+          {
+            "name": "mars2",
+            "description": "A Mattermost and Slack API wrapper.",
+            "version": "0.1.0",
+            "downloads": 2394,
+            "url": "https://crates.io/crates/mars2"
+          }
+        ]
+      },
+      "total_packages": 124,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:04:33.390938"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:04:33.390944",
+    "batch_network": {
+      "batch": "Summer 2012",
+      "total_batch_mates": 82,
+      "active_batch_mates": 22,
+      "batch_success_rate": 26.8,
+      "notable_batch_mates": [
+        {
+          "name": "Pixate",
+          "slug": "pixate",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Mobile application prototyping. Now part of Google."
+        },
+        {
+          "name": "Knowmia",
+          "slug": "knowmia",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Pandora meets Yelp for K-12 educational videos.  We match each\u2026"
+        },
+        {
+          "name": "Boosted",
+          "slug": "boosted",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Simple, fun, and fast electric vehicles."
+        },
+        {
+          "name": "ZeroMailer",
+          "slug": "zeromailer",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Easy mailing lists"
+        },
+        {
+          "name": "Kamcord",
+          "slug": "kamcord",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": ""
+        },
+        {
+          "name": "Statwing",
+          "slug": "statwing",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Dead simple statistical analysis software. Like R or SPSS but easy to\u2026"
+        },
+        {
+          "name": "Fullstack Academy",
+          "slug": "fullstack-academy",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Pioneer in immersive code education. Acquired by Zovio (NASDAQ: ZVO)\u2026"
+        },
+        {
+          "name": "OmniVirt",
+          "slug": "omnivirt",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "OmniVirt is the leading VR Advertising platform for brands and\u2026"
+        },
+        {
+          "name": "Streem",
+          "slug": "streem",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Acquired by Box in June 2014. We built: (1) a native win/mac\u2026"
+        },
+        {
+          "name": "Soylent",
+          "slug": "soylent",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Soylent is a simple, nutritious, and affordable food that possesses\u2026"
+        }
+      ],
+      "batch_size": 83
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Productivity"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "WireOver",
+          "slug": "wireover",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Really secure file sending for big files."
+        },
+        {
+          "name": "SendHub",
+          "slug": "sendhub",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Simple Business SMS. SMBs to Large Enterprise."
+        },
+        {
+          "name": "HackPad",
+          "slug": "hackpad",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "A realtime wiki for getting things done."
+        },
+        {
+          "name": "Screenleap",
+          "slug": "screenleap-inc",
+          "status": "Active",
+          "batch": "Winter 2012",
+          "one_liner": "One-click screen sharing with installation-free viewing on all devices"
+        },
+        {
+          "name": "Glider",
+          "slug": "glider",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "We filter distracting emails away from your inbox."
+        },
+        {
+          "name": "Stypi",
+          "slug": "stypi",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Realtime collaborative coding"
+        },
+        {
+          "name": "Zenbox",
+          "slug": "zenbox",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Brings dozens of SaaS's (Mailchimp, Stripe, Shopify, Salesforce,\u2026"
+        },
+        {
+          "name": "Interstate",
+          "slug": "interstate",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Create & Share Product Roadmaps"
+        },
+        {
+          "name": "Draft",
+          "slug": "draft",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Making Draft. Super simple version control and collaboration for\u2026"
+        },
+        {
+          "name": "TellFi",
+          "slug": "tellfi",
+          "status": "Inactive",
+          "batch": "Winter 2011",
+          "one_liner": "Google Voice for business."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Palo Alto",
+      "location": "Palo Alto, CA, USA; Remote",
+      "companies_in_city": 93,
+      "active_in_city": 40,
+      "nearby_companies": [
+        {
+          "name": "Hipmob",
+          "slug": "hipmob",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Amiato",
+          "slug": "amiato",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Pixelapse",
+          "slug": "pixelapse",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "LVL6",
+          "slug": "lvl6",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "GiveSpark",
+          "slug": "givespark",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Proxino",
+          "slug": "proxino",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Science Exchange",
+          "slug": "science-exchange",
+          "batch": "Summer 2011",
+          "industry": "Healthcare",
+          "status": "Acquired"
+        },
+        {
+          "name": "Clerky",
+          "slug": "clerky",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Assembled",
+          "slug": "assembled",
+          "batch": "Winter 2011",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Pebble",
+          "slug": "pebble",
+          "batch": "Winter 2011",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Insight Data Science",
+          "slug": "insight-data-science",
+          "batch": "Winter 2011",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "AeroFS",
+          "slug": "aerofs",
+          "batch": "Summer 2010",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Etacts",
+          "slug": "etacts",
+          "batch": "Winter 2010",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Lockitron",
+          "slug": "lockitron",
+          "batch": "Summer 2009",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "GraffitiGeo",
+          "slug": "graffitigeo",
+          "batch": "Summer 2009",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Snipd",
+          "slug": "snipd",
+          "batch": "Summer 2008",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Machine Zone",
+          "slug": "machine-zone",
+          "batch": "Winter 2008",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fuzzwich",
+          "slug": "fuzzwich",
+          "batch": "Summer 2007",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Jumpchat",
+          "slug": "jumpchat",
+          "batch": "Summer 2006",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Pixate",
+          "slug": "pixate",
+          "batch": "Summer 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Pixate",
+        "slug": "pixate",
+        "batch": "Summer 2012",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "ZeroMailer",
+        "slug": "zeromailer",
+        "batch": "Summer 2012",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Kippt",
+        "slug": "kippt",
+        "batch": "Summer 2012",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "FileStack",
+        "slug": "filestack",
+        "batch": "Summer 2012",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Zapier",
+        "slug": "zapier",
+        "batch": "Summer 2012",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Assorted Bits",
+        "slug": "assorted-bits",
+        "batch": "Summer 2012",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Scoutzie",
+        "slug": "scoutzie",
+        "batch": "Summer 2012",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Double Robotics",
+        "slug": "double-robotics",
+        "batch": "Summer 2012",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Kivo",
+        "slug": "kivo",
+        "batch": "Summer 2013",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Elessar",
+        "slug": "elessar",
+        "batch": "Summer 2022",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 2921,
+      "network_density_score": 75.0,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:04:33.398741"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:04:33.398745",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:04:33.731416",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:04:33.849387",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 120,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:40:49.222153",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Remote work driving collaboration tool adoption",
+        "Increasing cybersecurity and compliance requirements",
+        "Shift from consumer tools to enterprise-grade solutions"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Security-first architecture with self-hosting capabilities targeting high-compliance industries",
+      "differentiation": "Open-source foundation with enterprise security features for technical teams in regulated environments",
+      "competitive_advantages": [
+        "Self-hosted deployment option",
+        "Deep technical team focus",
+        "Government and defense customer base"
+      ],
+      "competitive_vulnerabilities": [
+        "Smaller ecosystem vs Slack/Teams",
+        "Limited consumer brand recognition"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "120 person team size",
+        "12+ years domain age",
+        "High-value customer segments"
+      ],
+      "growth_bottlenecks": [
+        "Sales cycle length in enterprise",
+        "Competition from Microsoft Teams"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Microsoft Teams market dominance",
+        "Open source monetization challenges",
+        "Enterprise sales execution complexity"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong security positioning",
+        "High-value customer segments",
+        "Open source community",
+        "Proven enterprise traction"
+      ],
+      "concerns": [
+        "Competitive pressure from Big Tech",
+        "Market consolidation risk"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Slack",
+        "Discord",
+        "Atlassian"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Expand international government presence",
+        "Develop AI/automation features"
+      ],
+      "expansion_opportunities": [
+        "DevOps workflow integration",
+        "Compliance automation tools"
+      ]
+    },
+    "tokens_used": {
+      "input": 718,
+      "output": 523,
+      "total": 1241,
+      "estimated_cost": 0.009999
+    }
+  },
+  "phase8_complete": true
+}

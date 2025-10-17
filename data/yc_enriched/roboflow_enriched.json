@@ -1,0 +1,883 @@
+{
+  "slug": "roboflow",
+  "name": "Roboflow",
+  "yc_id": 21769,
+  "batch": "Summer 2020",
+  "website": "https://roboflow.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:54:55.559862",
+    "website": "https://roboflow.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 2281.81,
+      "final_url": "https://roboflow.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:54:57.841674"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "roboflow.com",
+      "registrar": "1API GmbH",
+      "creation_date": "2001-03-06T15:23:52",
+      "expiration_date": "2030-03-06T15:23:52",
+      "domain_age_days": 8990,
+      "domain_age_years": 24.6,
+      "name_servers": [
+        "NS1.DNSIMPLE.COM",
+        "NS2.DNSIMPLE.COM",
+        "NS3.DNSIMPLE.COM",
+        "NS4.DNSIMPLE.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://x.com/roboflow",
+      "linkedin": "https://www.linkedin.com/company/roboflow-ai",
+      "github": "https://github.com/roboflow/inference",
+      "facebook": null,
+      "instagram": null,
+      "youtube": "https://www.youtube.com/c/roboflow"
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": true,
+      "x_frame_options": true,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 50,
+      "server": "Unknown"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:25:01.179196",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:24:48.641175",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "San Francisco, CA, USA",
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:12:40.434017",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:48.641229",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/roboflow"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 26,
+        "packages": [
+          {
+            "name": "inferencejs",
+            "description": "An edge library for deploying computer vision applications built with Roboflow to JS environments.",
+            "version": "1.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/inferencejs"
+          },
+          {
+            "name": "rapid",
+            "description": "Coming soon: Roboflow Rapid",
+            "version": "3.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rapid"
+          },
+          {
+            "name": "ar-vr-roboflow-react",
+            "description": "React Compatible RoboFlow Package (Originally from roboflow package)",
+            "version": "1.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ar-vr-roboflow-react"
+          },
+          {
+            "name": "@roboflow/inference-server",
+            "description": "Roboflow Infer on-prem server.",
+            "version": "1.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@roboflow/inference-server"
+          },
+          {
+            "name": "@pipedream/roboflow",
+            "description": "Pipedream Roboflow  Components",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@pipedream/roboflow"
+          },
+          {
+            "name": "roboflow-jetson",
+            "description": "Use Roboflow Train computer vision models for inference on images in node.js",
+            "version": "0.2.26",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/roboflow-jetson"
+          },
+          {
+            "name": "gle-roboflow-components",
+            "description": "GLE Roboflow Components",
+            "version": "1.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/gle-roboflow-components"
+          },
+          {
+            "name": "roboflow",
+            "description": "Roboflow.com node module",
+            "version": "0.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/roboflow"
+          },
+          {
+            "name": "@roboflow/tfrecords",
+            "description": "TensorFlow record (.tfrecord) API for Node.JS and Browsers",
+            "version": "1.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@roboflow/tfrecords"
+          },
+          {
+            "name": "@roboflow/annotation",
+            "description": "Annotation parsing and conversion for computer vision.",
+            "version": "1.0.216",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@roboflow/annotation"
+          },
+          {
+            "name": "@garyblackwood/roboflow.js",
+            "description": "A JavaScript package for the Roboflow Web API.",
+            "version": "0.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@garyblackwood/roboflow.js"
+          },
+          {
+            "name": "@roboflow/roboflow-red",
+            "description": "A visual way to interact with computer vision using Node-RED",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@roboflow/roboflow-red"
+          },
+          {
+            "name": "cra-template-roboflow-react-app",
+            "description": "Roboflow template for create-react-app",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/cra-template-roboflow-react-app"
+          },
+          {
+            "name": "@roboflow/floodfill",
+            "description": "Zero dependency canvas floodfill",
+            "version": "2.1.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@roboflow/floodfill"
+          },
+          {
+            "name": "gle-roboflow-rest-client",
+            "description": "GLE Roboflow Rest Client",
+            "version": "1.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/gle-roboflow-rest-client"
+          },
+          {
+            "name": "@roboflow/tfjs-jetson",
+            "description": "A build of Tensorflow JS optimized for NVIDIA Jetson (arm64/aarch64).",
+            "version": "3.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@roboflow/tfjs-jetson"
+          },
+          {
+            "name": "create-vision-app",
+            "description": "Create a computer vision endpoint in seconds",
+            "version": "0.1.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/create-vision-app"
+          },
+          {
+            "name": "@libs-scripts-mep/mpai",
+            "description": "Inference MPAI client",
+            "version": "1.0.0-beta19",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@libs-scripts-mep/mpai"
+          },
+          {
+            "name": "@cherryjimbo/sweetalert2",
+            "description": "A beautiful, responsive, customizable and accessible (WAI-ARIA) replacement for JavaScript's popup boxes, supported fork of sweetalert",
+            "version": "11.14.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@cherryjimbo/sweetalert2"
+          },
+          {
+            "name": "sweetalert2-unrestricted",
+            "description": "A beautiful, responsive, customizable and accessible (WAI-ARIA) replacement for JavaScript's popup boxes, supported fork of sweetalert",
+            "version": "11.10.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sweetalert2-unrestricted"
+          },
+          {
+            "name": "@roboflow/supabase-js",
+            "description": "Isomorphic Javascript client for Supabase.",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@roboflow/supabase-js"
+          },
+          {
+            "name": "sweetalert2-fix",
+            "description": "A beautiful, responsive, customizable and accessible (WAI-ARIA) replacement for JavaScript's popup boxes, supported fork of sweetalert",
+            "version": "11.7.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sweetalert2-fix"
+          },
+          {
+            "name": "@benzara/sweetalert-neutral",
+            "description": "A beautiful, responsive, customizable and accessible (WAI-ARIA) replacement for JavaScript's popup boxes, supported fork of sweetalert",
+            "version": "11.10.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@benzara/sweetalert-neutral"
+          },
+          {
+            "name": "@daewoosh/sweetalert22",
+            "description": "A beautiful, responsive, customizable and accessible (WAI-ARIA) replacement for JavaScript's popup boxes, supported fork of sweetalert",
+            "version": "11.14.0-daewoosh",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@daewoosh/sweetalert22"
+          },
+          {
+            "name": "salert2",
+            "description": "A beautiful, responsive, customizable and accessible (WAI-ARIA) replacement for JavaScript's popup boxes, supported fork of sweetalert",
+            "version": "11.11.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/salert2"
+          },
+          {
+            "name": "sweetalert2noanthem",
+            "description": "A beautiful, responsive, customizable and accessible (WAI-ARIA) replacement for JavaScript's popup boxes, supported fork of sweetalert without anthem",
+            "version": "11.7.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sweetalert2noanthem"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 26,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:24:49.959233"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:49.959255",
+    "batch_network": {
+      "batch": "Summer 2020",
+      "total_batch_mates": 207,
+      "active_batch_mates": 130,
+      "batch_success_rate": 62.8,
+      "notable_batch_mates": [
+        {
+          "name": "Ladder",
+          "slug": "ladder",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Labor Marketplace for Construction"
+        },
+        {
+          "name": "Fig",
+          "slug": "fig",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Fig adds visual apps, shortcuts, and autocomplete to your terminal."
+        },
+        {
+          "name": "Altro",
+          "slug": "altro",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Build Credit With Your Subscriptions"
+        },
+        {
+          "name": "Jemi",
+          "slug": "jemi",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Jemi helps people build beautiful websites and stores."
+        },
+        {
+          "name": "LSK Technologies",
+          "slug": "lsk-technologies",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A diagnostic lab in a box"
+        },
+        {
+          "name": "Command AI",
+          "slug": "command-ai",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "AI-powered user assistance platform"
+        },
+        {
+          "name": "Bandit ML",
+          "slug": "bandit-ml",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Bandit ML builds machine learning tools for e-commerce companies."
+        },
+        {
+          "name": "Momence",
+          "slug": "momence",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Scheduling and payments for experiences"
+        },
+        {
+          "name": "Gather",
+          "slug": "gather",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Project management software for People Operations"
+        },
+        {
+          "name": "Finmark",
+          "slug": "finmark",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Financial planning software for startups"
+        }
+      ],
+      "batch_size": 208
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "status": "Active",
+          "batch": "Winter 2012",
+          "one_liner": "High Performance Computing Built for the Cloud"
+        },
+        {
+          "name": "Marft",
+          "slug": "marft",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Marft creates embeddable machine learning models for application\u2026"
+        },
+        {
+          "name": "Pixelapse",
+          "slug": "pixelapse",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Github for designers. We automatically keep track of revisions of\u2026"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Palantir for sales people"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Smart search for the modern team."
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Authy is a Two-Factor Authentication platform for developers"
+        },
+        {
+          "name": "Flutter",
+          "slug": "flutter",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Flutter combined computer vision technology with the built-in webcams\u2026"
+        },
+        {
+          "name": "SolidStage",
+          "slug": "solidstage",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Sysadmin as a service. We make deploying, configuring, monitoring,\u2026"
+        },
+        {
+          "name": "Clutch",
+          "slug": "clutch",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "An easy to integrate library for native iOS applications designed to\u2026"
+        },
+        {
+          "name": "OneSignal",
+          "slug": "onesignal",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Engage customers through personalized omni-channel messaging"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "San Francisco",
+      "location": "San Francisco, CA, USA",
+      "companies_in_city": 2007,
+      "active_in_city": 1339,
+      "nearby_companies": [
+        {
+          "name": "42Floors",
+          "slug": "42floors",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "PlanGrid",
+          "slug": "plangrid",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "MyVR",
+          "slug": "myvr",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Couple",
+          "slug": "couple",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HackPad",
+          "slug": "hackpad",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Gusto",
+          "slug": "gusto",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "FamilyLeaf",
+          "slug": "familyleaf",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Chute",
+          "slug": "chute",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Make School",
+          "slug": "make-school",
+          "batch": "Winter 2012",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Exec",
+          "slug": "exec",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Public"
+        },
+        {
+          "name": "LendUp",
+          "slug": "lendup",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tilt",
+          "slug": "tilt",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fond",
+          "slug": "fond",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Openbase",
+        "slug": "openbase",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Fig",
+        "slug": "fig",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Luminai",
+        "slug": "luminai",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Command AI",
+        "slug": "command-ai",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Seam",
+        "slug": "seam",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Duckly",
+        "slug": "gitduck",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Monosi",
+        "slug": "monosi",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Humanloop",
+        "slug": "humanloop",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Finch",
+        "slug": "finch",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Unfaze AI",
+        "slug": "unfaze-ai",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 4960,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:24:49.991282"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:49.991297",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:50.350881",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:50.490150",
+    "basic_info": {
+      "is_hiring": true,
+      "team_size": 50,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:46:44.408429",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "AI/ML democratization across industries",
+        "Edge computing adoption for real-time vision",
+        "No-code/low-code development platforms expansion"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Developer ecosystem and network effects with 250k+ developers creating flywheel of data, models, and community contributions",
+      "differentiation": "End-to-end computer vision platform combining data management, model training, and deployment with strong open-source community",
+      "competitive_advantages": [
+        "Large developer community and Fortune 100 adoption",
+        "Full-stack solution from data to deployment"
+      ],
+      "competitive_vulnerabilities": [
+        "Big tech platforms (Google, AWS, Azure) with deeper pockets",
+        "Open-source alternatives reducing switching costs"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "250k+ developer base",
+        "Fortune 100 enterprise adoption"
+      ],
+      "growth_bottlenecks": [
+        "Technical complexity limiting non-technical users",
+        "Competition from cloud giants"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "low",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Big tech competition",
+        "Rapid AI/ML technology evolution",
+        "Dependency on open-source community engagement"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong developer adoption and community",
+        "Enterprise traction with Fortune 100",
+        "Comprehensive platform approach"
+      ],
+      "concerns": [
+        "Intense competition from well-funded incumbents",
+        "Need for continuous R&D investment"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Hugging Face",
+        "Scale AI"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Expand enterprise sales team",
+        "Develop industry-specific solutions"
+      ],
+      "expansion_opportunities": [
+        "Vertical market specialization (healthcare, manufacturing)",
+        "International market expansion"
+      ]
+    },
+    "tokens_used": {
+      "input": 765,
+      "output": 556,
+      "total": 1321,
+      "estimated_cost": 0.010635
+    }
+  },
+  "phase8_complete": true
+}

@@ -1,0 +1,1579 @@
+{
+  "slug": "expo",
+  "name": "Expo",
+  "yc_id": 1347,
+  "batch": "Summer 2016",
+  "website": "https://expo.dev",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:38:17.738894",
+    "website": "https://expo.dev",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 388.41,
+      "final_url": "https://expo.dev/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:38:18.127315"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "expo.dev",
+      "registrar": null,
+      "creation_date": null,
+      "expiration_date": null,
+      "domain_age_days": null,
+      "domain_age_years": null,
+      "name_servers": []
+    },
+    "social_links": {
+      "twitter": "https://www.twitter.com/expo",
+      "linkedin": null,
+      "github": "https://www.github.com/expo/expo",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": true,
+      "x_content_type_options": true,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 50,
+      "server": "cloudflare"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:17:55.735326",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:17:43.040398",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "Palo Alto, CA, USA",
+      "coordinates": {
+        "latitude": 37.4419,
+        "longitude": -122.143
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:14:21.308257",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:17:43.040431",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/expo"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 100,
+        "packages": [
+          {
+            "name": "expo",
+            "description": "The Expo SDK",
+            "version": "54.0.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo"
+          },
+          {
+            "name": "@expo/cli",
+            "description": "The Expo CLI",
+            "version": "54.0.11",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@expo/cli"
+          },
+          {
+            "name": "expo-manifests",
+            "description": "Code to parse and use Expo and Expo Updates manifests.",
+            "version": "1.0.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo-manifests"
+          },
+          {
+            "name": "expo-dev-client",
+            "description": "Expo Development Client",
+            "version": "6.0.15",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo-dev-client"
+          },
+          {
+            "name": "expo-modules-autolinking",
+            "description": "Scripts that autolink Expo modules.",
+            "version": "3.0.15",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo-modules-autolinking"
+          },
+          {
+            "name": "@expo/config-plugins",
+            "description": "A library for Expo config plugins",
+            "version": "54.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@expo/config-plugins"
+          },
+          {
+            "name": "babel-preset-expo",
+            "description": "The Babel preset for Expo projects",
+            "version": "54.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/babel-preset-expo"
+          },
+          {
+            "name": "@expo/config-types",
+            "description": "Types for the Expo config object app.config.ts",
+            "version": "54.0.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@expo/config-types"
+          },
+          {
+            "name": "expo-modules-core",
+            "description": "The core of Expo Modules architecture",
+            "version": "3.0.21",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo-modules-core"
+          },
+          {
+            "name": "@expo/devtools",
+            "description": "DevTools plugin helpers for Expo",
+            "version": "0.1.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@expo/devtools"
+          },
+          {
+            "name": "expo-updates-interface",
+            "description": "Native interface for modules that optionally depend on expo-updates, e.g. expo-dev-launcher.",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo-updates-interface"
+          },
+          {
+            "name": "@expo/server",
+            "description": "Server API for Expo Router projects",
+            "version": "0.7.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@expo/server"
+          },
+          {
+            "name": "expo-dev-menu-interface",
+            "description": "Interface for expo-dev-menu",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo-dev-menu-interface"
+          },
+          {
+            "name": "eslint-plugin-expo",
+            "description": "ESLint rules for Expo apps",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/eslint-plugin-expo"
+          },
+          {
+            "name": "eslint-config-expo",
+            "description": "ESLint config for Expo apps",
+            "version": "10.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/eslint-config-expo"
+          },
+          {
+            "name": "@expo/image-utils",
+            "description": "A package used by Expo CLI for processing images",
+            "version": "0.8.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@expo/image-utils"
+          },
+          {
+            "name": "expo-dev-menu",
+            "description": "Expo/React Native module with the developer menu.",
+            "version": "7.0.14",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo-dev-menu"
+          },
+          {
+            "name": "expo-auth-session",
+            "description": "Expo module for browser-based authentication",
+            "version": "7.0.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo-auth-session"
+          },
+          {
+            "name": "expo-doctor",
+            "description": "Check your Expo project for known issues",
+            "version": "1.17.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo-doctor"
+          },
+          {
+            "name": "expo-asset",
+            "description": "An Expo universal module to download assets and pass them into other APIs",
+            "version": "12.0.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo-asset"
+          },
+          {
+            "name": "expo-av",
+            "description": "Expo universal module for Audio and Video playback",
+            "version": "16.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo-av"
+          },
+          {
+            "name": "@expo/webpack-config",
+            "description": "A Webpack configuration used to bundle Expo websites with Expo CLI.",
+            "version": "19.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@expo/webpack-config"
+          },
+          {
+            "name": "@expo/code-signing-certificates",
+            "description": "A library for working with expo-updates code signing certificates",
+            "version": "0.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@expo/code-signing-certificates"
+          },
+          {
+            "name": "expo-pwa",
+            "description": "Create PWA resources for Expo projects",
+            "version": "0.0.127",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo-pwa"
+          },
+          {
+            "name": "expo-server",
+            "description": "Server API for Expo Router projects",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo-server"
+          },
+          {
+            "name": "@expo/logger",
+            "description": "`@expo/logger` is a wrapper around `bunyan` library.",
+            "version": "1.0.221",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@expo/logger"
+          },
+          {
+            "name": "@expo/schema-utils",
+            "description": "Reusable JSON Schema (Draft 04) validation library for Expo",
+            "version": "0.1.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@expo/schema-utils"
+          },
+          {
+            "name": "jest-expo",
+            "description": "A Jest preset to painlessly test your Expo / React Native apps.",
+            "version": "54.0.12",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/jest-expo"
+          },
+          {
+            "name": "expo-dev-launcher",
+            "description": "Pre-release version of the Expo development launcher package for testing.",
+            "version": "6.0.15",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo-dev-launcher"
+          },
+          {
+            "name": "@expo/sdk-runtime-versions",
+            "description": "Functions for converting Expo SDK versions to EAS runtime versions",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@expo/sdk-runtime-versions"
+          },
+          {
+            "name": "expo-router",
+            "description": "Expo Router is a file-based router for React Native and web applications.",
+            "version": "6.0.12",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo-router"
+          },
+          {
+            "name": "expo-template-default",
+            "description": "This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).",
+            "version": "54.0.38",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo-template-default"
+          },
+          {
+            "name": "expo-server-sdk",
+            "description": "Server-side library for working with Expo using Node.js",
+            "version": "4.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo-server-sdk"
+          },
+          {
+            "name": "create-expo-app",
+            "description": "Create universal Expo apps",
+            "version": "3.5.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/create-expo-app"
+          },
+          {
+            "name": "expo-image",
+            "description": "A cross-platform, performant image component for React Native and Expo with Web support",
+            "version": "3.0.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo-image"
+          },
+          {
+            "name": "@expo/mcp-tunnel",
+            "description": "Expo MCP tunnel client",
+            "version": "0.0.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@expo/mcp-tunnel"
+          },
+          {
+            "name": "expo-screen-orientation",
+            "description": "Expo universal module for managing device's screen orientation",
+            "version": "9.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo-screen-orientation"
+          },
+          {
+            "name": "@expo/schemer",
+            "description": "Centralized scheme validation library for Expo",
+            "version": "2.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@expo/schemer"
+          },
+          {
+            "name": "@clerk/clerk-expo",
+            "description": "Clerk React Native/Expo library",
+            "version": "2.16.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@clerk/clerk-expo"
+          },
+          {
+            "name": "expo-structured-headers",
+            "description": "Expo module implementation of a parser based on https://httpwg.org/specs/rfc8941.html",
+            "version": "5.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo-structured-headers"
+          },
+          {
+            "name": "expo-symbols",
+            "description": "Provides access to the SF Symbols library on iOS for React Native and Expo apps.",
+            "version": "1.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo-symbols"
+          },
+          {
+            "name": "expo-background-fetch",
+            "description": "Expo universal module for BackgroundFetch API",
+            "version": "14.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo-background-fetch"
+          },
+          {
+            "name": "@expo/repack-app",
+            "description": "Repacking tool for Expo apps",
+            "version": "0.2.14",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@expo/repack-app"
+          },
+          {
+            "name": "expo-datadog",
+            "description": "A client-side Expo module to interact with Datadog",
+            "version": "54.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo-datadog"
+          },
+          {
+            "name": "@expo/turtle-spawn",
+            "description": "`@expo/turtle-spawn` is a wrapper around `@expo/spawn-async` library.",
+            "version": "1.0.221",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@expo/turtle-spawn"
+          },
+          {
+            "name": "expo-video",
+            "description": "A cross-platform, performant video component for React Native and Expo with Web support",
+            "version": "3.0.11",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo-video"
+          },
+          {
+            "name": "expo-status-bar",
+            "description": "Provides the same interface as the React Native StatusBar API, but with slightly different defaults to work great in Expo environments.",
+            "version": "3.0.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo-status-bar"
+          },
+          {
+            "name": "expo-three",
+            "description": "Utilities for using THREE.js with Expo",
+            "version": "8.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo-three"
+          },
+          {
+            "name": "expo-task-manager",
+            "description": "Expo module that provides support for tasks that can run in the background.",
+            "version": "14.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo-task-manager"
+          },
+          {
+            "name": "@better-auth/expo",
+            "description": "This plugin integrates Better Auth with Expo, allowing you to easily add authentication to your Expo (React Native) applications. It supports both Expo native and web apps.",
+            "version": "1.3.27",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@better-auth/expo"
+          },
+          {
+            "name": "expo-apple-authentication",
+            "description": "A package that provides 'Sign in with Apple' capability for Expo and React Native apps.",
+            "version": "8.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo-apple-authentication"
+          },
+          {
+            "name": "@bugsnag/plugin-expo-app",
+            "description": "@bugsnag/expo plugin to provide information about an Expo app",
+            "version": "54.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@bugsnag/plugin-expo-app"
+          },
+          {
+            "name": "expo-iap",
+            "description": "In App Purchase module in Expo",
+            "version": "3.1.18",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo-iap"
+          },
+          {
+            "name": "@rozenite/expo-atlas-plugin",
+            "description": "Expo Atlas for Rozenite.",
+            "version": "1.0.0-alpha.15",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@rozenite/expo-atlas-plugin"
+          },
+          {
+            "name": "expo-insights",
+            "description": "Expo module that offers developers insight into the usage data of the app",
+            "version": "0.10.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo-insights"
+          },
+          {
+            "name": "expo-background-task",
+            "description": "Expo Android and iOS module for Background Task APIs",
+            "version": "1.0.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo-background-task"
+          },
+          {
+            "name": "@bugsnag/plugin-expo-device",
+            "description": "@bugsnag/expo plugin to attach Expo-specific device info to events",
+            "version": "54.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@bugsnag/plugin-expo-device"
+          },
+          {
+            "name": "redux-devtools-expo-dev-plugin",
+            "description": "The full Redux DevTools for Expo as a dev plugin",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/redux-devtools-expo-dev-plugin"
+          },
+          {
+            "name": "@expo-google-fonts/inter",
+            "description": "Use the Inter font family from Google Fonts in your Expo app",
+            "version": "0.4.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@expo-google-fonts/inter"
+          },
+          {
+            "name": "xdl",
+            "description": "The Expo Development Library",
+            "version": "60.0.12",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/xdl"
+          },
+          {
+            "name": "@expo/next-adapter",
+            "description": "Adapter for using Next.js to bundle Expo web projects",
+            "version": "6.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@expo/next-adapter"
+          },
+          {
+            "name": "sentry-expo",
+            "description": "Catch your Javascript errors for your production Expo apps!",
+            "version": "7.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sentry-expo"
+          },
+          {
+            "name": "expo-speech-recognition",
+            "description": "Speech Recognition for React Native Expo projects",
+            "version": "2.1.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo-speech-recognition"
+          },
+          {
+            "name": "expo-asset-utils",
+            "description": "Utilities for converting files into Expo Assets",
+            "version": "3.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo-asset-utils"
+          },
+          {
+            "name": "@bugsnag/expo",
+            "description": "Bugsnag error reporter for Expo applications",
+            "version": "54.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@bugsnag/expo"
+          },
+          {
+            "name": "@privy-io/expo",
+            "description": "Expo client for the Privy Auth API",
+            "version": "0.59.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@privy-io/expo"
+          },
+          {
+            "name": "expo-module-scripts",
+            "description": "A private package for various tasks for Expo module packages like compiling and testing",
+            "version": "5.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo-module-scripts"
+          },
+          {
+            "name": "create-expo",
+            "description": "Create universal Expo apps",
+            "version": "3.5.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/create-expo"
+          },
+          {
+            "name": "@talkjs/expo",
+            "description": "Official TalkJS SDK for React Native (Expo)",
+            "version": "0.15.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@talkjs/expo"
+          },
+          {
+            "name": "@expo/configure-splash-screen",
+            "description": "Supplementary module for 'expo-splash-screen' providing cli configuration command",
+            "version": "0.6.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@expo/configure-splash-screen"
+          },
+          {
+            "name": "expo-tracking-transparency",
+            "description": "An Expo library for requesting permission to track the users on devices using iOS 14.5 and higher.",
+            "version": "6.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo-tracking-transparency"
+          },
+          {
+            "name": "expo-drizzle-studio-plugin",
+            "description": "Expo DevTools Plugin for Drizzle Studio",
+            "version": "0.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo-drizzle-studio-plugin"
+          },
+          {
+            "name": "@livekit/react-native-expo-plugin",
+            "description": "Expo Plugin for LiveKit React Native SDK",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@livekit/react-native-expo-plugin"
+          },
+          {
+            "name": "@expo-google-fonts/poppins",
+            "description": "Use the Poppins font family from Google Fonts in your Expo app",
+            "version": "0.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@expo-google-fonts/poppins"
+          },
+          {
+            "name": "@expo/match-media",
+            "description": "Universal polyfill for match media API using Expo APIs on mobile",
+            "version": "0.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@expo/match-media"
+          },
+          {
+            "name": "@expo/xdl",
+            "description": "The Expo Development Library",
+            "version": "59.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@expo/xdl"
+          },
+          {
+            "name": "@expo/vector-icons",
+            "description": "Built-in support for popular icon fonts and the tooling to create your own Icon components from your font and glyph map. This is a wrapper around react-native-vector-icons to make it compatible with Expo.",
+            "version": "15.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@expo/vector-icons"
+          },
+          {
+            "name": "@tsparticles/plugin-easing-expo",
+            "description": "tsParticles easing expo plugin",
+            "version": "3.9.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@tsparticles/plugin-easing-expo"
+          },
+          {
+            "name": "@expo/downloader",
+            "description": "`@expo/downloader` is a small helper library used to download files.",
+            "version": "1.0.221",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@expo/downloader"
+          },
+          {
+            "name": "expo-standard-web-crypto",
+            "description": "A partial implementation of the W3C Crypto API for Expo",
+            "version": "3.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo-standard-web-crypto"
+          },
+          {
+            "name": "@bugsnag/plugin-expo-connectivity-breadcrumbs",
+            "description": "@bugsnag/expo plugin to create breadcrumbs when the network status changes in an Expo app",
+            "version": "54.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@bugsnag/plugin-expo-connectivity-breadcrumbs"
+          },
+          {
+            "name": "expo-superwall",
+            "description": "Offical Expo Integration for Superwall",
+            "version": "0.3.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo-superwall"
+          },
+          {
+            "name": "@expo/babel-preset-cli",
+            "description": "The Babel preset for Expo CLI packages",
+            "version": "0.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@expo/babel-preset-cli"
+          },
+          {
+            "name": "customerio-expo-plugin",
+            "description": "Expo config plugin for the Customer IO React Native SDK",
+            "version": "2.8.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/customerio-expo-plugin"
+          },
+          {
+            "name": "@dev-plugins/react-navigation",
+            "description": "Expo DevTools Plugin for React Navigation",
+            "version": "0.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@dev-plugins/react-navigation"
+          },
+          {
+            "name": "@expo/build-tools",
+            "description": "`@expo/build-tools` is the core library for the EAS Build service. It implements the build process for React Native projects and for managed Expo applications.",
+            "version": "1.0.239",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@expo/build-tools"
+          },
+          {
+            "name": "eslint-config-universe",
+            "description": "Shared ESLint configs for internal Expo projects.",
+            "version": "15.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/eslint-config-universe"
+          },
+          {
+            "name": "@allboatsrise/expo-marketingcloudsdk",
+            "description": "Expo module for Salesforce Marketing Cloud SDK",
+            "version": "54.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@allboatsrise/expo-marketingcloudsdk"
+          },
+          {
+            "name": "expo-custom-assets",
+            "description": "Expo plugin to add custom assets to native codebase",
+            "version": "1.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo-custom-assets"
+          },
+          {
+            "name": "expo-share-intent",
+            "description": "use native share intent for ios and android with expo",
+            "version": "5.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo-share-intent"
+          },
+          {
+            "name": "@bugsnag/delivery-expo",
+            "description": "@bugsnag/expo delivery mechanism to send events and sessions from Expo, using the FileSystem API to cache and retry sending failed payloads",
+            "version": "54.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@bugsnag/delivery-expo"
+          },
+          {
+            "name": "expo-audio",
+            "description": "A cross-platform audio library for React Native and Expo apps.",
+            "version": "1.0.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo-audio"
+          },
+          {
+            "name": "standard-version-expo",
+            "description": "Automatic Expo versioning with Standard Version",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/standard-version-expo"
+          },
+          {
+            "name": "redux-persist-expo-filesystem",
+            "description": "Redux-Persist storage engine using Expo filesystem that removes the need to eject Expo/CRNA app",
+            "version": "2.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/redux-persist-expo-filesystem"
+          },
+          {
+            "name": "@expo/template-file",
+            "description": "`@expo/template-file` provides file-level variable substitution (Mustache template style).",
+            "version": "1.0.221",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@expo/template-file"
+          },
+          {
+            "name": "@expo-google-fonts/roboto",
+            "description": "Use the Roboto font family from Google Fonts in your Expo app",
+            "version": "0.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@expo-google-fonts/roboto"
+          },
+          {
+            "name": "expo-skeleton-loading",
+            "description": "Expo equivalent of react-native-skeleton-loading",
+            "version": "1.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo-skeleton-loading"
+          },
+          {
+            "name": "@privy-io/expo-native-extensions",
+            "description": "Privy's native extensions for the @privy-io/expo SDK.",
+            "version": "0.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@privy-io/expo-native-extensions"
+          },
+          {
+            "name": "onesignal-expo-plugin",
+            "description": "The OneSignal Expo plugin allows you to use OneSignal without leaving the managed workflow. Developed in collaboration with SweetGreen.",
+            "version": "2.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/onesignal-expo-plugin"
+          },
+          {
+            "name": "expo-permissions-interface",
+            "description": "An interface for expo-permissions",
+            "version": "3.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo-permissions-interface"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 20,
+        "packages": [
+          {
+            "name": "expo",
+            "version": "0.11.0",
+            "downloads": 93677,
+            "url": "https://rubygems.org/gems/expo"
+          },
+          {
+            "name": "expo-server-sdk",
+            "version": "0.1.6",
+            "downloads": 28584,
+            "url": "https://rubygems.org/gems/expo-server-sdk"
+          },
+          {
+            "name": "expo-flubber",
+            "version": "0.0.0",
+            "downloads": 2095,
+            "url": "https://rubygems.org/gems/expo-flubber"
+          },
+          {
+            "name": "expo-push",
+            "version": "1.0.4",
+            "downloads": 1965,
+            "url": "https://rubygems.org/gems/expo-push"
+          },
+          {
+            "name": "expo-push-middleware",
+            "version": "0.1.4",
+            "downloads": 3420,
+            "url": "https://rubygems.org/gems/expo-push-middleware"
+          },
+          {
+            "name": "pep",
+            "version": "0.0.3",
+            "downloads": 2064,
+            "url": "https://rubygems.org/gems/pep"
+          },
+          {
+            "name": "doodlesack",
+            "version": "0.0.0",
+            "downloads": 2611,
+            "url": "https://rubygems.org/gems/doodlesack"
+          },
+          {
+            "name": "cavendish",
+            "version": "0.1.0",
+            "downloads": 2376,
+            "url": "https://rubygems.org/gems/cavendish"
+          },
+          {
+            "name": "pax",
+            "version": "0.0.1",
+            "downloads": 3913,
+            "url": "https://rubygems.org/gems/pax"
+          },
+          {
+            "name": "exponent-server-sdk",
+            "version": "0.1.0",
+            "downloads": 2223945,
+            "url": "https://rubygems.org/gems/exponent-server-sdk"
+          },
+          {
+            "name": "exponential-backoff",
+            "version": "0.0.4",
+            "downloads": 1777802,
+            "url": "https://rubygems.org/gems/exponential-backoff"
+          },
+          {
+            "name": "exportr",
+            "version": "0.4.4",
+            "downloads": 88960,
+            "url": "https://rubygems.org/gems/exportr"
+          },
+          {
+            "name": "exposure",
+            "version": "0.2.1",
+            "downloads": 42427,
+            "url": "https://rubygems.org/gems/exposure"
+          },
+          {
+            "name": "export-pull-requests",
+            "version": "0.4.0",
+            "downloads": 28870,
+            "url": "https://rubygems.org/gems/export-pull-requests"
+          },
+          {
+            "name": "export_to_spreadsheet",
+            "version": "0.3.1",
+            "downloads": 25931,
+            "url": "https://rubygems.org/gems/export_to_spreadsheet"
+          },
+          {
+            "name": "exportation",
+            "version": "0.2.6",
+            "downloads": 22454,
+            "url": "https://rubygems.org/gems/exportation"
+          },
+          {
+            "name": "exponent-server-sdk-jm",
+            "version": "0.1.1",
+            "downloads": 20348,
+            "url": "https://rubygems.org/gems/exponent-server-sdk-jm"
+          },
+          {
+            "name": "exposition",
+            "version": "0.0.5.7.pre.alpha",
+            "downloads": 18494,
+            "url": "https://rubygems.org/gems/exposition"
+          },
+          {
+            "name": "expose_query",
+            "version": "0.1.3",
+            "downloads": 14362,
+            "url": "https://rubygems.org/gems/expose_query"
+          },
+          {
+            "name": "expose_db",
+            "version": "0.2.0",
+            "downloads": 11282,
+            "url": "https://rubygems.org/gems/expose_db"
+          }
+        ]
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 10,
+        "packages": [
+          {
+            "name": "expo",
+            "description": "Unit-test compiler invocations",
+            "version": "0.1.0",
+            "downloads": 949,
+            "url": "https://crates.io/crates/expo"
+          },
+          {
+            "name": "expo_push_notification_client",
+            "description": "Expo Push Notification Client for Rust",
+            "version": "1.0.6",
+            "downloads": 38381,
+            "url": "https://crates.io/crates/expo_push_notification_client"
+          },
+          {
+            "name": "expo-server-sdk",
+            "description": "Server side library for working with Expo using Rust. Includes a client to send push notifications to users of your mobile app using the Expo push notification services.",
+            "version": "0.1.0",
+            "downloads": 6016,
+            "url": "https://crates.io/crates/expo-server-sdk"
+          },
+          {
+            "name": "eas-env",
+            "description": "A simple CLI tool to manage environment variables for Expo projects.",
+            "version": "0.2.2",
+            "downloads": 9242,
+            "url": "https://crates.io/crates/eas-env"
+          },
+          {
+            "name": "eazing",
+            "description": "The blazingly fast and mathematically optimized `easing functions` kit.",
+            "version": "0.0.1",
+            "downloads": 1375,
+            "url": "https://crates.io/crates/eazing"
+          },
+          {
+            "name": "nacfahi",
+            "description": "Simpler, but less error-prone API for `levenberg-marquardt` optimization crate",
+            "version": "0.5.2",
+            "downloads": 4373,
+            "url": "https://crates.io/crates/nacfahi"
+          },
+          {
+            "name": "nacfahi-derive",
+            "description": "Derive proc-macro for `nacfahi`",
+            "version": "0.4.3",
+            "downloads": 3176,
+            "url": "https://crates.io/crates/nacfahi-derive"
+          },
+          {
+            "name": "xos",
+            "description": "Experimental OS Windows Manager",
+            "version": "0.1.22",
+            "downloads": 3103,
+            "url": "https://crates.io/crates/xos"
+          },
+          {
+            "name": "interpolated",
+            "description": "Generic, smooth value interpolation and easing functions for Rust.",
+            "version": "0.1.2",
+            "downloads": 1123,
+            "url": "https://crates.io/crates/interpolated"
+          },
+          {
+            "name": "rusaint",
+            "description": "Easy-to-use SSU u-saint client",
+            "version": "0.13.4",
+            "downloads": 27958,
+            "url": "https://crates.io/crates/rusaint"
+          }
+        ]
+      },
+      "total_packages": 130,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:17:44.824658"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:17:44.824680",
+    "batch_network": {
+      "batch": "Summer 2016",
+      "total_batch_mates": 101,
+      "active_batch_mates": 46,
+      "batch_success_rate": 45.5,
+      "notable_batch_mates": [
+        {
+          "name": "Seneca Systems",
+          "slug": "seneca-systems",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Constituent system-of-record and service request management software\u2026"
+        },
+        {
+          "name": "SimpleCitizen",
+          "slug": "simplecitizen",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "From signup to citizenship, only SimpleCitizen guides applicants\u2026"
+        },
+        {
+          "name": "Iris Automation",
+          "slug": "iris-automation",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Enabling autonomous drone operations globally through AI software"
+        },
+        {
+          "name": "Opsolutely",
+          "slug": "opsolutely",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Automated deployments for software teams."
+        },
+        {
+          "name": "Techmate",
+          "slug": "techmate",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A technology concierge for your home. We provide on-demand support\u2026"
+        },
+        {
+          "name": "Fabric",
+          "slug": "fabric",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Fabric is a personal location-based journal that catalogs experiences\u2026"
+        },
+        {
+          "name": "garten",
+          "slug": "garten",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Creating workplace wellbeing."
+        },
+        {
+          "name": "Burrow",
+          "slug": "burrow",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A design brand creating innovative, award winning furniture."
+        },
+        {
+          "name": "Pursuit",
+          "slug": "pursuit",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Revlo helps broadcasters on Twitch engage and monetize their fan\u2026"
+        },
+        {
+          "name": "Symple",
+          "slug": "symple",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Last mile logistics for delivery & service teams. We bring real-time\u2026"
+        }
+      ],
+      "batch_size": 102
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Amiato",
+          "slug": "amiato",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "The BI bridge for unstructured data. We automatically bridge the gap\u2026"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Simple multiplayer game servers."
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Backlift allows front-end only developers to build entire websites\u2026"
+        },
+        {
+          "name": "Documents.Me",
+          "slug": "documents-me",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Client-side encryption for your devices and the cloud."
+        },
+        {
+          "name": "Apollo",
+          "slug": "apollo",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Apollo helps engineering teams accelerate delivery"
+        },
+        {
+          "name": "Proxino",
+          "slug": "proxino",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Javascript proxy."
+        },
+        {
+          "name": "PhoneSys",
+          "slug": "phonesys",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "The Phone System for Sales Teams."
+        },
+        {
+          "name": "Cryptoseal",
+          "slug": "cryptoseal",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Server key management, VPN as a Service, Privacy VPN.  Sold to\u2026"
+        },
+        {
+          "name": "Citus Data",
+          "slug": "citus-data",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Real-time. Big data. PostgreSQL"
+        },
+        {
+          "name": "Realm",
+          "slug": "realm",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Better data structures = no DB."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Palo Alto",
+      "location": "Palo Alto, CA, USA",
+      "companies_in_city": 93,
+      "active_in_city": 40,
+      "nearby_companies": [
+        {
+          "name": "Hipmob",
+          "slug": "hipmob",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Amiato",
+          "slug": "amiato",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Pixelapse",
+          "slug": "pixelapse",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "LVL6",
+          "slug": "lvl6",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "GiveSpark",
+          "slug": "givespark",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Proxino",
+          "slug": "proxino",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Science Exchange",
+          "slug": "science-exchange",
+          "batch": "Summer 2011",
+          "industry": "Healthcare",
+          "status": "Acquired"
+        },
+        {
+          "name": "Clerky",
+          "slug": "clerky",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Assembled",
+          "slug": "assembled",
+          "batch": "Winter 2011",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Pebble",
+          "slug": "pebble",
+          "batch": "Winter 2011",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Insight Data Science",
+          "slug": "insight-data-science",
+          "batch": "Winter 2011",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "AeroFS",
+          "slug": "aerofs",
+          "batch": "Summer 2010",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Etacts",
+          "slug": "etacts",
+          "batch": "Winter 2010",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Lockitron",
+          "slug": "lockitron",
+          "batch": "Summer 2009",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "GraffitiGeo",
+          "slug": "graffitigeo",
+          "batch": "Summer 2009",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Snipd",
+          "slug": "snipd",
+          "batch": "Summer 2008",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Machine Zone",
+          "slug": "machine-zone",
+          "batch": "Winter 2008",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fuzzwich",
+          "slug": "fuzzwich",
+          "batch": "Summer 2007",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Jumpchat",
+          "slug": "jumpchat",
+          "batch": "Summer 2006",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Pixate",
+          "slug": "pixate",
+          "batch": "Summer 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Mindori",
+        "slug": "mindori",
+        "batch": "Summer 2016",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Amiato",
+        "slug": "amiato",
+        "batch": "Winter 2012",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Proxino",
+        "slug": "proxino",
+        "batch": "Summer 2011",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "AeroFS",
+        "slug": "aerofs",
+        "batch": "Summer 2010",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Pixate",
+        "slug": "pixate",
+        "batch": "Summer 2012",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Protocol Labs",
+        "slug": "protocol-labs",
+        "batch": "Summer 2014",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Peer5",
+        "slug": "peer5",
+        "batch": "Winter 2017",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "BuildBuddy",
+        "slug": "buildbuddy",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Ollama",
+        "slug": "ollama",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "NuCypher (aka Threshold Network)",
+        "slug": "nucypher-aka-threshold-network",
+        "batch": "Summer 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 2940,
+      "network_density_score": 78.8,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:17:44.838275"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:17:44.838283",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:17:45.165229",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:17:45.272364",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 23,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:42:01.986157",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Cross-platform development adoption",
+        "JavaScript ecosystem dominance",
+        "Mobile-first enterprise strategies"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Developer ecosystem and toolchain integration with strong community network effects",
+      "differentiation": "Unified JavaScript development for web, iOS, and Android with integrated cloud services",
+      "competitive_advantages": [
+        "Strong React Native ecosystem integration",
+        "Comprehensive developer toolchain (EAS)"
+      ],
+      "competitive_vulnerabilities": [
+        "Dependence on React Native's roadmap",
+        "Competition from native platform tools"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "23-person team suggests scaling",
+        "Established cloud services (EAS)"
+      ],
+      "growth_bottlenecks": [
+        "Developer adoption rate",
+        "Platform performance optimization"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "low",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "React Native platform changes",
+        "Big tech platform policy shifts",
+        "Native performance gaps"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Large addressable market",
+        "Strong technical team",
+        "Developer-friendly positioning"
+      ],
+      "concerns": [
+        "Platform dependency risk",
+        "Competitive pressure from tech giants"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Vercel",
+        "Netlify"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Expand enterprise sales",
+        "Strengthen platform partnerships"
+      ],
+      "expansion_opportunities": [
+        "Enterprise developer tools",
+        "AI-powered development assistance"
+      ]
+    },
+    "tokens_used": {
+      "input": 723,
+      "output": 488,
+      "total": 1211,
+      "estimated_cost": 0.009489
+    }
+  },
+  "phase8_complete": true
+}

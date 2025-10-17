@@ -1,0 +1,1580 @@
+{
+  "slug": "appharbor",
+  "name": "AppHarbor",
+  "yc_id": 140,
+  "batch": "Winter 2011",
+  "website": "https://appharbor.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:29:50.025107",
+    "website": "https://appharbor.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 1058.02,
+      "final_url": "https://blog.appharbor.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:29:51.083146"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "appharbor.com",
+      "registrar": "Cloudflare, Inc.",
+      "creation_date": "2010-10-09T18:51:41",
+      "expiration_date": "2026-10-09T18:51:41",
+      "domain_age_days": 5486,
+      "domain_age_years": 15.0,
+      "name_servers": [
+        "KARL.NS.CLOUDFLARE.COM",
+        "SREENI.NS.CLOUDFLARE.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/appharbor",
+      "linkedin": null,
+      "github": "https://github.com/heroku/logplex/blob/master/doc/README.stream-management.md",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": false,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 0,
+      "server": "cloudflare"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:12:44.107468",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:49:15.653753",
+    "place_data": {
+      "status": "not_found",
+      "query": "San Francisco, CA, USA"
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:49:15.749962",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/heroku"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 100,
+        "packages": [
+          {
+            "name": "heroku-client",
+            "description": "A wrapper for the Heroku v3 API",
+            "version": "3.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/heroku-client"
+          },
+          {
+            "name": "heroku-kafka",
+            "description": "heroku plugin to manage heroku kafka",
+            "version": "2.13.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/heroku-kafka"
+          },
+          {
+            "name": "@heroku-cli/command",
+            "description": "base class for Heroku CLI commands",
+            "version": "12.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@heroku-cli/command"
+          },
+          {
+            "name": "@types/heroku-client",
+            "description": "TypeScript definitions for heroku-client",
+            "version": "3.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@types/heroku-client"
+          },
+          {
+            "name": "heroku",
+            "description": "CLI to interact with Heroku",
+            "version": "10.13.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/heroku"
+          },
+          {
+            "name": "@heroku-cli/plugin-spaces",
+            "description": "Heroku plugin to manage Heroku Private Spaces",
+            "version": "8.11.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@heroku-cli/plugin-spaces"
+          },
+          {
+            "name": "@heroku-cli/plugin-redis-v5",
+            "description": "Heroku plugin to manage Heroku Redis",
+            "version": "8.11.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@heroku-cli/plugin-redis-v5"
+          },
+          {
+            "name": "@heroku-cli/plugin-ci-v5",
+            "description": "Heroku CLI plugin for Heroku CI",
+            "version": "8.11.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@heroku-cli/plugin-ci-v5"
+          },
+          {
+            "name": "@heroku-cli/plugin-ps-exec",
+            "description": "Heroku Exec CLI",
+            "version": "2.6.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@heroku-cli/plugin-ps-exec"
+          },
+          {
+            "name": "@heroku/plugin-ai",
+            "description": "Heroku CLI plugin for Heroku AI add-on",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@heroku/plugin-ai"
+          },
+          {
+            "name": "@heroku-cli/notifications",
+            "description": "display notifications in Heroku CLI commands",
+            "version": "1.2.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@heroku-cli/notifications"
+          },
+          {
+            "name": "@heroku-cli/plugin-addons",
+            "description": "`heroku addons:*` commands",
+            "version": "1.2.31",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@heroku-cli/plugin-addons"
+          },
+          {
+            "name": "@heroku-cli/heroku-exec-util",
+            "description": "Set of helpful Heroku Exec utilities",
+            "version": "0.9.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@heroku-cli/heroku-exec-util"
+          },
+          {
+            "name": "@heroku-cli/plugin-certs-v5",
+            "description": "heroku ssl plugin",
+            "version": "8.11.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@heroku-cli/plugin-certs-v5"
+          },
+          {
+            "name": "@heroku-cli/plugin-addons-v5",
+            "description": "`heroku addons:*` commands",
+            "version": "8.11.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@heroku-cli/plugin-addons-v5"
+          },
+          {
+            "name": "@heroku/mcp-server",
+            "description": "Heroku Platform MCP Server",
+            "version": "1.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@heroku/mcp-server"
+          },
+          {
+            "name": "heroku-cli-addons",
+            "description": "`heroku addons:*` commands",
+            "version": "1.2.26",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/heroku-cli-addons"
+          },
+          {
+            "name": "@heroku-cli/plugin-orgs-v5",
+            "description": "CLI to manage Heroku Organizations",
+            "version": "8.11.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@heroku-cli/plugin-orgs-v5"
+          },
+          {
+            "name": "@heroku-cli/plugin-apps-v5",
+            "description": "Heroku CLI plugin to manage apps.",
+            "version": "8.11.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@heroku-cli/plugin-apps-v5"
+          },
+          {
+            "name": "@heroku-cli/plugin-pg-v5",
+            "description": "Heroku CLI plugin to manage Postgres.",
+            "version": "8.11.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@heroku-cli/plugin-pg-v5"
+          },
+          {
+            "name": "@heroku/applink",
+            "description": "Applink SDK for Heroku Apps.",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@heroku/applink"
+          },
+          {
+            "name": "@heroku-cli/plugin-data-beta",
+            "description": "Heroku CLI plugin for beta Heroku Data features",
+            "version": "0.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@heroku-cli/plugin-data-beta"
+          },
+          {
+            "name": "@heroku/buildpack-registry",
+            "description": "Node.js/TypeScript library for interfacing with the Heroku Buildpack Registry",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@heroku/buildpack-registry"
+          },
+          {
+            "name": "salesforce-lightning-cli",
+            "description": "Lightning CLI Heroku Plugin",
+            "version": "3.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/salesforce-lightning-cli"
+          },
+          {
+            "name": "heroku-builds",
+            "description": "Heroku CLI plugin to list and create builds for Heroku apps",
+            "version": "0.0.29",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/heroku-builds"
+          },
+          {
+            "name": "heroku-container-registry",
+            "description": "Use containers to build and deploy Heroku apps",
+            "version": "4.99.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/heroku-container-registry"
+          },
+          {
+            "name": "@heroku-cli/plugin-container-registry-v5",
+            "description": "Use containers to build and deploy Heroku apps",
+            "version": "8.11.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@heroku-cli/plugin-container-registry-v5"
+          },
+          {
+            "name": "@heroku-cli/plugin-run-v5",
+            "description": "Heroku CLI plugin to run one-off dyno processes.",
+            "version": "8.11.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@heroku-cli/plugin-run-v5"
+          },
+          {
+            "name": "heroku.node",
+            "description": "Heroku API client",
+            "version": "0.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/heroku.node"
+          },
+          {
+            "name": "@heroku-cli/plugin-heroku-repo",
+            "description": "Heroku CLI plugin to manipulate the repo",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@heroku-cli/plugin-heroku-repo"
+          },
+          {
+            "name": "heroku-ssl-redirect",
+            "description": "Redirect users to the SSL version of your app. For ExpressJS running on Heroku",
+            "version": "0.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/heroku-ssl-redirect"
+          },
+          {
+            "name": "@heroku-cli/heroku-builds",
+            "description": "Heroku CLI plugin to list and create builds for Heroku apps",
+            "version": "1.0.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@heroku-cli/heroku-builds"
+          },
+          {
+            "name": "is-heroku",
+            "description": "Check if your code is running on Heroku",
+            "version": "3.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/is-heroku"
+          },
+          {
+            "name": "@heroku-cli/heroku-pg-extras",
+            "description": "Heroku PG Extras CLI plugin",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@heroku-cli/heroku-pg-extras"
+          },
+          {
+            "name": "heroku-dyno-metadata",
+            "description": "Expose Heroku Dyno metadata as HTTP headers",
+            "version": "2.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/heroku-dyno-metadata"
+          },
+          {
+            "name": "@heroku-cli/plugin-oauth-v5",
+            "description": "Heroku CLI plugin to manage OAuth clients.",
+            "version": "8.11.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@heroku-cli/plugin-oauth-v5"
+          },
+          {
+            "name": "@heroku-cli/plugin-pipelines-v5",
+            "description": "pipelines heroku plugin",
+            "version": "7.31.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@heroku-cli/plugin-pipelines-v5"
+          },
+          {
+            "name": "@heroku-cli/plugin-local-v5",
+            "description": "run heroku apps locally",
+            "version": "7.24.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@heroku-cli/plugin-local-v5"
+          },
+          {
+            "name": "heroku-connect-plugin",
+            "description": "Heroku Connect plugin for Heroku CLI",
+            "version": "0.10.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/heroku-connect-plugin"
+          },
+          {
+            "name": "@heroku-cli/plugin-java",
+            "description": "Heroku Java CLI",
+            "version": "3.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@heroku-cli/plugin-java"
+          },
+          {
+            "name": "@mars/heroku-js-runtime-env",
+            "description": "Runtime env var support for static javascript apps on Heroku",
+            "version": "3.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mars/heroku-js-runtime-env"
+          },
+          {
+            "name": "heroku-pg",
+            "description": "Heroku CLI plugin to manage Postgres.",
+            "version": "2.9.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/heroku-pg"
+          },
+          {
+            "name": "@heroku-cli/plugin-webhooks-v5",
+            "description": "Heroku CLI plugin to manage webhooks.",
+            "version": "7.24.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@heroku-cli/plugin-webhooks-v5"
+          },
+          {
+            "name": "haikunator",
+            "description": "Generate Heroku-like random names to use in your node applications.",
+            "version": "2.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/haikunator"
+          },
+          {
+            "name": "heroku-apps",
+            "description": "Heroku CLI plugin to manage apps.",
+            "version": "2.4.22",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/heroku-apps"
+          },
+          {
+            "name": "heroku-local",
+            "description": "run heroku apps locally",
+            "version": "5.1.21",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/heroku-local"
+          },
+          {
+            "name": "@heroku-cli/plugin-applink",
+            "description": "Heroku CLI plugin for Heroku AppLink add-on",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@heroku-cli/plugin-applink"
+          },
+          {
+            "name": "heroku-certs",
+            "description": "heroku ssl plugin",
+            "version": "1.1.45",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/heroku-certs"
+          },
+          {
+            "name": "@heroku-cli/plugin-mtls",
+            "description": "heroku mtls cli",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@heroku-cli/plugin-mtls"
+          },
+          {
+            "name": "heroku-ci",
+            "description": "Heroku CLI plugin for Heroku CI",
+            "version": "1.9.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/heroku-ci"
+          },
+          {
+            "name": "cli-engine-heroku",
+            "description": "heroku specific functionality for the cli-engine",
+            "version": "5.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/cli-engine-heroku"
+          },
+          {
+            "name": "passport-heroku",
+            "description": "Heroku authentication strategy for Passport.",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/passport-heroku"
+          },
+          {
+            "name": "heroku-pipelines",
+            "description": "pipelines heroku plugin",
+            "version": "2.5.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/heroku-pipelines"
+          },
+          {
+            "name": "heroku-redis",
+            "description": "Heroku plugin to manage Heroku Redis",
+            "version": "1.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/heroku-redis"
+          },
+          {
+            "name": "heroku-logger",
+            "description": "A dead simple logger, designed to be perfect for Heroku apps.",
+            "version": "0.3.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/heroku-logger"
+          },
+          {
+            "name": "@heroku-cli/plugin-redis",
+            "description": "Heroku plugin to manage Heroku Redis",
+            "version": "1.3.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@heroku-cli/plugin-redis"
+          },
+          {
+            "name": "@heroku-cli/plugin-api",
+            "description": "access the Heroku API directly",
+            "version": "3.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@heroku-cli/plugin-api"
+          },
+          {
+            "name": "@pulumiverse/heroku",
+            "description": "A Pulumi package for creating and managing heroku cloud resources.",
+            "version": "1.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@pulumiverse/heroku"
+          },
+          {
+            "name": "@heroku-cli/plugin-enterprise",
+            "description": "CLI to manage Heroku Enterprise Accounts",
+            "version": "5.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@heroku-cli/plugin-enterprise"
+          },
+          {
+            "name": "heroku-orgs",
+            "description": "CLI to manage Heroku Organizations",
+            "version": "1.7.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/heroku-orgs"
+          },
+          {
+            "name": "@heroku-cli/heroku-connect-plugin",
+            "description": "Heroku Connect CLI plugin",
+            "version": "0.11.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@heroku-cli/heroku-connect-plugin"
+          },
+          {
+            "name": "heroku-spaces",
+            "description": "Heroku plugin to manage Heroku Private Spaces",
+            "version": "2.11.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/heroku-spaces"
+          },
+          {
+            "name": "heroku-status",
+            "description": "CLI Plugin for Heroku Status",
+            "version": "3.0.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/heroku-status"
+          },
+          {
+            "name": "heroku-docker",
+            "description": "DEPRECATED: use heroku-container-tools",
+            "version": "2.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/heroku-docker"
+          },
+          {
+            "name": "@dotcom-tool-kit/heroku",
+            "description": "This plugin handles deploying apps to Heroku. It also manages Tool Kit hooks that are run during Heroku builds.",
+            "version": "4.2.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@dotcom-tool-kit/heroku"
+          },
+          {
+            "name": "heroku-config",
+            "description": "Push and pull environment variables from a Heroku instance",
+            "version": "1.6.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/heroku-config"
+          },
+          {
+            "name": "@heroku-cli/plugin-data-maintenance",
+            "description": "[![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io) ![GitHub Actions CI](https://github.com/heroku/heroku-cli-plugin-data-maintenance/actions/workflows/ci.yml/badge.svg)",
+            "version": "0.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@heroku-cli/plugin-data-maintenance"
+          },
+          {
+            "name": "heroku-env",
+            "description": "heroku-env ===============",
+            "version": "0.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/heroku-env"
+          },
+          {
+            "name": "@heroku/react-hk-components",
+            "description": "React components for Heroku",
+            "version": "3.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@heroku/react-hk-components"
+          },
+          {
+            "name": "heroku-git",
+            "description": "Heroku CLI plugin to manage local git repos.",
+            "version": "2.5.23",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/heroku-git"
+          },
+          {
+            "name": "@heroku-cli/plugin-orgs",
+            "description": "CLI to manage Heroku Organizations",
+            "version": "1.8.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@heroku-cli/plugin-orgs"
+          },
+          {
+            "name": "@heroku-cli/plugin-pg",
+            "description": "Heroku CLI plugin to manage Postgres.",
+            "version": "2.10.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@heroku-cli/plugin-pg"
+          },
+          {
+            "name": "@heroku-cli/test-utils",
+            "description": "Test utilities for Heroku CLI",
+            "version": "0.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@heroku-cli/test-utils"
+          },
+          {
+            "name": "run-with-heroku-env",
+            "description": "execute command with heroku env",
+            "version": "0.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/run-with-heroku-env"
+          },
+          {
+            "name": "readable-id-mjs",
+            "description": "Generates unique, Heroku-style human readable IDs, supports mjs",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/readable-id-mjs"
+          },
+          {
+            "name": "boring-name-generator",
+            "description": "Generateing a random, unique, heroku-like name for the motherbored. e.g. \"gnarly-yield-2913\"",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/boring-name-generator"
+          },
+          {
+            "name": "@heroku-cli/plugin-container-registry",
+            "description": "Use containers to build and deploy Heroku apps",
+            "version": "4.4.21",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@heroku-cli/plugin-container-registry"
+          },
+          {
+            "name": "heroku-run",
+            "description": "Heroku CLI plugin to run one-off dyno processes.",
+            "version": "3.5.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/heroku-run"
+          },
+          {
+            "name": "@connectedyard/heroku-postico",
+            "description": "heroku-postico ==============",
+            "version": "0.0.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@connectedyard/heroku-postico"
+          },
+          {
+            "name": "generator-digitalcrafts",
+            "description": "Heroku ready node and react app generator",
+            "version": "0.3.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/generator-digitalcrafts"
+          },
+          {
+            "name": "heroku-repo",
+            "description": "Heroku CLI plugin to manipulate the repo",
+            "version": "1.0.14",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/heroku-repo"
+          },
+          {
+            "name": "judoscale-express",
+            "description": "ExpressJS adapter for the JudoScale autoscaling add-on for Heroku",
+            "version": "2.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/judoscale-express"
+          },
+          {
+            "name": "@heroku-cli/color",
+            "description": "base CLI command for cli-engine",
+            "version": "2.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@heroku-cli/color"
+          },
+          {
+            "name": "@heroku/heroku-cli-util",
+            "description": "Set of helpful CLI utilities",
+            "version": "10.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@heroku/heroku-cli-util"
+          },
+          {
+            "name": "@types/heroku-logger",
+            "description": "TypeScript definitions for heroku-logger",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@types/heroku-logger"
+          },
+          {
+            "name": "judoscale-node-core",
+            "description": "Core dependencies for NodeJS adapters for the JudoScale autoscaling add-on for Heroku",
+            "version": "2.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/judoscale-node-core"
+          },
+          {
+            "name": "hexo-deployer-heroku",
+            "description": "Heroku deployer plugin of Hexo.",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/hexo-deployer-heroku"
+          },
+          {
+            "name": "hubot-deploy-heroku",
+            "description": "Helpers to deploy to heroku with hubot-deploy",
+            "version": "0.0.27",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/hubot-deploy-heroku"
+          },
+          {
+            "name": "heroku-mitosis",
+            "description": "A package to make copies of heroku apps for reviewing purposes",
+            "version": "1.3.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/heroku-mitosis"
+          },
+          {
+            "name": "heroku-node",
+            "description": "run node on heroku with saner defaults for memory management.",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/heroku-node"
+          },
+          {
+            "name": "@heroku-cli/typescript-api-schema",
+            "description": "@heroku-cli/typescript-api-schema =================================",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@heroku-cli/typescript-api-schema"
+          },
+          {
+            "name": "sequelize-heroku",
+            "description": "DEPRECATED Easily connects your node app to Heroku databases with Sequelize",
+            "version": "2.1.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sequelize-heroku"
+          },
+          {
+            "name": "heroku-cli-command",
+            "description": "base Heroku CLI command",
+            "version": "1.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/heroku-cli-command"
+          },
+          {
+            "name": "wicked-coolkit",
+            "description": "The Heroku Wicked Coolkit",
+            "version": "1.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/wicked-coolkit"
+          },
+          {
+            "name": "awake-heroku",
+            "description": "A package help your heroku app is always runs ",
+            "version": "2.0.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/awake-heroku"
+          },
+          {
+            "name": "n8n-nodes-heroku-ai",
+            "description": "Heroku AI Node for n8n",
+            "version": "0.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/n8n-nodes-heroku-ai"
+          },
+          {
+            "name": "heroku-keep-awake",
+            "description": "Simple lightweight utility to help keep Heroku app awake by pinging the Dynos at a set interval.",
+            "version": "1.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/heroku-keep-awake"
+          },
+          {
+            "name": "@s1seven/pino-heroku-pipeline",
+            "description": "Pipeline to clean and filter out Heroku logs",
+            "version": "0.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@s1seven/pino-heroku-pipeline"
+          },
+          {
+            "name": "heroku-fork",
+            "description": "Heroku CLI plugin to fork an existing app into a new app.",
+            "version": "4.1.29",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/heroku-fork"
+          },
+          {
+            "name": "@heroku-cli/schema",
+            "description": "<!-- toc --> # Usage <!-- usage --> # Commands <!-- commands -->",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@heroku-cli/schema"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 20,
+        "packages": [
+          {
+            "name": "heroku",
+            "version": "3.99.4",
+            "downloads": 3216554,
+            "url": "https://rubygems.org/gems/heroku"
+          },
+          {
+            "name": "heroku-api",
+            "version": "0.4.3",
+            "downloads": 3511119,
+            "url": "https://rubygems.org/gems/heroku-api"
+          },
+          {
+            "name": "heroku-deflater",
+            "version": "0.7.0",
+            "downloads": 2897152,
+            "url": "https://rubygems.org/gems/heroku-deflater"
+          },
+          {
+            "name": "wkhtmltopdf-heroku",
+            "version": "3.0.0",
+            "downloads": 6723603,
+            "url": "https://rubygems.org/gems/wkhtmltopdf-heroku"
+          },
+          {
+            "name": "heroku_san",
+            "version": "4.4.0",
+            "downloads": 485412,
+            "url": "https://rubygems.org/gems/heroku_san"
+          },
+          {
+            "name": "dpl-heroku",
+            "version": "1.10.16",
+            "downloads": 4787499,
+            "url": "https://rubygems.org/gems/dpl-heroku"
+          },
+          {
+            "name": "heroku_hatchet",
+            "version": "8.0.6",
+            "downloads": 222919,
+            "url": "https://rubygems.org/gems/heroku_hatchet"
+          },
+          {
+            "name": "heroku-stage",
+            "version": "0.4.0",
+            "downloads": 192114,
+            "url": "https://rubygems.org/gems/heroku-stage"
+          },
+          {
+            "name": "omniauth-heroku",
+            "version": "1.0.0",
+            "downloads": 1518109,
+            "url": "https://rubygems.org/gems/omniauth-heroku"
+          },
+          {
+            "name": "heroku-nav",
+            "version": "0.2.2",
+            "downloads": 126285,
+            "url": "https://rubygems.org/gems/heroku-nav"
+          },
+          {
+            "name": "heroku_deploy",
+            "version": "0.1.11",
+            "downloads": 100194,
+            "url": "https://rubygems.org/gems/heroku_deploy"
+          },
+          {
+            "name": "heroku-bouncer",
+            "version": "1.0.3",
+            "downloads": 85640,
+            "url": "https://rubygems.org/gems/heroku-bouncer"
+          },
+          {
+            "name": "heroku-rails",
+            "version": "0.4.4",
+            "downloads": 77093,
+            "url": "https://rubygems.org/gems/heroku-rails"
+          },
+          {
+            "name": "heroku_deployer",
+            "version": "0.7.22",
+            "downloads": 70114,
+            "url": "https://rubygems.org/gems/heroku_deployer"
+          },
+          {
+            "name": "heroku-forward",
+            "version": "0.4.0",
+            "downloads": 68939,
+            "url": "https://rubygems.org/gems/heroku-forward"
+          },
+          {
+            "name": "heroku-commander",
+            "version": "0.3.1",
+            "downloads": 61609,
+            "url": "https://rubygems.org/gems/heroku-commander"
+          },
+          {
+            "name": "heroku-bartender",
+            "version": "0.5.0",
+            "downloads": 55411,
+            "url": "https://rubygems.org/gems/heroku-bartender"
+          },
+          {
+            "name": "heroku_rails_deflate",
+            "version": "1.0.3",
+            "downloads": 317150,
+            "url": "https://rubygems.org/gems/heroku_rails_deflate"
+          },
+          {
+            "name": "heroku_deployment",
+            "version": "0.0.13",
+            "downloads": 48876,
+            "url": "https://rubygems.org/gems/heroku_deployment"
+          },
+          {
+            "name": "puma-heroku",
+            "version": "2.0.0",
+            "downloads": 319822,
+            "url": "https://rubygems.org/gems/puma-heroku"
+          }
+        ]
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 10,
+        "packages": [
+          {
+            "name": "heroku_rs",
+            "description": "Rust bindings for the Heroku API",
+            "version": "0.6.0",
+            "downloads": 20038,
+            "url": "https://crates.io/crates/heroku_rs"
+          },
+          {
+            "name": "fastly-api",
+            "description": "Fastly API client",
+            "version": "11.0.0",
+            "downloads": 57064,
+            "url": "https://crates.io/crates/fastly-api"
+          },
+          {
+            "name": "syslog_heroku",
+            "description": "Parser for Heroku (Logplex) syslog messages",
+            "version": "0.1.0",
+            "downloads": 2707,
+            "url": "https://crates.io/crates/syslog_heroku"
+          },
+          {
+            "name": "dhb-heroku-postgres-client",
+            "description": "Easily connect to heroku postgres.",
+            "version": "0.1.0-alpha.0",
+            "downloads": 1786,
+            "url": "https://crates.io/crates/dhb-heroku-postgres-client"
+          },
+          {
+            "name": "dhb-postgres-heroku",
+            "description": "Easily connect to heroku postgres.",
+            "version": "0.1.0-alpha.4",
+            "downloads": 7581,
+            "url": "https://crates.io/crates/dhb-postgres-heroku"
+          },
+          {
+            "name": "qr-api",
+            "description": "A simple and fast QRcode encoder/decoder API written in rust.",
+            "version": "0.1.0",
+            "downloads": 1567,
+            "url": "https://crates.io/crates/qr-api"
+          },
+          {
+            "name": "big-luca-bot",
+            "description": "A telegram bot to be always up to date with the \"Papi\"'s news",
+            "version": "0.6.0",
+            "downloads": 17084,
+            "url": "https://crates.io/crates/big-luca-bot"
+          },
+          {
+            "name": "spazio-grigio-bot",
+            "description": "A telegram bot to be always up to date with spazio grigio",
+            "version": "0.4.1",
+            "downloads": 9444,
+            "url": "https://crates.io/crates/spazio-grigio-bot"
+          },
+          {
+            "name": "haikunator",
+            "description": "Generate Heroku-like random names to use in your Rust applications",
+            "version": "0.1.2",
+            "downloads": 53301,
+            "url": "https://crates.io/crates/haikunator"
+          },
+          {
+            "name": "herokuru",
+            "description": "Yet another Heroku client for Rust. Async ready.",
+            "version": "0.1.1",
+            "downloads": 2873,
+            "url": "https://crates.io/crates/herokuru"
+          }
+        ]
+      },
+      "total_packages": 130,
+      "has_packages": true,
+      "checked_at": "2025-10-17T09:49:17.670984"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:49:17.670993",
+    "batch_network": {
+      "batch": "Winter 2011",
+      "total_batch_mates": 44,
+      "active_batch_mates": 12,
+      "batch_success_rate": 27.3,
+      "notable_batch_mates": [
+        {
+          "name": "Upverter",
+          "slug": "upverter",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The future of hardware design. A marketplace for hardware engineering\u2026"
+        },
+        {
+          "name": "Earbits",
+          "slug": "earbits",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Google AdWords for music.  Allowing bands and labels to bid for\u2026"
+        },
+        {
+          "name": "Sendoid",
+          "slug": "sendoid",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "High speed peer to peer data transport technology for consumers\u2026"
+        },
+        {
+          "name": "HelloSign",
+          "slug": "hellosign",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "eSignature software for small and mid-market businesses."
+        },
+        {
+          "name": "Hotspots",
+          "slug": "hotspots",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Real-time analytics (acq by TWTR, 2012)"
+        },
+        {
+          "name": "Custora",
+          "slug": "custora",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Custora is a predictive analytics platform for e-commerce marketing\u2026"
+        },
+        {
+          "name": "Comprehend",
+          "slug": "comprehend",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "SaaS to increase speed and quality of clinical trials."
+        },
+        {
+          "name": "Humble Bundle",
+          "slug": "humble-bundle",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Pay what you want for awesome games and other content while giving to\u2026"
+        },
+        {
+          "name": "Pebble",
+          "slug": "pebble",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Watch that helps you get shit done and limit the mayhem of\u2026"
+        },
+        {
+          "name": "Fivestars",
+          "slug": "fivestars",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Customer loyalty and payments platform for small businesses."
+        }
+      ],
+      "batch_size": 45
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1969,
+      "direct_competitors": [
+        {
+          "name": "Amiato",
+          "slug": "amiato",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "The BI bridge for unstructured data. We automatically bridge the gap\u2026"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Simple multiplayer game servers."
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Backlift allows front-end only developers to build entire websites\u2026"
+        },
+        {
+          "name": "Documents.Me",
+          "slug": "documents-me",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Client-side encryption for your devices and the cloud."
+        },
+        {
+          "name": "Apollo",
+          "slug": "apollo",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Apollo helps engineering teams accelerate delivery"
+        },
+        {
+          "name": "Proxino",
+          "slug": "proxino",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Javascript proxy."
+        },
+        {
+          "name": "PhoneSys",
+          "slug": "phonesys",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "The Phone System for Sales Teams."
+        },
+        {
+          "name": "Cryptoseal",
+          "slug": "cryptoseal",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Server key management, VPN as a Service, Privacy VPN.  Sold to\u2026"
+        },
+        {
+          "name": "Citus Data",
+          "slug": "citus-data",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Real-time. Big data. PostgreSQL"
+        },
+        {
+          "name": "Realm",
+          "slug": "realm",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Better data structures = no DB."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "San Francisco",
+      "location": "San Francisco, CA, USA",
+      "companies_in_city": 2007,
+      "active_in_city": 1340,
+      "nearby_companies": [
+        {
+          "name": "42Floors",
+          "slug": "42floors",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "PlanGrid",
+          "slug": "plangrid",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "MyVR",
+          "slug": "myvr",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Couple",
+          "slug": "couple",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HackPad",
+          "slug": "hackpad",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Gusto",
+          "slug": "gusto",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "FamilyLeaf",
+          "slug": "familyleaf",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Chute",
+          "slug": "chute",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Make School",
+          "slug": "make-school",
+          "batch": "Winter 2012",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Exec",
+          "slug": "exec",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Public"
+        },
+        {
+          "name": "LendUp",
+          "slug": "lendup",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tilt",
+          "slug": "tilt",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fond",
+          "slug": "fond",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "SingleStore",
+        "slug": "singlestore",
+        "batch": "Winter 2011",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Apportable",
+        "slug": "apportable",
+        "batch": "Winter 2011",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Userfox",
+        "slug": "userfox",
+        "batch": "Winter 2011",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "TellFi",
+        "slug": "tellfi",
+        "batch": "Winter 2011",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Talkable",
+        "slug": "talkable",
+        "batch": "Winter 2011",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Tumult",
+        "slug": "tumult",
+        "batch": "Winter 2011",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Acunote",
+        "slug": "acunote",
+        "batch": "Winter 2011",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Sendoid",
+        "slug": "sendoid",
+        "batch": "Winter 2011",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "HelloSign",
+        "slug": "hellosign",
+        "batch": "Winter 2011",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Hotspots",
+        "slug": "hotspots",
+        "batch": "Winter 2011",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 4797,
+      "network_density_score": 88.8,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T09:49:17.679571"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:49:17.679578",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:49:18.014103",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:49:18.125707",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 1,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:42:25.716669",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "medium",
+      "market_stage": "growing",
+      "key_trends": [
+        "Cloud adoption",
+        "DevOps automation",
+        "Microservices architecture"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "First-mover advantage in .NET PaaS, developer community.",
+      "differentiation": "Focus solely on .NET ecosystem, simplifying deployment for .NET developers.",
+      "competitive_advantages": [
+        "Ease of use for .NET developers",
+        "Automated deployment pipeline"
+      ],
+      "competitive_vulnerabilities": [
+        "Limited language support compared to broader PaaS offerings",
+        "Reliance on .NET ecosystem health"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "Number of deployed applications",
+        "Developer sign-up rate"
+      ],
+      "growth_bottlenecks": [
+        "Competition from larger cloud providers",
+        "Adoption rate of .NET framework"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Dominance of AWS, Azure, and GCP",
+        "Shifting developer preferences",
+        "Maintenance of platform infrastructure"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong focus on .NET developers",
+        "Simplified deployment process",
+        "First-mover advantage in niche market"
+      ],
+      "concerns": [
+        "Limited market size compared to general PaaS",
+        "Dependence on .NET ecosystem"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Heroku (pre-Salesforce acquisition)",
+        "Engine Yard"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Expand integrations with .NET ecosystem tools",
+        "Focus on enterprise .NET deployments"
+      ],
+      "expansion_opportunities": [
+        "Add support for more .NET frameworks",
+        "Offer managed database services for .NET applications"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 714,
+      "completion": 594,
+      "total": 1308,
+      "estimated_cost": 0.000232
+    }
+  },
+  "phase8_complete": true
+}

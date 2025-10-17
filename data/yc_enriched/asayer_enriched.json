@@ -1,0 +1,807 @@
+{
+  "slug": "asayer",
+  "name": "OpenReplay",
+  "yc_id": 12637,
+  "batch": "Summer 2019",
+  "website": "https://www.openreplay.com/",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:49:15.422413",
+    "website": "https://www.openreplay.com/",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 1903.23,
+      "final_url": "https://www.openreplay.com/",
+      "redirected": false,
+      "checked_at": "2025-10-17T00:49:17.325663"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "openreplay.com",
+      "registrar": "GoDaddy.com, LLC",
+      "creation_date": "2020-05-28T19:01:22",
+      "expiration_date": "2027-05-28T19:01:22",
+      "domain_age_days": 1967,
+      "domain_age_years": 5.4,
+      "name_servers": [
+        "NS-1286.AWSDNS-32.ORG",
+        "NS-1918.AWSDNS-47.CO.UK",
+        "NS-509.AWSDNS-63.COM",
+        "NS-676.AWSDNS-20.NET"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": "https://github.com/openreplay/openreplay/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": true,
+      "x_frame_options": true,
+      "x_content_type_options": true,
+      "x_xss_protection": true,
+      "referrer_policy": true,
+      "security_score": 100,
+      "server": "AmazonS3"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:22:56.483126",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:22:40.632877",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "Paris, France",
+      "coordinates": {
+        "latitude": 48.8566,
+        "longitude": 2.3522
+      },
+      "timezone": {
+        "timezone_id": "Europe/Paris",
+        "timezone_name": "Europe/Paris"
+      },
+      "retrieved_at": "2025-10-17T10:14:38.765080",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:22:40.632990",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/openreplay"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 16,
+        "packages": [
+          {
+            "name": "@openreplay/tracker",
+            "description": "The OpenReplay tracker main package",
+            "version": "16.4.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@openreplay/tracker"
+          },
+          {
+            "name": "@openreplay/sourcemap-uploader",
+            "description": "NPM module to upload your JS sourcemaps files to OpenReplay",
+            "version": "3.0.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@openreplay/sourcemap-uploader"
+          },
+          {
+            "name": "@openreplay/react-native",
+            "description": "Openreplay React-native connector for iOS applications",
+            "version": "0.6.14",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@openreplay/react-native"
+          },
+          {
+            "name": "@openreplay/network-proxy",
+            "description": "this library helps us to create proxy objects for fetch, XHR and beacons for proper request tracking.",
+            "version": "1.2.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@openreplay/network-proxy"
+          },
+          {
+            "name": "@openreplay/tracker-assist",
+            "description": "Tracker plugin for screen assistance through the WebRTC",
+            "version": "11.0.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@openreplay/tracker-assist"
+          },
+          {
+            "name": "@openreplay/tracker-graphql",
+            "description": "Tracker plugin for GraphQL requests recording",
+            "version": "4.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@openreplay/tracker-graphql"
+          },
+          {
+            "name": "@openreplay/tracker-profiler",
+            "description": "Tracker plugin for profiling JS function calls",
+            "version": "3.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@openreplay/tracker-profiler"
+          },
+          {
+            "name": "@openreplay/tracker-vuex",
+            "description": "Tracker plugin for Vuex state recording",
+            "version": "4.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@openreplay/tracker-vuex"
+          },
+          {
+            "name": "@openreplay/tracker-redux",
+            "description": "Tracker plugin for Redux state recording",
+            "version": "4.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@openreplay/tracker-redux"
+          },
+          {
+            "name": "@openreplay/tracker-zustand",
+            "description": "Tracker plugin for Zustand state recording",
+            "version": "1.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@openreplay/tracker-zustand"
+          },
+          {
+            "name": "@openreplay/tracker-ngrx",
+            "description": "Tracker plugin for NgRx state recording",
+            "version": "3.4.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@openreplay/tracker-ngrx"
+          },
+          {
+            "name": "@adropla1/tracker",
+            "description": "The OpenReplay tracker main package",
+            "version": "4.1.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@adropla1/tracker"
+          },
+          {
+            "name": "@openreplay/tracker-mobx",
+            "description": "Tracker plugin for MobX events recording",
+            "version": "4.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@openreplay/tracker-mobx"
+          },
+          {
+            "name": "@adropla1/tracker-axios",
+            "description": "Tracker plugin for axios requests recording",
+            "version": "3.6.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@adropla1/tracker-axios"
+          },
+          {
+            "name": "@rubinsh/tracker-assist",
+            "description": "Tracker plugin for screen assistance through the WebRTC",
+            "version": "3.0.4-5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@rubinsh/tracker-assist"
+          },
+          {
+            "name": "@senyamur/tracker-assist",
+            "description": "Tracker plugin for screen assistance through the WebRTC",
+            "version": "4.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@senyamur/tracker-assist"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 16,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:22:42.173285"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:22:42.173312",
+    "batch_network": {
+      "batch": "Summer 2019",
+      "total_batch_mates": 175,
+      "active_batch_mates": 113,
+      "batch_success_rate": 64.6,
+      "notable_batch_mates": [
+        {
+          "name": "Together Software",
+          "slug": "together-software",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Learn from the experts at your company. "
+        },
+        {
+          "name": "PopSQL",
+          "slug": "popsql",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "SQL editor for teams"
+        },
+        {
+          "name": "Cuboh",
+          "slug": "cuboh",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "We help restaurants manage their online orders."
+        },
+        {
+          "name": "Palifer",
+          "slug": "palifer",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Predictive maintenance models for trains and heavy industry"
+        },
+        {
+          "name": "Symplex",
+          "slug": "symplex",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Applied Reinforcement Learning Research Laboratory"
+        },
+        {
+          "name": "Kraftful",
+          "slug": "kraftful",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Copilot for product teams"
+        },
+        {
+          "name": "Odeko",
+          "slug": "odeko",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "Our operations software makes it easier to run--and grow--your cafe"
+        },
+        {
+          "name": "Bayes",
+          "slug": "bayes",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": ""
+        },
+        {
+          "name": "Voyage Biomedical",
+          "slug": "voyage-biomedical",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Using cooling to end brain damage during stroke."
+        },
+        {
+          "name": "Intersect Labs",
+          "slug": "intersect-labs",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Collaborative data noteboook for business teams"
+        }
+      ],
+      "batch_size": 176
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Amiato",
+          "slug": "amiato",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "The BI bridge for unstructured data. We automatically bridge the gap\u2026"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Simple multiplayer game servers."
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Backlift allows front-end only developers to build entire websites\u2026"
+        },
+        {
+          "name": "Documents.Me",
+          "slug": "documents-me",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Client-side encryption for your devices and the cloud."
+        },
+        {
+          "name": "Apollo",
+          "slug": "apollo",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Apollo helps engineering teams accelerate delivery"
+        },
+        {
+          "name": "Proxino",
+          "slug": "proxino",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Javascript proxy."
+        },
+        {
+          "name": "PhoneSys",
+          "slug": "phonesys",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "The Phone System for Sales Teams."
+        },
+        {
+          "name": "Cryptoseal",
+          "slug": "cryptoseal",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Server key management, VPN as a Service, Privacy VPN.  Sold to\u2026"
+        },
+        {
+          "name": "Citus Data",
+          "slug": "citus-data",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Real-time. Big data. PostgreSQL"
+        },
+        {
+          "name": "Realm",
+          "slug": "realm",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Better data structures = no DB."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Paris",
+      "location": "Paris, \u00cele-de-France, France",
+      "companies_in_city": 55,
+      "active_in_city": 36,
+      "nearby_companies": [
+        {
+          "name": "Motionlead",
+          "slug": "motionlead",
+          "batch": "Winter 2014",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Hublo",
+          "slug": "hublo",
+          "batch": "Summer 2014",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Afrostream",
+          "slug": "afrostream",
+          "batch": "Summer 2015",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Whyd",
+          "slug": "whyd",
+          "batch": "Summer 2016",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Bulldozair",
+          "slug": "bulldozair",
+          "batch": "Summer 2016",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Request Network",
+          "slug": "request-network",
+          "batch": "Winter 2017",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Anasen",
+          "slug": "anasen",
+          "batch": "Winter 2017",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Airthium",
+          "slug": "airthium",
+          "batch": "Summer 2017",
+          "industry": "Industrials",
+          "status": "Active"
+        },
+        {
+          "name": "Goosebump",
+          "slug": "goosebump",
+          "batch": "Summer 2017",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Station",
+          "slug": "station",
+          "batch": "Winter 2018",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Mojo",
+          "slug": "mojo",
+          "batch": "Winter 2018",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Dashblock",
+          "slug": "dashblock",
+          "batch": "Summer 2019",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Data Mechanics",
+          "slug": "data-mechanics",
+          "batch": "Summer 2019",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Multis",
+          "slug": "multis",
+          "batch": "Summer 2019",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Photoroom",
+          "slug": "photoroom",
+          "batch": "Summer 2020",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Riot",
+          "slug": "riot",
+          "batch": "Winter 2020",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Jitter",
+          "slug": "jitter",
+          "batch": "Winter 2020",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Mailwarm",
+          "slug": "mailwarm",
+          "batch": "Summer 2020",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "OneKey",
+          "slug": "onekey",
+          "batch": "Summer 2020",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Nextstore",
+          "slug": "nextstore",
+          "batch": "Summer 2020",
+          "industry": "B2B",
+          "status": "Inactive"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Data Mechanics",
+        "slug": "data-mechanics",
+        "batch": "Summer 2019",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Bun",
+        "slug": "bun",
+        "batch": "Summer 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Prompt",
+        "slug": "prompt",
+        "batch": "Summer 2019",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Preclusio",
+        "slug": "preclusio",
+        "batch": "Summer 2019",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Narrator",
+        "slug": "narrator",
+        "batch": "Summer 2019",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Dashblock",
+        "slug": "dashblock",
+        "batch": "Summer 2019",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Wasmer",
+        "slug": "wasmer",
+        "batch": "Summer 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Flow",
+        "slug": "flow",
+        "batch": "Summer 2019",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Freshpaint",
+        "slug": "freshpaint",
+        "batch": "Summer 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Flowbot",
+        "slug": "flowbot",
+        "batch": "Summer 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 2976,
+      "network_density_score": 86.0,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:22:42.195994"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:22:42.195998",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:22:42.553244",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:22:42.643402",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 11,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:26.817498",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "medium",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increased demand for user behavior analytics",
+        "Growing importance of data privacy and control",
+        "Adoption of open-source solutions in development tools"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Open-source nature fosters community and contributions; self-hosting provides data control.",
+      "differentiation": "Open-source and self-hosted alternative to proprietary session replay tools.",
+      "competitive_advantages": [
+        "Data privacy and control",
+        "Cost-effectiveness through self-hosting",
+        "Community-driven development"
+      ],
+      "competitive_vulnerabilities": [
+        "Requires more technical expertise to set up and maintain",
+        "Potential fragmentation of community support compared to centralized vendors"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS (likely offering premium features, support, or managed hosting)",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "series-a",
+      "growth_indicators": [
+        "Community growth and contributions",
+        "Adoption rate among developers",
+        "Number of active installations"
+      ],
+      "growth_bottlenecks": [
+        "Awareness and adoption outside of the open-source community",
+        "Complexity of self-hosting for non-technical users"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Competition from established players",
+        "Maintaining active community and contributions",
+        "Security vulnerabilities in self-hosted environments"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong value proposition for privacy-conscious developers",
+        "Leverages the open-source community for development and support",
+        "Addresses a growing market need for user behavior analytics"
+      ],
+      "concerns": [
+        "Reliance on community contributions for long-term maintenance",
+        "Potential challenges in scaling a self-hosted solution"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "LogRocket",
+        "FullStory"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Develop a managed hosting solution to simplify setup",
+        "Focus on building a strong community and contributor base"
+      ],
+      "expansion_opportunities": [
+        "Integrate with other developer tools and platforms",
+        "Offer enterprise-grade security and compliance features"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 642,
+      "completion": 568,
+      "total": 1210,
+      "estimated_cost": 0.000219
+    }
+  },
+  "phase8_complete": true
+}

@@ -1,0 +1,664 @@
+{
+  "slug": "doordash",
+  "name": "DoorDash",
+  "yc_id": 531,
+  "batch": "Summer 2013",
+  "website": "http://doordash.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:33:04.619122",
+    "website": "http://doordash.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 403,
+      "response_time_ms": 322.88,
+      "final_url": "https://www.doordash.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:33:04.942013"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "doordash.com",
+      "registrar": "MarkMonitor, Inc.",
+      "creation_date": "2013-06-18T19:11:18",
+      "expiration_date": "2031-06-18T19:11:18",
+      "domain_age_days": 4503,
+      "domain_age_years": 12.3,
+      "name_servers": [
+        "NS1.DOORDASH.COM",
+        "NS2.DOORDASH.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": true,
+      "x_content_type_options": true,
+      "x_xss_protection": false,
+      "referrer_policy": true,
+      "security_score": 66,
+      "server": "cloudflare"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:14:02.538379",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:06:37.683471",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "San Francisco, CA, USA",
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:03:07.888811",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:06:37.683504",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:06:37.683508",
+    "batch_network": {
+      "batch": "Summer 2013",
+      "total_batch_mates": 51,
+      "active_batch_mates": 10,
+      "batch_success_rate": 19.6,
+      "notable_batch_mates": [
+        {
+          "name": "URX",
+          "slug": "urx",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Mobile ads that users like. Acquired by Pinterest in May 2016."
+        },
+        {
+          "name": "Apptimize",
+          "slug": "apptimize",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Apptimize lets mobile teams innovate faster to create an amazing user\u2026"
+        },
+        {
+          "name": "Standard Treasury",
+          "slug": "standard-treasury",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Banking APIs; acquired by Silicon Valley Bank in August 2015"
+        },
+        {
+          "name": "BloomThat",
+          "slug": "bloomthat",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Uber for Flowers."
+        },
+        {
+          "name": "Hackermeter",
+          "slug": "hackermeter",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Replacing resume screening with code challenges."
+        },
+        {
+          "name": "CoreOS",
+          "slug": "coreos",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Open source tools of modern distributed systems."
+        },
+        {
+          "name": "SimpleLegal",
+          "slug": "simplelegal",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Legal Operations for corporate legal teams."
+        },
+        {
+          "name": "SpoonRocket",
+          "slug": "spoonrocket",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Meals Delivered in 10 Minutes"
+        },
+        {
+          "name": "Casetext",
+          "slug": "casetext",
+          "status": "Acquired",
+          "top_company": null,
+          "one_liner": "We make the world's laws free and understandable. "
+        },
+        {
+          "name": "Layer By Layer",
+          "slug": "layer-by-layer",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Acquired by MakerBot in February 2014. \r\n\r\nA marketplace for 3D\u2026"
+        }
+      ],
+      "batch_size": 52
+    },
+    "industry_network": {
+      "industries": [
+        "Consumer",
+        "Food and Beverage"
+      ],
+      "total_industry_peers": 852,
+      "active_industry_peers": 408,
+      "direct_competitors": [
+        {
+          "name": "Grouper",
+          "slug": "grouper",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "We set up drinks between 2 groups of friends: 3 guys and 3 girls."
+        },
+        {
+          "name": "PayDragon",
+          "slug": "paydragon",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Hyperlinking the real world."
+        },
+        {
+          "name": "Caviar",
+          "slug": "caviar",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Uber for food."
+        },
+        {
+          "name": "OrderAhead",
+          "slug": "orderahead",
+          "status": "Acquired",
+          "batch": "Winter 2011",
+          "one_liner": "Order ahead for pickup"
+        },
+        {
+          "name": "Foodoro",
+          "slug": "foodoro",
+          "status": "Inactive",
+          "batch": "Winter 2009",
+          "one_liner": ""
+        },
+        {
+          "name": "Soylent",
+          "slug": "soylent",
+          "status": "Acquired",
+          "batch": "Summer 2012",
+          "one_liner": "Soylent is a simple, nutritious, and affordable food that possesses\u2026"
+        },
+        {
+          "name": "Instacart",
+          "slug": "instacart",
+          "status": "Public",
+          "batch": "Summer 2012",
+          "one_liner": "Marketplace for grocery delivery and pickup"
+        },
+        {
+          "name": "Goldbelly",
+          "slug": "goldbelly",
+          "status": "Active",
+          "batch": "Winter 2013",
+          "one_liner": "Empowering restaurants and small food makers to ship nationwide."
+        },
+        {
+          "name": "SpoonRocket",
+          "slug": "spoonrocket",
+          "status": "Acquired",
+          "batch": "Summer 2013",
+          "one_liner": "Meals Delivered in 10 Minutes"
+        },
+        {
+          "name": "Gobble",
+          "slug": "gobble",
+          "status": "Acquired",
+          "batch": "Winter 2014",
+          "one_liner": "Daily meal delivery, personalized to your tastes."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "San Francisco",
+      "location": "San Francisco, CA, USA",
+      "companies_in_city": 2007,
+      "active_in_city": 1340,
+      "nearby_companies": [
+        {
+          "name": "42Floors",
+          "slug": "42floors",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "PlanGrid",
+          "slug": "plangrid",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "MyVR",
+          "slug": "myvr",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Couple",
+          "slug": "couple",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HackPad",
+          "slug": "hackpad",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Gusto",
+          "slug": "gusto",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "FamilyLeaf",
+          "slug": "familyleaf",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Chute",
+          "slug": "chute",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Make School",
+          "slug": "make-school",
+          "batch": "Winter 2012",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Exec",
+          "slug": "exec",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Public"
+        },
+        {
+          "name": "LendUp",
+          "slug": "lendup",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tilt",
+          "slug": "tilt",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fond",
+          "slug": "fond",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "BloomThat",
+        "slug": "bloomthat",
+        "batch": "Summer 2013",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "SpoonRocket",
+        "slug": "spoonrocket",
+        "batch": "Summer 2013",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Le Tote",
+        "slug": "le-tote",
+        "batch": "Summer 2013",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Bop.fm",
+        "slug": "bop-fm",
+        "batch": "Summer 2013",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Lumoid",
+        "slug": "lumoid",
+        "batch": "Summer 2013",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Caviar",
+        "slug": "caviar",
+        "batch": "Summer 2011",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "OrderAhead",
+        "slug": "orderahead",
+        "batch": "Winter 2011",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Foodoro",
+        "slug": "foodoro",
+        "batch": "Winter 2009",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Instacart",
+        "slug": "instacart",
+        "batch": "Summer 2012",
+        "industry": "Consumer",
+        "status": "Public",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Zenamins",
+        "slug": "zenamins",
+        "batch": "Summer 2014",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 2910,
+      "network_density_score": 90.2,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:06:37.692282"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:06:37.692288",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:06:38.022983",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:06:38.123224",
+    "basic_info": {
+      "is_hiring": true,
+      "team_size": 8600,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:46:52.801785",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "mature",
+      "key_trends": [
+        "Ghost kitchens and virtual restaurants",
+        "Autonomous delivery vehicles and drones",
+        "Expansion into grocery and retail delivery"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Strong network effects with dense driver and restaurant coverage, proprietary logistics optimization technology, and data-driven demand prediction",
+      "differentiation": "Superior logistics technology, DashPass subscription model, and comprehensive merchant services platform",
+      "competitive_advantages": [
+        "Market leading position in US delivery",
+        "Advanced logistics and routing algorithms"
+      ],
+      "competitive_vulnerabilities": [
+        "High customer acquisition costs",
+        "Regulatory pressure on gig worker classification"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "marketplace",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "mature",
+      "growth_indicators": [
+        "Successful IPO in 2020",
+        "Expansion beyond food delivery into retail"
+      ],
+      "growth_bottlenecks": [
+        "Market saturation in core markets",
+        "Margin pressure from competition"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "low",
+      "overall_risk_score": 3,
+      "key_risks": [
+        "Regulatory changes affecting gig workers",
+        "Intense competition from Uber Eats and others",
+        "Economic downturn reducing discretionary spending"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Dominant market position",
+        "Strong technology platform",
+        "Diversified revenue streams beyond food delivery"
+      ],
+      "concerns": [
+        "Path to profitability challenges",
+        "High competitive intensity"
+      ],
+      "exit_potential": "IPO",
+      "comparable_companies": [
+        "Uber Eats",
+        "Grubhub"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on profitability optimization",
+        "Expand international presence"
+      ],
+      "expansion_opportunities": [
+        "Autonomous delivery technology",
+        "B2B logistics services for enterprises"
+      ]
+    },
+    "tokens_used": {
+      "input": 727,
+      "output": 533,
+      "total": 1260,
+      "estimated_cost": 0.010176
+    }
+  },
+  "phase8_complete": true
+}

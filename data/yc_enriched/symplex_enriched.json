@@ -1,0 +1,626 @@
+{
+  "slug": "symplex",
+  "name": "Symplex",
+  "yc_id": 12549,
+  "batch": "Summer 2019",
+  "website": "",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:48:29.576359",
+    "status": "no_website"
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:22:33.069547",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:22:22.625038",
+    "place_data": {
+      "status": "success",
+      "method": "nominatim",
+      "formatted_address": "City of New York, New York, United States",
+      "coordinates": {
+        "latitude": 40.7127281,
+        "longitude": -74.0060152
+      },
+      "place_types": [
+        "administrative"
+      ],
+      "retrieved_at": "2025-10-17T10:12:57.698487",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:22:22.625162",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:22:22.625174",
+    "batch_network": {
+      "batch": "Summer 2019",
+      "total_batch_mates": 175,
+      "active_batch_mates": 114,
+      "batch_success_rate": 65.1,
+      "notable_batch_mates": [
+        {
+          "name": "Together Software",
+          "slug": "together-software",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Learn from the experts at your company. "
+        },
+        {
+          "name": "PopSQL",
+          "slug": "popsql",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "SQL editor for teams"
+        },
+        {
+          "name": "Cuboh",
+          "slug": "cuboh",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "We help restaurants manage their online orders."
+        },
+        {
+          "name": "Palifer",
+          "slug": "palifer",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Predictive maintenance models for trains and heavy industry"
+        },
+        {
+          "name": "Kraftful",
+          "slug": "kraftful",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Copilot for product teams"
+        },
+        {
+          "name": "Odeko",
+          "slug": "odeko",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "Our operations software makes it easier to run--and grow--your cafe"
+        },
+        {
+          "name": "Bayes",
+          "slug": "bayes",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": ""
+        },
+        {
+          "name": "Voyage Biomedical",
+          "slug": "voyage-biomedical",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Using cooling to end brain damage during stroke."
+        },
+        {
+          "name": "Intersect Labs",
+          "slug": "intersect-labs",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Collaborative data noteboook for business teams"
+        },
+        {
+          "name": "Actiondesk",
+          "slug": "actiondesk",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Access all your live data in one place"
+        }
+      ],
+      "batch_size": 176
+    },
+    "industry_network": {
+      "industries": [
+        "B2B"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1969,
+      "direct_competitors": [
+        {
+          "name": "MixRank",
+          "slug": "mixrank",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Data products for sales, marketing, finance, recruiting, and more."
+        },
+        {
+          "name": "Memamp",
+          "slug": "memamp",
+          "status": "Inactive",
+          "batch": "Summer 2005",
+          "one_liner": ""
+        },
+        {
+          "name": "Submittable",
+          "slug": "submittable",
+          "status": "Active",
+          "batch": "Summer 2012",
+          "one_liner": "The best way to launch, manage and measure social impact programs"
+        },
+        {
+          "name": "Benchling",
+          "slug": "benchling",
+          "status": "Active",
+          "batch": "Summer 2012",
+          "one_liner": "Unlocking the power of biotech with modern software for modern science"
+        },
+        {
+          "name": "Asseta",
+          "slug": "asseta",
+          "status": "Active",
+          "batch": "Summer 2013",
+          "one_liner": "Marketplace for industrial spare parts and capital equipment."
+        },
+        {
+          "name": "TrueVault",
+          "slug": "truevault",
+          "status": "Active",
+          "batch": "Winter 2014",
+          "one_liner": "We make Privacy Software for SMBs."
+        },
+        {
+          "name": "Magic",
+          "slug": "magic",
+          "status": "Active",
+          "batch": "Winter 2015",
+          "one_liner": "Extremely talented assistants for busy people"
+        },
+        {
+          "name": "Mason",
+          "slug": "mason",
+          "status": "Active",
+          "batch": "Winter 2016",
+          "one_liner": "Mason is the fastest way to take smart devices from idea to end user"
+        },
+        {
+          "name": "Bus.com",
+          "slug": "bus-com",
+          "status": "Inactive",
+          "batch": "Winter 2016",
+          "one_liner": "The easiest way to charter a bus in North America."
+        },
+        {
+          "name": "Livement",
+          "slug": "livement",
+          "status": "Active",
+          "batch": "Summer 2016",
+          "one_liner": "Livement makes selling tickets for events easy and safe for organizers"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "New York",
+      "location": "New York, NY, USA",
+      "companies_in_city": 523,
+      "active_in_city": 398,
+      "nearby_companies": [
+        {
+          "name": "The Muse",
+          "slug": "the-muse",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "HireArt",
+          "slug": "hireart",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Shoptiques",
+          "slug": "shoptiques",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Grouper",
+          "slug": "grouper",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "99dresses",
+          "slug": "99dresses",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Codecademy",
+          "slug": "codecademy",
+          "batch": "Summer 2011",
+          "industry": "Education",
+          "status": "Acquired"
+        },
+        {
+          "name": "Custora",
+          "slug": "custora",
+          "batch": "Winter 2011",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Recurse Center",
+          "slug": "recurse-center",
+          "batch": "Summer 2010",
+          "industry": "Education",
+          "status": "Active"
+        },
+        {
+          "name": "MessageParty",
+          "slug": "messageparty",
+          "batch": "Summer 2010",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Fabricly",
+          "slug": "fabricly",
+          "batch": "Winter 2010",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "RentHop",
+          "slug": "renthop",
+          "batch": "Summer 2009",
+          "industry": "Real Estate and Construction",
+          "status": "Active"
+        },
+        {
+          "name": "Youlicit",
+          "slug": "youlicit",
+          "batch": "Summer 2008",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "SocialPicks",
+          "slug": "socialpicks",
+          "batch": "Summer 2007",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Octopart",
+          "slug": "octopart",
+          "batch": "Winter 2007",
+          "industry": "Industrials",
+          "status": "Acquired"
+        },
+        {
+          "name": "OMGPop",
+          "slug": "omgpop",
+          "batch": "Summer 2006",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Canopy Labs",
+          "slug": "canopy-labs",
+          "batch": "Summer 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Fullstack Academy",
+          "slug": "fullstack-academy",
+          "batch": "Summer 2012",
+          "industry": "Education",
+          "status": "Acquired"
+        },
+        {
+          "name": "DataNitro",
+          "slug": "datanitro",
+          "batch": "Summer 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "SmartAsset",
+          "slug": "smartasset",
+          "batch": "Summer 2012",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "StyleUp",
+          "slug": "styleup",
+          "batch": "Winter 2013",
+          "industry": "Consumer",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Superorder",
+        "slug": "superorder",
+        "batch": "Summer 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Dover",
+        "slug": "dover",
+        "batch": "Summer 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "ReverCare",
+        "slug": "revercare",
+        "batch": "Summer 2019",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Odeko",
+        "slug": "odeko",
+        "batch": "Summer 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Narrator",
+        "slug": "narrator",
+        "batch": "Summer 2019",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Lightwell",
+        "slug": "lightwell",
+        "batch": "Summer 2019",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Rutter",
+        "slug": "rutter",
+        "batch": "Summer 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Flowbot",
+        "slug": "flowbot",
+        "batch": "Summer 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Unflow",
+        "slug": "unflow",
+        "batch": "Summer 2019",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Hutsy",
+        "slug": "hutsy",
+        "batch": "Summer 2019",
+        "industry": "Real Estate and Construction",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 3444,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:22:22.687370"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:22:22.687380",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:22:23.015272",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:22:23.102916",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 8,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:44:33.783901",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "AI/ML infrastructure demand surge",
+        "Enterprise AI adoption acceleration",
+        "Reinforcement learning commercialization"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Deep reinforcement learning expertise and research capabilities in applied settings",
+      "differentiation": "Focus on applied RL research rather than general AI tooling",
+      "competitive_advantages": [
+        "Specialized RL knowledge",
+        "Research-to-production pipeline"
+      ],
+      "competitive_vulnerabilities": [
+        "Limited scale vs big tech",
+        "Narrow specialization risk"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "B2B research services/consulting",
+      "scalability": "medium",
+      "capital_intensity": "high"
+    },
+    "growth_assessment": {
+      "growth_stage": "mature",
+      "growth_indicators": [
+        "Successful acquisition by Scale AI",
+        "8-person team scale"
+      ],
+      "growth_bottlenecks": [
+        "Talent acquisition in specialized field",
+        "Research-to-product timeline"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "low",
+      "technology_risk": "medium",
+      "execution_risk": "low",
+      "overall_risk_score": 3,
+      "key_risks": [
+        "Technology commoditization",
+        "Talent retention",
+        "Research commercialization challenges"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Acquired by leading AI infrastructure company",
+        "Specialized RL expertise",
+        "Strong team execution"
+      ],
+      "concerns": [
+        "Limited standalone scalability",
+        "Narrow market focus"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Covariant",
+        "OpenAI",
+        "DeepMind"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Leverage Scale AI's distribution",
+        "Expand RL applications"
+      ],
+      "expansion_opportunities": [
+        "Robotics applications",
+        "Gaming industry solutions"
+      ]
+    },
+    "tokens_used": {
+      "input": 617,
+      "output": 500,
+      "total": 1117,
+      "estimated_cost": 0.009351
+    }
+  },
+  "phase8_complete": true
+}

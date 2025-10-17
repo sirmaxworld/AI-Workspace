@@ -1,0 +1,575 @@
+{
+  "slug": "democracy-earth",
+  "name": "Democracy Earth",
+  "yc_id": 760,
+  "batch": "Winter 2015",
+  "website": "http://democracy.earth/",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:34:48.724804",
+    "website": "http://democracy.earth/",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 504.85,
+      "final_url": "https://democracy.earth/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:34:49.229674"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "democracy.earth",
+      "registrar": "1API GmbH",
+      "creation_date": "2015-10-21T14:43:47",
+      "expiration_date": "2026-10-20T23:59:59",
+      "domain_age_days": 3648,
+      "domain_age_years": 10.0,
+      "name_servers": [
+        "ns1.dnsimple.com",
+        "ns2.dnsimple.com",
+        "ns3.dnsimple.com",
+        "ns4.dnsimple.com"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/HerbStephens",
+      "linkedin": null,
+      "github": "https://github.com/DemocracyEarth/paper",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": false,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 0,
+      "server": "cloudflare"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:15:17.973625",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:15:05.717197",
+    "place_data": {
+      "status": "not_found",
+      "query": "Madrid, Community of Madrid, Spain; Remote",
+      "methods_tried": [
+        "static_db",
+        "nominatim",
+        "geonames"
+      ]
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:15:06.802909",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/DemocracyEarth"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 0,
+      "has_packages": false,
+      "checked_at": "2025-10-17T10:15:08.313023"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:15:08.313032",
+    "batch_network": {
+      "batch": "Winter 2015",
+      "total_batch_mates": 110,
+      "active_batch_mates": 41,
+      "batch_success_rate": 37.3,
+      "notable_batch_mates": [
+        {
+          "name": "Notable Labs",
+          "slug": "notable-labs",
+          "status": "Public",
+          "top_company": true,
+          "one_liner": "Personalized drug discovery for blood cancer."
+        },
+        {
+          "name": "Final",
+          "slug": "final",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A credit card that drastically reduces payment fraud and gives\u2026"
+        },
+        {
+          "name": "Pomello",
+          "slug": "pomello",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Analytics software that helps companies measure organizational\u2026"
+        },
+        {
+          "name": "Tech in Asia",
+          "slug": "tech-in-asia",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Tech in Asia (YC W15) is the largest English-language technology\u2026"
+        },
+        {
+          "name": "Smyte",
+          "slug": "smyte",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Smyte stops bad actors on social networks and marketplaces."
+        },
+        {
+          "name": "Bizzy",
+          "slug": "bizzy",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Bizzy is omni-channel marketing for ecommerce businesses."
+        },
+        {
+          "name": "Bluesmart",
+          "slug": "bluesmart",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Bluesmart makes smart luggage powered by an app to empower people to\u2026"
+        },
+        {
+          "name": "CyberFend",
+          "slug": "cyberfend",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Cyberfend delivers robust, real-time web and mobile security by\u2026"
+        },
+        {
+          "name": "GrubMarket",
+          "slug": "grubmarket",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "AI-powered technology enabler and digital transformer of American\u2026"
+        },
+        {
+          "name": "WorkLife",
+          "slug": "worklife",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "WorkLife is a SaaS application that helps teams have more effective\u2026"
+        }
+      ],
+      "batch_size": 111
+    },
+    "industry_network": {
+      "industries": [
+        "Unspecified"
+      ],
+      "total_industry_peers": 17,
+      "active_industry_peers": 16,
+      "direct_competitors": [
+        {
+          "name": "CodeNow",
+          "slug": "codenow",
+          "status": "Active",
+          "batch": "Winter 2014",
+          "one_liner": "Our mission is to diversify the talent pipeline of students who\u2026"
+        },
+        {
+          "name": "One Degree",
+          "slug": "one-degree",
+          "status": "Active",
+          "batch": "Winter 2014",
+          "one_liner": "One Degree is a nonprofit organization that makes it easy for\u2026"
+        },
+        {
+          "name": "OpenCurriculum",
+          "slug": "opencurriculum",
+          "status": "Active",
+          "batch": "Winter 2014",
+          "one_liner": "Helping K-12 teachers and school administrators build awesome\u2026"
+        },
+        {
+          "name": "Immunity Project",
+          "slug": "immunity-project",
+          "status": "Active",
+          "batch": "Winter 2014",
+          "one_liner": "The free HIV vaccine."
+        },
+        {
+          "name": "Bayes Impact",
+          "slug": "bayes-impact",
+          "status": "Active",
+          "batch": "Summer 2014",
+          "one_liner": "Tech nonprofit building the future of public services."
+        },
+        {
+          "name": "The Human Utility",
+          "slug": "the-human-utility",
+          "status": "Active",
+          "batch": "Winter 2015",
+          "one_liner": "The Human Utility seeks to eliminate water service disconnections for\u2026"
+        },
+        {
+          "name": "SIRUM",
+          "slug": "sirum",
+          "status": "Active",
+          "batch": "Winter 2015",
+          "one_liner": "SIRUM is a \u201cmatch.com\u201d for unused medicine. We connect institutional\u2026"
+        },
+        {
+          "name": "Leaders In Tech (formerly InnerSpace)",
+          "slug": "leaders-in-tech",
+          "status": "Active",
+          "batch": "Summer 2015",
+          "one_liner": "Helping founders improve themselves, their companies, and the world."
+        },
+        {
+          "name": "80,000 Hours",
+          "slug": "80-000-hours",
+          "status": "Active",
+          "batch": "Summer 2015",
+          "one_liner": "An online guide that tells talented graduates how to maximise the\u2026"
+        },
+        {
+          "name": "mRelief",
+          "slug": "mrelief",
+          "status": "Active",
+          "batch": "Winter 2016",
+          "one_liner": "mRelief has built an easy-to-use platform and web and text messaging\u2026"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Madrid",
+      "location": "Madrid, Community of Madrid, Spain; Remote",
+      "companies_in_city": 5,
+      "active_in_city": 4,
+      "nearby_companies": [
+        {
+          "name": "Payflow",
+          "slug": "payflow",
+          "batch": "Summer 2021",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Fuell",
+          "slug": "fuell",
+          "batch": "Winter 2022",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "SNAB",
+          "slug": "snab",
+          "batch": "Winter 2022",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Invofox",
+          "slug": "invofox",
+          "batch": "Summer 2022",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Invopop",
+          "slug": "invopop",
+          "batch": "Winter 2023",
+          "industry": "B2B",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "low"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "The Human Utility",
+        "slug": "the-human-utility",
+        "batch": "Winter 2015",
+        "industry": "Unspecified",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "SIRUM",
+        "slug": "sirum",
+        "batch": "Winter 2015",
+        "industry": "Unspecified",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Notable Labs",
+        "slug": "notable-labs",
+        "batch": "Winter 2015",
+        "industry": "Healthcare",
+        "status": "Public",
+        "similarity_score": 4,
+        "similarity_reasons": [
+          "same_batch",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Qventus",
+        "slug": "qventus",
+        "batch": "Winter 2015",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 4,
+        "similarity_reasons": [
+          "same_batch",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "3dot",
+        "slug": "3dot",
+        "batch": "Winter 2015",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 4,
+        "similarity_reasons": [
+          "same_batch",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Final",
+        "slug": "final",
+        "batch": "Winter 2015",
+        "industry": "Fintech",
+        "status": "Acquired",
+        "similarity_score": 4,
+        "similarity_reasons": [
+          "same_batch",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Pomello",
+        "slug": "pomello",
+        "batch": "Winter 2015",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 4,
+        "similarity_reasons": [
+          "same_batch",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Tech in Asia",
+        "slug": "tech-in-asia",
+        "batch": "Winter 2015",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 4,
+        "similarity_reasons": [
+          "same_batch",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "20n",
+        "slug": "20n",
+        "batch": "Winter 2015",
+        "industry": "Healthcare",
+        "status": "Inactive",
+        "similarity_score": 4,
+        "similarity_reasons": [
+          "same_batch",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Akido Labs",
+        "slug": "akido-labs",
+        "batch": "Winter 2015",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 4,
+        "similarity_reasons": [
+          "same_batch",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 132,
+      "network_density_score": 24.4,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": false,
+      "has_strong_geo_network": false,
+      "calculated_at": "2025-10-17T10:15:08.322144"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:15:08.322149",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:15:08.689649",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:15:08.779014",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 2,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:42:03.736431",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "medium",
+      "market_stage": "emerging",
+      "key_trends": [
+        "Increased demand for transparent governance",
+        "Rise of decentralized technologies",
+        "Growing distrust in traditional institutions"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Open-source technology, early mover advantage, network effects (if adoption grows)",
+      "differentiation": "Focus on censorship-resistant, decentralized governance solutions.",
+      "competitive_advantages": [
+        "First-mover advantage in decentralized governance",
+        "Strong ideological alignment with crypto communities"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on niche market adoption",
+        "Potential for open-source code to be forked and replicated"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "low"
+    },
+    "growth_assessment": {
+      "growth_stage": "seed",
+      "growth_indicators": [
+        "Partnerships with crypto networks",
+        "Adoption by activist groups",
+        "Implementation in legislative bodies"
+      ],
+      "growth_bottlenecks": [
+        "Limited mainstream adoption",
+        "Regulatory uncertainty",
+        "Scalability of governance models"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "high",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 7,
+      "key_risks": [
+        "Lack of widespread adoption of decentralized governance",
+        "Regulatory hurdles and legal challenges",
+        "Security vulnerabilities in open-source software"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong mission and vision",
+        "Early mover advantage in a growing market",
+        "Potential to disrupt traditional governance models"
+      ],
+      "concerns": [
+        "Unproven business model",
+        "High market risk due to regulatory uncertainty",
+        "Dependence on niche communities"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Aragon",
+        "DAOstack"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on building partnerships with organizations seeking transparent governance",
+        "Develop a clear and sustainable revenue model",
+        "Address regulatory concerns and build trust with stakeholders"
+      ],
+      "expansion_opportunities": [
+        "Expand into corporate governance solutions",
+        "Offer consulting services to organizations implementing decentralized governance",
+        "Develop educational resources to promote adoption"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 702,
+      "completion": 537,
+      "total": 1239,
+      "estimated_cost": 0.000214
+    }
+  },
+  "phase8_complete": true
+}

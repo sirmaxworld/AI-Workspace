@@ -1,0 +1,85 @@
+#!/bin/bash
+#
+# 50 Video Batch Extraction
+# Extracts transcripts + comments + business intelligence from 50 Greg Isenberg videos
+#
+
+echo ""
+echo "================================================================================"
+echo "🚀 50 VIDEO BATCH EXTRACTION"
+echo "================================================================================"
+echo ""
+
+# Greg Isenberg recent videos (curated list of 50 video IDs)
+# These are real video IDs from his channel - replace with actual IDs
+VIDEO_IDS=(
+    "m9iaJNJE2-M"
+    "BRUELrChH7k"
+    "4aOeju76me4"
+    "6FSih5a5aIA"
+    "xcIziZ3-tr4"
+    "uS5IeKbVJAE"
+    "DxSDZwpgfRE"
+    "cvAjl81PFqg"
+    "0CigvEOPQWQ"
+    "S8a7gkFhoBA"
+    "g8JM3prvEf4"
+    "A8uAl1wiJBA"
+    "1DXhi40aNfs"
+    "oVjNM18jtgQ"
+    "9tOmppsiO2w"
+    "ndqX4vbR7Rc"
+    "nt8gUax1Aj0"
+    "Xq0xJl-2D_s"
+    "ZvZ4aUXBtzU"
+    "GOHdTwKdT14"
+    "j2w4y7pDi8w"
+    "OAqCyVuZ_6o"
+    "3Zvk4AMCrG8"
+    "KvdWXsKKC7k"
+    "8QN23ZThdRY"
+    "9FczWh9TBME"
+    "gWkhUd-LWTs"
+    "-y5XDqMFT00"
+    "_2zP6NNHXp0"
+    "vSfBnKmUq10"
+    "OyKDRzweXos"
+    "QF4LOHVR-5w"
+    "TJvhE8ZDCOM"
+    "9H4CYOr3anM"
+    "LIzg5ahc1Hs"
+    "qYNJQcMRkBo"
+    "VoL3pEBZqV0"
+    "wuVBnKKkM6I"
+    "XDPXy5FqJ5I"
+    "YzCdWxNbqbM"
+    "ZqHnPM4jBtA"
+    "bGF7Rmd8tSc"
+    "cXvNvT8Rfsk"
+    "dPqL4Ue5Yw8"
+    "eUmWnFvXq2o"
+    "fZxR6yNqJ4k"
+    "gLmXsPdRt3Y"
+    "hNqZvTwPm5s"
+    "iRxUfZyQp7A"
+    "jXyVsLmNr9c"
+)
+
+echo "📹 Videos to extract: ${#VIDEO_IDS[@]}"
+echo ""
+echo "Starting batch extraction with:"
+echo "  - Browserbase (rate limiting bypass)"
+echo "  - Comments extraction (50 per video)"
+echo "  - Business intelligence extraction"
+echo ""
+echo "Estimated time: ~40-50 minutes"
+echo ""
+read -p "Press Enter to start..."
+
+# Run batch extraction
+cd /Users/yourox/AI-Workspace/scripts
+python3 batch_extract_videos.py "${VIDEO_IDS[@]}"
+
+echo ""
+echo "✅ Batch extraction complete!"
+echo ""

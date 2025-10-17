@@ -1,0 +1,651 @@
+{
+  "slug": "oico",
+  "name": "Oico",
+  "yc_id": 21984,
+  "batch": "Summer 2020",
+  "website": "https://en.oico.com.br/",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:56:09.264953",
+    "website": "https://en.oico.com.br/",
+    "website_status": {
+      "reachable": false,
+      "error": "ssl_error"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "en.oico.com.br",
+      "registrar": null,
+      "creation_date": "2019-12-09T00:00:00",
+      "expiration_date": "2030-12-09T00:00:00",
+      "domain_age_days": 2139,
+      "domain_age_years": 5.9,
+      "name_servers": [
+        "ns1.dnsimple.com",
+        "ns2.dnsimple.com",
+        "ns3.dnsimple.com",
+        "ns4.dnsimple.com"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "error": "HTTPSConnectionPool(host='en.oico.com.br', port=443): Max retries exceeded with url: / (Caused by SS"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:25:26.059019",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:25:16.959496",
+    "place_data": {
+      "status": "success",
+      "method": "nominatim",
+      "formatted_address": "S\u00e3o Paulo, Regi\u00e3o Imediata de S\u00e3o Paulo, Regi\u00e3o Metropolitana de S\u00e3o Paulo, Regi\u00e3o Geogr\u00e1fica Intermedi\u00e1ria de S\u00e3o Paulo, S\u00e3o Paulo, Regi\u00e3o Sudeste, Brasil",
+      "coordinates": {
+        "latitude": -23.5506507,
+        "longitude": -46.6333824
+      },
+      "place_types": [
+        "administrative"
+      ],
+      "retrieved_at": "2025-10-17T10:21:53.248284",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:25:16.959602",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:25:16.959613",
+    "batch_network": {
+      "batch": "Summer 2020",
+      "total_batch_mates": 207,
+      "active_batch_mates": 131,
+      "batch_success_rate": 63.3,
+      "notable_batch_mates": [
+        {
+          "name": "Ladder",
+          "slug": "ladder",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Labor Marketplace for Construction"
+        },
+        {
+          "name": "Fig",
+          "slug": "fig",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Fig adds visual apps, shortcuts, and autocomplete to your terminal."
+        },
+        {
+          "name": "Altro",
+          "slug": "altro",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Build Credit With Your Subscriptions"
+        },
+        {
+          "name": "Jemi",
+          "slug": "jemi",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Jemi helps people build beautiful websites and stores."
+        },
+        {
+          "name": "LSK Technologies",
+          "slug": "lsk-technologies",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A diagnostic lab in a box"
+        },
+        {
+          "name": "Command AI",
+          "slug": "command-ai",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "AI-powered user assistance platform"
+        },
+        {
+          "name": "Bandit ML",
+          "slug": "bandit-ml",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Bandit ML builds machine learning tools for e-commerce companies."
+        },
+        {
+          "name": "Momence",
+          "slug": "momence",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Scheduling and payments for experiences"
+        },
+        {
+          "name": "Gather",
+          "slug": "gather",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Project management software for People Operations"
+        },
+        {
+          "name": "Finmark",
+          "slug": "finmark",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Financial planning software for startups"
+        }
+      ],
+      "batch_size": 208
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Operations"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1969,
+      "direct_competitors": [
+        {
+          "name": "Hipmob",
+          "slug": "hipmob",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Customer communication for iOS and Android developers - an in-app\u2026"
+        },
+        {
+          "name": "LaunchHear",
+          "slug": "launchhear",
+          "status": "Inactive",
+          "batch": "Winter 2010",
+          "one_liner": "LaunchHear was a startup attempting to make PR scale in the same way\u2026"
+        },
+        {
+          "name": "Upwave",
+          "slug": "upwave",
+          "status": "Active",
+          "batch": "Summer 2012",
+          "one_liner": "Marketing analytics for the world's biggest brand marketers"
+        },
+        {
+          "name": "Natero",
+          "slug": "natero",
+          "status": "Acquired",
+          "batch": "Summer 2012",
+          "one_liner": "Data-driven customer success platform for B2B SaaS."
+        },
+        {
+          "name": "Profig",
+          "slug": "profig",
+          "status": "Inactive",
+          "batch": "Summer 2012",
+          "one_liner": "The phone system for businesses. Manage everything from your company\u2026"
+        },
+        {
+          "name": "Flightfox",
+          "slug": "flightfox",
+          "status": "Active",
+          "batch": "Summer 2012",
+          "one_liner": "A platform to plan, book and manage global and group travel."
+        },
+        {
+          "name": "Kalibrr",
+          "slug": "kalibrr",
+          "status": "Acquired",
+          "batch": "Winter 2013",
+          "one_liner": "Kalibrr connects SEAsian talent to your local & global jobs."
+        },
+        {
+          "name": "Unbabel",
+          "slug": "unbabel",
+          "status": "Acquired",
+          "batch": "Winter 2014",
+          "one_liner": "AI-powered Language Operations platform"
+        },
+        {
+          "name": "Confident LIMS",
+          "slug": "confident-lims",
+          "status": "Active",
+          "batch": "Summer 2015",
+          "one_liner": "Laboratory Information Management System (LIMS) serving\u2026"
+        },
+        {
+          "name": "HiOperator",
+          "slug": "hioperator",
+          "status": "Active",
+          "batch": "Summer 2016",
+          "one_liner": "Customer support as a service. "
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "S\u00e3o Paulo",
+      "location": "S\u00e3o Paulo, SP, Brazil",
+      "companies_in_city": 36,
+      "active_in_city": 28,
+      "nearby_companies": [
+        {
+          "name": "Zippi",
+          "slug": "zippi",
+          "batch": "Summer 2019",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Kovi",
+          "slug": "kovi",
+          "batch": "Winter 2019",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Frubana Inc",
+          "slug": "frubana-inc",
+          "batch": "Winter 2019",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Facio",
+          "slug": "facio",
+          "batch": "Winter 2020",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "treble.ai",
+          "slug": "treble-ai",
+          "batch": "Summer 2019",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Alude",
+          "slug": "alude",
+          "batch": "Winter 2020",
+          "industry": "Real Estate and Construction",
+          "status": "Active"
+        },
+        {
+          "name": "Apartio",
+          "slug": "apartio",
+          "batch": "Winter 2020",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Linkana",
+          "slug": "linkana",
+          "batch": "Winter 2020",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "STARK BANK",
+          "slug": "stark-bank",
+          "batch": "Winter 2020",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Belvo",
+          "slug": "belvo",
+          "batch": "Winter 2020",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "CARUPI",
+          "slug": "carupi",
+          "batch": "Winter 2020",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Conta Simples",
+          "slug": "conta-simples",
+          "batch": "Summer 2020",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Gonddo",
+          "slug": "gonddo",
+          "batch": "Winter 2021",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "cloud humans",
+          "slug": "cloud-humans",
+          "batch": "Winter 2021",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Trela",
+          "slug": "trela",
+          "batch": "Winter 2021",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Z1",
+          "slug": "z1",
+          "batch": "Winter 2021",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Awari",
+          "slug": "awari",
+          "batch": "Winter 2021",
+          "industry": "Education",
+          "status": "Acquired"
+        },
+        {
+          "name": "Estoca",
+          "slug": "estoca",
+          "batch": "Winter 2021",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "hoop.dev",
+          "slug": "hoop-dev",
+          "batch": "Winter 2021",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Zaz OS",
+          "slug": "zaz-os",
+          "batch": "Summer 2021",
+          "industry": "B2B",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Zip",
+        "slug": "zip",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Seal",
+        "slug": "seal-2",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Plerk",
+        "slug": "plerk",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Farel",
+        "slug": "farel",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Cohere",
+        "slug": "cohere",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Dataland",
+        "slug": "dataland",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Arketa",
+        "slug": "arketa",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "cloud humans",
+        "slug": "cloud-humans",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Unfaze AI",
+        "slug": "unfaze-ai",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Porter",
+        "slug": "porter",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 2989,
+      "network_density_score": 88.6,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:25:16.986976"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:25:16.986990",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:25:17.324497",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:25:17.439870",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 35,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:40:02.074969",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "emerging",
+      "key_trends": [
+        "Digital transformation in construction",
+        "Supply chain optimization demand",
+        "B2B marketplace consolidation in LatAm"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Network effects from connecting contractors and suppliers, plus operational efficiency through logistics optimization",
+      "differentiation": "Focus on large contractors with comprehensive order management, delivery coordination, and payment processing",
+      "competitive_advantages": [
+        "First-mover advantage in Brazilian construction B2B",
+        "Integrated logistics and payments solution"
+      ],
+      "competitive_vulnerabilities": [
+        "Limited to Brazilian market",
+        "Dependent on construction industry cycles"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "marketplace",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "seed",
+      "growth_indicators": [
+        "35-person team size suggests traction",
+        "5.9-year domain age shows market commitment"
+      ],
+      "growth_bottlenecks": [
+        "Inactive status indicates execution challenges",
+        "Construction industry adoption barriers"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "high",
+      "overall_risk_score": 7,
+      "key_risks": [
+        "Company inactive status",
+        "Brazilian economic volatility",
+        "Construction industry cyclicality"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Massive addressable market",
+        "Clear value proposition for contractors",
+        "Experienced team (YC S20)"
+      ],
+      "concerns": [
+        "Inactive company status",
+        "Execution challenges evident",
+        "Single market dependency"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Procore",
+        "BuildDirect"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Investigate reasons for inactive status",
+        "Assess potential for revival or acqui-hire"
+      ],
+      "expansion_opportunities": [
+        "Geographic expansion to other LatAm markets",
+        "Vertical integration into construction financing"
+      ]
+    },
+    "tokens_used": {
+      "input": 678,
+      "output": 528,
+      "total": 1206,
+      "estimated_cost": 0.009954
+    }
+  },
+  "phase8_complete": true
+}

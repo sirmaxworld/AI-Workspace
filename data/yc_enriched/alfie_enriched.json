@@ -1,0 +1,665 @@
+{
+  "slug": "alfie",
+  "name": "Alfie",
+  "yc_id": 25271,
+  "batch": "Winter 2022",
+  "website": "http://www.joinalfie.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T01:10:00.461179",
+    "website": "http://www.joinalfie.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 2371.86,
+      "final_url": "https://www.joinalfie.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T01:10:02.833046"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "joinalfie.com",
+      "registrar": "Amazon Registrar, Inc.",
+      "creation_date": "2020-01-18T19:09:01",
+      "expiration_date": "2026-01-18T19:09:01",
+      "domain_age_days": 2098,
+      "domain_age_years": 5.7,
+      "name_servers": [
+        "NS-1097.AWSDNS-09.ORG",
+        "NS-1855.AWSDNS-39.CO.UK",
+        "NS-48.AWSDNS-06.COM",
+        "NS-755.AWSDNS-30.NET"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": false,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 0,
+      "server": "AmazonS3"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:30:51.693483",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:30:41.273365",
+    "place_data": {
+      "status": "success",
+      "method": "nominatim",
+      "formatted_address": "City of New York, New York, United States",
+      "coordinates": {
+        "latitude": 40.7127281,
+        "longitude": -74.0060152
+      },
+      "place_types": [
+        "administrative"
+      ],
+      "retrieved_at": "2025-10-17T10:12:57.698487",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:30:41.273421",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:30:41.273427",
+    "batch_network": {
+      "batch": "Winter 2022",
+      "total_batch_mates": 399,
+      "active_batch_mates": 341,
+      "batch_success_rate": 85.5,
+      "notable_batch_mates": [
+        {
+          "name": "Proper",
+          "slug": "proper",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Reconciliation and financial operations platform"
+        },
+        {
+          "name": "Sarus",
+          "slug": "sarus",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Use personal data for analytics and ML, safely and seamlessly"
+        },
+        {
+          "name": "HomeRoom",
+          "slug": "homeroom",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "We Rent Your Property by the Room.  You earn 50% more Rent."
+        },
+        {
+          "name": "Onyx Private",
+          "slug": "onyx-private",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A modern and more accessible private bank for the new generation "
+        },
+        {
+          "name": "JumpWire",
+          "slug": "jumpwire",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Dynamic access controls for all data and databases"
+        },
+        {
+          "name": "BharatX",
+          "slug": "bharatx",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Enable Buy-Now-Pay-Later in a White-Labelled Manner"
+        },
+        {
+          "name": "Stackshine",
+          "slug": "stackshine",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Automating all IT operations"
+        },
+        {
+          "name": "Speechly",
+          "slug": "speechly",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Natural Language Understanding API for Speech that runs on device"
+        },
+        {
+          "name": "Requestly",
+          "slug": "requestly",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Open-Source Postman alternative"
+        },
+        {
+          "name": "Tola",
+          "slug": "tola",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The simple, fast and free tool for businesses to pay and get paid"
+        }
+      ],
+      "batch_size": 400
+    },
+    "industry_network": {
+      "industries": [
+        "Healthcare",
+        "Healthcare Services"
+      ],
+      "total_industry_peers": 642,
+      "active_industry_peers": 503,
+      "direct_competitors": [
+        {
+          "name": "Medmonk",
+          "slug": "medmonk",
+          "status": "Active",
+          "batch": "Winter 2012",
+          "one_liner": "A tool for pharmacists to find funding for patients who are unable to\u2026"
+        },
+        {
+          "name": "Science Exchange",
+          "slug": "science-exchange",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Powering scientific outsourcing"
+        },
+        {
+          "name": "HealthSherpa",
+          "slug": "healthsherpa",
+          "status": "Active",
+          "batch": "Summer 2012",
+          "one_liner": "Private sector Healthcare.gov. "
+        },
+        {
+          "name": "Experiment",
+          "slug": "experiment",
+          "status": "Active",
+          "batch": "Winter 2013",
+          "one_liner": "crowdfunding platform for science"
+        },
+        {
+          "name": "SimplyInsured",
+          "slug": "simplyinsured",
+          "status": "Active",
+          "batch": "Winter 2013",
+          "one_liner": "We sell health insurance to small businesses 100% online."
+        },
+        {
+          "name": "CrowdMed",
+          "slug": "crowdmed",
+          "status": "Inactive",
+          "batch": "Winter 2013",
+          "one_liner": "CrowdMed harnesses the wisdom of crowds to solve difficult medical\u2026"
+        },
+        {
+          "name": "7cups",
+          "slug": "7cups",
+          "status": "Active",
+          "batch": "Summer 2013",
+          "one_liner": "7 Cups is an emotional support service that matches up people that\u2026"
+        },
+        {
+          "name": "In Your Corner",
+          "slug": "in-your-corner",
+          "status": "Inactive",
+          "batch": "Summer 2014",
+          "one_liner": "We've transformed traditional therapy into an experience that is\u2026"
+        },
+        {
+          "name": "Transcriptic",
+          "slug": "transcriptic",
+          "status": "Inactive",
+          "batch": "Winter 2015",
+          "one_liner": "The robotic cloud laboratory for the life sciences."
+        },
+        {
+          "name": "Call9",
+          "slug": "call9",
+          "status": "Inactive",
+          "batch": "Summer 2015",
+          "one_liner": ""
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "New York",
+      "location": "New York, NY, USA",
+      "companies_in_city": 523,
+      "active_in_city": 398,
+      "nearby_companies": [
+        {
+          "name": "The Muse",
+          "slug": "the-muse",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "HireArt",
+          "slug": "hireart",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Shoptiques",
+          "slug": "shoptiques",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Grouper",
+          "slug": "grouper",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "99dresses",
+          "slug": "99dresses",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Codecademy",
+          "slug": "codecademy",
+          "batch": "Summer 2011",
+          "industry": "Education",
+          "status": "Acquired"
+        },
+        {
+          "name": "Custora",
+          "slug": "custora",
+          "batch": "Winter 2011",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Recurse Center",
+          "slug": "recurse-center",
+          "batch": "Summer 2010",
+          "industry": "Education",
+          "status": "Active"
+        },
+        {
+          "name": "MessageParty",
+          "slug": "messageparty",
+          "batch": "Summer 2010",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Fabricly",
+          "slug": "fabricly",
+          "batch": "Winter 2010",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "RentHop",
+          "slug": "renthop",
+          "batch": "Summer 2009",
+          "industry": "Real Estate and Construction",
+          "status": "Active"
+        },
+        {
+          "name": "Youlicit",
+          "slug": "youlicit",
+          "batch": "Summer 2008",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "SocialPicks",
+          "slug": "socialpicks",
+          "batch": "Summer 2007",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Octopart",
+          "slug": "octopart",
+          "batch": "Winter 2007",
+          "industry": "Industrials",
+          "status": "Acquired"
+        },
+        {
+          "name": "OMGPop",
+          "slug": "omgpop",
+          "batch": "Summer 2006",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Canopy Labs",
+          "slug": "canopy-labs",
+          "batch": "Summer 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Fullstack Academy",
+          "slug": "fullstack-academy",
+          "batch": "Summer 2012",
+          "industry": "Education",
+          "status": "Acquired"
+        },
+        {
+          "name": "DataNitro",
+          "slug": "datanitro",
+          "batch": "Summer 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "SmartAsset",
+          "slug": "smartasset",
+          "batch": "Summer 2012",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "StyleUp",
+          "slug": "styleup",
+          "batch": "Winter 2013",
+          "industry": "Consumer",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Serif Health",
+        "slug": "serif-health",
+        "batch": "Winter 2022",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Instalab",
+        "slug": "instalab",
+        "batch": "Winter 2022",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Northwind",
+        "slug": "northwind",
+        "batch": "Winter 2022",
+        "industry": "Healthcare",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Remedial Health",
+        "slug": "remedial-health",
+        "batch": "Winter 2022",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Syrona Health",
+        "slug": "syrona-health",
+        "batch": "Winter 2022",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Craniometrix",
+        "slug": "craniometrix",
+        "batch": "Winter 2022",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Nest Genomics",
+        "slug": "nest-genomics",
+        "batch": "Winter 2022",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "LunaJoy Health",
+        "slug": "lunajoy-health",
+        "batch": "Winter 2022",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "RTHM",
+        "slug": "rthm",
+        "batch": "Winter 2022",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Reviving Mind",
+        "slug": "reviving-mind",
+        "batch": "Winter 2022",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 1564,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:30:41.302304"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:30:41.302320",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:30:41.678113",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:30:41.902381",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 6,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:42:21.886435",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Rising obesity rates and demand for weight loss solutions",
+        "Shift toward personalized medicine and precision healthcare",
+        "Telehealth adoption accelerating post-COVID"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Proprietary algorithms combining Cleveland Clinic and Harvard research for personalized treatment optimization",
+      "differentiation": "Multimodal precision approach combining exercise, nutrition, and medications with 2x-5x better outcomes than standard treatments",
+      "competitive_advantages": [
+        "Evidence-based clinical protocols from top institutions",
+        "Demonstrated superior efficacy metrics"
+      ],
+      "competitive_vulnerabilities": [
+        "Regulatory compliance complexity",
+        "Dependence on prescription medication access"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "Healthcare subscription/membership",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "Acquisition status indicates successful validation",
+        "Strong clinical outcomes data"
+      ],
+      "growth_bottlenecks": [
+        "Regulatory hurdles for medication prescribing",
+        "Need for licensed medical professionals"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "low",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "FDA and state medical board regulations",
+        "Insurance reimbursement challenges",
+        "Competition from established telehealth players"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Massive addressable market with proven demand",
+        "Superior clinical outcomes with measurable results",
+        "Strong institutional research backing"
+      ],
+      "concerns": [
+        "Regulatory complexity in healthcare",
+        "Potential liability issues with medication management"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Noom",
+        "Ro (Roman)",
+        "Calibrate"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Expand clinical team and medical advisory board",
+        "Develop partnerships with insurance providers"
+      ],
+      "expansion_opportunities": [
+        "International markets with different regulatory frameworks",
+        "Adjacent conditions like diabetes management"
+      ]
+    },
+    "tokens_used": {
+      "input": 733,
+      "output": 552,
+      "total": 1285,
+      "estimated_cost": 0.010479
+    }
+  },
+  "phase8_complete": true
+}

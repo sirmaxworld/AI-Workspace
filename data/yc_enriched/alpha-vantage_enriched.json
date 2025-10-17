@@ -1,0 +1,660 @@
+{
+  "slug": "alpha-vantage",
+  "name": "Alpha Vantage",
+  "yc_id": 1970,
+  "batch": "Summer 2018",
+  "website": "https://www.alphavantage.co/",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:43:46.279892",
+    "website": "https://www.alphavantage.co/",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 2170.06,
+      "final_url": "https://www.alphavantage.co/",
+      "redirected": false,
+      "checked_at": "2025-10-17T00:43:48.449963"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "alphavantage.co",
+      "registrar": "Key-Systems GmbH",
+      "creation_date": "2017-03-05T07:19:00",
+      "expiration_date": "2026-03-04T23:59:59",
+      "domain_age_days": 3147,
+      "domain_age_years": 8.6,
+      "name_servers": [
+        "CHASE.NS.CLOUDFLARE.COM",
+        "SKY.NS.CLOUDFLARE.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": false,
+      "content_security_policy": false,
+      "x_frame_options": true,
+      "x_content_type_options": true,
+      "x_xss_protection": false,
+      "referrer_policy": true,
+      "security_score": 50,
+      "server": "cloudflare"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:20:46.626728",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:20:35.772970",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "Boston, MA, USA",
+      "coordinates": {
+        "latitude": 42.3601,
+        "longitude": -71.0589
+      },
+      "timezone": {
+        "timezone_id": "America/New_York",
+        "timezone_name": "America/New_York"
+      },
+      "retrieved_at": "2025-10-17T10:14:55.330626",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:20:35.773037",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:20:35.773043",
+    "batch_network": {
+      "batch": "Summer 2018",
+      "total_batch_mates": 130,
+      "active_batch_mates": 78,
+      "batch_success_rate": 60.0,
+      "notable_batch_mates": [
+        {
+          "name": "Allotrope Medical",
+          "slug": "allotrope-medical",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Advancing surgical precision through safe electrical stimulation. "
+        },
+        {
+          "name": "Honeylove",
+          "slug": "honeylove",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "Honeylove makes functional undergarments for women"
+        },
+        {
+          "name": "Phiar",
+          "slug": "phiar",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "We are developing a revolutionary AI-powered augmented reality\u2026"
+        },
+        {
+          "name": "Lowkey",
+          "slug": "lowkey",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Capture, create, & share gaming moments (Acquired by Niantic!)"
+        },
+        {
+          "name": "Demeanor.co",
+          "slug": "demeanor-co",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Now part of thentwrk.com"
+        },
+        {
+          "name": "Optic",
+          "slug": "optic",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Making APIs Developer-friendly "
+        },
+        {
+          "name": "OneGraph",
+          "slug": "onegraph",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "GraphQL API to connect all of the internet's APIs. Join us at Netlify!"
+        },
+        {
+          "name": "Scanwell Health",
+          "slug": "scanwell-health",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Smartphone-enabled, at-home diagnostics"
+        },
+        {
+          "name": "Berbix",
+          "slug": "berbix",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Convert more verified users. Instantly & accurately validate user IDs."
+        },
+        {
+          "name": "Impactive (formerly Outvote)",
+          "slug": "impactive",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Political/civic tech helping progressive campaigns organize & mobilize"
+        }
+      ],
+      "batch_size": 131
+    },
+    "industry_network": {
+      "industries": [
+        "Fintech",
+        "Banking and Exchange"
+      ],
+      "total_industry_peers": 597,
+      "active_industry_peers": 447,
+      "direct_competitors": [
+        {
+          "name": "Coinbase",
+          "slug": "coinbase",
+          "status": "Public",
+          "batch": "Summer 2012",
+          "one_liner": "Buy, sell, and manage cryptocurrencies."
+        },
+        {
+          "name": "Standard Treasury",
+          "slug": "standard-treasury",
+          "status": "Acquired",
+          "batch": "Summer 2013",
+          "one_liner": "Banking APIs; acquired by Silicon Valley Bank in August 2015"
+        },
+        {
+          "name": "Buttercoin",
+          "slug": "buttercoin",
+          "status": "Inactive",
+          "batch": "Summer 2013",
+          "one_liner": "Bitcoin Marketplace"
+        },
+        {
+          "name": "Arcus",
+          "slug": "arcus",
+          "status": "Acquired",
+          "batch": "Summer 2013",
+          "one_liner": "Payment-as-a-service that helps any business launch payment solutions"
+        },
+        {
+          "name": "Axoni",
+          "slug": "axoni",
+          "status": "Acquired",
+          "batch": "Winter 2014",
+          "one_liner": "Axoni is building the next generation of capital markets technology"
+        },
+        {
+          "name": "Bitaccess",
+          "slug": "bitaccess",
+          "status": "Acquired",
+          "batch": "Summer 2014",
+          "one_liner": "We make bitcoin simple. "
+        },
+        {
+          "name": "Cheddar",
+          "slug": "cheddar",
+          "status": "Inactive",
+          "batch": "Summer 2014",
+          "one_liner": "The Best Mobile Checking Account"
+        },
+        {
+          "name": "SFOX",
+          "slug": "sfox",
+          "status": "Active",
+          "batch": "Summer 2014",
+          "one_liner": "Crypto-currency trading platform."
+        },
+        {
+          "name": "Bankjoy",
+          "slug": "bankjoy",
+          "status": "Active",
+          "batch": "Winter 2015",
+          "one_liner": "An end-to-end digital banking solution for banks and credit unions"
+        },
+        {
+          "name": "Seed",
+          "slug": "seed",
+          "status": "Acquired",
+          "batch": "Winter 2015",
+          "one_liner": "Mobile banking for small business."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Boston",
+      "location": "Boston, MA, USA",
+      "companies_in_city": 60,
+      "active_in_city": 39,
+      "nearby_companies": [
+        {
+          "name": "Sendwave",
+          "slug": "sendwave",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Embedly",
+          "slug": "embedly",
+          "batch": "Winter 2010",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Cloudant",
+          "slug": "cloudant",
+          "batch": "Summer 2008",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Ticket Stumbler",
+          "slug": "ticket-stumbler",
+          "batch": "Summer 2008",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Eivod",
+          "slug": "eivod",
+          "batch": "Summer 2007",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Zanbazaar",
+          "slug": "zanbazaar",
+          "batch": "Summer 2006",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Panorama Education",
+          "slug": "panorama-education",
+          "batch": "Summer 2013",
+          "industry": "Education",
+          "status": "Active"
+        },
+        {
+          "name": "Ginkgo Bioworks",
+          "slug": "ginkgo-bioworks",
+          "batch": "Summer 2014",
+          "industry": "Healthcare",
+          "status": "Public"
+        },
+        {
+          "name": "Moltin",
+          "slug": "moltin",
+          "batch": "Winter 2015",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Pretty Instant",
+          "slug": "pretty-instant",
+          "batch": "Winter 2015",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Airmada",
+          "slug": "airmada",
+          "batch": "Summer 2015",
+          "industry": "Industrials",
+          "status": "Inactive"
+        },
+        {
+          "name": "TetraScience",
+          "slug": "tetrascience",
+          "batch": "Summer 2015",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Ubiq",
+          "slug": "ubiq",
+          "batch": "Summer 2016",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Sandbox Banking",
+          "slug": "sandbox-banking",
+          "batch": "Winter 2017",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Tolemi",
+          "slug": "tolemi",
+          "batch": "Winter 2017",
+          "industry": "Real Estate and Construction",
+          "status": "Active"
+        },
+        {
+          "name": "Helix Nanotechnologies",
+          "slug": "helix-nanotechnologies",
+          "batch": "Winter 2017",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Hunter2",
+          "slug": "hunter2",
+          "batch": "Winter 2018",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Medumo",
+          "slug": "medumo",
+          "batch": "Winter 2018",
+          "industry": "Healthcare",
+          "status": "Acquired"
+        },
+        {
+          "name": "Apprentice Health",
+          "slug": "apprentice-health",
+          "batch": "Summer 2018",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Impactive (formerly Outvote)",
+          "slug": "impactive",
+          "batch": "Summer 2018",
+          "industry": "Government",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Ajaib",
+        "slug": "ajaib",
+        "batch": "Summer 2018",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Helicarrier (prev Buycoins)",
+        "slug": "helicarrier-prev-buycoins",
+        "batch": "Summer 2018",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Sandbox Banking",
+        "slug": "sandbox-banking",
+        "batch": "Winter 2017",
+        "industry": "Fintech",
+        "status": "Acquired",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "OWNY",
+        "slug": "owny",
+        "batch": "Summer 2018",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Satchel",
+        "slug": "satchel",
+        "batch": "Summer 2018",
+        "industry": "Fintech",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Titan",
+        "slug": "titan",
+        "batch": "Summer 2018",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Apprentice Health",
+        "slug": "apprentice-health",
+        "batch": "Summer 2018",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Impactive (formerly Outvote)",
+        "slug": "impactive",
+        "batch": "Summer 2018",
+        "industry": "Government",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Prodigal",
+        "slug": "prodigal",
+        "batch": "Summer 2018",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Fintual",
+        "slug": "fintual",
+        "batch": "Summer 2018",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 787,
+      "network_density_score": 78.0,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:20:35.783401"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:20:35.783406",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:20:36.112197",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:20:36.206550",
+    "basic_info": {
+      "is_hiring": true,
+      "team_size": 8,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:42:21.557719",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increased demand for alternative data",
+        "Rise of algorithmic trading",
+        "Growing adoption of cloud-based financial services"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "First-mover advantage, comprehensive data coverage, developer-friendly APIs, established brand in the developer community.",
+      "differentiation": "Focus on developer experience and breadth of data coverage across asset classes.",
+      "competitive_advantages": [
+        "Easy-to-use APIs",
+        "Wide range of financial data"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on data providers",
+        "Potential for larger players to offer similar services"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "low"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "API usage growth",
+        "Customer acquisition rate"
+      ],
+      "growth_bottlenecks": [
+        "Data acquisition costs",
+        "Competition from established players"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Data quality issues",
+        "Regulatory changes",
+        "Security breaches"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong developer adoption",
+        "Comprehensive data coverage",
+        "Scalable business model"
+      ],
+      "concerns": [
+        "Competition from larger players",
+        "Dependence on external data sources"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "IEX Cloud",
+        "Intrinio"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Expand data coverage to new asset classes",
+        "Develop premium features for enterprise clients"
+      ],
+      "expansion_opportunities": [
+        "Partnerships with trading platforms",
+        "Integration with AI/ML platforms"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 687,
+      "completion": 573,
+      "total": 1260,
+      "estimated_cost": 0.000223
+    }
+  },
+  "phase8_complete": true
+}

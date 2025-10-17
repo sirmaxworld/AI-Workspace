@@ -1,0 +1,669 @@
+{
+  "slug": "streem",
+  "name": "Streem",
+  "yc_id": 401,
+  "batch": "Summer 2012",
+  "website": "https://streem.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:32:15.039673",
+    "website": "https://streem.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 1150.23,
+      "final_url": "https://www.frontdoorhome.com",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:32:16.189909"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "streem.com",
+      "registrar": "CSC Corporate Domains, Inc.",
+      "creation_date": "2000-01-21T04:25:42",
+      "expiration_date": "2027-01-21T04:25:42",
+      "domain_age_days": 9400,
+      "domain_age_years": 25.7,
+      "name_servers": [
+        "EVA.NS.CLOUDFLARE.COM",
+        "HENRY.NS.CLOUDFLARE.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": true,
+      "x_frame_options": true,
+      "x_content_type_options": true,
+      "x_xss_protection": false,
+      "referrer_policy": true,
+      "security_score": 83,
+      "server": "nginx"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:13:36.468733",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:04:23.974399",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "San Francisco, CA, USA",
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:03:07.888811",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:04:23.974426",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:04:23.974429",
+    "batch_network": {
+      "batch": "Summer 2012",
+      "total_batch_mates": 82,
+      "active_batch_mates": 23,
+      "batch_success_rate": 28.0,
+      "notable_batch_mates": [
+        {
+          "name": "Pixate",
+          "slug": "pixate",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Mobile application prototyping. Now part of Google."
+        },
+        {
+          "name": "Knowmia",
+          "slug": "knowmia",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Pandora meets Yelp for K-12 educational videos.  We match each\u2026"
+        },
+        {
+          "name": "Boosted",
+          "slug": "boosted",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Simple, fun, and fast electric vehicles."
+        },
+        {
+          "name": "ZeroMailer",
+          "slug": "zeromailer",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Easy mailing lists"
+        },
+        {
+          "name": "Kamcord",
+          "slug": "kamcord",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": ""
+        },
+        {
+          "name": "Statwing",
+          "slug": "statwing",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Dead simple statistical analysis software. Like R or SPSS but easy to\u2026"
+        },
+        {
+          "name": "Fullstack Academy",
+          "slug": "fullstack-academy",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Pioneer in immersive code education. Acquired by Zovio (NASDAQ: ZVO)\u2026"
+        },
+        {
+          "name": "OmniVirt",
+          "slug": "omnivirt",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "OmniVirt is the leading VR Advertising platform for brands and\u2026"
+        },
+        {
+          "name": "Soylent",
+          "slug": "soylent",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Soylent is a simple, nutritious, and affordable food that possesses\u2026"
+        },
+        {
+          "name": "Clever",
+          "slug": "clever",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "The platform that powers technology in the classroom."
+        }
+      ],
+      "batch_size": 83
+    },
+    "industry_network": {
+      "industries": [
+        "Consumer",
+        "Content"
+      ],
+      "total_industry_peers": 852,
+      "active_industry_peers": 408,
+      "direct_competitors": [
+        {
+          "name": "Loom",
+          "slug": "loom",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Cloud storage for photos and videos (acquired by Dropbox). "
+        },
+        {
+          "name": "Ark",
+          "slug": "ark",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Ark organizes the world's social information. "
+        },
+        {
+          "name": "Socialcam",
+          "slug": "socialcam",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "The easiest way to share videos with friends and family. "
+        },
+        {
+          "name": "Genius",
+          "slug": "genius",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Music Intelligence"
+        },
+        {
+          "name": "Snapjoy",
+          "slug": "snapjoy",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Photo library."
+        },
+        {
+          "name": "Hyperink",
+          "slug": "hyperink",
+          "status": "Inactive",
+          "batch": "Winter 2011",
+          "one_liner": "Ebook publisher."
+        },
+        {
+          "name": "Upbeat",
+          "slug": "upbeat",
+          "status": "Inactive",
+          "batch": "Summer 2010",
+          "one_liner": "Upbeat: Building the next generation of Public Relations (PR)"
+        },
+        {
+          "name": "Nowmov",
+          "slug": "nowmov",
+          "status": "Acquired",
+          "batch": "Winter 2010",
+          "one_liner": ""
+        },
+        {
+          "name": "Answerly",
+          "slug": "answerly",
+          "status": "Inactive",
+          "batch": "Winter 2010",
+          "one_liner": ""
+        },
+        {
+          "name": "Zenedy",
+          "slug": "zenedy",
+          "status": "Inactive",
+          "batch": "Winter 2010",
+          "one_liner": ""
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "San Francisco",
+      "location": "San Francisco, CA, USA",
+      "companies_in_city": 2007,
+      "active_in_city": 1340,
+      "nearby_companies": [
+        {
+          "name": "42Floors",
+          "slug": "42floors",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "PlanGrid",
+          "slug": "plangrid",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "MyVR",
+          "slug": "myvr",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Couple",
+          "slug": "couple",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HackPad",
+          "slug": "hackpad",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Gusto",
+          "slug": "gusto",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "FamilyLeaf",
+          "slug": "familyleaf",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Chute",
+          "slug": "chute",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Make School",
+          "slug": "make-school",
+          "batch": "Winter 2012",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Exec",
+          "slug": "exec",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Public"
+        },
+        {
+          "name": "LendUp",
+          "slug": "lendup",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tilt",
+          "slug": "tilt",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fond",
+          "slug": "fond",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Imgfave",
+        "slug": "imgfave",
+        "batch": "Summer 2012",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Framebase",
+        "slug": "framebase",
+        "batch": "Summer 2012",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "NewsBlur",
+        "slug": "newsblur",
+        "batch": "Summer 2012",
+        "industry": "Consumer",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Svbtle",
+        "slug": "svbtle",
+        "batch": "Summer 2012",
+        "industry": "Consumer",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "TomoGuides",
+        "slug": "tomoguides",
+        "batch": "Summer 2012",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Kamcord",
+        "slug": "kamcord",
+        "batch": "Summer 2012",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Vayable",
+        "slug": "vayable",
+        "batch": "Summer 2012",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Hipset",
+        "slug": "hipset",
+        "batch": "Summer 2012",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Tastemaker",
+        "slug": "tastemaker",
+        "batch": "Summer 2012",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Instacart",
+        "slug": "instacart",
+        "batch": "Summer 2012",
+        "industry": "Consumer",
+        "status": "Public",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 2941,
+      "network_density_score": 96.4,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:04:23.981863"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:04:23.981870",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:04:24.306824",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:04:24.398028",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 4,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:44.391318",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "mature",
+      "key_trends": [
+        "Increasing demand for cloud storage",
+        "Growing media consumption",
+        "Shift towards remote work and collaboration"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "First-mover advantage (potentially), strong user experience, integration with existing platforms (after acquisition).",
+      "differentiation": "Unlimited cloud storage specifically for media, seamless integration with user devices.",
+      "competitive_advantages": [
+        "Ease of use",
+        "Unlimited storage appeal"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on internet connectivity",
+        "Competition from established players (Google, Dropbox, etc.)"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS (Subscription based)",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "Acquired (Growth stage prior to acquisition)",
+      "growth_indicators": [
+        "User adoption rate",
+        "Storage consumption",
+        "Partnerships"
+      ],
+      "growth_bottlenecks": [
+        "Bandwidth limitations",
+        "Competition from free or low-cost alternatives"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "low",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 4,
+      "key_risks": [
+        "Data security breaches",
+        "Service outages",
+        "Inability to compete on price"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Simple value proposition",
+        "Large addressable market",
+        "Potential for viral growth"
+      ],
+      "concerns": [
+        "High storage costs",
+        "Dependence on reliable internet access"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Dropbox",
+        "Google Drive"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on user acquisition and retention",
+        "Optimize storage infrastructure for cost efficiency"
+      ],
+      "expansion_opportunities": [
+        "Integration with other media platforms",
+        "Offer premium features (e.g., advanced editing tools)"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 733,
+      "completion": 590,
+      "total": 1323,
+      "estimated_cost": 0.000232
+    }
+  },
+  "phase8_complete": true
+}

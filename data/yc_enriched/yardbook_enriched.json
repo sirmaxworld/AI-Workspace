@@ -1,0 +1,662 @@
+{
+  "slug": "yardbook",
+  "name": "Yardbook",
+  "yc_id": 984,
+  "batch": "Winter 2016",
+  "website": "https://www.yardbook.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:36:32.441143",
+    "website": "https://www.yardbook.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 403,
+      "response_time_ms": 194.96,
+      "final_url": "https://www.yardbook.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:36:32.636110"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "yardbook.com",
+      "registrar": "GoDaddy.com, LLC",
+      "creation_date": "2003-02-27T14:46:07",
+      "expiration_date": "2028-02-27T14:46:07",
+      "domain_age_days": 8267,
+      "domain_age_years": 22.6,
+      "name_servers": [
+        "BILL.NS.CLOUDFLARE.COM",
+        "KAY.NS.CLOUDFLARE.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": false,
+      "content_security_policy": false,
+      "x_frame_options": true,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": true,
+      "security_score": 33,
+      "server": "cloudflare"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:16:36.730168",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:16:24.829757",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "San Mateo, CA, USA",
+      "coordinates": {
+        "latitude": 37.563,
+        "longitude": -122.3255
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:14:42.570997",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:24.829788",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:24.829791",
+    "batch_network": {
+      "batch": "Winter 2016",
+      "total_batch_mates": 121,
+      "active_batch_mates": 58,
+      "batch_success_rate": 47.9,
+      "notable_batch_mates": [
+        {
+          "name": "Stilt",
+          "slug": "stilt",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Financial products for immigrants (acquired by JG Wentworth)"
+        },
+        {
+          "name": "Embark Trucks",
+          "slug": "embark-trucks",
+          "status": "Public",
+          "top_company": false,
+          "one_liner": "Self-driving semi trucks."
+        },
+        {
+          "name": "Loop Genomics",
+          "slug": "loop-genomics",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Novel long-read DNA sequencing technology"
+        },
+        {
+          "name": "Able Health",
+          "slug": "able-health",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Able Health gets doctors paid more for higher quality care"
+        },
+        {
+          "name": "Truebill",
+          "slug": "truebill",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Live your best financial life"
+        },
+        {
+          "name": "LendEDU",
+          "slug": "lendedu",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "LendEDU is a marketplace for consumer financial products."
+        },
+        {
+          "name": "Luminist Labs",
+          "slug": "luminist-labs",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Diagnostic platform for early detection of liver disease"
+        },
+        {
+          "name": "MineralSoft",
+          "slug": "mineralsoft",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Data management platform for oil & gas assets"
+        },
+        {
+          "name": "Pulpix",
+          "slug": "pulpix",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Binge-watching technology for video platforms. "
+        },
+        {
+          "name": "Paystack",
+          "slug": "paystack",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Modern payments infrastructure for Africa"
+        }
+      ],
+      "batch_size": 122
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Finance and Accounting"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "inDinero",
+          "slug": "indinero",
+          "status": "Active",
+          "batch": "Summer 2010",
+          "one_liner": "Financial dashboard for businesses."
+        },
+        {
+          "name": "Inkling",
+          "slug": "inkling",
+          "status": "Acquired",
+          "batch": "Winter 2006",
+          "one_liner": ""
+        },
+        {
+          "name": "PayTango",
+          "slug": "paytango",
+          "status": "Inactive",
+          "batch": "Winter 2013",
+          "one_liner": "Simple invoicing"
+        },
+        {
+          "name": "Abacus",
+          "slug": "abacus",
+          "status": "Acquired",
+          "batch": "Winter 2014",
+          "one_liner": "Making expense reports obsolete"
+        },
+        {
+          "name": "Chargehound",
+          "slug": "chargehound",
+          "status": "Acquired",
+          "batch": "Winter 2014",
+          "one_liner": "Automate your chargeback dispute process. (Acquired by PayPal)"
+        },
+        {
+          "name": "Rocketrip",
+          "slug": "rocketrip",
+          "status": "Acquired",
+          "batch": "Winter 2014",
+          "one_liner": "Rocketrip helps companies save money on travel expenses by aligning\u2026"
+        },
+        {
+          "name": "Unicornly",
+          "slug": "unicornly",
+          "status": "Inactive",
+          "batch": "Winter 2014",
+          "one_liner": "Unicorn.ly makes fundraising more efficient for both angel investors\u2026"
+        },
+        {
+          "name": "Paid",
+          "slug": "paid",
+          "status": "Inactive",
+          "batch": "Summer 2014",
+          "one_liner": "Autopilot for Accounts Receivable"
+        },
+        {
+          "name": "Payable",
+          "slug": "payable",
+          "status": "Acquired",
+          "batch": "Summer 2014",
+          "one_liner": "Simple payments and tax compliance for your contract workforce."
+        },
+        {
+          "name": "Kickpay",
+          "slug": "kickpay",
+          "status": "Inactive",
+          "batch": "Winter 2015",
+          "one_liner": "A platform to finance inventory for e-commerce companies."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "San Mateo",
+      "location": "San Mateo, CA, USA",
+      "companies_in_city": 34,
+      "active_in_city": 16,
+      "nearby_companies": [
+        {
+          "name": "OneSignal",
+          "slug": "onesignal",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Compose",
+          "slug": "compose",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Meta",
+          "slug": "meta",
+          "batch": "Summer 2013",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "PersistIQ",
+          "slug": "persistiq",
+          "batch": "Summer 2014",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Neptune.io",
+          "slug": "neptune-io",
+          "batch": "Summer 2014",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Women.com",
+          "slug": "women-com",
+          "batch": "Summer 2014",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Bagaveev Corporation",
+          "slug": "bagaveev-corporation",
+          "batch": "Winter 2015",
+          "industry": "Industrials",
+          "status": "Inactive"
+        },
+        {
+          "name": "Automate Ads",
+          "slug": "automate-ads",
+          "batch": "Winter 2015",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Second Measure",
+          "slug": "second-measure",
+          "batch": "Summer 2015",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Maderight",
+          "slug": "maderight",
+          "batch": "Summer 2015",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Netomi",
+          "slug": "netomi",
+          "batch": "Winter 2016",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Sendbird",
+          "slug": "sendbird",
+          "batch": "Winter 2016",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Selfycart",
+          "slug": "selfycart",
+          "batch": "Summer 2016",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Farmstead",
+          "slug": "farmstead",
+          "batch": "Summer 2016",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Armory",
+          "slug": "armory",
+          "batch": "Winter 2017",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Veryfi, Inc.",
+          "slug": "veryfi-inc",
+          "batch": "Winter 2017",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Truepill",
+          "slug": "truepill",
+          "batch": "Summer 2017",
+          "industry": "Healthcare",
+          "status": "Acquired"
+        },
+        {
+          "name": "Meru Health",
+          "slug": "meru-health",
+          "batch": "Summer 2018",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "ZeroStorefront",
+          "slug": "zerostorefront",
+          "batch": "Winter 2019",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Tailornova/Couturme",
+          "slug": "tailornova-couturme",
+          "batch": "Winter 2019",
+          "industry": "B2B",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Netomi",
+        "slug": "netomi",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Sendbird",
+        "slug": "sendbird",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Bonsai",
+        "slug": "bonsai",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Mux",
+        "slug": "mux",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Lattice",
+        "slug": "lattice",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Compgun",
+        "slug": "compgun",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Deepgram",
+        "slug": "deepgram",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Stealth Worker",
+        "slug": "stealth-worker",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Chatfuel",
+        "slug": "chatfuel",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "GetAccept",
+        "slug": "getaccept",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 2901,
+      "network_density_score": 71.0,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:16:24.836273"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:24.836290",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:25.168310",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:25.282707",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": null,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:36.696291",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "medium",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increased demand for landscaping services",
+        "Adoption of digital tools by small businesses",
+        "Rise of online marketplaces for local services"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "First-mover advantage in a niche market, established user base.",
+      "differentiation": "Free software offering for landscaping businesses combined with a marketplace.",
+      "competitive_advantages": [
+        "Free entry point for users",
+        "End-to-end solution for business management"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on free tier for user acquisition",
+        "Potential for larger players to enter the market"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "Freemium/Marketplace",
+      "scalability": "high",
+      "capital_intensity": "low"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "User base growth",
+        "Transaction volume on the marketplace"
+      ],
+      "growth_bottlenecks": [
+        "Customer acquisition cost",
+        "Competition from established players"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Marketplace liquidity",
+        "Reliance on free users converting to paid services",
+        "Competition eroding market share"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong value proposition for small businesses",
+        "First-mover advantage",
+        "Potential for network effects"
+      ],
+      "concerns": [
+        "Sustainability of free tier",
+        "Competitive landscape"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "ServiceTitan",
+        "Jobber"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on converting free users to paid plans",
+        "Expand marketplace offerings"
+      ],
+      "expansion_opportunities": [
+        "Integrate with other business tools",
+        "Expand into adjacent service industries"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 711,
+      "completion": 581,
+      "total": 1292,
+      "estimated_cost": 0.000228
+    }
+  },
+  "phase8_complete": true
+}

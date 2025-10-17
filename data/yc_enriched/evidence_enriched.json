@@ -1,0 +1,1391 @@
+{
+  "slug": "evidence",
+  "name": "Evidence",
+  "yc_id": 24827,
+  "batch": "Summer 2021",
+  "website": "https://www.evidence.dev",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T01:09:09.338564",
+    "website": "https://www.evidence.dev",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 3441.46,
+      "final_url": "https://evidence.dev/",
+      "redirected": true,
+      "checked_at": "2025-10-17T01:09:12.780046"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "evidence.dev",
+      "registrar": null,
+      "creation_date": null,
+      "expiration_date": null,
+      "domain_age_days": null,
+      "domain_age_years": null,
+      "name_servers": []
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/evidence_dev",
+      "linkedin": "https://linkedin.com/company/evidence-dev",
+      "github": "https://github.com/evidence-dev/evidence",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": true,
+      "x_content_type_options": true,
+      "x_xss_protection": true,
+      "referrer_policy": false,
+      "security_score": 66,
+      "server": "Vercel"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:30:35.286374",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:30:20.034312",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "Toronto, Canada",
+      "coordinates": {
+        "latitude": 43.6532,
+        "longitude": -79.3832
+      },
+      "timezone": {
+        "timezone_id": "America/Toronto",
+        "timezone_name": "America/Toronto"
+      },
+      "retrieved_at": "2025-10-17T10:15:10.051277",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:30:20.034333",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/evidence-dev"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 100,
+        "packages": [
+          {
+            "name": "@evidence-dev/sdk",
+            "description": "<img src=\"../../../sites/docs/static/img/wordmark.svg\" alt=\"evidence-logo\" width=\"100%\" />",
+            "version": "3.0.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@evidence-dev/sdk"
+          },
+          {
+            "name": "@evidence-dev/preprocess",
+            "description": "Markdown preprocessor for evidence.dev projects",
+            "version": "6.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@evidence-dev/preprocess"
+          },
+          {
+            "name": "@evidence-dev/source-javascript",
+            "description": "This is a JavaScript source for Evidence. It allows you to run arbitrary JavaScript code as a data source. It's a quick way to get data into Evidence without having to create a new connector.",
+            "version": "0.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@evidence-dev/source-javascript"
+          },
+          {
+            "name": "@evidence-dev/motherduck",
+            "description": null,
+            "version": "1.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@evidence-dev/motherduck"
+          },
+          {
+            "name": "@evidence-dev/icons",
+            "description": null,
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@evidence-dev/icons"
+          },
+          {
+            "name": "@evidence-dev/evidence",
+            "description": "dependencies for evidence projects",
+            "version": "40.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@evidence-dev/evidence"
+          },
+          {
+            "name": "@evidence-dev/tailwind",
+            "description": null,
+            "version": "3.0.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@evidence-dev/tailwind"
+          },
+          {
+            "name": "@evidence-dev/bigquery",
+            "description": "BigQuery driver for Evidence projects",
+            "version": "2.0.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@evidence-dev/bigquery"
+          },
+          {
+            "name": "@evidence-dev/telemetry",
+            "description": "Annonymous usage telemetry for Evidence projects",
+            "version": "2.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@evidence-dev/telemetry"
+          },
+          {
+            "name": "@evidence-dev/databricks",
+            "description": "Databricks driver for Evidence projects",
+            "version": "1.0.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@evidence-dev/databricks"
+          },
+          {
+            "name": "@evidence-dev/duckdb",
+            "description": "DuckDB driver for Evidence projects",
+            "version": "1.0.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@evidence-dev/duckdb"
+          },
+          {
+            "name": "@evidence-dev/snowflake",
+            "description": "Snowflake driver for Evidence projects",
+            "version": "1.2.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@evidence-dev/snowflake"
+          },
+          {
+            "name": "@evidence-dev/sqlite",
+            "description": "SQLite driver for Evidence projects",
+            "version": "2.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@evidence-dev/sqlite"
+          },
+          {
+            "name": "@evidence-dev/csv",
+            "description": "CSV driver for Evidence projects, based on DuckDB driver",
+            "version": "1.0.14",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@evidence-dev/csv"
+          },
+          {
+            "name": "@evidence-dev/postgres",
+            "description": "PostgreSQL driver for Evidence projects",
+            "version": "1.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@evidence-dev/postgres"
+          },
+          {
+            "name": "@evidence-dev/mysql",
+            "description": "MySQL driver for Evidence projects",
+            "version": "1.1.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@evidence-dev/mysql"
+          },
+          {
+            "name": "@evidence-dev/mssql",
+            "description": "Microsoft Server SQL driver for Evidence projects",
+            "version": "1.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@evidence-dev/mssql"
+          },
+          {
+            "name": "@evidence-dev/trino",
+            "description": "Trino driver for Evidence projects",
+            "version": "1.0.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@evidence-dev/trino"
+          },
+          {
+            "name": "@evidence-dev/universal-sql",
+            "description": null,
+            "version": "2.2.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@evidence-dev/universal-sql"
+          },
+          {
+            "name": "@evidence-dev/db-commons",
+            "description": "Shared modules for Evidence Datasource Drivers ",
+            "version": "1.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@evidence-dev/db-commons"
+          },
+          {
+            "name": "@evidence-dev/core-components",
+            "description": null,
+            "version": "5.2.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@evidence-dev/core-components"
+          },
+          {
+            "name": "@evidence-dev/component-utilities",
+            "description": null,
+            "version": "4.0.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@evidence-dev/component-utilities"
+          },
+          {
+            "name": "@evidence-dev/plugin-connector",
+            "description": null,
+            "version": "2.1.15",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@evidence-dev/plugin-connector"
+          },
+          {
+            "name": "@evidence-dev/redshift",
+            "description": "Redshift driver for Evidence projects",
+            "version": "1.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@evidence-dev/redshift"
+          },
+          {
+            "name": "@evidence-dev/labs",
+            "description": "Evidence labs contains experiemental components and features for [Evidence](https://evidence.dev) projects.",
+            "version": "0.0.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@evidence-dev/labs"
+          },
+          {
+            "name": "@evidence-dev/db-orchestrator",
+            "description": "DB orchestration for Evidence projects",
+            "version": "3.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@evidence-dev/db-orchestrator"
+          },
+          {
+            "name": "@evidence-dev/connector-gsheets",
+            "description": "Google Sheet connector for https://evidence.dev",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@evidence-dev/connector-gsheets"
+          },
+          {
+            "name": "@evidence-dev/query-store",
+            "description": null,
+            "version": "2.1.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@evidence-dev/query-store"
+          },
+          {
+            "name": "@evidence-dev/components",
+            "description": null,
+            "version": "3.5.51",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@evidence-dev/components"
+          },
+          {
+            "name": "evidence-connector-simple-analytics",
+            "description": "This package allows for importing your data VIA the Simple Analytics API directly into Evidence.",
+            "version": "0.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/evidence-connector-simple-analytics"
+          },
+          {
+            "name": "evidence",
+            "description": "Track the history of an object.",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/evidence"
+          },
+          {
+            "name": "@evidence-dev/faker-datasource",
+            "description": null,
+            "version": "2.1.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@evidence-dev/faker-datasource"
+          },
+          {
+            "name": "fiftyone.pipeline.core",
+            "description": "Core library for the 51Degrees Pipeline API",
+            "version": "4.4.109",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/fiftyone.pipeline.core"
+          },
+          {
+            "name": "evidence-connector-posthog",
+            "description": "Evidence data source connector for PostHog",
+            "version": "1.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/evidence-connector-posthog"
+          },
+          {
+            "name": "evidence-connector-aws-athena",
+            "description": "Evidence.dev AWS Athena data source",
+            "version": "1.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/evidence-connector-aws-athena"
+          },
+          {
+            "name": "@csvtuda/cypress-xray-plugin",
+            "description": "A Cypress plugin for uploading test results to Xray (test management for Jira)",
+            "version": "8.5.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@csvtuda/cypress-xray-plugin"
+          },
+          {
+            "name": "fraim-framework",
+            "description": "FRAIM v2: Framework for Rigor-based AI Management - Transform from solo developer to AI manager orchestrating production-ready code with enterprise-grade discipline",
+            "version": "2.0.17",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/fraim-framework"
+          },
+          {
+            "name": "sqltools-duckdb-driver",
+            "description": "Latest DuckDB support: Run queries and explore your DuckDB Database in VSCode",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sqltools-duckdb-driver"
+          },
+          {
+            "name": "@vantasdk/vanta-mcp-server",
+            "description": "Model Context Protocol server for Vanta's security compliance platform",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@vantasdk/vanta-mcp-server"
+          },
+          {
+            "name": "investigations",
+            "description": "Investigations MCP by BuildWorks.AI \u2014 forensic investigations and root cause analysis server for MCP-compatible IDEs.",
+            "version": "2.2.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/investigations"
+          },
+          {
+            "name": "usdl-regex",
+            "description": "US Driver's License validation via https://ntsi.com/drivers-license-format/",
+            "version": "1.7.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/usdl-regex"
+          },
+          {
+            "name": "webpack-dev-middleware",
+            "description": "A development middleware for webpack",
+            "version": "7.4.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/webpack-dev-middleware"
+          },
+          {
+            "name": "@evidence-dev/create-new",
+            "description": "create a new evidence project",
+            "version": "0.1.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@evidence-dev/create-new"
+          },
+          {
+            "name": "evidence-connector-parquet",
+            "description": "Parquet datasource for Evidence",
+            "version": "0.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/evidence-connector-parquet"
+          },
+          {
+            "name": "webpack-dev-server",
+            "description": "Serves a webpack app. Updates the browser on changes.",
+            "version": "5.2.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/webpack-dev-server"
+          },
+          {
+            "name": "bsrp",
+            "description": "Secure Remote Password Protocol (SRP-6a) Implementation",
+            "version": "1.0.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/bsrp"
+          },
+          {
+            "name": "@evidence-dev/db-connectors",
+            "description": "DB connectors for evidence.dev projects",
+            "version": "0.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@evidence-dev/db-connectors"
+          },
+          {
+            "name": "@babel/code-frame",
+            "description": "Generate errors that contain a code frame that point to source locations.",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/code-frame"
+          },
+          {
+            "name": "evidence-map-netherlands",
+            "description": "Evidence labs contains experiemental components and features for [Evidence](https://evidence.dev) projects.",
+            "version": "0.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/evidence-map-netherlands"
+          },
+          {
+            "name": "@babel/parser",
+            "description": "A JavaScript parser",
+            "version": "7.28.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/parser"
+          },
+          {
+            "name": "untildify",
+            "description": "Convert a tilde path to an absolute path: `~/dev` \u2192 `/Users/sindresorhus/dev`",
+            "version": "6.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/untildify"
+          },
+          {
+            "name": "@babel/helpers",
+            "description": "Collection of helper functions used by Babel transforms.",
+            "version": "7.28.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/helpers"
+          },
+          {
+            "name": "@babel/core",
+            "description": "Babel compiler core.",
+            "version": "7.28.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/core"
+          },
+          {
+            "name": "@babel/types",
+            "description": "Babel Types is a Lodash-esque utility library for AST nodes",
+            "version": "7.28.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/types"
+          },
+          {
+            "name": "@corvesta/evidence-based-dentistry-lib",
+            "description": "This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.0.",
+            "version": "18.0.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@corvesta/evidence-based-dentistry-lib"
+          },
+          {
+            "name": "@babel/generator",
+            "description": "Turns an AST into code.",
+            "version": "7.28.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/generator"
+          },
+          {
+            "name": "@aws-sdk/client-auditmanager",
+            "description": "AWS SDK for JavaScript Auditmanager Client for Node.js, Browser and React Native",
+            "version": "3.911.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/client-auditmanager"
+          },
+          {
+            "name": "@vitest/mocker",
+            "description": "Vitest module mocker implementation",
+            "version": "3.2.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@vitest/mocker"
+          },
+          {
+            "name": "@binalyze/air-mcp",
+            "description": "Binalyze AIR MCP Server",
+            "version": "12.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@binalyze/air-mcp"
+          },
+          {
+            "name": "@babel/template",
+            "description": "Generate an AST from a string template.",
+            "version": "7.27.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/template"
+          },
+          {
+            "name": "@babel/helper-define-polyfill-provider",
+            "description": "Babel helper to create your own polyfill provider",
+            "version": "0.6.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/helper-define-polyfill-provider"
+          },
+          {
+            "name": "@cef-ebsi/vcdm2.0-type-extensions-evidence-authorisation-delegation-schema",
+            "description": "Authorisation Delegation type extension (VCDM 2.0)",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@cef-ebsi/vcdm2.0-type-extensions-evidence-authorisation-delegation-schema"
+          },
+          {
+            "name": "@babel/traverse",
+            "description": "The Babel Traverse module maintains the overall tree state, and is responsible for replacing, removing, and adding nodes",
+            "version": "7.28.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/traverse"
+          },
+          {
+            "name": "@babel/plugin-syntax-typescript",
+            "description": "Allow parsing of TypeScript syntax",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-syntax-typescript"
+          },
+          {
+            "name": "ts-node-dev",
+            "description": "Compiles your TS app and restarts when files are modified.",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ts-node-dev"
+          },
+          {
+            "name": "@babel/plugin-syntax-class-properties",
+            "description": "Allow parsing of class properties",
+            "version": "7.12.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-syntax-class-properties"
+          },
+          {
+            "name": "@babel/plugin-syntax-nullish-coalescing-operator",
+            "description": "Allow parsing of the nullish-coalescing operator",
+            "version": "7.8.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-syntax-nullish-coalescing-operator"
+          },
+          {
+            "name": "@babel/plugin-syntax-jsx",
+            "description": "Allow parsing of jsx",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-syntax-jsx"
+          },
+          {
+            "name": "@jimp/plugins",
+            "description": "Default Jimp plugin.",
+            "version": "0.22.12",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@jimp/plugins"
+          },
+          {
+            "name": "@babel/plugin-syntax-async-generators",
+            "description": "Allow parsing of async generator functions",
+            "version": "7.8.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-syntax-async-generators"
+          },
+          {
+            "name": "@babel/plugin-syntax-optional-chaining",
+            "description": "Allow parsing of optional properties",
+            "version": "7.8.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-syntax-optional-chaining"
+          },
+          {
+            "name": "@babel/highlight",
+            "description": "Syntax highlight JavaScript strings for output in terminals.",
+            "version": "7.25.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/highlight"
+          },
+          {
+            "name": "@babel/plugin-syntax-optional-catch-binding",
+            "description": "Allow parsing of optional catch bindings",
+            "version": "7.8.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-syntax-optional-catch-binding"
+          },
+          {
+            "name": "evidence-connector-clickhouse",
+            "description": "Install this plugin in an Evidence app with ```bash npm install evidence-connector-clickhouse ```",
+            "version": "0.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/evidence-connector-clickhouse"
+          },
+          {
+            "name": "@babel/plugin-syntax-top-level-await",
+            "description": "Allow parsing of top-level await in modules",
+            "version": "7.14.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-syntax-top-level-await"
+          },
+          {
+            "name": "@babel/plugin-syntax-numeric-separator",
+            "description": "Allow parsing of Decimal, Binary, Hex and Octal literals that contain a Numeric Literal Separator",
+            "version": "7.10.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-syntax-numeric-separator"
+          },
+          {
+            "name": "@babel/plugin-syntax-logical-assignment-operators",
+            "description": "Allow parsing of the logical assignment operators",
+            "version": "7.10.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-syntax-logical-assignment-operators"
+          },
+          {
+            "name": "@babel/plugin-syntax-bigint",
+            "description": "Allow parsing of BigInt literals",
+            "version": "7.8.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-syntax-bigint"
+          },
+          {
+            "name": "@babel/plugin-transform-block-scoping",
+            "description": "Compile ES2015 block scoping (const and let) to ES5",
+            "version": "7.28.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-block-scoping"
+          },
+          {
+            "name": "@aws-sdk/client-evidently",
+            "description": "AWS SDK for JavaScript Evidently Client for Node.js, Browser and React Native",
+            "version": "3.911.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/client-evidently"
+          },
+          {
+            "name": "@babel/plugin-transform-arrow-functions",
+            "description": "Compile ES2015 arrow functions to ES5",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-arrow-functions"
+          },
+          {
+            "name": "@babel/plugin-transform-function-name",
+            "description": "Apply ES2015 function.name semantics to all functions",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-function-name"
+          },
+          {
+            "name": "@babel/plugin-transform-property-literals",
+            "description": "Ensure that reserved words are quoted in object property keys",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-property-literals"
+          },
+          {
+            "name": "@babel/plugin-syntax-json-strings",
+            "description": "Allow parsing of the U+2028 LINE SEPARATOR and U+2029 PARAGRAPH SEPARATOR in JS strings",
+            "version": "7.8.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-syntax-json-strings"
+          },
+          {
+            "name": "clean-stack",
+            "description": "Clean up error stack traces",
+            "version": "5.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/clean-stack"
+          },
+          {
+            "name": "@babel/plugin-transform-classes",
+            "description": "Compile ES2015 classes to ES5",
+            "version": "7.28.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-classes"
+          },
+          {
+            "name": "@babel/plugin-transform-destructuring",
+            "description": "Compile ES2015 destructuring to ES5",
+            "version": "7.28.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-destructuring"
+          },
+          {
+            "name": "@babel/plugin-syntax-import-meta",
+            "description": "Allow parsing of import.meta",
+            "version": "7.10.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-syntax-import-meta"
+          },
+          {
+            "name": "@babel/plugin-transform-unicode-escapes",
+            "description": "Compile ES2015 Unicode escapes to ES5",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-unicode-escapes"
+          },
+          {
+            "name": "@babel/plugin-transform-shorthand-properties",
+            "description": "Compile ES2015 shorthand properties to ES5",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-shorthand-properties"
+          },
+          {
+            "name": "@babel/plugin-transform-parameters",
+            "description": "Compile ES2015 default and rest parameters to ES5",
+            "version": "7.27.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-parameters"
+          },
+          {
+            "name": "expo-dev-menu",
+            "description": "Expo/React Native module with the developer menu.",
+            "version": "7.0.14",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo-dev-menu"
+          },
+          {
+            "name": "@babel/plugin-syntax-object-rest-spread",
+            "description": "Allow parsing of object rest/spread",
+            "version": "7.8.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-syntax-object-rest-spread"
+          },
+          {
+            "name": "@babel/plugin-transform-regenerator",
+            "description": "Explode async and generator functions into a state machine.",
+            "version": "7.28.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-regenerator"
+          },
+          {
+            "name": "@babel/plugin-transform-computed-properties",
+            "description": "Compile ES2015 computed properties to ES5",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-computed-properties"
+          },
+          {
+            "name": "@babel/plugin-transform-unicode-regex",
+            "description": "Compile ES2015 Unicode regex to ES5",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-unicode-regex"
+          },
+          {
+            "name": "@babel/plugin-transform-sticky-regex",
+            "description": "Compile ES2015 sticky regex to an ES5 RegExp constructor",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-sticky-regex"
+          },
+          {
+            "name": "@babel/plugin-transform-modules-umd",
+            "description": "This plugin transforms ES2015 modules to UMD",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-modules-umd"
+          },
+          {
+            "name": "@rspack/dev-server",
+            "description": "Development server for rspack",
+            "version": "1.1.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@rspack/dev-server"
+          },
+          {
+            "name": "@babel/plugin-transform-modules-systemjs",
+            "description": "This plugin transforms ES2015 modules to SystemJS",
+            "version": "7.27.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@babel/plugin-transform-modules-systemjs"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 100,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:30:21.651421"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:30:21.651443",
+    "batch_network": {
+      "batch": "Summer 2021",
+      "total_batch_mates": 390,
+      "active_batch_mates": 316,
+      "batch_success_rate": 81.0,
+      "notable_batch_mates": [
+        {
+          "name": "Hyper",
+          "slug": "hyper",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Sell memberships to your Discord server"
+        },
+        {
+          "name": "Beeper",
+          "slug": "beeper",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "One chat app to rule them all"
+        },
+        {
+          "name": "Level",
+          "slug": "level",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Fast and simple fintech financing"
+        },
+        {
+          "name": "Goodkind",
+          "slug": "goodkind",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Student communications platform for higher education"
+        },
+        {
+          "name": "Sleek",
+          "slug": "sleek",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "1-click checkout from every store on the internet + cashback rewards."
+        },
+        {
+          "name": "MadEats",
+          "slug": "madeats",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Online delivery-only restaurant group in the Philippines"
+        },
+        {
+          "name": "Maroo",
+          "slug": "maroo",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Business management platform for creatives"
+        },
+        {
+          "name": "Tarsal",
+          "slug": "tarsal",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Data pipeline for your security data lake."
+        },
+        {
+          "name": "Hilos",
+          "slug": "quid",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Close and activate your customers on WhatsApp"
+        },
+        {
+          "name": "Keyri",
+          "slug": "keyri",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Secure fraud prevention and authentication platform for developers"
+        }
+      ],
+      "batch_size": 391
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Analytics"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "status": "Public",
+          "batch": "Winter 2012",
+          "one_liner": "Digital Analytics Platform"
+        },
+        {
+          "name": "Freshplum",
+          "slug": "freshplum",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Analytics with action"
+        },
+        {
+          "name": "Segment",
+          "slug": "segment",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Software and APIs to collect, clean, and control customer data."
+        },
+        {
+          "name": "Pagelever",
+          "slug": "pagelever",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Facebook analytics. Acquired by Unified in January 2013. \r\n"
+        },
+        {
+          "name": "Custora",
+          "slug": "custora",
+          "status": "Acquired",
+          "batch": "Winter 2011",
+          "one_liner": "Custora is a predictive analytics platform for e-commerce marketing\u2026"
+        },
+        {
+          "name": "Chartio",
+          "slug": "chartio",
+          "status": "Acquired",
+          "batch": "Summer 2010",
+          "one_liner": "Chartio is changing how companies work by building the best\u2026"
+        },
+        {
+          "name": "Data Marketplace",
+          "slug": "data-marketplace",
+          "status": "Inactive",
+          "batch": "Winter 2010",
+          "one_liner": ""
+        },
+        {
+          "name": "Mixpanel",
+          "slug": "mixpanel",
+          "status": "Active",
+          "batch": "Summer 2009",
+          "one_liner": "Mixpanel is event analytics for builders that need answers."
+        },
+        {
+          "name": "Poll Everywhere",
+          "slug": "poll-everywhere",
+          "status": "Active",
+          "batch": "Summer 2008",
+          "one_liner": "Interactive meetings and presentations"
+        },
+        {
+          "name": "Infogami",
+          "slug": "infogami",
+          "status": "Inactive",
+          "batch": "Summer 2005",
+          "one_liner": ""
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Toronto",
+      "location": "Toronto, ON, Canada; Remote",
+      "companies_in_city": 74,
+      "active_in_city": 49,
+      "nearby_companies": [
+        {
+          "name": "Per Vices",
+          "slug": "per-vices",
+          "batch": "Winter 2012",
+          "industry": "Industrials",
+          "status": "Active"
+        },
+        {
+          "name": "Upverter",
+          "slug": "upverter",
+          "batch": "Winter 2011",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "DevCycle",
+          "slug": "devcycle",
+          "batch": "Winter 2014",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Whirlscape",
+          "slug": "whirlscape",
+          "batch": "Winter 2014",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HigherMe",
+          "slug": "higherme",
+          "batch": "Winter 2015",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Dabble",
+          "slug": "dabble",
+          "batch": "Winter 2015",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Vanhawks",
+          "slug": "vanhawks",
+          "batch": "Winter 2015",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "teaBOT",
+          "slug": "teabot",
+          "batch": "Summer 2015",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "PartnerStack",
+          "slug": "partnerstack",
+          "batch": "Summer 2015",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Appcanary",
+          "slug": "appcanary",
+          "batch": "Summer 2015",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Rose Rocket",
+          "slug": "rose-rocket",
+          "batch": "Summer 2016",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Sage Care",
+          "slug": "sage-care",
+          "batch": "Summer 2016",
+          "industry": "Healthcare",
+          "status": "Inactive"
+        },
+        {
+          "name": "Validere",
+          "slug": "validere",
+          "batch": "Summer 2016",
+          "industry": "Industrials",
+          "status": "Active"
+        },
+        {
+          "name": "Fiix",
+          "slug": "fiix",
+          "batch": "Winter 2017",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Humi",
+          "slug": "humi",
+          "batch": "Winter 2017",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "HelpWear",
+          "slug": "helpwear",
+          "batch": "Summer 2017",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "OneLocal",
+          "slug": "onelocal",
+          "batch": "Summer 2017",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Quantstamp",
+          "slug": "quantstamp",
+          "batch": "Winter 2018",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "LUS Brands",
+          "slug": "lus-brands",
+          "batch": "Winter 2018",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "BioRender",
+          "slug": "biorender",
+          "batch": "Winter 2018",
+          "industry": "B2B",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Secoda",
+        "slug": "secoda",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Varos",
+        "slug": "varos",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Goodkind",
+        "slug": "goodkind",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Patterns",
+        "slug": "patterns",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Enso",
+        "slug": "enso",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Cloudthread",
+        "slug": "cloudthread",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Hypercontext",
+        "slug": "hypercontext",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Dot",
+        "slug": "dot",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Mixr",
+        "slug": "mixr",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Whaly",
+        "slug": "whaly",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 3210,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:30:21.678197"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:30:21.678214",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:30:22.039322",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:30:22.188348",
+    "basic_info": {
+      "is_hiring": true,
+      "team_size": 6,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:22.135968",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Democratization of data analytics",
+        "Increasing adoption of open-source tools",
+        "Shift towards data-driven decision-making"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Open-source community, developer adoption, and network effects from shared templates and knowledge.",
+      "differentiation": "Code-based BI allows for greater flexibility, version control, and integration with existing data workflows compared to traditional drag-and-drop tools.",
+      "competitive_advantages": [
+        "Developer-centric approach",
+        "Open-source and extensible"
+      ],
+      "competitive_vulnerabilities": [
+        "Requires technical expertise (SQL, markdown)",
+        "May face resistance from non-technical users accustomed to traditional BI tools"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS (likely freemium or usage-based pricing for hosted solution and enterprise features)",
+      "scalability": "high",
+      "capital_intensity": "low"
+    },
+    "growth_assessment": {
+      "growth_stage": "seed",
+      "growth_indicators": [
+        "Community growth and engagement",
+        "Adoption rate among developers",
+        "Number of active projects/deployments"
+      ],
+      "growth_bottlenecks": [
+        "Onboarding and educating non-technical users",
+        "Building a robust ecosystem of integrations and templates"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Competition from established BI vendors adapting to code-based approaches",
+        "Slower adoption rate than anticipated",
+        "Difficulty in monetizing open-source users"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Addresses a growing need for flexible and customizable BI solutions",
+        "Leverages the power of open-source and developer communities",
+        "Strong potential for viral adoption among technical users"
+      ],
+      "concerns": [
+        "Limited appeal to non-technical users",
+        "Monetization strategy needs to be carefully considered"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Looker (acquired by Google)",
+        "Metabase"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on building a strong community and ecosystem",
+        "Develop educational resources and onboarding materials for new users"
+      ],
+      "expansion_opportunities": [
+        "Integrate with popular data platforms and tools",
+        "Offer enterprise-grade features and support"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 624,
+      "completion": 686,
+      "total": 1310,
+      "estimated_cost": 0.000253
+    }
+  },
+  "phase8_complete": true
+}

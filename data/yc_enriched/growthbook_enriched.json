@@ -1,0 +1,1031 @@
+{
+  "slug": "growthbook",
+  "name": "GrowthBook",
+  "yc_id": 25174,
+  "batch": "Winter 2022",
+  "website": "https://www.growthbook.io",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T01:09:55.690438",
+    "website": "https://www.growthbook.io",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 2731.36,
+      "final_url": "https://www.growthbook.io/",
+      "redirected": true,
+      "checked_at": "2025-10-17T01:09:58.421813"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "growthbook.io",
+      "registrar": "GoDaddy.com, LLC",
+      "creation_date": "2020-05-19T18:30:18",
+      "expiration_date": "2026-05-19T18:30:18",
+      "domain_age_days": 1976,
+      "domain_age_years": 5.4,
+      "name_servers": [
+        "ns-1834.awsdns-37.co.uk",
+        "ns-176.awsdns-22.com",
+        "ns-876.awsdns-45.net",
+        "ns-1335.awsdns-38.org"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/growth_book",
+      "linkedin": "https://www.linkedin.com/company/growthbook/",
+      "github": "https://github.com/growthbook/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": "https://www.youtube.com/@growthbook-ab"
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": true,
+      "x_frame_options": true,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 50,
+      "server": "Unknown"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:30:53.001355",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:30:40.005432",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "Palo Alto, CA, USA",
+      "coordinates": {
+        "latitude": 37.4419,
+        "longitude": -122.143
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:14:40.079679",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:30:40.005490",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/growthbook"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 44,
+        "packages": [
+          {
+            "name": "@growthbook/growthbook",
+            "description": "[GrowthBook](https://www.growthbook.io) is an open source Feature Flagging and Experimentation platform.",
+            "version": "1.6.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@growthbook/growthbook"
+          },
+          {
+            "name": "@growthbook/growthbook-react",
+            "description": "[GrowthBook](https://www.growthbook.io) is a modular Feature Flagging and Experimentation platform.",
+            "version": "1.6.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@growthbook/growthbook-react"
+          },
+          {
+            "name": "growthbook",
+            "description": "The GrowthBook command-line interface (CLI) for working with the GrowthBook A/B testing, feature flagging, and experimentation platform",
+            "version": "0.2.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/growthbook"
+          },
+          {
+            "name": "@flags-sdk/growthbook",
+            "description": "GrowthBook provider for the Flags SDK",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@flags-sdk/growthbook"
+          },
+          {
+            "name": "@growthbook/edge-cloudflare",
+            "description": "GrowthBook edge app for Cloudflare Workers",
+            "version": "0.2.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@growthbook/edge-cloudflare"
+          },
+          {
+            "name": "@growthbook/mcp",
+            "description": "MCP Server for interacting with GrowthBook",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@growthbook/mcp"
+          },
+          {
+            "name": "@growthbook/edge-lambda",
+            "description": "GrowthBook edge app for Lambda@Edge",
+            "version": "0.0.26",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@growthbook/edge-lambda"
+          },
+          {
+            "name": "nuxt-growthbook",
+            "description": "Nuxt GrowthBook module",
+            "version": "0.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/nuxt-growthbook"
+          },
+          {
+            "name": "@growthbook/proxy",
+            "description": "GrowthBook proxy server for caching, realtime updates, telemetry, etc",
+            "version": "1.2.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@growthbook/proxy"
+          },
+          {
+            "name": "@openfeature/growthbook-client-provider",
+            "description": "## Installation",
+            "version": "0.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@openfeature/growthbook-client-provider"
+          },
+          {
+            "name": "@fastmcp-me/growthbook-mcp",
+            "description": "MCP Server for interacting with GrowthBook",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@fastmcp-me/growthbook-mcp"
+          },
+          {
+            "name": "@scaleway/use-growthbook",
+            "description": "Utility package to expose AB test tool",
+            "version": "2.1.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@scaleway/use-growthbook"
+          },
+          {
+            "name": "@growthbook/edge-fastly",
+            "description": "GrowthBook edge app for Fastly Compute",
+            "version": "0.2.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@growthbook/edge-fastly"
+          },
+          {
+            "name": "growthbook-vite",
+            "description": "GrowthBook is an open-source A/B testing platform for developers. This is a Vite library for Sveltekit.",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/growthbook-vite"
+          },
+          {
+            "name": "@growthbook/dev",
+            "description": "Adds a widget to your site that helps during development of GrowthBook A/B tests.",
+            "version": "0.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@growthbook/dev"
+          },
+          {
+            "name": "@openfeature/growthbook-provider",
+            "description": "## Installation",
+            "version": "0.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@openfeature/growthbook-provider"
+          },
+          {
+            "name": "@growthbook/edge-utils",
+            "description": "Edge worker base app",
+            "version": "0.2.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@growthbook/edge-utils"
+          },
+          {
+            "name": "@xtreamsrl/react-feature-flags-growthbook",
+            "description": "This package exposes an implementation of the feature flag manager that uses [growthbook](https://www.growthbook.io/).",
+            "version": "0.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@xtreamsrl/react-feature-flags-growthbook"
+          },
+          {
+            "name": "@alphalang-ai/alphalang",
+            "description": "[GrowthBook](https://www.growthbook.io) is an open source Feature Flagging and Experimentation platform.",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@alphalang-ai/alphalang"
+          },
+          {
+            "name": "@aronpc/n8n-nodes-growthbook",
+            "description": "Plugin para n8n: Integra\u00e7\u00e3o com GrowthBook para feature flags e experimentos A/B",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aronpc/n8n-nodes-growthbook"
+          },
+          {
+            "name": "@uptechworks/uptech-growthbook-sdk-typescript",
+            "description": "A thin wrapper around GrowthBook's Javascript SDK to support automated testing",
+            "version": "0.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@uptechworks/uptech-growthbook-sdk-typescript"
+          },
+          {
+            "name": "ngx-growthbook",
+            "description": "Angular library for GrowthBook",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ngx-growthbook"
+          },
+          {
+            "name": "dom-mutator",
+            "description": "For those times you need to apply persistent DOM changes on top of HTML you don\u2019t control.",
+            "version": "0.7.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/dom-mutator"
+          },
+          {
+            "name": "@roninjin10/usedapp-rainbowkit-adapter",
+            "description": "A light wrapper around growthbook based on zod",
+            "version": "0.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@roninjin10/usedapp-rainbowkit-adapter"
+          },
+          {
+            "name": "@growthbook/proxy-eval",
+            "description": "Remote evaluation service for proxies, edge workers, or backend APIs",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@growthbook/proxy-eval"
+          },
+          {
+            "name": "@shamscorner/growthbook-vite",
+            "description": "GrowthBook is an open-source A/B testing platform for developers. This is a Vite library for Sveltekit.",
+            "version": "0.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@shamscorner/growthbook-vite"
+          },
+          {
+            "name": "@roninjin10/typesafe-growthbook",
+            "description": "A light wrapper around growthbook based on zod",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@roninjin10/typesafe-growthbook"
+          },
+          {
+            "name": "growthbook-nuxtify",
+            "description": "GrowthBook module for Nuxt.js",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/growthbook-nuxtify"
+          },
+          {
+            "name": "@writefull/core",
+            "description": "\u26a0\ufe0f Internal use only. This package is published publicly on npm for internal distribution. It is not documented, supported, or intended for public use.",
+            "version": "1.27.27",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@writefull/core"
+          },
+          {
+            "name": "@deriv-com/analytics",
+            "description": "The analytics package contains all the utility functions used for tracking user events and sending them to the respective platform such as Rudderstack.",
+            "version": "1.31.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@deriv-com/analytics"
+          },
+          {
+            "name": "@alphalang/alphalang-core",
+            "description": "[GrowthBook](https://www.alphalang.ai) is an open source Feature Flagging and Experimentation platform.",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@alphalang/alphalang-core"
+          },
+          {
+            "name": "growthbook-remote-config",
+            "description": "This library is meant for use with [Angular](https://angular.io/)",
+            "version": "0.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/growthbook-remote-config"
+          },
+          {
+            "name": "@sanity/personalization-plugin",
+            "description": "Plugin to help with personalization, a/b testing when using Sanity",
+            "version": "2.4.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sanity/personalization-plugin"
+          },
+          {
+            "name": "@alphalang/alphalang",
+            "description": "[AlphaLang](https://www.alphalang.ai) is an open source Feature Flagging and Experimentation platform.",
+            "version": "0.0.6-alpha",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@alphalang/alphalang"
+          },
+          {
+            "name": "@ethora/mcp-server",
+            "description": "@ethora/mcp-server",
+            "version": "1.0.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ethora/mcp-server"
+          },
+          {
+            "name": "new-analytics-test",
+            "description": "The analytics package contains all the utility functions used for tracking user events and sending them to the respective platform such as Rudderstack.",
+            "version": "0.0.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/new-analytics-test"
+          },
+          {
+            "name": "@deriv/analytics",
+            "description": "The analytics package contains all the utility functions used for tracking user events and sending them to the respective platform such as Rudderstack.",
+            "version": "1.4.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@deriv/analytics"
+          },
+          {
+            "name": "@pipedream/cdk-constructs",
+            "description": "AWS CDK constructs",
+            "version": "0.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@pipedream/cdk-constructs"
+          },
+          {
+            "name": "@alphalang-ai/alphalang-sdk",
+            "description": "[AlphaLang](https://www.growthbook.io) is an open source Feature Flagging and Experimentation platform.",
+            "version": "0.0.1-alpha",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@alphalang-ai/alphalang-sdk"
+          },
+          {
+            "name": "@xtreamsrl/react-feature-flags",
+            "description": "This package exposes a collections of hooks and utilities to manage feature flags.",
+            "version": "0.1.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@xtreamsrl/react-feature-flags"
+          },
+          {
+            "name": "confsync",
+            "description": "Manage config files in AWS S3.",
+            "version": "1.0.24",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/confsync"
+          },
+          {
+            "name": "track-analytics",
+            "description": "test package",
+            "version": "0.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/track-analytics"
+          },
+          {
+            "name": "simti-analytics",
+            "description": "The analytics package contains all the utility functions used for tracking user events and sending them to the respective platform such as Rudderstack.",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/simti-analytics"
+          },
+          {
+            "name": "growthbook-next",
+            "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+            "version": "0.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/growthbook-next"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 1,
+        "packages": [
+          {
+            "name": "growthbook",
+            "version": "1.3.0",
+            "downloads": 1284842,
+            "url": "https://rubygems.org/gems/growthbook"
+          }
+        ]
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 3,
+        "packages": [
+          {
+            "name": "growthbook-rust-sdk",
+            "description": "unofficial growthbook rust sdk",
+            "version": "1.1.0",
+            "downloads": 30831,
+            "url": "https://crates.io/crates/growthbook-rust-sdk"
+          },
+          {
+            "name": "growthbook-sdk-rust",
+            "description": "unofficial growthbook rust sdk",
+            "version": "0.1.1",
+            "downloads": 922,
+            "url": "https://crates.io/crates/growthbook-sdk-rust"
+          },
+          {
+            "name": "derust",
+            "description": "Easy way to start your Rust asynchronous application server using Tokio and Axum frameworks.",
+            "version": "0.3.10",
+            "downloads": 10216,
+            "url": "https://crates.io/crates/derust"
+          }
+        ]
+      },
+      "total_packages": 48,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:30:42.005417"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:30:42.005426",
+    "batch_network": {
+      "batch": "Winter 2022",
+      "total_batch_mates": 399,
+      "active_batch_mates": 340,
+      "batch_success_rate": 85.2,
+      "notable_batch_mates": [
+        {
+          "name": "Alfie",
+          "slug": "alfie",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Democratizing access to precision weight loss medications "
+        },
+        {
+          "name": "Proper",
+          "slug": "proper",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Reconciliation and financial operations platform"
+        },
+        {
+          "name": "Sarus",
+          "slug": "sarus",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Use personal data for analytics and ML, safely and seamlessly"
+        },
+        {
+          "name": "HomeRoom",
+          "slug": "homeroom",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "We Rent Your Property by the Room.  You earn 50% more Rent."
+        },
+        {
+          "name": "Onyx Private",
+          "slug": "onyx-private",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A modern and more accessible private bank for the new generation "
+        },
+        {
+          "name": "JumpWire",
+          "slug": "jumpwire",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Dynamic access controls for all data and databases"
+        },
+        {
+          "name": "BharatX",
+          "slug": "bharatx",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Enable Buy-Now-Pay-Later in a White-Labelled Manner"
+        },
+        {
+          "name": "Stackshine",
+          "slug": "stackshine",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Automating all IT operations"
+        },
+        {
+          "name": "Speechly",
+          "slug": "speechly",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Natural Language Understanding API for Speech that runs on device"
+        },
+        {
+          "name": "Requestly",
+          "slug": "requestly",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Open-Source Postman alternative"
+        }
+      ],
+      "batch_size": 400
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Analytics"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "status": "Public",
+          "batch": "Winter 2012",
+          "one_liner": "Digital Analytics Platform"
+        },
+        {
+          "name": "Freshplum",
+          "slug": "freshplum",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Analytics with action"
+        },
+        {
+          "name": "Segment",
+          "slug": "segment",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Software and APIs to collect, clean, and control customer data."
+        },
+        {
+          "name": "Pagelever",
+          "slug": "pagelever",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Facebook analytics. Acquired by Unified in January 2013. \r\n"
+        },
+        {
+          "name": "Custora",
+          "slug": "custora",
+          "status": "Acquired",
+          "batch": "Winter 2011",
+          "one_liner": "Custora is a predictive analytics platform for e-commerce marketing\u2026"
+        },
+        {
+          "name": "Chartio",
+          "slug": "chartio",
+          "status": "Acquired",
+          "batch": "Summer 2010",
+          "one_liner": "Chartio is changing how companies work by building the best\u2026"
+        },
+        {
+          "name": "Data Marketplace",
+          "slug": "data-marketplace",
+          "status": "Inactive",
+          "batch": "Winter 2010",
+          "one_liner": ""
+        },
+        {
+          "name": "Mixpanel",
+          "slug": "mixpanel",
+          "status": "Active",
+          "batch": "Summer 2009",
+          "one_liner": "Mixpanel is event analytics for builders that need answers."
+        },
+        {
+          "name": "Poll Everywhere",
+          "slug": "poll-everywhere",
+          "status": "Active",
+          "batch": "Summer 2008",
+          "one_liner": "Interactive meetings and presentations"
+        },
+        {
+          "name": "Infogami",
+          "slug": "infogami",
+          "status": "Inactive",
+          "batch": "Summer 2005",
+          "one_liner": ""
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Palo Alto",
+      "location": "Palo Alto, CA, USA; Remote",
+      "companies_in_city": 93,
+      "active_in_city": 40,
+      "nearby_companies": [
+        {
+          "name": "Hipmob",
+          "slug": "hipmob",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Amiato",
+          "slug": "amiato",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Pixelapse",
+          "slug": "pixelapse",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "LVL6",
+          "slug": "lvl6",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "GiveSpark",
+          "slug": "givespark",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Proxino",
+          "slug": "proxino",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Science Exchange",
+          "slug": "science-exchange",
+          "batch": "Summer 2011",
+          "industry": "Healthcare",
+          "status": "Acquired"
+        },
+        {
+          "name": "Clerky",
+          "slug": "clerky",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Assembled",
+          "slug": "assembled",
+          "batch": "Winter 2011",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Pebble",
+          "slug": "pebble",
+          "batch": "Winter 2011",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Insight Data Science",
+          "slug": "insight-data-science",
+          "batch": "Winter 2011",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "AeroFS",
+          "slug": "aerofs",
+          "batch": "Summer 2010",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Etacts",
+          "slug": "etacts",
+          "batch": "Winter 2010",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Lockitron",
+          "slug": "lockitron",
+          "batch": "Summer 2009",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "GraffitiGeo",
+          "slug": "graffitigeo",
+          "batch": "Summer 2009",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Snipd",
+          "slug": "snipd",
+          "batch": "Summer 2008",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Machine Zone",
+          "slug": "machine-zone",
+          "batch": "Winter 2008",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fuzzwich",
+          "slug": "fuzzwich",
+          "batch": "Summer 2007",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Jumpchat",
+          "slug": "jumpchat",
+          "batch": "Summer 2006",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Pixate",
+          "slug": "pixate",
+          "batch": "Summer 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Redbird",
+        "slug": "redbird",
+        "batch": "Winter 2022",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "PromptLoop",
+        "slug": "promptloop",
+        "batch": "Winter 2022",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Sarus",
+        "slug": "sarus",
+        "batch": "Winter 2022",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "HypaHub",
+        "slug": "hypahub",
+        "batch": "Winter 2022",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Elementary",
+        "slug": "elementary",
+        "batch": "Winter 2022",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Armilla AI",
+        "slug": "armilla-ai",
+        "batch": "Winter 2022",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Siftly",
+        "slug": "siftly",
+        "batch": "Winter 2022",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Cotera",
+        "slug": "cotera",
+        "batch": "Winter 2022",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Livedocs",
+        "slug": "livedocs",
+        "batch": "Winter 2022",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "SmartHelio",
+        "slug": "smarthelio",
+        "batch": "Winter 2022",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 3238,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:30:42.014469"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:30:42.014475",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:30:42.350546",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:30:42.496838",
+    "basic_info": {
+      "is_hiring": true,
+      "team_size": 20,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:42:12.609843",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "medium",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increased adoption of data-driven decision making",
+        "Growing demand for feature flagging and A/B testing tools",
+        "Preference for open-source solutions to avoid vendor lock-in"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Open-source nature, community, and potential network effects around integrations and plugins.",
+      "differentiation": "Open-source alternative to SaaS feature flagging, leveraging existing data infrastructure.",
+      "competitive_advantages": [
+        "Lower cost compared to SaaS solutions",
+        "Greater data control and compliance",
+        "Avoids vendor lock-in"
+      ],
+      "competitive_vulnerabilities": [
+        "Requires more technical expertise to set up and maintain",
+        "Reliance on community contributions for support and development"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS (likely open-core or enterprise support)",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "seed",
+      "growth_indicators": [
+        "Adoption by companies seeking alternatives to SaaS solutions",
+        "Community growth and contributions",
+        "Number of integrations with data infrastructure tools"
+      ],
+      "growth_bottlenecks": [
+        "Building a strong open-source community",
+        "Educating the market on the benefits of their approach"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Competition from established SaaS players",
+        "Difficulty in monetizing open-source software",
+        "Slower adoption compared to fully managed solutions"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Addresses a clear pain point in the market",
+        "Open-source approach resonates with developers",
+        "Potential for strong community-driven growth"
+      ],
+      "concerns": [
+        "Monetization strategy needs to be well-defined",
+        "Reliance on community for support and development"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "LaunchDarkly",
+        "Split.io"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on building a strong open-source community",
+        "Develop a clear and compelling monetization strategy",
+        "Expand integrations with popular data infrastructure tools"
+      ],
+      "expansion_opportunities": [
+        "Offer enterprise support and consulting services",
+        "Develop premium features for paying customers"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 723,
+      "completion": 685,
+      "total": 1408,
+      "estimated_cost": 0.00026
+    }
+  },
+  "phase8_complete": true
+}

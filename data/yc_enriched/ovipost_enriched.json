@@ -1,0 +1,496 @@
+{
+  "slug": "ovipost",
+  "name": "Ovipost",
+  "yc_id": 1735,
+  "batch": "Winter 2018",
+  "website": "https://ovipost.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:40:32.318055",
+    "website": "https://ovipost.com",
+    "website_status": {
+      "reachable": false,
+      "error": "connection_error"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "ovipost.com",
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "error": "HTTPSConnectionPool(host='ovipost.com', port=443): Max retries exceeded with url: / (Caused by NameR"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:19:28.162003",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:19:17.273467",
+    "place_data": {
+      "status": "success",
+      "method": "nominatim",
+      "formatted_address": "LaBelle, Hendry County, Florida, 33935, United States",
+      "coordinates": {
+        "latitude": 26.7615384,
+        "longitude": -81.4385828
+      },
+      "place_types": [
+        "administrative"
+      ],
+      "retrieved_at": "2025-10-17T10:19:18.519742"
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:18.520715",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:18.520721",
+    "batch_network": {
+      "batch": "Winter 2018",
+      "total_batch_mates": 145,
+      "active_batch_mates": 84,
+      "batch_success_rate": 57.9,
+      "notable_batch_mates": [
+        {
+          "name": "Newfront",
+          "slug": "newfront-insurance",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "Modern insurance brokerage."
+        },
+        {
+          "name": "Mayhem",
+          "slug": "mayhem",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Mayhem is the easiest way to play with your gaming community."
+        },
+        {
+          "name": "Pulse",
+          "slug": "pulse-2",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "We're crowdsourced Gartner so IT executives can learn directly from\u2026"
+        },
+        {
+          "name": "Bear Flag Robotics",
+          "slug": "bear-flag-robotics",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Autonomous driving technology for farm tractors."
+        },
+        {
+          "name": "ClearBrain",
+          "slug": "clearbrain",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Causal Analytics for Growth Teams"
+        },
+        {
+          "name": "Sepsis Scout",
+          "slug": "sepsis-scout",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Wearables and AI to predict and prevent sepsis outside the hospital"
+        },
+        {
+          "name": "onederful",
+          "slug": "onederful",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Dental Insurance API"
+        },
+        {
+          "name": "CodeStream",
+          "slug": "codestream",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "CodeStream is a Developer Collaboration Platform designed to\u2026"
+        },
+        {
+          "name": "Glimpse K12",
+          "slug": "glimpse-k12",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Glimpse eliminates ineffective spending in schools."
+        },
+        {
+          "name": "Squad",
+          "slug": "squad",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Squad is an app for live communities to have shared experiences\u2026"
+        }
+      ],
+      "batch_size": 146
+    },
+    "industry_network": {
+      "industries": [
+        "Industrials",
+        "Agriculture"
+      ],
+      "total_industry_peers": 318,
+      "active_industry_peers": 246,
+      "direct_competitors": [
+        {
+          "name": "FarmLogs",
+          "slug": "farmlogs",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Software that helps farmers operate more profitable businesses."
+        },
+        {
+          "name": "Edyn",
+          "slug": "edyn",
+          "status": "Inactive",
+          "batch": "Winter 2014",
+          "one_liner": "Nest for lawn and garden"
+        },
+        {
+          "name": "Terravion",
+          "slug": "terravion",
+          "status": "Inactive",
+          "batch": "Winter 2014",
+          "one_liner": "Real time Google Earth for agriculture -- imagery collected weekly\u2026"
+        },
+        {
+          "name": "Tule",
+          "slug": "tule",
+          "status": "Acquired",
+          "batch": "Summer 2014",
+          "one_liner": "Help farmers make irrigation decisions with sensors / computer vision "
+        },
+        {
+          "name": "Thrive Agritech",
+          "slug": "thrive-agritech",
+          "status": "Active",
+          "batch": "Summer 2015",
+          "one_liner": "We design and manufacture energy efficient LED lighting fixtures for\u2026"
+        },
+        {
+          "name": "PickTrace",
+          "slug": "picktrace",
+          "status": "Active",
+          "batch": "Summer 2015",
+          "one_liner": "Workforce Management for Large Farms"
+        },
+        {
+          "name": "Inevitable Tech",
+          "slug": "inevitable-tech",
+          "status": "Inactive",
+          "batch": "Winter 2016",
+          "one_liner": "To make food a renewable resource, for everyone"
+        },
+        {
+          "name": "Kisan Network",
+          "slug": "kisan-network",
+          "status": "Inactive",
+          "batch": "Winter 2016",
+          "one_liner": "Tech enabled and fully integrated PAN India agri produce supply chain"
+        },
+        {
+          "name": "Trade",
+          "slug": "trade",
+          "status": "Inactive",
+          "batch": "Winter 2017",
+          "one_liner": "We're building Africa's Commodity Exchange. "
+        },
+        {
+          "name": "Bountiful",
+          "slug": "bountiful",
+          "status": "Active",
+          "batch": "Winter 2017",
+          "one_liner": "An Operating System for agriculture."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "LaBelle",
+      "location": "LaBelle, FL, USA",
+      "companies_in_city": 0,
+      "active_in_city": 0,
+      "nearby_companies": [],
+      "ecosystem_density": "low"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Beanstalk",
+        "slug": "beanstalk",
+        "batch": "Winter 2018",
+        "industry": "Industrials",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Bear Flag Robotics",
+        "slug": "bear-flag-robotics",
+        "batch": "Winter 2018",
+        "industry": "Industrials",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "SRTX",
+        "slug": "srtx",
+        "batch": "Winter 2018",
+        "industry": "Industrials",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Vathys",
+        "slug": "vathys",
+        "batch": "Winter 2018",
+        "industry": "Industrials",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Shone",
+        "slug": "shone",
+        "batch": "Winter 2018",
+        "industry": "Industrials",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Orangewood Labs",
+        "slug": "orangewood-labs",
+        "batch": "Winter 2018",
+        "industry": "Industrials",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Aerones",
+        "slug": "aerones",
+        "batch": "Winter 2018",
+        "industry": "Industrials",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "FarmLogs",
+        "slug": "farmlogs",
+        "batch": "Winter 2012",
+        "industry": "Industrials",
+        "status": "Acquired",
+        "similarity_score": 5,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Edyn",
+        "slug": "edyn",
+        "batch": "Winter 2014",
+        "industry": "Industrials",
+        "status": "Inactive",
+        "similarity_score": 5,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Terravion",
+        "slug": "terravion",
+        "batch": "Winter 2014",
+        "industry": "Industrials",
+        "status": "Inactive",
+        "similarity_score": 5,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 463,
+      "network_density_score": 54.4,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": false,
+      "calculated_at": "2025-10-17T10:19:18.528556"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:18.528561",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:18.860891",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:18.969250",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 20,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:45:49.609802",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "large",
+      "market_stage": "emerging",
+      "key_trends": [
+        "Growing demand for sustainable protein alternatives",
+        "Regulatory acceptance of insect-based feeds increasing globally",
+        "Rising fishmeal prices driving feed substitution"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Automation technology and biotech hardware expertise creating operational efficiency barriers",
+      "differentiation": "Focus on automated farming systems rather than manual insect production",
+      "competitive_advantages": [
+        "Strong technical founding team with proven exits",
+        "Targeting high-value B2B feed market vs consumer"
+      ],
+      "competitive_vulnerabilities": [
+        "High capital requirements for scaling",
+        "Regulatory hurdles in food/feed approval"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "hardware",
+      "scalability": "medium",
+      "capital_intensity": "high"
+    },
+    "growth_assessment": {
+      "growth_stage": "seed",
+      "growth_indicators": [
+        "Large addressable market in animal feed",
+        "Experienced founding team"
+      ],
+      "growth_bottlenecks": [
+        "High upfront capital for farm infrastructure",
+        "Long sales cycles for B2B customers"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "high",
+      "execution_risk": "high",
+      "overall_risk_score": 7,
+      "key_risks": [
+        "Company status is inactive",
+        "Complex biotech hardware development",
+        "Regulatory approval challenges for feed applications"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Massive TAM in animal feed industry",
+        "Experienced founders with successful exit",
+        "Sustainable solution addressing global protein needs"
+      ],
+      "concerns": [
+        "Inactive status suggests execution challenges",
+        "Capital-intensive business model",
+        "Early market adoption barriers"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Protix",
+        "InnovaFeed"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Investigate reasons for inactive status",
+        "Assess IP and technology assets"
+      ],
+      "expansion_opportunities": [
+        "Geographic expansion to Asia-Pacific markets",
+        "Vertical integration into specialty feed products"
+      ]
+    },
+    "tokens_used": {
+      "input": 736,
+      "output": 539,
+      "total": 1275,
+      "estimated_cost": 0.010293
+    }
+  },
+  "phase8_complete": true
+}

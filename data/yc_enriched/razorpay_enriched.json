@@ -1,0 +1,1474 @@
+{
+  "slug": "razorpay",
+  "name": "Razorpay",
+  "yc_id": 827,
+  "batch": "Winter 2015",
+  "website": "https://razorpay.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:35:19.923731",
+    "website": "https://razorpay.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 768.14,
+      "final_url": "https://razorpay.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:35:20.691889"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "razorpay.com",
+      "registrar": "Gandi SAS",
+      "creation_date": "2013-08-23T18:36:27",
+      "expiration_date": "2026-08-23T18:36:27",
+      "domain_age_days": 4437,
+      "domain_age_years": 12.1,
+      "name_servers": [
+        "NS-1400.AWSDNS-47.ORG",
+        "NS-1939.AWSDNS-50.CO.UK",
+        "NS-723.AWSDNS-26.NET",
+        "NS-74.AWSDNS-09.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://x.com/razorpay",
+      "linkedin": "https://linkedin.com/company/razorpay",
+      "github": "https://github.com/razorpay",
+      "facebook": "https://www.facebook.com/Razorpay/",
+      "instagram": "https://www.instagram.com/razorpay/",
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": true,
+      "x_content_type_options": true,
+      "x_xss_protection": true,
+      "referrer_policy": false,
+      "security_score": 66,
+      "server": "CloudFront"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:15:44.668481",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:15:30.826879",
+    "place_data": {
+      "status": "success",
+      "method": "nominatim",
+      "formatted_address": "Bengaluru, Bangalore North, Bengaluru Urban, Karnataka, India",
+      "coordinates": {
+        "latitude": 12.9767936,
+        "longitude": 77.590082
+      },
+      "place_types": [
+        "administrative"
+      ],
+      "retrieved_at": "2025-10-17T10:14:35.797038",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:15:30.826941",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/razorpay"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 100,
+        "packages": [
+          {
+            "name": "razorpay",
+            "description": "Official Node SDK for Razorpay API",
+            "version": "2.9.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/razorpay"
+          },
+          {
+            "name": "@razorpay/blade",
+            "description": "The Design System that powers Razorpay",
+            "version": "12.60.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@razorpay/blade"
+          },
+          {
+            "name": "react-native-razorpay",
+            "description": "React Native wrapper for Razorpay",
+            "version": "2.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-native-razorpay"
+          },
+          {
+            "name": "react-razorpay",
+            "description": "Integrate Razorpay Payment gateway in your react application.",
+            "version": "3.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-razorpay"
+          },
+          {
+            "name": "@types/react-native-razorpay",
+            "description": "TypeScript definitions for react-native-razorpay",
+            "version": "2.2.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@types/react-native-razorpay"
+          },
+          {
+            "name": "nestjs-razorpay",
+            "description": "Easy integration for razorpay payment gateway into your nestjs app",
+            "version": "2.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/nestjs-razorpay"
+          },
+          {
+            "name": "razorpay-typescript",
+            "description": "Unofficial TypeScript based Node.js SDK for Razorpay API.",
+            "version": "1.0.12",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/razorpay-typescript"
+          },
+          {
+            "name": "@devx-commerce/razorpay",
+            "description": "Razorpay integration for Medusa",
+            "version": "0.0.26",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@devx-commerce/razorpay"
+          },
+          {
+            "name": "react-native-customui",
+            "description": "React Native wrapper for Razorpay SDK",
+            "version": "2.2.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-native-customui"
+          },
+          {
+            "name": "razorpay-node-typescript",
+            "description": "[![npm](https://img.shields.io/npm/v/razorpay.svg?maxAge=2592000?style=flat-square)](https://www.npmjs.com/package/razorpay) [![Build Status](https://travis-ci.org/razorpay/razorpay-node.svg?branch=master)](https://travis-ci.org/razorpay/razorpay-node)",
+            "version": "1.1.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/razorpay-node-typescript"
+          },
+          {
+            "name": "medusa-payment-razorpay",
+            "description": "Razorpay Payment provider for Medusa Commerce",
+            "version": "7.3.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/medusa-payment-razorpay"
+          },
+          {
+            "name": "razorpay-checkout",
+            "description": "[Unofficial] Library provided by Razorpay to facilitate checkout of order by clicking a single button. The library is for frontend development.",
+            "version": "1.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/razorpay-checkout"
+          },
+          {
+            "name": "medusa-plugin-razorpay-v2",
+            "description": "A plugin to receive payments in medusajs v2 using Razorpay.",
+            "version": "0.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/medusa-plugin-razorpay-v2"
+          },
+          {
+            "name": "razorpay-sdk",
+            "description": "A lightweight, secure, and reusable Node.js SDK for integrating Razorpay payments efficiently, with built-in helpers for order creation and payment verification.",
+            "version": "1.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/razorpay-sdk"
+          },
+          {
+            "name": "@sgftech/payment-razorpay",
+            "description": "razorpay payment provider for Medusa v2",
+            "version": "2.1.11",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sgftech/payment-razorpay"
+          },
+          {
+            "name": "@pipedream/razorpay",
+            "description": "Pipedream Razorpay Components",
+            "version": "0.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@pipedream/razorpay"
+          },
+          {
+            "name": "@razorpay/n8n-nodes-razorpay",
+            "description": "Razorpay n8n node for payment processing",
+            "version": "0.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@razorpay/n8n-nodes-razorpay"
+          },
+          {
+            "name": "frzp",
+            "description": "Razorpay Checkout for React Native New Architecture",
+            "version": "0.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/frzp"
+          },
+          {
+            "name": "@zoowee/medusa-payment-razorpay",
+            "description": "Razorpay payment processor for medusajs",
+            "version": "0.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@zoowee/medusa-payment-razorpay"
+          },
+          {
+            "name": "ifsc",
+            "description": "This is part of the IFSC toolset released by Razorpay. You can find more details about the entire release at [ifsc.razorpay.com](https://ifsc.razorpay.com). Includes only a validation library as of now.",
+            "version": "2.0.48",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ifsc"
+          },
+          {
+            "name": "fix-react-native-razorpay",
+            "description": "React Native wrapper for Razorpay",
+            "version": "2.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/fix-react-native-razorpay"
+          },
+          {
+            "name": "razorpay-functions",
+            "description": "For Accessing all razorpay functions",
+            "version": "0.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/razorpay-functions"
+          },
+          {
+            "name": "@razorpay/i18nify-js",
+            "description": "_A one-stop solution built in javascript to provide internationalization support._",
+            "version": "1.12.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@razorpay/i18nify-js"
+          },
+          {
+            "name": "razorpay-esm",
+            "description": "Official Node SDK for Razorpay API",
+            "version": "3.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/razorpay-esm"
+          },
+          {
+            "name": "react-native-razorpay-api",
+            "description": "React native razorpay api.",
+            "version": "1.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-native-razorpay-api"
+          },
+          {
+            "name": "razorpay-react-sdk",
+            "description": "A simple Razorpay integration package for React & Next.js with TypeScript support.",
+            "version": "1.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/razorpay-react-sdk"
+          },
+          {
+            "name": "razorpay-rv",
+            "description": "Node SDK for Razorpay API",
+            "version": "2.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/razorpay-rv"
+          },
+          {
+            "name": "razorpay-solution-js",
+            "description": "Easy Way to integrate Razorpay Backend",
+            "version": "2.1.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/razorpay-solution-js"
+          },
+          {
+            "name": "razorpay-cordova",
+            "description": "razorpay",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/razorpay-cordova"
+          },
+          {
+            "name": "capacitor-razorpay",
+            "description": "This plugin is used for integration related to ionic Capacitor and its latest versions.",
+            "version": "1.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/capacitor-razorpay"
+          },
+          {
+            "name": "medusa-razorpay-webhook",
+            "description": "Listen to Razorpay webhooks and update order status",
+            "version": "1.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/medusa-razorpay-webhook"
+          },
+          {
+            "name": "better-auth-razorpay",
+            "description": "A Razorpay plugin for Better Auth, enabling seamless subscription and payment integration.",
+            "version": "1.0.0-beta.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/better-auth-razorpay"
+          },
+          {
+            "name": "react-native-razorpay-latest",
+            "description": "React Native wrapper for Razorpay",
+            "version": "0.1.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-native-razorpay-latest"
+          },
+          {
+            "name": "@automattic/calypso-razorpay",
+            "description": "A set of helper functions and components for using Razorpay on WordPress.com.",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@automattic/calypso-razorpay"
+          },
+          {
+            "name": "@eduvidu/angular-razorpay",
+            "description": "Angular service for integrating Razorpay Checkout with clean, chainable API support.",
+            "version": "0.0.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@eduvidu/angular-razorpay"
+          },
+          {
+            "name": "razorpay-mcp",
+            "description": "Razorpay MCP server providing stdio and SSE transports",
+            "version": "0.1.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/razorpay-mcp"
+          },
+          {
+            "name": "@tiltbike/razorpay-checkout-js",
+            "description": "Razorpay checkout.js loading utility",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@tiltbike/razorpay-checkout-js"
+          },
+          {
+            "name": "react-native-razorpay-expokit",
+            "description": "React Native wrapper for Razorpay when using expokit",
+            "version": "2.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-native-razorpay-expokit"
+          },
+          {
+            "name": "@razorpay/i18nify-react",
+            "description": "Welcome to i18nify-react, your new best friend for seamlessly managing i18n state in React applications! \ud83c\udf89 The i18nify-react Context Provider is a simple and flexible solution for managing internationalization (i18n) state in React applications. This pro",
+            "version": "4.0.12",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@razorpay/i18nify-react"
+          },
+          {
+            "name": "@razorpay/blade-mcp",
+            "description": "Model Context Protocol server for Blade",
+            "version": "1.13.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@razorpay/blade-mcp"
+          },
+          {
+            "name": "react-razorpay-checkout",
+            "description": "Razorpay checkout integration for React.",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-razorpay-checkout"
+          },
+          {
+            "name": "react-native-razorpay-expo",
+            "description": "React Native wrapper for Razorpay when using expokit",
+            "version": "2.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-native-razorpay-expo"
+          },
+          {
+            "name": "@infracia/razorpay",
+            "description": "razorpay api wrapper for nodejs",
+            "version": "2.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@infracia/razorpay"
+          },
+          {
+            "name": "vendure-razorpay-payment-plugin",
+            "description": "\ud83d\udcb3 A plugin to enable Razorpay as a payment provider for Vendure E-commerce",
+            "version": "0.0.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/vendure-razorpay-payment-plugin"
+          },
+          {
+            "name": "@activepieces/piece-razorpay",
+            "description": "This library was generated with [Nx](https://nx.dev).",
+            "version": "0.0.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@activepieces/piece-razorpay"
+          },
+          {
+            "name": "react-razorpay-integration",
+            "description": "Integrate Razorpay Payment gateway in your react application.",
+            "version": "1.2.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-razorpay-integration"
+          },
+          {
+            "name": "medusa-payment-razorpay-poorvika",
+            "description": "Razorpay Payment provider for Medusa Commerce",
+            "version": "1.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/medusa-payment-razorpay-poorvika"
+          },
+          {
+            "name": "@clarisys/razorpay-integration",
+            "description": "Razorpay Payments API implementation",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@clarisys/razorpay-integration"
+          },
+          {
+            "name": "expo-razorpay",
+            "description": "React Native wrapper for Razorpay",
+            "version": "2.2.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo-razorpay"
+          },
+          {
+            "name": "paiementfactory",
+            "description": "Unified SDK for multiple payment gateways (Easebuzz, Razorpay, etc.)",
+            "version": "1.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/paiementfactory"
+          },
+          {
+            "name": "ngx-razorpay",
+            "description": "Angular library for integrating the Razorpay payment gateway.",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ngx-razorpay"
+          },
+          {
+            "name": "ezetap-razorpay-pos",
+            "description": "A simple React hook for integrating Razorpay POS (Ezetap) payments in your React apps. Handles payment initiation, status polling, and cancellation with a single hook.",
+            "version": "1.0.33",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ezetap-razorpay-pos"
+          },
+          {
+            "name": "com.razorpay.cordova",
+            "description": "Cordova/Phonegap bindings for Razorpay's Mobile SDKs",
+            "version": "1.4.15",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/com.razorpay.cordova"
+          },
+          {
+            "name": "react-native-apollo-devtools-client",
+            "description": "Apollo devtools for React Native",
+            "version": "1.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-native-apollo-devtools-client"
+          },
+          {
+            "name": "rn-expo-razorpay",
+            "description": "React Native wrapper for Razorpay",
+            "version": "1.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rn-expo-razorpay"
+          },
+          {
+            "name": "core-modules-payment-razorpay-frontend",
+            "description": "```shell cd ./ #root directory of our project npx core-modules-payment-razorpay-frontend ```",
+            "version": "1.0.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/core-modules-payment-razorpay-frontend"
+          },
+          {
+            "name": "@rushabhshroff/razorpay-cf-workers",
+            "description": "SDK for Razorpay API to work with cloudflare workers",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@rushabhshroff/razorpay-cf-workers"
+          },
+          {
+            "name": "razorpay-easy-backend",
+            "description": "Reusable Razorpay integration module with both ESM and CJS support",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/razorpay-easy-backend"
+          },
+          {
+            "name": "@tsc_tech/medusa-plugin-razorpay-payment",
+            "description": "A starter for Medusa plugins.",
+            "version": "0.0.11",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@tsc_tech/medusa-plugin-razorpay-payment"
+          },
+          {
+            "name": "theta-one-pay-button",
+            "description": "Angular module for payment gateway using RazorPay.",
+            "version": "0.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/theta-one-pay-button"
+          },
+          {
+            "name": "@arkonesoft/medusa-plugin-razorpay-payment",
+            "description": "A starter for Medusa plugins.",
+            "version": "0.0.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@arkonesoft/medusa-plugin-razorpay-payment"
+          },
+          {
+            "name": "medusa-plugin-razorpay-rh",
+            "description": "A plugin to receive payments in medusajs v2 using Razorpay.",
+            "version": "0.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/medusa-plugin-razorpay-rh"
+          },
+          {
+            "name": "@pv-frontend/razorpay-pg",
+            "description": "This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.0.",
+            "version": "2.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@pv-frontend/razorpay-pg"
+          },
+          {
+            "name": "react-db-razorpay",
+            "description": "Integrate Razorpay Payment gateway in your react application.",
+            "version": "1.0.15",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-db-razorpay"
+          },
+          {
+            "name": "@globalbeestech/payment-razorpay",
+            "description": "Razorpay payment provider for Medusa",
+            "version": "2.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@globalbeestech/payment-razorpay"
+          },
+          {
+            "name": "react-native-datman-checkout-sdk",
+            "description": "Razorpay-like checkout with hidden Swift UI via .xcframework (iOS)",
+            "version": "0.1.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-native-datman-checkout-sdk"
+          },
+          {
+            "name": "flipper-plugin-react-native-apollo-devtools",
+            "description": "The flipper plugin implementation for the [react-native-apollo-devtools](https://github.com/razorpay/react-native-apollo-devtools)",
+            "version": "1.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/flipper-plugin-react-native-apollo-devtools"
+          },
+          {
+            "name": "react-razorpay-magic",
+            "description": "Integrate Razorpay Payment gateway in your react application.",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-razorpay-magic"
+          },
+          {
+            "name": "ezetap-razorpay-pos-expo",
+            "description": "A simple React hook for integrating Razorpay POS (Ezetap) payments in your expo apps. Handles payment initiation, status polling, and cancellation with a single hook.",
+            "version": "1.0.24",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ezetap-razorpay-pos-expo"
+          },
+          {
+            "name": "rzp",
+            "description": "Setup Razorpay Payment Gateway from CLI",
+            "version": "0.0.0-experimental.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rzp"
+          },
+          {
+            "name": "razorpay-pg",
+            "description": "This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.0.",
+            "version": "0.1.0-webview",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/razorpay-pg"
+          },
+          {
+            "name": "webhook-signature-kit",
+            "description": "One small, correct verifier for Stripe/Slack/GitHub/Shopify/Razorpay/Twilio/GitLab + Generic HMAC, with raw-body adapters.",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/webhook-signature-kit"
+          },
+          {
+            "name": "@sastatesla/payment-gateway-sdk",
+            "description": "A unified interface for integrating multiple payment providers (e.g., Razorpay, Cashfree) in your Node.js application.",
+            "version": "1.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sastatesla/payment-gateway-sdk"
+          },
+          {
+            "name": "nativescript-razorpay",
+            "description": "A {N} plugin that wraps around native iOS and Android plugins",
+            "version": "1.2.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/nativescript-razorpay"
+          },
+          {
+            "name": "ts-payment",
+            "description": "Bootstraped payment portal for RazorPay and Paypal",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ts-payment"
+          },
+          {
+            "name": "@bigbinary/neeto-payments-frontend",
+            "description": "To manage payments across the neeto products.",
+            "version": "6.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@bigbinary/neeto-payments-frontend"
+          },
+          {
+            "name": "opengig-razorpay",
+            "description": "A TypeScript wrapper for Razorpay payment integration",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/opengig-razorpay"
+          },
+          {
+            "name": "razorpay-api-wrapper",
+            "description": "The Razorpay Node.js application is a payment gateway that provides an interface for creating and processing payments. It includes the PaymentService and PaymentGateway components, making it a reliable solution for businesses that require online payment p",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/razorpay-api-wrapper"
+          },
+          {
+            "name": "@activeboxes/piece-razorpay",
+            "description": "This library was generated with [Nx](https://nx.dev).",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@activeboxes/piece-razorpay"
+          },
+          {
+            "name": "@kimaya/ngx-razorpay",
+            "description": "This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.14.",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@kimaya/ngx-razorpay"
+          },
+          {
+            "name": "one-pay",
+            "description": "A versatile NPM library designed to simplify payment gateway integration for Razorpay and Cashfree. One-Pay allows developers to perform payments, refunds, and other operations with minimal effort, eliminating the need for extensive boilerplate code. It's",
+            "version": "1.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/one-pay"
+          },
+          {
+            "name": "noderpay",
+            "description": "A NodeJS implementation of RazorPay APIs",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/noderpay"
+          },
+          {
+            "name": "razorpay-package",
+            "description": null,
+            "version": "0.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/razorpay-package"
+          },
+          {
+            "name": "@chikistudio/block-razorpay",
+            "description": "This library was generated with [Nx](https://nx.dev).",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@chikistudio/block-razorpay"
+          },
+          {
+            "name": "@razorpay/lytics",
+            "description": "Simpler analytics using HTML attributes.",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@razorpay/lytics"
+          },
+          {
+            "name": "react-native-payment_library19",
+            "description": "A library to perform payment with RazorPay and Paypal",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-native-payment_library19"
+          },
+          {
+            "name": "@newfold/wp-module-ecommerce",
+            "description": "Brand Agnostic eCommerce Experience",
+            "version": "1.10.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@newfold/wp-module-ecommerce"
+          },
+          {
+            "name": "razorpay-smart-collect",
+            "description": "package to implement razorpay smart collect",
+            "version": "1.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/razorpay-smart-collect"
+          },
+          {
+            "name": "react-native-expo-razorpay",
+            "description": "React Native wrapper for Razorpay",
+            "version": "2.2.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-native-expo-razorpay"
+          },
+          {
+            "name": "medusa-plugin-razorpay-details",
+            "description": "A starter for Medusa projects.",
+            "version": "0.0.46",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/medusa-plugin-razorpay-details"
+          },
+          {
+            "name": "adnaan-ahmad",
+            "description": "Is the string WDS?",
+            "version": "1.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/adnaan-ahmad"
+          },
+          {
+            "name": "supedev-razorpayx-nodejsdk",
+            "description": "Razorpay SDK for supedev",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/supedev-razorpayx-nodejsdk"
+          },
+          {
+            "name": "@saas-toolkit/payment-kit",
+            "description": "Universal payment service abstraction supporting multiple providers (Stripe, Razorpay, PayPal)",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@saas-toolkit/payment-kit"
+          },
+          {
+            "name": "@newfold/wp-module-runtime",
+            "description": "Runtime for Newfold WP modules and plugins",
+            "version": "1.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@newfold/wp-module-runtime"
+          },
+          {
+            "name": "react-native-payment_library_final",
+            "description": "A library to perform payment with RazorPay and Paypal",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-native-payment_library_final"
+          },
+          {
+            "name": "@autohive/cell-razorpay",
+            "description": "This library was generated with [Nx](https://nx.dev).",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@autohive/cell-razorpay"
+          },
+          {
+            "name": "react-native-payment_library10",
+            "description": "A library to perform payment with RazorPay and Paypal",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-native-payment_library10"
+          },
+          {
+            "name": "unified-payment-package",
+            "description": "A unified payment package supporting multiple payment gateways like Stripe, Razorpay, etc.",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/unified-payment-package"
+          },
+          {
+            "name": "ibc-payment-gateway",
+            "description": "A modular payment gateway for Node.js applications with PostgreSQL and Sequelize",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ibc-payment-gateway"
+          },
+          {
+            "name": "capacitor-razorpay-c6",
+            "description": "This plugin is used for integration related to ionic Capacitor and its latest versions.",
+            "version": "1.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/capacitor-razorpay-c6"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 9,
+        "packages": [
+          {
+            "name": "razorpay",
+            "version": "3.2.3",
+            "downloads": 1343422,
+            "url": "https://rubygems.org/gems/razorpay"
+          },
+          {
+            "name": "spree_razorpay",
+            "version": "0.2.3",
+            "downloads": 9589,
+            "url": "https://rubygems.org/gems/spree_razorpay"
+          },
+          {
+            "name": "razorpay_pa",
+            "version": "0.1.0",
+            "downloads": 2490,
+            "url": "https://rubygems.org/gems/razorpay_pa"
+          },
+          {
+            "name": "razorpay_integration",
+            "version": "0.1.2",
+            "downloads": 1364,
+            "url": "https://rubygems.org/gems/razorpay_integration"
+          },
+          {
+            "name": "solidus_razorpay",
+            "version": "1.1.0",
+            "downloads": 2599,
+            "url": "https://rubygems.org/gems/solidus_razorpay"
+          },
+          {
+            "name": "spree_razorpay_checkout",
+            "version": "0.1.0",
+            "downloads": 1351,
+            "url": "https://rubygems.org/gems/spree_razorpay_checkout"
+          },
+          {
+            "name": "razorruby",
+            "version": "3.0.4",
+            "downloads": 1198,
+            "url": "https://rubygems.org/gems/razorruby"
+          },
+          {
+            "name": "ifsc",
+            "version": "2.0.48",
+            "downloads": 267989,
+            "url": "https://rubygems.org/gems/ifsc"
+          },
+          {
+            "name": "payment_sandbox_rails",
+            "version": "0.1.2",
+            "downloads": 419,
+            "url": "https://rubygems.org/gems/payment_sandbox_rails"
+          }
+        ]
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 4,
+        "packages": [
+          {
+            "name": "razorpay",
+            "description": "Razorpay api bindings",
+            "version": "0.3.3",
+            "downloads": 14829,
+            "url": "https://crates.io/crates/razorpay"
+          },
+          {
+            "name": "razorpay_rust",
+            "description": "A WIP Razorpay SDK for Rust",
+            "version": "0.0.1",
+            "downloads": 1524,
+            "url": "https://crates.io/crates/razorpay_rust"
+          },
+          {
+            "name": "rusty-razorpay",
+            "description": "Razorpay SDK for Rust",
+            "version": "0.3.2",
+            "downloads": 11670,
+            "url": "https://crates.io/crates/rusty-razorpay"
+          },
+          {
+            "name": "razorpay-sdk",
+            "description": "Razorpay SDK for Rust",
+            "version": "0.1.0",
+            "downloads": 1384,
+            "url": "https://crates.io/crates/razorpay-sdk"
+          }
+        ]
+      },
+      "total_packages": 113,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:15:32.721658"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:15:32.721667",
+    "batch_network": {
+      "batch": "Winter 2015",
+      "total_batch_mates": 110,
+      "active_batch_mates": 41,
+      "batch_success_rate": 37.3,
+      "notable_batch_mates": [
+        {
+          "name": "Notable Labs",
+          "slug": "notable-labs",
+          "status": "Public",
+          "top_company": true,
+          "one_liner": "Personalized drug discovery for blood cancer."
+        },
+        {
+          "name": "Final",
+          "slug": "final",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A credit card that drastically reduces payment fraud and gives\u2026"
+        },
+        {
+          "name": "Pomello",
+          "slug": "pomello",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Analytics software that helps companies measure organizational\u2026"
+        },
+        {
+          "name": "Tech in Asia",
+          "slug": "tech-in-asia",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Tech in Asia (YC W15) is the largest English-language technology\u2026"
+        },
+        {
+          "name": "Smyte",
+          "slug": "smyte",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Smyte stops bad actors on social networks and marketplaces."
+        },
+        {
+          "name": "Bizzy",
+          "slug": "bizzy",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Bizzy is omni-channel marketing for ecommerce businesses."
+        },
+        {
+          "name": "Bluesmart",
+          "slug": "bluesmart",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Bluesmart makes smart luggage powered by an app to empower people to\u2026"
+        },
+        {
+          "name": "CyberFend",
+          "slug": "cyberfend",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Cyberfend delivers robust, real-time web and mobile security by\u2026"
+        },
+        {
+          "name": "GrubMarket",
+          "slug": "grubmarket",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "AI-powered technology enabler and digital transformer of American\u2026"
+        },
+        {
+          "name": "WorkLife",
+          "slug": "worklife",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "WorkLife is a SaaS application that helps teams have more effective\u2026"
+        }
+      ],
+      "batch_size": 111
+    },
+    "industry_network": {
+      "industries": [
+        "Fintech",
+        "Payments"
+      ],
+      "total_industry_peers": 597,
+      "active_industry_peers": 447,
+      "direct_competitors": [
+        {
+          "name": "SlidePay",
+          "slug": "slidepay",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Banking and Payment Platform APIs. Exited October 2014."
+        },
+        {
+          "name": "Sendwave",
+          "slug": "sendwave",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Instant, no fee international remittances."
+        },
+        {
+          "name": "Tremendous",
+          "slug": "tremendous",
+          "status": "Active",
+          "batch": "Winter 2011",
+          "one_liner": "How businesses send money to people at scale. Fast, free, global."
+        },
+        {
+          "name": "WePay",
+          "slug": "wepay",
+          "status": "Acquired",
+          "batch": "Summer 2009",
+          "one_liner": "Payments for platform businesses."
+        },
+        {
+          "name": "Tipjoy",
+          "slug": "tipjoy",
+          "status": "Inactive",
+          "batch": "Winter 2008",
+          "one_liner": "social micropayments"
+        },
+        {
+          "name": "Billforward",
+          "slug": "billforward",
+          "status": "Active",
+          "batch": "Summer 2014",
+          "one_liner": "Subscription billing, rate plan management and analytics as a\u2026"
+        },
+        {
+          "name": "Kash",
+          "slug": "kash",
+          "status": "Acquired",
+          "batch": "Summer 2014",
+          "one_liner": "We are fixing how money works."
+        },
+        {
+          "name": "Apto Payments",
+          "slug": "apto-payments",
+          "status": "Acquired",
+          "batch": "Summer 2014",
+          "one_liner": "API platform for partners to issue branded debit and credit cards to\u2026"
+        },
+        {
+          "name": "Final",
+          "slug": "final",
+          "status": "Acquired",
+          "batch": "Winter 2015",
+          "one_liner": "A credit card that drastically reduces payment fraud and gives\u2026"
+        },
+        {
+          "name": "Plate IQ",
+          "slug": "plate-iq",
+          "status": "Active",
+          "batch": "Summer 2015",
+          "one_liner": "Automated Accounts Payable"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Bengaluru",
+      "location": "Bengaluru, KA, India",
+      "companies_in_city": 108,
+      "active_in_city": 75,
+      "nearby_companies": [
+        {
+          "name": "Markupwand",
+          "slug": "markupwand",
+          "batch": "Summer 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Noora Health",
+          "slug": "noora-health",
+          "batch": "Winter 2014",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Clear",
+          "slug": "cleartax",
+          "batch": "Summer 2014",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Meesho",
+          "slug": "meesho",
+          "batch": "Summer 2016",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Drivezy",
+          "slug": "drivezy",
+          "batch": "Summer 2016",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Scribe",
+          "slug": "scribe",
+          "batch": "Winter 2017",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Pulse",
+          "slug": "pulse",
+          "batch": "Winter 2017",
+          "industry": "Healthcare",
+          "status": "Inactive"
+        },
+        {
+          "name": "Supr Daily",
+          "slug": "supr-daily",
+          "batch": "Winter 2017",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Bicycle AI",
+          "slug": "bicycle-ai",
+          "batch": "Winter 2017",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Wifi Dabba, Inc.",
+          "slug": "wifi-dabba-inc",
+          "batch": "Winter 2017",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Playment",
+          "slug": "playment",
+          "batch": "Winter 2017",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "OneFin",
+          "slug": "onefin",
+          "batch": "Winter 2017",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "LotusPay",
+          "slug": "lotuspay",
+          "batch": "Summer 2017",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fastpad",
+          "slug": "fastpad",
+          "batch": "Summer 2017",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "NextDrop",
+          "slug": "nextdrop",
+          "batch": "Summer 2017",
+          "industry": "Industrials",
+          "status": "Inactive"
+        },
+        {
+          "name": "WheelStreet",
+          "slug": "wheelstreet",
+          "batch": "Summer 2017",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Cashfree Payments",
+          "slug": "cashfree-payments",
+          "batch": "Summer 2017",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Groww",
+          "slug": "groww",
+          "batch": "Winter 2018",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Khatabook",
+          "slug": "khatabook",
+          "batch": "Summer 2018",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "OkCredit",
+          "slug": "okcredit",
+          "batch": "Summer 2018",
+          "industry": "Fintech",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Final",
+        "slug": "final",
+        "batch": "Winter 2015",
+        "industry": "Fintech",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "LotusPay",
+        "slug": "lotuspay",
+        "batch": "Summer 2017",
+        "industry": "Fintech",
+        "status": "Acquired",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Cashfree Payments",
+        "slug": "cashfree-payments",
+        "batch": "Summer 2017",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Khatabook",
+        "slug": "khatabook",
+        "batch": "Summer 2018",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "OkCredit",
+        "slug": "okcredit",
+        "batch": "Summer 2018",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "FamPay",
+        "slug": "fampay",
+        "batch": "Summer 2019",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "yBANQ",
+        "slug": "ybanq",
+        "batch": "Winter 2020",
+        "industry": "Fintech",
+        "status": "Acquired",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Akudo",
+        "slug": "akudo",
+        "batch": "Summer 2021",
+        "industry": "Fintech",
+        "status": "Inactive",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Streak",
+        "slug": "streak-2",
+        "batch": "Winter 2022",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Infinity",
+        "slug": "infinity",
+        "batch": "Winter 2024",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 815,
+      "network_density_score": 83.6,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:15:32.730222"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:15:32.730226",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:15:33.061713",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:15:33.170795",
+    "basic_info": {
+      "is_hiring": true,
+      "team_size": 2700,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:42:24.446738",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increased digital payments adoption in India",
+        "Growth of e-commerce and online businesses",
+        "Government initiatives promoting cashless economy"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Strong network effects from a large merchant base and integrated financial solutions.",
+      "differentiation": "Full-stack financial solutions tailored for Indian businesses, especially SMEs and startups.",
+      "competitive_advantages": [
+        "Comprehensive product suite (payments, banking, lending)",
+        "Strong brand recognition and trust in India"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on regulatory environment in India",
+        "Competition from established global players and local fintech companies"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "Increasing transaction volume and revenue",
+        "Expansion into new financial products and services"
+      ],
+      "growth_bottlenecks": [
+        "Regulatory hurdles and compliance costs",
+        "Maintaining high service quality with rapid growth"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Changes in payment regulations",
+        "Cybersecurity threats and data breaches",
+        "Increased competition leading to price wars"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong market position in a high-growth market",
+        "Comprehensive product offering and integrated platform",
+        "Experienced management team and proven track record"
+      ],
+      "concerns": [
+        "Regulatory uncertainty in the Indian fintech space",
+        "Potential for increased competition from global players"
+      ],
+      "exit_potential": "IPO",
+      "comparable_companies": [
+        "Stripe",
+        "Adyen"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Continue expanding product offerings to cater to diverse business needs",
+        "Strengthen relationships with key regulatory bodies"
+      ],
+      "expansion_opportunities": [
+        "Geographic expansion into Southeast Asia",
+        "Partnerships with banks and financial institutions"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 724,
+      "completion": 617,
+      "total": 1341,
+      "estimated_cost": 0.000239
+    }
+  },
+  "phase8_complete": true
+}

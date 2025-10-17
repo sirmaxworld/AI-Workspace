@@ -1,0 +1,653 @@
+{
+  "slug": "apartio",
+  "name": "Apartio",
+  "yc_id": 13496,
+  "batch": "Winter 2020",
+  "website": "http://www.apartio.com.br",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:53:59.988397",
+    "website": "http://www.apartio.com.br",
+    "website_status": {
+      "reachable": false,
+      "error": "connection_error"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "apartio.com.br",
+      "registrar": null,
+      "creation_date": "2019-06-03T00:00:00",
+      "expiration_date": "2026-06-03T00:00:00",
+      "domain_age_days": 2328,
+      "domain_age_years": 6.4,
+      "name_servers": [
+        "ns-672.awsdns-20.net",
+        "ns-1734.awsdns-24.co.uk",
+        "ns-1061.awsdns-04.org"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "error": "HTTPConnectionPool(host='www.apartio.com.br', port=80): Max retries exceeded with url: / (Caused by "
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:24:36.869180",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:24:27.774783",
+    "place_data": {
+      "status": "success",
+      "method": "nominatim",
+      "formatted_address": "S\u00e3o Paulo, Regi\u00e3o Imediata de S\u00e3o Paulo, Regi\u00e3o Metropolitana de S\u00e3o Paulo, Regi\u00e3o Geogr\u00e1fica Intermedi\u00e1ria de S\u00e3o Paulo, S\u00e3o Paulo, Regi\u00e3o Sudeste, Brasil",
+      "coordinates": {
+        "latitude": -23.5506507,
+        "longitude": -46.6333824
+      },
+      "place_types": [
+        "administrative"
+      ],
+      "retrieved_at": "2025-10-17T10:21:53.248284",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:27.774882",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:27.774892",
+    "batch_network": {
+      "batch": "Winter 2020",
+      "total_batch_mates": 228,
+      "active_batch_mates": 149,
+      "batch_success_rate": 65.4,
+      "notable_batch_mates": [
+        {
+          "name": "Zaraz",
+          "slug": "zaraz",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A third-party manager, built for speed. "
+        },
+        {
+          "name": "Phonic",
+          "slug": "phonic",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The best way to collect and analyze voice and video feedback"
+        },
+        {
+          "name": "Okay",
+          "slug": "okay",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Dashboards and actionable insights for high-performing engineering\u2026"
+        },
+        {
+          "name": "Volumetric",
+          "slug": "volumetric",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Volumetric builds living multicellular tissues with a focus on the\u2026"
+        },
+        {
+          "name": "Hoss",
+          "slug": "hoss",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The developer experience platform"
+        },
+        {
+          "name": "FitnessAI",
+          "slug": "fitnessai",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "App offering AI powered workout plans with anytime access to coaches"
+        },
+        {
+          "name": "Flowdash",
+          "slug": "flowdash",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Quickly build internal tools for your ops team's manual workflows"
+        },
+        {
+          "name": "Dashworks",
+          "slug": "dashworks",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Your team's intelligent start page."
+        },
+        {
+          "name": "Eternal",
+          "slug": "zelos",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Own the best moments in streaming"
+        },
+        {
+          "name": "Glimpse",
+          "slug": "glimpse",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A social video chat."
+        }
+      ],
+      "batch_size": 229
+    },
+    "industry_network": {
+      "industries": [
+        "Fintech",
+        "Consumer Finance"
+      ],
+      "total_industry_peers": 597,
+      "active_industry_peers": 448,
+      "direct_competitors": [
+        {
+          "name": "Tilt",
+          "slug": "tilt",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Mobile crowdfunding: The easiest way to collect, fundraise, and sell\u2026"
+        },
+        {
+          "name": "Debteye",
+          "slug": "debteye",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Automate credit counseling."
+        },
+        {
+          "name": "GoCardless",
+          "slug": "gocardless",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "We\u2019re building the world\u2019s bank payment network."
+        },
+        {
+          "name": "MarketBrief",
+          "slug": "marketbrief",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Generate stories from SEC filings."
+        },
+        {
+          "name": "Leaky",
+          "slug": "leaky",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Online auto and business insurance. (Acquired 2013)"
+        },
+        {
+          "name": "Balanced",
+          "slug": "balanced",
+          "status": "Inactive",
+          "batch": "Winter 2011",
+          "one_liner": "Payments for Marketplaces"
+        },
+        {
+          "name": "FutureAdvisor",
+          "slug": "futureadvisor",
+          "status": "Acquired",
+          "batch": "Summer 2010",
+          "one_liner": "The online financial management service for everyone."
+        },
+        {
+          "name": "Ready For Zero",
+          "slug": "ready-for-zero",
+          "status": "Inactive",
+          "batch": "Summer 2010",
+          "one_liner": "Personal debt and credit management. Acquired by Avant in 2015."
+        },
+        {
+          "name": "Buxfer",
+          "slug": "buxfer",
+          "status": "Active",
+          "batch": "Winter 2007",
+          "one_liner": "Buxfer helps you make better spending decisions by making it easy to\u2026"
+        },
+        {
+          "name": "TextPayMe",
+          "slug": "textpayme",
+          "status": "Acquired",
+          "batch": "Summer 2005",
+          "one_liner": ""
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "S\u00e3o Paulo",
+      "location": "S\u00e3o Paulo, SP, Brazil",
+      "companies_in_city": 36,
+      "active_in_city": 28,
+      "nearby_companies": [
+        {
+          "name": "Zippi",
+          "slug": "zippi",
+          "batch": "Summer 2019",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Kovi",
+          "slug": "kovi",
+          "batch": "Winter 2019",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Frubana Inc",
+          "slug": "frubana-inc",
+          "batch": "Winter 2019",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Facio",
+          "slug": "facio",
+          "batch": "Winter 2020",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "treble.ai",
+          "slug": "treble-ai",
+          "batch": "Summer 2019",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Alude",
+          "slug": "alude",
+          "batch": "Winter 2020",
+          "industry": "Real Estate and Construction",
+          "status": "Active"
+        },
+        {
+          "name": "Linkana",
+          "slug": "linkana",
+          "batch": "Winter 2020",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "STARK BANK",
+          "slug": "stark-bank",
+          "batch": "Winter 2020",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Belvo",
+          "slug": "belvo",
+          "batch": "Winter 2020",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "CARUPI",
+          "slug": "carupi",
+          "batch": "Winter 2020",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Conta Simples",
+          "slug": "conta-simples",
+          "batch": "Summer 2020",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Oico",
+          "slug": "oico",
+          "batch": "Summer 2020",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Gonddo",
+          "slug": "gonddo",
+          "batch": "Winter 2021",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "cloud humans",
+          "slug": "cloud-humans",
+          "batch": "Winter 2021",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Trela",
+          "slug": "trela",
+          "batch": "Winter 2021",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Z1",
+          "slug": "z1",
+          "batch": "Winter 2021",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Awari",
+          "slug": "awari",
+          "batch": "Winter 2021",
+          "industry": "Education",
+          "status": "Acquired"
+        },
+        {
+          "name": "Estoca",
+          "slug": "estoca",
+          "batch": "Winter 2021",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "hoop.dev",
+          "slug": "hoop-dev",
+          "batch": "Winter 2021",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Zaz OS",
+          "slug": "zaz-os",
+          "batch": "Summer 2021",
+          "industry": "B2B",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Facio",
+        "slug": "facio",
+        "batch": "Winter 2020",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "yearend",
+        "slug": "yearend",
+        "batch": "Winter 2020",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Revenir",
+        "slug": "revenir",
+        "batch": "Winter 2020",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Spenny",
+        "slug": "spenny",
+        "batch": "Winter 2020",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Bamboo",
+        "slug": "bamboo",
+        "batch": "Winter 2020",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "STARK BANK",
+        "slug": "stark-bank",
+        "batch": "Winter 2020",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Belvo",
+        "slug": "belvo",
+        "batch": "Winter 2020",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Z1",
+        "slug": "z1",
+        "batch": "Winter 2021",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Karat Financial",
+        "slug": "karat-financial",
+        "batch": "Winter 2020",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Breezeful",
+        "slug": "breezeful",
+        "batch": "Winter 2020",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 861,
+      "network_density_score": 92.8,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:24:27.788220"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:27.788229",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:28.121561",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:28.254933",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 2,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:59.607782",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "medium",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increased business travel in Brazil",
+        "Demand for flexible accommodation options",
+        "Rise of digital platforms for travel booking"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Early mover advantage in a specific niche (business travelers in Brazil), potential brand recognition.",
+      "differentiation": "Focus on short-term rentals specifically tailored for business travelers in Brazil, potentially offering amenities and services catered to this segment.",
+      "competitive_advantages": [
+        "Niche focus",
+        "Local market expertise"
+      ],
+      "competitive_vulnerabilities": [
+        "Competition from established players like Airbnb and Booking.com",
+        "Reliance on the Brazilian economy"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "Marketplace",
+      "scalability": "medium",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "seed",
+      "growth_indicators": [
+        "Number of bookings",
+        "Average booking value"
+      ],
+      "growth_bottlenecks": [
+        "Acquisition of properties suitable for business travelers",
+        "Building trust and brand recognition"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "high",
+      "overall_risk_score": 7,
+      "key_risks": [
+        "Economic instability in Brazil",
+        "Increased competition",
+        "Difficulty in acquiring and managing properties"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Niche market focus",
+        "First-mover advantage",
+        "Y Combinator backing"
+      ],
+      "concerns": [
+        "Inactive status raises significant questions",
+        "Competition from larger players",
+        "Dependence on the Brazilian economy"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Airbnb",
+        "Booking.com"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Re-evaluate business model and market opportunity",
+        "Seek additional funding or strategic partnerships"
+      ],
+      "expansion_opportunities": [
+        "Expand to other major business hubs in Brazil",
+        "Offer additional services tailored to business travelers (e.g., transportation, meeting rooms)"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 617,
+      "completion": 515,
+      "total": 1132,
+      "estimated_cost": 0.000201
+    }
+  },
+  "phase8_complete": true
+}

@@ -1,0 +1,1398 @@
+{
+  "slug": "segment",
+  "name": "Segment",
+  "yc_id": 88,
+  "batch": "Summer 2011",
+  "website": "http://segment.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:29:24.841322",
+    "website": "http://segment.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 1377.78,
+      "final_url": "https://segment.com:443/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:29:26.219112"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "segment.com",
+      "registrar": "MarkMonitor, Inc.",
+      "creation_date": "1998-07-06T04:00:00",
+      "expiration_date": "2026-07-05T04:00:00",
+      "domain_age_days": 9964,
+      "domain_age_years": 27.3,
+      "name_servers": [
+        "NS-1205.AWSDNS-22.ORG",
+        "NS-1681.AWSDNS-18.CO.UK",
+        "NS-386.AWSDNS-48.COM",
+        "NS-677.AWSDNS-20.NET"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/segment",
+      "linkedin": "https://www.linkedin.com/company/segment-io",
+      "github": "https://github.com/segmentio",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": true,
+      "x_content_type_options": true,
+      "x_xss_protection": true,
+      "referrer_policy": false,
+      "security_score": 66,
+      "server": "nginx"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:12:33.919197",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:46:34.580507",
+    "place_data": {
+      "status": "not_found",
+      "query": "San Francisco, CA, USA"
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:46:34.730717",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/segmentio"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 100,
+        "packages": [
+          {
+            "name": "backo2",
+            "description": "simple backoff based on segmentio/backo",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/backo2"
+          },
+          {
+            "name": "@segment/analytics.js-integration-segmentio",
+            "description": "The Segmentio analytics.js integration.",
+            "version": "4.4.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@segment/analytics.js-integration-segmentio"
+          },
+          {
+            "name": "analytics-events",
+            "description": "[![CircleCI](https://circleci.com/gh/segmentio/analytics-events.svg?style=shield&circle-token=db50dfacf7f315d6090978ed2b4e15924297ab17)](https://circleci.com/gh/segmentio/analytics-events) [![Codecov](https://img.shields.io/codecov/c/github/segmentio/anal",
+            "version": "2.2.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/analytics-events"
+          },
+          {
+            "name": "@segment/localstorage-retry",
+            "description": "[![Circle CI](https://circleci.com/gh/segmentio/localstorage-retry.svg?style=shield&circle-token=26daea4c3c8e5645f15841fdda51f14386bc5302)](https://circleci.com/gh/segmentio/localstorage-retry)",
+            "version": "1.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@segment/localstorage-retry"
+          },
+          {
+            "name": "analytics.js-integrations",
+            "description": "[![CircleCI](https://ci.segment.com/gh/segmentio/analytics.js-integrations.svg?style=svg&circle-token=3902c34188b9a248fb3cf745442f626e8bbc89a5)](https://ci.segment.com/gh/segmentio/analytics.js-integrations)",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/analytics.js-integrations"
+          },
+          {
+            "name": "segmentio-facade",
+            "description": "Providing common fields for analytics integrations",
+            "version": "3.2.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/segmentio-facade"
+          },
+          {
+            "name": "xml-stringify",
+            "description": "Stringify XML AST built from segmentio/xml-parser.",
+            "version": "3.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/xml-stringify"
+          },
+          {
+            "name": "@segment/elements",
+            "description": "[![Circle CI](https://circleci.com/gh/segmentio/elements.svg?style=svg&circle-token=aa1ef8979166aaea9883db7de4ff9c36d918514d)](https://circleci.com/gh/segmentio/elements)",
+            "version": "0.0.56",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@segment/elements"
+          },
+          {
+            "name": "@segment/create-selector",
+            "description": "[![Circle CI](https://circleci.com/gh/segmentio/create-selector.svg?style=svg&circle-token=44d8c416a1100b6ad5ce54061d559f7a9bd73621)](https://circleci.com/gh/segmentio/create-selector)",
+            "version": "0.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@segment/create-selector"
+          },
+          {
+            "name": "segmentio-integration",
+            "description": "Segment.io integration base prototype",
+            "version": "5.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/segmentio-integration"
+          },
+          {
+            "name": "@segment/facade",
+            "description": "Providing common fields for analytics integrations",
+            "version": "3.4.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@segment/facade"
+          },
+          {
+            "name": "@segment/isodate-traverse",
+            "description": "Traverse an object and convert all ISO strings into Dates.",
+            "version": "1.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@segment/isodate-traverse"
+          },
+          {
+            "name": "metrics-stripe-subscriptions",
+            "description": "Stripe subscriptions plugin for segmentio/metrics",
+            "version": "1.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/metrics-stripe-subscriptions"
+          },
+          {
+            "name": "@saaskit/segmentio",
+            "description": "SaaSkit integration with Segmentio",
+            "version": "0.2.14",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@saaskit/segmentio"
+          },
+          {
+            "name": "metrics-stripe-charges",
+            "description": "Stripe charges plugin for segmentio/metrics",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/metrics-stripe-charges"
+          },
+          {
+            "name": "@segment/isodate",
+            "description": "Parse an ISO date string into a Date",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@segment/isodate"
+          },
+          {
+            "name": "new-date",
+            "description": "Creates a new Date, but accepts a few more input types than normal.",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/new-date"
+          },
+          {
+            "name": "is-email",
+            "description": "Loosely validate an email address.",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/is-email"
+          },
+          {
+            "name": "typewriter",
+            "description": "A compiler for generating strongly typed analytics clients via Segment Protocols",
+            "version": "9.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/typewriter"
+          },
+          {
+            "name": "dashboards-stripe-charges",
+            "description": "Stripe charges plugin for segmentio/dashboards",
+            "version": "0.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/dashboards-stripe-charges"
+          },
+          {
+            "name": "segmentio-integrations",
+            "description": "Segment.io server-side integrations",
+            "version": "1.2.20",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/segmentio-integrations"
+          },
+          {
+            "name": "dashboards-aws-billing",
+            "description": "AWS billing plugin for segmentio/dashboards",
+            "version": "0.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/dashboards-aws-billing"
+          },
+          {
+            "name": "@segment/analytics.js-video-plugins",
+            "description": "Add automatic Segment event tracking to popular video players.",
+            "version": "0.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@segment/analytics.js-video-plugins"
+          },
+          {
+            "name": "metrics-aws-billing",
+            "description": "AWS billing plugin for segmentio/metrics",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/metrics-aws-billing"
+          },
+          {
+            "name": "@segment/tsub",
+            "description": "Tsub for JS",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@segment/tsub"
+          },
+          {
+            "name": "@segment/analytics-react-native",
+            "description": "The hassle-free way to add Segment analytics to your React-Native app.",
+            "version": "2.21.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@segment/analytics-react-native"
+          },
+          {
+            "name": "@segment/analytics.js-integration",
+            "description": "Base factory for analytics.js integrations",
+            "version": "3.3.4-alpha.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@segment/analytics.js-integration"
+          },
+          {
+            "name": "myth6",
+            "description": "A segmentio/myth fork that supports node 6",
+            "version": "1.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/myth6"
+          },
+          {
+            "name": "@segment/send-json",
+            "description": "send json across all browsers",
+            "version": "4.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@segment/send-json"
+          },
+          {
+            "name": "@types/is-url",
+            "description": "TypeScript definitions for is-url",
+            "version": "1.2.32",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@types/is-url"
+          },
+          {
+            "name": "@segment/is-meta",
+            "description": "Component to check whether a DOM click event would open a link in a new tab.",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@segment/is-meta"
+          },
+          {
+            "name": "obj-case",
+            "description": "Work with objects of different cased keys",
+            "version": "0.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/obj-case"
+          },
+          {
+            "name": "@segment/canonical",
+            "description": "Get the current page's canonical URL.",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@segment/canonical"
+          },
+          {
+            "name": "metrics-express",
+            "description": "Metrics serving app for segmentio/metrics",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/metrics-express"
+          },
+          {
+            "name": "@segment/prevent-default",
+            "description": "Cross-browser preventDefault",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@segment/prevent-default"
+          },
+          {
+            "name": "ware",
+            "description": "Easily create your own middleware layer.",
+            "version": "1.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ware"
+          },
+          {
+            "name": "@segment/top-domain",
+            "description": "Finds the top domain for a URL",
+            "version": "3.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@segment/top-domain"
+          },
+          {
+            "name": "duo-myth",
+            "description": "duo plugin for segmentio/myth",
+            "version": "0.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/duo-myth"
+          },
+          {
+            "name": "nightmare",
+            "description": "A high-level browser automation library.",
+            "version": "3.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/nightmare"
+          },
+          {
+            "name": "@listraknpm/segment-io",
+            "description": "Listrak SegmentIO Integration",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@listraknpm/segment-io"
+          },
+          {
+            "name": "evergreen-ui",
+            "description": "\ud83c\udf32 React UI Kit by Segment \ud83c\udf32",
+            "version": "7.1.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/evergreen-ui"
+          },
+          {
+            "name": "segmentio-integration-tester",
+            "description": "integration tester",
+            "version": "2.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/segmentio-integration-tester"
+          },
+          {
+            "name": "noop-logger",
+            "description": "A logger that does exactly nothing.",
+            "version": "0.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/noop-logger"
+          },
+          {
+            "name": "@2fn/dashboard",
+            "description": "This project was bootstrapped with [Create Next App](https://github.com/segmentio/create-next-app).",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@2fn/dashboard"
+          },
+          {
+            "name": "segmentio-transform-legacy",
+            "description": "transform the given [spec'ed](https://github.com/segmentio/spec) `msg` to legacy `msg`.",
+            "version": "2.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/segmentio-transform-legacy"
+          },
+          {
+            "name": "@segment/fmt",
+            "description": "util.format-like string formatting utility",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@segment/fmt"
+          },
+          {
+            "name": "analytics-node",
+            "description": "The hassle-free way to integrate analytics into any Node.js application",
+            "version": "6.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/analytics-node"
+          },
+          {
+            "name": "@segment/action-emitters",
+            "description": "New metadata for presets that will support audiences",
+            "version": "1.3.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@segment/action-emitters"
+          },
+          {
+            "name": "@segment/analytics-consent-wrapper-onetrust",
+            "description": "<img src=\"img/onetrust-popup.jpg\" width=\"500\" />",
+            "version": "1.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@segment/analytics-consent-wrapper-onetrust"
+          },
+          {
+            "name": "@segment/consent-manager",
+            "description": "Drop-in consent management plugin for analytics.js",
+            "version": "5.8.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@segment/consent-manager"
+          },
+          {
+            "name": "@segment/ad-params",
+            "description": "Parse and get all ad parameters",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@segment/ad-params"
+          },
+          {
+            "name": "bind-all",
+            "description": "Bind all methods to an object.",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/bind-all"
+          },
+          {
+            "name": "ember-cli-segmentio",
+            "description": "A wrapper around segment.io JS library for Ember.",
+            "version": "2.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ember-cli-segmentio"
+          },
+          {
+            "name": "@segment/utm-params",
+            "description": "Parse a URL, returning all UTM parameters.",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@segment/utm-params"
+          },
+          {
+            "name": "scaf",
+            "description": "A thin wrapper around [khaos](https://github.com/segmentio/khaos) that simplify project scaffolding.",
+            "version": "1.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/scaf"
+          },
+          {
+            "name": "ui-box",
+            "description": "Blazing Fast React UI Primitive",
+            "version": "5.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ui-box"
+          },
+          {
+            "name": "@segment/protocol",
+            "description": "Testing component used to fake different protocols from the browser",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@segment/protocol"
+          },
+          {
+            "name": "@segment/clear-globals",
+            "description": "Reset any overridden native methods back to normal (for testing)",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@segment/clear-globals"
+          },
+          {
+            "name": "@segment/clear-timeouts",
+            "description": "clear all timeouts",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@segment/clear-timeouts"
+          },
+          {
+            "name": "@segment/clear-env",
+            "description": "Clear cookies, images, script tags, native methods, timers, and event listeners for a clean test slate",
+            "version": "2.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@segment/clear-env"
+          },
+          {
+            "name": "@segment/clear-intervals",
+            "description": "Clear all active interval timers.",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@segment/clear-intervals"
+          },
+          {
+            "name": "google-spreadsheets-table",
+            "description": "A cached Google Spreadsheets table over [segmentio/google-spreadsheets](/segmentio/google-spreadsheets).",
+            "version": "0.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/google-spreadsheets-table"
+          },
+          {
+            "name": "@segment/clear-ajax",
+            "description": "Clear all active AJAX requests.",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@segment/clear-ajax"
+          },
+          {
+            "name": "@segment/clear-listeners",
+            "description": "Remove all window event listeners for testing",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@segment/clear-listeners"
+          },
+          {
+            "name": "@types/pg-escape",
+            "description": "TypeScript definitions for pg-escape",
+            "version": "0.2.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@types/pg-escape"
+          },
+          {
+            "name": "better-ajv-human-errors",
+            "description": "Transforms ajv errors into human readable messages that can be displayed to end users. (Fork https://github.com/segmentio/action-destinations/tree/main/packages/ajv-human-errors)",
+            "version": "1.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/better-ajv-human-errors"
+          },
+          {
+            "name": "trough",
+            "description": "`trough` is middleware",
+            "version": "2.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/trough"
+          },
+          {
+            "name": "@segment/stub",
+            "description": "Test stub",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@segment/stub"
+          },
+          {
+            "name": "@segment/clear-cookies",
+            "description": "Clear document cookies",
+            "version": "2.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@segment/clear-cookies"
+          },
+          {
+            "name": "@segment/clear-scripts",
+            "description": "Clear all script tags not initially present (for testing)",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@segment/clear-scripts"
+          },
+          {
+            "name": "@segment/to-iso-string",
+            "description": "Cross-browser toISOString support.",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@segment/to-iso-string"
+          },
+          {
+            "name": "@segment/analytics.js-integration-tester",
+            "description": "Helper to quickly test an analytics.js integration.",
+            "version": "3.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@segment/analytics.js-integration-tester"
+          },
+          {
+            "name": "@segment/clear-images",
+            "description": "Clear img.onload to prevent errors for testing",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@segment/clear-images"
+          },
+          {
+            "name": "two-from-now",
+            "description": "This project was bootstrapped with [Create Next App](https://github.com/segmentio/create-next-app).",
+            "version": "0.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/two-from-now"
+          },
+          {
+            "name": "@types/batch-stream",
+            "description": "TypeScript definitions for batch-stream",
+            "version": "0.1.35",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@types/batch-stream"
+          },
+          {
+            "name": "@types/xml-parser",
+            "description": "TypeScript definitions for xml-parser",
+            "version": "1.2.33",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@types/xml-parser"
+          },
+          {
+            "name": "@types/nightmare",
+            "description": "TypeScript definitions for nightmare",
+            "version": "2.10.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@types/nightmare"
+          },
+          {
+            "name": "@types/is-email",
+            "description": "TypeScript definitions for is-email",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@types/is-email"
+          },
+          {
+            "name": "dashboards-helpscout",
+            "description": "Helpscout plugin for segmentio/dashboards",
+            "version": "0.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/dashboards-helpscout"
+          },
+          {
+            "name": "@segment/convert-dates",
+            "description": "Convert all Date instances in an object.",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@segment/convert-dates"
+          },
+          {
+            "name": "dashboards-stripe-subscriptions",
+            "description": "Stripe subscriptions plugin for segmentio/dashboards",
+            "version": "0.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/dashboards-stripe-subscriptions"
+          },
+          {
+            "name": "is-module",
+            "description": "check if a source string is an es6 module",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/is-module"
+          },
+          {
+            "name": "ecs-logs-js",
+            "description": "Simple Node.js console logger that outputs human friendly and ecs-logs compatible messages",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ecs-logs-js"
+          },
+          {
+            "name": "use",
+            "description": "Easily add plugin support to your node.js application.",
+            "version": "3.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/use"
+          },
+          {
+            "name": "read-metadata",
+            "description": "Load a JSON or YAML metadata file as an object",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/read-metadata"
+          },
+          {
+            "name": "@segment/analytics.js-integration-google-adwords-new",
+            "description": "The google-adwords-new analytics.js integration.",
+            "version": "1.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@segment/analytics.js-integration-google-adwords-new"
+          },
+          {
+            "name": "@segment/in-regions",
+            "description": "\ud83d\udd12Privacy-first location detection library for browsers",
+            "version": "1.2.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@segment/in-regions"
+          },
+          {
+            "name": "@june-so/analytics-next",
+            "description": "This is June's JS SDK, based on Analytics-Next by Segment.",
+            "version": "4.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@june-so/analytics-next"
+          },
+          {
+            "name": "metrics-redis",
+            "description": "Redis plugin for segmentio/metrics",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/metrics-redis"
+          },
+          {
+            "name": "@segment/spy",
+            "description": "Test spy",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@segment/spy"
+          },
+          {
+            "name": "@segment/analytics-react-native-plugin-appsflyer",
+            "description": "The hassle-free way to add Segment analytics to your React-Native app.",
+            "version": "0.6.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@segment/analytics-react-native-plugin-appsflyer"
+          },
+          {
+            "name": "@maestroqa/ui-box",
+            "description": "Blazing Fast React UI Primitive",
+            "version": "5.7.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@maestroqa/ui-box"
+          },
+          {
+            "name": "backo2-v1.0.2",
+            "description": "simple backoff based on segmentio/backo",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/backo2-v1.0.2"
+          },
+          {
+            "name": "metalsmith-markdown",
+            "description": "A Metalsmith plugin to convert markdown files.",
+            "version": "1.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/metalsmith-markdown"
+          },
+          {
+            "name": "isostring",
+            "description": "Decides whether a string is a valid isodate format",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/isostring"
+          },
+          {
+            "name": "ksuid",
+            "description": "Node.js implementation of K-Sortable Globally Unique IDs",
+            "version": "3.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ksuid"
+          },
+          {
+            "name": "@segment/analytics.js-integration-moengage",
+            "description": "The MoEngage analytics.js integration.",
+            "version": "1.0.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@segment/analytics.js-integration-moengage"
+          },
+          {
+            "name": "@segment/analytics.js-integration-google-tag-manager",
+            "description": "The Google Tag Manager analytics.js integration.",
+            "version": "2.5.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@segment/analytics.js-integration-google-tag-manager"
+          },
+          {
+            "name": "component",
+            "description": "Component package manager consuming git repositories",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/component"
+          },
+          {
+            "name": "@head.js/analytics.js-facade",
+            "description": "Providing common fields for analytics integrations",
+            "version": "3.4.10-2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@head.js/analytics.js-facade"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 1,
+        "packages": [
+          {
+            "name": "heavykeeper",
+            "description": "HeavyKeeper is for finding Top-K elephant flows with high precision and low memory footprint.",
+            "version": "0.6.1",
+            "downloads": 11726,
+            "url": "https://crates.io/crates/heavykeeper"
+          }
+        ]
+      },
+      "total_packages": 101,
+      "has_packages": true,
+      "checked_at": "2025-10-17T09:46:36.570965"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:46:36.570983",
+    "batch_network": {
+      "batch": "Summer 2011",
+      "total_batch_mates": 59,
+      "active_batch_mates": 14,
+      "batch_success_rate": 23.7,
+      "notable_batch_mates": [
+        {
+          "name": "Freshplum",
+          "slug": "freshplum",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Analytics with action"
+        },
+        {
+          "name": "Clutch",
+          "slug": "clutch",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "An easy to integrate library for native iOS applications designed to\u2026"
+        },
+        {
+          "name": "Stypi",
+          "slug": "stypi",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Realtime collaborative coding"
+        },
+        {
+          "name": "Genius",
+          "slug": "genius",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Music Intelligence"
+        },
+        {
+          "name": "Aisle50",
+          "slug": "aisle50",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Grocery deals."
+        },
+        {
+          "name": "Debteye",
+          "slug": "debteye",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Automate credit counseling."
+        },
+        {
+          "name": "Science Exchange",
+          "slug": "science-exchange",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Powering scientific outsourcing"
+        },
+        {
+          "name": "Codecademy",
+          "slug": "codecademy",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "The leading online learning platform for technical skills."
+        },
+        {
+          "name": "Cryptoseal",
+          "slug": "cryptoseal",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Server key management, VPN as a Service, Privacy VPN.  Sold to\u2026"
+        },
+        {
+          "name": "Citus Data",
+          "slug": "citus-data",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Real-time. Big data. PostgreSQL"
+        }
+      ],
+      "batch_size": 60
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Analytics"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1969,
+      "direct_competitors": [
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "status": "Public",
+          "batch": "Winter 2012",
+          "one_liner": "Digital Analytics Platform"
+        },
+        {
+          "name": "Freshplum",
+          "slug": "freshplum",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Analytics with action"
+        },
+        {
+          "name": "Pagelever",
+          "slug": "pagelever",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Facebook analytics. Acquired by Unified in January 2013. \r\n"
+        },
+        {
+          "name": "Custora",
+          "slug": "custora",
+          "status": "Acquired",
+          "batch": "Winter 2011",
+          "one_liner": "Custora is a predictive analytics platform for e-commerce marketing\u2026"
+        },
+        {
+          "name": "Chartio",
+          "slug": "chartio",
+          "status": "Acquired",
+          "batch": "Summer 2010",
+          "one_liner": "Chartio is changing how companies work by building the best\u2026"
+        },
+        {
+          "name": "Data Marketplace",
+          "slug": "data-marketplace",
+          "status": "Inactive",
+          "batch": "Winter 2010",
+          "one_liner": ""
+        },
+        {
+          "name": "Mixpanel",
+          "slug": "mixpanel",
+          "status": "Active",
+          "batch": "Summer 2009",
+          "one_liner": "Mixpanel is event analytics for builders that need answers."
+        },
+        {
+          "name": "Poll Everywhere",
+          "slug": "poll-everywhere",
+          "status": "Active",
+          "batch": "Summer 2008",
+          "one_liner": "Interactive meetings and presentations"
+        },
+        {
+          "name": "Infogami",
+          "slug": "infogami",
+          "status": "Inactive",
+          "batch": "Summer 2005",
+          "one_liner": ""
+        },
+        {
+          "name": "Canopy Labs",
+          "slug": "canopy-labs",
+          "status": "Inactive",
+          "batch": "Summer 2012",
+          "one_liner": "Canopy Labs automates customer analytics for small and medium-sized\u2026"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "San Francisco",
+      "location": "San Francisco, CA, USA",
+      "companies_in_city": 2007,
+      "active_in_city": 1340,
+      "nearby_companies": [
+        {
+          "name": "42Floors",
+          "slug": "42floors",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "PlanGrid",
+          "slug": "plangrid",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "MyVR",
+          "slug": "myvr",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Couple",
+          "slug": "couple",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HackPad",
+          "slug": "hackpad",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Gusto",
+          "slug": "gusto",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "FamilyLeaf",
+          "slug": "familyleaf",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Chute",
+          "slug": "chute",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Make School",
+          "slug": "make-school",
+          "batch": "Winter 2012",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Exec",
+          "slug": "exec",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Public"
+        },
+        {
+          "name": "LendUp",
+          "slug": "lendup",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tilt",
+          "slug": "tilt",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fond",
+          "slug": "fond",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Freshplum",
+        "slug": "freshplum",
+        "batch": "Summer 2011",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Pagelever",
+        "slug": "pagelever",
+        "batch": "Summer 2011",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Clutch",
+        "slug": "clutch",
+        "batch": "Summer 2011",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Apollo",
+        "slug": "apollo",
+        "batch": "Summer 2011",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Stypi",
+        "slug": "stypi",
+        "batch": "Summer 2011",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Citus Data",
+        "slug": "citus-data",
+        "batch": "Summer 2011",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Dubjoy",
+        "slug": "dubjoy",
+        "batch": "Summer 2011",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Zenbox",
+        "slug": "zenbox",
+        "batch": "Summer 2011",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Realm",
+        "slug": "realm",
+        "batch": "Summer 2011",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Sift",
+        "slug": "sift",
+        "batch": "Summer 2011",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 4812,
+      "network_density_score": 91.8,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T09:46:36.584222"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:46:36.584232",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:46:36.915003",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:46:37.003160",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 550,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:28.580025",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increased focus on data privacy and compliance (GDPR, CCPA)",
+        "Growing adoption of customer data platforms (CDPs)",
+        "Demand for personalized customer experiences"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Strong network effects due to integrations with numerous tools and databases, high switching costs for customers deeply integrated with Segment's API.",
+      "differentiation": "Unified platform for collecting, cleaning, and controlling customer data with a focus on developer-friendliness and extensive integrations.",
+      "competitive_advantages": [
+        "First-mover advantage in the CDP space",
+        "Extensive integration ecosystem"
+      ],
+      "competitive_vulnerabilities": [
+        "Potential for larger cloud providers to offer competing services",
+        "Reliance on third-party integrations which could change or become unavailable"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "mature",
+      "growth_indicators": [
+        "Customer acquisition rate",
+        "Expansion revenue (upselling and cross-selling)"
+      ],
+      "growth_bottlenecks": [
+        "Market saturation",
+        "Competition from larger players"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "low",
+      "overall_risk_score": 3,
+      "key_risks": [
+        "Data security breaches",
+        "Changes in data privacy regulations",
+        "Emergence of disruptive technologies"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong market position in a growing market",
+        "High customer retention rates",
+        "Proven business model"
+      ],
+      "concerns": [
+        "Competition from larger, well-funded companies",
+        "Potential for commoditization of CDP features"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Tealium",
+        "mParticle"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on expanding into adjacent markets (e.g., data governance, data quality)",
+        "Continue to invest in product innovation and integration ecosystem"
+      ],
+      "expansion_opportunities": [
+        "International expansion",
+        "Develop industry-specific solutions"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 683,
+      "completion": 631,
+      "total": 1314,
+      "estimated_cost": 0.000241
+    }
+  },
+  "phase8_complete": true
+}

@@ -1,0 +1,1469 @@
+{
+  "slug": "raycast",
+  "name": "Raycast",
+  "yc_id": 13414,
+  "batch": "Winter 2020",
+  "website": "https://raycast.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:53:36.579979",
+    "website": "https://raycast.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 3853.59,
+      "final_url": "https://www.raycast.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:53:40.433589"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "raycast.com",
+      "registrar": "NameCheap, Inc.",
+      "creation_date": "2000-01-04T01:58:52",
+      "expiration_date": "2028-01-04T01:58:52",
+      "domain_age_days": 9417,
+      "domain_age_years": 25.8,
+      "name_servers": [
+        "NS-125.AWSDNS-15.COM",
+        "NS-1497.AWSDNS-59.ORG",
+        "NS-1632.AWSDNS-12.CO.UK",
+        "NS-565.AWSDNS-06.NET"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/raycast",
+      "linkedin": null,
+      "github": "https://github.com/raycast",
+      "facebook": null,
+      "instagram": null,
+      "youtube": "https://www.youtube.com/@raycastapp"
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": true,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": true,
+      "referrer_policy": false,
+      "security_score": 50,
+      "server": "Vercel"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:24:30.372480",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:24:19.846128",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "London, UK",
+      "coordinates": {
+        "latitude": 51.5074,
+        "longitude": -0.1278
+      },
+      "timezone": {
+        "timezone_id": "Europe/London",
+        "timezone_name": "Europe/London"
+      },
+      "retrieved_at": "2025-10-17T10:15:07.714653",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:19.846233",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/raycast"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 100,
+        "packages": [
+          {
+            "name": "@raycast/api",
+            "description": "Build extensions for Raycast with React and Node.js.",
+            "version": "1.103.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@raycast/api"
+          },
+          {
+            "name": "@raycast/eslint-config",
+            "description": "ESLint configuration for Raycast extensions",
+            "version": "2.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@raycast/eslint-config"
+          },
+          {
+            "name": "@raycast/utils",
+            "description": "Set of utilities to streamline building Raycast extensions",
+            "version": "2.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@raycast/utils"
+          },
+          {
+            "name": "three-line-raycast",
+            "description": "Raycast function for three.js line2 that accounts for line width",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/three-line-raycast"
+          },
+          {
+            "name": "@raycast/icons",
+            "description": "Icons library for Raycast frontend projects",
+            "version": "0.4.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@raycast/icons"
+          },
+          {
+            "name": "mediathek-search-raycast",
+            "description": "query databases of german(-speaking) publicly funded TV-Stations (OER) directly via raycast.",
+            "version": "1.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/mediathek-search-raycast"
+          },
+          {
+            "name": "raycast-clipaste",
+            "description": "Keyboard-first Raycast extension to run clipaste with a form, recipes, and clipboard preview/history.",
+            "version": "1.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/raycast-clipaste"
+          },
+          {
+            "name": "@raycast/migration",
+            "description": "Tool to automate the migration to a newer version of the @raycast/api",
+            "version": "1.103.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@raycast/migration"
+          },
+          {
+            "name": "@rbxts/tracer",
+            "description": "Raycast wrapper for Roblox",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@rbxts/tracer"
+          },
+          {
+            "name": "raycast-cross-extension",
+            "description": "Defines the development approach for cross-extension in Raycast",
+            "version": "0.2.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/raycast-cross-extension"
+          },
+          {
+            "name": "@termcast/cli",
+            "description": "Raycast for the terminal",
+            "version": "0.3.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@termcast/cli"
+          },
+          {
+            "name": "raycast-hooks",
+            "description": "Hooks for Raycast extensions",
+            "version": "1.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/raycast-hooks"
+          },
+          {
+            "name": "raycast-toolkit",
+            "description": "Utilities and Components to extend the Raycast Extensions API functionalities",
+            "version": "1.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/raycast-toolkit"
+          },
+          {
+            "name": "raycast",
+            "description": "Raycast algorithm helps you determine if a point lies inside a polygon",
+            "version": "1.0.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/raycast"
+          },
+          {
+            "name": "@raycast/eslint-plugin",
+            "description": "ESLint plugin designed to help Raycast's extensions authors follow best practices",
+            "version": "2.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@raycast/eslint-plugin"
+          },
+          {
+            "name": "placeholders-toolkit",
+            "description": "A placeholders system for supplying dynamic content to Raycast extensions.",
+            "version": "0.1.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/placeholders-toolkit"
+          },
+          {
+            "name": "clipaste-launcher",
+            "description": "Keyboard-first Raycast extension to run clipaste with a form, recipes, and clipboard preview/history.",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/clipaste-launcher"
+          },
+          {
+            "name": "matrix-engine",
+            "description": "basic_timeline improved, VT func setup vide html element id with name arg.- DISABLE RAYCAST DEBUG TEST [2.3.3] Fix for GUI win desktop [2.3.0] DestrucMesh solution & loading convex objs for physics BASIC, SpriteAnimation CPU/texture solution added, Improv",
+            "version": "2.3.68",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/matrix-engine"
+          },
+          {
+            "name": "gemini-g4f",
+            "description": "The simpler JavaScript Gemini SDK - optimised for raycast-g4f",
+            "version": "13.0.0-alpha.15",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/gemini-g4f"
+          },
+          {
+            "name": "raycast-language-detector",
+            "description": "Detect languages through Raycast AI or third-party language detectors",
+            "version": "0.2.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/raycast-language-detector"
+          },
+          {
+            "name": "foundry-cast-cli",
+            "description": "Use the Cast CLI directly inside Raycast",
+            "version": "0.2.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/foundry-cast-cli"
+          },
+          {
+            "name": "termcast",
+            "description": "Raycast for the terminal",
+            "version": "1.3.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/termcast"
+          },
+          {
+            "name": "@gs.i/processor-raycast",
+            "description": "\u5b9e\u73b0 JS \u7aef Raycast \u529f\u80fd",
+            "version": "0.3.5-alpha",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@gs.i/processor-raycast"
+          },
+          {
+            "name": "mineflayer-movement",
+            "description": "Raycast based 3D terrain navigation plugin for mineflayer",
+            "version": "0.4.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/mineflayer-movement"
+          },
+          {
+            "name": "stacks-raycast",
+            "description": "The Stacks Raycast plugin.",
+            "version": "0.61.20",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/stacks-raycast"
+          },
+          {
+            "name": "sandstone-raycast",
+            "description": "A Sandstone library to create raycast",
+            "version": "1.0.12",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sandstone-raycast"
+          },
+          {
+            "name": "@raycast-community/ui",
+            "description": "Components and Utils for Raycast extensions",
+            "version": "0.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@raycast-community/ui"
+          },
+          {
+            "name": "p5-raycast",
+            "description": "Function to raycast for 3D object picking",
+            "version": "1.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/p5-raycast"
+          },
+          {
+            "name": "@jibjiby/raycast-meta",
+            "description": "raycast \uc758 nodejs script meta \uc0dd\uc131 cli",
+            "version": "0.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@jibjiby/raycast-meta"
+          },
+          {
+            "name": "raycast-scaffold",
+            "description": "CLI to scaffold Raycast extensions",
+            "version": "1.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/raycast-scaffold"
+          },
+          {
+            "name": "voxel-raycast",
+            "description": "Ray queries for voxel.js",
+            "version": "0.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/voxel-raycast"
+          },
+          {
+            "name": "raycast-effect",
+            "description": "Write Raycast Extensions with Effect!",
+            "version": "0.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/raycast-effect"
+          },
+          {
+            "name": "raycast-hid",
+            "description": "Access USB HID devices from Raycast",
+            "version": "0.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/raycast-hid"
+          },
+          {
+            "name": "meshline",
+            "description": "A mesh replacement for `THREE.Line`. Instead of using GL_LINE, it uses a strip of billboarded triangles. This is a fork of [spite/THREE.MeshLine](https://github.com/spite/THREE.MeshLine), previously maintained by studio [Utsuboco](https://github.com/utsub",
+            "version": "3.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/meshline"
+          },
+          {
+            "name": "fast-voxel-raycast",
+            "description": "Fast raycasting through voxels",
+            "version": "0.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/fast-voxel-raycast"
+          },
+          {
+            "name": "raycast-notifier",
+            "description": "Send cross platform native notifications using Raycast",
+            "version": "0.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/raycast-notifier"
+          },
+          {
+            "name": "raycast-confetti",
+            "description": "Display confetti on any Mac with Raycast installed",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/raycast-confetti"
+          },
+          {
+            "name": "@blastlauncher/api",
+            "description": "The `@blastlauncher/api` is a superset and open source implementation of `@raycast/api`.",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@blastlauncher/api"
+          },
+          {
+            "name": "raycast-backend-api",
+            "description": "Accessing the Raycast backend API delightfully.",
+            "version": "0.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/raycast-backend-api"
+          },
+          {
+            "name": "raycast-translate-ge",
+            "description": "Raycast plugin for translating georgian words to english",
+            "version": "1.0.14",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/raycast-translate-ge"
+          },
+          {
+            "name": "@lucaschultz/raycast-use-form",
+            "description": "Validate Raycast forms using Zod",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@lucaschultz/raycast-use-form"
+          },
+          {
+            "name": "raycast-js",
+            "description": "Raycast base for Javascript",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/raycast-js"
+          },
+          {
+            "name": "@raycast/generate-docs",
+            "description": "This tool does a few things:",
+            "version": "0.9.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@raycast/generate-docs"
+          },
+          {
+            "name": "@nagauta/raycast-ai-sdk",
+            "description": "Raycast AI SDK",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@nagauta/raycast-ai-sdk"
+          },
+          {
+            "name": "@gs.i/utils-raycast",
+            "description": "\u5b9e\u73b0 JS \u7aef Raycast \u529f\u80fd",
+            "version": "0.0.0-beta",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@gs.i/utils-raycast"
+          },
+          {
+            "name": "raycast-dom",
+            "description": "Event framework based on emitting rays onto the user interface",
+            "version": "1.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/raycast-dom"
+          },
+          {
+            "name": "css.gg",
+            "description": "700+ Pure CSS, SVG & Figma UI Icons, 6000+ glyphs, patterns, colors and layouts.",
+            "version": "2.1.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/css.gg"
+          },
+          {
+            "name": "@raycast/extract-tools-info",
+            "description": "A CLI to extract the information of tools at build time",
+            "version": "0.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@raycast/extract-tools-info"
+          },
+          {
+            "name": "raycaster",
+            "description": "webgl raycast algorithms",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/raycaster"
+          },
+          {
+            "name": "sidecast",
+            "description": "Sideload Raycast extensions",
+            "version": "1.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sidecast"
+          },
+          {
+            "name": "raycast-native",
+            "description": "Raycast native",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/raycast-native"
+          },
+          {
+            "name": "pile-raycast",
+            "description": "A raycast extension for the Pile journaling app",
+            "version": "1.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/pile-raycast"
+          },
+          {
+            "name": "raycast-pm2",
+            "description": "PM2 utilities for Raycast Extensions",
+            "version": "0.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/raycast-pm2"
+          },
+          {
+            "name": "@voxelize/raycast",
+            "description": null,
+            "version": "1.0.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@voxelize/raycast"
+          },
+          {
+            "name": "@anyproto/anytype-mcp",
+            "description": "Official MCP server for Anytype API",
+            "version": "1.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@anyproto/anytype-mcp"
+          },
+          {
+            "name": "@jmuzhen/gemini-g4f-beta",
+            "description": "The simpler JavaScript Gemini SDK - optimised for raycast-g4f",
+            "version": "12.2.2-beta",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@jmuzhen/gemini-g4f-beta"
+          },
+          {
+            "name": "mineflayer-raycast",
+            "description": "Raycast operations for mineflayer",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/mineflayer-raycast"
+          },
+          {
+            "name": "create-raycast-extension",
+            "description": "Create a new Rayast extension from a template",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/create-raycast-extension"
+          },
+          {
+            "name": "ninja-keys",
+            "description": "Ninja Keys",
+            "version": "1.2.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ninja-keys"
+          },
+          {
+            "name": "bing-chat-gpt",
+            "description": "Utilize the Bing Chat GPT feature on Raycast.",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/bing-chat-gpt"
+          },
+          {
+            "name": "@rbxts/raycast-hitbox",
+            "description": "Typings for Swordphin's RaycastHitbox module",
+            "version": "4.0.1-ts.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@rbxts/raycast-hitbox"
+          },
+          {
+            "name": "openmemory-mcp-vista8",
+            "description": "OpenMemory MCP Server - \u667a\u80fd\u8bb0\u5fc6\u5b58\u50a8\u548c\u68c0\u7d22\u670d\u52a1",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/openmemory-mcp-vista8"
+          },
+          {
+            "name": "@chatwoot/ninja-keys",
+            "description": "Ninja Keys",
+            "version": "1.2.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@chatwoot/ninja-keys"
+          },
+          {
+            "name": "@blast-extensions/party-parrot",
+            "description": "Celebrating the good times with some dancing party parrot in Raycast.",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@blast-extensions/party-parrot"
+          },
+          {
+            "name": "threejs-meshline",
+            "description": "Mesh replacement for THREE.Line",
+            "version": "2.0.12",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/threejs-meshline"
+          },
+          {
+            "name": "matrix-engine-wgpu",
+            "description": "instanced draws added also effect pipeline blend with instancing option.Normalmap added, Fixed shadows casting vs camera/video texture, webGPU powered pwa application. Crazy fast rendering with AmmoJS physics support. Simple raycaster hit object added.",
+            "version": "1.6.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/matrix-engine-wgpu"
+          },
+          {
+            "name": "@gorails/ninja-keys",
+            "description": "Ninja Keys",
+            "version": "1.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@gorails/ninja-keys"
+          },
+          {
+            "name": "@supernovaio/sdk",
+            "description": "Supernova.io SDK",
+            "version": "2.2.45",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@supernovaio/sdk"
+          },
+          {
+            "name": "@supernovaio/supernova-sdk",
+            "description": "Supernova.io Developer SDK",
+            "version": "1.9.53",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@supernovaio/supernova-sdk"
+          },
+          {
+            "name": "potree-core",
+            "description": "Potree wrapper for three.js applications",
+            "version": "2.0.11",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/potree-core"
+          },
+          {
+            "name": "@georgedoescode/raycast",
+            "description": null,
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@georgedoescode/raycast"
+          },
+          {
+            "name": "@matterport/r3f",
+            "description": "Matterport SDK utilities for react-three/fiber.",
+            "version": "0.2.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@matterport/r3f"
+          },
+          {
+            "name": "raycast-python",
+            "description": "Python Utils for Raycast",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/raycast-python"
+          },
+          {
+            "name": "scene-bridge-3d",
+            "description": "A Three.js Scene extension to sync 3D objects with DOM elements.",
+            "version": "1.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/scene-bridge-3d"
+          },
+          {
+            "name": "web3bio",
+            "description": "Discover ENS, Farcaster, Lens and Web3 universal profiles",
+            "version": "0.1.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/web3bio"
+          },
+          {
+            "name": "blorkcast",
+            "description": "A cross-platform Raycast clone",
+            "version": "9.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/blorkcast"
+          },
+          {
+            "name": "com.adrenak.spatial",
+            "description": "Raycast based spatial interaction.",
+            "version": "1.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/com.adrenak.spatial"
+          },
+          {
+            "name": "echo-uib-raycast",
+            "description": "View bedpres, events and posts from echo.uib.no in Raycast.",
+            "version": "0.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/echo-uib-raycast"
+          },
+          {
+            "name": "windsor-raycast",
+            "description": "A suite of useful tools for Windsor Team Members",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/windsor-raycast"
+          },
+          {
+            "name": "qiniu-mcp",
+            "description": "A Model Context Protocol server for Qiniu Cloud Storage services with optimized local file upload support",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/qiniu-mcp"
+          },
+          {
+            "name": "vue-command-palette",
+            "description": "[![NPM][npmBadge]][npmUrl] [![Minzip Package][bundlePhobiaBadge]][bundlePhobiaUrl] [![NPM Download][npmDtBadge]][npmDtUrl]",
+            "version": "0.2.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/vue-command-palette"
+          },
+          {
+            "name": "@supernovaio/sdk-exporters",
+            "description": "Supernova.io Exporter SDK",
+            "version": "2.2.45",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@supernovaio/sdk-exporters"
+          },
+          {
+            "name": "fr.jeanf.audiosystems",
+            "description": "Lightweight Audio system for Unity. Contains resources for implementing interactive and scripted audio behaviour using scriptable objects and sample lists. Developed in collaboration with [Daniel Villegas Velez](https://github.com/dvvii)",
+            "version": "0.2.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/fr.jeanf.audiosystems"
+          },
+          {
+            "name": "@ff6347/named-css-colors",
+            "description": "List of named CSS colors with some helper functions. This package might be only useful to me.",
+            "version": "0.1.1-0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ff6347/named-css-colors"
+          },
+          {
+            "name": "raycast-gui",
+            "description": "Generic GUI raycasting system",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/raycast-gui"
+          },
+          {
+            "name": "@glavin001/use-ammojs",
+            "description": "Fast physics hooks for use in react-three-fiber. Powered by web-workers and wasm.",
+            "version": "0.2.21",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@glavin001/use-ammojs"
+          },
+          {
+            "name": "@magicleap/prismatic",
+            "description": "A declarative JS library for creating 3D content for Magic Leap's Helio browser",
+            "version": "2.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@magicleap/prismatic"
+          },
+          {
+            "name": "bbc-radio",
+            "description": "Easily listen to BBC Radio stations from your Raycast",
+            "version": "1.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/bbc-radio"
+          },
+          {
+            "name": "@vista8/qiniu-mcp",
+            "description": "A Model Context Protocol server for Qiniu Cloud Storage services with optimized local file upload support",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@vista8/qiniu-mcp"
+          },
+          {
+            "name": "@react-three/p2",
+            "description": "2D physics based hooks for react-three-fiber",
+            "version": "0.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@react-three/p2"
+          },
+          {
+            "name": "noroff-api",
+            "description": "Simple Raycast extension to open the Noroff API documentation in your browser.",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/noroff-api"
+          },
+          {
+            "name": "@leadrobot/ninja-keys",
+            "description": "Ninja Keys",
+            "version": "2.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@leadrobot/ninja-keys"
+          },
+          {
+            "name": "getting-started-b00y0h-test",
+            "description": "Everything you need to know to get started with Raycast for Teams",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/getting-started-b00y0h-test"
+          },
+          {
+            "name": "minisim",
+            "description": "Extension for MiniSim",
+            "version": "1.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/minisim"
+          },
+          {
+            "name": "voxel-aabb-sweep",
+            "description": "Sweep an AABB through voxels or a tileset and find collisions",
+            "version": "0.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/voxel-aabb-sweep"
+          },
+          {
+            "name": "@geekmai/anteey-mcp-client",
+            "description": "Anteey MCP \u5ba2\u6237\u7aef - \u8fde\u63a5\u5916\u90e8 AI \u5de5\u5177\u4e0e Anteey \u7b14\u8bb0\u5e94\u7528",
+            "version": "1.2.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@geekmai/anteey-mcp-client"
+          },
+          {
+            "name": "howlongtobeat-search-raycast",
+            "description": "Search for information on howlongtobeat.com",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/howlongtobeat-search-raycast"
+          },
+          {
+            "name": "rehooks-cli",
+            "description": "A CLI to scaffold your react custom hooks, with a focus on performance, reusability, and type-safety.",
+            "version": "4.6.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rehooks-cli"
+          },
+          {
+            "name": "@cognite/potree-core",
+            "description": "Potree wrapper for threejs applications",
+            "version": "1.5.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@cognite/potree-core"
+          },
+          {
+            "name": "raycast-timezone-converter",
+            "description": "Converts any time to any timezone",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/raycast-timezone-converter"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 10,
+        "packages": [
+          {
+            "name": "raycaster",
+            "description": "A multi-threaded raycaster engine for creating game graphics similar to Wolfenstein3D",
+            "version": "0.3.1",
+            "downloads": 5327,
+            "url": "https://crates.io/crates/raycaster"
+          },
+          {
+            "name": "bevy_mod_raycast",
+            "description": "Ray Casting for the Bevy Engine.",
+            "version": "0.18.0",
+            "downloads": 407980,
+            "url": "https://crates.io/crates/bevy_mod_raycast"
+          },
+          {
+            "name": "geo-raycasting",
+            "description": "Ray Casting algorithm for the geo crate",
+            "version": "0.7.0",
+            "downloads": 19782,
+            "url": "https://crates.io/crates/geo-raycasting"
+          },
+          {
+            "name": "phys-raycast",
+            "description": "Ray casting functionality for 3D physics shapes",
+            "version": "2.0.0",
+            "downloads": 237,
+            "url": "https://crates.io/crates/phys-raycast"
+          },
+          {
+            "name": "raylite",
+            "description": "Lightweight, 0-dependency raycasting",
+            "version": "0.1.7",
+            "downloads": 6062,
+            "url": "https://crates.io/crates/raylite"
+          },
+          {
+            "name": "bevy_picking_raycast",
+            "description": "A modular picking plugin for Bevy.",
+            "version": "0.20.2",
+            "downloads": 210390,
+            "url": "https://crates.io/crates/bevy_picking_raycast"
+          },
+          {
+            "name": "bevy_raycast",
+            "description": "This crate is reserved for the Bevy Engine project",
+            "version": "0.0.1",
+            "downloads": 1709,
+            "url": "https://crates.io/crates/bevy_raycast"
+          },
+          {
+            "name": "voxel-tile-raycast",
+            "description": "Ray casting for voxel and tile maps",
+            "version": "0.1.0",
+            "downloads": 1948,
+            "url": "https://crates.io/crates/voxel-tile-raycast"
+          },
+          {
+            "name": "raywoke",
+            "description": "Extremely simple raycasting crate",
+            "version": "0.3.0",
+            "downloads": 4333,
+            "url": "https://crates.io/crates/raywoke"
+          },
+          {
+            "name": "mesh_to_sdf",
+            "description": "Mesh to signed distance field (SDF) converter",
+            "version": "0.4.0",
+            "downloads": 7644,
+            "url": "https://crates.io/crates/mesh_to_sdf"
+          }
+        ]
+      },
+      "total_packages": 110,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:24:21.266013"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:21.266039",
+    "batch_network": {
+      "batch": "Winter 2020",
+      "total_batch_mates": 228,
+      "active_batch_mates": 148,
+      "batch_success_rate": 64.9,
+      "notable_batch_mates": [
+        {
+          "name": "Zaraz",
+          "slug": "zaraz",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A third-party manager, built for speed. "
+        },
+        {
+          "name": "Phonic",
+          "slug": "phonic",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The best way to collect and analyze voice and video feedback"
+        },
+        {
+          "name": "Okay",
+          "slug": "okay",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Dashboards and actionable insights for high-performing engineering\u2026"
+        },
+        {
+          "name": "Volumetric",
+          "slug": "volumetric",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Volumetric builds living multicellular tissues with a focus on the\u2026"
+        },
+        {
+          "name": "Hoss",
+          "slug": "hoss",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The developer experience platform"
+        },
+        {
+          "name": "FitnessAI",
+          "slug": "fitnessai",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "App offering AI powered workout plans with anytime access to coaches"
+        },
+        {
+          "name": "Flowdash",
+          "slug": "flowdash",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Quickly build internal tools for your ops team's manual workflows"
+        },
+        {
+          "name": "Dashworks",
+          "slug": "dashworks",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Your team's intelligent start page."
+        },
+        {
+          "name": "Eternal",
+          "slug": "zelos",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Own the best moments in streaming"
+        },
+        {
+          "name": "Glimpse",
+          "slug": "glimpse",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A social video chat."
+        }
+      ],
+      "batch_size": 229
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Productivity"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "WireOver",
+          "slug": "wireover",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Really secure file sending for big files."
+        },
+        {
+          "name": "SendHub",
+          "slug": "sendhub",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Simple Business SMS. SMBs to Large Enterprise."
+        },
+        {
+          "name": "HackPad",
+          "slug": "hackpad",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "A realtime wiki for getting things done."
+        },
+        {
+          "name": "Screenleap",
+          "slug": "screenleap-inc",
+          "status": "Active",
+          "batch": "Winter 2012",
+          "one_liner": "One-click screen sharing with installation-free viewing on all devices"
+        },
+        {
+          "name": "Glider",
+          "slug": "glider",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "We filter distracting emails away from your inbox."
+        },
+        {
+          "name": "Stypi",
+          "slug": "stypi",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Realtime collaborative coding"
+        },
+        {
+          "name": "Zenbox",
+          "slug": "zenbox",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Brings dozens of SaaS's (Mailchimp, Stripe, Shopify, Salesforce,\u2026"
+        },
+        {
+          "name": "Interstate",
+          "slug": "interstate",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Create & Share Product Roadmaps"
+        },
+        {
+          "name": "Draft",
+          "slug": "draft",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Making Draft. Super simple version control and collaboration for\u2026"
+        },
+        {
+          "name": "TellFi",
+          "slug": "tellfi",
+          "status": "Inactive",
+          "batch": "Winter 2011",
+          "one_liner": "Google Voice for business."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "London",
+      "location": "London, England, United Kingdom; Remote",
+      "companies_in_city": 133,
+      "active_in_city": 104,
+      "nearby_companies": [
+        {
+          "name": "CircuitHub",
+          "slug": "circuithub",
+          "batch": "Winter 2012",
+          "industry": "Industrials",
+          "status": "Active"
+        },
+        {
+          "name": "GoCardless",
+          "slug": "gocardless",
+          "batch": "Summer 2011",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Lanyrd",
+          "slug": "lanyrd",
+          "batch": "Winter 2011",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Post.fm",
+          "slug": "post-fm",
+          "batch": "Summer 2010",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Infogami",
+          "slug": "infogami",
+          "batch": "Summer 2005",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "GoScale",
+          "slug": "goscale",
+          "batch": "Summer 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Shoobs",
+          "slug": "shoobs",
+          "batch": "Winter 2014",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Hyperpad",
+          "slug": "hyperpad",
+          "batch": "Summer 2014",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Permutive",
+          "slug": "permutive",
+          "batch": "Summer 2014",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "SalesSift",
+          "slug": "salessift",
+          "batch": "Summer 2014",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "GiveMeTap",
+          "slug": "givemetap",
+          "batch": "Winter 2015",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Tab",
+          "slug": "tab",
+          "batch": "Winter 2015",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Heroic Labs",
+          "slug": "heroic-labs",
+          "batch": "Summer 2015",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Sphere Secure Workspace",
+          "slug": "sphere-secure-workspace",
+          "batch": "Summer 2015",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "80,000 Hours",
+          "slug": "80-000-hours",
+          "batch": "Summer 2015",
+          "industry": "Unspecified",
+          "status": "Active"
+        },
+        {
+          "name": "SmartSite",
+          "slug": "smartsite",
+          "batch": "Summer 2016",
+          "industry": "Real Estate and Construction",
+          "status": "Inactive"
+        },
+        {
+          "name": "Shipamax",
+          "slug": "shipamax",
+          "batch": "Winter 2017",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fat Llama",
+          "slug": "fat-llama",
+          "batch": "Summer 2017",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Entocycle",
+          "slug": "entocycle",
+          "batch": "Summer 2017",
+          "industry": "Industrials",
+          "status": "Active"
+        },
+        {
+          "name": "Opearlo",
+          "slug": "opearlo",
+          "batch": "Summer 2017",
+          "industry": "Consumer",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Snapboard",
+        "slug": "snapboard",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Motion",
+        "slug": "motion",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Okay",
+        "slug": "okay",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Dashworks",
+        "slug": "dashworks",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Clayboard",
+        "slug": "clayboard",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Edlyft",
+        "slug": "edlyft",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Cron",
+        "slug": "cron",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Chutney Inc",
+        "slug": "chutney-inc",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Zynq",
+        "slug": "zynq",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Post.fm",
+        "slug": "post-fm",
+        "batch": "Summer 2010",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 3107,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:24:21.296148"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:21.296160",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:21.671730",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:21.831403",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 27,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:39:20.003159",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Developer productivity tools market expanding rapidly",
+        "Remote work driving demand for workflow optimization",
+        "Integration-first approach becoming standard for B2B tools"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Deep integrations with developer tools and strong user experience creating switching costs",
+      "differentiation": "Native Mac app with spotlight-like interface specifically designed for developer workflows",
+      "competitive_advantages": [
+        "Superior UX with native performance",
+        "Developer-first design philosophy",
+        "Extensible platform with community contributions"
+      ],
+      "competitive_vulnerabilities": [
+        "Mac-only limits addressable market",
+        "Dependent on third-party API access",
+        "Could be replicated by larger platforms"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "low"
+    },
+    "growth_assessment": {
+      "growth_stage": "series-a",
+      "growth_indicators": [
+        "Strong team growth to 27 people",
+        "4+ years of development since YC",
+        "Active status suggests product-market fit"
+      ],
+      "growth_bottlenecks": [
+        "Platform limitation to macOS",
+        "Need for continuous integration maintenance",
+        "Developer adoption cycles"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "low",
+      "technology_risk": "medium",
+      "execution_risk": "low",
+      "overall_risk_score": 3,
+      "key_risks": [
+        "Platform dependency on macOS ecosystem",
+        "API changes from integrated services",
+        "Competition from Microsoft/Google productivity suites"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Large and growing developer productivity market",
+        "Strong product-market fit evidenced by team growth",
+        "Defensible through deep integrations and UX"
+      ],
+      "concerns": [
+        "Limited to Mac ecosystem",
+        "Dependency on third-party platforms"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Alfred",
+        "Notion",
+        "Linear"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Expand to Windows/Linux to increase TAM",
+        "Develop enterprise sales motion for larger teams"
+      ],
+      "expansion_opportunities": [
+        "Cross-platform development",
+        "Team collaboration features",
+        "AI-powered workflow automation"
+      ]
+    },
+    "tokens_used": {
+      "input": 669,
+      "output": 576,
+      "total": 1245,
+      "estimated_cost": 0.010647
+    }
+  },
+  "phase8_complete": true
+}

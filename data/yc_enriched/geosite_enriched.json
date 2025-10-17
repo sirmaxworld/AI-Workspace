@@ -1,0 +1,696 @@
+{
+  "slug": "geosite",
+  "name": "Geosite",
+  "yc_id": 11931,
+  "batch": "Winter 2019",
+  "website": "https://www.geosite.io/",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:44:55.577585",
+    "website": "https://www.geosite.io/",
+    "website_status": {
+      "reachable": true,
+      "status_code": 404,
+      "response_time_ms": 6638.87,
+      "final_url": "https://earthdaily.com/insurance/solutions",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:45:02.216461"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "geosite.io",
+      "registrar": "Gandi SAS",
+      "creation_date": "2018-04-23T03:49:08",
+      "expiration_date": "2026-04-23T03:49:08",
+      "domain_age_days": 2733,
+      "domain_age_years": 7.5,
+      "name_servers": [
+        "nelly.ns.cloudflare.com",
+        "chase.ns.cloudflare.com"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/EarthDailyA",
+      "linkedin": "https://www.linkedin.com/company/earthdailyanalytics",
+      "github": "https://github.com/earthdaily",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": true,
+      "x_frame_options": true,
+      "x_content_type_options": true,
+      "x_xss_protection": true,
+      "referrer_policy": true,
+      "security_score": 100,
+      "server": "cloudflare"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:21:09.677703",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:20:58.819095",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "Palo Alto, CA, USA",
+      "coordinates": {
+        "latitude": 37.4419,
+        "longitude": -122.143
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:14:40.079679",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:20:58.819239",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/earthdaily"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 1,
+        "packages": [
+          {
+            "name": "hedgewise",
+            "description": "Developer-friendly & type-safe Typescript SDK specifically catered to leverage *hedgewise* API.",
+            "version": "0.7.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/hedgewise"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 1,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:21:00.528077"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:21:00.528084",
+    "batch_network": {
+      "batch": "Winter 2019",
+      "total_batch_mates": 194,
+      "active_batch_mates": 125,
+      "batch_success_rate": 64.4,
+      "notable_batch_mates": [
+        {
+          "name": "Searchlight",
+          "slug": "searchlight",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Talent AI improving quality of hire"
+        },
+        {
+          "name": "Fuzzbuzz",
+          "slug": "fuzzbuzz",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Fuzzing as a Service"
+        },
+        {
+          "name": "ZeroStorefront",
+          "slug": "zerostorefront",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "#1 Data platform for restaurants. Acquired by Thanx"
+        },
+        {
+          "name": "Insight",
+          "slug": "insight",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The first extensible browser for iOS"
+        },
+        {
+          "name": "InterPrime",
+          "slug": "interprime",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Safe & Secure Cash Management for Businesses"
+        },
+        {
+          "name": "Preflight",
+          "slug": "preflight",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "No-code Web Apps testing for everyone"
+        },
+        {
+          "name": "Windsor",
+          "slug": "windsor",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "AI Powered Personalized Videos"
+        },
+        {
+          "name": "Ascen",
+          "slug": "ascen",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "EOR for the staffing industry"
+        },
+        {
+          "name": "Convex",
+          "slug": "convex",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Software for the commercial services industry. "
+        },
+        {
+          "name": "Coursedog",
+          "slug": "coursedog",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Higher Ed's Best Friend - integrated academic operations software."
+        }
+      ],
+      "batch_size": 195
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Operations"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1969,
+      "direct_competitors": [
+        {
+          "name": "Hipmob",
+          "slug": "hipmob",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Customer communication for iOS and Android developers - an in-app\u2026"
+        },
+        {
+          "name": "LaunchHear",
+          "slug": "launchhear",
+          "status": "Inactive",
+          "batch": "Winter 2010",
+          "one_liner": "LaunchHear was a startup attempting to make PR scale in the same way\u2026"
+        },
+        {
+          "name": "Upwave",
+          "slug": "upwave",
+          "status": "Active",
+          "batch": "Summer 2012",
+          "one_liner": "Marketing analytics for the world's biggest brand marketers"
+        },
+        {
+          "name": "Natero",
+          "slug": "natero",
+          "status": "Acquired",
+          "batch": "Summer 2012",
+          "one_liner": "Data-driven customer success platform for B2B SaaS."
+        },
+        {
+          "name": "Profig",
+          "slug": "profig",
+          "status": "Inactive",
+          "batch": "Summer 2012",
+          "one_liner": "The phone system for businesses. Manage everything from your company\u2026"
+        },
+        {
+          "name": "Flightfox",
+          "slug": "flightfox",
+          "status": "Active",
+          "batch": "Summer 2012",
+          "one_liner": "A platform to plan, book and manage global and group travel."
+        },
+        {
+          "name": "Kalibrr",
+          "slug": "kalibrr",
+          "status": "Acquired",
+          "batch": "Winter 2013",
+          "one_liner": "Kalibrr connects SEAsian talent to your local & global jobs."
+        },
+        {
+          "name": "Unbabel",
+          "slug": "unbabel",
+          "status": "Acquired",
+          "batch": "Winter 2014",
+          "one_liner": "AI-powered Language Operations platform"
+        },
+        {
+          "name": "Confident LIMS",
+          "slug": "confident-lims",
+          "status": "Active",
+          "batch": "Summer 2015",
+          "one_liner": "Laboratory Information Management System (LIMS) serving\u2026"
+        },
+        {
+          "name": "HiOperator",
+          "slug": "hioperator",
+          "status": "Active",
+          "batch": "Summer 2016",
+          "one_liner": "Customer support as a service. "
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Palo Alto",
+      "location": "Palo Alto, CA, USA; Remote",
+      "companies_in_city": 93,
+      "active_in_city": 41,
+      "nearby_companies": [
+        {
+          "name": "Hipmob",
+          "slug": "hipmob",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Amiato",
+          "slug": "amiato",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Pixelapse",
+          "slug": "pixelapse",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "LVL6",
+          "slug": "lvl6",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "GiveSpark",
+          "slug": "givespark",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Proxino",
+          "slug": "proxino",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Science Exchange",
+          "slug": "science-exchange",
+          "batch": "Summer 2011",
+          "industry": "Healthcare",
+          "status": "Acquired"
+        },
+        {
+          "name": "Clerky",
+          "slug": "clerky",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Assembled",
+          "slug": "assembled",
+          "batch": "Winter 2011",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Pebble",
+          "slug": "pebble",
+          "batch": "Winter 2011",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Insight Data Science",
+          "slug": "insight-data-science",
+          "batch": "Winter 2011",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "AeroFS",
+          "slug": "aerofs",
+          "batch": "Summer 2010",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Etacts",
+          "slug": "etacts",
+          "batch": "Winter 2010",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Lockitron",
+          "slug": "lockitron",
+          "batch": "Summer 2009",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "GraffitiGeo",
+          "slug": "graffitigeo",
+          "batch": "Summer 2009",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Snipd",
+          "slug": "snipd",
+          "batch": "Summer 2008",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Machine Zone",
+          "slug": "machine-zone",
+          "batch": "Winter 2008",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fuzzwich",
+          "slug": "fuzzwich",
+          "batch": "Summer 2007",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Jumpchat",
+          "slug": "jumpchat",
+          "batch": "Summer 2006",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Pixate",
+          "slug": "pixate",
+          "batch": "Summer 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Overview",
+        "slug": "overview",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "ZeroStorefront",
+        "slug": "zerostorefront",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Convictional",
+        "slug": "convictional",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Middesk",
+        "slug": "middesk",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Coursedog",
+        "slug": "coursedog",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Docucharm",
+        "slug": "docucharm",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Traverse Technologies",
+        "slug": "traverse-technologies",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Latchel",
+        "slug": "latchel",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "FIRST",
+        "slug": "first",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Truora",
+        "slug": "truora",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 3033,
+      "network_density_score": 97.4,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:21:00.534584"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:21:00.534590",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:21:00.860086",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:21:00.964784",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 40,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:45:48.975425",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increasing satellite data availability",
+        "Digital transformation in defense/government",
+        "Growing demand for location intelligence"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Dual-use platform serving both commercial and military markets with integrated marketplace and data management",
+      "differentiation": "Combines geospatial data marketplace with collaboration tools for enterprise workflows",
+      "competitive_advantages": [
+        "Dual-use technology reducing customer acquisition costs",
+        "Integrated platform approach vs point solutions"
+      ],
+      "competitive_vulnerabilities": [
+        "Large incumbents like Esri with deeper resources",
+        "Potential for tech giants to enter market"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS with marketplace components",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "40-person team size indicates scaling",
+        "7.5 year domain age shows market validation"
+      ],
+      "growth_bottlenecks": [
+        "Complex enterprise sales cycles",
+        "Need for specialized geospatial expertise"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "low",
+      "technology_risk": "medium",
+      "execution_risk": "low",
+      "overall_risk_score": 3,
+      "key_risks": [
+        "Dependence on satellite data providers",
+        "Regulatory changes in defense sector",
+        "Competition from established GIS players"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Large addressable market",
+        "Dual-use reduces market risk",
+        "Strong team execution evidenced by acquisition"
+      ],
+      "concerns": [
+        "Competitive landscape with established players",
+        "Complex technical integration requirements"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Esri",
+        "Maxar Technologies"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Leverage acquisition for expanded market reach",
+        "Focus on API integrations with enterprise workflows"
+      ],
+      "expansion_opportunities": [
+        "International government markets",
+        "Industry-specific vertical solutions"
+      ]
+    },
+    "tokens_used": {
+      "input": 744,
+      "output": 536,
+      "total": 1280,
+      "estimated_cost": 0.010272
+    }
+  },
+  "phase8_complete": true
+}

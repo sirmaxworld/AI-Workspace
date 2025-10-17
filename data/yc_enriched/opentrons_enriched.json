@@ -1,0 +1,741 @@
+{
+  "slug": "opentrons",
+  "name": "Opentrons",
+  "yc_id": 1030,
+  "batch": "Winter 2016",
+  "website": "http://opentrons.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:36:54.073993",
+    "website": "http://opentrons.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 568.78,
+      "final_url": "https://opentrons.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:36:54.642793"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "opentrons.com",
+      "registrar": "Amazon Registrar, Inc.",
+      "creation_date": "2013-10-20T13:36:53",
+      "expiration_date": "2026-10-20T13:36:53",
+      "domain_age_days": 4379,
+      "domain_age_years": 12.0,
+      "name_servers": [
+        "NS-1473.AWSDNS-56.ORG",
+        "NS-1767.AWSDNS-28.CO.UK",
+        "NS-65.AWSDNS-08.COM",
+        "NS-784.AWSDNS-34.NET"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/opentrons?lang=en",
+      "linkedin": "https://www.linkedin.com/company/opentrons-labworks-inc./",
+      "github": "https://github.com/Opentrons",
+      "facebook": null,
+      "instagram": "https://www.instagram.com/opentrons_/",
+      "youtube": "https://www.youtube.com/channel/UCvMRmXIxnHs3AutkVhuqaQg"
+    },
+    "security_headers": {
+      "strict_transport_security": false,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 0,
+      "server": "cloudflare"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:16:53.166585",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:16:41.359540",
+    "place_data": {
+      "status": "success",
+      "method": "nominatim",
+      "formatted_address": "City of New York, New York, United States",
+      "coordinates": {
+        "latitude": 40.7127281,
+        "longitude": -74.0060152
+      },
+      "place_types": [
+        "administrative"
+      ],
+      "retrieved_at": "2025-10-17T10:12:57.698487",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:41.359579",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/Opentrons"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 5,
+        "packages": [
+          {
+            "name": "@opentrons/components",
+            "description": "React components library for Opentrons' projects",
+            "version": "0.2.1-alpha.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@opentrons/components"
+          },
+          {
+            "name": "opentrons-mcp",
+            "description": "MCP server for Opentrons HTTP API documentation and endpoint discovery",
+            "version": "1.0.24",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/opentrons-mcp"
+          },
+          {
+            "name": "@opentrons/shared-data",
+            "description": "Shared system definitions and utilities for Opentrons robots and software",
+            "version": "0.2.1-alpha.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@opentrons/shared-data"
+          },
+          {
+            "name": "@opentrons/discovery-client",
+            "description": "Node.js client for discovering Opentrons robots on the network",
+            "version": "3.6.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@opentrons/discovery-client"
+          },
+          {
+            "name": "opentrons-document-mcp-server",
+            "description": "Opentrons' MCP document server",
+            "version": "0.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/opentrons-document-mcp-server"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 1,
+        "packages": [
+          {
+            "name": "opentrons",
+            "version": "0.0.7",
+            "downloads": 8651,
+            "url": "https://rubygems.org/gems/opentrons"
+          }
+        ]
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 1,
+        "packages": [
+          {
+            "name": "opentron",
+            "description": "Tron blockchain implentation",
+            "version": "0.1.0",
+            "downloads": 1617,
+            "url": "https://crates.io/crates/opentron"
+          }
+        ]
+      },
+      "total_packages": 7,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:16:42.584606"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:42.584611",
+    "batch_network": {
+      "batch": "Winter 2016",
+      "total_batch_mates": 121,
+      "active_batch_mates": 58,
+      "batch_success_rate": 47.9,
+      "notable_batch_mates": [
+        {
+          "name": "Stilt",
+          "slug": "stilt",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Financial products for immigrants (acquired by JG Wentworth)"
+        },
+        {
+          "name": "Embark Trucks",
+          "slug": "embark-trucks",
+          "status": "Public",
+          "top_company": false,
+          "one_liner": "Self-driving semi trucks."
+        },
+        {
+          "name": "Loop Genomics",
+          "slug": "loop-genomics",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Novel long-read DNA sequencing technology"
+        },
+        {
+          "name": "Able Health",
+          "slug": "able-health",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Able Health gets doctors paid more for higher quality care"
+        },
+        {
+          "name": "Truebill",
+          "slug": "truebill",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Live your best financial life"
+        },
+        {
+          "name": "LendEDU",
+          "slug": "lendedu",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "LendEDU is a marketplace for consumer financial products."
+        },
+        {
+          "name": "Luminist Labs",
+          "slug": "luminist-labs",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Diagnostic platform for early detection of liver disease"
+        },
+        {
+          "name": "MineralSoft",
+          "slug": "mineralsoft",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Data management platform for oil & gas assets"
+        },
+        {
+          "name": "Pulpix",
+          "slug": "pulpix",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Binge-watching technology for video platforms. "
+        },
+        {
+          "name": "Paystack",
+          "slug": "paystack",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Modern payments infrastructure for Africa"
+        }
+      ],
+      "batch_size": 122
+    },
+    "industry_network": {
+      "industries": [
+        "Healthcare",
+        "Diagnostics"
+      ],
+      "total_industry_peers": 642,
+      "active_industry_peers": 502,
+      "direct_competitors": [
+        {
+          "name": "Bikanta",
+          "slug": "bikanta",
+          "status": "Inactive",
+          "batch": "Summer 2014",
+          "one_liner": "Nano-diamonds for cancer detection"
+        },
+        {
+          "name": "Notable Labs",
+          "slug": "notable-labs",
+          "status": "Public",
+          "batch": "Winter 2015",
+          "one_liner": "Personalized drug discovery for blood cancer."
+        },
+        {
+          "name": "Lucira Health",
+          "slug": "lucira-health",
+          "status": "Public",
+          "batch": "Winter 2015",
+          "one_liner": "Next generation infectious disease test kits"
+        },
+        {
+          "name": "X-Zell",
+          "slug": "x-zell",
+          "status": "Active",
+          "batch": "Winter 2015",
+          "one_liner": "Early, pain-free cancer detection. "
+        },
+        {
+          "name": "Klarismo",
+          "slug": "klarismo",
+          "status": "Inactive",
+          "batch": "Summer 2015",
+          "one_liner": "Klarismo turns your body into an interactive experience. We built a\u2026"
+        },
+        {
+          "name": "Cofactor Genomics",
+          "slug": "cofactor-genomics",
+          "status": "Active",
+          "batch": "Summer 2015",
+          "one_liner": "Cofactor closes the precision medicine gap with predictive diagnostics"
+        },
+        {
+          "name": "Loop Genomics",
+          "slug": "loop-genomics",
+          "status": "Acquired",
+          "batch": "Winter 2016",
+          "one_liner": "Novel long-read DNA sequencing technology"
+        },
+        {
+          "name": "Luminist Labs",
+          "slug": "luminist-labs",
+          "status": "Acquired",
+          "batch": "Winter 2016",
+          "one_liner": "Diagnostic platform for early detection of liver disease"
+        },
+        {
+          "name": "Unima",
+          "slug": "unima",
+          "status": "Inactive",
+          "batch": "Winter 2016",
+          "one_liner": "Fast and low-cost diagnostics for real time disease surveillance"
+        },
+        {
+          "name": "BillionToOne",
+          "slug": "billiontoone",
+          "status": "Active",
+          "batch": "Summer 2017",
+          "one_liner": "The genetic testing platform detecting and measuring disease."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "New York",
+      "location": "New York, NY, USA",
+      "companies_in_city": 523,
+      "active_in_city": 397,
+      "nearby_companies": [
+        {
+          "name": "The Muse",
+          "slug": "the-muse",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "HireArt",
+          "slug": "hireart",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Shoptiques",
+          "slug": "shoptiques",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Grouper",
+          "slug": "grouper",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "99dresses",
+          "slug": "99dresses",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Codecademy",
+          "slug": "codecademy",
+          "batch": "Summer 2011",
+          "industry": "Education",
+          "status": "Acquired"
+        },
+        {
+          "name": "Custora",
+          "slug": "custora",
+          "batch": "Winter 2011",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Recurse Center",
+          "slug": "recurse-center",
+          "batch": "Summer 2010",
+          "industry": "Education",
+          "status": "Active"
+        },
+        {
+          "name": "MessageParty",
+          "slug": "messageparty",
+          "batch": "Summer 2010",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Fabricly",
+          "slug": "fabricly",
+          "batch": "Winter 2010",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "RentHop",
+          "slug": "renthop",
+          "batch": "Summer 2009",
+          "industry": "Real Estate and Construction",
+          "status": "Active"
+        },
+        {
+          "name": "Youlicit",
+          "slug": "youlicit",
+          "batch": "Summer 2008",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "SocialPicks",
+          "slug": "socialpicks",
+          "batch": "Summer 2007",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Octopart",
+          "slug": "octopart",
+          "batch": "Winter 2007",
+          "industry": "Industrials",
+          "status": "Acquired"
+        },
+        {
+          "name": "OMGPop",
+          "slug": "omgpop",
+          "batch": "Summer 2006",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Canopy Labs",
+          "slug": "canopy-labs",
+          "batch": "Summer 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Fullstack Academy",
+          "slug": "fullstack-academy",
+          "batch": "Summer 2012",
+          "industry": "Education",
+          "status": "Acquired"
+        },
+        {
+          "name": "DataNitro",
+          "slug": "datanitro",
+          "batch": "Summer 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "SmartAsset",
+          "slug": "smartasset",
+          "batch": "Summer 2012",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "StyleUp",
+          "slug": "styleup",
+          "batch": "Winter 2013",
+          "industry": "Consumer",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Loop Genomics",
+        "slug": "loop-genomics",
+        "batch": "Winter 2016",
+        "industry": "Healthcare",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Luminist Labs",
+        "slug": "luminist-labs",
+        "batch": "Winter 2016",
+        "industry": "Healthcare",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Unima",
+        "slug": "unima",
+        "batch": "Winter 2016",
+        "industry": "Healthcare",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "NURX",
+        "slug": "nurx",
+        "batch": "Winter 2016",
+        "industry": "Healthcare",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Isabl",
+        "slug": "isabl",
+        "batch": "Winter 2020",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "MICSI",
+        "slug": "micsi",
+        "batch": "Summer 2023",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "iSono Health",
+        "slug": "isono-health",
+        "batch": "Winter 2016",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Algoriz",
+        "slug": "algoriz",
+        "batch": "Winter 2016",
+        "industry": "Fintech",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Focal Systems",
+        "slug": "focal-systems",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Toymail",
+        "slug": "toymail",
+        "batch": "Winter 2016",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 1286,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:16:42.591225"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:42.591229",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:42.977773",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:43.088817",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 300,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:18.476074",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "medium",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increased automation in labs",
+        "Demand for reproducible research",
+        "Rise of synthetic biology"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "First-mover advantage, established brand in accessible lab automation, growing protocol library.",
+      "differentiation": "Affordable and accessible lab automation, open-source approach.",
+      "competitive_advantages": [
+        "Lower price point compared to traditional lab automation",
+        "User-friendly software and hardware"
+      ],
+      "competitive_vulnerabilities": [
+        "Limited capabilities compared to high-end systems",
+        "Reliance on open-source community for protocol development"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "Hardware sales, consumables, potential for SaaS (protocol marketplace/premium features)",
+      "scalability": "medium",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "Increasing adoption in academic and industrial labs",
+        "Expansion of protocol library"
+      ],
+      "growth_bottlenecks": [
+        "Manufacturing capacity",
+        "Competition from established players"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Competition from larger companies",
+        "Adoption barriers in traditional labs",
+        "Supply chain disruptions"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong value proposition for smaller labs",
+        "Disruptive pricing model",
+        "Growing market for lab automation"
+      ],
+      "concerns": [
+        "Limited market size compared to overall lab equipment market",
+        "Potential for commoditization"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Transcriptic (acquired by Berkeley Lights)",
+        "Emerald Cloud Lab"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Expand sales and marketing efforts",
+        "Develop strategic partnerships with reagent and assay providers"
+      ],
+      "expansion_opportunities": [
+        "Develop more advanced automation modules",
+        "Expand into new application areas (e.g., diagnostics)"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 709,
+      "completion": 608,
+      "total": 1317,
+      "estimated_cost": 0.000236
+    }
+  },
+  "phase8_complete": true
+}

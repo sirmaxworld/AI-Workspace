@@ -1,0 +1,593 @@
+{
+  "slug": "locent",
+  "name": "Locent",
+  "yc_id": 920,
+  "batch": "Summer 2015",
+  "website": "http://locent.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:36:02.237634",
+    "website": "http://locent.com",
+    "website_status": {
+      "reachable": false,
+      "error": "connection_error"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "locent.com",
+      "registrar": "GoDaddy.com, LLC",
+      "creation_date": "2005-05-10T17:44:06",
+      "expiration_date": "2026-05-10T17:44:06",
+      "domain_age_days": 7464,
+      "domain_age_years": 20.4,
+      "name_servers": [
+        "NS1.DNSIMPLE.COM",
+        "NS2.DNSIMPLE-EDGE.NET",
+        "NS3.DNSIMPLE.COM",
+        "NS4.DNSIMPLE-EDGE.ORG"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "error": "HTTPConnectionPool(host='locent.com', port=80): Max retries exceeded with url: / (Caused by NameReso"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:16:15.218302",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:16:02.077400",
+    "place_data": {
+      "status": "success",
+      "method": "nominatim",
+      "formatted_address": "Santa Monica, Los Angeles County, California, United States",
+      "coordinates": {
+        "latitude": 34.0194704,
+        "longitude": -118.491227
+      },
+      "place_types": [
+        "administrative"
+      ],
+      "retrieved_at": "2025-10-17T10:16:03.494238"
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:03.495325",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:03.495331",
+    "batch_network": {
+      "batch": "Summer 2015",
+      "total_batch_mates": 104,
+      "active_batch_mates": 47,
+      "batch_success_rate": 45.2,
+      "notable_batch_mates": [
+        {
+          "name": "Triplebyte",
+          "slug": "triplebyte",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Intelligent technical hiring."
+        },
+        {
+          "name": "Jopwell",
+          "slug": "jopwell",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Career advancement for Black, Latinx & Native American professionals."
+        },
+        {
+          "name": "L.",
+          "slug": "l",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "L. makes award-winning personal care products with organic materials."
+        },
+        {
+          "name": "OpenInvest",
+          "slug": "openinvest",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Values based personalization at scale for asset and wealth management"
+        },
+        {
+          "name": "Second Measure",
+          "slug": "second-measure",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Unlock the power of transaction data."
+        },
+        {
+          "name": "SourceDNA",
+          "slug": "sourcedna",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Bringing transparency to the app stores and helping developers build\u2026"
+        },
+        {
+          "name": "Convox",
+          "slug": "convox",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Open-source tools for deploying, managing, and monitoring cloud\u2026"
+        },
+        {
+          "name": "Cymmetria",
+          "slug": "cymmetria",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Shifting the asymmetry of cyber security."
+        },
+        {
+          "name": "Eden",
+          "slug": "eden",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Workplace software for people-centric companies. "
+        },
+        {
+          "name": "Foxpass",
+          "slug": "foxpass",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Making enterprise security practices available for all companies."
+        }
+      ],
+      "batch_size": 105
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Marketing"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1969,
+      "direct_competitors": [
+        {
+          "name": "Optilly/Installmonetizer",
+          "slug": "optilly-installmonetizer",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Fb ad optimization platform "
+        },
+        {
+          "name": "Chute",
+          "slug": "chute",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Discover the photos and videos people are taking of your brand or\u2026"
+        },
+        {
+          "name": "Priceonomics",
+          "slug": "priceonomics",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "We help companies turn their data into great stories."
+        },
+        {
+          "name": "GiveSpark",
+          "slug": "givespark",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Givespark was a celebrity charity fundraising platform"
+        },
+        {
+          "name": "Dubjoy",
+          "slug": "dubjoy",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Dubjoy translates and voice-overs your video to any language"
+        },
+        {
+          "name": "Videopixie",
+          "slug": "videopixie",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Marketplace for Video Production Services.  We help you hire the best\u2026"
+        },
+        {
+          "name": "Vidyard",
+          "slug": "vidyard",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Video for business."
+        },
+        {
+          "name": "TapEngage",
+          "slug": "tapengage",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Tablet ad network, acquired by Dropbox in July 2012"
+        },
+        {
+          "name": "Perfect Audience",
+          "slug": "perfect-audience",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Self-service display advertising for SaaS and online retail."
+        },
+        {
+          "name": "Userfox",
+          "slug": "userfox",
+          "status": "Inactive",
+          "batch": "Winter 2011",
+          "one_liner": "User retention as a service.  Drip email"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Santa Monica",
+      "location": "Santa Monica, CA, USA",
+      "companies_in_city": 12,
+      "active_in_city": 4,
+      "nearby_companies": [
+        {
+          "name": "Flutter",
+          "slug": "flutter",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "All Screen",
+          "slug": "all-screen",
+          "batch": "Winter 2010",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Zeitview",
+          "slug": "zeitview",
+          "batch": "Winter 2015",
+          "industry": "Industrials",
+          "status": "Active"
+        },
+        {
+          "name": "Streamup",
+          "slug": "streamup",
+          "batch": "Winter 2016",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "RocketLit",
+          "slug": "rocketlit",
+          "batch": "Summer 2016",
+          "industry": "Education",
+          "status": "Active"
+        },
+        {
+          "name": "Gamelynx",
+          "slug": "gamelynx",
+          "batch": "Summer 2017",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Duffl",
+          "slug": "duffl",
+          "batch": "Winter 2020",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Taloflow",
+          "slug": "taloflow",
+          "batch": "Winter 2021",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Emerge Tools",
+          "slug": "emerge-tools",
+          "batch": "Winter 2021",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Stipop",
+          "slug": "stipop",
+          "batch": "Summer 2021",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Ivella",
+          "slug": "ivella",
+          "batch": "Summer 2021",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Kable",
+          "slug": "kable",
+          "batch": "Winter 2022",
+          "industry": "B2B",
+          "status": "Inactive"
+        }
+      ],
+      "ecosystem_density": "low"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "PartnerStack",
+        "slug": "partnerstack",
+        "batch": "Summer 2015",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "All Screen",
+        "slug": "all-screen",
+        "batch": "Winter 2010",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Triplebyte",
+        "slug": "triplebyte",
+        "batch": "Summer 2015",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Teleport",
+        "slug": "teleport",
+        "batch": "Summer 2015",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "teaBOT",
+        "slug": "teabot",
+        "batch": "Summer 2015",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Ironclad",
+        "slug": "ironclad",
+        "batch": "Summer 2015",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Jopwell",
+        "slug": "jopwell",
+        "batch": "Summer 2015",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Gemnote",
+        "slug": "gemnote",
+        "batch": "Summer 2015",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Assembly",
+        "slug": "assembly",
+        "batch": "Summer 2015",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "ROSS Intelligence",
+        "slug": "ross-intelligence",
+        "batch": "Summer 2015",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 2862,
+      "network_density_score": 63.2,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": false,
+      "calculated_at": "2025-10-17T10:16:03.502571"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:03.502578",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:03.838558",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:03.940898",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 11,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:20.483502",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "mature",
+      "key_trends": [
+        "Increased automation in customer communication",
+        "Growing demand for personalized messaging",
+        "Integration of messaging with other business systems"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "First-mover advantage (potentially eroded over time), brand recognition (if any)",
+      "differentiation": "Automated messaging platform (generic, needs specific differentiation)",
+      "competitive_advantages": [
+        "Early market entry",
+        "Established platform (potentially outdated)"
+      ],
+      "competitive_vulnerabilities": [
+        "Lack of innovation",
+        "Stronger competitors with more advanced features"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "mature",
+      "growth_indicators": [
+        "Customer acquisition rate",
+        "Customer retention rate"
+      ],
+      "growth_bottlenecks": [
+        "Competition",
+        "Lack of differentiation"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "low",
+      "technology_risk": "medium",
+      "execution_risk": "high",
+      "overall_risk_score": 7,
+      "key_risks": [
+        "Inability to compete with larger players",
+        "Failure to innovate",
+        "Customer churn"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Established platform",
+        "Large potential market",
+        "Experienced team"
+      ],
+      "concerns": [
+        "Inactive status",
+        "Lack of differentiation"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Twilio",
+        "SendGrid"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Re-evaluate market fit",
+        "Develop a unique selling proposition"
+      ],
+      "expansion_opportunities": [
+        "Integrate with other business platforms",
+        "Expand into new markets"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 612,
+      "completion": 548,
+      "total": 1160,
+      "estimated_cost": 0.00021
+    }
+  },
+  "phase8_complete": true
+}

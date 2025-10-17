@@ -1,0 +1,584 @@
+{
+  "slug": "beanstalk",
+  "name": "Beanstalk",
+  "yc_id": 1730,
+  "batch": "Winter 2018",
+  "website": "http://beanstalk.farm",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:40:29.798967",
+    "website": "http://beanstalk.farm",
+    "website_status": {
+      "reachable": false,
+      "error": "connection_error"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "beanstalk.farm",
+      "error": "[Errno 8] nodename nor servname provided, or not known"
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "error": "HTTPConnectionPool(host='beanstalk.farm', port=80): Max retries exceeded with url: / (Caused by Name"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:19:29.332929",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:19:15.661382",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "Washington, DC, USA",
+      "coordinates": {
+        "latitude": 38.9072,
+        "longitude": -77.0369
+      },
+      "timezone": {
+        "timezone_id": "America/New_York",
+        "timezone_name": "America/New_York"
+      },
+      "retrieved_at": "2025-10-17T10:16:00.876190",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:15.661410",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:15.661413",
+    "batch_network": {
+      "batch": "Winter 2018",
+      "total_batch_mates": 145,
+      "active_batch_mates": 83,
+      "batch_success_rate": 57.2,
+      "notable_batch_mates": [
+        {
+          "name": "Newfront",
+          "slug": "newfront-insurance",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "Modern insurance brokerage."
+        },
+        {
+          "name": "Mayhem",
+          "slug": "mayhem",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Mayhem is the easiest way to play with your gaming community."
+        },
+        {
+          "name": "Pulse",
+          "slug": "pulse-2",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "We're crowdsourced Gartner so IT executives can learn directly from\u2026"
+        },
+        {
+          "name": "Bear Flag Robotics",
+          "slug": "bear-flag-robotics",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Autonomous driving technology for farm tractors."
+        },
+        {
+          "name": "ClearBrain",
+          "slug": "clearbrain",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Causal Analytics for Growth Teams"
+        },
+        {
+          "name": "Sepsis Scout",
+          "slug": "sepsis-scout",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Wearables and AI to predict and prevent sepsis outside the hospital"
+        },
+        {
+          "name": "onederful",
+          "slug": "onederful",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Dental Insurance API"
+        },
+        {
+          "name": "CodeStream",
+          "slug": "codestream",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "CodeStream is a Developer Collaboration Platform designed to\u2026"
+        },
+        {
+          "name": "Glimpse K12",
+          "slug": "glimpse-k12",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Glimpse eliminates ineffective spending in schools."
+        },
+        {
+          "name": "Squad",
+          "slug": "squad",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Squad is an app for live communities to have shared experiences\u2026"
+        }
+      ],
+      "batch_size": 146
+    },
+    "industry_network": {
+      "industries": [
+        "Industrials",
+        "Agriculture"
+      ],
+      "total_industry_peers": 318,
+      "active_industry_peers": 245,
+      "direct_competitors": [
+        {
+          "name": "FarmLogs",
+          "slug": "farmlogs",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Software that helps farmers operate more profitable businesses."
+        },
+        {
+          "name": "Edyn",
+          "slug": "edyn",
+          "status": "Inactive",
+          "batch": "Winter 2014",
+          "one_liner": "Nest for lawn and garden"
+        },
+        {
+          "name": "Terravion",
+          "slug": "terravion",
+          "status": "Inactive",
+          "batch": "Winter 2014",
+          "one_liner": "Real time Google Earth for agriculture -- imagery collected weekly\u2026"
+        },
+        {
+          "name": "Tule",
+          "slug": "tule",
+          "status": "Acquired",
+          "batch": "Summer 2014",
+          "one_liner": "Help farmers make irrigation decisions with sensors / computer vision "
+        },
+        {
+          "name": "Thrive Agritech",
+          "slug": "thrive-agritech",
+          "status": "Active",
+          "batch": "Summer 2015",
+          "one_liner": "We design and manufacture energy efficient LED lighting fixtures for\u2026"
+        },
+        {
+          "name": "PickTrace",
+          "slug": "picktrace",
+          "status": "Active",
+          "batch": "Summer 2015",
+          "one_liner": "Workforce Management for Large Farms"
+        },
+        {
+          "name": "Inevitable Tech",
+          "slug": "inevitable-tech",
+          "status": "Inactive",
+          "batch": "Winter 2016",
+          "one_liner": "To make food a renewable resource, for everyone"
+        },
+        {
+          "name": "Kisan Network",
+          "slug": "kisan-network",
+          "status": "Inactive",
+          "batch": "Winter 2016",
+          "one_liner": "Tech enabled and fully integrated PAN India agri produce supply chain"
+        },
+        {
+          "name": "Trade",
+          "slug": "trade",
+          "status": "Inactive",
+          "batch": "Winter 2017",
+          "one_liner": "We're building Africa's Commodity Exchange. "
+        },
+        {
+          "name": "Bountiful",
+          "slug": "bountiful",
+          "status": "Active",
+          "batch": "Winter 2017",
+          "one_liner": "An Operating System for agriculture."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Washington",
+      "location": "Washington, DC, USA",
+      "companies_in_city": 12,
+      "active_in_city": 9,
+      "nearby_companies": [
+        {
+          "name": "GovPredict",
+          "slug": "govpredict",
+          "batch": "Summer 2014",
+          "industry": "Government",
+          "status": "Acquired"
+        },
+        {
+          "name": "Magic",
+          "slug": "magic",
+          "batch": "Winter 2015",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "GiveCampus",
+          "slug": "givecampus",
+          "batch": "Summer 2015",
+          "industry": "Education",
+          "status": "Active"
+        },
+        {
+          "name": "Iambiq Technologies",
+          "slug": "iambiq-technologies",
+          "batch": "Winter 2018",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "The Good Food Institute",
+          "slug": "the-good-food-institute",
+          "batch": "Summer 2018",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "hotglue",
+          "slug": "hotglue",
+          "batch": "Summer 2021",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Loops",
+          "slug": "loops",
+          "batch": "Winter 2022",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Vendoo",
+          "slug": "vendoo",
+          "batch": "Winter 2022",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Cinder",
+          "slug": "cinder-2",
+          "batch": "Winter 2022",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Jasmine Energy",
+          "slug": "jasmine-energy",
+          "batch": "Summer 2022",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Rescript",
+          "slug": "rescript",
+          "batch": "Summer 2024",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Capitol AI",
+          "slug": "capitol-ai",
+          "batch": "Summer 2024",
+          "industry": "B2B",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "low"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Ovipost",
+        "slug": "ovipost",
+        "batch": "Winter 2018",
+        "industry": "Industrials",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Bear Flag Robotics",
+        "slug": "bear-flag-robotics",
+        "batch": "Winter 2018",
+        "industry": "Industrials",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "SRTX",
+        "slug": "srtx",
+        "batch": "Winter 2018",
+        "industry": "Industrials",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Vathys",
+        "slug": "vathys",
+        "batch": "Winter 2018",
+        "industry": "Industrials",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Shone",
+        "slug": "shone",
+        "batch": "Winter 2018",
+        "industry": "Industrials",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Orangewood Labs",
+        "slug": "orangewood-labs",
+        "batch": "Winter 2018",
+        "industry": "Industrials",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Iambiq Technologies",
+        "slug": "iambiq-technologies",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Aerones",
+        "slug": "aerones",
+        "batch": "Winter 2018",
+        "industry": "Industrials",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "FarmLogs",
+        "slug": "farmlogs",
+        "batch": "Winter 2012",
+        "industry": "Industrials",
+        "status": "Acquired",
+        "similarity_score": 5,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Edyn",
+        "slug": "edyn",
+        "batch": "Winter 2014",
+        "industry": "Industrials",
+        "status": "Inactive",
+        "similarity_score": 5,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 475,
+      "network_density_score": 56.8,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": false,
+      "calculated_at": "2025-10-17T10:19:15.666705"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:15.666711",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:15.978277",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:16.112633",
+    "basic_info": {
+      "is_hiring": true,
+      "team_size": 15,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:45:40.769047",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increasing demand for local, sustainable produce",
+        "Rising labor costs in agriculture driving automation",
+        "Growing consumer preference for pesticide-free, fresh produce"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Proprietary vertical farming technology combining robotics, plant science, and automation",
+      "differentiation": "Focus on taste and quality for local restaurants with integrated robotics and plant science expertise",
+      "competitive_advantages": [
+        "Local production reducing supply chain costs",
+        "Consistent year-round production regardless of weather"
+      ],
+      "competitive_vulnerabilities": [
+        "High capital requirements for scaling",
+        "Competition from established vertical farming companies like AeroFarms and Plenty"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "hardware",
+      "scalability": "medium",
+      "capital_intensity": "high"
+    },
+    "growth_assessment": {
+      "growth_stage": "series-a",
+      "growth_indicators": [
+        "Team expansion to 15 people",
+        "Multi-crop capability development"
+      ],
+      "growth_bottlenecks": [
+        "High upfront capital requirements for farm installations",
+        "Need for specialized technical talent in robotics and agriculture"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "High energy costs impacting unit economics",
+        "Technology complexity requiring ongoing R&D investment",
+        "Market adoption challenges with traditional agriculture customers"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong technical team with robotics and plant science expertise",
+        "Proven product-market fit with local restaurants",
+        "Diversified crop portfolio reducing single-product risk"
+      ],
+      "concerns": [
+        "Capital-intensive business model limiting rapid scaling",
+        "Competitive market with well-funded players"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "AeroFarms",
+        "Plenty",
+        "Bowery Farming"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Secure Series A funding for scaling operations",
+        "Develop strategic partnerships with restaurant chains"
+      ],
+      "expansion_opportunities": [
+        "Licensing technology to other vertical farming operators",
+        "Expanding into grocery retail distribution"
+      ]
+    },
+    "tokens_used": {
+      "input": 736,
+      "output": 575,
+      "total": 1311,
+      "estimated_cost": 0.010833
+    }
+  },
+  "phase8_complete": true
+}

@@ -1,0 +1,759 @@
+{
+  "slug": "estimote-inc",
+  "name": "Estimote, Inc.",
+  "yc_id": 534,
+  "batch": "Summer 2013",
+  "website": "http://estimote.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:33:05.879943",
+    "website": "http://estimote.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 530.8,
+      "final_url": "https://estimote.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:33:06.410753"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "estimote.com",
+      "registrar": "NetArt Registrar Sp. z o.o.",
+      "creation_date": "2012-08-09T19:18:35",
+      "expiration_date": "2026-08-09T19:18:35",
+      "domain_age_days": 4816,
+      "domain_age_years": 13.2,
+      "name_servers": [
+        "NS-1120.AWSDNS-12.ORG",
+        "NS-2046.AWSDNS-63.CO.UK",
+        "NS-319.AWSDNS-39.COM",
+        "NS-685.AWSDNS-21.NET"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": "https://github.com/Estimote/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": false,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 0,
+      "server": "AmazonS3"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:14:03.150995",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:06:39.436519",
+    "place_data": {
+      "status": "success",
+      "method": "nominatim",
+      "formatted_address": "Krak\u00f3w, wojew\u00f3dztwo ma\u0142opolskie, Polska",
+      "coordinates": {
+        "latitude": 50.0469432,
+        "longitude": 19.9971534
+      },
+      "place_types": [
+        "administrative"
+      ],
+      "retrieved_at": "2025-10-17T10:06:39.772168"
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:06:39.773588",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/Estimote"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 28,
+        "packages": [
+          {
+            "name": "cordova-plugin-estimote",
+            "description": "Cordova/PhoneGap plugin for Estimote beacons.",
+            "version": "0.8.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/cordova-plugin-estimote"
+          },
+          {
+            "name": "nativescript-estimote-plugin",
+            "description": "Estimote SDK plugin for Nativescript",
+            "version": "0.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/nativescript-estimote-plugin"
+          },
+          {
+            "name": "@ionic-native/estimote-beacons",
+            "description": "Ionic Native - Native plugins for ionic apps",
+            "version": "5.36.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ionic-native/estimote-beacons"
+          },
+          {
+            "name": "cordova-plugin-sparta-estimote",
+            "description": "Phonegap/Cordova Plugin for Estimote",
+            "version": "0.1.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/cordova-plugin-sparta-estimote"
+          },
+          {
+            "name": "node-beacon-scanner",
+            "description": "The node-beacon-scanner is a Node.js module which allows you to scan BLE beacon packets and parse the packet data. This module supports iBeacon, Eddystone, and Estimote.",
+            "version": "0.2.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/node-beacon-scanner"
+          },
+          {
+            "name": "cordova-estimote-proximity",
+            "description": "Estimote Proximity",
+            "version": "0.1.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/cordova-estimote-proximity"
+          },
+          {
+            "name": "cordova-plugin-estimote-v2",
+            "description": "Cordova/PhoneGap plugin for Estimote beacons.",
+            "version": "0.9.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/cordova-plugin-estimote-v2"
+          },
+          {
+            "name": "node-beacon-scanner-duplicates-check",
+            "description": "The node-beacon-scanner is a Node.js module which allows you to scan BLE beacon packets and parse the packet data. This module supports iBeacon, Eddystone, and Estimote.",
+            "version": "0.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/node-beacon-scanner-duplicates-check"
+          },
+          {
+            "name": "@ansgomez/node-beacon-scanner",
+            "description": "The node-beacon-scanner is a Node.js module which allows you to scan BLE beacon packets and parse the packet data. This module supports MiroCards, iBeacon, Eddystone, and Estimote.",
+            "version": "0.2.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ansgomez/node-beacon-scanner"
+          },
+          {
+            "name": "react-native-estimote",
+            "description": "react-native-estimote --------------------- React Native extensions for the [Estimote iOS SDK](https://github.com/Estimote/iOS-SDK)",
+            "version": "0.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-native-estimote"
+          },
+          {
+            "name": "phonegap-estimotebeacons",
+            "description": "Estimote iBeacons PhoneGap plugin",
+            "version": "0.6.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/phonegap-estimotebeacons"
+          },
+          {
+            "name": "lanista-mobility",
+            "description": "Cordova/PhoneGap plugin for Estimote beacons.",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/lanista-mobility"
+          },
+          {
+            "name": "passport-estimote-cloud",
+            "description": "Estimote Cloud OAuth provider",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/passport-estimote-cloud"
+          },
+          {
+            "name": "cordova-plugin-estimotesdk",
+            "description": "Cordova plugin wrapper for Estimote SDK",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/cordova-plugin-estimotesdk"
+          },
+          {
+            "name": "mechanic-ble-scanner",
+            "description": "The mechanic-ble-scanner is a Node.js module which allows you to scan BLE beacon packets and parse the packet data. This module supports iBeacon, Eddystone, and Estimote.",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/mechanic-ble-scanner"
+          },
+          {
+            "name": "@laurentgoudet/ionic-native-estimote-beacons",
+            "description": "Ionic Native - Native plugins for ionic apps",
+            "version": "5.29.0-fork",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@laurentgoudet/ionic-native-estimote-beacons"
+          },
+          {
+            "name": "beacon-pie",
+            "description": "Simple module that helps you talk to Estimote Location Beacons over UART from Raspberry Pi",
+            "version": "0.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/beacon-pie"
+          },
+          {
+            "name": "@ionic-native-mocks/estimote-beacons",
+            "description": "Ionic Native Mocks- Native plugins for ionic apps",
+            "version": "2.0.12",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ionic-native-mocks/estimote-beacons"
+          },
+          {
+            "name": "react-native-estimote-wrapper",
+            "description": "## Getting started",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-native-estimote-wrapper"
+          },
+          {
+            "name": "@ionic-native-sistel/estimote-beacons",
+            "description": "Ionic Native - Native plugins for ionic apps",
+            "version": "5.26.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ionic-native-sistel/estimote-beacons"
+          },
+          {
+            "name": "node-red-contrib-beacon-scanner",
+            "description": "Node-RED node to retrieve information from BLE Beacons.",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/node-red-contrib-beacon-scanner"
+          },
+          {
+            "name": "react-native-ibeacon",
+            "description": "iBeacon support for React Native. The API is very similar to the CoreLocation Objective-C one with the only major difference that regions are plain JavaScript objects. Beacons don't work in the iOS simulator.",
+            "version": "0.6.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-native-ibeacon"
+          },
+          {
+            "name": "node-red-contrib-blebeacon-scanner",
+            "description": "node for BLE Beacon",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/node-red-contrib-blebeacon-scanner"
+          },
+          {
+            "name": "react-native-ble-15",
+            "description": "Central role BLE for react native noble api surface",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-native-ble-15"
+          },
+          {
+            "name": "bluetooth-beacon-mqtt-exporter",
+            "description": "service publishing Bluetooth BLE beacons advertisements on a mqtt topic",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/bluetooth-beacon-mqtt-exporter"
+          },
+          {
+            "name": "@waqasjamil/estimote-beacons",
+            "description": "Ionic Native - Native plugins for ionic apps",
+            "version": "5.26.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@waqasjamil/estimote-beacons"
+          },
+          {
+            "name": "beaconuwb-estimote-reactnative",
+            "description": "Bridge between Estimote UWB SDK and React Native",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/beaconuwb-estimote-reactnative"
+          },
+          {
+            "name": "estimote-react-joyride",
+            "description": "Create guided tours for your apps",
+            "version": "2.5.3-aliath",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/estimote-react-joyride"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 28,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:06:41.089805"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:06:41.089854",
+    "batch_network": {
+      "batch": "Summer 2013",
+      "total_batch_mates": 51,
+      "active_batch_mates": 9,
+      "batch_success_rate": 17.6,
+      "notable_batch_mates": [
+        {
+          "name": "URX",
+          "slug": "urx",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Mobile ads that users like. Acquired by Pinterest in May 2016."
+        },
+        {
+          "name": "Apptimize",
+          "slug": "apptimize",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Apptimize lets mobile teams innovate faster to create an amazing user\u2026"
+        },
+        {
+          "name": "Standard Treasury",
+          "slug": "standard-treasury",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Banking APIs; acquired by Silicon Valley Bank in August 2015"
+        },
+        {
+          "name": "BloomThat",
+          "slug": "bloomthat",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Uber for Flowers."
+        },
+        {
+          "name": "Hackermeter",
+          "slug": "hackermeter",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Replacing resume screening with code challenges."
+        },
+        {
+          "name": "CoreOS",
+          "slug": "coreos",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Open source tools of modern distributed systems."
+        },
+        {
+          "name": "DoorDash",
+          "slug": "doordash",
+          "status": "Public",
+          "top_company": true,
+          "one_liner": "Restaurant delivery."
+        },
+        {
+          "name": "SimpleLegal",
+          "slug": "simplelegal",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Legal Operations for corporate legal teams."
+        },
+        {
+          "name": "SpoonRocket",
+          "slug": "spoonrocket",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Meals Delivered in 10 Minutes"
+        },
+        {
+          "name": "Casetext",
+          "slug": "casetext",
+          "status": "Acquired",
+          "top_company": null,
+          "one_liner": "We make the world's laws free and understandable. "
+        }
+      ],
+      "batch_size": 52
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Supply Chain and Logistics"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Zentail",
+          "slug": "zentail",
+          "status": "Active",
+          "batch": "Summer 2012",
+          "one_liner": "We're making ecommerce simple connecting brands with sales channels"
+        },
+        {
+          "name": "Keychain Logistics",
+          "slug": "keychain-logistics",
+          "status": "Inactive",
+          "batch": "Summer 2012",
+          "one_liner": "Software that connects the supply side of companies that ship product\u2026"
+        },
+        {
+          "name": "Swish",
+          "slug": "swish",
+          "status": "Inactive",
+          "batch": "Winter 2013",
+          "one_liner": "Kickstarter for physical products.  Shop exclusive product launches."
+        },
+        {
+          "name": "EasyPost",
+          "slug": "easypost",
+          "status": "Active",
+          "batch": "Summer 2013",
+          "one_liner": "The shipping infrastructure of the internet."
+        },
+        {
+          "name": "Flexport",
+          "slug": "flexport",
+          "status": "Active",
+          "batch": "Winter 2014",
+          "one_liner": "Platform for global logistics."
+        },
+        {
+          "name": "Rickshaw",
+          "slug": "rickshaw",
+          "status": "Acquired",
+          "batch": "Winter 2014",
+          "one_liner": "Same day local delivery, via API. Currently operating in SF."
+        },
+        {
+          "name": "ShipBob",
+          "slug": "shipbob",
+          "status": "Active",
+          "batch": "Summer 2014",
+          "one_liner": "Providing Amazon level logistics to e-commerce businesses. "
+        },
+        {
+          "name": "GrubMarket",
+          "slug": "grubmarket",
+          "status": "Active",
+          "batch": "Winter 2015",
+          "one_liner": "AI-powered technology enabler and digital transformer of American\u2026"
+        },
+        {
+          "name": "Pakible",
+          "slug": "pakible",
+          "status": "Inactive",
+          "batch": "Winter 2015",
+          "one_liner": "We make it insanely easy to design, price, and manufacture custom\u2026"
+        },
+        {
+          "name": "Lumi",
+          "slug": "lumi",
+          "status": "Acquired",
+          "batch": "Winter 2015",
+          "one_liner": "Packaging for online brands."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Krak\u00f3w",
+      "location": "Krak\u00f3w, Lesser Poland Voivodeship, Poland",
+      "companies_in_city": 2,
+      "active_in_city": 2,
+      "nearby_companies": [
+        {
+          "name": "stoic.",
+          "slug": "stoic",
+          "batch": "Summer 2019",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Enso",
+          "slug": "enso",
+          "batch": "Summer 2021",
+          "industry": "B2B",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "low"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "EasyPost",
+        "slug": "easypost",
+        "batch": "Summer 2013",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "URX",
+        "slug": "urx",
+        "batch": "Summer 2013",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Teleborder",
+        "slug": "teleborder",
+        "batch": "Summer 2013",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Apptimize",
+        "slug": "apptimize",
+        "batch": "Summer 2013",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Asseta",
+        "slug": "asseta",
+        "batch": "Summer 2013",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "StackMachine",
+        "slug": "stackmachine",
+        "batch": "Summer 2013",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Hackermeter",
+        "slug": "hackermeter",
+        "batch": "Summer 2013",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "CoreOS",
+        "slug": "coreos",
+        "batch": "Summer 2013",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Crowdery",
+        "slug": "crowdery",
+        "batch": "Summer 2013",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "GoComm",
+        "slug": "gocomm",
+        "batch": "Summer 2013",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 2799,
+      "network_density_score": 50.6,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": false,
+      "calculated_at": "2025-10-17T10:06:41.107224"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:06:41.107232",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:06:41.427886",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:06:41.535005",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 40,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:34.016105",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "medium",
+      "market_stage": "growing",
+      "key_trends": [
+        "IoT adoption in enterprises",
+        "Real-time location services (RTLS)",
+        "Digital twins and smart spaces"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Proprietary SpaceTimeOS and sensor technology, early mover advantage.",
+      "differentiation": "Operating system for physical spaces, inch-precise tracking, focus on programmability and interactivity.",
+      "competitive_advantages": [
+        "First-mover advantage",
+        "Integrated hardware and software solution"
+      ],
+      "competitive_vulnerabilities": [
+        "High upfront costs for hardware deployment",
+        "Reliance on sensor accuracy and connectivity"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "Enterprise customer adoption",
+        "Expansion of use cases beyond asset tracking"
+      ],
+      "growth_bottlenecks": [
+        "Sales cycle length",
+        "Integration complexity with existing systems"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Competition from larger players",
+        "Data privacy and security concerns",
+        "Dependence on reliable wireless infrastructure"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong technology platform",
+        "Early mover advantage in a growing market",
+        "Potential for high recurring revenue"
+      ],
+      "concerns": [
+        "High customer acquisition costs",
+        "Integration challenges with legacy systems"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Kontakt.io",
+        "CenTrak"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on key verticals (e.g., healthcare, retail)",
+        "Develop pre-built integrations with popular enterprise software"
+      ],
+      "expansion_opportunities": [
+        "Expand partner ecosystem",
+        "Develop new applications for SpaceTimeOS"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 709,
+      "completion": 500,
+      "total": 1209,
+      "estimated_cost": 0.000203
+    }
+  },
+  "phase8_complete": true
+}

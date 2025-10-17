@@ -1,0 +1,1390 @@
+{
+  "slug": "singlestore",
+  "name": "SingleStore",
+  "yc_id": 134,
+  "batch": "Winter 2011",
+  "website": "https://www.singlestore.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:29:46.991459",
+    "website": "https://www.singlestore.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 179.02,
+      "final_url": "https://www.singlestore.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:29:47.170491"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "singlestore.com",
+      "registrar": "NAMECHEAP INC",
+      "creation_date": "2004-02-04T20:06:13",
+      "expiration_date": "2027-02-04T20:06:13",
+      "domain_age_days": 7925,
+      "domain_age_years": 21.7,
+      "name_servers": [
+        "NS-1258.AWSDNS-29.ORG",
+        "NS-1615.AWSDNS-09.CO.UK",
+        "NS-297.AWSDNS-37.COM",
+        "NS-615.AWSDNS-12.NET"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/singlestoredb",
+      "linkedin": "https://www.linkedin.com/company/singlestore/",
+      "github": "https://github.com/singlestore-labs/",
+      "facebook": "https://www.facebook.com/SingleStoreDataPlatform",
+      "instagram": null,
+      "youtube": "https://www.youtube.com/singlestore/"
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": true,
+      "x_frame_options": false,
+      "x_content_type_options": true,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 50,
+      "server": "CloudFront"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:12:42.885651",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:48:54.977439",
+    "place_data": {
+      "status": "not_found",
+      "query": "San Francisco, CA, USA"
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:48:55.087312",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/singlestore-labs"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 100,
+        "packages": [
+          {
+            "name": "@singlestore/ai",
+            "description": "A module that enhances the [`@singlestore/client`](https://github.com/singlestore-labs/singlestore/tree/main/packages/client) package with AI functionality, allowing you to integrate AI features like embeddings and chat completions.",
+            "version": "0.0.32",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@singlestore/ai"
+          },
+          {
+            "name": "@singlestore/rag",
+            "description": "A module that enhances the [`@singlestore/client`](https://github.com/singlestore-labs/singlestore/tree/main/packages/client) package with Retrieval-Augmented Generation (RAG) functionality, enabling seamless integration of advanced RAG features into a ch",
+            "version": "0.0.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@singlestore/rag"
+          },
+          {
+            "name": "orval",
+            "description": "A swagger client generator for typescript",
+            "version": "7.13.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/orval"
+          },
+          {
+            "name": "@orval/axios",
+            "description": "[![npm version](https://badge.fury.io/js/orval.svg)](https://badge.fury.io/js/orval) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![tests](https://github.com/orval-labs/orval/actions/workflow",
+            "version": "7.13.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@orval/axios"
+          },
+          {
+            "name": "@orval/swr",
+            "description": "[![npm version](https://badge.fury.io/js/orval.svg)](https://badge.fury.io/js/orval) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![tests](https://github.com/orval-labs/orval/actions/workflow",
+            "version": "7.13.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@orval/swr"
+          },
+          {
+            "name": "@orval/query",
+            "description": "[![npm version](https://badge.fury.io/js/orval.svg)](https://badge.fury.io/js/orval) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![tests](https://github.com/orval-labs/orval/actions/workflow",
+            "version": "7.13.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@orval/query"
+          },
+          {
+            "name": "@orval/hono",
+            "description": "[![npm version](https://badge.fury.io/js/orval.svg)](https://badge.fury.io/js/orval) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![tests](https://github.com/orval-labs/orval/actions/workflow",
+            "version": "7.13.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@orval/hono"
+          },
+          {
+            "name": "@orval/fetch",
+            "description": "[![npm version](https://badge.fury.io/js/orval.svg)](https://badge.fury.io/js/orval) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![tests](https://github.com/orval-labs/orval/actions/workflow",
+            "version": "7.13.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@orval/fetch"
+          },
+          {
+            "name": "@orval/core",
+            "description": "[![npm version](https://badge.fury.io/js/orval.svg)](https://badge.fury.io/js/orval) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![tests](https://github.com/orval-labs/orval/actions/workflow",
+            "version": "7.13.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@orval/core"
+          },
+          {
+            "name": "@orval/angular",
+            "description": "[![npm version](https://badge.fury.io/js/orval.svg)](https://badge.fury.io/js/orval) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![tests](https://github.com/orval-labs/orval/actions/workflow",
+            "version": "7.13.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@orval/angular"
+          },
+          {
+            "name": "@orval/zod",
+            "description": "[![npm version](https://badge.fury.io/js/orval.svg)](https://badge.fury.io/js/orval) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![tests](https://github.com/orval-labs/orval/actions/workflow",
+            "version": "7.13.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@orval/zod"
+          },
+          {
+            "name": "@orval/mock",
+            "description": "[![npm version](https://badge.fury.io/js/orval.svg)](https://badge.fury.io/js/orval) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![tests](https://github.com/orval-labs/orval/actions/workflow",
+            "version": "7.13.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@orval/mock"
+          },
+          {
+            "name": "@lit-labs/react",
+            "description": "A React component wrapper for web components.",
+            "version": "2.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@lit-labs/react"
+          },
+          {
+            "name": "saucelabs",
+            "description": "A wrapper around Sauce Labs REST API",
+            "version": "9.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/saucelabs"
+          },
+          {
+            "name": "@orval/mcp",
+            "description": "[![npm version](https://badge.fury.io/js/orval.svg)](https://badge.fury.io/js/orval) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![tests](https://github.com/orval-labs/orval/actions/workflow",
+            "version": "7.13.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@orval/mcp"
+          },
+          {
+            "name": "@aptos-labs/aptos-client",
+            "description": "Client package for accessing the Aptos network API.",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aptos-labs/aptos-client"
+          },
+          {
+            "name": "@aptos-labs/ts-sdk",
+            "description": "Aptos TypeScript SDK",
+            "version": "5.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aptos-labs/ts-sdk"
+          },
+          {
+            "name": "@singlestore/client",
+            "description": "The SingleStore Client is a package designed for interacting with the SingleStore API in Node.js environments.",
+            "version": "0.0.44",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@singlestore/client"
+          },
+          {
+            "name": "react-terminal-plus",
+            "description": "A improved version of `react-terminal` - react-terminal-plus",
+            "version": "0.0.18",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-terminal-plus"
+          },
+          {
+            "name": "@lit-labs/virtualizer",
+            "description": "Viewport-based virtualization (virtual scrolling) for Lit",
+            "version": "2.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@lit-labs/virtualizer"
+          },
+          {
+            "name": "@rekog/mcp-nest",
+            "description": "NestJS module for creating Model Context Protocol (MCP) servers",
+            "version": "1.8.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@rekog/mcp-nest"
+          },
+          {
+            "name": "pure-react-carousel",
+            "description": "A highly impartial suite of React components that can be assembled by the consumer to create a responsive and aria compliant carousel with almost no limits on DOM structure or CSS styles.",
+            "version": "1.32.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/pure-react-carousel"
+          },
+          {
+            "name": "@kubb/core",
+            "description": "Core functionality for Kubb's plugin-based code generation system, providing the foundation for transforming OpenAPI specifications.",
+            "version": "4.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@kubb/core"
+          },
+          {
+            "name": "@kubb/parser-ts",
+            "description": "TypeScript parsing and manipulation utilities for Kubb, enabling code generation with proper TypeScript syntax and formatting.",
+            "version": "4.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@kubb/parser-ts"
+          },
+          {
+            "name": "@kubb/oas",
+            "description": "OpenAPI Specification (OAS) utilities and helpers for Kubb, providing parsing, normalization, and manipulation of OpenAPI/Swagger schemas.",
+            "version": "4.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@kubb/oas"
+          },
+          {
+            "name": "@kubb/plugin-oas",
+            "description": "OpenAPI Specification (OAS) plugin for Kubb, providing core functionality for parsing and processing OpenAPI/Swagger schemas for code generation.",
+            "version": "4.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@kubb/plugin-oas"
+          },
+          {
+            "name": "@kubb/react",
+            "description": "React integration for Kubb, providing JSX runtime support and React component generation capabilities for code generation plugins.",
+            "version": "4.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@kubb/react"
+          },
+          {
+            "name": "@wdio/sauce-service",
+            "description": "WebdriverIO service that provides a better integration into Sauce Labs",
+            "version": "9.20.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@wdio/sauce-service"
+          },
+          {
+            "name": "@kubb/cli",
+            "description": "Command-line interface for Kubb, enabling easy generation of TypeScript, React-Query, Zod, and other code from OpenAPI specifications.",
+            "version": "4.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@kubb/cli"
+          },
+          {
+            "name": "vite-plugin-vuetify",
+            "description": "A Vite plugin for treeshaking Vuetify components and more",
+            "version": "2.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/vite-plugin-vuetify"
+          },
+          {
+            "name": "@lit-labs/ssr",
+            "description": "SSR for Lit",
+            "version": "3.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@lit-labs/ssr"
+          },
+          {
+            "name": "@lit-labs/observers",
+            "description": "A set of reactive controllers that facilitate using the platform observer objects.",
+            "version": "2.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@lit-labs/observers"
+          },
+          {
+            "name": "recheck-jar",
+            "description": "The JAR archive for recheck.",
+            "version": "4.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/recheck-jar"
+          },
+          {
+            "name": "@kubb/plugin-ts",
+            "description": "TypeScript code generation plugin for Kubb, transforming OpenAPI schemas into TypeScript interfaces, types, and utility functions.",
+            "version": "4.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@kubb/plugin-ts"
+          },
+          {
+            "name": "@twilio-labs/serverless-api",
+            "description": "API-wrapper for the Twilio Serverless API",
+            "version": "5.7.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@twilio-labs/serverless-api"
+          },
+          {
+            "name": "recheck-linux-x64",
+            "description": "The Linux 64-bit binary for recheck.",
+            "version": "4.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/recheck-linux-x64"
+          },
+          {
+            "name": "@d11/react-native-fast-image",
+            "description": "\ud83d\udea9 FastImage, performant React Native image component.",
+            "version": "8.12.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@d11/react-native-fast-image"
+          },
+          {
+            "name": "@kubb/plugin-zod",
+            "description": "Zod schema generator plugin for Kubb, creating type-safe validation schemas from OpenAPI specifications for runtime data validation.",
+            "version": "4.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@kubb/plugin-zod"
+          },
+          {
+            "name": "@dynamic-labs-sdk/assert-package-version",
+            "description": "Ensures all `@dynamic-labs/*` packages in your project are running on the same version.",
+            "version": "0.0.1-alpha.20",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@dynamic-labs-sdk/assert-package-version"
+          },
+          {
+            "name": "@twilio-labs/serverless-runtime-types",
+            "description": "TypeScript definitions to define globals for the Twilio Serverless runtime",
+            "version": "4.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@twilio-labs/serverless-runtime-types"
+          },
+          {
+            "name": "@kubb/ui",
+            "description": "User interface components and web dashboard for Kubb, providing a visual interface for managing and monitoring code generation.",
+            "version": "4.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@kubb/ui"
+          },
+          {
+            "name": "@kubb/fs",
+            "description": "FileSystem helpers",
+            "version": "3.10.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@kubb/fs"
+          },
+          {
+            "name": "@kubb/plugin-client",
+            "description": "API client generator plugin for Kubb, creating type-safe HTTP clients (Axios, Fetch) from OpenAPI specifications for making API requests.",
+            "version": "4.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@kubb/plugin-client"
+          },
+          {
+            "name": "@lit-labs/signals",
+            "description": "JavaScript Signals proposal integration for Lit",
+            "version": "0.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@lit-labs/signals"
+          },
+          {
+            "name": "@kubb/types",
+            "description": "Generator types",
+            "version": "3.10.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@kubb/types"
+          },
+          {
+            "name": "@atlaskit/icon-lab",
+            "description": "An icon package for public icon contributions",
+            "version": "5.10.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@atlaskit/icon-lab"
+          },
+          {
+            "name": "@ngxs-labs/select-snapshot",
+            "description": "<p align=\"center\">   <img src=\"https://raw.githubusercontent.com/ngxs-labs/emitter/master/docs/assets/logo.png\"> </p>",
+            "version": "5.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ngxs-labs/select-snapshot"
+          },
+          {
+            "name": "@kubb/swagger-ts",
+            "description": "Generator swagger-ts",
+            "version": "2.28.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@kubb/swagger-ts"
+          },
+          {
+            "name": "@saucelabs/visual",
+            "description": "JS client bindings for Sauce Labs Visual",
+            "version": "0.16.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@saucelabs/visual"
+          },
+          {
+            "name": "@lit-labs/ssr-client",
+            "description": "Client package for @lit-labs/ssr.",
+            "version": "1.1.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@lit-labs/ssr-client"
+          },
+          {
+            "name": "peopledatalabs",
+            "description": "JavaScript client with TypeScript support for the People Data Labs API",
+            "version": "14.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/peopledatalabs"
+          },
+          {
+            "name": "@lit-labs/motion",
+            "description": "Lit directives for making things move.",
+            "version": "1.0.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@lit-labs/motion"
+          },
+          {
+            "name": "@kubb/plugin-react-query",
+            "description": "React Query hooks generator plugin for Kubb, creating type-safe API client hooks from OpenAPI specifications for React applications.",
+            "version": "4.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@kubb/plugin-react-query"
+          },
+          {
+            "name": "azle",
+            "description": "TypeScript and JavaScript CDK for the Internet Computer",
+            "version": "0.33.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/azle"
+          },
+          {
+            "name": "@saucelabs/cypress-visual-plugin",
+            "description": "Cypress plugin for Sauce Visual Testing",
+            "version": "0.10.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@saucelabs/cypress-visual-plugin"
+          },
+          {
+            "name": "@hint/hint-ssllabs",
+            "description": "hint that that checks using SSL Labs for best practices related to the website's SSL configuration",
+            "version": "2.4.27",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@hint/hint-ssllabs"
+          },
+          {
+            "name": "@kubb/swagger",
+            "description": "Generator swagger",
+            "version": "2.28.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@kubb/swagger"
+          },
+          {
+            "name": "@kubb/plugin-faker",
+            "description": "Faker.js data generator plugin for Kubb, creating realistic mock data from OpenAPI specifications for development and testing.",
+            "version": "4.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@kubb/plugin-faker"
+          },
+          {
+            "name": "@fractalwagmi/solana-wallet-adapter",
+            "description": "Solana wallet adapter implementation for Fractal Wallet",
+            "version": "0.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@fractalwagmi/solana-wallet-adapter"
+          },
+          {
+            "name": "@kubb/swagger-zod",
+            "description": "Generator swagger-zod",
+            "version": "2.28.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@kubb/swagger-zod"
+          },
+          {
+            "name": "@dynamic-labs/embedded-wallet",
+            "description": "A React SDK for implementing wallet web3 authentication and authorization to your website.",
+            "version": "4.38.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@dynamic-labs/embedded-wallet"
+          },
+          {
+            "name": "@ngxs-labs/dispatch-decorator",
+            "description": "<p align=\"center\">   <img src=\"https://raw.githubusercontent.com/ngxs-labs/emitter/master/docs/assets/logo.png\"> </p>",
+            "version": "5.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ngxs-labs/dispatch-decorator"
+          },
+          {
+            "name": "@matterlabs/zksync-contracts",
+            "description": "ZKsync Smart Contracts",
+            "version": "29.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@matterlabs/zksync-contracts"
+          },
+          {
+            "name": "@solana/spl-token",
+            "description": "SPL Token Program JS API",
+            "version": "0.4.14",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@solana/spl-token"
+          },
+          {
+            "name": "erc721a-upgradeable",
+            "description": "ERC721A Upgradeable contract for Solidity",
+            "version": "4.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/erc721a-upgradeable"
+          },
+          {
+            "name": "@stoplight/yaml-ast-parser",
+            "description": "[![Build Status](https://travis-ci.org/mulesoft-labs/yaml-ast-parser.svg?branch=master)](https://travis-ci.org/mulesoft-labs/yaml-ast-parser)",
+            "version": "0.0.50",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@stoplight/yaml-ast-parser"
+          },
+          {
+            "name": "@dynamic-labs/waas-evm",
+            "description": "A React SDK for implementing wallet web3 authentication and authorization to your website.",
+            "version": "4.38.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@dynamic-labs/waas-evm"
+          },
+          {
+            "name": "@kubb/plugin-msw",
+            "description": "Mock Service Worker (MSW) handlers generator plugin for Kubb, creating API mocks from OpenAPI specifications for frontend development and testing.",
+            "version": "4.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@kubb/plugin-msw"
+          },
+          {
+            "name": "@solana-mobile/mobile-wallet-adapter-protocol-web3js",
+            "description": "A convenience wrapper that enables you to call Solana Mobile Stack protocol methods using objects from @solana/web3.js",
+            "version": "2.2.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@solana-mobile/mobile-wallet-adapter-protocol-web3js"
+          },
+          {
+            "name": "electron-updater",
+            "description": "Cross platform updater for electron applications",
+            "version": "6.6.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/electron-updater"
+          },
+          {
+            "name": "@lit-labs/context",
+            "description": "Helpers and controllers for using Context protocol",
+            "version": "0.5.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@lit-labs/context"
+          },
+          {
+            "name": "@kubb/swagger-client",
+            "description": "Generator swagger-client",
+            "version": "2.28.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@kubb/swagger-client"
+          },
+          {
+            "name": "@apollographql/graphql-playground-html",
+            "description": "GraphQL IDE for better development workflows (GraphQL Subscriptions, interactive docs & collaboration).",
+            "version": "1.6.29",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@apollographql/graphql-playground-html"
+          },
+          {
+            "name": "@dynamic-labs/waas-svm",
+            "description": "A React SDK for implementing wallet web3 authentication and authorization to your website.",
+            "version": "4.38.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@dynamic-labs/waas-svm"
+          },
+          {
+            "name": "@dynamic-labs/sdk-react-core",
+            "description": "A React SDK for implementing wallet web3 authentication and authorization to your website.",
+            "version": "4.38.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@dynamic-labs/sdk-react-core"
+          },
+          {
+            "name": "erc721a",
+            "description": "ERC721A contract for Solidity",
+            "version": "4.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/erc721a"
+          },
+          {
+            "name": "@lit-labs/ssr-react",
+            "description": "Lit SSR integration for React",
+            "version": "0.3.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@lit-labs/ssr-react"
+          },
+          {
+            "name": "@kbox-labs/react-echarts",
+            "description": "ECharts for React",
+            "version": "1.4.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@kbox-labs/react-echarts"
+          },
+          {
+            "name": "@codecademy/gamut-labs",
+            "description": "Brand and experimental component library for Codecademy",
+            "version": "35.15.14",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@codecademy/gamut-labs"
+          },
+          {
+            "name": "@web/test-runner-saucelabs",
+            "description": "Saucelabs launcher for Web Test Runner",
+            "version": "0.13.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@web/test-runner-saucelabs"
+          },
+          {
+            "name": "@ngxs/store",
+            "description": null,
+            "version": "20.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ngxs/store"
+          },
+          {
+            "name": "@tvlabs/wdio-service",
+            "description": "WebdriverIO service that provides a better integration into TV Labs",
+            "version": "0.1.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@tvlabs/wdio-service"
+          },
+          {
+            "name": "modal",
+            "description": "Modal client library for JavaScript",
+            "version": "0.3.25",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/modal"
+          },
+          {
+            "name": "@carbon-labs/react-resizer",
+            "description": "Carbon Labs - Resize Bar",
+            "version": "0.10.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@carbon-labs/react-resizer"
+          },
+          {
+            "name": "@lit-labs/ssr-dom-shim",
+            "description": "DOM shim for Lit Server Side Rendering (SSR)",
+            "version": "1.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@lit-labs/ssr-dom-shim"
+          },
+          {
+            "name": "@ngxs-labs/actions-executing",
+            "description": "![master](https://github.com/ngxs-labs/actions-executing/workflows/main/badge.svg?branch=master) [![npm version](https://badge.fury.io/js/%40ngxs-labs%2Factions-executing.svg)](https://badge.fury.io/js/%40ngxs-labs%2Factions-executing) [![Coverage Status]",
+            "version": "20.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ngxs-labs/actions-executing"
+          },
+          {
+            "name": "@solana/spl-token-metadata",
+            "description": "SPL Token Metadata Interface JS API",
+            "version": "0.1.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@solana/spl-token-metadata"
+          },
+          {
+            "name": "@twingate-labs/pulumi-twingate",
+            "description": "A Pulumi package for creating and managing Twingate cloud resources.",
+            "version": "0.0.48",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@twingate-labs/pulumi-twingate"
+          },
+          {
+            "name": "webdriver",
+            "description": "A Node.js bindings implementation for the W3C WebDriver and Mobile JSONWire Protocol",
+            "version": "9.20.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/webdriver"
+          },
+          {
+            "name": "@solana/spl-token-group",
+            "description": "SPL Token Group Interface JS API",
+            "version": "0.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@solana/spl-token-group"
+          },
+          {
+            "name": "@lit-labs/scoped-registry-mixin",
+            "description": "A mixin for using speculative \"scoped CustomElementRegistry\" with LitElement.",
+            "version": "1.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@lit-labs/scoped-registry-mixin"
+          },
+          {
+            "name": "@bgd-labs/aave-cli",
+            "description": "A cli to perform various aave governance related tasks",
+            "version": "1.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@bgd-labs/aave-cli"
+          },
+          {
+            "name": "@brightspace-ui/labs",
+            "description": "A collection of experimental web components and tools for building Brightspace applications.",
+            "version": "2.38.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@brightspace-ui/labs"
+          },
+          {
+            "name": "@keystonehq/sol-keyring",
+            "description": "sol-keyring interact with keystone",
+            "version": "0.20.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@keystonehq/sol-keyring"
+          },
+          {
+            "name": "@kubb/swagger-tanstack-query",
+            "description": "Generator swagger-tanstack-query",
+            "version": "2.28.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@kubb/swagger-tanstack-query"
+          },
+          {
+            "name": "@aptos-labs/wallet-adapter-react",
+            "description": "Aptos Wallet Adapter React Provider",
+            "version": "7.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aptos-labs/wallet-adapter-react"
+          },
+          {
+            "name": "@ngxs-labs/emitter",
+            "description": "<p align=\"center\">     <img src=\"https://raw.githubusercontent.com/ngxs-labs/emitter/master/docs/assets/emitter.png\"> </p>",
+            "version": "6.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ngxs-labs/emitter"
+          },
+          {
+            "name": "@balancer-labs/v2-interfaces",
+            "description": "V2 Interfaces",
+            "version": "0.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@balancer-labs/v2-interfaces"
+          },
+          {
+            "name": "elevenlabs-node",
+            "description": "This is an open source Eleven Labs NodeJS package for converting text to speech using the Eleven Labs API",
+            "version": "2.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/elevenlabs-node"
+          },
+          {
+            "name": "@twilio-labs/runtime-helpers",
+            "description": "A set of common utility code for use in Twilio Functions.",
+            "version": "0.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@twilio-labs/runtime-helpers"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 100,
+      "has_packages": true,
+      "checked_at": "2025-10-17T09:48:56.658417"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:48:56.658436",
+    "batch_network": {
+      "batch": "Winter 2011",
+      "total_batch_mates": 44,
+      "active_batch_mates": 11,
+      "batch_success_rate": 25.0,
+      "notable_batch_mates": [
+        {
+          "name": "Upverter",
+          "slug": "upverter",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The future of hardware design. A marketplace for hardware engineering\u2026"
+        },
+        {
+          "name": "Earbits",
+          "slug": "earbits",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Google AdWords for music.  Allowing bands and labels to bid for\u2026"
+        },
+        {
+          "name": "Sendoid",
+          "slug": "sendoid",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "High speed peer to peer data transport technology for consumers\u2026"
+        },
+        {
+          "name": "HelloSign",
+          "slug": "hellosign",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "eSignature software for small and mid-market businesses."
+        },
+        {
+          "name": "Hotspots",
+          "slug": "hotspots",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Real-time analytics (acq by TWTR, 2012)"
+        },
+        {
+          "name": "Custora",
+          "slug": "custora",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Custora is a predictive analytics platform for e-commerce marketing\u2026"
+        },
+        {
+          "name": "Comprehend",
+          "slug": "comprehend",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "SaaS to increase speed and quality of clinical trials."
+        },
+        {
+          "name": "Humble Bundle",
+          "slug": "humble-bundle",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Pay what you want for awesome games and other content while giving to\u2026"
+        },
+        {
+          "name": "Pebble",
+          "slug": "pebble",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Watch that helps you get shit done and limit the mayhem of\u2026"
+        },
+        {
+          "name": "Fivestars",
+          "slug": "fivestars",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Customer loyalty and payments platform for small businesses."
+        }
+      ],
+      "batch_size": 45
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Amiato",
+          "slug": "amiato",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "The BI bridge for unstructured data. We automatically bridge the gap\u2026"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Simple multiplayer game servers."
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Backlift allows front-end only developers to build entire websites\u2026"
+        },
+        {
+          "name": "Documents.Me",
+          "slug": "documents-me",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Client-side encryption for your devices and the cloud."
+        },
+        {
+          "name": "Apollo",
+          "slug": "apollo",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Apollo helps engineering teams accelerate delivery"
+        },
+        {
+          "name": "Proxino",
+          "slug": "proxino",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Javascript proxy."
+        },
+        {
+          "name": "PhoneSys",
+          "slug": "phonesys",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "The Phone System for Sales Teams."
+        },
+        {
+          "name": "Cryptoseal",
+          "slug": "cryptoseal",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Server key management, VPN as a Service, Privacy VPN.  Sold to\u2026"
+        },
+        {
+          "name": "Citus Data",
+          "slug": "citus-data",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Real-time. Big data. PostgreSQL"
+        },
+        {
+          "name": "Realm",
+          "slug": "realm",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Better data structures = no DB."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "San Francisco",
+      "location": "San Francisco, CA, USA",
+      "companies_in_city": 2007,
+      "active_in_city": 1339,
+      "nearby_companies": [
+        {
+          "name": "42Floors",
+          "slug": "42floors",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "PlanGrid",
+          "slug": "plangrid",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "MyVR",
+          "slug": "myvr",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Couple",
+          "slug": "couple",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HackPad",
+          "slug": "hackpad",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Gusto",
+          "slug": "gusto",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "FamilyLeaf",
+          "slug": "familyleaf",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Chute",
+          "slug": "chute",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Make School",
+          "slug": "make-school",
+          "batch": "Winter 2012",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Exec",
+          "slug": "exec",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Public"
+        },
+        {
+          "name": "LendUp",
+          "slug": "lendup",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tilt",
+          "slug": "tilt",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fond",
+          "slug": "fond",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "AppHarbor",
+        "slug": "appharbor",
+        "batch": "Winter 2011",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Apportable",
+        "slug": "apportable",
+        "batch": "Winter 2011",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Userfox",
+        "slug": "userfox",
+        "batch": "Winter 2011",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "TellFi",
+        "slug": "tellfi",
+        "batch": "Winter 2011",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Talkable",
+        "slug": "talkable",
+        "batch": "Winter 2011",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Tumult",
+        "slug": "tumult",
+        "batch": "Winter 2011",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Acunote",
+        "slug": "acunote",
+        "batch": "Winter 2011",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Sendoid",
+        "slug": "sendoid",
+        "batch": "Winter 2011",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "HelloSign",
+        "slug": "hellosign",
+        "batch": "Winter 2011",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Hotspots",
+        "slug": "hotspots",
+        "batch": "Winter 2011",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 4797,
+      "network_density_score": 88.8,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T09:48:56.699509"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:48:56.699519",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:48:57.032703",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:48:57.154953",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 150,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:36.395906",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Real-time data processing",
+        "Cloud migration",
+        "Demand for unified data platforms"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Technology: Optimized database engine for speed and scale; established customer base.",
+      "differentiation": "Cloud-native, unified database for both transactional and analytical workloads.",
+      "competitive_advantages": [
+        "High performance",
+        "Scalability"
+      ],
+      "competitive_vulnerabilities": [
+        "Complexity of implementation",
+        "Competition from larger, established players"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "Customer acquisition",
+        "Revenue growth"
+      ],
+      "growth_bottlenecks": [
+        "Sales cycle length",
+        "Competition"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Adoption of new technologies",
+        "Competitive pressure",
+        "Economic downturn"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong technology",
+        "Large addressable market",
+        "Experienced team"
+      ],
+      "concerns": [
+        "Competition",
+        "Execution risk"
+      ],
+      "exit_potential": "IPO/acquisition",
+      "comparable_companies": [
+        "Snowflake",
+        "Databricks"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Expand sales and marketing efforts",
+        "Continue product development"
+      ],
+      "expansion_opportunities": [
+        "Partnerships with cloud providers",
+        "Expansion into new verticals"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 713,
+      "completion": 534,
+      "total": 1247,
+      "estimated_cost": 0.000214
+    }
+  },
+  "phase8_complete": true
+}

@@ -1,0 +1,1561 @@
+{
+  "slug": "rethinkdb",
+  "name": "RethinkDB",
+  "yc_id": 246,
+  "batch": "Summer 2009",
+  "website": "http://rethinkdb.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:30:46.074892",
+    "website": "http://rethinkdb.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 235.24,
+      "final_url": "https://rethinkdb.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:30:46.310137"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "rethinkdb.com",
+      "registrar": "1API GmbH",
+      "creation_date": "2009-07-02T21:13:55",
+      "expiration_date": "2026-07-02T21:13:55",
+      "domain_age_days": 5950,
+      "domain_age_years": 16.3,
+      "name_servers": [
+        "NS1.DNSIMPLE.COM",
+        "NS2.DNSIMPLE-EDGE.NET",
+        "NS3.DNSIMPLE.COM",
+        "NS4.DNSIMPLE-EDGE.ORG"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/rethinkdb",
+      "linkedin": null,
+      "github": "https://github.com/rethinkdb/rethinkdb",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 16,
+      "server": "Netlify"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:13:05.501323",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:55:25.245230",
+    "place_data": {
+      "status": "not_found",
+      "query": "San Francisco, CA, USA"
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:55:25.348030",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/rethinkdb"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 100,
+        "packages": [
+          {
+            "name": "@types/rethinkdb",
+            "description": "TypeScript definitions for rethinkdb",
+            "version": "2.3.21",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@types/rethinkdb"
+          },
+          {
+            "name": "rethinkdb-ts",
+            "description": "RethinkDB TypeScript driver",
+            "version": "3.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rethinkdb-ts"
+          },
+          {
+            "name": "rethinkdb-stream",
+            "description": "Convert a rethinkdb cursor into a readable stream",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rethinkdb-stream"
+          },
+          {
+            "name": "rethinkdb",
+            "description": "This package provides the JavaScript driver library for the RethinkDB database server for use in your node application.",
+            "version": "2.4.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rethinkdb"
+          },
+          {
+            "name": "rethinkdb-migrate",
+            "description": "Rethinkdb migration tool",
+            "version": "1.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rethinkdb-migrate"
+          },
+          {
+            "name": "rethinkdbdash",
+            "description": "A Node.js driver for RethinkDB with promises and a connection pool",
+            "version": "2.3.31",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rethinkdbdash"
+          },
+          {
+            "name": "rethinkdb-mock",
+            "description": "Spec-compliant unit-testing for RethinkDB queries",
+            "version": "0.7.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rethinkdb-mock"
+          },
+          {
+            "name": "rethinkdb-watch",
+            "description": "Consume RethinkDB Changefeeds as Async Iterables",
+            "version": "0.2.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rethinkdb-watch"
+          },
+          {
+            "name": "thinky",
+            "description": "RethinkDB ORM for Node.js",
+            "version": "2.3.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/thinky"
+          },
+          {
+            "name": "rethinkdb-job-queue",
+            "description": "A persistent job or task queue backed by RethinkDB.",
+            "version": "3.1.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rethinkdb-job-queue"
+          },
+          {
+            "name": "rethinkdb-websocket-client",
+            "description": "RethinkDB driver monkey-patched to connect via WebSocket. Works in browser.",
+            "version": "0.6.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rethinkdb-websocket-client"
+          },
+          {
+            "name": "rethinkdb-pool",
+            "description": "Connection-pool for RethinkDB",
+            "version": "1.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rethinkdb-pool"
+          },
+          {
+            "name": "rethinkdb-repository",
+            "description": "Implementation of Repository pattern for RethinkDB",
+            "version": "1.28.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rethinkdb-repository"
+          },
+          {
+            "name": "js-data-rethinkdb",
+            "description": "RethinkDB adapter for js-data.",
+            "version": "3.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/js-data-rethinkdb"
+          },
+          {
+            "name": "@deepstream/storage-rethinkdb",
+            "description": "Connects deepstream.io to rethinkdb",
+            "version": "3.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@deepstream/storage-rethinkdb"
+          },
+          {
+            "name": "rethinkdb-websocket-server",
+            "description": "WebSocket server that proxies to a RethinkDB instance. Supports query validation.",
+            "version": "0.6.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rethinkdb-websocket-server"
+          },
+          {
+            "name": "express-session-rethinkdb",
+            "description": "RethinkDB session store for Express 4.x",
+            "version": "0.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/express-session-rethinkdb"
+          },
+          {
+            "name": "rethinkdb-inspector",
+            "description": "Inspect your RethinkDB queries and find out how fast they are",
+            "version": "0.3.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rethinkdb-inspector"
+          },
+          {
+            "name": "rethinkdb-ts-migrate",
+            "description": "A migration tool for RethinkDB-ts",
+            "version": "0.3.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rethinkdb-ts-migrate"
+          },
+          {
+            "name": "rethinkdb-regrid",
+            "description": "A file storage system for RethinkDB inspired by GridFS",
+            "version": "0.8.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rethinkdb-regrid"
+          },
+          {
+            "name": "thinker",
+            "description": "A RethinkDB management tool",
+            "version": "0.9.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/thinker"
+          },
+          {
+            "name": "nothinkdb",
+            "description": "Functional toolkit for rethinkdb",
+            "version": "0.5.35",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/nothinkdb"
+          },
+          {
+            "name": "deepstream.io-storage-rethinkdb",
+            "description": "Connects deepstream.io to rethinkdb",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/deepstream.io-storage-rethinkdb"
+          },
+          {
+            "name": "parse-rethinkdb-url",
+            "description": "Parse RethinkDB URL string into an object ready for consumption by RethinkDB JavaScript API",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/parse-rethinkdb-url"
+          },
+          {
+            "name": "rethinkdb-init",
+            "description": "Create all RethinkDB databases, tables and indexes automatically through a schema object",
+            "version": "0.2.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rethinkdb-init"
+          },
+          {
+            "name": "rethink-knex-adapter",
+            "description": "Knex adapter for rethinkdb/thinky APIs to convert a project with less effort",
+            "version": "0.4.20",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rethink-knex-adapter"
+          },
+          {
+            "name": "reqlite",
+            "description": "Reqlite - RethinkDB in JavaScript =====",
+            "version": "2.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/reqlite"
+          },
+          {
+            "name": "migrate-rethinkdb",
+            "description": "A migration tool for RethinkDB",
+            "version": "1.6.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/migrate-rethinkdb"
+          },
+          {
+            "name": "reconnect-rethinkdb",
+            "description": "Fibonacci and exponential backoff reconnection for rethinkdb.",
+            "version": "0.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/reconnect-rethinkdb"
+          },
+          {
+            "name": "rethinkdb-setup",
+            "description": "Quickly sets up RethinkDB for testing",
+            "version": "0.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rethinkdb-setup"
+          },
+          {
+            "name": "@berish/orm-rethinkdb-file-adapter",
+            "description": "\u0410\u0434\u0430\u043f\u0442\u0435\u0440 \u0444\u0430\u0439\u043b\u043e\u0432\u043e\u0439 \u0431\u0430\u0437\u044b \u0434\u0430\u043d\u043d\u044b\u0445 RethinkDB \u0434\u043b\u044f @berish/orm",
+            "version": "1.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@berish/orm-rethinkdb-file-adapter"
+          },
+          {
+            "name": "rjq-ui",
+            "description": "RethinkDB Job Queue insights",
+            "version": "7.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rjq-ui"
+          },
+          {
+            "name": "nothinkdb-graphql",
+            "description": "Graphql & Relay for rethinkdb via nothinkdb",
+            "version": "0.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/nothinkdb-graphql"
+          },
+          {
+            "name": "caminte",
+            "description": "ORM for every database: redis, mysql, neo4j, mongodb, rethinkdb, postgres, sqlite, tingodb",
+            "version": "0.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/caminte"
+          },
+          {
+            "name": "propathink",
+            "description": "rethinkdb client modular request builder",
+            "version": "0.0.23",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/propathink"
+          },
+          {
+            "name": "dat-express-api",
+            "description": "DAT Express RethinkDB API",
+            "version": "1.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/dat-express-api"
+          },
+          {
+            "name": "chateau",
+            "description": "Data explorer for RethinkDB",
+            "version": "0.3.17",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/chateau"
+          },
+          {
+            "name": "thinodium-rethinkdb",
+            "description": "RethinkDB adapter for Thinodium ODM library",
+            "version": "1.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/thinodium-rethinkdb"
+          },
+          {
+            "name": "react-rethinkdb",
+            "description": "RethinkDB ReactJS integration",
+            "version": "0.7.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-rethinkdb"
+          },
+          {
+            "name": "sp-rethinkdb",
+            "description": "RethinkDB server for Streamplace",
+            "version": "0.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sp-rethinkdb"
+          },
+          {
+            "name": "rethinkdb-datatables",
+            "description": "rethinkdb query builder to be use with datatables",
+            "version": "0.0.12",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rethinkdb-datatables"
+          },
+          {
+            "name": "rethinkdb-fixtures",
+            "description": "Easily load fixtures into Rethinkdb. Useful for testing.",
+            "version": "0.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rethinkdb-fixtures"
+          },
+          {
+            "name": "deepstream.io-provider-search-rethinkdb",
+            "description": "Realtime searches using rethinkdb",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/deepstream.io-provider-search-rethinkdb"
+          },
+          {
+            "name": "waigo",
+            "description": "Node.js ES6 framework for reactive, data-driven apps and APIs (Koa, RethinkDB)",
+            "version": "3.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/waigo"
+          },
+          {
+            "name": "recli",
+            "description": "RethinkDB CLI query tool and REPL",
+            "version": "0.2.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/recli"
+          },
+          {
+            "name": "spawnpoint-rethinkdb",
+            "description": "RethinkDB plugin for Spawnpoint on NPM",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/spawnpoint-rethinkdb"
+          },
+          {
+            "name": "goblin-rethink",
+            "description": "Rethinkdb for goblins",
+            "version": "3.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/goblin-rethink"
+          },
+          {
+            "name": "rpool",
+            "description": "RethinkDB connection pool",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rpool"
+          },
+          {
+            "name": "rethinkdb-traits",
+            "description": "A RethinkDB query composer.",
+            "version": "0.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rethinkdb-traits"
+          },
+          {
+            "name": "rethinkdb-boundaries",
+            "description": "Downloads, converts, and indexes US Census TIGER data representing all boundaries in the United States to RethinkDB.",
+            "version": "1.0.14",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rethinkdb-boundaries"
+          },
+          {
+            "name": "@horizon/server",
+            "description": "Server for RethinkDB Horizon, an open-source developer platform for building realtime, scalable web apps.",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@horizon/server"
+          },
+          {
+            "name": "rethinkdb-stream-chunker",
+            "description": "Chunk RethinkDB protocol stream into query or response buffers",
+            "version": "0.7.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rethinkdb-stream-chunker"
+          },
+          {
+            "name": "rethinkdb-client",
+            "description": "A mysql/mongo shell like client for rethinkdb",
+            "version": "0.0.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rethinkdb-client"
+          },
+          {
+            "name": "rethinkdb-centos6",
+            "description": "rethinkdb binary for centos6",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rethinkdb-centos6"
+          },
+          {
+            "name": "rethinkdb-cms",
+            "description": "A live socket feed of all updates from a rethinkdb datastore",
+            "version": "1.0.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rethinkdb-cms"
+          },
+          {
+            "name": "octosync",
+            "description": "Sync github issues to RethinkDB",
+            "version": "1.1.19",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/octosync"
+          },
+          {
+            "name": "geis",
+            "description": "RethinkDB backed distributed lock",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/geis"
+          },
+          {
+            "name": "@horizon/client",
+            "description": "RethinkDB Horizon is an open-source developer platform for building realtime, scalable web apps.",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@horizon/client"
+          },
+          {
+            "name": "rething",
+            "description": "Rething - an ORM for RethinkDB (WIP)",
+            "version": "0.2.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rething"
+          },
+          {
+            "name": "moleculer-db-adapter-rethinkdb",
+            "description": "Moleculer service to support rethinkdb",
+            "version": "0.2.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/moleculer-db-adapter-rethinkdb"
+          },
+          {
+            "name": "rethinkdb-changefeed-reconnect",
+            "description": "automatically reconnect changefeed processors when connection is lost",
+            "version": "0.3.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rethinkdb-changefeed-reconnect"
+          },
+          {
+            "name": "mysql2rethinkdb",
+            "description": "Migrate mysql tables into rethinkdb.",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/mysql2rethinkdb"
+          },
+          {
+            "name": "zumito-db",
+            "description": "ORM for every database: redis, mysql, neo4j, mongodb, rethinkdb, postgres, sqlite, tingodb",
+            "version": "1.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/zumito-db"
+          },
+          {
+            "name": "nodejs-rethinkdb-cypress",
+            "description": "<h3>NodeJs/RethinkDB app for Cypress testing</h3>",
+            "version": "0.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/nodejs-rethinkdb-cypress"
+          },
+          {
+            "name": "@joeybaker/hapi-rethinkdb",
+            "description": "Hapi (^8.0) plugin for rethinkdb native driver",
+            "version": "3.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@joeybaker/hapi-rethinkdb"
+          },
+          {
+            "name": "rethinkts",
+            "description": "A model system for RethinkDB, written in and for TypeScript.",
+            "version": "1.0.1-alpha",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rethinkts"
+          },
+          {
+            "name": "hapi-rethinkdb",
+            "description": "Hapi's rethinkdb plugin",
+            "version": "2.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/hapi-rethinkdb"
+          },
+          {
+            "name": "node-red-contrib-rethinkdb",
+            "description": "WIP: A Node-RED RethinkDB node",
+            "version": "0.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/node-red-contrib-rethinkdb"
+          },
+          {
+            "name": "thinodium",
+            "description": "Light-weight, pluggable ODM for Node.js. Supports RethinkDB, etc",
+            "version": "1.2.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/thinodium"
+          },
+          {
+            "name": "acl-backend-rethinkdb",
+            "description": "RethinkDB backend for acl",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/acl-backend-rethinkdb"
+          },
+          {
+            "name": "@jtorm/rethinkdb",
+            "description": "jTorm RethinkDB",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@jtorm/rethinkdb"
+          },
+          {
+            "name": "rethinkdb-ts-extra",
+            "description": "rethinkdb-ts with extra utilities for typing and structure syncing",
+            "version": "0.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rethinkdb-ts-extra"
+          },
+          {
+            "name": "@antelopejs/rethinkdb",
+            "description": "RethinkDB module that implements the Database interface of antelopejs",
+            "version": "0.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@antelopejs/rethinkdb"
+          },
+          {
+            "name": "catbox-rethinkdb",
+            "description": "RethinkDB adapter for catbox",
+            "version": "1.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/catbox-rethinkdb"
+          },
+          {
+            "name": "rethink-miner",
+            "description": "A webapp to help mine data in a rethinkdb database",
+            "version": "0.0.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rethink-miner"
+          },
+          {
+            "name": "@geo1088/express-session-rethinkdb",
+            "description": "RethinkDB session store for Express 4.x",
+            "version": "0.4.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@geo1088/express-session-rethinkdb"
+          },
+          {
+            "name": "rethinkdb-populate",
+            "description": "Populate RethinkDB database with initial data",
+            "version": "0.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rethinkdb-populate"
+          },
+          {
+            "name": "@chris-talman/rethink-utilities",
+            "description": "Some RethinkDB utilities",
+            "version": "3.3.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@chris-talman/rethink-utilities"
+          },
+          {
+            "name": "secondthought",
+            "description": "A light wrapper for RethinkDB",
+            "version": "0.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/secondthought"
+          },
+          {
+            "name": "livedb-rethinkdb",
+            "description": "RethinkDB database adapter for livedb",
+            "version": "0.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/livedb-rethinkdb"
+          },
+          {
+            "name": "cached-rethinkdb",
+            "description": "Redis-cached rethinkDB",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/cached-rethinkdb"
+          },
+          {
+            "name": "rethinkdb-migration",
+            "description": "RethinkDB migration tool allows you to handle database migration for your Node application.",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rethinkdb-migration"
+          },
+          {
+            "name": "rethinkdbdash-unstable",
+            "description": "A Node.js driver for RethinkDB with promises and a connection pool",
+            "version": "1.12.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rethinkdbdash-unstable"
+          },
+          {
+            "name": "rethinkdb-kek",
+            "description": "RethinkDB TypeScript driver",
+            "version": "3.0.0-alpha.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rethinkdb-kek"
+          },
+          {
+            "name": "multidatastore-rethinkdb",
+            "description": "multi data store rethinkdb driver",
+            "version": "2.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/multidatastore-rethinkdb"
+          },
+          {
+            "name": "reql-cli",
+            "description": "A command line interface for rethinkdb",
+            "version": "1.0.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/reql-cli"
+          },
+          {
+            "name": "ah-rethinkdb-plugin",
+            "description": "Actionhero plugin to support RethinkDB",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ah-rethinkdb-plugin"
+          },
+          {
+            "name": "rethink-config",
+            "description": "Configure your RethinkDB with one JSON object.",
+            "version": "0.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rethink-config"
+          },
+          {
+            "name": "rethinkhaberdashery",
+            "description": "A Node.js driver for RethinkDB with promises and a connection pool",
+            "version": "2.3.32",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rethinkhaberdashery"
+          },
+          {
+            "name": "hapi-rethinkdb-init",
+            "description": "A micro plugin that use rethinkdb-init to create databases, tables and indexes when your hapi server starts.",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/hapi-rethinkdb-init"
+          },
+          {
+            "name": "rethinkdb-proxy",
+            "description": "Reverse Proxy for RethinkDB. Make your RethinkDB publicly accessible through limiting what kind of queries can be executed on your RethinkDB database.",
+            "version": "0.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rethinkdb-proxy"
+          },
+          {
+            "name": "loopback-connector-rethinkdb",
+            "description": "RethinkDB connector for Loopback.io",
+            "version": "1.0.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/loopback-connector-rethinkdb"
+          },
+          {
+            "name": "connect-rethinkdb",
+            "description": "RethinkDB session store for Connect",
+            "version": "0.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/connect-rethinkdb"
+          },
+          {
+            "name": "rethinkdb-validator-stream",
+            "description": "Validate rethinkdb queries streaming to the socket ",
+            "version": "1.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rethinkdb-validator-stream"
+          },
+          {
+            "name": "rethinkdb-change-stream",
+            "description": "Transform rethinkdb change feeds into node streams",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rethinkdb-change-stream"
+          },
+          {
+            "name": "session-rethinkdb-ts",
+            "description": "A RethinkDB session store for express-session.",
+            "version": "1.2.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/session-rethinkdb-ts"
+          },
+          {
+            "name": "structure-cache-middleware",
+            "description": "Route caching on RethinkDB",
+            "version": "1.1.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/structure-cache-middleware"
+          },
+          {
+            "name": "rethinkdb-crud",
+            "description": "Provide a simple RethinkDB library for CRUD events for Node JS.",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rethinkdb-crud"
+          },
+          {
+            "name": "@nrser/supermodel-rethinkdb",
+            "description": "@nrser/supermodel-rethinkdb package",
+            "version": "0.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@nrser/supermodel-rethinkdb"
+          },
+          {
+            "name": "ast-to-reql",
+            "description": "Create ReQL from RethinkDB AST",
+            "version": "0.6.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ast-to-reql"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 20,
+        "packages": [
+          {
+            "name": "rethinkdb",
+            "version": "2.4.0.0",
+            "downloads": 379381,
+            "url": "https://rubygems.org/gems/rethinkdb"
+          },
+          {
+            "name": "rethinkdb_helper",
+            "version": "0.0.4",
+            "downloads": 10755,
+            "url": "https://rubygems.org/gems/rethinkdb_helper"
+          },
+          {
+            "name": "rethinkdb_job",
+            "version": "0.2.0",
+            "downloads": 8563,
+            "url": "https://rubygems.org/gems/rethinkdb_job"
+          },
+          {
+            "name": "rethinkdb-cli",
+            "version": "0.0.2",
+            "downloads": 6462,
+            "url": "https://rubygems.org/gems/rethinkdb-cli"
+          },
+          {
+            "name": "lotus-rethinkdb",
+            "version": "0.2.2",
+            "downloads": 12489,
+            "url": "https://rubygems.org/gems/lotus-rethinkdb"
+          },
+          {
+            "name": "doorkeeper-rethinkdb",
+            "version": "1.1.5",
+            "downloads": 9021,
+            "url": "https://rubygems.org/gems/doorkeeper-rethinkdb"
+          },
+          {
+            "name": "hanami-rethinkdb",
+            "version": "0.2.3",
+            "downloads": 4093,
+            "url": "https://rubygems.org/gems/hanami-rethinkdb"
+          },
+          {
+            "name": "ddp-server-rethinkdb",
+            "version": "0.1.2",
+            "downloads": 19586,
+            "url": "https://rubygems.org/gems/ddp-server-rethinkdb"
+          },
+          {
+            "name": "rom-rethinkdb",
+            "version": "0.0.1",
+            "downloads": 3519,
+            "url": "https://rubygems.org/gems/rom-rethinkdb"
+          },
+          {
+            "name": "logstash-input-rethinkdb",
+            "version": "0.2.3",
+            "downloads": 12868,
+            "url": "https://rubygems.org/gems/logstash-input-rethinkdb"
+          },
+          {
+            "name": "sensu-plugins-rethinkdb",
+            "version": "1.0.0",
+            "downloads": 6564,
+            "url": "https://rubygems.org/gems/sensu-plugins-rethinkdb"
+          },
+          {
+            "name": "embulk-input-rethinkdb",
+            "version": "0.1.2",
+            "downloads": 5193,
+            "url": "https://rubygems.org/gems/embulk-input-rethinkdb"
+          },
+          {
+            "name": "rack-session-rethinkdb",
+            "version": "0.1.0",
+            "downloads": 3632,
+            "url": "https://rubygems.org/gems/rack-session-rethinkdb"
+          },
+          {
+            "name": "logstash-output-rethinkdb",
+            "version": "0.1.0",
+            "downloads": 2636,
+            "url": "https://rubygems.org/gems/logstash-output-rethinkdb"
+          },
+          {
+            "name": "nobrainer",
+            "version": "0.44.1",
+            "downloads": 152518,
+            "url": "https://rubygems.org/gems/nobrainer"
+          },
+          {
+            "name": "epiphy",
+            "version": "0.4.0",
+            "downloads": 20328,
+            "url": "https://rubygems.org/gems/epiphy"
+          },
+          {
+            "name": "multithink",
+            "version": "0.1.4",
+            "downloads": 25581,
+            "url": "https://rubygems.org/gems/multithink"
+          },
+          {
+            "name": "reorm",
+            "version": "0.1.13",
+            "downloads": 23876,
+            "url": "https://rubygems.org/gems/reorm"
+          },
+          {
+            "name": "rethinker",
+            "version": "0.1",
+            "downloads": 3922,
+            "url": "https://rubygems.org/gems/rethinker"
+          },
+          {
+            "name": "rethought",
+            "version": "0.0.0",
+            "downloads": 3384,
+            "url": "https://rubygems.org/gems/rethought"
+          }
+        ]
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 10,
+        "packages": [
+          {
+            "name": "rethinkdb",
+            "description": null,
+            "version": "0.1.0",
+            "downloads": 2990,
+            "url": "https://crates.io/crates/rethinkdb"
+          },
+          {
+            "name": "rust-rethinkdb",
+            "description": "Rust native driver for RethinkDB 2.0. WIP.\n",
+            "version": "0.0.1",
+            "downloads": 3016,
+            "url": "https://crates.io/crates/rust-rethinkdb"
+          },
+          {
+            "name": "ql2",
+            "description": "RethinkDB protocol",
+            "version": "2.1.1",
+            "downloads": 36970,
+            "url": "https://crates.io/crates/ql2"
+          },
+          {
+            "name": "unreql",
+            "description": "Well documented and easy to use RethinkDB Rust Driver",
+            "version": "0.2.0",
+            "downloads": 8734,
+            "url": "https://crates.io/crates/unreql"
+          },
+          {
+            "name": "reql",
+            "description": "A native ReQL driver",
+            "version": "0.11.2",
+            "downloads": 93594,
+            "url": "https://crates.io/crates/reql"
+          },
+          {
+            "name": "unreql_deadpool",
+            "description": "Deadpool for UnReQL",
+            "version": "0.2.0",
+            "downloads": 3272,
+            "url": "https://crates.io/crates/unreql_deadpool"
+          },
+          {
+            "name": "kvfeeds",
+            "description": "Key/Value store inspired by RethinkDB changefeeds and backed by Log Storage",
+            "version": "0.0.0",
+            "downloads": 1420,
+            "url": "https://crates.io/crates/kvfeeds"
+          },
+          {
+            "name": "mobc-reql",
+            "description": "RethinkDB support for the mobc connection pool",
+            "version": "0.6.4",
+            "downloads": 22993,
+            "url": "https://crates.io/crates/mobc-reql"
+          },
+          {
+            "name": "turingdb",
+            "description": "Document Database backed by sled",
+            "version": "2.0.0",
+            "downloads": 7928,
+            "url": "https://crates.io/crates/turingdb"
+          },
+          {
+            "name": "turingdb-helpers",
+            "description": "Document Database backed by sled",
+            "version": "2.0.0-beta.4",
+            "downloads": 5460,
+            "url": "https://crates.io/crates/turingdb-helpers"
+          }
+        ]
+      },
+      "total_packages": 130,
+      "has_packages": true,
+      "checked_at": "2025-10-17T09:55:26.770356"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:55:26.770377",
+    "batch_network": {
+      "batch": "Summer 2009",
+      "total_batch_mates": 25,
+      "active_batch_mates": 7,
+      "batch_success_rate": 28.0,
+      "notable_batch_mates": [
+        {
+          "name": "Stripe",
+          "slug": "stripe",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "Economic infrastructure for the internet."
+        },
+        {
+          "name": "DailyBooth",
+          "slug": "dailybooth",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": ""
+        },
+        {
+          "name": "Bump",
+          "slug": "bump",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Bump, Flock, Photoroll (unreleased) => Google Photos"
+        },
+        {
+          "name": "WePay",
+          "slug": "wepay",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Payments for platform businesses."
+        },
+        {
+          "name": "Mixpanel",
+          "slug": "mixpanel",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "Mixpanel is event analytics for builders that need answers."
+        },
+        {
+          "name": "Lockitron",
+          "slug": "lockitron",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Lockitron makes electronic locks you can control locally from your\u2026"
+        },
+        {
+          "name": "GraffitiGeo",
+          "slug": "graffitigeo",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "We let you know where to go and what to get once you get there.\u2026"
+        },
+        {
+          "name": "Flightcaster",
+          "slug": "flightcaster",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": ""
+        }
+      ],
+      "batch_size": 26
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1969,
+      "direct_competitors": [
+        {
+          "name": "Amiato",
+          "slug": "amiato",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "The BI bridge for unstructured data. We automatically bridge the gap\u2026"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Simple multiplayer game servers."
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Backlift allows front-end only developers to build entire websites\u2026"
+        },
+        {
+          "name": "Documents.Me",
+          "slug": "documents-me",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Client-side encryption for your devices and the cloud."
+        },
+        {
+          "name": "Apollo",
+          "slug": "apollo",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Apollo helps engineering teams accelerate delivery"
+        },
+        {
+          "name": "Proxino",
+          "slug": "proxino",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Javascript proxy."
+        },
+        {
+          "name": "PhoneSys",
+          "slug": "phonesys",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "The Phone System for Sales Teams."
+        },
+        {
+          "name": "Cryptoseal",
+          "slug": "cryptoseal",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Server key management, VPN as a Service, Privacy VPN.  Sold to\u2026"
+        },
+        {
+          "name": "Citus Data",
+          "slug": "citus-data",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Real-time. Big data. PostgreSQL"
+        },
+        {
+          "name": "Realm",
+          "slug": "realm",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Better data structures = no DB."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "San Francisco",
+      "location": "San Francisco, CA, USA",
+      "companies_in_city": 2007,
+      "active_in_city": 1340,
+      "nearby_companies": [
+        {
+          "name": "42Floors",
+          "slug": "42floors",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "PlanGrid",
+          "slug": "plangrid",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "MyVR",
+          "slug": "myvr",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Couple",
+          "slug": "couple",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HackPad",
+          "slug": "hackpad",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Gusto",
+          "slug": "gusto",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "FamilyLeaf",
+          "slug": "familyleaf",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Chute",
+          "slug": "chute",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Make School",
+          "slug": "make-school",
+          "batch": "Winter 2012",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Exec",
+          "slug": "exec",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Public"
+        },
+        {
+          "name": "LendUp",
+          "slug": "lendup",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tilt",
+          "slug": "tilt",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fond",
+          "slug": "fond",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Mixpanel",
+        "slug": "mixpanel",
+        "batch": "Summer 2009",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "NudgePad",
+        "slug": "nudgepad",
+        "batch": "Summer 2009",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Instantq",
+        "slug": "instantq",
+        "batch": "Summer 2009",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Minefold",
+        "slug": "minefold",
+        "batch": "Winter 2012",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Brace",
+        "slug": "brace",
+        "batch": "Winter 2012",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Apollo",
+        "slug": "apollo",
+        "batch": "Summer 2011",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Citus Data",
+        "slug": "citus-data",
+        "batch": "Summer 2011",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Realm",
+        "slug": "realm",
+        "batch": "Summer 2011",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "imgix",
+        "slug": "imgix",
+        "batch": "Summer 2011",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "SingleStore",
+        "slug": "singlestore",
+        "batch": "Winter 2011",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 4778,
+      "network_density_score": 85.0,
+      "has_strong_batch_network": false,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T09:55:26.785576"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:55:26.785588",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:55:27.115485",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:55:27.197732",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 11,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "gpt-4o",
+    "enriched_at": "2025-10-17T11:30:18.274481",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "large",
+      "market_stage": "growing",
+      "key_trends": [
+        "realtime data processing",
+        "open-source adoption",
+        "cloud-native applications"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "technology and open-source community",
+      "differentiation": "realtime push-based data updates",
+      "competitive_advantages": [
+        "open-source model",
+        "realtime capabilities"
+      ],
+      "competitive_vulnerabilities": [
+        "competition from established players",
+        "reliance on community contributions"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "open-source with potential for enterprise support",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "mature",
+      "growth_indicators": [
+        "acquisition by a larger entity",
+        "strong developer community"
+      ],
+      "growth_bottlenecks": [
+        "monetization challenges",
+        "market competition"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "low",
+      "overall_risk_score": 3,
+      "key_risks": [
+        "competition from larger databases",
+        "sustainability of open-source model",
+        "integration challenges"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "strong open-source community",
+        "innovative realtime features",
+        "scalable architecture"
+      ],
+      "concerns": [
+        "monetization strategy",
+        "competitive pressures"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "MongoDB",
+        "Couchbase"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "enhance enterprise offerings",
+        "expand developer community"
+      ],
+      "expansion_opportunities": [
+        "cloud service partnerships",
+        "vertical-specific solutions"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 683,
+      "completion": 404,
+      "total": 1087,
+      "estimated_cost": 0.005748
+    }
+  },
+  "phase8_complete": true
+}

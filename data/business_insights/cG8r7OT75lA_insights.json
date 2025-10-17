@@ -1,0 +1,333 @@
+{
+  "market_intelligence": {
+    "target_markets": [
+      {
+        "market_description": "College students and recent graduates looking for first jobs",
+        "demographics": [
+          "20s",
+          "entry-level professionals",
+          "college students"
+        ],
+        "pain_points": [
+          "job application tracking",
+          "lack of transparency in hiring process",
+          "rejection management"
+        ],
+        "market_size_indicators": "Described as having opportunity similar to levels.fyi but for college market"
+      },
+      {
+        "market_description": "People addicted to tech and screens",
+        "demographics": [
+          "young people",
+          "tech users",
+          "screen-addicted individuals"
+        ],
+        "pain_points": [
+          "phone addiction",
+          "feeling like phones own them",
+          "need for digital detox"
+        ],
+        "market_size_indicators": "Described as 'tons of people' who feel their phones own them"
+      },
+      {
+        "market_description": "Brands that need social media help",
+        "demographics": [
+          "businesses",
+          "brands poor at social media"
+        ],
+        "pain_points": [
+          "poor social media presence",
+          "need for creator talent",
+          "lack of steady creator relationships"
+        ],
+        "market_size_indicators": "Described as '1 2 3 $5 million year opportunity'"
+      }
+    ],
+    "problems_validated": [
+      {
+        "problem": "Lack of transparency in first job application process",
+        "severity": "High for college students and recent graduates",
+        "current_solutions": "levels.fyi exists for tech salaries but not for entry-level positions",
+        "market_gap": "No levels.fyi equivalent for college/first jobs"
+      },
+      {
+        "problem": "Tech and screen addiction",
+        "severity": "Widespread among young people",
+        "current_solutions": "Not specified",
+        "market_gap": "No branded community solution for digital detox"
+      }
+    ]
+  },
+  "products_tools": [
+    {
+      "name": "levels.fyi",
+      "category": "saas",
+      "use_case": "Shows salary transparency for tech companies by role and level",
+      "sentiment": "positive/recommended",
+      "pricing": "not mentioned",
+      "metrics": "Example given: senior PM at Amazon gets $37,000 Canadian dollars"
+    },
+    {
+      "name": "Notion",
+      "category": "saas",
+      "use_case": "Template creation for job tracking",
+      "sentiment": "recommended",
+      "pricing": "not mentioned",
+      "metrics": "not mentioned"
+    },
+    {
+      "name": "Circle/School",
+      "category": "saas",
+      "use_case": "Community building platforms",
+      "sentiment": "recommended",
+      "pricing": "not mentioned",
+      "metrics": "not mentioned"
+    },
+    {
+      "name": "ChatGPT/Bolt/Lovable/Replet/Cursor",
+      "category": "ai-tool",
+      "use_case": "Vibe coding and building micro SaaS",
+      "sentiment": "recommended",
+      "pricing": "not mentioned",
+      "metrics": "not mentioned"
+    }
+  ],
+  "business_strategies": [
+    {
+      "strategy_type": "monetization",
+      "strategy": "Paid community with monthly recurring revenue",
+      "implementation": "Charge $9, $12, or $19 per month for digital detox community",
+      "expected_results": "Could generate 10K monthly recurring revenue",
+      "case_study": "Take your headphones off community example"
+    },
+    {
+      "strategy_type": "monetization",
+      "strategy": "Agency model taking percentage of contracts",
+      "implementation": "Connect brands with micro creators and take 20% of contract",
+      "expected_results": "1-5 million year opportunity",
+      "case_study": "Creator in residence agency"
+    },
+    {
+      "strategy_type": "monetization",
+      "strategy": "Productized service with fixed pricing",
+      "implementation": "Sell 2-week coding sprints for $2,000 each",
+      "expected_results": "300k-500k annual revenue potential",
+      "case_study": "2K vibe coding agency"
+    }
+  ],
+  "problems_solutions": [
+    {
+      "problem": "Job application tracking and transparency",
+      "category": "business",
+      "solution": "Build a first job rejection tracker",
+      "steps": [
+        "Start with Notion template",
+        "Use Zapier automation",
+        "Create Discord/Circle community",
+        "Crowdsource data",
+        "Start with one company",
+        "Use short form content for awareness"
+      ],
+      "tools_needed": [
+        "Notion",
+        "Zapier",
+        "Discord",
+        "Circle",
+        "School"
+      ],
+      "difficulty": "beginner",
+      "time_estimate": "not mentioned"
+    },
+    {
+      "problem": "Digital addiction and screen time",
+      "category": "business",
+      "solution": "Create paid community for digital detox",
+      "steps": [
+        "Set up Circle or School community",
+        "Use Twilio for text reminders",
+        "Use Eventbrite for meetups",
+        "Start free Discord group",
+        "Tweet about phone addiction"
+      ],
+      "tools_needed": [
+        "Circle",
+        "School",
+        "Twilio",
+        "Eventbrite",
+        "Discord"
+      ],
+      "difficulty": "beginner",
+      "time_estimate": "not mentioned"
+    }
+  ],
+  "startup_ideas": [
+    {
+      "idea": "First job rejection tracker",
+      "target_market": "College students and recent graduates",
+      "problem_solved": "Lack of transparency in job application process",
+      "business_model": "Data platform similar to levels.fyi",
+      "validation": "Start with one company and expand",
+      "investment_needed": "Under $500"
+    },
+    {
+      "idea": "Take your headphones off paid community",
+      "target_market": "People addicted to tech and screens",
+      "problem_solved": "Digital addiction and need for accountability",
+      "business_model": "$9-19 monthly subscription",
+      "validation": "Tweet about phone addiction, gauge response",
+      "investment_needed": "Under $500"
+    },
+    {
+      "idea": "Creator in residence agency",
+      "target_market": "Brands needing social media help and micro creators",
+      "problem_solved": "Connecting brands with steady creator talent",
+      "business_model": "Take 20% of contracts",
+      "validation": "Post on LinkedIn looking for brands wanting creators on payroll",
+      "investment_needed": "Under $500"
+    },
+    {
+      "idea": "2K vibe coding agency",
+      "target_market": "Businesses needing quick MVP development",
+      "problem_solved": "Fast, affordable micro SaaS development",
+      "business_model": "$2,000 per 2-week sprint",
+      "validation": "Build sample MVPs and showcase capability",
+      "investment_needed": "Under $500"
+    },
+    {
+      "idea": "Hook Line Studio",
+      "target_market": "Content creators needing TikTok hooks",
+      "problem_solved": "Generate catchy TikTok hook lines quickly",
+      "business_model": "SaaS tool with text input generating hooks",
+      "validation": "Build MVP and test with creators",
+      "investment_needed": "Under $500"
+    }
+  ],
+  "mistakes_to_avoid": [],
+  "growth_tactics": [
+    {
+      "channel": "content",
+      "tactic": "Use short form content to drive awareness",
+      "steps": [
+        "Create short form videos about the problem",
+        "Share on social platforms"
+      ],
+      "cost_estimate": "minimal",
+      "results_expected": "increased awareness and user acquisition"
+    },
+    {
+      "channel": "community",
+      "tactic": "Start with free community before paid",
+      "steps": [
+        "Create free Discord group",
+        "Build engagement",
+        "Convert to paid community"
+      ],
+      "cost_estimate": "free to start",
+      "results_expected": "validated audience before monetization"
+    }
+  ],
+  "ai_workflows": [
+    {
+      "workflow_name": "TikTok Hook Generation",
+      "tools_used": [
+        "GPT",
+        "Cursor",
+        "Typedream"
+      ],
+      "steps": [
+        "Create text input box",
+        "Connect to GPT prompt",
+        "Generate 10 hook lines",
+        "Display results in 30 seconds"
+      ],
+      "automation_level": "fully-automated",
+      "use_case": "Generate catchy TikTok hooks for content creators"
+    },
+    {
+      "workflow_name": "Micro SaaS Development Sprint",
+      "tools_used": [
+        "ChatGPT",
+        "Bolt",
+        "Lovable",
+        "Replet",
+        "Cursor"
+      ],
+      "steps": [
+        "2-week development sprint",
+        "Build MVP using AI tools",
+        "Deliver functional product"
+      ],
+      "automation_level": "semi-automated",
+      "use_case": "Rapid MVP development for clients"
+    }
+  ],
+  "metrics_kpis": [],
+  "trends_signals": [
+    {
+      "trend": "Vibe coding with AI tools",
+      "category": "technology",
+      "stage": "growing",
+      "opportunity": "Learn and get paid to become better at AI-assisted coding"
+    },
+    {
+      "trend": "Creator in residence model",
+      "category": "market",
+      "stage": "early",
+      "opportunity": "New way for brands to work with creators on steady payroll"
+    },
+    {
+      "trend": "Digital detox and screen addiction awareness",
+      "category": "consumer-behavior",
+      "stage": "growing",
+      "opportunity": "Community-based solutions for tech addiction"
+    }
+  ],
+  "actionable_quotes": [
+    {
+      "quote": "I think that there's a mega opportunity to to own the brand around taking your headphones off",
+      "context": "Discussing digital detox community opportunity",
+      "category": "strategy",
+      "actionability": "Focus on branding and owning a specific niche"
+    },
+    {
+      "quote": "I think just this idea around branding it around and again, like I don't know if it's $2,000 or a,000 or or 3500 or if it's two weeks or one week sprints",
+      "context": "Discussing productized service pricing flexibility",
+      "category": "tactical",
+      "actionability": "Test different pricing and timeframe options for productized services"
+    }
+  ],
+  "key_statistics": [
+    {
+      "statistic": "Senior PM at Amazon gets $37,000 Canadian dollars",
+      "context": "Example of levels.fyi salary transparency",
+      "source_reliability": "claimed"
+    },
+    {
+      "statistic": "$9, $12, $19 monthly subscription pricing",
+      "context": "Suggested pricing for digital detox community",
+      "source_reliability": "estimated"
+    },
+    {
+      "statistic": "10K monthly recurring revenue potential",
+      "context": "Revenue potential for paid community",
+      "source_reliability": "estimated"
+    },
+    {
+      "statistic": "1-5 million year opportunity",
+      "context": "Revenue potential for creator agency",
+      "source_reliability": "estimated"
+    },
+    {
+      "statistic": "300k-500k annual revenue",
+      "context": "Revenue potential for coding agency",
+      "source_reliability": "estimated"
+    }
+  ],
+  "meta": {
+    "video_id": "cG8r7OT75lA",
+    "title": "5 Businesses I'd Start If I Was 22 Again ($500 \u2192 $100k/Month)",
+    "extracted_at": "2025-10-15T22:22:36.007629",
+    "model": "claude-sonnet-4-20250514",
+    "transcript_length": 11537
+  }
+}

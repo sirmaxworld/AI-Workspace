@@ -1,0 +1,698 @@
+{
+  "slug": "one-degree",
+  "name": "One Degree",
+  "yc_id": 608,
+  "batch": "Winter 2014",
+  "website": "http://1degree.org",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:33:40.212345",
+    "website": "http://1degree.org",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 1113.37,
+      "final_url": "https://www.1degree.org/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:33:41.325729"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "1degree.org",
+      "registrar": "GoDaddy.com, LLC",
+      "creation_date": "2006-04-27T23:09:10",
+      "expiration_date": "2027-04-27T23:09:10",
+      "domain_age_days": 7112,
+      "domain_age_years": 19.5,
+      "name_servers": [
+        "ns-1355.awsdns-41.org",
+        "ns-151.awsdns-18.com",
+        "ns-1720.awsdns-23.co.uk",
+        "ns-801.awsdns-36.net"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/1deg",
+      "linkedin": "http://www.linkedin.com/company/one-degree-inc-",
+      "github": "https://github.com/1deg/",
+      "facebook": "https://www.facebook.com/1degree.org",
+      "instagram": "https://instagram.com/1deg/",
+      "youtube": "https://www.youtube.com/user/1degorg"
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": true,
+      "x_content_type_options": true,
+      "x_xss_protection": true,
+      "referrer_policy": true,
+      "security_score": 83,
+      "server": "nginx"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:14:29.571948",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:14:17.226651",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "San Francisco, CA, USA",
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:12:40.434017",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:14:17.226707",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/1deg"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 1,
+        "packages": [
+          {
+            "name": "virtual-carousel",
+            "description": "Image carousel",
+            "version": "2.6.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/virtual-carousel"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 1,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:14:18.669995"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:14:18.669999",
+    "batch_network": {
+      "batch": "Winter 2014",
+      "total_batch_mates": 73,
+      "active_batch_mates": 29,
+      "batch_success_rate": 39.7,
+      "notable_batch_mates": [
+        {
+          "name": "Abacus",
+          "slug": "abacus",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Making expense reports obsolete"
+        },
+        {
+          "name": "Boostable",
+          "slug": "boostable",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Advertising platform tools for marketplace sellers. "
+        },
+        {
+          "name": "Two Tap",
+          "slug": "two-tap",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Two Tap connects retailers to companies that want to sell their\u2026"
+        },
+        {
+          "name": "Bellabeat",
+          "slug": "bellabeat",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "Tech-powered women's wellness."
+        },
+        {
+          "name": "Chargehound",
+          "slug": "chargehound",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Automate your chargeback dispute process. (Acquired by PayPal)"
+        },
+        {
+          "name": "Cruise",
+          "slug": "cruise",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Self-driving cars."
+        },
+        {
+          "name": "Eventjoy",
+          "slug": "eventjoy",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Fee-free ticketing, optimized for mobile."
+        },
+        {
+          "name": "Flexport",
+          "slug": "flexport",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "Platform for global logistics."
+        },
+        {
+          "name": "Axoni",
+          "slug": "axoni",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Axoni is building the next generation of capital markets technology"
+        },
+        {
+          "name": "Kimono Labs",
+          "slug": "kimono-labs",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Create APIs where they don't exist. With kimono you can quickly\u2026"
+        }
+      ],
+      "batch_size": 74
+    },
+    "industry_network": {
+      "industries": [
+        "Unspecified"
+      ],
+      "total_industry_peers": 17,
+      "active_industry_peers": 16,
+      "direct_competitors": [
+        {
+          "name": "CodeNow",
+          "slug": "codenow",
+          "status": "Active",
+          "batch": "Winter 2014",
+          "one_liner": "Our mission is to diversify the talent pipeline of students who\u2026"
+        },
+        {
+          "name": "OpenCurriculum",
+          "slug": "opencurriculum",
+          "status": "Active",
+          "batch": "Winter 2014",
+          "one_liner": "Helping K-12 teachers and school administrators build awesome\u2026"
+        },
+        {
+          "name": "Immunity Project",
+          "slug": "immunity-project",
+          "status": "Active",
+          "batch": "Winter 2014",
+          "one_liner": "The free HIV vaccine."
+        },
+        {
+          "name": "Bayes Impact",
+          "slug": "bayes-impact",
+          "status": "Active",
+          "batch": "Summer 2014",
+          "one_liner": "Tech nonprofit building the future of public services."
+        },
+        {
+          "name": "Democracy Earth",
+          "slug": "democracy-earth",
+          "status": "Active",
+          "batch": "Winter 2015",
+          "one_liner": "Censorship resistant democracies. "
+        },
+        {
+          "name": "The Human Utility",
+          "slug": "the-human-utility",
+          "status": "Active",
+          "batch": "Winter 2015",
+          "one_liner": "The Human Utility seeks to eliminate water service disconnections for\u2026"
+        },
+        {
+          "name": "SIRUM",
+          "slug": "sirum",
+          "status": "Active",
+          "batch": "Winter 2015",
+          "one_liner": "SIRUM is a \u201cmatch.com\u201d for unused medicine. We connect institutional\u2026"
+        },
+        {
+          "name": "Leaders In Tech (formerly InnerSpace)",
+          "slug": "leaders-in-tech",
+          "status": "Active",
+          "batch": "Summer 2015",
+          "one_liner": "Helping founders improve themselves, their companies, and the world."
+        },
+        {
+          "name": "80,000 Hours",
+          "slug": "80-000-hours",
+          "status": "Active",
+          "batch": "Summer 2015",
+          "one_liner": "An online guide that tells talented graduates how to maximise the\u2026"
+        },
+        {
+          "name": "mRelief",
+          "slug": "mrelief",
+          "status": "Active",
+          "batch": "Winter 2016",
+          "one_liner": "mRelief has built an easy-to-use platform and web and text messaging\u2026"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "San Francisco",
+      "location": "San Francisco, CA, USA",
+      "companies_in_city": 2007,
+      "active_in_city": 1339,
+      "nearby_companies": [
+        {
+          "name": "42Floors",
+          "slug": "42floors",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "PlanGrid",
+          "slug": "plangrid",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "MyVR",
+          "slug": "myvr",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Couple",
+          "slug": "couple",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HackPad",
+          "slug": "hackpad",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Gusto",
+          "slug": "gusto",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "FamilyLeaf",
+          "slug": "familyleaf",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Chute",
+          "slug": "chute",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Make School",
+          "slug": "make-school",
+          "batch": "Winter 2012",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Exec",
+          "slug": "exec",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Public"
+        },
+        {
+          "name": "LendUp",
+          "slug": "lendup",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tilt",
+          "slug": "tilt",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fond",
+          "slug": "fond",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Immunity Project",
+        "slug": "immunity-project",
+        "batch": "Winter 2014",
+        "industry": "Unspecified",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "42",
+        "slug": "42",
+        "batch": "Winter 2014",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Boostable",
+        "slug": "boostable",
+        "batch": "Winter 2014",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Two Tap",
+        "slug": "two-tap",
+        "batch": "Winter 2014",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "CareMessage",
+        "slug": "caremessage",
+        "batch": "Winter 2014",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Awesometalk",
+        "slug": "awesometalk",
+        "batch": "Winter 2014",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Bellabeat",
+        "slug": "bellabeat",
+        "batch": "Winter 2014",
+        "industry": "Consumer",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Cambly",
+        "slug": "cambly",
+        "batch": "Winter 2014",
+        "industry": "Education",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "CodeCombat",
+        "slug": "codecombat",
+        "batch": "Winter 2014",
+        "industry": "Education",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "CodeNow",
+        "slug": "codenow",
+        "batch": "Winter 2014",
+        "industry": "Unspecified",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 2097,
+      "network_density_score": 56.0,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": false,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:14:18.675457"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:14:18.675461",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:14:18.991635",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:14:19.096172",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 14,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "gpt-4o",
+    "enriched_at": "2025-10-17T11:42:45.885106",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "large",
+      "market_stage": "growing",
+      "key_trends": [
+        "increased digitalization of nonprofit services",
+        "growing focus on social impact",
+        "rising demand for accessibility in resource management"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "network effects through a comprehensive platform for resource access",
+      "differentiation": "focus on low-income families with an easy-to-use platform",
+      "competitive_advantages": [
+        "strong mission-driven approach",
+        "established platform with a wide range of services"
+      ],
+      "competitive_vulnerabilities": [
+        "reliance on nonprofit funding",
+        "potential competition from larger tech companies entering the space"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "nonprofit funding and grants",
+      "scalability": "medium",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "increased platform adoption",
+        "expansion of service offerings"
+      ],
+      "growth_bottlenecks": [
+        "funding limitations",
+        "scaling technology infrastructure"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "medium",
+      "overall_risk_score": 3,
+      "key_risks": [
+        "funding sustainability",
+        "competition from tech giants",
+        "maintaining user engagement"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "strong social impact mission",
+        "established user base",
+        "comprehensive service platform"
+      ],
+      "concerns": [
+        "funding dependency",
+        "scalability challenges"
+      ],
+      "exit_potential": "strategic",
+      "comparable_companies": [
+        "Aunt Bertha",
+        "Charity Navigator"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "diversify funding sources",
+        "enhance platform features"
+      ],
+      "expansion_opportunities": [
+        "partnerships with government agencies",
+        "expansion into new geographic regions"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 677,
+      "completion": 444,
+      "total": 1121,
+      "estimated_cost": 0.006133
+    }
+  },
+  "phase8_complete": true
+}

@@ -1,0 +1,649 @@
+{
+  "slug": "reschedule-med",
+  "name": "ReSchedule Med",
+  "yc_id": 783,
+  "batch": "Winter 2015",
+  "website": "http://reschedulemed.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:34:59.284417",
+    "website": "http://reschedulemed.com",
+    "website_status": {
+      "reachable": false,
+      "error": "connection_error"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "reschedulemed.com",
+      "registrar": "NameCheap, Inc.",
+      "creation_date": "2024-08-26T06:17:39",
+      "expiration_date": "2025-08-26T06:17:39",
+      "domain_age_days": 416,
+      "domain_age_years": 1.1,
+      "name_servers": [
+        "DNS101.REGISTRAR-SERVERS.COM",
+        "DNS102.REGISTRAR-SERVERS.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "error": "HTTPConnectionPool(host='reschedulemed.com', port=80): Max retries exceeded with url: / (Caused by N"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:15:26.743225",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:15:13.797671",
+    "place_data": {
+      "status": "success",
+      "method": "nominatim",
+      "formatted_address": "City of New York, New York, United States",
+      "coordinates": {
+        "latitude": 40.7127281,
+        "longitude": -74.0060152
+      },
+      "place_types": [
+        "administrative"
+      ],
+      "retrieved_at": "2025-10-17T10:12:57.698487",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:15:13.797701",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:15:13.797705",
+    "batch_network": {
+      "batch": "Winter 2015",
+      "total_batch_mates": 110,
+      "active_batch_mates": 42,
+      "batch_success_rate": 38.2,
+      "notable_batch_mates": [
+        {
+          "name": "Notable Labs",
+          "slug": "notable-labs",
+          "status": "Public",
+          "top_company": true,
+          "one_liner": "Personalized drug discovery for blood cancer."
+        },
+        {
+          "name": "Final",
+          "slug": "final",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A credit card that drastically reduces payment fraud and gives\u2026"
+        },
+        {
+          "name": "Pomello",
+          "slug": "pomello",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Analytics software that helps companies measure organizational\u2026"
+        },
+        {
+          "name": "Tech in Asia",
+          "slug": "tech-in-asia",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Tech in Asia (YC W15) is the largest English-language technology\u2026"
+        },
+        {
+          "name": "Smyte",
+          "slug": "smyte",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Smyte stops bad actors on social networks and marketplaces."
+        },
+        {
+          "name": "Bizzy",
+          "slug": "bizzy",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Bizzy is omni-channel marketing for ecommerce businesses."
+        },
+        {
+          "name": "Bluesmart",
+          "slug": "bluesmart",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Bluesmart makes smart luggage powered by an app to empower people to\u2026"
+        },
+        {
+          "name": "CyberFend",
+          "slug": "cyberfend",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Cyberfend delivers robust, real-time web and mobile security by\u2026"
+        },
+        {
+          "name": "GrubMarket",
+          "slug": "grubmarket",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "AI-powered technology enabler and digital transformer of American\u2026"
+        },
+        {
+          "name": "WorkLife",
+          "slug": "worklife",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "WorkLife is a SaaS application that helps teams have more effective\u2026"
+        }
+      ],
+      "batch_size": 111
+    },
+    "industry_network": {
+      "industries": [
+        "Healthcare",
+        "Healthcare IT"
+      ],
+      "total_industry_peers": 642,
+      "active_industry_peers": 503,
+      "direct_competitors": [
+        {
+          "name": "Medigram",
+          "slug": "medigram",
+          "status": "Active",
+          "batch": "Winter 2012",
+          "one_liner": "We are making a HIPAA-compliant, Groupme app for doctors to\u2026"
+        },
+        {
+          "name": "Quartzy",
+          "slug": "quartzy",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Marketplace for life science supplies."
+        },
+        {
+          "name": "AgileMD",
+          "slug": "agilemd",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Predictive analytics and clinical pathways for hospitals "
+        },
+        {
+          "name": "Comprehend",
+          "slug": "comprehend",
+          "status": "Acquired",
+          "batch": "Winter 2011",
+          "one_liner": "SaaS to increase speed and quality of clinical trials."
+        },
+        {
+          "name": "DrChrono",
+          "slug": "drchrono",
+          "status": "Acquired",
+          "batch": "Winter 2011",
+          "one_liner": "The essential platform for modern medical practices and patients."
+        },
+        {
+          "name": "Human Dx",
+          "slug": "human-dx",
+          "status": "Active",
+          "batch": "Summer 2012",
+          "one_liner": "The Human Diagnosis Project."
+        },
+        {
+          "name": "Eligible",
+          "slug": "eligible",
+          "status": "Active",
+          "batch": "Summer 2012",
+          "one_liner": "Insurance Billing APIs for Healthcare Businesses "
+        },
+        {
+          "name": "Medisas",
+          "slug": "medisas",
+          "status": "Inactive",
+          "batch": "Winter 2013",
+          "one_liner": "Medisas builds workflow & collaboration software for hospitals."
+        },
+        {
+          "name": "MedXT",
+          "slug": "medxt",
+          "status": "Acquired",
+          "batch": "Winter 2013",
+          "one_liner": "Radiology in the cloud.  X-rays, CAT scans, MRI's, and\u2026"
+        },
+        {
+          "name": "ListRunner",
+          "slug": "listrunner",
+          "status": "Acquired",
+          "batch": "Summer 2014",
+          "one_liner": "Replaces paper patient lists for doctors. "
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "New York",
+      "location": "New York, NY, USA",
+      "companies_in_city": 523,
+      "active_in_city": 398,
+      "nearby_companies": [
+        {
+          "name": "The Muse",
+          "slug": "the-muse",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "HireArt",
+          "slug": "hireart",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Shoptiques",
+          "slug": "shoptiques",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Grouper",
+          "slug": "grouper",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "99dresses",
+          "slug": "99dresses",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Codecademy",
+          "slug": "codecademy",
+          "batch": "Summer 2011",
+          "industry": "Education",
+          "status": "Acquired"
+        },
+        {
+          "name": "Custora",
+          "slug": "custora",
+          "batch": "Winter 2011",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Recurse Center",
+          "slug": "recurse-center",
+          "batch": "Summer 2010",
+          "industry": "Education",
+          "status": "Active"
+        },
+        {
+          "name": "MessageParty",
+          "slug": "messageparty",
+          "batch": "Summer 2010",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Fabricly",
+          "slug": "fabricly",
+          "batch": "Winter 2010",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "RentHop",
+          "slug": "renthop",
+          "batch": "Summer 2009",
+          "industry": "Real Estate and Construction",
+          "status": "Active"
+        },
+        {
+          "name": "Youlicit",
+          "slug": "youlicit",
+          "batch": "Summer 2008",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "SocialPicks",
+          "slug": "socialpicks",
+          "batch": "Summer 2007",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Octopart",
+          "slug": "octopart",
+          "batch": "Winter 2007",
+          "industry": "Industrials",
+          "status": "Acquired"
+        },
+        {
+          "name": "OMGPop",
+          "slug": "omgpop",
+          "batch": "Summer 2006",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Canopy Labs",
+          "slug": "canopy-labs",
+          "batch": "Summer 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Fullstack Academy",
+          "slug": "fullstack-academy",
+          "batch": "Summer 2012",
+          "industry": "Education",
+          "status": "Acquired"
+        },
+        {
+          "name": "DataNitro",
+          "slug": "datanitro",
+          "batch": "Summer 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "SmartAsset",
+          "slug": "smartasset",
+          "batch": "Summer 2012",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "StyleUp",
+          "slug": "styleup",
+          "batch": "Winter 2013",
+          "industry": "Consumer",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Qventus",
+        "slug": "qventus",
+        "batch": "Winter 2015",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Akido Labs",
+        "slug": "akido-labs",
+        "batch": "Winter 2015",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Mednet",
+        "slug": "mednet",
+        "batch": "Winter 2017",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Ribbon Health",
+        "slug": "ribbon-health",
+        "batch": "Summer 2017",
+        "industry": "Healthcare",
+        "status": "Acquired",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "H1",
+        "slug": "h1",
+        "batch": "Winter 2020",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "CoreCare",
+        "slug": "corecare",
+        "batch": "Summer 2020",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Camber",
+        "slug": "camber-2",
+        "batch": "Winter 2021",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Quadrant Health",
+        "slug": "quadrant-health",
+        "batch": "Winter 2021",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "VitalStrata",
+        "slug": "vitalstrata",
+        "batch": "Summer 2021",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Opkit",
+        "slug": "opkit",
+        "batch": "Summer 2021",
+        "industry": "Healthcare",
+        "status": "Inactive",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 1275,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:15:13.804247"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:15:13.804254",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:15:14.132401",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:15:14.239547",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 0,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:13.097289",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "medium",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increased focus on resident well-being and reducing burnout",
+        "Growing adoption of digital solutions in healthcare administration",
+        "Demand for efficient scheduling tools to optimize resource allocation"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Potential network effects within residency programs, but likely weak without significant adoption.",
+      "differentiation": "End-to-end workflow for graduate medical education scheduling.",
+      "competitive_advantages": [
+        "Specialized focus on residency programs",
+        "Potential for integration with existing hospital systems"
+      ],
+      "competitive_vulnerabilities": [
+        "Low barrier to entry for similar solutions",
+        "Reliance on hospital IT infrastructure and adoption rates"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "medium",
+      "capital_intensity": "low"
+    },
+    "growth_assessment": {
+      "growth_stage": "pre-seed",
+      "growth_indicators": [
+        "Number of residency programs using the platform",
+        "Reduction in scheduling errors and administrative overhead"
+      ],
+      "growth_bottlenecks": [
+        "Sales cycle to hospitals and residency programs",
+        "Integration with existing hospital systems"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "high",
+      "overall_risk_score": 7,
+      "key_risks": [
+        "Lack of adoption by residency programs",
+        "Competition from established healthcare software providers",
+        "Inability to integrate with existing hospital systems"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Addresses a specific pain point in medical education",
+        "Potential for improved efficiency and resident well-being",
+        "Scalable SaaS business model"
+      ],
+      "concerns": [
+        "Inactive status suggests significant challenges",
+        "Small team size (0) raises questions about execution capability"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "QGenda",
+        "Amion"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Re-evaluate market need and competitive landscape",
+        "Develop a strong sales and marketing strategy",
+        "Secure pilot programs with residency programs"
+      ],
+      "expansion_opportunities": [
+        "Integrate with other healthcare software platforms",
+        "Expand to other areas of hospital scheduling"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 651,
+      "completion": 638,
+      "total": 1289,
+      "estimated_cost": 0.00024
+    }
+  },
+  "phase8_complete": true
+}

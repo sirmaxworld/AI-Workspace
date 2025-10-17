@@ -1,0 +1,1365 @@
+{
+  "slug": "stripe",
+  "name": "Stripe",
+  "yc_id": 240,
+  "batch": "Summer 2009",
+  "website": "http://stripe.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:30:42.310201",
+    "website": "http://stripe.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 981.33,
+      "final_url": "https://stripe.com/de-ch",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:30:43.291538"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "stripe.com",
+      "registrar": "Safenames Ltd",
+      "creation_date": "1995-09-12T04:00:00",
+      "expiration_date": "2027-09-11T04:00:00",
+      "domain_age_days": 10992,
+      "domain_age_years": 30.1,
+      "name_servers": [
+        "NS-1087.AWSDNS-07.ORG",
+        "NS-1882.AWSDNS-43.CO.UK",
+        "NS-423.AWSDNS-52.COM",
+        "NS-705.AWSDNS-24.NET"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": "https://github.com/stripe-samples",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": true,
+      "x_frame_options": true,
+      "x_content_type_options": true,
+      "x_xss_protection": false,
+      "referrer_policy": true,
+      "security_score": 83,
+      "server": "nginx"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:13:04.279328",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:55:07.559907",
+    "place_data": {
+      "status": "not_found",
+      "query": "San Francisco, CA, USA"
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:55:07.681785",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/stripe-samples"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 100,
+        "packages": [
+          {
+            "name": "stripe",
+            "description": "Stripe API wrapper",
+            "version": "19.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/stripe"
+          },
+          {
+            "name": "@stripe/react-stripe-js",
+            "description": "React components for Stripe.js and Stripe Elements",
+            "version": "5.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@stripe/react-stripe-js"
+          },
+          {
+            "name": "@stripe/stripe-js",
+            "description": "Stripe.js loading utility",
+            "version": "8.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@stripe/stripe-js"
+          },
+          {
+            "name": "@stripe/stripe-react-native",
+            "description": "Stripe SDK for React Native",
+            "version": "0.54.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@stripe/stripe-react-native"
+          },
+          {
+            "name": "react-stripe-elements",
+            "description": "React components for Stripe.js and Stripe Elements",
+            "version": "6.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-stripe-elements"
+          },
+          {
+            "name": "ngx-stripe",
+            "description": "Collect Payments with Stripe: The Angular Way",
+            "version": "20.7.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ngx-stripe"
+          },
+          {
+            "name": "@google-cloud/paginator",
+            "description": "A result paging utility used by Google node.js modules",
+            "version": "6.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/paginator"
+          },
+          {
+            "name": "@types/react-stripe-elements",
+            "description": "TypeScript definitions for react-stripe-elements",
+            "version": "6.0.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@types/react-stripe-elements"
+          },
+          {
+            "name": "@vue-stripe/vue-stripe",
+            "description": "Stripe Checkout & Elements for Vue.js",
+            "version": "4.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@vue-stripe/vue-stripe"
+          },
+          {
+            "name": "@orval/axios",
+            "description": "[![npm version](https://badge.fury.io/js/orval.svg)](https://badge.fury.io/js/orval) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![tests](https://github.com/orval-labs/orval/actions/workflow",
+            "version": "7.13.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@orval/axios"
+          },
+          {
+            "name": "@orval/swr",
+            "description": "[![npm version](https://badge.fury.io/js/orval.svg)](https://badge.fury.io/js/orval) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![tests](https://github.com/orval-labs/orval/actions/workflow",
+            "version": "7.13.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@orval/swr"
+          },
+          {
+            "name": "@types/stripe-v3",
+            "description": "TypeScript definitions for stripe-v3",
+            "version": "3.1.33",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@types/stripe-v3"
+          },
+          {
+            "name": "@orval/core",
+            "description": "[![npm version](https://badge.fury.io/js/orval.svg)](https://badge.fury.io/js/orval) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![tests](https://github.com/orval-labs/orval/actions/workflow",
+            "version": "7.13.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@orval/core"
+          },
+          {
+            "name": "@orval/query",
+            "description": "[![npm version](https://badge.fury.io/js/orval.svg)](https://badge.fury.io/js/orval) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![tests](https://github.com/orval-labs/orval/actions/workflow",
+            "version": "7.13.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@orval/query"
+          },
+          {
+            "name": "@orval/fetch",
+            "description": "[![npm version](https://badge.fury.io/js/orval.svg)](https://badge.fury.io/js/orval) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![tests](https://github.com/orval-labs/orval/actions/workflow",
+            "version": "7.13.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@orval/fetch"
+          },
+          {
+            "name": "@orval/zod",
+            "description": "[![npm version](https://badge.fury.io/js/orval.svg)](https://badge.fury.io/js/orval) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![tests](https://github.com/orval-labs/orval/actions/workflow",
+            "version": "7.13.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@orval/zod"
+          },
+          {
+            "name": "@orval/hono",
+            "description": "[![npm version](https://badge.fury.io/js/orval.svg)](https://badge.fury.io/js/orval) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![tests](https://github.com/orval-labs/orval/actions/workflow",
+            "version": "7.13.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@orval/hono"
+          },
+          {
+            "name": "@orval/angular",
+            "description": "[![npm version](https://badge.fury.io/js/orval.svg)](https://badge.fury.io/js/orval) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![tests](https://github.com/orval-labs/orval/actions/workflow",
+            "version": "7.13.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@orval/angular"
+          },
+          {
+            "name": "@orval/mock",
+            "description": "[![npm version](https://badge.fury.io/js/orval.svg)](https://badge.fury.io/js/orval) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![tests](https://github.com/orval-labs/orval/actions/workflow",
+            "version": "7.13.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@orval/mock"
+          },
+          {
+            "name": "orval",
+            "description": "A swagger client generator for typescript",
+            "version": "7.13.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/orval"
+          },
+          {
+            "name": "stripe-event-types",
+            "description": "TypeScript typings for Stripe webhook events",
+            "version": "3.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/stripe-event-types"
+          },
+          {
+            "name": "@google-cloud/run",
+            "description": "Cloud Run Admin API",
+            "version": "3.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/run"
+          },
+          {
+            "name": "@stripe/react-connect-js",
+            "description": "React components for Connect.js and Connect embedded components",
+            "version": "3.3.30",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@stripe/react-connect-js"
+          },
+          {
+            "name": "@stripe/terminal-js",
+            "description": "Stripe Terminal loading utility",
+            "version": "0.25.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@stripe/terminal-js"
+          },
+          {
+            "name": "@types/stripe-v2",
+            "description": "TypeScript definitions for stripe-v2",
+            "version": "2.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@types/stripe-v2"
+          },
+          {
+            "name": "vue-stripe-js",
+            "description": "Vue 3 components for Stripe.js",
+            "version": "2.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/vue-stripe-js"
+          },
+          {
+            "name": "@orval/mcp",
+            "description": "[![npm version](https://badge.fury.io/js/orval.svg)](https://badge.fury.io/js/orval) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![tests](https://github.com/orval-labs/orval/actions/workflow",
+            "version": "7.13.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@orval/mcp"
+          },
+          {
+            "name": "cypress-plugin-stripe-elements",
+            "description": "Adds testing helpers for driving Stripe Elements with Cypress.",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/cypress-plugin-stripe-elements"
+          },
+          {
+            "name": "@google-cloud/compute",
+            "description": "Google Compute Engine Client Library for Node.js",
+            "version": "6.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/compute"
+          },
+          {
+            "name": "react-stripe-checkout",
+            "description": "Easily inject checkout.js as a react component. Will load the script on demand and supports all the options from stripe docs.",
+            "version": "2.6.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-stripe-checkout"
+          },
+          {
+            "name": "@google-cloud/projectify",
+            "description": "A simple utility for replacing the projectid token in objects.",
+            "version": "5.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/projectify"
+          },
+          {
+            "name": "@google-cloud/tasks",
+            "description": "Cloud Tasks API client for Node.js",
+            "version": "6.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/tasks"
+          },
+          {
+            "name": "@flmngr/flmngr-react",
+            "description": "Flmngr file manager UI component for React",
+            "version": "2.0.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@flmngr/flmngr-react"
+          },
+          {
+            "name": "cucumber-html-reporter",
+            "description": "Generates Cucumber HTML reports in three different themes",
+            "version": "7.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/cucumber-html-reporter"
+          },
+          {
+            "name": "@stripe/agent-toolkit",
+            "description": "The Stripe Agent Toolkit enables popular agent frameworks including LangChain and Vercel's AI SDK to integrate with Stripe APIs through function calling. It also provides tooling to quickly integrate metered billing for prompt and completion token usage.",
+            "version": "0.7.11",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@stripe/agent-toolkit"
+          },
+          {
+            "name": "gojs",
+            "description": "Interactive diagrams, charts, and graphs, such as trees, flowcharts, orgcharts, UML, BPMN, or business diagrams",
+            "version": "3.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/gojs"
+          },
+          {
+            "name": "@stripe/stripe-terminal-react-native",
+            "description": "Stripe Terminal React Native SDK",
+            "version": "0.0.1-beta.27",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@stripe/stripe-terminal-react-native"
+          },
+          {
+            "name": "microsoft-cognitiveservices-speech-sdk",
+            "description": "Microsoft Cognitive Services Speech SDK for JavaScript",
+            "version": "1.46.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/microsoft-cognitiveservices-speech-sdk"
+          },
+          {
+            "name": "@payloadcms/plugin-stripe",
+            "description": "Stripe plugin for Payload",
+            "version": "3.60.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@payloadcms/plugin-stripe"
+          },
+          {
+            "name": "typed-rest-client",
+            "description": "Node Rest and Http Clients for use with TypeScript",
+            "version": "2.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/typed-rest-client"
+          },
+          {
+            "name": "@google-cloud/translate",
+            "description": "Cloud Translation API Client Library for Node.js",
+            "version": "9.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/translate"
+          },
+          {
+            "name": "azure-devops-node-api",
+            "description": "Node client for Azure DevOps and TFS REST APIs",
+            "version": "15.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/azure-devops-node-api"
+          },
+          {
+            "name": "@actions/http-client",
+            "description": "Actions Http Client",
+            "version": "2.2.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@actions/http-client"
+          },
+          {
+            "name": "svelte-stripe",
+            "description": "Everything you need to add Stripe Elements to your Svelte project. 100% [SvelteKit](https://kit.svelte.dev/) compatible.",
+            "version": "1.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/svelte-stripe"
+          },
+          {
+            "name": "@temporalio/proto",
+            "description": "Temporal.io SDK compiled protobuf definitions",
+            "version": "1.13.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@temporalio/proto"
+          },
+          {
+            "name": "@temporalio/common",
+            "description": "Common library for code that's used across the Client, Worker, and/or Workflow",
+            "version": "1.13.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@temporalio/common"
+          },
+          {
+            "name": "@stripe/mcp",
+            "description": "A command line tool for setting up Stripe MCP server",
+            "version": "0.2.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@stripe/mcp"
+          },
+          {
+            "name": "@unlok-co/nuxt-stripe",
+            "description": "Nuxt module for stripe",
+            "version": "5.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@unlok-co/nuxt-stripe"
+          },
+          {
+            "name": "pulumi-stripe",
+            "description": "A Pulumi package for creating and managing Stripe resources.",
+            "version": "0.0.24",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/pulumi-stripe"
+          },
+          {
+            "name": "@google-cloud/kms",
+            "description": "Google Cloud Key Management Service (KMS) API client for Node.js",
+            "version": "5.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/kms"
+          },
+          {
+            "name": "@stripe/ui-extension-tools",
+            "description": "Developer tools for Stripe UI Extensions",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@stripe/ui-extension-tools"
+          },
+          {
+            "name": "ssim.js",
+            "description": "JavaScript implementation of the SSIM algorithm",
+            "version": "3.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ssim.js"
+          },
+          {
+            "name": "@google-cloud/functions",
+            "description": "Functions client for Node.js",
+            "version": "4.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/functions"
+          },
+          {
+            "name": "@azure/arm-resources",
+            "description": "A generated SDK for ResourceManagementClient.",
+            "version": "7.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@azure/arm-resources"
+          },
+          {
+            "name": "@google-cloud/vision",
+            "description": "Google Cloud Vision API client for Node.js",
+            "version": "5.3.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/vision"
+          },
+          {
+            "name": "@zitterorg/illo-hic-voluptatem",
+            "description": "React components for [Stripe.js and Elements](https://stripe.com/docs/stripe-js).",
+            "version": "7.6.72",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@zitterorg/illo-hic-voluptatem"
+          },
+          {
+            "name": "medusa-payment-stripe",
+            "description": "Stripe Payment provider for Medusa Commerce",
+            "version": "6.0.11",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/medusa-payment-stripe"
+          },
+          {
+            "name": "stripe-angular",
+            "description": "Angular to Stripe module containing useful providers, components, and directives",
+            "version": "1.9.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/stripe-angular"
+          },
+          {
+            "name": "@azure/arm-appservice",
+            "description": "A generated SDK for WebSiteManagementClient.",
+            "version": "17.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@azure/arm-appservice"
+          },
+          {
+            "name": "@azure/msal-angular",
+            "description": "Microsoft Authentication Library for Angular",
+            "version": "4.0.20",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@azure/msal-angular"
+          },
+          {
+            "name": "@auth0/auth0-spa-js",
+            "description": "Auth0 SDK for Single Page Applications using Authorization Code Grant Flow with PKCE",
+            "version": "2.6.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@auth0/auth0-spa-js"
+          },
+          {
+            "name": "@google-cloud/text-to-speech",
+            "description": "Cloud Text-to-Speech API client for Node.js",
+            "version": "6.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/text-to-speech"
+          },
+          {
+            "name": "aws-iot-device-sdk-v2",
+            "description": "NodeJS API for the AWS IoT service",
+            "version": "1.23.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/aws-iot-device-sdk-v2"
+          },
+          {
+            "name": "react-script-hook",
+            "description": "React hook to dynamically load an external script and know when its loaded",
+            "version": "1.7.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-script-hook"
+          },
+          {
+            "name": "@azure/identity",
+            "description": "Provides credential implementations for Azure SDK libraries that can authenticate with Microsoft Entra ID",
+            "version": "4.13.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@azure/identity"
+          },
+          {
+            "name": "@stripe/crypto",
+            "description": "Stripe Crypto loading utility",
+            "version": "0.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@stripe/crypto"
+          },
+          {
+            "name": "@google-cloud/appengine-admin",
+            "description": "Appengine client for Node.js",
+            "version": "4.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/appengine-admin"
+          },
+          {
+            "name": "nestjs-stripe",
+            "description": "Provides an injectable Stripe client to nestjs modules",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/nestjs-stripe"
+          },
+          {
+            "name": "@google-cloud/aiplatform",
+            "description": "Vertex AI client for Node.js",
+            "version": "5.9.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/aiplatform"
+          },
+          {
+            "name": "@google-cloud/recaptcha-enterprise",
+            "description": "reCAPTCHA Enterprise API client for Node.js",
+            "version": "6.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/recaptcha-enterprise"
+          },
+          {
+            "name": "@google-ai/generativelanguage",
+            "description": "Generative Language API client for Node.js",
+            "version": "3.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-ai/generativelanguage"
+          },
+          {
+            "name": "@google-cloud/sql",
+            "description": "Sql client for Node.js",
+            "version": "0.21.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/sql"
+          },
+          {
+            "name": "@supabase/stripe-sync-engine",
+            "description": "Stripe Sync Engine to sync Stripe data based on webhooks to Postgres",
+            "version": "0.45.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@supabase/stripe-sync-engine"
+          },
+          {
+            "name": "@google-analytics/data",
+            "description": "Data client for Node.js",
+            "version": "5.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-analytics/data"
+          },
+          {
+            "name": "@azure/msal-react",
+            "description": "Microsoft Authentication Library for React",
+            "version": "3.0.20",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@azure/msal-react"
+          },
+          {
+            "name": "@keystonehq/alias-sampling",
+            "description": "A Node.js module for efficient sampling from a discrete probability distribution using the alias method.",
+            "version": "0.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@keystonehq/alias-sampling"
+          },
+          {
+            "name": "@google-cloud/documentai",
+            "description": "Document AI client for Node.js",
+            "version": "9.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/documentai"
+          },
+          {
+            "name": "@stripe/firestore-stripe-payments",
+            "description": "Client SDK for the firestore-stripe-payments Firebase Extension",
+            "version": "0.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@stripe/firestore-stripe-payments"
+          },
+          {
+            "name": "@adopted-ember-addons/ember-stripe-elements",
+            "description": "A simple Ember wrapper for Stripe Elements.",
+            "version": "2.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@adopted-ember-addons/ember-stripe-elements"
+          },
+          {
+            "name": "@google-cloud/speech",
+            "description": "Cloud Speech Client Library for Node.js",
+            "version": "7.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/speech"
+          },
+          {
+            "name": "@auth0/auth0-react",
+            "description": "Auth0 SDK for React Single Page Applications (SPA)",
+            "version": "2.7.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@auth0/auth0-react"
+          },
+          {
+            "name": "@orval/msw",
+            "description": "[![npm version](https://badge.fury.io/js/orval.svg)](https://badge.fury.io/js/orval) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![tests](https://github.com/anymaniax/orval/actions/workflows",
+            "version": "6.20.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@orval/msw"
+          },
+          {
+            "name": "@types/stripe-checkout",
+            "description": "TypeScript definitions for stripe-checkout",
+            "version": "1.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@types/stripe-checkout"
+          },
+          {
+            "name": "@stripe/connect-js",
+            "description": "Connect.js loading utility package",
+            "version": "3.3.31",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@stripe/connect-js"
+          },
+          {
+            "name": "fl-stripe-server",
+            "description": "Stripe controller for FounderLab apps",
+            "version": "11.7.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/fl-stripe-server"
+          },
+          {
+            "name": "capacitor-stripe-terminal",
+            "description": "Capacitor plugin for Stripe Terminal (credit card readers).",
+            "version": "2.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/capacitor-stripe-terminal"
+          },
+          {
+            "name": "@google-cloud/scheduler",
+            "description": "Cloud Scheduler API client for Node.js",
+            "version": "5.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/scheduler"
+          },
+          {
+            "name": "react-stripe-js",
+            "description": "Compitable with react js and next js.",
+            "version": "1.1.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-stripe-js"
+          },
+          {
+            "name": "@azure/storage-blob",
+            "description": "Microsoft Azure Storage SDK for JavaScript - Blob",
+            "version": "12.29.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@azure/storage-blob"
+          },
+          {
+            "name": "@google-cloud/pubsub",
+            "description": "Cloud Pub/Sub Client Library for Node.js",
+            "version": "5.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/pubsub"
+          },
+          {
+            "name": "@vendure/payments-plugin",
+            "description": "For documentation, see [docs.vendure.io/reference/core-plugins/payments-plugin/](https://docs.vendure.io/reference/core-plugins/payments-plugin/)",
+            "version": "3.4.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@vendure/payments-plugin"
+          },
+          {
+            "name": "@google-cloud/dlp",
+            "description": "DLP API client for Node.js",
+            "version": "6.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/dlp"
+          },
+          {
+            "name": "@google-cloud/web-risk",
+            "description": "Web Risk API client for Node.js",
+            "version": "5.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/web-risk"
+          },
+          {
+            "name": "@stripe/ui-extension-sdk",
+            "description": "The suite of functionality available to UI extensions in Stripe apps",
+            "version": "9.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@stripe/ui-extension-sdk"
+          },
+          {
+            "name": "tipsi-stripe",
+            "description": "React Native Stripe binding for iOS/Android platforms",
+            "version": "11.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/tipsi-stripe"
+          },
+          {
+            "name": "angular-payments",
+            "description": "Directive for formatting and validating credit card forms",
+            "version": "1.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/angular-payments"
+          },
+          {
+            "name": "chart.js",
+            "description": "Simple HTML5 charts using the canvas element.",
+            "version": "4.5.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/chart.js"
+          },
+          {
+            "name": "@stripe/stripe-identity-react-native",
+            "description": "Stripe identity react native SDK library",
+            "version": "0.3.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@stripe/stripe-identity-react-native"
+          },
+          {
+            "name": "@google-cloud/artifact-registry",
+            "description": "Artifactregistry client for Node.js",
+            "version": "4.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/artifact-registry"
+          },
+          {
+            "name": "@google-cloud/discoveryengine",
+            "description": "Discovery Engine API client for Node.js",
+            "version": "2.5.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/discoveryengine"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 100,
+      "has_packages": true,
+      "checked_at": "2025-10-17T09:55:08.872680"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:55:08.872723",
+    "batch_network": {
+      "batch": "Summer 2009",
+      "total_batch_mates": 25,
+      "active_batch_mates": 6,
+      "batch_success_rate": 24.0,
+      "notable_batch_mates": [
+        {
+          "name": "DailyBooth",
+          "slug": "dailybooth",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": ""
+        },
+        {
+          "name": "Bump",
+          "slug": "bump",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Bump, Flock, Photoroll (unreleased) => Google Photos"
+        },
+        {
+          "name": "WePay",
+          "slug": "wepay",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Payments for platform businesses."
+        },
+        {
+          "name": "RethinkDB",
+          "slug": "rethinkdb",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The open source database for the realtime web."
+        },
+        {
+          "name": "Mixpanel",
+          "slug": "mixpanel",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "Mixpanel is event analytics for builders that need answers."
+        },
+        {
+          "name": "Lockitron",
+          "slug": "lockitron",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Lockitron makes electronic locks you can control locally from your\u2026"
+        },
+        {
+          "name": "GraffitiGeo",
+          "slug": "graffitigeo",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "We let you know where to go and what to get once you get there.\u2026"
+        },
+        {
+          "name": "Flightcaster",
+          "slug": "flightcaster",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": ""
+        }
+      ],
+      "batch_size": 26
+    },
+    "industry_network": {
+      "industries": [
+        "Fintech"
+      ],
+      "total_industry_peers": 597,
+      "active_industry_peers": 447,
+      "direct_competitors": [
+        {
+          "name": "Y Combinator",
+          "slug": "y-combinator",
+          "status": "Active",
+          "batch": "Unspecified",
+          "one_liner": "Not your average fixed point combinator."
+        },
+        {
+          "name": "True Link",
+          "slug": "true-link",
+          "status": "Active",
+          "batch": "Summer 2013",
+          "one_liner": "Financial Services for Financial Caregivers. "
+        },
+        {
+          "name": "OpenInvest",
+          "slug": "openinvest",
+          "status": "Acquired",
+          "batch": "Summer 2015",
+          "one_liner": "Values based personalization at scale for asset and wealth management"
+        },
+        {
+          "name": "Paribus",
+          "slug": "paribus",
+          "status": "Acquired",
+          "batch": "Summer 2015",
+          "one_liner": ""
+        },
+        {
+          "name": "FAZZ",
+          "slug": "fazz",
+          "status": "Active",
+          "batch": "Summer 2017",
+          "one_liner": "All-in-one Finance for Every Southeast Asia Business"
+        },
+        {
+          "name": "CoinTracker",
+          "slug": "cointracker",
+          "status": "Active",
+          "batch": "Winter 2018",
+          "one_liner": "The gold standard in cryptocurrency portfolio tracking and taxes"
+        },
+        {
+          "name": "OWNY",
+          "slug": "owny",
+          "status": "Active",
+          "batch": "Summer 2018",
+          "one_liner": "Manage capital, investors & banking in one place."
+        },
+        {
+          "name": "Nova",
+          "slug": "nova-2",
+          "status": "Acquired",
+          "batch": "Summer 2018",
+          "one_liner": "Digital subscriptions that delight investors."
+        },
+        {
+          "name": "Kalshi",
+          "slug": "kalshi",
+          "status": "Active",
+          "batch": "Winter 2019",
+          "one_liner": "1st federally regulated exchange where people can trade on events"
+        },
+        {
+          "name": "Fuse",
+          "slug": "fuse",
+          "status": "Inactive",
+          "batch": "Winter 2019",
+          "one_liner": "Unified API for financial data aggregators."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "San Francisco",
+      "location": "San Francisco, CA, USA",
+      "companies_in_city": 2007,
+      "active_in_city": 1339,
+      "nearby_companies": [
+        {
+          "name": "42Floors",
+          "slug": "42floors",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "PlanGrid",
+          "slug": "plangrid",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "MyVR",
+          "slug": "myvr",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Couple",
+          "slug": "couple",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HackPad",
+          "slug": "hackpad",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Gusto",
+          "slug": "gusto",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "FamilyLeaf",
+          "slug": "familyleaf",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Chute",
+          "slug": "chute",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Make School",
+          "slug": "make-school",
+          "batch": "Winter 2012",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Exec",
+          "slug": "exec",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Public"
+        },
+        {
+          "name": "LendUp",
+          "slug": "lendup",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tilt",
+          "slug": "tilt",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fond",
+          "slug": "fond",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "DailyBooth",
+        "slug": "dailybooth",
+        "batch": "Summer 2009",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "WePay",
+        "slug": "wepay",
+        "batch": "Summer 2009",
+        "industry": "Fintech",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Directed Edge",
+        "slug": "directed-edge",
+        "batch": "Summer 2009",
+        "industry": "Consumer",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "RethinkDB",
+        "slug": "rethinkdb",
+        "batch": "Summer 2009",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Jobspice",
+        "slug": "jobspice",
+        "batch": "Summer 2009",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Mixpanel",
+        "slug": "mixpanel",
+        "batch": "Summer 2009",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Plurchase",
+        "slug": "plurchase",
+        "batch": "Summer 2009",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Flightcaster",
+        "slug": "flightcaster",
+        "batch": "Summer 2009",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "NudgePad",
+        "slug": "nudgepad",
+        "batch": "Summer 2009",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Lingt",
+        "slug": "lingt",
+        "batch": "Summer 2009",
+        "industry": "Education",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 2629,
+      "network_density_score": 85.0,
+      "has_strong_batch_network": false,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T09:55:08.886346"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:55:08.886368",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:55:09.221670",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:55:09.323025",
+    "basic_info": {
+      "is_hiring": true,
+      "team_size": 7000,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:25.286314",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Embedded finance",
+        "Globalization of commerce",
+        "Increased regulation"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Strong network effects, robust API, developer ecosystem",
+      "differentiation": "Developer-centric approach, comprehensive suite of financial tools",
+      "competitive_advantages": [
+        "First-mover advantage in developer-focused payments",
+        "Strong brand recognition"
+      ],
+      "competitive_vulnerabilities": [
+        "High valuation",
+        "Increasing competition from specialized players"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "mature",
+      "growth_indicators": [
+        "Revenue growth",
+        "Expansion into new markets"
+      ],
+      "growth_bottlenecks": [
+        "Regulatory hurdles",
+        "Competition in core markets"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Regulatory changes",
+        "Security breaches",
+        "Economic downturn affecting transaction volumes"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong market position",
+        "Scalable business model",
+        "Large addressable market"
+      ],
+      "concerns": [
+        "High valuation",
+        "Increasing competition"
+      ],
+      "exit_potential": "IPO",
+      "comparable_companies": [
+        "Adyen",
+        "Block (formerly Square)"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Continue expanding product suite",
+        "Strengthen relationships with key partners"
+      ],
+      "expansion_opportunities": [
+        "Geographic expansion into emerging markets",
+        "Further development of financial services offerings"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 697,
+      "completion": 445,
+      "total": 1142,
+      "estimated_cost": 0.000186
+    }
+  },
+  "phase8_complete": true
+}

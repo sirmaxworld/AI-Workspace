@@ -1,0 +1,752 @@
+{
+  "slug": "formance",
+  "name": "Formance",
+  "yc_id": 24379,
+  "batch": "Summer 2021",
+  "website": "https://formance.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T01:06:49.777267",
+    "website": "https://formance.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 4798.58,
+      "final_url": "https://www.formance.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T01:06:54.575869"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "formance.com",
+      "registrar": "Gandi SAS",
+      "creation_date": "1997-04-24T04:00:00",
+      "expiration_date": "2026-04-25T04:00:00",
+      "domain_age_days": 10402,
+      "domain_age_years": 28.5,
+      "name_servers": [
+        "NS-1431.AWSDNS-50.ORG",
+        "NS-1836.AWSDNS-37.CO.UK",
+        "NS-198.AWSDNS-24.COM",
+        "NS-760.AWSDNS-31.NET"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/formancehq",
+      "linkedin": "https://linkedin.com/company/formancehq",
+      "github": "https://github.com/formancehq/stack/releases",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 16,
+      "server": "Vercel"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:29:37.089029",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:29:23.293706",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "Paris, France",
+      "coordinates": {
+        "latitude": 48.8566,
+        "longitude": 2.3522
+      },
+      "timezone": {
+        "timezone_id": "Europe/Paris",
+        "timezone_name": "Europe/Paris"
+      },
+      "retrieved_at": "2025-10-17T10:14:38.765080",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:29:23.293740",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/formancehq"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 8,
+        "packages": [
+          {
+            "name": "@formancehq/formance",
+            "description": "OpenAPI client for @formancehq/formance",
+            "version": "1.0.20230301",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@formancehq/formance"
+          },
+          {
+            "name": "numary",
+            "description": "This repository contains the Typescript SDK for Formance Ledger (fka Numary) for Node.js, wrapping the automatic [generated](https://www.npmjs.com/package/@numaryhq/ledger-nodejs) API client with higher-level functionality.",
+            "version": "1.11.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/numary"
+          },
+          {
+            "name": "@formance/sdk-flows",
+            "description": "<div align=\"left\">     <a href=\"https://speakeasyapi.dev/\"><img src=\"https://custom-icon-badges.demolab.com/badge/-Built%20By%20Speakeasy-212015?style=for-the-badge&logoColor=FBE331&logo=speakeasy&labelColor=545454\" /></a>     <a href=\"https://opensource.",
+            "version": "1.0.0-alpha.22",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@formance/sdk-flows"
+          },
+          {
+            "name": "@formance/sdk-auth",
+            "description": "<div align=\"left\">     <a href=\"https://speakeasyapi.dev/\"><img src=\"https://custom-icon-badges.demolab.com/badge/-Built%20By%20Speakeasy-212015?style=for-the-badge&logoColor=FBE331&logo=speakeasy&labelColor=545454\" /></a>     <a href=\"https://opensource.",
+            "version": "1.0.0-alpha.29",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@formance/sdk-auth"
+          },
+          {
+            "name": "@formance/sdk-connectivity",
+            "description": "<div align=\"left\">     <a href=\"https://speakeasyapi.dev/\"><img src=\"https://custom-icon-badges.demolab.com/badge/-Built%20By%20Speakeasy-212015?style=for-the-badge&logoColor=FBE331&logo=speakeasy&labelColor=545454\" /></a>     <a href=\"https://opensource.",
+            "version": "1.0.0-alpha.22",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@formance/sdk-connectivity"
+          },
+          {
+            "name": "@formance/sdk-ledger",
+            "description": "<div align=\"left\">     <a href=\"https://speakeasyapi.dev/\"><img src=\"https://custom-icon-badges.demolab.com/badge/-Built%20By%20Speakeasy-212015?style=for-the-badge&logoColor=FBE331&logo=speakeasy&labelColor=545454\" /></a>     <a href=\"https://opensource.",
+            "version": "1.0.0-alpha.23",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@formance/sdk-ledger"
+          },
+          {
+            "name": "@formance/sdk-wallets",
+            "description": "<div align=\"left\">     <a href=\"https://speakeasyapi.dev/\"><img src=\"https://custom-icon-badges.demolab.com/badge/-Built%20By%20Speakeasy-212015?style=for-the-badge&logoColor=FBE331&logo=speakeasy&labelColor=545454\" /></a>     <a href=\"https://opensource.",
+            "version": "1.0.0-alpha.12",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@formance/sdk-wallets"
+          },
+          {
+            "name": "@formance/sdk-reconciliation",
+            "description": "<div align=\"left\">     <a href=\"https://speakeasyapi.dev/\"><img src=\"https://custom-icon-badges.demolab.com/badge/-Built%20By%20Speakeasy-212015?style=for-the-badge&logoColor=FBE331&logo=speakeasy&labelColor=545454\" /></a>     <a href=\"https://opensource.",
+            "version": "1.0.0-alpha.11",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@formance/sdk-reconciliation"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 8,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:29:25.239536"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:29:25.239544",
+    "batch_network": {
+      "batch": "Summer 2021",
+      "total_batch_mates": 390,
+      "active_batch_mates": 316,
+      "batch_success_rate": 81.0,
+      "notable_batch_mates": [
+        {
+          "name": "Hyper",
+          "slug": "hyper",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Sell memberships to your Discord server"
+        },
+        {
+          "name": "Beeper",
+          "slug": "beeper",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "One chat app to rule them all"
+        },
+        {
+          "name": "Level",
+          "slug": "level",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Fast and simple fintech financing"
+        },
+        {
+          "name": "Goodkind",
+          "slug": "goodkind",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Student communications platform for higher education"
+        },
+        {
+          "name": "Sleek",
+          "slug": "sleek",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "1-click checkout from every store on the internet + cashback rewards."
+        },
+        {
+          "name": "MadEats",
+          "slug": "madeats",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Online delivery-only restaurant group in the Philippines"
+        },
+        {
+          "name": "Maroo",
+          "slug": "maroo",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Business management platform for creatives"
+        },
+        {
+          "name": "Tarsal",
+          "slug": "tarsal",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Data pipeline for your security data lake."
+        },
+        {
+          "name": "Hilos",
+          "slug": "quid",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Close and activate your customers on WhatsApp"
+        },
+        {
+          "name": "Keyri",
+          "slug": "keyri",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Secure fraud prevention and authentication platform for developers"
+        }
+      ],
+      "batch_size": 391
+    },
+    "industry_network": {
+      "industries": [
+        "B2B"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "MixRank",
+          "slug": "mixrank",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Data products for sales, marketing, finance, recruiting, and more."
+        },
+        {
+          "name": "Memamp",
+          "slug": "memamp",
+          "status": "Inactive",
+          "batch": "Summer 2005",
+          "one_liner": ""
+        },
+        {
+          "name": "Submittable",
+          "slug": "submittable",
+          "status": "Active",
+          "batch": "Summer 2012",
+          "one_liner": "The best way to launch, manage and measure social impact programs"
+        },
+        {
+          "name": "Benchling",
+          "slug": "benchling",
+          "status": "Active",
+          "batch": "Summer 2012",
+          "one_liner": "Unlocking the power of biotech with modern software for modern science"
+        },
+        {
+          "name": "Asseta",
+          "slug": "asseta",
+          "status": "Active",
+          "batch": "Summer 2013",
+          "one_liner": "Marketplace for industrial spare parts and capital equipment."
+        },
+        {
+          "name": "TrueVault",
+          "slug": "truevault",
+          "status": "Active",
+          "batch": "Winter 2014",
+          "one_liner": "We make Privacy Software for SMBs."
+        },
+        {
+          "name": "Magic",
+          "slug": "magic",
+          "status": "Active",
+          "batch": "Winter 2015",
+          "one_liner": "Extremely talented assistants for busy people"
+        },
+        {
+          "name": "Mason",
+          "slug": "mason",
+          "status": "Active",
+          "batch": "Winter 2016",
+          "one_liner": "Mason is the fastest way to take smart devices from idea to end user"
+        },
+        {
+          "name": "Bus.com",
+          "slug": "bus-com",
+          "status": "Inactive",
+          "batch": "Winter 2016",
+          "one_liner": "The easiest way to charter a bus in North America."
+        },
+        {
+          "name": "Livement",
+          "slug": "livement",
+          "status": "Active",
+          "batch": "Summer 2016",
+          "one_liner": "Livement makes selling tickets for events easy and safe for organizers"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Paris",
+      "location": "Paris, \u00cele-de-France, France",
+      "companies_in_city": 55,
+      "active_in_city": 36,
+      "nearby_companies": [
+        {
+          "name": "Motionlead",
+          "slug": "motionlead",
+          "batch": "Winter 2014",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Hublo",
+          "slug": "hublo",
+          "batch": "Summer 2014",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Afrostream",
+          "slug": "afrostream",
+          "batch": "Summer 2015",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Whyd",
+          "slug": "whyd",
+          "batch": "Summer 2016",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Bulldozair",
+          "slug": "bulldozair",
+          "batch": "Summer 2016",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Request Network",
+          "slug": "request-network",
+          "batch": "Winter 2017",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Anasen",
+          "slug": "anasen",
+          "batch": "Winter 2017",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Airthium",
+          "slug": "airthium",
+          "batch": "Summer 2017",
+          "industry": "Industrials",
+          "status": "Active"
+        },
+        {
+          "name": "Goosebump",
+          "slug": "goosebump",
+          "batch": "Summer 2017",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Station",
+          "slug": "station",
+          "batch": "Winter 2018",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Mojo",
+          "slug": "mojo",
+          "batch": "Winter 2018",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Dashblock",
+          "slug": "dashblock",
+          "batch": "Summer 2019",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "OpenReplay",
+          "slug": "asayer",
+          "batch": "Summer 2019",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Data Mechanics",
+          "slug": "data-mechanics",
+          "batch": "Summer 2019",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Multis",
+          "slug": "multis",
+          "batch": "Summer 2019",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Photoroom",
+          "slug": "photoroom",
+          "batch": "Summer 2020",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Riot",
+          "slug": "riot",
+          "batch": "Winter 2020",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Jitter",
+          "slug": "jitter",
+          "batch": "Winter 2020",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Mailwarm",
+          "slug": "mailwarm",
+          "batch": "Summer 2020",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "OneKey",
+          "slug": "onekey",
+          "batch": "Summer 2020",
+          "industry": "Fintech",
+          "status": "Inactive"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "PaletteHQ",
+        "slug": "palettehq",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Lago",
+        "slug": "lago",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Hera",
+        "slug": "hera",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Whaly",
+        "slug": "whaly",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Crew",
+        "slug": "crew",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Caf\u00e9",
+        "slug": "cafe",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Vogent",
+        "slug": "vogent",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "MarqVision",
+        "slug": "marqvision",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Hyperseed",
+        "slug": "hyperseed",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Cococart",
+        "slug": "cococart",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 3191,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:29:25.251814"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:29:25.251820",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:29:25.596199",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:29:25.725429",
+    "basic_info": {
+      "is_hiring": true,
+      "team_size": 30,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:42:28.543918",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Embedded finance",
+        "Decentralized finance (DeFi)",
+        "Open banking"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Open-source community, developer adoption, network effects as more financial services integrate with the platform.",
+      "differentiation": "Open-source infrastructure focused on flow of funds and ledger management, catering to complex financial operations.",
+      "competitive_advantages": [
+        "Developer-friendly approach",
+        "Flexibility and customization through open-source"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on community contributions",
+        "Potential for slower adoption compared to proprietary solutions"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "series-a",
+      "growth_indicators": [
+        "Adoption by fintech companies",
+        "Community growth and contributions"
+      ],
+      "growth_bottlenecks": [
+        "Onboarding and support for complex integrations",
+        "Security concerns related to financial data"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Competition from established players",
+        "Security vulnerabilities in open-source code",
+        "Regulatory changes in the financial industry"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong open-source community",
+        "Addresses a critical need in modern financial infrastructure",
+        "Potential to become a standard for flow of funds management"
+      ],
+      "concerns": [
+        "Monetization strategy and long-term sustainability",
+        "Reliance on developer adoption and contributions"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Modern Treasury",
+        "Moov"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on building a robust and secure platform",
+        "Expand community engagement and support"
+      ],
+      "expansion_opportunities": [
+        "Partnerships with payment processors and financial institutions",
+        "Develop pre-built integrations for popular fintech tools"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 659,
+      "completion": 614,
+      "total": 1273,
+      "estimated_cost": 0.000234
+    }
+  },
+  "phase8_complete": true
+}

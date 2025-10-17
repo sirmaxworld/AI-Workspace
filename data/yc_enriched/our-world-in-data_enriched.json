@@ -1,0 +1,687 @@
+{
+  "slug": "our-world-in-data",
+  "name": "Our World in Data",
+  "yc_id": 12094,
+  "batch": "Winter 2019",
+  "website": "https://ourworldindata.org/",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:46:53.667616",
+    "website": "https://ourworldindata.org/",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 2245.9,
+      "final_url": "https://ourworldindata.org/",
+      "redirected": false,
+      "checked_at": "2025-10-17T00:46:55.913540"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "ourworldindata.org",
+      "registrar": "NAMECHEAP INC",
+      "creation_date": "2014-05-23T10:26:49",
+      "expiration_date": "2033-05-23T10:26:49",
+      "domain_age_days": 4164,
+      "domain_age_years": 11.4,
+      "name_servers": [
+        "iris.ns.cloudflare.com",
+        "micah.ns.cloudflare.com"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://x.com/ourworldindata",
+      "linkedin": "https://www.linkedin.com/company/ourworldindata",
+      "github": "https://github.com/owid/owid-grapher/blob/master/LICENSE.md",
+      "facebook": "https://facebook.com/ourworldindata",
+      "instagram": "https://www.instagram.com/ourworldindata/",
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": true,
+      "x_xss_protection": false,
+      "referrer_policy": true,
+      "security_score": 50,
+      "server": "cloudflare"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:21:58.634628",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:21:42.964649",
+    "place_data": {
+      "status": "not_found",
+      "query": "Oxford, England, United Kingdom; Remote",
+      "methods_tried": [
+        "static_db",
+        "nominatim",
+        "geonames"
+      ]
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:21:46.142571",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/owid"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 10,
+        "packages": [
+          {
+            "name": "@elaval/owid-vis-poc",
+            "description": "Our World in Data (OWID) is an initiative that aims at **research and data to make progress against the world\u2019s largest problems**.  They collect and mantain hundreds of public datasets which are the source of evidence based articles and data visualisatio",
+            "version": "0.3.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@elaval/owid-vis-poc"
+          },
+          {
+            "name": "@elaval/owid-demo",
+            "description": "Our World in Data (OWID) is an initiative that aims at **research and data to make progress against the world\u2019s largest problems**.  They collect and mantain hundreds of datasets from worlwide public data that is transformed into meaningful information vi",
+            "version": "0.3.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@elaval/owid-demo"
+          },
+          {
+            "name": "@honmameiko/covid-19-datalist",
+            "description": "Developed based on TypeScript and React.This component shows the latest Data in a format of list on COVID-19 (coronavirus) and will be updated daily.Check out the data source [Here](https://github.com/owid/covid-19-data/tree/master/public/data)",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@honmameiko/covid-19-datalist"
+          },
+          {
+            "name": "owid-covid",
+            "description": "A package which returns the data related to covid-19.",
+            "version": "1.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/owid-covid"
+          },
+          {
+            "name": "alexandermisyura_rs-react-performance__dataset",
+            "description": "The dataset for learning react performance optimizations for rs school react course.",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/alexandermisyura_rs-react-performance__dataset"
+          },
+          {
+            "name": "@ikesau/owid-types",
+            "description": null,
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ikesau/owid-types"
+          },
+          {
+            "name": "labelplacer",
+            "description": "A simple label placement algorithm for line charts",
+            "version": "0.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/labelplacer"
+          },
+          {
+            "name": "vaccinations-covid19",
+            "description": "Vaccination data provided around the world",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/vaccinations-covid19"
+          },
+          {
+            "name": "d3ng",
+            "description": "Interactive data visualizations with Angular 2 and d3.js.",
+            "version": "0.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/d3ng"
+          },
+          {
+            "name": "leaderlines",
+            "description": "Find nice positions for leader lines with two right angles",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/leaderlines"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 7,
+        "packages": [
+          {
+            "name": "covid19db",
+            "description": "Utility for building and accessing COVID-19 datasets",
+            "version": "2.0.9",
+            "downloads": 19288,
+            "url": "https://crates.io/crates/covid19db"
+          },
+          {
+            "name": "rexl",
+            "description": "Common Library for Rust\n",
+            "version": "0.0.4",
+            "downloads": 6483,
+            "url": "https://crates.io/crates/rexl"
+          },
+          {
+            "name": "azure_mgmt_contosowidgetmanager",
+            "description": "generated REST API bindings",
+            "version": "0.21.0",
+            "downloads": 1080,
+            "url": "https://crates.io/crates/azure_mgmt_contosowidgetmanager"
+          },
+          {
+            "name": "flowide",
+            "description": "A (WIP) IDE for 'flow' programs",
+            "version": "0.31.0",
+            "downloads": 6778,
+            "url": "https://crates.io/crates/flowide"
+          },
+          {
+            "name": "rainbowid",
+            "description": "WIP RainbowID Generator for Rust",
+            "version": "0.0.0",
+            "downloads": 2245,
+            "url": "https://crates.io/crates/rainbowid"
+          },
+          {
+            "name": "rowid",
+            "description": "A time-based unique ID solution\n",
+            "version": "0.5.0",
+            "downloads": 7403,
+            "url": "https://crates.io/crates/rowid"
+          },
+          {
+            "name": "snowid",
+            "description": "A Rust library for generating SnowID - a Snowflake-like timestamp-based distributed unique identifier",
+            "version": "0.3.0",
+            "downloads": 5916,
+            "url": "https://crates.io/crates/snowid"
+          }
+        ]
+      },
+      "total_packages": 17,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:21:47.537391"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:21:47.537400",
+    "batch_network": {
+      "batch": "Winter 2019",
+      "total_batch_mates": 194,
+      "active_batch_mates": 124,
+      "batch_success_rate": 63.9,
+      "notable_batch_mates": [
+        {
+          "name": "Searchlight",
+          "slug": "searchlight",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Talent AI improving quality of hire"
+        },
+        {
+          "name": "Fuzzbuzz",
+          "slug": "fuzzbuzz",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Fuzzing as a Service"
+        },
+        {
+          "name": "ZeroStorefront",
+          "slug": "zerostorefront",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "#1 Data platform for restaurants. Acquired by Thanx"
+        },
+        {
+          "name": "Geosite",
+          "slug": "geosite",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Geosite is an enterprise SaaS platform for spatial data."
+        },
+        {
+          "name": "Insight",
+          "slug": "insight",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The first extensible browser for iOS"
+        },
+        {
+          "name": "InterPrime",
+          "slug": "interprime",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Safe & Secure Cash Management for Businesses"
+        },
+        {
+          "name": "Preflight",
+          "slug": "preflight",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "No-code Web Apps testing for everyone"
+        },
+        {
+          "name": "Windsor",
+          "slug": "windsor",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "AI Powered Personalized Videos"
+        },
+        {
+          "name": "Ascen",
+          "slug": "ascen",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "EOR for the staffing industry"
+        },
+        {
+          "name": "Convex",
+          "slug": "convex",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Software for the commercial services industry. "
+        }
+      ],
+      "batch_size": 195
+    },
+    "industry_network": {
+      "industries": [
+        "Education"
+      ],
+      "total_industry_peers": 125,
+      "active_industry_peers": 89,
+      "direct_competitors": [
+        {
+          "name": "CleverDeck",
+          "slug": "cleverdeck",
+          "status": "Active",
+          "batch": "Winter 2012",
+          "one_liner": "Collaborate with an artist to commission original artwork you'll live\u2026"
+        },
+        {
+          "name": "Make School",
+          "slug": "make-school",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Make School is redesigning college for the 21st century. Students\u2026"
+        },
+        {
+          "name": "Codecademy",
+          "slug": "codecademy",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "The leading online learning platform for technical skills."
+        },
+        {
+          "name": "Quad",
+          "slug": "quad",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Quad is where college students get things done."
+        },
+        {
+          "name": "Verbling",
+          "slug": "verbling",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Language learning through video chat."
+        },
+        {
+          "name": "Insight Data Science",
+          "slug": "insight-data-science",
+          "status": "Inactive",
+          "batch": "Winter 2011",
+          "one_liner": "Turning PhDs & engineers into data scientists & data engineers"
+        },
+        {
+          "name": "Tutorspree",
+          "slug": "tutorspree",
+          "status": "Inactive",
+          "batch": "Winter 2011",
+          "one_liner": "Online tutoring marketplace."
+        },
+        {
+          "name": "Recurse Center",
+          "slug": "recurse-center",
+          "status": "Active",
+          "batch": "Summer 2010",
+          "one_liner": "The retreat where curious programmers recharge and grow"
+        },
+        {
+          "name": "Lingt",
+          "slug": "lingt",
+          "status": "Active",
+          "batch": "Summer 2009",
+          "one_liner": "Lingt provided a web-based platform for learning languages leveraging\u2026"
+        },
+        {
+          "name": "Knowmia",
+          "slug": "knowmia",
+          "status": "Acquired",
+          "batch": "Summer 2012",
+          "one_liner": "Pandora meets Yelp for K-12 educational videos.  We match each\u2026"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Oxford",
+      "location": "Oxford, England, United Kingdom; Remote",
+      "companies_in_city": 4,
+      "active_in_city": 4,
+      "nearby_companies": [
+        {
+          "name": "The Centre for Effective Altruism",
+          "slug": "the-centre-for-effective-altruism",
+          "batch": "Winter 2017",
+          "industry": "Unspecified",
+          "status": "Active"
+        },
+        {
+          "name": "Ochre Bio",
+          "slug": "ochre-bio",
+          "batch": "Winter 2020",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Sensible Biotechnologies",
+          "slug": "sensible-biotechnologies",
+          "batch": "Summer 2021",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Evolvere BioSciences",
+          "slug": "evolvere-biosciences",
+          "batch": "Summer 2024",
+          "industry": "Healthcare",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "low"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "CareerTu",
+        "slug": "careertu",
+        "batch": "Winter 2019",
+        "industry": "Education",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Skill-lync",
+        "slug": "skill-lync",
+        "batch": "Winter 2019",
+        "industry": "Education",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "AccioJob",
+        "slug": "acciojob",
+        "batch": "Winter 2019",
+        "industry": "Education",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Edyst",
+        "slug": "edyst",
+        "batch": "Winter 2019",
+        "industry": "Education",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Tailor-ED",
+        "slug": "tailor-ed",
+        "batch": "Winter 2019",
+        "industry": "Education",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Schoolable",
+        "slug": "schoolable",
+        "batch": "Winter 2019",
+        "industry": "Education",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Searchlight",
+        "slug": "searchlight",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 4,
+        "similarity_reasons": [
+          "same_batch",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "JuziBot",
+        "slug": "juzibot",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 4,
+        "similarity_reasons": [
+          "same_batch",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Overview",
+        "slug": "overview",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 4,
+        "similarity_reasons": [
+          "same_batch",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Taobotics",
+        "slug": "taobotics",
+        "batch": "Winter 2019",
+        "industry": "Industrials",
+        "status": "Active",
+        "similarity_score": 4,
+        "similarity_reasons": [
+          "same_batch",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 323,
+      "network_density_score": 49.6,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": false,
+      "calculated_at": "2025-10-17T10:21:47.543887"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:21:47.543896",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:21:47.886231",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:21:48.002700",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 19,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:48.217349",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increased demand for data-driven insights",
+        "Growing emphasis on global challenges and sustainable development",
+        "Rise of data visualization and interactive learning"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Strong brand reputation and trust built on open-access, data-driven research.",
+      "differentiation": "Focus on comprehensive, global data across a wide range of critical issues, presented in an accessible and interactive format.",
+      "competitive_advantages": [
+        "High-quality, curated data",
+        "Open-access model fostering broad reach and impact"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on external data sources and funding",
+        "Potential for data inaccuracies or biases"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "Donations and grants",
+      "scalability": "high",
+      "capital_intensity": "low"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "Website traffic and user engagement",
+        "Citations in academic research and media",
+        "Partnerships with organizations and institutions"
+      ],
+      "growth_bottlenecks": [
+        "Securing sustainable funding",
+        "Maintaining data quality and integrity"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "low",
+      "technology_risk": "low",
+      "execution_risk": "medium",
+      "overall_risk_score": 4,
+      "key_risks": [
+        "Funding instability",
+        "Data integrity issues",
+        "Maintaining neutrality and avoiding political bias"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "High social impact and mission-driven",
+        "Strong brand and reputation",
+        "Large and growing user base"
+      ],
+      "concerns": [
+        "Dependence on philanthropic funding",
+        "Potential for mission drift"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Statista",
+        "World Bank Open Data"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Diversify funding sources (e.g., corporate sponsorships, premium services)",
+        "Strengthen data validation and quality control processes"
+      ],
+      "expansion_opportunities": [
+        "Develop educational resources and training programs",
+        "Expand data coverage to new areas and regions"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 713,
+      "completion": 627,
+      "total": 1340,
+      "estimated_cost": 0.000242
+    }
+  },
+  "phase8_complete": true
+}

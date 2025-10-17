@@ -1,0 +1,1155 @@
+{
+  "slug": "envkey",
+  "name": "EnvKey",
+  "yc_id": 1786,
+  "batch": "Winter 2018",
+  "website": "https://envkey.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:41:07.299575",
+    "website": "https://envkey.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 2813.68,
+      "final_url": "https://envkey.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:41:10.113264"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "envkey.com",
+      "registrar": "1API GmbH",
+      "creation_date": "2016-09-06T21:58:57",
+      "expiration_date": "2027-09-06T21:58:57",
+      "domain_age_days": 3327,
+      "domain_age_years": 9.1,
+      "name_servers": [
+        "NS1.DNSIMPLE.COM",
+        "NS2.DNSIMPLE-EDGE.NET",
+        "NS3.DNSIMPLE.COM",
+        "NS4.DNSIMPLE-EDGE.ORG"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/EnvKeyConfig",
+      "linkedin": null,
+      "github": "https://github.com/envkey/envkey/issues",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 16,
+      "server": "Netlify"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:19:46.691070",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:19:35.930355",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "San Francisco, CA, USA",
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:14:18.656822",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:35.930381",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/envkey"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 64,
+        "packages": [
+          {
+            "name": "envkey",
+            "description": "EnvKey secures and simplifies configuration and secrets management.",
+            "version": "2.5.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/envkey"
+          },
+          {
+            "name": "envkey-webpack-plugin",
+            "description": "Use envkey as a webpack plugin.",
+            "version": "2.5.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/envkey-webpack-plugin"
+          },
+          {
+            "name": "@vex-soft/envkey",
+            "description": "EnvKey secures and simplifies configuration and secrets management.",
+            "version": "2.5.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@vex-soft/envkey"
+          },
+          {
+            "name": "@berun/runner-envkey",
+            "description": "BeRun runner to import environment variables from [EnvKey](https://envkey.com)",
+            "version": "7.3.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@berun/runner-envkey"
+          },
+          {
+            "name": "envkey-cmd",
+            "description": "Executes a command using the environment variables from a provided ENVKEY",
+            "version": "10.1.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/envkey-cmd"
+          },
+          {
+            "name": "rollup-plugin-dotenv",
+            "description": "Rollup plugin that loads available .env files and replaces the defined variables with their values",
+            "version": "0.5.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rollup-plugin-dotenv"
+          },
+          {
+            "name": "my-cli-envkey",
+            "description": "My CLI tool for envkey",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/my-cli-envkey"
+          },
+          {
+            "name": "@pi-team-mn/envkey",
+            "description": "Read an environment key or throw an error if it's not set",
+            "version": "1.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@pi-team-mn/envkey"
+          },
+          {
+            "name": "envkey-shell",
+            "description": "Import and execute envkey library from shell command",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/envkey-shell"
+          },
+          {
+            "name": "gh-envkey-linux64",
+            "description": "EnvKey secures and simplifies application secrets and config (LINUX 64-bit only).",
+            "version": "1.2.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/gh-envkey-linux64"
+          },
+          {
+            "name": "parcel-envkey-plugin",
+            "description": "Hackerone Researcher Predator_97",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/parcel-envkey-plugin"
+          },
+          {
+            "name": "auth0-write-config",
+            "description": "Write out Auth0 Cli config.json file, using envkey values.",
+            "version": "1.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/auth0-write-config"
+          },
+          {
+            "name": "@hashicorp/api-double",
+            "description": "api-double serving via HTTP or other means",
+            "version": "1.6.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@hashicorp/api-double"
+          },
+          {
+            "name": "rox-config-fetcher",
+            "description": "CloudBees Feature Management ROX JS SDK flag config fetcher",
+            "version": "6.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rox-config-fetcher"
+          },
+          {
+            "name": "@types/golang-wasm-exec",
+            "description": "TypeScript definitions for golang-wasm-exec",
+            "version": "1.15.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@types/golang-wasm-exec"
+          },
+          {
+            "name": "@neondatabase/vite-plugin-postgres",
+            "description": "This Vite plugin instantly provisions a Postgres instance (via Neon) and injects the connection string into your `.env` file, so you can start developing immediately.",
+            "version": "0.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@neondatabase/vite-plugin-postgres"
+          },
+          {
+            "name": "vite-plugin-msg-log",
+            "description": "log your current env",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/vite-plugin-msg-log"
+          },
+          {
+            "name": "@argodevops/semantic-release-teams",
+            "description": "plugin for semantic release to notify multiple teams channels of a release",
+            "version": "1.0.26",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@argodevops/semantic-release-teams"
+          },
+          {
+            "name": "config-reader-validator",
+            "description": "A simple config reader and validator",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/config-reader-validator"
+          },
+          {
+            "name": "@pi-team-mn/frontoffice-client",
+            "description": "Client library for FrontOffice",
+            "version": "2.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@pi-team-mn/frontoffice-client"
+          },
+          {
+            "name": "@australis/tiny-sql-connection-config",
+            "description": "It provides ms-sql/tedious connection config from connection-string from env key.",
+            "version": "1.0.0-23",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@australis/tiny-sql-connection-config"
+          },
+          {
+            "name": "airship-nodejs",
+            "description": "SDK for Airship",
+            "version": "1.1.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/airship-nodejs"
+          },
+          {
+            "name": "envkey-react",
+            "description": "React/redux layer for EnvKey app.",
+            "version": "0.9.94",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/envkey-react"
+          },
+          {
+            "name": "parcel-plugin-envkey",
+            "description": "Envkey Build Plugin for Parcel",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/parcel-plugin-envkey"
+          },
+          {
+            "name": "@ciklum-toggler/node-sdk",
+            "description": "Ciklum toggler Server-side SDK for Nodejs",
+            "version": "0.1.16",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ciklum-toggler/node-sdk"
+          },
+          {
+            "name": "@creatrip/env-safe",
+            "description": "\ud83d\udd11 Loads environment variables from .env for nodejs projects with safe",
+            "version": "0.2.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@creatrip/env-safe"
+          },
+          {
+            "name": "@rezkit/tour-manager",
+            "description": "Tour Manager API Client",
+            "version": "0.6.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@rezkit/tour-manager"
+          },
+          {
+            "name": "@ciklum-toggler/angular-sdk",
+            "description": "SDK for ciklum toggler",
+            "version": "0.3.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ciklum-toggler/angular-sdk"
+          },
+          {
+            "name": "@capsulajs/environment-registry",
+            "description": "A service used in Capsula-Hub to register environments on demand ",
+            "version": "0.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@capsulajs/environment-registry"
+          },
+          {
+            "name": "@manauser/react-env",
+            "description": "This package types environment variables.",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@manauser/react-env"
+          },
+          {
+            "name": "retack-sdk-app-observer",
+            "description": "The **Retack Sdk App Observer SDK** for React allows you to easily report JavaScript errors to the Retack AI service from your React applications.",
+            "version": "1.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/retack-sdk-app-observer"
+          },
+          {
+            "name": "@clouudsoftware/environment",
+            "description": "Simple wrapper to get environment variables in the right format",
+            "version": "0.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@clouudsoftware/environment"
+          },
+          {
+            "name": "json-env-extract",
+            "description": "Extract environment variables",
+            "version": "1.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/json-env-extract"
+          },
+          {
+            "name": "@getstation/authentication-ui",
+            "description": "Station authentcation UI",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@getstation/authentication-ui"
+          },
+          {
+            "name": "@igorissen/angular-env-builder",
+            "description": "Builder to generate \"src/environments/environment.ts\" file based on your environment variables",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@igorissen/angular-env-builder"
+          },
+          {
+            "name": "upstamps-react",
+            "description": "Integration with React helps and facilitates the process of testing and developing features in production and other environments. This integration consists of a set of plug-and-play components to accelerate the development process in your project.",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/upstamps-react"
+          },
+          {
+            "name": "export-serverless",
+            "description": "Deploy a fullstack serverless web app (including React, Angular, Node.js, Python) with an AWS CloudFront distribution in front of your API Gateway and static content from S3. Use your own custom domain, SSL from AWS, and AWS Web Application Firewall.",
+            "version": "0.9.1-beta.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/export-serverless"
+          },
+          {
+            "name": "dotenv-cli-editor",
+            "description": ".env editor from command line",
+            "version": "0.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/dotenv-cli-editor"
+          },
+          {
+            "name": "@getstation/authentication",
+            "description": "Station login page",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@getstation/authentication"
+          },
+          {
+            "name": "auth0-json-templating",
+            "description": "Constructs Auth0 tenant template details, replacing with env values.",
+            "version": "1.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/auth0-json-templating"
+          },
+          {
+            "name": "@clouud/environment",
+            "description": "Simple wrapper to get environment variables in the right format",
+            "version": "0.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@clouud/environment"
+          },
+          {
+            "name": "urequire-rc-exec",
+            "description": "uRequire RC that executes a `child_process.exec` CLI command against each matched FileResource, returning stdout.",
+            "version": "0.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/urequire-rc-exec"
+          },
+          {
+            "name": "@gedhean/rollup-plugin-dotenv",
+            "description": "## Installation",
+            "version": "0.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@gedhean/rollup-plugin-dotenv"
+          },
+          {
+            "name": "translation-sdk",
+            "description": "This translation SDK allows you to easily integrate translation features into an Angular application.",
+            "version": "0.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/translation-sdk"
+          },
+          {
+            "name": "easy-process-env",
+            "description": "Helper class for env variables",
+            "version": "0.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/easy-process-env"
+          },
+          {
+            "name": "rollup-plugin-dotenv-extended",
+            "description": "Rollup plugin that loads available .env files and replaces the defined variables with their values, you can also extended their values with .env variables",
+            "version": "2.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rollup-plugin-dotenv-extended"
+          },
+          {
+            "name": "easier-deploy",
+            "description": "make deployment easier",
+            "version": "3.2.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/easier-deploy"
+          },
+          {
+            "name": "zm-uni-manifest-env-plugin",
+            "description": "\u901a\u8fc7package.json\u4e2d\u9884\u5148\u5b9a\u4e49\u597d\u7684\u914d\u7f6e\uff0c\u5728\u81ea\u5b9a\u4e49\u8fd0\u884c\u65f6\u4fee\u6539manifest.json\u7684\u5b9e\u9645\u8fd0\u884c\u914d\u7f6e",
+            "version": "1.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/zm-uni-manifest-env-plugin"
+          },
+          {
+            "name": "vite-plugin-build-info-html",
+            "description": "a vite plugin to generate build info page",
+            "version": "1.0.12",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/vite-plugin-build-info-html"
+          },
+          {
+            "name": "load-envs",
+            "description": "# What this package does",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/load-envs"
+          },
+          {
+            "name": "get-input",
+            "description": "A lightweight library to get a value from argv and env",
+            "version": "0.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/get-input"
+          },
+          {
+            "name": "envlog",
+            "description": "A typescript console logger with an environment variable switch.",
+            "version": "1.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/envlog"
+          },
+          {
+            "name": "upstamps-js",
+            "description": "Integration with JavaScript Vanilla helps and facilitates the process of testing and developing features in production and other environments. The vanilla version can be integrated into any environment that uses JavaScript, you can use this integration in",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/upstamps-js"
+          },
+          {
+            "name": "generatetypesfromloops",
+            "description": "Generate types from your emails created in Loops",
+            "version": "2.0.23",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/generatetypesfromloops"
+          },
+          {
+            "name": "react-rewired-buildtime-env",
+            "description": "Custom environment variables baked straight into your final bundle",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-rewired-buildtime-env"
+          },
+          {
+            "name": "@xbsheng/umi-plugin-env",
+            "description": "Umi\u63d2\u4ef6\uff0c\u7528\u4e8e\u57fa\u4e8e\u73af\u5883\u53d8\u91cf\u52a0\u8f7d\u4e0d\u540c\u7684.env\u6587\u4ef6",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@xbsheng/umi-plugin-env"
+          },
+          {
+            "name": "apprc",
+            "description": "opinionated and non-configurable config loader for lazy people who like yaml",
+            "version": "2.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/apprc"
+          },
+          {
+            "name": "dotenv-cli-update",
+            "description": "A command-line interface tool that modifies a .env file",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/dotenv-cli-update"
+          },
+          {
+            "name": "boco-config",
+            "description": "Configuration for node.js apps",
+            "version": "0.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/boco-config"
+          },
+          {
+            "name": "enverize",
+            "description": "Swap in ENV in and out of Strings",
+            "version": "0.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/enverize"
+          },
+          {
+            "name": "featurematrix-js",
+            "description": "FeatureMatrix JavaScript Client",
+            "version": "0.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/featurematrix-js"
+          },
+          {
+            "name": "featurematrix-react",
+            "description": "FeatureMatrix React Client",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/featurematrix-react"
+          },
+          {
+            "name": "umi-plugin-cool-docker",
+            "description": "\u652f\u6301\u5c06\u9879\u76ee\u6253\u5305\u4e3a docker\u3002\u5e76\u4e14\u53ef\u4ee5\u901a\u8fc7 umirc \u914d\u7f6e\u73af\u5883\u53d8\u91cf\u3002\u73af\u5883\u53d8\u91cf\u517c\u5bb9\u672c\u5730\u5f00\u53d1\u3002\u72ec\u7acb\u90e8\u7f72\u548c docker \u90e8\u7f72\u3002",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/umi-plugin-cool-docker"
+          },
+          {
+            "name": "featurematrix-node",
+            "description": "FeatureMatrix Node Client",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/featurematrix-node"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 1,
+        "packages": [
+          {
+            "name": "envkey",
+            "version": "2.4.2",
+            "downloads": 439469,
+            "url": "https://rubygems.org/gems/envkey"
+          }
+        ]
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 65,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:19:37.146202"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:37.146207",
+    "batch_network": {
+      "batch": "Winter 2018",
+      "total_batch_mates": 145,
+      "active_batch_mates": 83,
+      "batch_success_rate": 57.2,
+      "notable_batch_mates": [
+        {
+          "name": "Newfront",
+          "slug": "newfront-insurance",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "Modern insurance brokerage."
+        },
+        {
+          "name": "Mayhem",
+          "slug": "mayhem",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Mayhem is the easiest way to play with your gaming community."
+        },
+        {
+          "name": "Pulse",
+          "slug": "pulse-2",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "We're crowdsourced Gartner so IT executives can learn directly from\u2026"
+        },
+        {
+          "name": "Bear Flag Robotics",
+          "slug": "bear-flag-robotics",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Autonomous driving technology for farm tractors."
+        },
+        {
+          "name": "ClearBrain",
+          "slug": "clearbrain",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Causal Analytics for Growth Teams"
+        },
+        {
+          "name": "Sepsis Scout",
+          "slug": "sepsis-scout",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Wearables and AI to predict and prevent sepsis outside the hospital"
+        },
+        {
+          "name": "onederful",
+          "slug": "onederful",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Dental Insurance API"
+        },
+        {
+          "name": "CodeStream",
+          "slug": "codestream",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "CodeStream is a Developer Collaboration Platform designed to\u2026"
+        },
+        {
+          "name": "Glimpse K12",
+          "slug": "glimpse-k12",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Glimpse eliminates ineffective spending in schools."
+        },
+        {
+          "name": "Squad",
+          "slug": "squad",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Squad is an app for live communities to have shared experiences\u2026"
+        }
+      ],
+      "batch_size": 146
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "status": "Active",
+          "batch": "Winter 2012",
+          "one_liner": "High Performance Computing Built for the Cloud"
+        },
+        {
+          "name": "Marft",
+          "slug": "marft",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Marft creates embeddable machine learning models for application\u2026"
+        },
+        {
+          "name": "Pixelapse",
+          "slug": "pixelapse",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Github for designers. We automatically keep track of revisions of\u2026"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Palantir for sales people"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Smart search for the modern team."
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Authy is a Two-Factor Authentication platform for developers"
+        },
+        {
+          "name": "Flutter",
+          "slug": "flutter",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Flutter combined computer vision technology with the built-in webcams\u2026"
+        },
+        {
+          "name": "SolidStage",
+          "slug": "solidstage",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Sysadmin as a service. We make deploying, configuring, monitoring,\u2026"
+        },
+        {
+          "name": "Clutch",
+          "slug": "clutch",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "An easy to integrate library for native iOS applications designed to\u2026"
+        },
+        {
+          "name": "OneSignal",
+          "slug": "onesignal",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Engage customers through personalized omni-channel messaging"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "San Francisco",
+      "location": "San Francisco, CA, USA; Remote",
+      "companies_in_city": 2007,
+      "active_in_city": 1339,
+      "nearby_companies": [
+        {
+          "name": "42Floors",
+          "slug": "42floors",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "PlanGrid",
+          "slug": "plangrid",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "MyVR",
+          "slug": "myvr",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Couple",
+          "slug": "couple",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HackPad",
+          "slug": "hackpad",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Gusto",
+          "slug": "gusto",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "FamilyLeaf",
+          "slug": "familyleaf",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Chute",
+          "slug": "chute",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Make School",
+          "slug": "make-school",
+          "batch": "Winter 2012",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Exec",
+          "slug": "exec",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Public"
+        },
+        {
+          "name": "LendUp",
+          "slug": "lendup",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tilt",
+          "slug": "tilt",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fond",
+          "slug": "fond",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Haiku",
+        "slug": "haiku",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "miru",
+        "slug": "miru",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Pagedraw",
+        "slug": "pagedraw",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Voicery",
+        "slug": "voicery",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Replit",
+        "slug": "replit",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Torch",
+        "slug": "torch",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Shogun",
+        "slug": "shogun",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Observant AI",
+        "slug": "observant-ai",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Pulse",
+        "slug": "pulse-2",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Fondo",
+        "slug": "fondo",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 4898,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:19:37.175310"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:37.175318",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:37.537201",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:37.681024",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 2,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:42:02.022411",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "medium",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increased awareness of secrets management best practices",
+        "Growing adoption of DevOps and cloud-native architectures",
+        "Stricter data privacy regulations (e.g., GDPR, CCPA)"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "End-to-end encryption and user-friendly UI create a barrier to entry.",
+      "differentiation": "Focus on end-to-end encryption ensuring no third party access to secrets.",
+      "competitive_advantages": [
+        "Strong security posture with end-to-end encryption",
+        "Developer-friendly UI and easy integration"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on user adoption of security best practices",
+        "Potential performance overhead due to encryption"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "low"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "Increasing customer base",
+        "Positive user reviews and testimonials"
+      ],
+      "growth_bottlenecks": [
+        "Competition from established players",
+        "Educating users on the importance of secrets management"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Security vulnerabilities in encryption implementation",
+        "Loss of user keys leading to data inaccessibility",
+        "Competition from open-source solutions"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong security focus",
+        "Developer-friendly approach",
+        "Addresses a critical need in modern software development"
+      ],
+      "concerns": [
+        "Market awareness and adoption",
+        "Competition from larger players with more resources"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "HashiCorp Vault",
+        "CyberArk"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on marketing and sales to increase market awareness",
+        "Expand integrations with popular development tools and platforms"
+      ],
+      "expansion_opportunities": [
+        "Offer enterprise-grade features and support",
+        "Explore partnerships with cloud providers and DevOps tool vendors"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 726,
+      "completion": 628,
+      "total": 1354,
+      "estimated_cost": 0.000243
+    }
+  },
+  "phase8_complete": true
+}

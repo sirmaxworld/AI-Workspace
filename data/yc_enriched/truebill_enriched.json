@@ -1,0 +1,519 @@
+{
+  "slug": "truebill",
+  "name": "Truebill",
+  "yc_id": 1005,
+  "batch": "Winter 2016",
+  "website": "https://www.truebill.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:36:42.009005",
+    "website": "https://www.truebill.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 970.17,
+      "final_url": "https://www.rocketmoney.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:36:42.979187"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "truebill.com",
+      "registrar": "CSC Corporate Domains, Inc.",
+      "creation_date": "2000-02-06T03:13:38",
+      "expiration_date": "2029-02-06T03:13:38",
+      "domain_age_days": 9384,
+      "domain_age_years": 25.7,
+      "name_servers": [
+        "NS-128.AWSDNS-16.COM",
+        "NS-1295.AWSDNS-33.ORG",
+        "NS-1711.AWSDNS-21.CO.UK",
+        "NS-875.AWSDNS-45.NET"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://x.com/rocketmoneyapp",
+      "linkedin": "https://www.linkedin.com/company/rocketmoney/",
+      "github": null,
+      "facebook": null,
+      "instagram": "https://www.instagram.com/rocketmoney/?hl=en",
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": true,
+      "x_content_type_options": true,
+      "x_xss_protection": true,
+      "referrer_policy": true,
+      "security_score": 83,
+      "server": "nginx"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:16:46.310880",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:16:32.910880",
+    "place_data": {
+      "status": "success",
+      "method": "nominatim",
+      "formatted_address": "Silver Spring, Montgomery County, Maryland, United States",
+      "coordinates": {
+        "latitude": 38.9997621,
+        "longitude": -77.0240371
+      },
+      "place_types": [
+        "statistical"
+      ],
+      "retrieved_at": "2025-10-17T10:16:33.200388"
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:33.201433",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:33.201439",
+    "batch_network": {
+      "batch": "Winter 2016",
+      "total_batch_mates": 121,
+      "active_batch_mates": 59,
+      "batch_success_rate": 48.8,
+      "notable_batch_mates": [
+        {
+          "name": "Stilt",
+          "slug": "stilt",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Financial products for immigrants (acquired by JG Wentworth)"
+        },
+        {
+          "name": "Embark Trucks",
+          "slug": "embark-trucks",
+          "status": "Public",
+          "top_company": false,
+          "one_liner": "Self-driving semi trucks."
+        },
+        {
+          "name": "Loop Genomics",
+          "slug": "loop-genomics",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Novel long-read DNA sequencing technology"
+        },
+        {
+          "name": "Able Health",
+          "slug": "able-health",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Able Health gets doctors paid more for higher quality care"
+        },
+        {
+          "name": "LendEDU",
+          "slug": "lendedu",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "LendEDU is a marketplace for consumer financial products."
+        },
+        {
+          "name": "Luminist Labs",
+          "slug": "luminist-labs",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Diagnostic platform for early detection of liver disease"
+        },
+        {
+          "name": "MineralSoft",
+          "slug": "mineralsoft",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Data management platform for oil & gas assets"
+        },
+        {
+          "name": "Pulpix",
+          "slug": "pulpix",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Binge-watching technology for video platforms. "
+        },
+        {
+          "name": "Paystack",
+          "slug": "paystack",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Modern payments infrastructure for Africa"
+        },
+        {
+          "name": "Goodybag",
+          "slug": "goodybag",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "An online tool for companies to order food from restaurants and\u2026"
+        }
+      ],
+      "batch_size": 122
+    },
+    "industry_network": {
+      "industries": [
+        "Fintech",
+        "Consumer Finance"
+      ],
+      "total_industry_peers": 597,
+      "active_industry_peers": 448,
+      "direct_competitors": [
+        {
+          "name": "Tilt",
+          "slug": "tilt",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Mobile crowdfunding: The easiest way to collect, fundraise, and sell\u2026"
+        },
+        {
+          "name": "Debteye",
+          "slug": "debteye",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Automate credit counseling."
+        },
+        {
+          "name": "GoCardless",
+          "slug": "gocardless",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "We\u2019re building the world\u2019s bank payment network."
+        },
+        {
+          "name": "MarketBrief",
+          "slug": "marketbrief",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Generate stories from SEC filings."
+        },
+        {
+          "name": "Leaky",
+          "slug": "leaky",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Online auto and business insurance. (Acquired 2013)"
+        },
+        {
+          "name": "Balanced",
+          "slug": "balanced",
+          "status": "Inactive",
+          "batch": "Winter 2011",
+          "one_liner": "Payments for Marketplaces"
+        },
+        {
+          "name": "FutureAdvisor",
+          "slug": "futureadvisor",
+          "status": "Acquired",
+          "batch": "Summer 2010",
+          "one_liner": "The online financial management service for everyone."
+        },
+        {
+          "name": "Ready For Zero",
+          "slug": "ready-for-zero",
+          "status": "Inactive",
+          "batch": "Summer 2010",
+          "one_liner": "Personal debt and credit management. Acquired by Avant in 2015."
+        },
+        {
+          "name": "Buxfer",
+          "slug": "buxfer",
+          "status": "Active",
+          "batch": "Winter 2007",
+          "one_liner": "Buxfer helps you make better spending decisions by making it easy to\u2026"
+        },
+        {
+          "name": "TextPayMe",
+          "slug": "textpayme",
+          "status": "Acquired",
+          "batch": "Summer 2005",
+          "one_liner": ""
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Silver Spring",
+      "location": "Silver Spring, MD, USA",
+      "companies_in_city": 0,
+      "active_in_city": 0,
+      "nearby_companies": [],
+      "ecosystem_density": "low"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Stilt",
+        "slug": "stilt",
+        "batch": "Winter 2016",
+        "industry": "Fintech",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "AlphaFlow",
+        "slug": "alphaflow",
+        "batch": "Winter 2016",
+        "industry": "Fintech",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Algoriz",
+        "slug": "algoriz",
+        "batch": "Winter 2016",
+        "industry": "Fintech",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "WorldCover",
+        "slug": "worldcover",
+        "batch": "Winter 2016",
+        "industry": "Fintech",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Meter Feeder",
+        "slug": "meter-feeder",
+        "batch": "Winter 2016",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Paystack",
+        "slug": "paystack",
+        "batch": "Winter 2016",
+        "industry": "Fintech",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Emburse",
+        "slug": "emburse",
+        "batch": "Winter 2016",
+        "industry": "Fintech",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Landed",
+        "slug": "landed",
+        "batch": "Winter 2016",
+        "industry": "Fintech",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Cover",
+        "slug": "cover",
+        "batch": "Winter 2016",
+        "industry": "Fintech",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Tilt",
+        "slug": "tilt",
+        "batch": "Winter 2012",
+        "industry": "Fintech",
+        "status": "Acquired",
+        "similarity_score": 5,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 718,
+      "network_density_score": 64.2,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": false,
+      "calculated_at": "2025-10-17T10:16:33.210505"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:33.210509",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:33.554464",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:33.664603",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 225,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:48.195955",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increased consumer awareness of personal finance",
+        "Rise of subscription-based services",
+        "Growing demand for automated financial management tools"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Data aggregation and analysis, brand recognition, established user base",
+      "differentiation": "Focus on subscription cancellation and bill negotiation, user-friendly interface",
+      "competitive_advantages": [
+        "Early mover advantage",
+        "Strong brand reputation"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on third-party APIs",
+        "Potential for competitors to replicate features"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "mature",
+      "growth_indicators": [
+        "User base growth",
+        "Revenue growth",
+        "Successful acquisition"
+      ],
+      "growth_bottlenecks": [
+        "Market saturation",
+        "Increasing customer acquisition costs"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "low",
+      "overall_risk_score": 3,
+      "key_risks": [
+        "Data security breaches",
+        "Changes in API access",
+        "Increased competition"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong value proposition",
+        "Proven business model",
+        "Large addressable market"
+      ],
+      "concerns": [
+        "Dependence on subscription economy",
+        "Potential for regulatory scrutiny"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Mint",
+        "Personal Capital"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Expand product offerings (e.g., investment management)",
+        "Enhance data security measures"
+      ],
+      "expansion_opportunities": [
+        "Partnerships with financial institutions",
+        "International expansion"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 707,
+      "completion": 464,
+      "total": 1171,
+      "estimated_cost": 0.000192
+    }
+  },
+  "phase8_complete": true
+}

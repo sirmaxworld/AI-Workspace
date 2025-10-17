@@ -1,0 +1,661 @@
+{
+  "slug": "todos-comemos",
+  "name": "Todos Comemos",
+  "yc_id": 22303,
+  "batch": "Summer 2020",
+  "website": "https://todoscomemos.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:57:38.232483",
+    "website": "https://todoscomemos.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 4924.02,
+      "final_url": "https://www.todoscomemos.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:57:43.156507"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "todoscomemos.com",
+      "registrar": "PDR Ltd. d/b/a PublicDomainRegistry.com",
+      "creation_date": "2020-03-18T21:39:23",
+      "expiration_date": "2027-03-18T21:39:23",
+      "domain_age_days": 2038,
+      "domain_age_years": 5.6,
+      "name_servers": [
+        "NS-1455.AWSDNS-53.ORG",
+        "NS-1639.AWSDNS-12.CO.UK",
+        "NS-470.AWSDNS-58.COM",
+        "NS-777.AWSDNS-33.NET"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": false,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 0,
+      "server": "Apache"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:26:00.944733",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:25:48.206091",
+    "place_data": {
+      "status": "success",
+      "method": "nominatim",
+      "formatted_address": "Bogot\u00e1, Bogot\u00e1, Distrito Capital, RAP (Especial) Central, Colombia",
+      "coordinates": {
+        "latitude": 4.6533815,
+        "longitude": -74.0836331
+      },
+      "place_types": [
+        "administrative"
+      ],
+      "retrieved_at": "2025-10-17T10:17:08.263538",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:25:48.206119",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:25:48.206123",
+    "batch_network": {
+      "batch": "Summer 2020",
+      "total_batch_mates": 207,
+      "active_batch_mates": 130,
+      "batch_success_rate": 62.8,
+      "notable_batch_mates": [
+        {
+          "name": "Ladder",
+          "slug": "ladder",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Labor Marketplace for Construction"
+        },
+        {
+          "name": "Fig",
+          "slug": "fig",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Fig adds visual apps, shortcuts, and autocomplete to your terminal."
+        },
+        {
+          "name": "Altro",
+          "slug": "altro",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Build Credit With Your Subscriptions"
+        },
+        {
+          "name": "Jemi",
+          "slug": "jemi",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Jemi helps people build beautiful websites and stores."
+        },
+        {
+          "name": "LSK Technologies",
+          "slug": "lsk-technologies",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A diagnostic lab in a box"
+        },
+        {
+          "name": "Command AI",
+          "slug": "command-ai",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "AI-powered user assistance platform"
+        },
+        {
+          "name": "Bandit ML",
+          "slug": "bandit-ml",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Bandit ML builds machine learning tools for e-commerce companies."
+        },
+        {
+          "name": "Momence",
+          "slug": "momence",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Scheduling and payments for experiences"
+        },
+        {
+          "name": "Gather",
+          "slug": "gather",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Project management software for People Operations"
+        },
+        {
+          "name": "Finmark",
+          "slug": "finmark",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Financial planning software for startups"
+        }
+      ],
+      "batch_size": 208
+    },
+    "industry_network": {
+      "industries": [
+        "Consumer",
+        "Food and Beverage"
+      ],
+      "total_industry_peers": 852,
+      "active_industry_peers": 407,
+      "direct_competitors": [
+        {
+          "name": "Grouper",
+          "slug": "grouper",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "We set up drinks between 2 groups of friends: 3 guys and 3 girls."
+        },
+        {
+          "name": "PayDragon",
+          "slug": "paydragon",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Hyperlinking the real world."
+        },
+        {
+          "name": "Caviar",
+          "slug": "caviar",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Uber for food."
+        },
+        {
+          "name": "OrderAhead",
+          "slug": "orderahead",
+          "status": "Acquired",
+          "batch": "Winter 2011",
+          "one_liner": "Order ahead for pickup"
+        },
+        {
+          "name": "Foodoro",
+          "slug": "foodoro",
+          "status": "Inactive",
+          "batch": "Winter 2009",
+          "one_liner": ""
+        },
+        {
+          "name": "Soylent",
+          "slug": "soylent",
+          "status": "Acquired",
+          "batch": "Summer 2012",
+          "one_liner": "Soylent is a simple, nutritious, and affordable food that possesses\u2026"
+        },
+        {
+          "name": "Instacart",
+          "slug": "instacart",
+          "status": "Public",
+          "batch": "Summer 2012",
+          "one_liner": "Marketplace for grocery delivery and pickup"
+        },
+        {
+          "name": "Goldbelly",
+          "slug": "goldbelly",
+          "status": "Active",
+          "batch": "Winter 2013",
+          "one_liner": "Empowering restaurants and small food makers to ship nationwide."
+        },
+        {
+          "name": "DoorDash",
+          "slug": "doordash",
+          "status": "Public",
+          "batch": "Summer 2013",
+          "one_liner": "Restaurant delivery."
+        },
+        {
+          "name": "SpoonRocket",
+          "slug": "spoonrocket",
+          "status": "Acquired",
+          "batch": "Summer 2013",
+          "one_liner": "Meals Delivered in 10 Minutes"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Bogot\u00e1",
+      "location": "Bogot\u00e1, Bogota, Colombia",
+      "companies_in_city": 20,
+      "active_in_city": 16,
+      "nearby_companies": [
+        {
+          "name": "Rappi",
+          "slug": "rappi",
+          "batch": "Winter 2016",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Hogaru",
+          "slug": "hogaru",
+          "batch": "Winter 2017",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "tpaga",
+          "slug": "tpaga",
+          "batch": "Summer 2017",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Simetrik",
+          "slug": "simetrik",
+          "batch": "Winter 2018",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "UBITS",
+          "slug": "ubits",
+          "batch": "Summer 2018",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Valiu",
+          "slug": "valiu",
+          "batch": "Summer 2019",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "LAIKA",
+          "slug": "laika",
+          "batch": "Summer 2019",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Preki",
+          "slug": "preki",
+          "batch": "Winter 2021",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Treinta",
+          "slug": "treinta",
+          "batch": "Winter 2021",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Luable",
+          "slug": "luable",
+          "batch": "Summer 2021",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Protego",
+          "slug": "protego",
+          "batch": "Summer 2021",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Selia",
+          "slug": "selia",
+          "batch": "Winter 2022",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Tr\u00e9bol",
+          "slug": "trebol",
+          "batch": "Winter 2022",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Castia",
+          "slug": "castia",
+          "batch": "Winter 2022",
+          "industry": "Real Estate and Construction",
+          "status": "Inactive"
+        },
+        {
+          "name": "Talentropy.ai",
+          "slug": "talentropy-ai",
+          "batch": "Winter 2022",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "HippoBuild",
+          "slug": "hippobuild",
+          "batch": "Winter 2022",
+          "industry": "Real Estate and Construction",
+          "status": "Active"
+        },
+        {
+          "name": "Mono",
+          "slug": "mono-2",
+          "batch": "Winter 2022",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Milio",
+          "slug": "milio",
+          "batch": "Winter 2023",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Littio",
+          "slug": "littio",
+          "batch": "Winter 2023",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Cifrato",
+          "slug": "cifrato",
+          "batch": "Winter 2025",
+          "industry": "B2B",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "low"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Racer",
+        "slug": "racer",
+        "batch": "Summer 2020",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Hotplate",
+        "slug": "hotplate",
+        "batch": "Summer 2020",
+        "industry": "Consumer",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "MilkRun",
+        "slug": "milkrun",
+        "batch": "Summer 2020",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Fancy",
+        "slug": "fancy",
+        "batch": "Summer 2020",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Byte",
+        "slug": "byte",
+        "batch": "Summer 2020",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Riogrande",
+        "slug": "riogrande",
+        "batch": "Summer 2020",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Rappi",
+        "slug": "rappi",
+        "batch": "Winter 2016",
+        "industry": "Consumer",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Photoroom",
+        "slug": "photoroom",
+        "batch": "Summer 2020",
+        "industry": "Consumer",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Jemi",
+        "slug": "jemi",
+        "batch": "Summer 2020",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Momence",
+        "slug": "momence",
+        "batch": "Summer 2020",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 1079,
+      "network_density_score": 85.4,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": false,
+      "calculated_at": "2025-10-17T10:25:48.241152"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:25:48.241163",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:25:48.591079",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:25:48.729697",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 62,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:42:22.838608",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "emerging",
+      "key_trends": [
+        "Growing urbanization in LATAM driving convenience food demand",
+        "Rising middle class with disposable income for prepared foods",
+        "Cold chain infrastructure development across Latin America"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Distribution network effects and regional food technology expertise",
+      "differentiation": "Focus on healthy prepared foods with multichannel distribution strategy specific to LATAM market",
+      "competitive_advantages": [
+        "Deep LATAM market knowledge",
+        "Integrated technology and distribution platform"
+      ],
+      "competitive_vulnerabilities": [
+        "Limited brand recognition vs established food companies",
+        "Dependence on cold chain infrastructure development"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "B2B distribution platform with proprietary food products",
+      "scalability": "high",
+      "capital_intensity": "high"
+    },
+    "growth_assessment": {
+      "growth_stage": "series-a",
+      "growth_indicators": [
+        "62-person team size indicates significant scaling",
+        "5.6 years domain age shows market persistence"
+      ],
+      "growth_bottlenecks": [
+        "Cold chain logistics complexity",
+        "Regulatory compliance across multiple LATAM countries"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "high",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Complex multi-country expansion",
+        "Food safety and regulatory compliance",
+        "Competition from established CPG companies"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Large addressable market in underserved region",
+        "Dual revenue streams from products and distribution",
+        "Strong team execution evidenced by growth"
+      ],
+      "concerns": [
+        "Capital intensive business model",
+        "Complex regulatory environment across LATAM"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Freshly",
+        "Factor75"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on 2-3 key LATAM markets for deep penetration",
+        "Develop strategic partnerships with major retailers"
+      ],
+      "expansion_opportunities": [
+        "Private label partnerships with major brands",
+        "B2C direct-to-consumer channel development"
+      ]
+    },
+    "tokens_used": {
+      "input": 753,
+      "output": 561,
+      "total": 1314,
+      "estimated_cost": 0.010674
+    }
+  },
+  "phase8_complete": true
+}

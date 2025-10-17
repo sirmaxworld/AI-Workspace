@@ -1,0 +1,148 @@
+{
+  "slug": "artie",
+  "name": "Artie",
+  "yc_id": 28650,
+  "batch": "Summer 2023",
+  "website": "https://www.artie.com/",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T01:23:45.725017",
+    "website": "https://www.artie.com/",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 1693.44,
+      "final_url": "https://www.artie.com/",
+      "redirected": false,
+      "checked_at": "2025-10-17T01:23:47.418462"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "artie.com",
+      "registrar": "NAMECHEAP INC",
+      "creation_date": "1996-07-15T04:00:00",
+      "expiration_date": "2026-07-14T04:00:00",
+      "domain_age_days": 10685,
+      "domain_age_years": 29.3,
+      "name_servers": [
+        "ELLE.NS.CLOUDFLARE.COM",
+        "GLEN.NS.CLOUDFLARE.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://x.com/artie_tech",
+      "linkedin": "https://www.linkedin.com/company/artie-technologies",
+      "github": "https://github.com/artie-labs",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": true,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 33,
+      "server": "cloudflare"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:40:42.465882",
+  "phase1_complete": true,
+  "phase2_complete": false,
+  "phase3_complete": false,
+  "phase4_complete": false,
+  "phase5_complete": false,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0-claude",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T10:53:11.760445",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Real-time analytics demand increasing",
+        "Cloud data warehouse adoption accelerating",
+        "Data streaming becoming mission-critical for enterprises"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Technical expertise in real-time data streaming with focus on simplicity and reliability",
+      "differentiation": "Eliminates batch processing delays with true real-time streaming from databases to warehouses",
+      "competitive_advantages": [
+        "Real-time data synchronization",
+        "Simplified setup compared to complex ETL pipelines"
+      ],
+      "competitive_vulnerabilities": [
+        "Established players like Fivetran have more resources",
+        "Cloud providers building native streaming solutions"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "low"
+    },
+    "growth_assessment": {
+      "growth_stage": "seed",
+      "growth_indicators": [
+        "Growing demand for real-time analytics",
+        "8-person team indicates early traction"
+      ],
+      "growth_bottlenecks": [
+        "Sales cycle complexity with enterprise customers",
+        "Need to prove reliability at scale"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Competition from well-funded incumbents",
+        "Technical complexity of real-time streaming",
+        "Customer acquisition in crowded data integration market"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Addresses clear pain point of stale data",
+        "Large addressable market",
+        "Y Combinator backing provides credibility"
+      ],
+      "concerns": [
+        "Intense competition from established players",
+        "Technical execution challenges at enterprise scale"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Fivetran",
+        "Airbyte"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on specific vertical or use case for initial market penetration",
+        "Build enterprise-grade reliability and monitoring features"
+      ],
+      "expansion_opportunities": [
+        "Add data transformation capabilities",
+        "Expand to real-time ML feature stores"
+      ]
+    },
+    "tokens_used": {
+      "input": 691,
+      "output": 554,
+      "total": 1245,
+      "estimated_cost": 0.010383
+    },
+    "status": "success"
+  },
+  "phase8_complete": true
+}

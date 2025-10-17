@@ -1,0 +1,554 @@
+{
+  "slug": "quickchat-ai",
+  "name": "Quickchat AI",
+  "yc_id": 1957,
+  "batch": "Summer 2018",
+  "website": "https://quickchat.ai/",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:43:34.046563",
+    "website": "https://quickchat.ai/",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 1907.38,
+      "final_url": "https://quickchat.ai/",
+      "redirected": false,
+      "checked_at": "2025-10-17T00:43:35.953959"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "quickchat.ai",
+      "registrar": "NAMECHEAP INC",
+      "creation_date": "2020-08-28T11:26:27",
+      "expiration_date": "2026-08-28T11:26:27",
+      "domain_age_days": 1875,
+      "domain_age_years": 5.1,
+      "name_servers": [
+        "jo.ns.cloudflare.com",
+        "christian.ns.cloudflare.com"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://x.com/quickchatai/",
+      "linkedin": "https://www.linkedin.com/company/quickchatai/",
+      "github": "https://github.com/quickchatai/",
+      "facebook": "https://www.facebook.com/quickchatai/",
+      "instagram": "https://www.instagram.com/quickchatai/",
+      "youtube": "https://www.youtube.com/Quickchat/"
+    },
+    "security_headers": {
+      "strict_transport_security": false,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 0,
+      "server": "cloudflare"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:20:41.825349",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:20:30.646811",
+    "place_data": {
+      "status": "success",
+      "method": "nominatim",
+      "formatted_address": "Warszawa, wojew\u00f3dztwo mazowieckie, Polska",
+      "coordinates": {
+        "latitude": 52.2333742,
+        "longitude": 21.0711489
+      },
+      "place_types": [
+        "administrative"
+      ],
+      "retrieved_at": "2025-10-17T10:20:30.921336"
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:20:30.922218",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/quickchatai"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 0,
+      "has_packages": false,
+      "checked_at": "2025-10-17T10:20:32.601072"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:20:32.601078",
+    "batch_network": {
+      "batch": "Summer 2018",
+      "total_batch_mates": 130,
+      "active_batch_mates": 78,
+      "batch_success_rate": 60.0,
+      "notable_batch_mates": [
+        {
+          "name": "Allotrope Medical",
+          "slug": "allotrope-medical",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Advancing surgical precision through safe electrical stimulation. "
+        },
+        {
+          "name": "Honeylove",
+          "slug": "honeylove",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "Honeylove makes functional undergarments for women"
+        },
+        {
+          "name": "Phiar",
+          "slug": "phiar",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "We are developing a revolutionary AI-powered augmented reality\u2026"
+        },
+        {
+          "name": "Lowkey",
+          "slug": "lowkey",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Capture, create, & share gaming moments (Acquired by Niantic!)"
+        },
+        {
+          "name": "Demeanor.co",
+          "slug": "demeanor-co",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Now part of thentwrk.com"
+        },
+        {
+          "name": "Optic",
+          "slug": "optic",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Making APIs Developer-friendly "
+        },
+        {
+          "name": "OneGraph",
+          "slug": "onegraph",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "GraphQL API to connect all of the internet's APIs. Join us at Netlify!"
+        },
+        {
+          "name": "Scanwell Health",
+          "slug": "scanwell-health",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Smartphone-enabled, at-home diagnostics"
+        },
+        {
+          "name": "Berbix",
+          "slug": "berbix",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Convert more verified users. Instantly & accurately validate user IDs."
+        },
+        {
+          "name": "Impactive (formerly Outvote)",
+          "slug": "impactive",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Political/civic tech helping progressive campaigns organize & mobilize"
+        }
+      ],
+      "batch_size": 131
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Productivity"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "WireOver",
+          "slug": "wireover",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Really secure file sending for big files."
+        },
+        {
+          "name": "SendHub",
+          "slug": "sendhub",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Simple Business SMS. SMBs to Large Enterprise."
+        },
+        {
+          "name": "HackPad",
+          "slug": "hackpad",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "A realtime wiki for getting things done."
+        },
+        {
+          "name": "Screenleap",
+          "slug": "screenleap-inc",
+          "status": "Active",
+          "batch": "Winter 2012",
+          "one_liner": "One-click screen sharing with installation-free viewing on all devices"
+        },
+        {
+          "name": "Glider",
+          "slug": "glider",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "We filter distracting emails away from your inbox."
+        },
+        {
+          "name": "Stypi",
+          "slug": "stypi",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Realtime collaborative coding"
+        },
+        {
+          "name": "Zenbox",
+          "slug": "zenbox",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Brings dozens of SaaS's (Mailchimp, Stripe, Shopify, Salesforce,\u2026"
+        },
+        {
+          "name": "Interstate",
+          "slug": "interstate",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Create & Share Product Roadmaps"
+        },
+        {
+          "name": "Draft",
+          "slug": "draft",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Making Draft. Super simple version control and collaboration for\u2026"
+        },
+        {
+          "name": "TellFi",
+          "slug": "tellfi",
+          "status": "Inactive",
+          "batch": "Winter 2011",
+          "one_liner": "Google Voice for business."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Warsaw",
+      "location": "Warsaw, Masovian Voivodeship, Poland",
+      "companies_in_city": 1,
+      "active_in_city": 1,
+      "nearby_companies": [
+        {
+          "name": "Alokai",
+          "slug": "alokai",
+          "batch": "Winter 2021",
+          "industry": "B2B",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "low"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Warpdrive by Synthetic Minds",
+        "slug": "synthetic-minds",
+        "batch": "Summer 2018",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Vimcal",
+        "slug": "vimcal",
+        "batch": "Summer 2018",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Embeddables (formerly Savvy)",
+        "slug": "embeddables",
+        "batch": "Summer 2018",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "iLabService",
+        "slug": "ilabservice",
+        "batch": "Summer 2018",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "User Hero",
+        "slug": "user-hero",
+        "batch": "Summer 2018",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Klarity",
+        "slug": "klarity",
+        "batch": "Summer 2018",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Modern Treasury",
+        "slug": "modern-treasury",
+        "batch": "Summer 2018",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "numericcal, inc.",
+        "slug": "numericcal-inc",
+        "batch": "Summer 2018",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Federacy",
+        "slug": "federacy",
+        "batch": "Summer 2018",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Xkit",
+        "slug": "xkit",
+        "batch": "Summer 2018",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 2877,
+      "network_density_score": 66.2,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": false,
+      "calculated_at": "2025-10-17T10:20:32.607946"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:20:32.607950",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:20:32.950158",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:20:33.072724",
+    "basic_info": {
+      "is_hiring": true,
+      "team_size": 14,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:42:01.503194",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increased adoption of AI assistants",
+        "Demand for multilingual support",
+        "Low-code/no-code AI development"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Early mover advantage, YC backing, integrations",
+      "differentiation": "Conversation design platform focused on multilingual AI assistants powered by generative AI.",
+      "competitive_advantages": [
+        "Ease of integration",
+        "Multilingual capabilities"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on underlying generative AI models (GPT)",
+        "Potential for commoditization of AI assistant platforms"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "series-a",
+      "growth_indicators": [
+        "Customer acquisition rate",
+        "API usage",
+        "Expansion into new markets"
+      ],
+      "growth_bottlenecks": [
+        "Sales cycle length",
+        "Integration complexity for some clients"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Competition from larger AI platforms",
+        "Dependence on third-party AI models",
+        "Maintaining accuracy and reliability of AI assistants"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong team",
+        "Large and growing market",
+        "YC pedigree"
+      ],
+      "concerns": [
+        "Competitive landscape",
+        "Reliance on external AI models"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Dialogflow",
+        "Amazon Lex"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on specific industry verticals",
+        "Develop proprietary AI models to reduce reliance on third parties"
+      ],
+      "expansion_opportunities": [
+        "Partnerships with CRM and marketing automation platforms",
+        "Expand into new languages and regions"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 675,
+      "completion": 489,
+      "total": 1164,
+      "estimated_cost": 0.000197
+    }
+  },
+  "phase8_complete": true
+}

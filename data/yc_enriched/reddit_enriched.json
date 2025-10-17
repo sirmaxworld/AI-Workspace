@@ -1,0 +1,627 @@
+{
+  "slug": "reddit",
+  "name": "Reddit",
+  "yc_id": 379,
+  "batch": "Summer 2005",
+  "website": "http://reddit.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:31:57.744578",
+    "website": "http://reddit.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 1153.48,
+      "final_url": "https://www.reddit.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:31:58.898069"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "reddit.com",
+      "registrar": "MarkMonitor, Inc.",
+      "creation_date": "2005-04-29T17:59:19",
+      "expiration_date": "2026-04-29T17:59:19",
+      "domain_age_days": 7475,
+      "domain_age_years": 20.5,
+      "name_servers": [
+        "NS-1029.AWSDNS-00.ORG",
+        "NS-1887.AWSDNS-43.CO.UK",
+        "NS-378.AWSDNS-47.COM",
+        "NS-557.AWSDNS-05.NET"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": true,
+      "x_frame_options": true,
+      "x_content_type_options": true,
+      "x_xss_protection": true,
+      "referrer_policy": false,
+      "security_score": 83,
+      "server": "snooserv"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:13:32.598084",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:04:08.714180",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "San Francisco, CA, USA",
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:03:07.888811",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:04:08.714217",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:04:08.714222",
+    "batch_network": {
+      "batch": "Summer 2005",
+      "total_batch_mates": 8,
+      "active_batch_mates": 0,
+      "batch_success_rate": 0.0,
+      "notable_batch_mates": [
+        {
+          "name": "Loopt",
+          "slug": "loopt",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": ""
+        },
+        {
+          "name": "TextPayMe",
+          "slug": "textpayme",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": ""
+        },
+        {
+          "name": "Clickfacts",
+          "slug": "clickfacts",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": ""
+        },
+        {
+          "name": "Kiko",
+          "slug": "kiko",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "We're the best online calendar solution to ever exist. Period."
+        },
+        {
+          "name": "Parakey",
+          "slug": "parakey",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": ""
+        }
+      ],
+      "batch_size": 9
+    },
+    "industry_network": {
+      "industries": [
+        "Consumer",
+        "Content"
+      ],
+      "total_industry_peers": 852,
+      "active_industry_peers": 408,
+      "direct_competitors": [
+        {
+          "name": "Loom",
+          "slug": "loom",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Cloud storage for photos and videos (acquired by Dropbox). "
+        },
+        {
+          "name": "Ark",
+          "slug": "ark",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Ark organizes the world's social information. "
+        },
+        {
+          "name": "Socialcam",
+          "slug": "socialcam",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "The easiest way to share videos with friends and family. "
+        },
+        {
+          "name": "Genius",
+          "slug": "genius",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Music Intelligence"
+        },
+        {
+          "name": "Snapjoy",
+          "slug": "snapjoy",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Photo library."
+        },
+        {
+          "name": "Hyperink",
+          "slug": "hyperink",
+          "status": "Inactive",
+          "batch": "Winter 2011",
+          "one_liner": "Ebook publisher."
+        },
+        {
+          "name": "Upbeat",
+          "slug": "upbeat",
+          "status": "Inactive",
+          "batch": "Summer 2010",
+          "one_liner": "Upbeat: Building the next generation of Public Relations (PR)"
+        },
+        {
+          "name": "Nowmov",
+          "slug": "nowmov",
+          "status": "Acquired",
+          "batch": "Winter 2010",
+          "one_liner": ""
+        },
+        {
+          "name": "Answerly",
+          "slug": "answerly",
+          "status": "Inactive",
+          "batch": "Winter 2010",
+          "one_liner": ""
+        },
+        {
+          "name": "Zenedy",
+          "slug": "zenedy",
+          "status": "Inactive",
+          "batch": "Winter 2010",
+          "one_liner": ""
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "San Francisco",
+      "location": "San Francisco, CA, USA",
+      "companies_in_city": 2007,
+      "active_in_city": 1340,
+      "nearby_companies": [
+        {
+          "name": "42Floors",
+          "slug": "42floors",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "PlanGrid",
+          "slug": "plangrid",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "MyVR",
+          "slug": "myvr",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Couple",
+          "slug": "couple",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HackPad",
+          "slug": "hackpad",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Gusto",
+          "slug": "gusto",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "FamilyLeaf",
+          "slug": "familyleaf",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Chute",
+          "slug": "chute",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Make School",
+          "slug": "make-school",
+          "batch": "Winter 2012",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Exec",
+          "slug": "exec",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Public"
+        },
+        {
+          "name": "LendUp",
+          "slug": "lendup",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tilt",
+          "slug": "tilt",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fond",
+          "slug": "fond",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Loom",
+        "slug": "loom",
+        "batch": "Winter 2012",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Ark",
+        "slug": "ark",
+        "batch": "Winter 2012",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Socialcam",
+        "slug": "socialcam",
+        "batch": "Winter 2012",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Hyperink",
+        "slug": "hyperink",
+        "batch": "Winter 2011",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Upbeat",
+        "slug": "upbeat",
+        "batch": "Summer 2010",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Nowmov",
+        "slug": "nowmov",
+        "batch": "Winter 2010",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Answerly",
+        "slug": "answerly",
+        "batch": "Winter 2010",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Zenedy",
+        "slug": "zenedy",
+        "batch": "Winter 2010",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Echodio",
+        "slug": "echodio",
+        "batch": "Winter 2009",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "OhLife",
+        "slug": "ohlife",
+        "batch": "Summer 2008",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 2867,
+      "network_density_score": 81.6,
+      "has_strong_batch_network": false,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:04:08.723047"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:04:08.723051",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:04:09.053302",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:04:09.172959",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 2000,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:42:11.910255",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "mature",
+      "key_trends": [
+        "User-generated content dominance",
+        "Rise of niche communities",
+        "Increasing demand for online social interaction"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Strong network effects due to massive user base and diverse communities.",
+      "differentiation": "Extremely broad range of content and communities, catering to diverse interests.",
+      "competitive_advantages": [
+        "First-mover advantage in community aggregation",
+        "High user engagement and retention"
+      ],
+      "competitive_vulnerabilities": [
+        "Content moderation challenges",
+        "Dependence on volunteer moderators"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "Advertising",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "mature",
+      "growth_indicators": [
+        "Active user growth",
+        "Advertising revenue growth"
+      ],
+      "growth_bottlenecks": [
+        "Content moderation at scale",
+        "Maintaining user engagement"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "low",
+      "technology_risk": "low",
+      "execution_risk": "medium",
+      "overall_risk_score": 3,
+      "key_risks": [
+        "Misinformation and harmful content",
+        "User privacy concerns",
+        "Competition from newer platforms"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Massive user base",
+        "Strong brand recognition",
+        "Diverse community ecosystem"
+      ],
+      "concerns": [
+        "Content moderation challenges",
+        "Potential for user base decline due to competition"
+      ],
+      "exit_potential": "IPO/acquisition",
+      "comparable_companies": [
+        "Meta",
+        "Twitter"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Improve content moderation policies and tools",
+        "Invest in new community features and formats"
+      ],
+      "expansion_opportunities": [
+        "International expansion",
+        "Partnerships with content creators"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 714,
+      "completion": 463,
+      "total": 1177,
+      "estimated_cost": 0.000192
+    }
+  },
+  "phase8_complete": true
+}

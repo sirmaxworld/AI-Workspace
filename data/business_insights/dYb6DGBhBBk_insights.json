@@ -1,0 +1,176 @@
+{
+  "market_intelligence": {
+    "target_markets": [
+      {
+        "market_description": "Non-technical people wanting to build multi-agent workflows",
+        "demographics": [
+          "entrepreneurs",
+          "business owners",
+          "non-developers"
+        ],
+        "pain_points": [
+          "having to use custom code for multi-agent orchestration",
+          "technical barriers to building AI workflows",
+          "complex setup for chatbots on websites"
+        ],
+        "market_size_indicators": "reducing barriers for non-technical people indicates large underserved market"
+      }
+    ],
+    "problems_validated": [
+      {
+        "problem": "Building multi-agent workflows required custom code and technical expertise",
+        "severity": "high - created barrier to entry for non-technical users",
+        "current_solutions": "custom code to create parallel sequence or multi-agent orchestration, third party chatbot services",
+        "market_gap": "no visual interface for building agent workflows without coding"
+      }
+    ]
+  },
+  "products_tools": [
+    {
+      "name": "OpenAI Agent Builder",
+      "category": "ai-tool",
+      "use_case": "visual interface for building multi-agent workflows without code",
+      "sentiment": "positive",
+      "pricing": "not mentioned",
+      "metrics": "not mentioned"
+    },
+    {
+      "name": "OpenAI ChatKit",
+      "category": "ai-tool",
+      "use_case": "SDK to connect agent builder workflows to front-end chatbots",
+      "sentiment": "positive",
+      "pricing": "not mentioned",
+      "metrics": "not mentioned"
+    },
+    {
+      "name": "OpenAI Widgets",
+      "category": "ai-tool",
+      "use_case": "dynamic UI components for chat interfaces to display data",
+      "sentiment": "positive",
+      "pricing": "not mentioned",
+      "metrics": "not mentioned"
+    },
+    {
+      "name": "Shopify MCP integration",
+      "category": "ai-tool",
+      "use_case": "pulling Shopify store data into chat interfaces",
+      "sentiment": "positive",
+      "pricing": "not mentioned",
+      "metrics": "not mentioned"
+    }
+  ],
+  "business_strategies": [
+    {
+      "strategy_type": "operations",
+      "strategy": "Use AI agents to classify customers vs leads and route them to appropriate workflows",
+      "implementation": "Build classifier agent that determines if user is existing customer or new lead, then route to either support agent or lead capture agent",
+      "expected_results": "automated customer service and lead qualification",
+      "case_study": "demo chatbot that classifies users and either answers support tickets or captures lead information"
+    }
+  ],
+  "problems_solutions": [
+    {
+      "problem": "Building chatbots that can distinguish between customers and leads",
+      "category": "technical",
+      "solution": "Use OpenAI Agent Builder with classifier agent and conditional logic",
+      "steps": [
+        "Create start input node",
+        "Build classifier agent with examples",
+        "Add logic node for routing",
+        "Create separate agents for support vs lead capture",
+        "Connect to vector store for knowledge base"
+      ],
+      "tools_needed": [
+        "OpenAI Agent Builder",
+        "ChatKit SDK",
+        "vector store",
+        "knowledge base data"
+      ],
+      "difficulty": "intermediate",
+      "time_estimate": "not mentioned"
+    }
+  ],
+  "startup_ideas": [
+    {
+      "idea": "Custom chatbot service using OpenAI's new tools",
+      "target_market": "businesses needing customer service and lead qualification automation",
+      "problem_solved": "manual customer service and lead qualification processes",
+      "business_model": "not specified",
+      "validation": "build demo chatbot and test with real customer interactions",
+      "investment_needed": "not mentioned"
+    }
+  ],
+  "mistakes_to_avoid": [],
+  "growth_tactics": [
+    {
+      "channel": "content",
+      "tactic": "Create educational content showing how to build AI workflows",
+      "steps": [
+        "demonstrate building agent workflows",
+        "show real implementation",
+        "provide step-by-step tutorials"
+      ],
+      "cost_estimate": "not mentioned",
+      "results_expected": "educate audience on new AI capabilities"
+    }
+  ],
+  "ai_workflows": [
+    {
+      "workflow_name": "Customer Classification and Routing Chatbot",
+      "tools_used": [
+        "OpenAI Agent Builder",
+        "ChatKit SDK",
+        "vector store",
+        "classifier agent",
+        "support agent",
+        "lead capture agent"
+      ],
+      "steps": [
+        "User inputs message",
+        "Classifier agent determines if customer or lead",
+        "Logic node routes based on classification",
+        "If customer: support agent answers using knowledge base",
+        "If lead: capture information and route to sales team"
+      ],
+      "automation_level": "fully-automated",
+      "use_case": "automated customer service and lead qualification"
+    }
+  ],
+  "metrics_kpis": [],
+  "trends_signals": [
+    {
+      "trend": "Visual no-code interfaces for AI agent building",
+      "category": "technology",
+      "stage": "early",
+      "opportunity": "democratizes AI development for non-technical users"
+    },
+    {
+      "trend": "Multi-agent workflows becoming mainstream",
+      "category": "technology",
+      "stage": "growing",
+      "opportunity": "businesses can automate complex processes with multiple AI agents working together"
+    }
+  ],
+  "actionable_quotes": [
+    {
+      "quote": "The key takeaway here is that it's essentially reducing the barrier for non-technical people to get started with building multi-agent workflows",
+      "context": "discussing OpenAI's new Agent Builder visual interface",
+      "category": "strategy",
+      "actionability": "focus on serving non-technical market segment for AI tools"
+    },
+    {
+      "quote": "You're essentially it's very meta. You're using an agent to create agents agent prompts",
+      "context": "explaining how to use ChatGPT to generate prompts for other agents",
+      "category": "tactical",
+      "actionability": "use AI to help build better AI workflows and prompts"
+    }
+  ],
+  "key_statistics": [],
+  "meta": {
+    "video_id": "dYb6DGBhBBk",
+    "title": "OpenAI's NEW Agent Builder and ChatKit are INSANE",
+    "extracted_at": "2025-10-15T22:21:17.140199",
+    "model": "claude-sonnet-4-20250514",
+    "transcript_length": 26944
+  }
+}

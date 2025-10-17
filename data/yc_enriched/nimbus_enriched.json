@@ -1,0 +1,538 @@
+{
+  "slug": "nimbus",
+  "name": "Nimbus",
+  "yc_id": 13302,
+  "batch": "Winter 2020",
+  "website": "http://www.nimbus.green",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:52:52.950296",
+    "website": "http://www.nimbus.green",
+    "website_status": {
+      "reachable": false,
+      "error": "connection_error"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "nimbus.green",
+      "error": "Whois command returned no output"
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "error": "HTTPConnectionPool(host='www.nimbus.green', port=80): Max retries exceeded with url: / (Caused by Na"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:24:14.209261",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:24:03.078016",
+    "place_data": {
+      "status": "success",
+      "method": "nominatim",
+      "formatted_address": "Ann Arbor, Washtenaw County, Michigan, United States",
+      "coordinates": {
+        "latitude": 42.2813722,
+        "longitude": -83.7484616
+      },
+      "place_types": [
+        "administrative"
+      ],
+      "retrieved_at": "2025-10-17T10:15:05.567559",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:03.078092",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:03.078100",
+    "batch_network": {
+      "batch": "Winter 2020",
+      "total_batch_mates": 228,
+      "active_batch_mates": 149,
+      "batch_success_rate": 65.4,
+      "notable_batch_mates": [
+        {
+          "name": "Zaraz",
+          "slug": "zaraz",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A third-party manager, built for speed. "
+        },
+        {
+          "name": "Phonic",
+          "slug": "phonic",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The best way to collect and analyze voice and video feedback"
+        },
+        {
+          "name": "Okay",
+          "slug": "okay",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Dashboards and actionable insights for high-performing engineering\u2026"
+        },
+        {
+          "name": "Volumetric",
+          "slug": "volumetric",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Volumetric builds living multicellular tissues with a focus on the\u2026"
+        },
+        {
+          "name": "Hoss",
+          "slug": "hoss",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The developer experience platform"
+        },
+        {
+          "name": "FitnessAI",
+          "slug": "fitnessai",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "App offering AI powered workout plans with anytime access to coaches"
+        },
+        {
+          "name": "Flowdash",
+          "slug": "flowdash",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Quickly build internal tools for your ops team's manual workflows"
+        },
+        {
+          "name": "Dashworks",
+          "slug": "dashworks",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Your team's intelligent start page."
+        },
+        {
+          "name": "Eternal",
+          "slug": "zelos",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Own the best moments in streaming"
+        },
+        {
+          "name": "Glimpse",
+          "slug": "glimpse",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A social video chat."
+        }
+      ],
+      "batch_size": 229
+    },
+    "industry_network": {
+      "industries": [
+        "Industrials",
+        "Automotive"
+      ],
+      "total_industry_peers": 318,
+      "active_industry_peers": 246,
+      "direct_competitors": [
+        {
+          "name": "Cruise",
+          "slug": "cruise",
+          "status": "Acquired",
+          "batch": "Winter 2014",
+          "one_liner": "Self-driving cars."
+        },
+        {
+          "name": "Auro Robotics",
+          "slug": "auro-robotics",
+          "status": "Acquired",
+          "batch": "Summer 2015",
+          "one_liner": "Autonomous shuttles for campus-like environments."
+        },
+        {
+          "name": "Embark Trucks",
+          "slug": "embark-trucks",
+          "status": "Public",
+          "batch": "Winter 2016",
+          "one_liner": "Self-driving semi trucks."
+        },
+        {
+          "name": "Open Motors",
+          "slug": "open-motors",
+          "status": "Inactive",
+          "batch": "Winter 2016",
+          "one_liner": "Open Motors (formerly OSVehicle) is a B2B company that is developing\u2026"
+        },
+        {
+          "name": "Starsky Robotics",
+          "slug": "starsky-robotics",
+          "status": "Inactive",
+          "batch": "Summer 2016",
+          "one_liner": "Driverless Trucks, for real."
+        },
+        {
+          "name": "lvl5",
+          "slug": "lvl5",
+          "status": "Acquired",
+          "batch": "Winter 2017",
+          "one_liner": "HD maps for self-driving cars."
+        },
+        {
+          "name": "May Mobility",
+          "slug": "may-mobility",
+          "status": "Active",
+          "batch": "Summer 2017",
+          "one_liner": "Transforming cities and rural areas through AV transit and technology"
+        },
+        {
+          "name": "Zendar",
+          "slug": "zendar",
+          "status": "Active",
+          "batch": "Summer 2017",
+          "one_liner": "We make high definition radar allowing self-driving cars to see in\u2026"
+        },
+        {
+          "name": "Phiar",
+          "slug": "phiar",
+          "status": "Acquired",
+          "batch": "Summer 2018",
+          "one_liner": "We are developing a revolutionary AI-powered augmented reality\u2026"
+        },
+        {
+          "name": "Passenger AI",
+          "slug": "passenger-ai",
+          "status": "Inactive",
+          "batch": "Summer 2018",
+          "one_liner": "Software for robotaxi operations."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Ann Arbor",
+      "location": "Ann Arbor, MI, USA",
+      "companies_in_city": 5,
+      "active_in_city": 3,
+      "nearby_companies": [
+        {
+          "name": "FarmLogs",
+          "slug": "farmlogs",
+          "batch": "Winter 2012",
+          "industry": "Industrials",
+          "status": "Acquired"
+        },
+        {
+          "name": "Olark",
+          "slug": "olark",
+          "batch": "Summer 2009",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Cribspot",
+          "slug": "cribspot",
+          "batch": "Winter 2015",
+          "industry": "Real Estate and Construction",
+          "status": "Inactive"
+        },
+        {
+          "name": "May Mobility",
+          "slug": "may-mobility",
+          "batch": "Summer 2017",
+          "industry": "Industrials",
+          "status": "Active"
+        },
+        {
+          "name": "Forever Labs",
+          "slug": "forever-labs",
+          "batch": "Summer 2017",
+          "industry": "Healthcare",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "low"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "RoboTire",
+        "slug": "robotire",
+        "batch": "Winter 2020",
+        "industry": "Industrials",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "May Mobility",
+        "slug": "may-mobility",
+        "batch": "Summer 2017",
+        "industry": "Industrials",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Genecis Bio",
+        "slug": "genecis-bio",
+        "batch": "Winter 2020",
+        "industry": "Industrials",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "StratumAI",
+        "slug": "stratumai",
+        "batch": "Winter 2020",
+        "industry": "Industrials",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Teleo",
+        "slug": "teleo",
+        "batch": "Winter 2020",
+        "industry": "Industrials",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Exosonic, Inc.",
+        "slug": "exosonic-inc",
+        "batch": "Winter 2020",
+        "industry": "Industrials",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "SINAI",
+        "slug": "sinai",
+        "batch": "Winter 2020",
+        "industry": "Industrials",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Farcast",
+        "slug": "farcast",
+        "batch": "Winter 2020",
+        "industry": "Industrials",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Talyn Air",
+        "slug": "talyn-air",
+        "batch": "Winter 2020",
+        "industry": "Industrials",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Pashi",
+        "slug": "pashi",
+        "batch": "Winter 2020",
+        "industry": "Industrials",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 551,
+      "network_density_score": 72.0,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": false,
+      "calculated_at": "2025-10-17T10:24:03.094996"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:03.095004",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:03.420473",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:03.529371",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 5,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:46:43.967548",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Urban mobility electrification",
+        "Micro-mobility adoption",
+        "Sustainability focus in cities"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Limited moat - hardware differentiation and urban-specific design focus",
+      "differentiation": "City-optimized electric vehicles targeting urban dwellers specifically",
+      "competitive_advantages": [
+        "Urban-focused design",
+        "Tesla brand association positioning"
+      ],
+      "competitive_vulnerabilities": [
+        "Established EV players",
+        "Limited resources vs incumbents"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "hardware",
+      "scalability": "medium",
+      "capital_intensity": "high"
+    },
+    "growth_assessment": {
+      "growth_stage": "pre-seed",
+      "growth_indicators": [
+        "Y Combinator backing",
+        "Urban mobility market growth"
+      ],
+      "growth_bottlenecks": [
+        "Manufacturing scale",
+        "Capital requirements",
+        "Regulatory approvals"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "high",
+      "overall_risk_score": 8,
+      "key_risks": [
+        "Company inactive status",
+        "High capital requirements",
+        "Intense competition from established players"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Large addressable market",
+        "Y Combinator pedigree",
+        "Urban mobility focus"
+      ],
+      "concerns": [
+        "Inactive status",
+        "Capital intensive model",
+        "Crowded EV market"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Bird",
+        "Lime",
+        "NIU Technologies"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Investigate reason for inactive status",
+        "Assess IP and technology assets"
+      ],
+      "expansion_opportunities": [
+        "Micro-mobility partnerships",
+        "Urban fleet solutions"
+      ]
+    },
+    "tokens_used": {
+      "input": 618,
+      "output": 490,
+      "total": 1108,
+      "estimated_cost": 0.009204
+    }
+  },
+  "phase8_complete": true
+}

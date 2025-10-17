@@ -1,0 +1,986 @@
+{
+  "slug": "seam",
+  "name": "Seam",
+  "yc_id": 21800,
+  "batch": "Summer 2020",
+  "website": "https://seam.co",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:55:09.039329",
+    "website": "https://seam.co",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 5879.5,
+      "final_url": "https://www.seam.co/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:55:14.918849"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "seam.co",
+      "registrar": "NAMECHEAP INC",
+      "creation_date": "2010-07-20T18:21:53",
+      "expiration_date": "2026-07-19T23:59:59",
+      "domain_age_days": 5567,
+      "domain_age_years": 15.2,
+      "name_servers": [
+        "SANDRA.NS.CLOUDFLARE.COM",
+        "WOZ.NS.CLOUDFLARE.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://x.com/helloseam",
+      "linkedin": "https://www.linkedin.com/company/seamapi",
+      "github": "https://github.com/seamapi",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 16,
+      "server": "Vercel"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:25:08.316237",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:24:54.059056",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "San Francisco, CA, USA",
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:12:40.434017",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:54.059104",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/seamapi"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 38,
+        "packages": [
+          {
+            "name": "@seamapi/types",
+            "description": "TypeScript types for the Seam API.",
+            "version": "1.621.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@seamapi/types"
+          },
+          {
+            "name": "@seamapi/http",
+            "description": "JavaScript HTTP client for the Seam API written in TypeScript.",
+            "version": "1.83.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@seamapi/http"
+          },
+          {
+            "name": "@seamapi/webhook",
+            "description": "Webhook SDK for the Seam API written in TypeScript.",
+            "version": "1.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@seamapi/webhook"
+          },
+          {
+            "name": "@seamapi/react",
+            "description": "Seam Components.",
+            "version": "4.13.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@seamapi/react"
+          },
+          {
+            "name": "@seamapi/url-search-params-serializer",
+            "description": "Serializes JavaScript objects to URLSearchParams.",
+            "version": "2.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@seamapi/url-search-params-serializer"
+          },
+          {
+            "name": "@seamapi/blueprint",
+            "description": "Build tools for the Seam API using this blueprint.",
+            "version": "0.51.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@seamapi/blueprint"
+          },
+          {
+            "name": "@seamapi/smith",
+            "description": "Metalsmith wrapper for Seam API code and doc generation.",
+            "version": "0.5.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@seamapi/smith"
+          },
+          {
+            "name": "@seamapi/fake-seam-connect",
+            "description": "Fake for Seam Connect.",
+            "version": "1.85.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@seamapi/fake-seam-connect"
+          },
+          {
+            "name": "@seamapi/fake-devicedb",
+            "description": "Fake for devicedb",
+            "version": "1.6.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@seamapi/fake-devicedb"
+          },
+          {
+            "name": "@seamapi/react-query",
+            "description": "React Query for the Seam API.",
+            "version": "0.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@seamapi/react-query"
+          },
+          {
+            "name": "@seamapi/dbtypr",
+            "description": "Extends TypeScript types from a Zapatos schema for wider compatibility and customization.",
+            "version": "0.7.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@seamapi/dbtypr"
+          },
+          {
+            "name": "edgespec",
+            "description": "Write Winter-CG compatible routes with filesystem routing and tons of features",
+            "version": "0.0.76",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/edgespec"
+          },
+          {
+            "name": "seam",
+            "description": "JavaScript SDK for the Seam API written in TypeScript.",
+            "version": "1.112.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/seam"
+          },
+          {
+            "name": "seam-cli",
+            "description": "![seam-cli-chromatic-dark-blog-cover-repo](https://github.com/seamapi/seam-cli/assets/852751/e63bbaaa-d8a9-4417-ac69-d21b172e6de6)",
+            "version": "0.0.61",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/seam-cli"
+          },
+          {
+            "name": "zustand-hoist",
+            "description": "Hoist Zustand state and actions to the top level.",
+            "version": "2.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/zustand-hoist"
+          },
+          {
+            "name": "@seamapi/logger",
+            "description": "This module should be used instead of console.log, it has the following features:",
+            "version": "1.9.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@seamapi/logger"
+          },
+          {
+            "name": "seam-plop",
+            "description": "Provides common interactive template generators for [Seam](https://github.com/seamapi) projects.",
+            "version": "1.1.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/seam-plop"
+          },
+          {
+            "name": "zoned-time",
+            "description": "A ZonedTime is a PlainTime with a TimeZone, as specified in the Temporal Proposal.",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/zoned-time"
+          },
+          {
+            "name": "@seamapi/nextlove-sdk-generator",
+            "description": "Utilities for building NextLove SDK Generators",
+            "version": "1.19.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@seamapi/nextlove-sdk-generator"
+          },
+          {
+            "name": "typed-axios-instance",
+            "description": "Typed Axios is a simple way to create an Axios instance that is fully typed with the routes from an application.",
+            "version": "3.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/typed-axios-instance"
+          },
+          {
+            "name": "@seamapi/eslint-configs",
+            "description": "This repository is a collection of eslint configs for use in Seam projects. Centralizing eslint configs enables uniform styles across Seam projects, and to avoid bike-shedding within a particular project.",
+            "version": "0.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@seamapi/eslint-configs"
+          },
+          {
+            "name": "winterspec",
+            "description": "Write Winter-CG compatible routes with filesystem routing and tons of features",
+            "version": "0.0.114",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/winterspec"
+          },
+          {
+            "name": "@seamapi/wrappers",
+            "description": "For the common use case of wrapping a NextJS endpoint with methods that act as middleware.",
+            "version": "1.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@seamapi/wrappers"
+          },
+          {
+            "name": "prefixed-api-key",
+            "description": "Generate seam-style API-keys",
+            "version": "1.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/prefixed-api-key"
+          },
+          {
+            "name": "ava-postgres",
+            "description": "`ava-postgres` is a test fixture for [AVA](https://github.com/avajs/ava) that provides you with nearly-instant access to a fresh Postgres database for every test.",
+            "version": "7.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ava-postgres"
+          },
+          {
+            "name": "@bencmbrook/prefixed-api-key",
+            "description": "Generate prefixed API-keys",
+            "version": "4.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@bencmbrook/prefixed-api-key"
+          },
+          {
+            "name": "@seamapi/nextjs-health-endpoint-module",
+            "description": "## Installation",
+            "version": "1.0.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@seamapi/nextjs-health-endpoint-module"
+          },
+          {
+            "name": "quackatos",
+            "description": "a query builder for Postgres",
+            "version": "1.8.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/quackatos"
+          },
+          {
+            "name": "@licheng5625/odata-parser",
+            "description": "OData query string parser",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@licheng5625/odata-parser"
+          },
+          {
+            "name": "@seamapi/nextjs-exception-middleware",
+            "description": "This middleware allows you to throw exceptions in your route handlers that are caught and returned as JSON.",
+            "version": "1.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@seamapi/nextjs-exception-middleware"
+          },
+          {
+            "name": "@seamapi/next",
+            "description": "The React Framework",
+            "version": "12.0.7-seve.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@seamapi/next"
+          },
+          {
+            "name": "@seamapi/notion-sync",
+            "description": "Sync file contents to Notion",
+            "version": "1.2.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@seamapi/notion-sync"
+          },
+          {
+            "name": "@seamapi/url-search-params-parser",
+            "description": "Parses URLSearchParams to JavaScript objects according to Zod schemas.",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@seamapi/url-search-params-parser"
+          },
+          {
+            "name": "@seamapi/zwave-js",
+            "description": "Z-Wave driver written entirely in JavaScript/TypeScript",
+            "version": "7.10.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@seamapi/zwave-js"
+          },
+          {
+            "name": "seam-graphile-worker",
+            "description": "This is a wrapper for Seam's opinionated usage of Graphile Worker.",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/seam-graphile-worker"
+          },
+          {
+            "name": "prompts-y",
+            "description": "Drop-in replacement for Prompts that automatically selects and confirms the default option for all prompts.",
+            "version": "0.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/prompts-y"
+          },
+          {
+            "name": "wrangler-config",
+            "description": "Write your wrangler config with Typescript instead of `toml`.",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/wrangler-config"
+          },
+          {
+            "name": "@seamapi/third-party-assets",
+            "description": "A collection of third-party assets - logos, device images etc",
+            "version": "0.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@seamapi/third-party-assets"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 2,
+        "packages": [
+          {
+            "name": "seamapi",
+            "version": "2.0.0",
+            "downloads": 50478,
+            "url": "https://rubygems.org/gems/seamapi"
+          },
+          {
+            "name": "prefixed_api_key",
+            "version": "0.0.1",
+            "downloads": 1237,
+            "url": "https://rubygems.org/gems/prefixed_api_key"
+          }
+        ]
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 1,
+        "packages": [
+          {
+            "name": "seamapi-rs",
+            "description": "A Rust client for Seam",
+            "version": "0.1.1",
+            "downloads": 2606,
+            "url": "https://crates.io/crates/seamapi-rs"
+          }
+        ]
+      },
+      "total_packages": 41,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:24:55.352486"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:55.352493",
+    "batch_network": {
+      "batch": "Summer 2020",
+      "total_batch_mates": 207,
+      "active_batch_mates": 130,
+      "batch_success_rate": 62.8,
+      "notable_batch_mates": [
+        {
+          "name": "Ladder",
+          "slug": "ladder",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Labor Marketplace for Construction"
+        },
+        {
+          "name": "Fig",
+          "slug": "fig",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Fig adds visual apps, shortcuts, and autocomplete to your terminal."
+        },
+        {
+          "name": "Altro",
+          "slug": "altro",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Build Credit With Your Subscriptions"
+        },
+        {
+          "name": "Jemi",
+          "slug": "jemi",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Jemi helps people build beautiful websites and stores."
+        },
+        {
+          "name": "LSK Technologies",
+          "slug": "lsk-technologies",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A diagnostic lab in a box"
+        },
+        {
+          "name": "Command AI",
+          "slug": "command-ai",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "AI-powered user assistance platform"
+        },
+        {
+          "name": "Bandit ML",
+          "slug": "bandit-ml",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Bandit ML builds machine learning tools for e-commerce companies."
+        },
+        {
+          "name": "Momence",
+          "slug": "momence",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Scheduling and payments for experiences"
+        },
+        {
+          "name": "Gather",
+          "slug": "gather",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Project management software for People Operations"
+        },
+        {
+          "name": "Finmark",
+          "slug": "finmark",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Financial planning software for startups"
+        }
+      ],
+      "batch_size": 208
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "status": "Active",
+          "batch": "Winter 2012",
+          "one_liner": "High Performance Computing Built for the Cloud"
+        },
+        {
+          "name": "Marft",
+          "slug": "marft",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Marft creates embeddable machine learning models for application\u2026"
+        },
+        {
+          "name": "Pixelapse",
+          "slug": "pixelapse",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Github for designers. We automatically keep track of revisions of\u2026"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Palantir for sales people"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Smart search for the modern team."
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Authy is a Two-Factor Authentication platform for developers"
+        },
+        {
+          "name": "Flutter",
+          "slug": "flutter",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Flutter combined computer vision technology with the built-in webcams\u2026"
+        },
+        {
+          "name": "SolidStage",
+          "slug": "solidstage",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Sysadmin as a service. We make deploying, configuring, monitoring,\u2026"
+        },
+        {
+          "name": "Clutch",
+          "slug": "clutch",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "An easy to integrate library for native iOS applications designed to\u2026"
+        },
+        {
+          "name": "OneSignal",
+          "slug": "onesignal",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Engage customers through personalized omni-channel messaging"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "San Francisco",
+      "location": "San Francisco, CA, USA",
+      "companies_in_city": 2007,
+      "active_in_city": 1339,
+      "nearby_companies": [
+        {
+          "name": "42Floors",
+          "slug": "42floors",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "PlanGrid",
+          "slug": "plangrid",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "MyVR",
+          "slug": "myvr",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Couple",
+          "slug": "couple",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HackPad",
+          "slug": "hackpad",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Gusto",
+          "slug": "gusto",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "FamilyLeaf",
+          "slug": "familyleaf",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Chute",
+          "slug": "chute",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Make School",
+          "slug": "make-school",
+          "batch": "Winter 2012",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Exec",
+          "slug": "exec",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Public"
+        },
+        {
+          "name": "LendUp",
+          "slug": "lendup",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tilt",
+          "slug": "tilt",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fond",
+          "slug": "fond",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Openbase",
+        "slug": "openbase",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Fig",
+        "slug": "fig",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Luminai",
+        "slug": "luminai",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Command AI",
+        "slug": "command-ai",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Roboflow",
+        "slug": "roboflow",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Duckly",
+        "slug": "gitduck",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Monosi",
+        "slug": "monosi",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Humanloop",
+        "slug": "humanloop",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Finch",
+        "slug": "finch",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Unfaze AI",
+        "slug": "unfaze-ai",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 4960,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:24:55.364036"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:55.364042",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:55.716057",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:55.842846",
+    "basic_info": {
+      "is_hiring": true,
+      "team_size": 25,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:58.027768",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "medium",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increased adoption of IoT devices",
+        "Growing demand for smart building solutions",
+        "Standardization efforts in IoT protocols"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "First-mover advantage in a fragmented market, growing device integration library.",
+      "differentiation": "Focus on a unified API for diverse IoT devices, simplifying integration for developers.",
+      "competitive_advantages": [
+        "Broad device compatibility",
+        "Developer-friendly API"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on device manufacturers' cooperation",
+        "Potential for larger players to enter the market"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "series-a",
+      "growth_indicators": [
+        "Increasing number of connected devices",
+        "Growing customer base of developers and businesses"
+      ],
+      "growth_bottlenecks": [
+        "Onboarding new device integrations",
+        "Sales cycle length to enterprise clients"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Security vulnerabilities in IoT devices",
+        "Lack of standardization in IoT protocols",
+        "Competition from established players"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong team",
+        "First-mover advantage",
+        "Large addressable market"
+      ],
+      "concerns": [
+        "Dependence on third-party device manufacturers",
+        "Potential for commoditization of the API"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Tuya",
+        "Particle"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Expand device integration library",
+        "Focus on enterprise partnerships"
+      ],
+      "expansion_opportunities": [
+        "Develop vertical-specific solutions (e.g., smart hospitality)",
+        "Explore partnerships with IoT platform providers"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 627,
+      "completion": 497,
+      "total": 1124,
+      "estimated_cost": 0.000196
+    }
+  },
+  "phase8_complete": true
+}

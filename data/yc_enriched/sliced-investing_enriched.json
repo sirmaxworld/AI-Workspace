@@ -1,0 +1,621 @@
+{
+  "slug": "sliced-investing",
+  "name": "Sliced Investing",
+  "yc_id": 736,
+  "batch": "Summer 2014",
+  "website": "",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:34:38.643136",
+    "status": "no_website"
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:15:09.447833",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:14:57.513011",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "San Francisco, CA, USA",
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:12:40.434017",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:14:57.513044",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:14:57.513048",
+    "batch_network": {
+      "batch": "Summer 2014",
+      "total_batch_mates": 77,
+      "active_batch_mates": 24,
+      "batch_success_rate": 31.2,
+      "notable_batch_mates": [
+        {
+          "name": "Zip Phone",
+          "slug": "zip-phone",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Whatsapp for voice"
+        },
+        {
+          "name": "Parenthoods",
+          "slug": "parenthoods",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Communities for expecting and new parents. "
+        },
+        {
+          "name": "Bitaccess",
+          "slug": "bitaccess",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "We make bitcoin simple. "
+        },
+        {
+          "name": "Carlypso",
+          "slug": "carlypso",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Used car marketplace"
+        },
+        {
+          "name": "Checkr",
+          "slug": "checkr",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "People infrastructure for the future of work"
+        },
+        {
+          "name": "Clara Labs",
+          "slug": "clara-labs",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Clara is a human-in-the-loop assistant that helps automate repetitive\u2026"
+        },
+        {
+          "name": "Craft Coffee",
+          "slug": "craft-coffee",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Better coffee for less money"
+        },
+        {
+          "name": "PersistIQ",
+          "slug": "persistiq",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "PersistIQ is a free email automation platform to send a small batch\u2026"
+        },
+        {
+          "name": "GovPredict",
+          "slug": "govpredict",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The system of record for government affairs."
+        },
+        {
+          "name": "Blockspring",
+          "slug": "blockspring",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Automate data collection for spreadsheets and productivity tools."
+        }
+      ],
+      "batch_size": 78
+    },
+    "industry_network": {
+      "industries": [
+        "Fintech",
+        "Asset Management"
+      ],
+      "total_industry_peers": 597,
+      "active_industry_peers": 448,
+      "direct_competitors": [
+        {
+          "name": "TrustEgg",
+          "slug": "trustegg",
+          "status": "Inactive",
+          "batch": "Winter 2011",
+          "one_liner": "Trust funds."
+        },
+        {
+          "name": "FundersClub",
+          "slug": "fundersclub",
+          "status": "Active",
+          "batch": "Summer 2012",
+          "one_liner": "Online VC"
+        },
+        {
+          "name": "Wefunder",
+          "slug": "wefunder",
+          "status": "Active",
+          "batch": "Winter 2013",
+          "one_liner": "We're Robinhood for pre-IPO startups. Everyone can invest $100."
+        },
+        {
+          "name": "HoverChat",
+          "slug": "hoverchat",
+          "status": "Inactive",
+          "batch": "Winter 2014",
+          "one_liner": "Message without interrupting what you're doing"
+        },
+        {
+          "name": "Theorem",
+          "slug": "theorem",
+          "status": "Acquired",
+          "batch": "Winter 2014",
+          "one_liner": "The mission of Theorem is to make credit safe and available. We use\u2026"
+        },
+        {
+          "name": "Tinker",
+          "slug": "tinker",
+          "status": "Inactive",
+          "batch": "Summer 2014",
+          "one_liner": "Digital Currency Market Making"
+        },
+        {
+          "name": "Instavest",
+          "slug": "instavest",
+          "status": "Inactive",
+          "batch": "Winter 2015",
+          "one_liner": ""
+        },
+        {
+          "name": "Vest",
+          "slug": "vest",
+          "status": "Acquired",
+          "batch": "Winter 2015",
+          "one_liner": "Bringing wider access to financial derivatives. "
+        },
+        {
+          "name": "AlphaFlow",
+          "slug": "alphaflow",
+          "status": "Inactive",
+          "batch": "Winter 2016",
+          "one_liner": "AlphaFlow is a technology-driven investment manager."
+        },
+        {
+          "name": "Algoriz",
+          "slug": "algoriz",
+          "status": "Inactive",
+          "batch": "Winter 2016",
+          "one_liner": "Algoriz is an AI based algorithmic trading platform that enables you\u2026"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "San Francisco",
+      "location": "San Francisco, CA, USA",
+      "companies_in_city": 2007,
+      "active_in_city": 1340,
+      "nearby_companies": [
+        {
+          "name": "42Floors",
+          "slug": "42floors",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "PlanGrid",
+          "slug": "plangrid",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "MyVR",
+          "slug": "myvr",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Couple",
+          "slug": "couple",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HackPad",
+          "slug": "hackpad",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Gusto",
+          "slug": "gusto",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "FamilyLeaf",
+          "slug": "familyleaf",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Chute",
+          "slug": "chute",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Make School",
+          "slug": "make-school",
+          "batch": "Winter 2012",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Exec",
+          "slug": "exec",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Public"
+        },
+        {
+          "name": "LendUp",
+          "slug": "lendup",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tilt",
+          "slug": "tilt",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fond",
+          "slug": "fond",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Billforward",
+        "slug": "billforward",
+        "batch": "Summer 2014",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Kash",
+        "slug": "kash",
+        "batch": "Summer 2014",
+        "industry": "Fintech",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Apto Payments",
+        "slug": "apto-payments",
+        "batch": "Summer 2014",
+        "industry": "Fintech",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Tinker",
+        "slug": "tinker",
+        "batch": "Summer 2014",
+        "industry": "Fintech",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "FundersClub",
+        "slug": "fundersclub",
+        "batch": "Summer 2012",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Wefunder",
+        "slug": "wefunder",
+        "batch": "Winter 2013",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Theorem",
+        "slug": "theorem",
+        "batch": "Winter 2014",
+        "industry": "Fintech",
+        "status": "Acquired",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "AlphaFlow",
+        "slug": "alphaflow",
+        "batch": "Winter 2016",
+        "industry": "Fintech",
+        "status": "Inactive",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Pit.AI",
+        "slug": "pit-ai",
+        "batch": "Winter 2017",
+        "industry": "Fintech",
+        "status": "Inactive",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Bifrost",
+        "slug": "bifrost",
+        "batch": "Winter 2022",
+        "industry": "Fintech",
+        "status": "Inactive",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 2681,
+      "network_density_score": 95.4,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:14:57.520519"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:14:57.520523",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:14:57.846899",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:14:57.987294",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 11,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "gpt-4o",
+    "enriched_at": "2025-10-17T11:01:52.766964",
+    "market_analysis": {
+      "market_size": "large",
+      "market_stage": "growing",
+      "key_trends": [
+        "increased demand for alternative investments",
+        "digitization of financial services",
+        "rise of fintech platforms"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "network effects through advisor and investor connections",
+      "differentiation": "streamlined access to hedge funds for accredited investors",
+      "competitive_advantages": [
+        "automated investment processes",
+        "integrations with custodians and reporting platforms"
+      ],
+      "competitive_vulnerabilities": [
+        "regulatory changes",
+        "dependence on market conditions"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "marketplace",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "mature",
+      "growth_indicators": [
+        "acquisition by a larger entity",
+        "increased platform adoption"
+      ],
+      "growth_bottlenecks": [
+        "regulatory hurdles",
+        "competition from larger fintech firms"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "medium",
+      "overall_risk_score": 3,
+      "key_risks": [
+        "regulatory compliance",
+        "market volatility",
+        "competition"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "strong network of advisors and investors",
+        "automated and efficient processes",
+        "growing market for alternative investments"
+      ],
+      "concerns": [
+        "potential regulatory changes",
+        "market dependency"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "AngelList",
+        "Fundrise"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "enhance regulatory compliance measures",
+        "expand advisor network"
+      ],
+      "expansion_opportunities": [
+        "international markets",
+        "additional alternative investment products"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 649,
+      "completion": 414,
+      "total": 1063,
+      "estimated_cost": 0.000346
+    },
+    "status": "success"
+  },
+  "phase8_complete": true
+}

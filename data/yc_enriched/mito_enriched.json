@@ -1,0 +1,1393 @@
+{
+  "slug": "mito",
+  "name": "Mito",
+  "yc_id": 22126,
+  "batch": "Summer 2020",
+  "website": "http://trymito.io",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:57:01.772676",
+    "website": "http://trymito.io",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 2858.13,
+      "final_url": "https://www.trymito.io/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:57:04.630810"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "trymito.io",
+      "registrar": "Gandi SAS",
+      "creation_date": "2020-08-26T15:58:48",
+      "expiration_date": "2026-08-26T15:58:48",
+      "domain_age_days": 1877,
+      "domain_age_years": 5.1,
+      "name_servers": [
+        "ns-1133.awsdns-13.org",
+        "ns-608.awsdns-12.net",
+        "ns-1661.awsdns-15.co.uk",
+        "ns-475.awsdns-59.com"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/tryMito",
+      "linkedin": null,
+      "github": "https://github.com/mito-ds/mito",
+      "facebook": null,
+      "instagram": null,
+      "youtube": "https://www.youtube.com/channel/UCN9o_0m1fwCjigfIpnKr0oA/videos"
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 16,
+      "server": "Vercel"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:25:47.496331",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:25:34.899154",
+    "place_data": {
+      "status": "not_found",
+      "query": "New York, NY, USA; Philadelphia, PA, USA; Remote",
+      "methods_tried": [
+        "static_db",
+        "nominatim",
+        "geonames"
+      ]
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:25:36.800607",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/mito-ds"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 100,
+        "packages": [
+          {
+            "name": "@devtools-ds/themes",
+            "description": "Each of the UI components in this project contains themes for multiple browsers. These themes are built using the [postcss-themed](https://github.com/intuit/postcss-themed) package, which allows us to specify themes for multiple browsers in light and dark",
+            "version": "1.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@devtools-ds/themes"
+          },
+          {
+            "name": "ds",
+            "description": "Simple data store for prototyping",
+            "version": "2.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ds"
+          },
+          {
+            "name": "@devtools-ds/object-parser",
+            "description": "Object parser is a utility used by the the `Object Inspector` package, which creates a JSON tree structure with node types that help simplify the JavaScript type system. It also uses TypeScript to make logic around using the tree strongly typed.",
+            "version": "1.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@devtools-ds/object-parser"
+          },
+          {
+            "name": "@atlaskit/ds-lib",
+            "description": "Reusable utilities and hooks specific to design system.",
+            "version": "5.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@atlaskit/ds-lib"
+          },
+          {
+            "name": "@devtools-ds/tree",
+            "description": "A versatile expanding `Tree` component, with full keyboard navigation following the [Tree View Design Pattern](https://www.w3.org/TR/wai-aria-practices/examples/treeview/treeview-2/treeview-2a.html).",
+            "version": "1.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@devtools-ds/tree"
+          },
+          {
+            "name": "babel-plugin-ember-data-packages-polyfill",
+            "description": "Polyfill for EmberData Packages API.",
+            "version": "0.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/babel-plugin-ember-data-packages-polyfill"
+          },
+          {
+            "name": "@types/ember-data__model",
+            "description": "TypeScript definitions for @ember-data/model",
+            "version": "4.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@types/ember-data__model"
+          },
+          {
+            "name": "@devtools-ds/object-inspector",
+            "description": "An emulation of the Chrome and Firefox object inspector, which allows you to view JavaScript objects in the console.",
+            "version": "1.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@devtools-ds/object-inspector"
+          },
+          {
+            "name": "@preply/ds-core-types",
+            "description": null,
+            "version": "5.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@preply/ds-core-types"
+          },
+          {
+            "name": "disjoint-set-ds",
+            "description": "Implementation of Disjoint sets data structure.",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/disjoint-set-ds"
+          },
+          {
+            "name": "@preply/ds-core",
+            "description": null,
+            "version": "5.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@preply/ds-core"
+          },
+          {
+            "name": "ds-store",
+            "description": ".DS_Store manipulation and creation from node.js",
+            "version": "0.1.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ds-store"
+          },
+          {
+            "name": "@navikt/ds-react",
+            "description": "React components from the Norwegian Labour and Welfare Administration.",
+            "version": "7.32.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@navikt/ds-react"
+          },
+          {
+            "name": "@types/ember-data__store",
+            "description": "TypeScript definitions for @ember-data/store",
+            "version": "4.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@types/ember-data__store"
+          },
+          {
+            "name": "@proficient/ds",
+            "description": "High-quality and essential Typescript data structures",
+            "version": "0.3.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@proficient/ds"
+          },
+          {
+            "name": "@nimbus-ds/styles",
+            "description": "[![@nimbus-ds/styles](https://img.shields.io/npm/v/@nimbus-ds/styles?label=%40nimbus-ds%2Fstyles)](https://www.npmjs.com/package/@nimbus-ds/styles)",
+            "version": "9.33.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@nimbus-ds/styles"
+          },
+          {
+            "name": "@mantine/ds",
+            "description": "Internal Mantine components used on *.mantine.dev websites",
+            "version": "6.0.22",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mantine/ds"
+          },
+          {
+            "name": "@elliemae/ds-basic",
+            "description": "EllieMae UI Design System Library",
+            "version": "3.54.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@elliemae/ds-basic"
+          },
+          {
+            "name": "@spscommerce/ds-styles",
+            "description": "SPS Design System CSS styles.",
+            "version": "8.35.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@spscommerce/ds-styles"
+          },
+          {
+            "name": "@digdir/designsystemet-theme",
+            "description": "Predefined themes for Designsystemet",
+            "version": "1.6.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@digdir/designsystemet-theme"
+          },
+          {
+            "name": "react-figma-plugin-ds",
+            "description": "React ui framework based on Figma design system",
+            "version": "2.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-figma-plugin-ds"
+          },
+          {
+            "name": "vindi-ds-components",
+            "description": "Projeto de componentes da Vindi",
+            "version": "3.15.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/vindi-ds-components"
+          },
+          {
+            "name": "@preply/ds-web-core",
+            "description": null,
+            "version": "5.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@preply/ds-web-core"
+          },
+          {
+            "name": "@mozaic-ds/stylelint-plugin-mozaic",
+            "description": "A set of rules to enforce Mozaic CSS architecture",
+            "version": "1.75.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mozaic-ds/stylelint-plugin-mozaic"
+          },
+          {
+            "name": "@spscommerce/ds-shared",
+            "description": "Package for sharing code and types between DS Angular and DS React.",
+            "version": "8.35.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@spscommerce/ds-shared"
+          },
+          {
+            "name": "@preply/ds-visual-coverage-preply",
+            "description": null,
+            "version": "5.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@preply/ds-visual-coverage-preply"
+          },
+          {
+            "name": "@preply/ds-visual-coverage-preply-component-names",
+            "description": null,
+            "version": "5.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@preply/ds-visual-coverage-preply-component-names"
+          },
+          {
+            "name": "@preply/ds-web-root",
+            "description": null,
+            "version": "5.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@preply/ds-web-root"
+          },
+          {
+            "name": "ember-data-copyable",
+            "description": "Intelligently copy an Ember Data model and all of its relationships",
+            "version": "1.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ember-data-copyable"
+          },
+          {
+            "name": "@carto/meridian-ds",
+            "description": "CARTO Meridian Design System",
+            "version": "2.5.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@carto/meridian-ds"
+          },
+          {
+            "name": "@preply/ds-theme-tokyo-ui",
+            "description": null,
+            "version": "5.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@preply/ds-theme-tokyo-ui"
+          },
+          {
+            "name": "@navikt/ds-css",
+            "description": "CSS for Nav Designsystem",
+            "version": "7.32.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@navikt/ds-css"
+          },
+          {
+            "name": "figma-plugin-ds",
+            "description": "A UI library with CSS and vanilla JS that match the Figma UI for building plugins.",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/figma-plugin-ds"
+          },
+          {
+            "name": "@preply/ds-visual-coverage-core",
+            "description": null,
+            "version": "5.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@preply/ds-visual-coverage-core"
+          },
+          {
+            "name": "@elliemae/ds-codemods",
+            "description": "ICE MT - Dimsum - Code Mods",
+            "version": "3.54.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@elliemae/ds-codemods"
+          },
+          {
+            "name": "@mozaic-ds/tokens",
+            "description": "Design Tokens for Mozaic, the Adeo's Design System",
+            "version": "2.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mozaic-ds/tokens"
+          },
+          {
+            "name": "@crowdfarming/oliva-ds",
+            "description": "Librer\u00eda de componentes de dise\u00f1o de Oliva",
+            "version": "1.31.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@crowdfarming/oliva-ds"
+          },
+          {
+            "name": "@preply/ds-media-icons",
+            "description": null,
+            "version": "5.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@preply/ds-media-icons"
+          },
+          {
+            "name": "eslint-config-mito",
+            "description": "This package provides Mito's .eslintrc as an extensible shared config.",
+            "version": "8.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/eslint-config-mito"
+          },
+          {
+            "name": "@ui-schema/ui-schema",
+            "description": "JSON-Schema based UI and Form Generator for React, for any Design-System",
+            "version": "0.4.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ui-schema/ui-schema"
+          },
+          {
+            "name": "@preply/ds-web-lib",
+            "description": null,
+            "version": "5.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@preply/ds-web-lib"
+          },
+          {
+            "name": "@warp-ds/css",
+            "description": "This is the CSS package for WARP.",
+            "version": "2.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@warp-ds/css"
+          },
+          {
+            "name": "@baloise/ds-fonts",
+            "description": "The Baloise Design-System is an open source project for styling awesome web applications that follow the Baloise corporate styling guidelines.",
+            "version": "19.8.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@baloise/ds-fonts"
+          },
+          {
+            "name": "react-ds",
+            "description": "Simple React Drag-to-Select component",
+            "version": "1.13.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-ds"
+          },
+          {
+            "name": "@baloise/ds-tokens",
+            "description": "The Baloise Design-System is an open source project for styling awesome web applications that follow the Baloise corporate styling guidelines.",
+            "version": "19.8.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@baloise/ds-tokens"
+          },
+          {
+            "name": "@preply/ds-theme-preply-ui",
+            "description": null,
+            "version": "0.100.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@preply/ds-theme-preply-ui"
+          },
+          {
+            "name": "@spscommerce/ds-colors",
+            "description": "Design sanctioned colors for SPS Commerce libraries and applications compiled into various formats.",
+            "version": "8.35.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@spscommerce/ds-colors"
+          },
+          {
+            "name": "loopback-ds-timestamp-mixin",
+            "description": "A mixin to automatically generate created and updated Date attributes for loopback Models",
+            "version": "3.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/loopback-ds-timestamp-mixin"
+          },
+          {
+            "name": "@admiral-ds/react-ui",
+            "description": "React component library for Admiral design system 2.1",
+            "version": "8.56.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@admiral-ds/react-ui"
+          },
+          {
+            "name": "@spscommerce/ds-react",
+            "description": "SPS Design System React components",
+            "version": "8.35.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@spscommerce/ds-react"
+          },
+          {
+            "name": "@ds-sfdc/sfparty",
+            "description": "Salesforce metadata XML splitter for CI/CD",
+            "version": "1.7.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ds-sfdc/sfparty"
+          },
+          {
+            "name": "@preply/ds-theme-bold-ui",
+            "description": null,
+            "version": "0.100.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@preply/ds-theme-bold-ui"
+          },
+          {
+            "name": "@preply/ds-visual-coverage-preply-web",
+            "description": null,
+            "version": "5.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@preply/ds-visual-coverage-preply-web"
+          },
+          {
+            "name": "@baloise/ds-styles",
+            "description": "The Baloise Design-System is an open source project for styling awesome web applications that follow the Baloise corporate styling guidelines.",
+            "version": "19.8.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@baloise/ds-styles"
+          },
+          {
+            "name": "@nimbus-ds/icons",
+            "description": "[![@nimbus-ds/icons](https://img.shields.io/npm/v/@nimbus-ds/icons?label=%40nimbus-ds%2Ficons)](https://www.npmjs.com/package/@nimbus-ds/icons)",
+            "version": "1.13.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@nimbus-ds/icons"
+          },
+          {
+            "name": "@nimbus-ds/components",
+            "description": null,
+            "version": "5.30.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@nimbus-ds/components"
+          },
+          {
+            "name": "@preply/ds-theme-base-ui",
+            "description": null,
+            "version": "0.100.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@preply/ds-theme-base-ui"
+          },
+          {
+            "name": "@trilogy-ds/locales",
+            "description": "Trilogy assets include traductions for accessibility",
+            "version": "4.2.2-beta-6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@trilogy-ds/locales"
+          },
+          {
+            "name": "@navikt/ds-tokens",
+            "description": "Design-tokens for Nav designsystem",
+            "version": "7.32.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@navikt/ds-tokens"
+          },
+          {
+            "name": "@baloise/ds-icons",
+            "description": "The Baloise Design-System is an open source project for styling awesome web applications that follow the Baloise corporate styling guidelines.",
+            "version": "19.8.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@baloise/ds-icons"
+          },
+          {
+            "name": "@baloise/ds-table",
+            "description": "The Baloise Design-System is an open source project for styling awesome web applications that follow the Baloise corporate styling guidelines.",
+            "version": "19.8.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@baloise/ds-table"
+          },
+          {
+            "name": "@navikt/ds-icons",
+            "description": "Aksel icons for NAV",
+            "version": "3.4.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@navikt/ds-icons"
+          },
+          {
+            "name": "@nimbus-ds/tokens",
+            "description": null,
+            "version": "9.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@nimbus-ds/tokens"
+          },
+          {
+            "name": "little-ds-toolkit",
+            "description": "A small collection of useful data structures",
+            "version": "1.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/little-ds-toolkit"
+          },
+          {
+            "name": "@baloise/ds-testing",
+            "description": "The Baloise Design-System is an open source project for styling awesome web applications that follow the Baloise corporate styling guidelines.",
+            "version": "19.8.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@baloise/ds-testing"
+          },
+          {
+            "name": "@nimbus-ds/patterns",
+            "description": null,
+            "version": "1.24.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@nimbus-ds/patterns"
+          },
+          {
+            "name": "@baloise/ds-core",
+            "description": "The Baloise Design-System is an open source project for styling awesome web applications that follow the Baloise corporate styling guidelines.",
+            "version": "19.8.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@baloise/ds-core"
+          },
+          {
+            "name": "@baloise/ds-angular",
+            "description": "The Baloise Design-System is an open source project for styling awesome web applications that follow the Baloise corporate styling guidelines.",
+            "version": "19.8.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@baloise/ds-angular"
+          },
+          {
+            "name": "@ds-autonomie/assets",
+            "description": null,
+            "version": "1.4.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ds-autonomie/assets"
+          },
+          {
+            "name": "@design-systems/cli",
+            "description": "A cli for scaffolding and building design systems",
+            "version": "4.15.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@design-systems/cli"
+          },
+          {
+            "name": "@preply/ds-rn-core",
+            "description": null,
+            "version": "5.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@preply/ds-rn-core"
+          },
+          {
+            "name": "@spscommerce/ds-illustrations",
+            "description": "Design System illustration library",
+            "version": "6.37.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@spscommerce/ds-illustrations"
+          },
+          {
+            "name": "@govbr-ds/commitlint-config",
+            "description": "Padr\u00e3o de commits para projetos do Padr\u00e3o Digital de Governo",
+            "version": "4.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@govbr-ds/commitlint-config"
+          },
+          {
+            "name": "@baloise/ds-maps",
+            "description": "The Baloise Design-System is an open source project for styling awesome web applications that follow the Baloise corporate styling guidelines.",
+            "version": "19.8.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@baloise/ds-maps"
+          },
+          {
+            "name": "@preply/ds-visual-coverage-preply-rn",
+            "description": null,
+            "version": "5.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@preply/ds-visual-coverage-preply-rn"
+          },
+          {
+            "name": "@warp-ds/react",
+            "description": "Welcome to [@warp-ds/react](https://github.com/warp-ds/react), a collection of React components for building user interfaces based on the [Warp Design System](https://github.com/warp-ds/). This repository is maintained by the [Warp Core Team](https://gith",
+            "version": "2.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@warp-ds/react"
+          },
+          {
+            "name": "@spscommerce/ds-react-charts",
+            "description": "SPS Design System React Chart components",
+            "version": "8.35.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@spscommerce/ds-react-charts"
+          },
+          {
+            "name": "loopback-ds-readonly-mixin",
+            "description": "A mixin to enable loopback Model properties to be marked as readonly.",
+            "version": "2.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/loopback-ds-readonly-mixin"
+          },
+          {
+            "name": "@baloise/ds-angular-common",
+            "description": "The Baloise Design-System is an open source project for styling awesome web applications that follow the Baloise corporate styling guidelines.",
+            "version": "19.8.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@baloise/ds-angular-common"
+          },
+          {
+            "name": "@baloise/ds-angular-module",
+            "description": "The Baloise Design-System is an open source project for styling awesome web applications that follow the Baloise corporate styling guidelines.",
+            "version": "19.8.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@baloise/ds-angular-module"
+          },
+          {
+            "name": "@baloise/ds-favicons",
+            "description": "The Baloise Design-System is an open source project for styling awesome web applications that follow the Baloise corporate styling guidelines.",
+            "version": "19.8.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@baloise/ds-favicons"
+          },
+          {
+            "name": "hoon-ds",
+            "description": "Hoon Design System",
+            "version": "1.0.34",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/hoon-ds"
+          },
+          {
+            "name": "@warp-ds/elements",
+            "description": "Custom elements for Warp",
+            "version": "2.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@warp-ds/elements"
+          },
+          {
+            "name": "@preply/ds-rn-lib",
+            "description": null,
+            "version": "5.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@preply/ds-rn-lib"
+          },
+          {
+            "name": "@baloise/ds-brand-icons",
+            "description": "The Baloise Design-System is an open source project for styling awesome web applications that follow the Baloise corporate styling guidelines.",
+            "version": "19.8.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@baloise/ds-brand-icons"
+          },
+          {
+            "name": "@govbr-ds/markdownlint-config",
+            "description": "Configura\u00e7\u00e3o compartilhada do markdownlint para projetos do GovBR-DS",
+            "version": "4.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@govbr-ds/markdownlint-config"
+          },
+          {
+            "name": "@preply/ds-rn-root",
+            "description": null,
+            "version": "5.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@preply/ds-rn-root"
+          },
+          {
+            "name": "@opi_pib/ds",
+            "description": "Design system OPI PIB",
+            "version": "1.0.22",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@opi_pib/ds"
+          },
+          {
+            "name": "@preply/ds-docs",
+            "description": null,
+            "version": "5.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@preply/ds-docs"
+          },
+          {
+            "name": "test-datasets",
+            "description": "A collection of dataset JSON objects that can be used to different projects",
+            "version": "1.0.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/test-datasets"
+          },
+          {
+            "name": "@preply/ds-docs-pages",
+            "description": null,
+            "version": "5.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@preply/ds-docs-pages"
+          },
+          {
+            "name": "@preply/ds-docs-toolkit",
+            "description": null,
+            "version": "5.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@preply/ds-docs-toolkit"
+          },
+          {
+            "name": "@digdir/designsystemet-css",
+            "description": "CSS for Designsystemet",
+            "version": "1.6.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@digdir/designsystemet-css"
+          },
+          {
+            "name": "@mozaic-ds/icons",
+            "description": "svg icons for ADEO design system",
+            "version": "2.2.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mozaic-ds/icons"
+          },
+          {
+            "name": "@preply/ds-visual-coverage-rn",
+            "description": null,
+            "version": "5.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@preply/ds-visual-coverage-rn"
+          },
+          {
+            "name": "@atlaskit/css",
+            "description": "Style components backed by Atlassian Design System design tokens powered by Compiled CSS-in-JS.",
+            "version": "0.15.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@atlaskit/css"
+          },
+          {
+            "name": "@theidentityselector/thiss-ds",
+            "description": "A set of clients for the thiss.io service",
+            "version": "3.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@theidentityselector/thiss-ds"
+          },
+          {
+            "name": "@trilogy-ds/styles",
+            "description": "<div align='center'>",
+            "version": "4.10.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@trilogy-ds/styles"
+          },
+          {
+            "name": "@govbr-ds/core",
+            "description": "Padr\u00e3o Digital de Governo",
+            "version": "3.6.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@govbr-ds/core"
+          },
+          {
+            "name": "@govbr-ds/release-config",
+            "description": "Configura\u00e7\u00e3o compartilhada do semantic-release para projetos do GovBR-DS",
+            "version": "4.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@govbr-ds/release-config"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 100,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:25:38.093296"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:25:38.093306",
+    "batch_network": {
+      "batch": "Summer 2020",
+      "total_batch_mates": 207,
+      "active_batch_mates": 130,
+      "batch_success_rate": 62.8,
+      "notable_batch_mates": [
+        {
+          "name": "Ladder",
+          "slug": "ladder",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Labor Marketplace for Construction"
+        },
+        {
+          "name": "Fig",
+          "slug": "fig",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Fig adds visual apps, shortcuts, and autocomplete to your terminal."
+        },
+        {
+          "name": "Altro",
+          "slug": "altro",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Build Credit With Your Subscriptions"
+        },
+        {
+          "name": "Jemi",
+          "slug": "jemi",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Jemi helps people build beautiful websites and stores."
+        },
+        {
+          "name": "LSK Technologies",
+          "slug": "lsk-technologies",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A diagnostic lab in a box"
+        },
+        {
+          "name": "Command AI",
+          "slug": "command-ai",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "AI-powered user assistance platform"
+        },
+        {
+          "name": "Bandit ML",
+          "slug": "bandit-ml",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Bandit ML builds machine learning tools for e-commerce companies."
+        },
+        {
+          "name": "Momence",
+          "slug": "momence",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Scheduling and payments for experiences"
+        },
+        {
+          "name": "Gather",
+          "slug": "gather",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Project management software for People Operations"
+        },
+        {
+          "name": "Finmark",
+          "slug": "finmark",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Financial planning software for startups"
+        }
+      ],
+      "batch_size": 208
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Analytics"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "status": "Public",
+          "batch": "Winter 2012",
+          "one_liner": "Digital Analytics Platform"
+        },
+        {
+          "name": "Freshplum",
+          "slug": "freshplum",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Analytics with action"
+        },
+        {
+          "name": "Segment",
+          "slug": "segment",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Software and APIs to collect, clean, and control customer data."
+        },
+        {
+          "name": "Pagelever",
+          "slug": "pagelever",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Facebook analytics. Acquired by Unified in January 2013. \r\n"
+        },
+        {
+          "name": "Custora",
+          "slug": "custora",
+          "status": "Acquired",
+          "batch": "Winter 2011",
+          "one_liner": "Custora is a predictive analytics platform for e-commerce marketing\u2026"
+        },
+        {
+          "name": "Chartio",
+          "slug": "chartio",
+          "status": "Acquired",
+          "batch": "Summer 2010",
+          "one_liner": "Chartio is changing how companies work by building the best\u2026"
+        },
+        {
+          "name": "Data Marketplace",
+          "slug": "data-marketplace",
+          "status": "Inactive",
+          "batch": "Winter 2010",
+          "one_liner": ""
+        },
+        {
+          "name": "Mixpanel",
+          "slug": "mixpanel",
+          "status": "Active",
+          "batch": "Summer 2009",
+          "one_liner": "Mixpanel is event analytics for builders that need answers."
+        },
+        {
+          "name": "Poll Everywhere",
+          "slug": "poll-everywhere",
+          "status": "Active",
+          "batch": "Summer 2008",
+          "one_liner": "Interactive meetings and presentations"
+        },
+        {
+          "name": "Infogami",
+          "slug": "infogami",
+          "status": "Inactive",
+          "batch": "Summer 2005",
+          "one_liner": ""
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "New York",
+      "location": "New York, NY, USA; Philadelphia, PA, USA; Remote",
+      "companies_in_city": 523,
+      "active_in_city": 397,
+      "nearby_companies": [
+        {
+          "name": "The Muse",
+          "slug": "the-muse",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "HireArt",
+          "slug": "hireart",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Shoptiques",
+          "slug": "shoptiques",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Grouper",
+          "slug": "grouper",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "99dresses",
+          "slug": "99dresses",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Codecademy",
+          "slug": "codecademy",
+          "batch": "Summer 2011",
+          "industry": "Education",
+          "status": "Acquired"
+        },
+        {
+          "name": "Custora",
+          "slug": "custora",
+          "batch": "Winter 2011",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Recurse Center",
+          "slug": "recurse-center",
+          "batch": "Summer 2010",
+          "industry": "Education",
+          "status": "Active"
+        },
+        {
+          "name": "MessageParty",
+          "slug": "messageparty",
+          "batch": "Summer 2010",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Fabricly",
+          "slug": "fabricly",
+          "batch": "Winter 2010",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "RentHop",
+          "slug": "renthop",
+          "batch": "Summer 2009",
+          "industry": "Real Estate and Construction",
+          "status": "Active"
+        },
+        {
+          "name": "Youlicit",
+          "slug": "youlicit",
+          "batch": "Summer 2008",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "SocialPicks",
+          "slug": "socialpicks",
+          "batch": "Summer 2007",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Octopart",
+          "slug": "octopart",
+          "batch": "Winter 2007",
+          "industry": "Industrials",
+          "status": "Acquired"
+        },
+        {
+          "name": "OMGPop",
+          "slug": "omgpop",
+          "batch": "Summer 2006",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Canopy Labs",
+          "slug": "canopy-labs",
+          "batch": "Summer 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Fullstack Academy",
+          "slug": "fullstack-academy",
+          "batch": "Summer 2012",
+          "industry": "Education",
+          "status": "Acquired"
+        },
+        {
+          "name": "DataNitro",
+          "slug": "datanitro",
+          "batch": "Summer 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "SmartAsset",
+          "slug": "smartasset",
+          "batch": "Summer 2012",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "StyleUp",
+          "slug": "styleup",
+          "batch": "Winter 2013",
+          "industry": "Consumer",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Datafold",
+        "slug": "datafold",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Porter",
+        "slug": "porter",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Basedash",
+        "slug": "basedash",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Salesform",
+        "slug": "salesform",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Jitsu",
+        "slug": "jitsu",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "inFeedo AI",
+        "slug": "infeedo-ai",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Lightdash",
+        "slug": "hubble",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Blue Onion",
+        "slug": "blue-onion",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Dialect",
+        "slug": "dialect",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Arist",
+        "slug": "arist",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 3476,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:25:38.100752"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:25:38.100761",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:25:38.429989",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:25:38.570272",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 3,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:42:22.719811",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "AI-powered development tools adoption",
+        "No-code/low-code data analytics demand",
+        "Enterprise data democratization initiatives"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Open source community adoption combined with enterprise sales strategy creates network effects and reduces customer acquisition costs",
+      "differentiation": "AI-enabled IDE specifically for data science built on familiar Jupyter infrastructure with automation focus",
+      "competitive_advantages": [
+        "Open source foundation reduces switching costs",
+        "Built on widely-adopted Jupyter ecosystem"
+      ],
+      "competitive_vulnerabilities": [
+        "Large tech companies could build similar AI features",
+        "Open source model limits pricing power"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "low"
+    },
+    "growth_assessment": {
+      "growth_stage": "series-a",
+      "growth_indicators": [
+        "Usage at major financial institutions",
+        "4+ years of product development",
+        "Established enterprise customer base"
+      ],
+      "growth_bottlenecks": [
+        "Small team size for enterprise sales",
+        "Competition from established players like Databricks/Palantir"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "low",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Big tech competition",
+        "Open source monetization challenges",
+        "Small team scaling limitations"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong enterprise traction in high-value sectors",
+        "Open source go-to-market strategy",
+        "AI-powered productivity focus aligns with market trends"
+      ],
+      "concerns": [
+        "Small team for ambitious market",
+        "Competitive pressure from well-funded incumbents"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Databricks",
+        "Hex Technologies"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Scale enterprise sales team",
+        "Expand AI automation capabilities"
+      ],
+      "expansion_opportunities": [
+        "International enterprise markets",
+        "Industry-specific data analysis solutions"
+      ]
+    },
+    "tokens_used": {
+      "input": 734,
+      "output": 545,
+      "total": 1279,
+      "estimated_cost": 0.010377
+    }
+  },
+  "phase8_complete": true
+}

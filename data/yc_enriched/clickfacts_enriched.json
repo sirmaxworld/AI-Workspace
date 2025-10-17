@@ -1,0 +1,625 @@
+{
+  "slug": "clickfacts",
+  "name": "Clickfacts",
+  "yc_id": 375,
+  "batch": "Summer 2005",
+  "website": "http://clickfacts.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:31:53.419647",
+    "website": "http://clickfacts.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 530.46,
+      "final_url": "https://fraudblocker.com",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:31:53.950111"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "clickfacts.com",
+      "registrar": "GoDaddy.com, LLC",
+      "creation_date": "2005-04-12T04:09:46",
+      "expiration_date": "2026-04-12T04:09:46",
+      "domain_age_days": 7492,
+      "domain_age_years": 20.5,
+      "name_servers": [
+        "MARIO.NS.CLOUDFLARE.COM",
+        "MEGAN.NS.CLOUDFLARE.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": false,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 0,
+      "server": "cloudflare"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:13:31.777869",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:03:59.253920",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "San Francisco, CA, USA",
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:03:07.888811",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:03:59.253967",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:03:59.253972",
+    "batch_network": {
+      "batch": "Summer 2005",
+      "total_batch_mates": 8,
+      "active_batch_mates": 0,
+      "batch_success_rate": 0.0,
+      "notable_batch_mates": [
+        {
+          "name": "Loopt",
+          "slug": "loopt",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": ""
+        },
+        {
+          "name": "TextPayMe",
+          "slug": "textpayme",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": ""
+        },
+        {
+          "name": "Kiko",
+          "slug": "kiko",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "We're the best online calendar solution to ever exist. Period."
+        },
+        {
+          "name": "Reddit",
+          "slug": "reddit",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "The frontpage of the internet."
+        },
+        {
+          "name": "Parakey",
+          "slug": "parakey",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": ""
+        }
+      ],
+      "batch_size": 9
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Security"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1969,
+      "direct_competitors": [
+        {
+          "name": "Sift",
+          "slug": "sift",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "The Leader in Digital Trust & Safety"
+        },
+        {
+          "name": "Smyte",
+          "slug": "smyte",
+          "status": "Acquired",
+          "batch": "Winter 2015",
+          "one_liner": "Smyte stops bad actors on social networks and marketplaces."
+        },
+        {
+          "name": "CyberFend",
+          "slug": "cyberfend",
+          "status": "Acquired",
+          "batch": "Winter 2015",
+          "one_liner": "Cyberfend delivers robust, real-time web and mobile security by\u2026"
+        },
+        {
+          "name": "ThinAir",
+          "slug": "thinair",
+          "status": "Inactive",
+          "batch": "Winter 2015",
+          "one_liner": "Intelligent data security for teams"
+        },
+        {
+          "name": "Cymmetria",
+          "slug": "cymmetria",
+          "status": "Acquired",
+          "batch": "Summer 2015",
+          "one_liner": "Shifting the asymmetry of cyber security."
+        },
+        {
+          "name": "Foxpass",
+          "slug": "foxpass",
+          "status": "Acquired",
+          "batch": "Summer 2015",
+          "one_liner": "Making enterprise security practices available for all companies."
+        },
+        {
+          "name": "Appcanary",
+          "slug": "appcanary",
+          "status": "Acquired",
+          "batch": "Summer 2015",
+          "one_liner": "Appcanary tracks the dependencies you use in your apps and servers\u2026"
+        },
+        {
+          "name": "Sphere Secure Workspace",
+          "slug": "sphere-secure-workspace",
+          "status": "Acquired",
+          "batch": "Summer 2015",
+          "one_liner": ""
+        },
+        {
+          "name": "Traversal Networks",
+          "slug": "traversal-networks",
+          "status": "Inactive",
+          "batch": "Summer 2015",
+          "one_liner": "Enterprise Threat Detection: Tuning, Triage, and Analysis by Experts."
+        },
+        {
+          "name": "Castle",
+          "slug": "castle-2",
+          "status": "Active",
+          "batch": "Winter 2016",
+          "one_liner": "Block bots & bad behavior"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "San Francisco",
+      "location": "San Francisco, CA, USA",
+      "companies_in_city": 2007,
+      "active_in_city": 1340,
+      "nearby_companies": [
+        {
+          "name": "42Floors",
+          "slug": "42floors",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "PlanGrid",
+          "slug": "plangrid",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "MyVR",
+          "slug": "myvr",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Couple",
+          "slug": "couple",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HackPad",
+          "slug": "hackpad",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Gusto",
+          "slug": "gusto",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "FamilyLeaf",
+          "slug": "familyleaf",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Chute",
+          "slug": "chute",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Make School",
+          "slug": "make-school",
+          "batch": "Winter 2012",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Exec",
+          "slug": "exec",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Public"
+        },
+        {
+          "name": "LendUp",
+          "slug": "lendup",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tilt",
+          "slug": "tilt",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fond",
+          "slug": "fond",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Sift",
+        "slug": "sift",
+        "batch": "Summer 2011",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Smyte",
+        "slug": "smyte",
+        "batch": "Winter 2015",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Foxpass",
+        "slug": "foxpass",
+        "batch": "Summer 2015",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Castle",
+        "slug": "castle-2",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "AmberBox Gunshot Detection",
+        "slug": "amberbox-gunshot-detection",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Metapacket",
+        "slug": "metapacket",
+        "batch": "Summer 2016",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Apozy",
+        "slug": "apozy",
+        "batch": "Winter 2017",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Upfort",
+        "slug": "upfort",
+        "batch": "Summer 2017",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Templarbit",
+        "slug": "templarbit",
+        "batch": "Summer 2017",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Vanta",
+        "slug": "vanta",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 4761,
+      "network_density_score": 81.6,
+      "has_strong_batch_network": false,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:03:59.262617"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:03:59.262621",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:03:59.592206",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:03:59.688382",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 11,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:55:33.641368",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "medium",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increased awareness of malware threats in online advertising",
+        "Growing demand for brand safety and ad quality",
+        "Automation of ad verification processes"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Early mover advantage, established customer base",
+      "differentiation": "Automated plug-and-play malware discovery solution",
+      "competitive_advantages": [
+        "Comprehensive malware detection",
+        "Proactive ad quality monitoring"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on signature-based detection (can be bypassed by new malware)",
+        "Potential for false positives"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "mature",
+      "growth_indicators": [
+        "Customer acquisition in the ad tech space",
+        "Expansion of product offerings (ad moderation, brand safety)"
+      ],
+      "growth_bottlenecks": [
+        "Keeping up with evolving malware techniques",
+        "Competition from larger cybersecurity firms"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "low",
+      "overall_risk_score": 4,
+      "key_risks": [
+        "Efficacy of malware detection",
+        "Integration with ad platforms",
+        "Data privacy regulations"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "First-mover advantage in a growing market",
+        "Automated solution reduces manual effort",
+        "Addresses a critical need for advertisers and publishers"
+      ],
+      "concerns": [
+        "Ability to stay ahead of evolving malware threats",
+        "Competition from larger players with more resources"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "DoubleVerify",
+        "Integral Ad Science"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on improving malware detection accuracy",
+        "Expand integration with major ad platforms"
+      ],
+      "expansion_opportunities": [
+        "Offer more comprehensive brand safety solutions",
+        "Expand into new markets (e.g., mobile advertising)"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 700,
+      "completion": 602,
+      "total": 1302,
+      "estimated_cost": 0.000233
+    }
+  },
+  "phase8_complete": true
+}

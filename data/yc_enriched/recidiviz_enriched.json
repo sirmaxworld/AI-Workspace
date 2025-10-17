@@ -1,0 +1,724 @@
+{
+  "slug": "recidiviz",
+  "name": "Recidiviz",
+  "yc_id": 12837,
+  "batch": "Summer 2019",
+  "website": "https://www.recidiviz.org/",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:50:17.882422",
+    "website": "https://www.recidiviz.org/",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 2228.07,
+      "final_url": "https://www.recidiviz.org/",
+      "redirected": false,
+      "checked_at": "2025-10-17T00:50:20.110508"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "recidiviz.org",
+      "registrar": "Squarespace Domains II LLC",
+      "creation_date": "2018-08-04T00:15:39",
+      "expiration_date": "2027-08-04T00:15:39",
+      "domain_age_days": 2631,
+      "domain_age_years": 7.2,
+      "name_servers": [
+        "ns-cloud-a4.googledomains.com",
+        "ns-cloud-a1.googledomains.com",
+        "ns-cloud-a3.googledomains.com",
+        "ns-cloud-a2.googledomains.com"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": "https://www.linkedin.com/company/recidiviz/",
+      "github": "https://github.com/Recidiviz/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": true,
+      "x_frame_options": true,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 50,
+      "server": "Unknown"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:23:17.022976",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:23:04.268585",
+    "place_data": {
+      "status": "success",
+      "method": "nominatim",
+      "formatted_address": "City of New York, New York, United States",
+      "coordinates": {
+        "latitude": 40.7127281,
+        "longitude": -74.0060152
+      },
+      "place_types": [
+        "administrative"
+      ],
+      "retrieved_at": "2025-10-17T10:12:57.698487",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:23:04.268699",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/Recidiviz"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 5,
+        "packages": [
+          {
+            "name": "@recidiviz/design-system",
+            "description": "UI components and styles for Recidiviz web products.",
+            "version": "5.11.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@recidiviz/design-system"
+          },
+          {
+            "name": "@recidiviz/tsconfig",
+            "description": "Typescript config bases for Recidiviz web applications",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@recidiviz/tsconfig"
+          },
+          {
+            "name": "@recidiviz/eslint-config",
+            "description": "Shared ESLint config for Recidiviz web applications",
+            "version": "3.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@recidiviz/eslint-config"
+          },
+          {
+            "name": "@recidiviz/auth",
+            "description": "Auth0-Powered Authentication Module",
+            "version": "1.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@recidiviz/auth"
+          },
+          {
+            "name": "@recidiviz/case-triage-components",
+            "description": "A tool to improve outcomes for people under supervision",
+            "version": "0.4.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@recidiviz/case-triage-components"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 5,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:23:05.534182"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:23:05.534185",
+    "batch_network": {
+      "batch": "Summer 2019",
+      "total_batch_mates": 175,
+      "active_batch_mates": 113,
+      "batch_success_rate": 64.6,
+      "notable_batch_mates": [
+        {
+          "name": "Together Software",
+          "slug": "together-software",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Learn from the experts at your company. "
+        },
+        {
+          "name": "PopSQL",
+          "slug": "popsql",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "SQL editor for teams"
+        },
+        {
+          "name": "Cuboh",
+          "slug": "cuboh",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "We help restaurants manage their online orders."
+        },
+        {
+          "name": "Palifer",
+          "slug": "palifer",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Predictive maintenance models for trains and heavy industry"
+        },
+        {
+          "name": "Symplex",
+          "slug": "symplex",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Applied Reinforcement Learning Research Laboratory"
+        },
+        {
+          "name": "Kraftful",
+          "slug": "kraftful",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Copilot for product teams"
+        },
+        {
+          "name": "Odeko",
+          "slug": "odeko",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "Our operations software makes it easier to run--and grow--your cafe"
+        },
+        {
+          "name": "Bayes",
+          "slug": "bayes",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": ""
+        },
+        {
+          "name": "Voyage Biomedical",
+          "slug": "voyage-biomedical",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Using cooling to end brain damage during stroke."
+        },
+        {
+          "name": "Intersect Labs",
+          "slug": "intersect-labs",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Collaborative data noteboook for business teams"
+        }
+      ],
+      "batch_size": 176
+    },
+    "industry_network": {
+      "industries": [
+        "Government"
+      ],
+      "total_industry_peers": 39,
+      "active_industry_peers": 29,
+      "direct_competitors": [
+        {
+          "name": "GovPredict",
+          "slug": "govpredict",
+          "status": "Acquired",
+          "batch": "Summer 2014",
+          "one_liner": "The system of record for government affairs."
+        },
+        {
+          "name": "Remix",
+          "slug": "remix",
+          "status": "Acquired",
+          "batch": "Winter 2015",
+          "one_liner": "We\u2019re building a platform to empower cities to plan the best possible\u2026"
+        },
+        {
+          "name": "Rescue Forensics",
+          "slug": "rescue-forensics",
+          "status": "Inactive",
+          "batch": "Winter 2015",
+          "one_liner": "Actionable human trafficking intelligence"
+        },
+        {
+          "name": "Zenysis",
+          "slug": "zenysis",
+          "status": "Active",
+          "batch": "Winter 2016",
+          "one_liner": "Building powerful data analysis software for developing countries."
+        },
+        {
+          "name": "Seneca Systems",
+          "slug": "seneca-systems",
+          "status": "Acquired",
+          "batch": "Summer 2016",
+          "one_liner": "Constituent system-of-record and service request management software\u2026"
+        },
+        {
+          "name": "DemocracyOS",
+          "slug": "democracyos",
+          "status": "Active",
+          "batch": "Winter 2015",
+          "one_liner": "Online space for deliberation, policy making and democratic\u2026"
+        },
+        {
+          "name": "Token Transit",
+          "slug": "token-transit",
+          "status": "Active",
+          "batch": "Winter 2017",
+          "one_liner": "Complete fare payment platform for public transportation"
+        },
+        {
+          "name": "Elucd",
+          "slug": "elucd",
+          "status": "Acquired",
+          "batch": "Summer 2017",
+          "one_liner": "Polling through mobile ads to enable governments to make better\u2026"
+        },
+        {
+          "name": "Value Voting",
+          "slug": "value-voting",
+          "status": "Inactive",
+          "batch": "Summer 2017",
+          "one_liner": "Platform to defeat political extremism through strategic primary\u2026"
+        },
+        {
+          "name": "RideAlong",
+          "slug": "ridealong",
+          "status": "Inactive",
+          "batch": "Summer 2017",
+          "one_liner": "We save lives by giving police and health workers key info to safely\u2026"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "New York",
+      "location": "New York, NY, USA",
+      "companies_in_city": 523,
+      "active_in_city": 397,
+      "nearby_companies": [
+        {
+          "name": "The Muse",
+          "slug": "the-muse",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "HireArt",
+          "slug": "hireart",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Shoptiques",
+          "slug": "shoptiques",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Grouper",
+          "slug": "grouper",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "99dresses",
+          "slug": "99dresses",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Codecademy",
+          "slug": "codecademy",
+          "batch": "Summer 2011",
+          "industry": "Education",
+          "status": "Acquired"
+        },
+        {
+          "name": "Custora",
+          "slug": "custora",
+          "batch": "Winter 2011",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Recurse Center",
+          "slug": "recurse-center",
+          "batch": "Summer 2010",
+          "industry": "Education",
+          "status": "Active"
+        },
+        {
+          "name": "MessageParty",
+          "slug": "messageparty",
+          "batch": "Summer 2010",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Fabricly",
+          "slug": "fabricly",
+          "batch": "Winter 2010",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "RentHop",
+          "slug": "renthop",
+          "batch": "Summer 2009",
+          "industry": "Real Estate and Construction",
+          "status": "Active"
+        },
+        {
+          "name": "Youlicit",
+          "slug": "youlicit",
+          "batch": "Summer 2008",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "SocialPicks",
+          "slug": "socialpicks",
+          "batch": "Summer 2007",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Octopart",
+          "slug": "octopart",
+          "batch": "Winter 2007",
+          "industry": "Industrials",
+          "status": "Acquired"
+        },
+        {
+          "name": "OMGPop",
+          "slug": "omgpop",
+          "batch": "Summer 2006",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Canopy Labs",
+          "slug": "canopy-labs",
+          "batch": "Summer 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Fullstack Academy",
+          "slug": "fullstack-academy",
+          "batch": "Summer 2012",
+          "industry": "Education",
+          "status": "Acquired"
+        },
+        {
+          "name": "DataNitro",
+          "slug": "datanitro",
+          "batch": "Summer 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "SmartAsset",
+          "slug": "smartasset",
+          "batch": "Summer 2012",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "StyleUp",
+          "slug": "styleup",
+          "batch": "Winter 2013",
+          "industry": "Consumer",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Hutsy",
+        "slug": "hutsy",
+        "batch": "Summer 2019",
+        "industry": "Real Estate and Construction",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Swadesh",
+        "slug": "swadesh",
+        "batch": "Summer 2019",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Superorder",
+        "slug": "superorder",
+        "batch": "Summer 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Dover",
+        "slug": "dover",
+        "batch": "Summer 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Path",
+        "slug": "path",
+        "batch": "Summer 2019",
+        "industry": "Fintech",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "MoFE",
+        "slug": "mofe",
+        "batch": "Summer 2019",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "ReverCare",
+        "slug": "revercare",
+        "batch": "Summer 2019",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Gamebytes",
+        "slug": "gamebytes",
+        "batch": "Summer 2019",
+        "industry": "Consumer",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Symplex",
+        "slug": "symplex",
+        "batch": "Summer 2019",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Legacy",
+        "slug": "legacy",
+        "batch": "Summer 2019",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 737,
+      "network_density_score": 78.1,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": false,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:23:05.538483"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:23:05.538485",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:23:05.885100",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:23:06.014126",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 80,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:28.155805",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "medium",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increased focus on criminal justice reform",
+        "Growing demand for data-driven decision-making in government",
+        "Adoption of open-source solutions in the public sector"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Data network effects, open-source platform, established relationships with government agencies.",
+      "differentiation": "Non-profit status focused on social impact, open-source platform fostering collaboration and trust.",
+      "competitive_advantages": [
+        "Strong mission alignment with stakeholders",
+        "Open-source platform reduces vendor lock-in"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on grants and philanthropic funding",
+        "Potential for slower growth compared to for-profit competitors"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "Grants, philanthropic donations, potentially government contracts for specific services.",
+      "scalability": "medium",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "Expansion to new states and jurisdictions",
+        "Increased adoption of the platform by government agencies"
+      ],
+      "growth_bottlenecks": [
+        "Securing sustainable funding",
+        "Navigating complex government procurement processes"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "low",
+      "technology_risk": "low",
+      "execution_risk": "medium",
+      "overall_risk_score": 4,
+      "key_risks": [
+        "Dependence on government funding and political will",
+        "Data security and privacy concerns",
+        "Difficulty in measuring and demonstrating impact"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong social impact and mission",
+        "Open-source platform fosters collaboration",
+        "Addresses a critical need in the criminal justice system"
+      ],
+      "concerns": [
+        "Sustainability of funding model",
+        "Scalability limitations due to non-profit status"
+      ],
+      "exit_potential": "acquisition/strategic",
+      "comparable_companies": [
+        "Measures for Justice",
+        "Justice Research and Statistics Association"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Diversify funding sources beyond grants",
+        "Develop partnerships with for-profit companies to expand reach"
+      ],
+      "expansion_opportunities": [
+        "Expand platform to address other areas of the justice system (e.g., juvenile justice)",
+        "Offer premium services to government agencies (e.g., data analytics, consulting)"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 713,
+      "completion": 662,
+      "total": 1375,
+      "estimated_cost": 0.000252
+    }
+  },
+  "phase8_complete": true
+}

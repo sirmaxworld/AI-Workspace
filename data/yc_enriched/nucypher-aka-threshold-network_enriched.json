@@ -1,0 +1,1390 @@
+{
+  "slug": "nucypher-aka-threshold-network",
+  "name": "NuCypher (aka Threshold Network)",
+  "yc_id": 1183,
+  "batch": "Summer 2016",
+  "website": "https://threshold.network/",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:37:30.879949",
+    "website": "https://threshold.network/",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 625.89,
+      "final_url": "https://threshold.network/",
+      "redirected": false,
+      "checked_at": "2025-10-17T00:37:31.505860"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "threshold.network",
+      "error": "Whois command returned no output"
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/TheTNetwork",
+      "linkedin": null,
+      "github": "https://github.com/threshold-network",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": false,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 0,
+      "server": "cloudflare"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:17:17.701297",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:17:07.411587",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "Austin, TX, USA",
+      "coordinates": {
+        "latitude": 30.2672,
+        "longitude": -97.7431
+      },
+      "timezone": {
+        "timezone_id": "America/Chicago",
+        "timezone_name": "America/Chicago"
+      },
+      "retrieved_at": "2025-10-17T10:17:07.411626"
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:17:07.411645",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/threshold-network"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 100,
+        "packages": [
+          {
+            "name": "threshold-gov-sdk",
+            "description": "SDK for Threshold Network governance",
+            "version": "0.44.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/threshold-gov-sdk"
+          },
+          {
+            "name": "@threshold-network/components",
+            "description": "React components for Threshold Network.",
+            "version": "1.0.0-dev.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@threshold-network/components"
+          },
+          {
+            "name": "@threshold-network/solidity-contracts",
+            "description": ":toc: macro",
+            "version": "1.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@threshold-network/solidity-contracts"
+          },
+          {
+            "name": "@jimp/plugin-threshold",
+            "description": null,
+            "version": "1.6.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@jimp/plugin-threshold"
+          },
+          {
+            "name": "didyoumean",
+            "description": "Match human-quality input to potential matches by edit distance.",
+            "version": "1.2.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/didyoumean"
+          },
+          {
+            "name": "proper-lockfile",
+            "description": "A inter-process and inter-machine lockfile utility that works on a local or network file system",
+            "version": "4.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/proper-lockfile"
+          },
+          {
+            "name": "@chainlink/evm-gauntlet-safe",
+            "description": "EVM Gauntlet Safe",
+            "version": "3.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@chainlink/evm-gauntlet-safe"
+          },
+          {
+            "name": "@visx/threshold",
+            "description": "visx threshold",
+            "version": "3.12.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@visx/threshold"
+          },
+          {
+            "name": "kliedz",
+            "description": "Dead-simple, stateless logging utility for JavaScript and TypeScript. Pure functions. No dependencies. Just log.",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/kliedz"
+          },
+          {
+            "name": "lan-network",
+            "description": "Best-effort discovery of the machine's default gateway and local network IP exclusively with UDP sockets.",
+            "version": "0.1.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/lan-network"
+          },
+          {
+            "name": "@vx/threshold",
+            "description": "vx threshold",
+            "version": "0.0.199",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@vx/threshold"
+          },
+          {
+            "name": "is-network-error",
+            "description": "Check if a value is a Fetch network error",
+            "version": "1.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/is-network-error"
+          },
+          {
+            "name": "@alcalzone/proper-lockfile",
+            "description": "A inter-process and inter-machine lockfile utility that works on a local or network file system",
+            "version": "4.1.3-0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@alcalzone/proper-lockfile"
+          },
+          {
+            "name": "@ethersproject/networks",
+            "description": "Network definitions for ethers.",
+            "version": "5.8.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ethersproject/networks"
+          },
+          {
+            "name": "istanbul-threshold-checker",
+            "description": "Utility module to check istanbul thresholds",
+            "version": "0.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/istanbul-threshold-checker"
+          },
+          {
+            "name": "@mswjs/interceptors",
+            "description": "Low-level HTTP/HTTPS/XHR/fetch request interception library.",
+            "version": "0.39.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mswjs/interceptors"
+          },
+          {
+            "name": "d3-scale",
+            "description": "Encodings that map abstract data to visual representation.",
+            "version": "4.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/d3-scale"
+          },
+          {
+            "name": "@rpldy/abort",
+            "description": "adds the capability to abort/cancel running & pending uploads",
+            "version": "1.11.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@rpldy/abort"
+          },
+          {
+            "name": "@polymer/iron-scroll-threshold",
+            "description": "Triggers an event when nearing the beginning or end of a scrollable element ",
+            "version": "3.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@polymer/iron-scroll-threshold"
+          },
+          {
+            "name": "canvasutil",
+            "description": "Pixel transformations and processing for canvas",
+            "version": "0.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/canvasutil"
+          },
+          {
+            "name": "vue-touch",
+            "description": "Hammer.js based touch events plugin for Vue.js",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/vue-touch"
+          },
+          {
+            "name": "vis-network",
+            "description": "A dynamic, browser-based visualization library.",
+            "version": "10.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/vis-network"
+          },
+          {
+            "name": "d3-contour",
+            "description": "Compute contour polygons using marching squares.",
+            "version": "4.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/d3-contour"
+          },
+          {
+            "name": "@silencelaboratories/dkls-wasm-ll-node",
+            "description": "**Silent Shard** uses Multiparty computation (MPC) and enables a set of parties that do not trust each other to jointly compute a secret signing key without being constructed in one place and an ECDSA signature over their secret key shards while not shari",
+            "version": "1.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@silencelaboratories/dkls-wasm-ll-node"
+          },
+          {
+            "name": "@amplitude/plugin-network-capture-browser",
+            "description": null,
+            "version": "1.0.1-usenetworkcaptureinanalyticsbrowser-1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@amplitude/plugin-network-capture-browser"
+          },
+          {
+            "name": "@silencelaboratories/dkls-wasm-ll-web",
+            "description": "**Silent Shard** uses Multiparty computation (MPC) and enables a set of parties that do not trust each other to jointly compute a secret signing key without being constructed in one place and an ECDSA signature over their secret key shards while not shari",
+            "version": "1.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@silencelaboratories/dkls-wasm-ll-web"
+          },
+          {
+            "name": "@toruslabs/torus.js",
+            "description": "Handle communication with torus nodes",
+            "version": "16.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@toruslabs/torus.js"
+          },
+          {
+            "name": "canvas-dither",
+            "description": "Black and White dithering for the canvas element",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/canvas-dither"
+          },
+          {
+            "name": "@common.js/is-network-error",
+            "description": "is-network-error package exported as CommonJS modules",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@common.js/is-network-error"
+          },
+          {
+            "name": "@stacks/network",
+            "description": "Library for Stacks network operations",
+            "version": "7.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@stacks/network"
+          },
+          {
+            "name": "@nomicfoundation/hardhat-network-helpers",
+            "description": "Hardhat utils for testing",
+            "version": "3.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@nomicfoundation/hardhat-network-helpers"
+          },
+          {
+            "name": "@aws-sdk/client-budgets",
+            "description": "AWS SDK for JavaScript Budgets Client for Node.js, Browser and React Native",
+            "version": "3.911.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/client-budgets"
+          },
+          {
+            "name": "cypress-network-idle",
+            "description": "A little Cypress.io plugin for waiting for network to be idle before continuing with the test",
+            "version": "1.15.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/cypress-network-idle"
+          },
+          {
+            "name": "@metamask/multichain-network-controller",
+            "description": "Multichain network controller",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@metamask/multichain-network-controller"
+          },
+          {
+            "name": "@azure/arm-network",
+            "description": "A generated SDK for NetworkManagementClient.",
+            "version": "34.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@azure/arm-network"
+          },
+          {
+            "name": "artillery-plugin-ensure",
+            "description": "With this plugin Artillery can validate if a metric meets a predefined threshold or condition.",
+            "version": "1.20.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/artillery-plugin-ensure"
+          },
+          {
+            "name": "@metamask/auth-network-utils",
+            "description": "common utilities to access and format responses from auth network",
+            "version": "0.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@metamask/auth-network-utils"
+          },
+          {
+            "name": "yarn",
+            "description": "\ud83d\udce6\ud83d\udc08 Fast, reliable, and secure dependency management.",
+            "version": "1.22.22",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/yarn"
+          },
+          {
+            "name": "rate-limit-threshold",
+            "description": "Rate limiter with a maximum number of calls per given period of time",
+            "version": "0.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rate-limit-threshold"
+          },
+          {
+            "name": "@ionic/utils-network",
+            "description": "Network utils for Node",
+            "version": "2.1.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ionic/utils-network"
+          },
+          {
+            "name": "@nomicfoundation/hardhat-toolbox",
+            "description": "Nomic Foundation's recommended bundle of Hardhat plugins (ethers based)",
+            "version": "6.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@nomicfoundation/hardhat-toolbox"
+          },
+          {
+            "name": "@turf/distance-weight",
+            "description": "turf distance-weight module",
+            "version": "7.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@turf/distance-weight"
+          },
+          {
+            "name": "@vue/cli-plugin-unit-mocha",
+            "description": "mocha unit testing plugin for vue-cli",
+            "version": "5.0.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@vue/cli-plugin-unit-mocha"
+          },
+          {
+            "name": "haversine",
+            "description": "A simple haversine module",
+            "version": "1.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/haversine"
+          },
+          {
+            "name": "@capacitor/network",
+            "description": "The Network API provides network and connectivity information.",
+            "version": "7.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@capacitor/network"
+          },
+          {
+            "name": "@metamask/selected-network-controller",
+            "description": "Provides an interface to the currently selected networkClientId for a given domain",
+            "version": "24.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@metamask/selected-network-controller"
+          },
+          {
+            "name": "@stoplight/types",
+            "description": "Common typings for the Stoplight ecosystem.",
+            "version": "14.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@stoplight/types"
+          },
+          {
+            "name": "@metamask/network-controller",
+            "description": "Provides an interface to the currently selected network via a MetaMask-compatible provider object",
+            "version": "24.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@metamask/network-controller"
+          },
+          {
+            "name": "@aws-sdk/client-network-firewall",
+            "description": "AWS SDK for JavaScript Network Firewall Client for Node.js, Browser and React Native",
+            "version": "3.911.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/client-network-firewall"
+          },
+          {
+            "name": "expo-network",
+            "description": "Provides useful information about the device's network such as its IP address, MAC address, and airplane mode status",
+            "version": "8.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo-network"
+          },
+          {
+            "name": "gatsby-plugin-page-json-threshold",
+            "description": "Post build audit the size of generated page-data.json files.",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/gatsby-plugin-page-json-threshold"
+          },
+          {
+            "name": "react-native-network-logger",
+            "description": "An HTTP traffic monitor for React Native with zero dependencies",
+            "version": "2.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-native-network-logger"
+          },
+          {
+            "name": "randomness-solidity",
+            "description": "Core solidity smart contracts for Randamu's on-chain randomness requests",
+            "version": "0.0.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/randomness-solidity"
+          },
+          {
+            "name": "@types/pixelmatch",
+            "description": "TypeScript definitions for pixelmatch",
+            "version": "5.2.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@types/pixelmatch"
+          },
+          {
+            "name": "@bugsnag/plugin-network-breadcrumbs",
+            "description": "@bugsnag/js plugin to record browser requests as breadcrumbs",
+            "version": "8.6.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@bugsnag/plugin-network-breadcrumbs"
+          },
+          {
+            "name": "stylelint-no-indistinguishable-colors",
+            "description": "Stylelint plugin to add rule no-indistinguishable-colors",
+            "version": "2.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/stylelint-no-indistinguishable-colors"
+          },
+          {
+            "name": "relay-runtime",
+            "description": "A core runtime for building GraphQL-driven applications.",
+            "version": "20.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/relay-runtime"
+          },
+          {
+            "name": "prettier-plugin-multiline-arrays",
+            "description": "Prettier plugin to force all arrays to be multiline.",
+            "version": "4.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/prettier-plugin-multiline-arrays"
+          },
+          {
+            "name": "path-is-network-drive",
+            "description": null,
+            "version": "1.0.21",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/path-is-network-drive"
+          },
+          {
+            "name": "compare-pdf",
+            "description": "Standalone node module that compares pdfs",
+            "version": "1.1.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/compare-pdf"
+          },
+          {
+            "name": "@metamask/network-enablement-controller",
+            "description": "Provides an interface to the currently enabled network using a MetaMask-compatible provider object",
+            "version": "2.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@metamask/network-enablement-controller"
+          },
+          {
+            "name": "ukkonen",
+            "description": "Ukkonens approximate string matching algorithm for finding edit distance similar to Levenshtein",
+            "version": "2.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ukkonen"
+          },
+          {
+            "name": "@rozenite/network-activity-plugin",
+            "description": "Network Activity for Rozenite.",
+            "version": "1.0.0-alpha.15",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@rozenite/network-activity-plugin"
+          },
+          {
+            "name": "jest-coverage-thresholds-bumper",
+            "description": "Tool for Jest testing library that automatically bumps up code coverage thresholds as real code coverage improves.",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/jest-coverage-thresholds-bumper"
+          },
+          {
+            "name": "@size-limit/time",
+            "description": "Downloading and running time plugin for Size Limit",
+            "version": "11.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@size-limit/time"
+          },
+          {
+            "name": "node-network-devtools",
+            "description": "Inspecting Node.js's Network with Chrome DevTools",
+            "version": "1.0.29",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/node-network-devtools"
+          },
+          {
+            "name": "@aws-sdk/client-route53resolver",
+            "description": "AWS SDK for JavaScript Route53resolver Client for Node.js, Browser and React Native",
+            "version": "3.911.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/client-route53resolver"
+          },
+          {
+            "name": "@metaverse-network-sdk/type-definitions",
+            "description": "Polkadot.js type definitions for Metaverse Network Protocol",
+            "version": "0.0.1-16",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@metaverse-network-sdk/type-definitions"
+          },
+          {
+            "name": "v-scroll-threshold",
+            "description": "A vue directive that accepts a threshold value and a callback function that tells you if current scroll position is before the binded element, after element and inside the threshold or past the threshold",
+            "version": "2.4.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/v-scroll-threshold"
+          },
+          {
+            "name": "v-network-graph",
+            "description": "An interactive network graph visualization component for Vue 3",
+            "version": "0.9.21",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/v-network-graph"
+          },
+          {
+            "name": "@openzeppelin/defender-sdk-network-client",
+            "description": "The OpenZeppelin Defender provides a security operations (SecOps) platform for Ethereum with built-in best practices. Development teams implement Defender to ship faster and minimize security risks.",
+            "version": "2.7.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@openzeppelin/defender-sdk-network-client"
+          },
+          {
+            "name": "@times-components/lazy-load",
+            "description": "Use IntersectionObserver to lazy load resources",
+            "version": "0.23.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@times-components/lazy-load"
+          },
+          {
+            "name": "react-relay-network-modern",
+            "description": "Network Layer for React Relay and Express (Batch Queries, AuthToken, Logging, Retry)",
+            "version": "6.2.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-relay-network-modern"
+          },
+          {
+            "name": "vite-bundle-visualizer",
+            "description": "Visualize vite bundle",
+            "version": "1.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/vite-bundle-visualizer"
+          },
+          {
+            "name": "nuxt-compress",
+            "description": "Runs gzip and brotli compression on static assets during Nuxt build",
+            "version": "5.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/nuxt-compress"
+          },
+          {
+            "name": "@visx/legend",
+            "description": "visx legend",
+            "version": "3.12.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@visx/legend"
+          },
+          {
+            "name": "karma-threshold-reporter",
+            "description": "A Karma plugin. Fail tests if the coverage falls below the given threshold.",
+            "version": "0.1.15",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/karma-threshold-reporter"
+          },
+          {
+            "name": "@zeroio/type-definitions",
+            "description": "polkadot js type defitinitons for zero network",
+            "version": "0.0.14",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@zeroio/type-definitions"
+          },
+          {
+            "name": "opentok-network-test-js",
+            "description": "Precall network test for applications using the OpenTok platform.",
+            "version": "3.1.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/opentok-network-test-js"
+          },
+          {
+            "name": "lws-cors",
+            "description": "Support for setting Cross-Origin Resource Sharing (CORS) headers to lws",
+            "version": "4.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/lws-cors"
+          },
+          {
+            "name": "@neuralegion/cypress-har-generator",
+            "description": "The Cypress plugin for generating HTTP Archive (HAR) files is a tool that allows developers and QA engineers to capture detailed information about network requests made during the execution of Cypress tests.",
+            "version": "5.17.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@neuralegion/cypress-har-generator"
+          },
+          {
+            "name": "@percy/cli-exec",
+            "description": "Percy CLI commands for running a local snapshot server using [`@percy/core`](./packages/core).",
+            "version": "1.31.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@percy/cli-exec"
+          },
+          {
+            "name": "sirv-cli",
+            "description": "A lightweight CLI program to serve static sites~!",
+            "version": "3.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sirv-cli"
+          },
+          {
+            "name": "ng-mat-select-infinite-scroll",
+            "description": "Adds missing infinite scroll functionality for the angular material select component",
+            "version": "5.0.0-beta.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ng-mat-select-infinite-scroll"
+          },
+          {
+            "name": "@mysten/sui",
+            "description": "Sui TypeScript API",
+            "version": "1.42.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mysten/sui"
+          },
+          {
+            "name": "overload-protection",
+            "description": "Load detection and shedding capabilities for http, express, restify and koa",
+            "version": "1.2.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/overload-protection"
+          },
+          {
+            "name": "react-native-fetch-api",
+            "description": "A fetch API polyfill for React Native with text streaming support.",
+            "version": "3.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-native-fetch-api"
+          },
+          {
+            "name": "@hint/utils-network",
+            "description": "utils for network",
+            "version": "1.0.27",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@hint/utils-network"
+          },
+          {
+            "name": "cordova-plugin-network-information",
+            "description": "Cordova Network Information Plugin",
+            "version": "3.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/cordova-plugin-network-information"
+          },
+          {
+            "name": "network-information-types",
+            "description": "Type definitions for Network Information API",
+            "version": "0.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/network-information-types"
+          },
+          {
+            "name": "log-node",
+            "description": "Node.js log generator for log engine",
+            "version": "8.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/log-node"
+          },
+          {
+            "name": "@lighthouse-web3/kavach",
+            "description": "Encryption SDK: Build your trustless, decentralized and fault resistance Application using distributed key shades with threshold cryptography",
+            "version": "0.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@lighthouse-web3/kavach"
+          },
+          {
+            "name": "expo-dev-client",
+            "description": "Expo Development Client",
+            "version": "6.0.15",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo-dev-client"
+          },
+          {
+            "name": "@hono/bun-compress",
+            "description": "A Hono middleware for compressing responses using Bun's built-in compression.",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@hono/bun-compress"
+          },
+          {
+            "name": "@nosana/cli",
+            "description": "The Nosana CLI is a command-line tool for interacting with the [Nosana Network](https://nosana.com), enabling users to post jobs to the network or run a Nosana Node seamlessly.",
+            "version": "1.0.89",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@nosana/cli"
+          },
+          {
+            "name": "@rayyan98/coverage-on-diff",
+            "description": "A tool to get code coverage on new lines added based on a diff",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@rayyan98/coverage-on-diff"
+          },
+          {
+            "name": "typical",
+            "description": "Isomorphic, functional type-checking for Javascript",
+            "version": "7.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/typical"
+          },
+          {
+            "name": "coverage-on-diff",
+            "description": "A tool to get code coverage on new lines added based on a diff",
+            "version": "0.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/coverage-on-diff"
+          },
+          {
+            "name": "eiows",
+            "description": "custom fork of uWebSockets 0.14",
+            "version": "8.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/eiows"
+          },
+          {
+            "name": "@vechain/sdk-network",
+            "description": "This module serves as the standard interface connecting decentralized applications (dApps) and users to the VeChainThor blockchain",
+            "version": "2.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@vechain/sdk-network"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 1,
+        "packages": [
+          {
+            "name": "rbsafecircuit",
+            "version": "0.1.0",
+            "downloads": 419,
+            "url": "https://rubygems.org/gems/rbsafecircuit"
+          }
+        ]
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 101,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:17:09.134975"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:17:09.134982",
+    "batch_network": {
+      "batch": "Summer 2016",
+      "total_batch_mates": 101,
+      "active_batch_mates": 46,
+      "batch_success_rate": 45.5,
+      "notable_batch_mates": [
+        {
+          "name": "Seneca Systems",
+          "slug": "seneca-systems",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Constituent system-of-record and service request management software\u2026"
+        },
+        {
+          "name": "SimpleCitizen",
+          "slug": "simplecitizen",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "From signup to citizenship, only SimpleCitizen guides applicants\u2026"
+        },
+        {
+          "name": "Iris Automation",
+          "slug": "iris-automation",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Enabling autonomous drone operations globally through AI software"
+        },
+        {
+          "name": "Opsolutely",
+          "slug": "opsolutely",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Automated deployments for software teams."
+        },
+        {
+          "name": "Techmate",
+          "slug": "techmate",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A technology concierge for your home. We provide on-demand support\u2026"
+        },
+        {
+          "name": "Fabric",
+          "slug": "fabric",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Fabric is a personal location-based journal that catalogs experiences\u2026"
+        },
+        {
+          "name": "garten",
+          "slug": "garten",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Creating workplace wellbeing."
+        },
+        {
+          "name": "Burrow",
+          "slug": "burrow",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A design brand creating innovative, award winning furniture."
+        },
+        {
+          "name": "Pursuit",
+          "slug": "pursuit",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Revlo helps broadcasters on Twitch engage and monetize their fan\u2026"
+        },
+        {
+          "name": "Symple",
+          "slug": "symple",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Last mile logistics for delivery & service teams. We bring real-time\u2026"
+        }
+      ],
+      "batch_size": 102
+    },
+    "industry_network": {
+      "industries": [
+        "B2B"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Sift",
+          "slug": "sift",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "The Leader in Digital Trust & Safety"
+        },
+        {
+          "name": "Clickfacts",
+          "slug": "clickfacts",
+          "status": "Acquired",
+          "batch": "Summer 2005",
+          "one_liner": ""
+        },
+        {
+          "name": "Smyte",
+          "slug": "smyte",
+          "status": "Acquired",
+          "batch": "Winter 2015",
+          "one_liner": "Smyte stops bad actors on social networks and marketplaces."
+        },
+        {
+          "name": "CyberFend",
+          "slug": "cyberfend",
+          "status": "Acquired",
+          "batch": "Winter 2015",
+          "one_liner": "Cyberfend delivers robust, real-time web and mobile security by\u2026"
+        },
+        {
+          "name": "ThinAir",
+          "slug": "thinair",
+          "status": "Inactive",
+          "batch": "Winter 2015",
+          "one_liner": "Intelligent data security for teams"
+        },
+        {
+          "name": "Cymmetria",
+          "slug": "cymmetria",
+          "status": "Acquired",
+          "batch": "Summer 2015",
+          "one_liner": "Shifting the asymmetry of cyber security."
+        },
+        {
+          "name": "Foxpass",
+          "slug": "foxpass",
+          "status": "Acquired",
+          "batch": "Summer 2015",
+          "one_liner": "Making enterprise security practices available for all companies."
+        },
+        {
+          "name": "Appcanary",
+          "slug": "appcanary",
+          "status": "Acquired",
+          "batch": "Summer 2015",
+          "one_liner": "Appcanary tracks the dependencies you use in your apps and servers\u2026"
+        },
+        {
+          "name": "Sphere Secure Workspace",
+          "slug": "sphere-secure-workspace",
+          "status": "Acquired",
+          "batch": "Summer 2015",
+          "one_liner": ""
+        },
+        {
+          "name": "Traversal Networks",
+          "slug": "traversal-networks",
+          "status": "Inactive",
+          "batch": "Summer 2015",
+          "one_liner": "Enterprise Threat Detection: Tuning, Triage, and Analysis by Experts."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Austin",
+      "location": "Austin, TX, USA; Remote",
+      "companies_in_city": 51,
+      "active_in_city": 40,
+      "nearby_companies": [
+        {
+          "name": "OwnLocal",
+          "slug": "ownlocal",
+          "batch": "Winter 2010",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Plivo",
+          "slug": "plivo",
+          "batch": "Summer 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Cratejoy",
+          "slug": "cratejoy",
+          "batch": "Summer 2013",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Sails Co.",
+          "slug": "sails-co",
+          "batch": "Winter 2015",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Mobydish",
+          "slug": "mobydish",
+          "batch": "Winter 2015",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Interviewed",
+          "slug": "interviewed",
+          "batch": "Summer 2015",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Mio",
+          "slug": "mio",
+          "batch": "Winter 2016",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "MineralSoft",
+          "slug": "mineralsoft",
+          "batch": "Winter 2016",
+          "industry": "Industrials",
+          "status": "Acquired"
+        },
+        {
+          "name": "Goodybag",
+          "slug": "goodybag",
+          "batch": "Winter 2016",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Reebeez",
+          "slug": "reebeez",
+          "batch": "Summer 2016",
+          "industry": "Industrials",
+          "status": "Inactive"
+        },
+        {
+          "name": "Skyways",
+          "slug": "skyways",
+          "batch": "Summer 2017",
+          "industry": "Industrials",
+          "status": "Active"
+        },
+        {
+          "name": "UpCodes",
+          "slug": "upcodes",
+          "batch": "Summer 2017",
+          "industry": "Real Estate and Construction",
+          "status": "Active"
+        },
+        {
+          "name": "Rabbet",
+          "slug": "rabbet",
+          "batch": "Summer 2017",
+          "industry": "Real Estate and Construction",
+          "status": "Active"
+        },
+        {
+          "name": "PullRequest",
+          "slug": "pullrequest",
+          "batch": "Summer 2017",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Jasper.ai",
+          "slug": "jasper-ai",
+          "batch": "Winter 2018",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Macromoltek",
+          "slug": "macromoltek",
+          "batch": "Winter 2018",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Pocket Worlds",
+          "slug": "pocket-worlds",
+          "batch": "Summer 2018",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Green Energy Exchange",
+          "slug": "green-energy-exchange",
+          "batch": "Winter 2019",
+          "industry": "Industrials",
+          "status": "Inactive"
+        },
+        {
+          "name": "Windwalk",
+          "slug": "windwalk",
+          "batch": "Winter 2019",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Method Financial",
+          "slug": "method-financial",
+          "batch": "Summer 2019",
+          "industry": "Fintech",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Mindori",
+        "slug": "mindori",
+        "batch": "Summer 2016",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Vetcove",
+        "slug": "vetcove",
+        "batch": "Summer 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Selfycart",
+        "slug": "selfycart",
+        "batch": "Summer 2016",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "WorkRamp",
+        "slug": "workramp",
+        "batch": "Summer 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Sixa",
+        "slug": null,
+        "batch": "Summer 2016",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Hellobill",
+        "slug": "hellobill",
+        "batch": "Summer 2016",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Rose Rocket",
+        "slug": "rose-rocket",
+        "batch": "Summer 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Livement",
+        "slug": "livement",
+        "batch": "Summer 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Sway Finance",
+        "slug": "sway-finance",
+        "batch": "Summer 2016",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Opsolutely",
+        "slug": "opsolutely",
+        "batch": "Summer 2016",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 2898,
+      "network_density_score": 70.4,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:17:09.143673"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:17:09.143677",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:17:09.469800",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:17:09.565496",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 10,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:46:47.695269",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "large",
+      "market_stage": "emerging",
+      "key_trends": [
+        "Growing demand for privacy-preserving technologies",
+        "Increased enterprise adoption of blockchain infrastructure",
+        "Rising regulatory focus on data protection and encryption"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Deep cryptographic expertise and first-mover advantage in threshold cryptography with proven network effects from 120+ nodes",
+      "differentiation": "Pioneering threshold cryptography primitives like Proxy Re-Encryption and TACo with proven cryptoeconomic mechanisms",
+      "competitive_advantages": [
+        "7+ years of R&D in threshold cryptography",
+        "Live network with $80M+ ecosystem value",
+        "Historic on-chain merger demonstrating governance innovation"
+      ],
+      "competitive_vulnerabilities": [
+        "Complex technology may limit adoption speed",
+        "Dependence on broader crypto/DeFi market sentiment"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "Network protocol with token economics",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "120+ active nodes",
+        "$80M+ associated ecosystem value",
+        "Multiple live products (tBTC, TACo, Random Beacon)"
+      ],
+      "growth_bottlenecks": [
+        "Technical complexity limiting enterprise adoption",
+        "Need for broader developer ecosystem growth"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "low",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Regulatory uncertainty around crypto protocols",
+        "Competition from larger tech companies entering privacy space",
+        "Market volatility affecting token-based economics"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong technical foundation with 7+ years of development",
+        "Live network with real economic activity",
+        "Experienced team with proven execution"
+      ],
+      "concerns": [
+        "Complex go-to-market for enterprise adoption",
+        "Token-based revenue model volatility"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Oasis Labs",
+        "Keep Network",
+        "Secret Network"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on enterprise partnerships for TACo adoption",
+        "Develop simplified developer tools and SDKs"
+      ],
+      "expansion_opportunities": [
+        "Healthcare data sharing applications",
+        "Financial services privacy solutions",
+        "Government and defense contracts"
+      ]
+    },
+    "tokens_used": {
+      "input": 766,
+      "output": 609,
+      "total": 1375,
+      "estimated_cost": 0.011433
+    }
+  },
+  "phase8_complete": true
+}

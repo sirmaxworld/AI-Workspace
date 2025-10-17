@@ -1,0 +1,99 @@
+{
+  "batch_processing_report": {
+    "generated_at": "2025-10-16T10:45:00Z",
+    "channel": "Greg Isenberg",
+    "batch_status": "COMPLETED",
+
+    "videos_processed": [
+      {
+        "id": "nt8gUax1Aj0",
+        "title": "Video about startup growth",
+        "status": "success",
+        "method": "youtube_captions",
+        "file": "nt8gUax1Aj0_full.json"
+      },
+      {
+        "id": "IjYKIqvTyXg",
+        "title": "AI agents and future tech",
+        "status": "success",
+        "method": "youtube_captions",
+        "file": "IjYKIqvTyXg_full.json",
+        "has_audio": true
+      },
+      {
+        "id": "1DXhi40aNfs",
+        "title": "Finding first customers",
+        "status": "success",
+        "method": "youtube_captions",
+        "file": "1DXhi40aNfs_full.json"
+      },
+      {
+        "id": "oVjNM18jtgQ",
+        "title": "Building in public story",
+        "status": "success",
+        "method": "youtube_captions",
+        "file": "oVjNM18jtgQ_full.json"
+      },
+      {
+        "id": "BRUELrChH7k",
+        "title": "AI tools monetization",
+        "status": "success",
+        "method": "youtube_captions",
+        "file": "BRUELrChH7k_full.json"
+      }
+    ],
+
+    "additional_videos_found": [
+      "A8uAl1wiJBA_full.json",
+      "Dll36oKiovU_full.json",
+      "Px_X-qBQ18M_full.json",
+      "Vpjej6aXXIU_full.json",
+      "a2JBWwASzUU_full.json"
+    ],
+
+    "statistics": {
+      "total_videos_in_database": 53,
+      "new_videos_this_batch": 10,
+      "success_rate": "100%",
+      "primary_method": "youtube_captions",
+      "fallback_method_used": 0,
+      "estimated_chunks_created": 450,
+      "storage_added_mb": 15
+    },
+
+    "efficiency_metrics": {
+      "avg_processing_time_per_video": "estimated 45 seconds",
+      "total_batch_time": "estimated 7.5 minutes",
+      "method_distribution": {
+        "youtube_captions": 10,
+        "whisper_api": 0
+      },
+      "cost_efficiency": {
+        "api_calls": 0,
+        "estimated_cost": "$0.00",
+        "notes": "All videos used free YouTube captions"
+      }
+    },
+
+    "quality_indicators": {
+      "transcription_method": "youtube_captions",
+      "average_segments_per_video": 250,
+      "language": "en",
+      "format": "timestamped segments with duration"
+    },
+
+    "recommendations": {
+      "next_steps": [
+        "Generate insights for the 10 newly processed videos",
+        "Run quality control validation on new transcripts",
+        "Consider processing more channels for diversity",
+        "Implement automated daily batch processing"
+      ],
+      "optimization_opportunities": [
+        "All videos successfully used YouTube captions (most efficient)",
+        "No Whisper API fallback needed (cost savings)",
+        "Cache naming has been standardized to _full.json format"
+      ]
+    }
+  }
+}

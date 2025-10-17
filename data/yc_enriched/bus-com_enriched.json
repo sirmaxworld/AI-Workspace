@@ -1,0 +1,583 @@
+{
+  "slug": "bus-com",
+  "name": "Bus.com",
+  "yc_id": 1022,
+  "batch": "Winter 2016",
+  "website": "http://www.bus.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:36:50.043928",
+    "website": "http://www.bus.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 403,
+      "response_time_ms": 526.34,
+      "final_url": "https://www.bus.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:36:50.570280"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "bus.com",
+      "registrar": "1API GmbH",
+      "creation_date": "1994-11-01T05:00:00",
+      "expiration_date": "2028-10-31T04:00:00",
+      "domain_age_days": 11307,
+      "domain_age_years": 31.0,
+      "name_servers": [
+        "HENRY.NS.CLOUDFLARE.COM",
+        "JACQUELINE.NS.CLOUDFLARE.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": true,
+      "x_frame_options": true,
+      "x_content_type_options": true,
+      "x_xss_protection": true,
+      "referrer_policy": true,
+      "security_score": 100,
+      "server": "cloudflare"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:16:49.140864",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:16:36.731814",
+    "place_data": {
+      "status": "not_found",
+      "query": "Montreal, QC, Canada; Remote",
+      "methods_tried": [
+        "static_db",
+        "nominatim",
+        "geonames"
+      ]
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:40.452031",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:40.452046",
+    "batch_network": {
+      "batch": "Winter 2016",
+      "total_batch_mates": 121,
+      "active_batch_mates": 59,
+      "batch_success_rate": 48.8,
+      "notable_batch_mates": [
+        {
+          "name": "Stilt",
+          "slug": "stilt",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Financial products for immigrants (acquired by JG Wentworth)"
+        },
+        {
+          "name": "Embark Trucks",
+          "slug": "embark-trucks",
+          "status": "Public",
+          "top_company": false,
+          "one_liner": "Self-driving semi trucks."
+        },
+        {
+          "name": "Loop Genomics",
+          "slug": "loop-genomics",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Novel long-read DNA sequencing technology"
+        },
+        {
+          "name": "Able Health",
+          "slug": "able-health",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Able Health gets doctors paid more for higher quality care"
+        },
+        {
+          "name": "Truebill",
+          "slug": "truebill",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Live your best financial life"
+        },
+        {
+          "name": "LendEDU",
+          "slug": "lendedu",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "LendEDU is a marketplace for consumer financial products."
+        },
+        {
+          "name": "Luminist Labs",
+          "slug": "luminist-labs",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Diagnostic platform for early detection of liver disease"
+        },
+        {
+          "name": "MineralSoft",
+          "slug": "mineralsoft",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Data management platform for oil & gas assets"
+        },
+        {
+          "name": "Pulpix",
+          "slug": "pulpix",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Binge-watching technology for video platforms. "
+        },
+        {
+          "name": "Paystack",
+          "slug": "paystack",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Modern payments infrastructure for Africa"
+        }
+      ],
+      "batch_size": 122
+    },
+    "industry_network": {
+      "industries": [
+        "B2B"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1969,
+      "direct_competitors": [
+        {
+          "name": "MixRank",
+          "slug": "mixrank",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Data products for sales, marketing, finance, recruiting, and more."
+        },
+        {
+          "name": "Memamp",
+          "slug": "memamp",
+          "status": "Inactive",
+          "batch": "Summer 2005",
+          "one_liner": ""
+        },
+        {
+          "name": "Submittable",
+          "slug": "submittable",
+          "status": "Active",
+          "batch": "Summer 2012",
+          "one_liner": "The best way to launch, manage and measure social impact programs"
+        },
+        {
+          "name": "Benchling",
+          "slug": "benchling",
+          "status": "Active",
+          "batch": "Summer 2012",
+          "one_liner": "Unlocking the power of biotech with modern software for modern science"
+        },
+        {
+          "name": "Asseta",
+          "slug": "asseta",
+          "status": "Active",
+          "batch": "Summer 2013",
+          "one_liner": "Marketplace for industrial spare parts and capital equipment."
+        },
+        {
+          "name": "TrueVault",
+          "slug": "truevault",
+          "status": "Active",
+          "batch": "Winter 2014",
+          "one_liner": "We make Privacy Software for SMBs."
+        },
+        {
+          "name": "Magic",
+          "slug": "magic",
+          "status": "Active",
+          "batch": "Winter 2015",
+          "one_liner": "Extremely talented assistants for busy people"
+        },
+        {
+          "name": "Mason",
+          "slug": "mason",
+          "status": "Active",
+          "batch": "Winter 2016",
+          "one_liner": "Mason is the fastest way to take smart devices from idea to end user"
+        },
+        {
+          "name": "Livement",
+          "slug": "livement",
+          "status": "Active",
+          "batch": "Summer 2016",
+          "one_liner": "Livement makes selling tickets for events easy and safe for organizers"
+        },
+        {
+          "name": "Instrumentl",
+          "slug": "instrumentl",
+          "status": "Active",
+          "batch": "Summer 2016",
+          "one_liner": "Instrumentl automates grant discovery and management for nonprofits."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Montreal",
+      "location": "Montreal, QC, Canada; Remote",
+      "companies_in_city": 10,
+      "active_in_city": 9,
+      "nearby_companies": [
+        {
+          "name": "Mino Games",
+          "slug": "mino-games",
+          "batch": "Winter 2011",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Ready Education",
+          "slug": "ready-education",
+          "batch": "Summer 2016",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "AON3D",
+          "slug": "aon3d",
+          "batch": "Winter 2017",
+          "industry": "Industrials",
+          "status": "Active"
+        },
+        {
+          "name": "Lyrebird",
+          "slug": "lyrebird",
+          "batch": "Summer 2017",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "SRTX",
+          "slug": "srtx",
+          "batch": "Winter 2018",
+          "industry": "Industrials",
+          "status": "Active"
+        },
+        {
+          "name": "matagora",
+          "slug": "matagora",
+          "batch": "Summer 2019",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Basedash",
+          "slug": "basedash",
+          "batch": "Summer 2020",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Nomic Bio",
+          "slug": "nomic-bio",
+          "batch": "Winter 2020",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Modulari-T",
+          "slug": "modulari-t",
+          "batch": "Winter 2023",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "GovernGPT",
+          "slug": "governgpt",
+          "batch": "Winter 2024",
+          "industry": "Fintech",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "low"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Mux",
+        "slug": "mux",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Lattice",
+        "slug": "lattice",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Compgun",
+        "slug": "compgun",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Deepgram",
+        "slug": "deepgram",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Stealth Worker",
+        "slug": "stealth-worker",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Yardbook",
+        "slug": "yardbook",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Chatfuel",
+        "slug": "chatfuel",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "GetAccept",
+        "slug": "getaccept",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Mason",
+        "slug": "mason",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Daily",
+        "slug": "daily",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 2877,
+      "network_density_score": 66.2,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": false,
+      "calculated_at": "2025-10-17T10:16:40.464782"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:40.464788",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:40.809942",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:40.918222",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 90,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:42:02.515933",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "medium",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increased demand for group travel experiences",
+        "Growing adoption of online booking platforms",
+        "Focus on sustainable and eco-friendly travel options"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "First-mover advantage in a niche market, brand recognition (potentially)",
+      "differentiation": "Focus on simplifying the bus chartering process for groups.",
+      "competitive_advantages": [
+        "User-friendly online platform",
+        "Streamlined booking process"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on third-party bus operators",
+        "Potential for new entrants with similar platforms"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "Marketplace",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "Number of bus trips booked",
+        "Customer acquisition cost"
+      ],
+      "growth_bottlenecks": [
+        "Limited bus operator availability in certain regions",
+        "Seasonality of demand"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Economic downturn affecting travel demand",
+        "Increased competition from established travel agencies",
+        "Fluctuations in fuel prices"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Addresses a specific need in the group travel market",
+        "Potential for strong network effects",
+        "Scalable business model"
+      ],
+      "concerns": [
+        "Inactive status raises questions about viability",
+        "Dependence on external bus operators"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Wanderu",
+        "FlixBus"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Re-evaluate market conditions and competitive landscape",
+        "Explore partnerships with event organizers and travel agencies"
+      ],
+      "expansion_opportunities": [
+        "Expand into new geographic markets",
+        "Offer additional travel-related services (e.g., accommodation, activities)"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 724,
+      "completion": 602,
+      "total": 1326,
+      "estimated_cost": 0.000235
+    }
+  },
+  "phase8_complete": true
+}

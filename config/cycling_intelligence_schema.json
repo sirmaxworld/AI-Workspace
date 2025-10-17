@@ -1,0 +1,344 @@
+{
+  "schema_version": "1.0",
+  "description": "Cycling and mountain biking intelligence extraction schema for Pinkbike articles and reviews",
+  "extends": "business_intelligence_schema.json",
+
+  "cycling_products": {
+    "mountain_bikes": {
+      "bike_name": "string",
+      "brand": "string",
+      "model_year": "string",
+      "category": ["xc", "trail", "enduro", "downhill", "all_mountain", "e_bike"],
+      "price": "string",
+      "frame_material": ["carbon", "aluminum", "steel", "titanium"],
+      "wheel_size": ["26", "27.5", "29", "mullet"],
+      "travel_front": "string",
+      "travel_rear": "string",
+      "geometry_notes": "string",
+      "suspension_type": ["hardtail", "full_suspension"],
+      "sentiment": ["positive", "negative", "neutral", "highly_recommended", "best_value", "not_recommended"],
+      "pros": ["array_of_strings"],
+      "cons": ["array_of_strings"],
+      "best_for": "string",
+      "field_test_ranking": "string",
+      "editor_rating": "string"
+    },
+    "components": {
+      "component_name": "string",
+      "brand": "string",
+      "category": ["fork", "shock", "drivetrain", "brakes", "wheels", "tires", "cockpit", "seatpost", "pedals"],
+      "price": "string",
+      "weight": "string",
+      "compatibility": ["standards", "mounting_options"],
+      "tech_features": ["array_of_features"],
+      "sentiment": ["positive", "negative", "neutral", "recommended", "cautioned"],
+      "performance_notes": "string",
+      "durability_notes": "string",
+      "value_assessment": "string"
+    },
+    "apparel_gear": {
+      "product_name": "string",
+      "brand": "string",
+      "category": ["helmet", "pads", "gloves", "shoes", "jersey", "shorts", "jacket", "accessories"],
+      "price": "string",
+      "sizes_available": "string",
+      "protection_level": ["basic", "moderate", "high"],
+      "features": ["array_of_features"],
+      "sentiment": ["positive", "negative", "neutral", "recommended"],
+      "best_use": "string"
+    }
+  },
+
+  "cycling_trends": {
+    "technology_trends": {
+      "trend_name": "string",
+      "category": ["suspension", "geometry", "drivetrain", "wheels", "e_bike", "materials", "integration"],
+      "description": "string",
+      "adoption_stage": ["emerging", "growing", "mainstream", "declining"],
+      "brands_adopting": ["array_of_brands"],
+      "impact": ["revolutionary", "significant", "incremental"],
+      "price_impact": "string",
+      "predicted_future": "string"
+    },
+    "market_trends": {
+      "trend_description": "string",
+      "category": ["pricing", "bike_categories", "consumer_preferences", "sales_channels", "market_segments"],
+      "evidence": "string",
+      "implications": "string",
+      "opportunity_level": ["high", "medium", "low"]
+    },
+    "geometry_trends": {
+      "geometry_change": "string",
+      "category_affected": ["xc", "trail", "enduro", "downhill"],
+      "measurement": "string",
+      "direction": ["increasing", "decreasing", "stabilizing"],
+      "reasoning": "string",
+      "brands_leading": ["array_of_brands"]
+    }
+  },
+
+  "gear_recommendations": {
+    "editor_picks": {
+      "product_name": "string",
+      "category": "string",
+      "why_recommended": "string",
+      "price": "string",
+      "best_for": "string",
+      "alternatives": ["array_of_products"]
+    },
+    "field_test_results": {
+      "test_name": "string",
+      "year": "string",
+      "category": "string",
+      "winner": "string",
+      "runner_ups": ["array_of_products"],
+      "best_value": "string",
+      "most_innovative": "string",
+      "test_criteria": ["array_of_criteria"],
+      "key_findings": "string"
+    },
+    "value_picks": {
+      "product_name": "string",
+      "category": "string",
+      "price": "string",
+      "competes_with": "string",
+      "value_proposition": "string",
+      "compromises": "string"
+    }
+  },
+
+  "cycling_problems": {
+    "reliability_issues": {
+      "product_affected": "string",
+      "issue_description": "string",
+      "severity": ["critical", "major", "minor"],
+      "frequency": ["widespread", "common", "occasional", "rare"],
+      "manufacturer_response": "string",
+      "solutions_available": "string",
+      "user_impact": "string"
+    },
+    "compatibility_issues": {
+      "standards_conflict": "string",
+      "products_affected": ["array_of_products"],
+      "workarounds": "string",
+      "industry_direction": "string"
+    },
+    "availability_pricing": {
+      "product": "string",
+      "issue": ["out_of_stock", "price_increase", "discontinued", "limited_availability"],
+      "impact_on_consumers": "string",
+      "alternatives": ["array_of_products"]
+    },
+    "performance_gaps": {
+      "gap_description": "string",
+      "affected_category": "string",
+      "ideal_solution": "string",
+      "current_limitations": "string",
+      "potential_innovations": "string"
+    }
+  },
+
+  "community_insights": {
+    "comment_sentiment": {
+      "topic": "string",
+      "overall_sentiment": ["very_positive", "positive", "neutral", "negative", "very_negative"],
+      "agreement_level": ["strong_consensus", "general_agreement", "mixed", "divided"],
+      "key_opinions": ["array_of_opinions"],
+      "engagement_level": "string"
+    },
+    "user_validation": {
+      "claim_or_review": "string",
+      "community_response": ["confirmed", "disputed", "mixed"],
+      "supporting_evidence": ["array_of_comments"],
+      "dissenting_opinions": ["array_of_comments"],
+      "consensus_reached": "string"
+    },
+    "feature_requests": {
+      "requested_feature": "string",
+      "product_category": "string",
+      "frequency_mentioned": ["very_common", "common", "occasional"],
+      "user_justification": "string",
+      "technical_feasibility": "string"
+    },
+    "brand_perception": {
+      "brand_name": "string",
+      "reputation": ["excellent", "good", "mixed", "poor"],
+      "strengths_mentioned": ["array_of_strengths"],
+      "weaknesses_mentioned": ["array_of_weaknesses"],
+      "customer_service_sentiment": "string",
+      "value_perception": "string",
+      "innovation_perception": "string"
+    },
+    "buying_intent_signals": {
+      "product": "string",
+      "intent_level": ["strong_interest", "moderate_interest", "researching", "waiting"],
+      "decision_factors": ["array_of_factors"],
+      "barriers_to_purchase": ["array_of_barriers"]
+    }
+  },
+
+  "riding_insights": {
+    "trail_conditions": {
+      "location": "string",
+      "condition_type": ["weather", "terrain", "maintenance"],
+      "impact_on_riding": "string",
+      "gear_recommendations": "string"
+    },
+    "technique_tips": {
+      "technique_description": "string",
+      "skill_level": ["beginner", "intermediate", "advanced", "expert"],
+      "application": "string",
+      "common_mistakes": "string"
+    }
+  },
+
+  "industry_news": {
+    "product_launches": {
+      "product_name": "string",
+      "brand": "string",
+      "launch_date": "string",
+      "key_features": ["array_of_features"],
+      "price": "string",
+      "availability": "string",
+      "significance": ["major", "moderate", "minor"]
+    },
+    "brand_news": {
+      "brand_name": "string",
+      "news_type": ["acquisition", "new_ownership", "financial", "expansion", "recall"],
+      "description": "string",
+      "impact": "string"
+    },
+    "event_coverage": {
+      "event_name": "string",
+      "event_type": ["race", "expo", "trade_show", "demo"],
+      "key_highlights": ["array_of_highlights"],
+      "notable_products": ["array_of_products"]
+    }
+  },
+
+  "enriched_metadata": {
+    "test_conditions": {
+      "test_duration_days": "number",
+      "test_locations": ["location 1", "location 2"],
+      "terrain_types": ["tech", "jump-trails", "steep-descents"],
+      "weather_conditions": "wet/dry/mixed",
+      "elevation_gain_meters": "number",
+      "reviewer_specs": {
+        "height_cm": "number",
+        "weight_kg": "number",
+        "skill_level": "beginner/intermediate/advanced/expert",
+        "riding_style": "aggressive/smooth/technical"
+      }
+    },
+    "targeting": {
+      "skill_levels": ["beginner", "intermediate", "advanced", "expert"],
+      "ideal_use_cases": ["bike-park", "enduro-racing", "all-mountain"],
+      "not_recommended_for": ["XC-racing", "bikepacking"],
+      "rider_weight_range_kg": [70, 95],
+      "rider_height_range_cm": [170, 190],
+      "fitness_required": "low/moderate/high"
+    },
+    "product_lifecycle": {
+      "release_date": "YYYY-MM",
+      "model_year": "number",
+      "lifecycle_stage": "new/current-gen/previous-gen/discontinued",
+      "successor_model": "string or null",
+      "availability": "in-stock/limited/pre-order/discontinued",
+      "regions_available": ["US", "CA", "EU"],
+      "estimated_discontinuation": "YYYY-QQ"
+    },
+    "competitive_analysis": {
+      "direct_competitors": [
+        {
+          "name": "competitor product",
+          "comparison": "lighter but less durable",
+          "price_difference_usd": -400
+        }
+      ],
+      "category_position": "leader/mid-pack/value-option/underdog",
+      "unique_selling_points": ["feature 1", "feature 2"],
+      "weaknesses_vs_competition": ["weakness 1", "weakness 2"]
+    },
+    "quantitative_scores": {
+      "overall_rating": "number out of 10",
+      "category_scores": {
+        "climbing": "number",
+        "descending": "number",
+        "value": "number",
+        "build_quality": "number",
+        "pedaling_efficiency": "number"
+      },
+      "field_test_ranking": "number",
+      "total_bikes_tested": "number",
+      "would_buy_percentage": "number",
+      "awards": ["editor-choice", "value-winner", "innovation-award"]
+    },
+    "pricing_intelligence": {
+      "msrp_usd": "number",
+      "street_price_usd": "number",
+      "discount_available": "boolean",
+      "price_trend": "increasing/stable/decreasing",
+      "price_per_performance_score": "number",
+      "competitors_price_range": [4500, 7500]
+    },
+    "ownership_intelligence": {
+      "typical_ownership_duration_years": "2-3",
+      "resale_value_retention_percentage": 70,
+      "common_upgrades": ["shock", "wheelset"],
+      "warranty_issues_reported": ["bearing warranty claims"],
+      "parts_availability": "excellent/good/limited/poor",
+      "service_requirements": "low/standard/high",
+      "total_cost_of_ownership_5yr_usd": "number"
+    },
+    "author_credibility": {
+      "name": "string",
+      "years_experience": "number",
+      "specialization": ["enduro", "bike-reviews"],
+      "verified_expert": "boolean"
+    }
+  },
+
+  "meta_information": {
+    "article_metadata": {
+      "article_id": "string",
+      "url": "string",
+      "title": "string",
+      "author": "object with name/role/bio",
+      "dates": {
+        "published": "string",
+        "updated": "string"
+      },
+      "article_type": ["review", "news", "field_test", "opinion", "how_to", "tech_feature"],
+      "tags": ["array_of_tags"],
+      "word_count": "number"
+    },
+    "engagement_metadata": {
+      "view_count": "number",
+      "comment_count": "number",
+      "social_shares": {"facebook": 0, "twitter": 0},
+      "top_comment_engagement": "number",
+      "verified_owner_comments": "number",
+      "avg_comment_length": "number"
+    },
+    "media_metadata": {
+      "image_count": "number",
+      "video_count": "number",
+      "has_comparison_charts": "boolean",
+      "has_geometry_charts": "boolean",
+      "content_quality_score": "1-10"
+    },
+    "comment_metadata": {
+      "total_comments": "number",
+      "high_engagement_comments": "number",
+      "average_sentiment": "string",
+      "controversial_topics": ["array_of_topics"]
+    },
+    "extraction_metadata": {
+      "extracted_at": "string",
+      "model_used": "string",
+      "schema_version": "2.0",
+      "data_source": "pinkbike",
+      "collector_version": "string"
+    }
+  }
+}

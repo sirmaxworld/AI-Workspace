@@ -1,0 +1,1578 @@
+{
+  "slug": "codestream",
+  "name": "CodeStream",
+  "yc_id": 1766,
+  "batch": "Winter 2018",
+  "website": "http://codestream.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:40:49.217908",
+    "website": "http://codestream.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 1132.34,
+      "final_url": "https://newrelic.com/codestream",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:40:50.350270"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "codestream.com",
+      "registrar": "Safenames Ltd",
+      "creation_date": "1997-07-08T04:00:00",
+      "expiration_date": "2027-07-07T04:00:00",
+      "domain_age_days": 10327,
+      "domain_age_years": 28.3,
+      "name_servers": [
+        "NS-1120.AWSDNS-12.ORG",
+        "NS-1694.AWSDNS-19.CO.UK",
+        "NS-198.AWSDNS-24.COM",
+        "NS-931.AWSDNS-52.NET"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/newrelic",
+      "linkedin": "https://www.linkedin.com/company/new-relic-inc-",
+      "github": "https://github.com/newrelic",
+      "facebook": "http://www.facebook.com/NewRelic",
+      "instagram": "https://www.instagram.com/newrelic/",
+      "youtube": "https://www.youtube.com/user/NewRelicInc/featured"
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": true,
+      "x_frame_options": false,
+      "x_content_type_options": true,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 50,
+      "server": "Unknown"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:19:40.944279",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:19:28.162747",
+    "place_data": {
+      "status": "not_found",
+      "query": "New York, NY, USA; Remote",
+      "methods_tried": [
+        "static_db",
+        "nominatim",
+        "geonames"
+      ]
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:28.931455",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/newrelic"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 100,
+        "packages": [
+          {
+            "name": "@types/newrelic",
+            "description": "TypeScript definitions for newrelic",
+            "version": "9.14.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@types/newrelic"
+          },
+          {
+            "name": "serverless-newrelic-lambda-layers",
+            "description": "Serverless plugin for NewRelic APM AWS Lambda layers.",
+            "version": "5.10.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/serverless-newrelic-lambda-layers"
+          },
+          {
+            "name": "@newrelic/newrelic-capacitor-plugin",
+            "description": "NewRelic Plugin for ionic Capacitor",
+            "version": "1.5.11",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@newrelic/newrelic-capacitor-plugin"
+          },
+          {
+            "name": "@cdktf/provider-newrelic",
+            "description": "Prebuilt newrelic Provider for Terraform CDK (cdktf)",
+            "version": "13.8.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@cdktf/provider-newrelic"
+          },
+          {
+            "name": "nestjs-newrelic",
+            "description": "NestJS newrelic library",
+            "version": "0.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/nestjs-newrelic"
+          },
+          {
+            "name": "newrelic-winston",
+            "description": "A newrelic transport for winston",
+            "version": "2.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/newrelic-winston"
+          },
+          {
+            "name": "winston-newrelic-logs-transport",
+            "description": "NewRelic Logs API Transport for Winston",
+            "version": "1.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/winston-newrelic-logs-transport"
+          },
+          {
+            "name": "newrelic",
+            "description": "New Relic agent",
+            "version": "13.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/newrelic"
+          },
+          {
+            "name": "@spotify/backstage-plugin-soundcheck-backend-module-newrelic",
+            "description": "The newrelic backend module for the soundcheck plugin.",
+            "version": "0.3.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@spotify/backstage-plugin-soundcheck-backend-module-newrelic"
+          },
+          {
+            "name": "newrelic-loopback4",
+            "description": "Loopback 4 Instrumentation for Newrelic node agent",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/newrelic-loopback4"
+          },
+          {
+            "name": "@newrelic/gatsby-theme-newrelic",
+            "description": "[![Community Project header](https://github.com/newrelic/opensource-website/raw/master/src/images/categories/Community_Project.png)](https://opensource.newrelic.com/oss-category/#community-project)",
+            "version": "9.13.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@newrelic/gatsby-theme-newrelic"
+          },
+          {
+            "name": "@newrelic/native-metrics",
+            "description": "A module for generating metrics from V8.",
+            "version": "12.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@newrelic/native-metrics"
+          },
+          {
+            "name": "@securingsincity/newrelic-loopback4",
+            "description": "Loopback 4 Instrumentation for Newrelic node agent",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@securingsincity/newrelic-loopback4"
+          },
+          {
+            "name": "@newrelic/security-agent",
+            "description": "New Relic Security Agent for Node.js",
+            "version": "2.4.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@newrelic/security-agent"
+          },
+          {
+            "name": "apollo-newrelic",
+            "description": "Apollo Server extension library for performing NewRelic transaction traces of graphql requests",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/apollo-newrelic"
+          },
+          {
+            "name": "bunyan-newrelic-stream",
+            "description": "This library will send error logs to your newrelic account. It assumes that your application has a newrelic config file all set up.",
+            "version": "1.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/bunyan-newrelic-stream"
+          },
+          {
+            "name": "@adobe/openwhisk-newrelic",
+            "description": "Library for gathering metrics for Apache OpenWhisk actions and sending them to NewRelic",
+            "version": "2.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@adobe/openwhisk-newrelic"
+          },
+          {
+            "name": "@newrelic/fn-inspect",
+            "description": "Retrieve function name and line number from a function reference",
+            "version": "4.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@newrelic/fn-inspect"
+          },
+          {
+            "name": "gatsby-build-newrelic",
+            "description": "[![New Relic Experimental header](https://github.com/newrelic/opensource-website/raw/master/src/images/categories/Experimental.png)](https://opensource.newrelic.com/oss-category/#new-relic-experimental)",
+            "version": "1.1.17",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/gatsby-build-newrelic"
+          },
+          {
+            "name": "@newrelic/ritm",
+            "description": "Module to hook into the Node.js require function",
+            "version": "7.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@newrelic/ritm"
+          },
+          {
+            "name": "html-webpack-new-relic-plugin",
+            "description": "Add NewRelic script tag using HtmlWebpackPlugin",
+            "version": "4.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/html-webpack-new-relic-plugin"
+          },
+          {
+            "name": "artsy-newrelic",
+            "description": "Plug-and-play NewRelic module wrapper configured for Artsy Node apps.",
+            "version": "1.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/artsy-newrelic"
+          },
+          {
+            "name": "@newrelic/browser-agent",
+            "description": "New Relic Browser Agent",
+            "version": "1.299.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@newrelic/browser-agent"
+          },
+          {
+            "name": "@newrelic/introspector-node",
+            "description": "newrelic-introspector-node",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@newrelic/introspector-node"
+          },
+          {
+            "name": "@jaketig/nuxt-newrelic",
+            "description": "A Nuxt 2 Module to add NewRelic APM / Browser monitoring to your project",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@jaketig/nuxt-newrelic"
+          },
+          {
+            "name": "@pulumi/newrelic",
+            "description": "A Pulumi package for creating and managing New Relic resources.",
+            "version": "5.55.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@pulumi/newrelic"
+          },
+          {
+            "name": "newrelic-winston-transport",
+            "description": "A newrelic transport for winston",
+            "version": "2.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/newrelic-winston-transport"
+          },
+          {
+            "name": "newrelic-k8s-metrics-adapter",
+            "description": "yahia_sherif-newrelic test",
+            "version": "8.9.12",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/newrelic-k8s-metrics-adapter"
+          },
+          {
+            "name": "@newrelic/apollo-server-plugin",
+            "description": "Apollo Server plugin that adds New Relic Node.js agent instrumentation.",
+            "version": "8.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@newrelic/apollo-server-plugin"
+          },
+          {
+            "name": "@newrelic/winston-enricher",
+            "description": "New Relic log enricher for the `winston` package. Allows `winston` logs to be consumed by New Relic Logs.",
+            "version": "4.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@newrelic/winston-enricher"
+          },
+          {
+            "name": "@grouparoo/newrelic",
+            "description": "Performance and error tracking with NewRelic",
+            "version": "0.9.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@grouparoo/newrelic"
+          },
+          {
+            "name": "sails-hook-newrelic",
+            "description": "Integrates newrelic with your Sails application",
+            "version": "0.3.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sails-hook-newrelic"
+          },
+          {
+            "name": "newrelic-node",
+            "description": "Logger para newrelic",
+            "version": "0.3.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/newrelic-node"
+          },
+          {
+            "name": "apollo-newrelic-extension",
+            "description": "Apollo Server extension library for performing NewRelic transaction traces of graphql requests",
+            "version": "0.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/apollo-newrelic-extension"
+          },
+          {
+            "name": "@envelop/newrelic",
+            "description": "Instrument your GraphQL application with New Relic reporting. Take advantage of Distributed tracing to monitor performance and errors whilst ultimately getting to the root cause of issues.",
+            "version": "9.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@envelop/newrelic"
+          },
+          {
+            "name": "@newrelic/pino-enricher",
+            "description": "New Relic log encricher for the `pino` package. Allows `pino` logs to be consumed by New Relic Logs.",
+            "version": "1.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@newrelic/pino-enricher"
+          },
+          {
+            "name": "@newrelic/publish-sourcemap",
+            "description": "This module is for publishing source maps to New Relic Browser.",
+            "version": "5.1.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@newrelic/publish-sourcemap"
+          },
+          {
+            "name": "newrelic-react-native-agent",
+            "description": "A New Relic Mobile Agent for React Native",
+            "version": "1.5.11",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/newrelic-react-native-agent"
+          },
+          {
+            "name": "@newrelic/telemetry-sdk",
+            "description": "_**In the next 3-6 months, we plan to EOL the New Relic Node.js Telemetry SDK. If you are using the Telemetry SDK to send OpenTelemetry data to New Relic, we recommend using the OpenTelemetry Collector with the New Relic Exporter as an alternative. You ca",
+            "version": "0.6.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@newrelic/telemetry-sdk"
+          },
+          {
+            "name": "@newrelic/webpack-plugin",
+            "description": "An experimental plugin to allow New Relic's NodeJS Agent to work with webpack compiled server side javascript.",
+            "version": "0.4.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@newrelic/webpack-plugin"
+          },
+          {
+            "name": "memoizee-newrelic",
+            "description": "NewRelic Plugin for memoizee statistics",
+            "version": "0.2.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/memoizee-newrelic"
+          },
+          {
+            "name": "@newrelic/test-utilities",
+            "description": "Test library for New Relic instrumentation modules.",
+            "version": "10.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@newrelic/test-utilities"
+          },
+          {
+            "name": "@newrelic/newrelic-plugin-oss-third-party",
+            "description": "os-third-party-license-generator ================================",
+            "version": "0.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@newrelic/newrelic-plugin-oss-third-party"
+          },
+          {
+            "name": "gatsby-plugin-newrelic",
+            "description": "Gatsby plugin for implementing the New Relic Browser agent",
+            "version": "2.9.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/gatsby-plugin-newrelic"
+          },
+          {
+            "name": "@newrelic/eslint-plugin-newrelic",
+            "description": "Eslint plugin for New Relic.",
+            "version": "0.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@newrelic/eslint-plugin-newrelic"
+          },
+          {
+            "name": "@pmc12thsuki/newrelic",
+            "description": "[newrelic](https://newrelic.com) module for [NestJS](https://docs.nestjs.com/) project",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@pmc12thsuki/newrelic"
+          },
+          {
+            "name": "@newrelic/eslint-config",
+            "description": "Eslint ruleset for New Relic Node.js agent",
+            "version": "0.6.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@newrelic/eslint-config"
+          },
+          {
+            "name": "new-relic-winston-logger",
+            "description": "Winston logger with newrelic format",
+            "version": "1.0.14",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/new-relic-winston-logger"
+          },
+          {
+            "name": "@newrelic/mysql",
+            "description": "MySQL instrumentation for the New Relic Node agent.",
+            "version": "6.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@newrelic/mysql"
+          },
+          {
+            "name": "@frubana/adonis-newrelic",
+            "description": "NewRelic addon for AdonisJs",
+            "version": "0.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@frubana/adonis-newrelic"
+          },
+          {
+            "name": "seneca-newrelic-tracer",
+            "description": "Seneca plugin for implementing newrelic tracing for each individual service",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/seneca-newrelic-tracer"
+          },
+          {
+            "name": "@newrelic/netlify-plugin",
+            "description": "New Relic Netlify Plugin",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@newrelic/netlify-plugin"
+          },
+          {
+            "name": "hubot-newrelic2",
+            "description": "NewRelic plugin for hubot",
+            "version": "0.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/hubot-newrelic2"
+          },
+          {
+            "name": "@backstage-community/plugin-newrelic",
+            "description": "A Backstage plugin that integrates towards New Relic",
+            "version": "0.14.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@backstage-community/plugin-newrelic"
+          },
+          {
+            "name": "@methodus/newrelic",
+            "description": "An API module for newrelic",
+            "version": "1.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@methodus/newrelic"
+          },
+          {
+            "name": "@cortec/newrelic",
+            "description": "<description>",
+            "version": "1.8.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@cortec/newrelic"
+          },
+          {
+            "name": "winston-newrelic-agent-transport",
+            "description": "A Winston transport using the New Relic agent.",
+            "version": "1.0.11",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/winston-newrelic-agent-transport"
+          },
+          {
+            "name": "cliengo-winston",
+            "description": "A custom configuration for Winston with path label, falsy returns and NewRelic transport.",
+            "version": "1.1.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/cliengo-winston"
+          },
+          {
+            "name": "koa-newrelic",
+            "description": "Koa middleware to allow Newrelic monitor Koa applications",
+            "version": "2.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/koa-newrelic"
+          },
+          {
+            "name": "@locked-dobby/library-react-logger",
+            "description": "abstract logging class and newrelic",
+            "version": "1.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@locked-dobby/library-react-logger"
+          },
+          {
+            "name": "ah-newrelic-plugin",
+            "description": "I use newrelic in actionhero",
+            "version": "0.7.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ah-newrelic-plugin"
+          },
+          {
+            "name": "winston-to-newrelic-logs",
+            "description": "A transport for winston to send to New Relic Log Product",
+            "version": "1.0.11",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/winston-to-newrelic-logs"
+          },
+          {
+            "name": "tlz-profiler",
+            "description": "1. insert profiler after newrelic:",
+            "version": "1.0.12",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/tlz-profiler"
+          },
+          {
+            "name": "nor-newrelic",
+            "description": "Our newrelic CLI utility",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/nor-newrelic"
+          },
+          {
+            "name": "zipkin-transport-newrelic",
+            "description": "Transports Zipkin trace data via HTTP to New Relic's Trace endpoint",
+            "version": "0.1.27",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/zipkin-transport-newrelic"
+          },
+          {
+            "name": "@backstage-community/plugin-newrelic-dashboard",
+            "description": null,
+            "version": "0.15.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@backstage-community/plugin-newrelic-dashboard"
+          },
+          {
+            "name": "@1xtr/moleculer-universal-logger",
+            "description": "Send Moleculer logs to any endpoint (DataDog, LogTail, Newrelic, etc)",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@1xtr/moleculer-universal-logger"
+          },
+          {
+            "name": "fastify-newrelic",
+            "description": "Fastify plugin for newrelic",
+            "version": "0.0.5-beta.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/fastify-newrelic"
+          },
+          {
+            "name": "@newrelic-labs/mssql",
+            "description": "node-mssql instrumentation for the New Relic Node agent",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@newrelic-labs/mssql"
+          },
+          {
+            "name": "winston-newrelic",
+            "description": "Reports winston log errors to new-relic",
+            "version": "0.1.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/winston-newrelic"
+          },
+          {
+            "name": "newrelic-nerdgraph-client",
+            "description": "An API client for NerdGraph \u2014 the GraphQL API of New Relic. Supports both synchronous and asynchronous NRQL queries.",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/newrelic-nerdgraph-client"
+          },
+          {
+            "name": "@newrelic/newrelic-oss-cli",
+            "description": "Open Source Software CLI",
+            "version": "0.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@newrelic/newrelic-oss-cli"
+          },
+          {
+            "name": "newrelic-decorators",
+            "description": "typescript decorators for new relic monitoring",
+            "version": "1.2.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/newrelic-decorators"
+          },
+          {
+            "name": "react-native-bmt-newrelic",
+            "description": "New Relic wrapper for React Native based in react-native-newrelic",
+            "version": "0.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-native-bmt-newrelic"
+          },
+          {
+            "name": "@newrelic/proxy",
+            "description": "An HTTP proxy written with Node.js (think Squid)",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@newrelic/proxy"
+          },
+          {
+            "name": "newrelic-alerts",
+            "description": "Create alerts in newrelic",
+            "version": "1.0.3-alpha",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/newrelic-alerts"
+          },
+          {
+            "name": "@harusame0616/pino-newrelic-log-api-transport",
+            "description": "pino transport for newrelic log api",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@harusame0616/pino-newrelic-log-api-transport"
+          },
+          {
+            "name": "angulartics-newrelic-insights",
+            "description": "New Relic Insights plugin for Angulartics",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/angulartics-newrelic-insights"
+          },
+          {
+            "name": "@steveojs/newrelic",
+            "description": "A New Relic trace provider for the [steveo](https://github.com/ordermentum/steveo) pub/pub background processing library.",
+            "version": "15.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@steveojs/newrelic"
+          },
+          {
+            "name": "newrelic-angular",
+            "description": "New Relic Browser Insights for Angular.js",
+            "version": "0.2.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/newrelic-angular"
+          },
+          {
+            "name": "@damjack/elm-newrelic-nreum.js",
+            "description": "Typescript library to wrap NewRelic NREUM for elm-newrelic-nreum Elm package",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@damjack/elm-newrelic-nreum.js"
+          },
+          {
+            "name": "msb-newrelic",
+            "description": "An instrumented version of msb for Newrelic",
+            "version": "0.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/msb-newrelic"
+          },
+          {
+            "name": "@backstage-community/plugin-analytics-module-newrelic-browser",
+            "description": null,
+            "version": "0.11.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@backstage-community/plugin-analytics-module-newrelic-browser"
+          },
+          {
+            "name": "newrelic-mcp",
+            "description": "Model Context Protocol server for New Relic observability platform integration",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/newrelic-mcp"
+          },
+          {
+            "name": "@newrelic/newrelic-eks-blueprints-addon",
+            "description": "[![New Relic Experimental header](https://github.com/newrelic/opensource-website/raw/master/src/images/categories/Experimental.png)](https://opensource.newrelic.com/oss-category/#new-relic-experimental)",
+            "version": "1.0.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@newrelic/newrelic-eks-blueprints-addon"
+          },
+          {
+            "name": "cloudq",
+            "description": "Cloud Message Queue Server (using CouchDb) NewRelic enabled",
+            "version": "2.9.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/cloudq"
+          },
+          {
+            "name": "@aaronbassett/newrelic-netlify-plugin",
+            "description": "New Relic Netlify Plugin [unofficial] [alpha]",
+            "version": "0.1.0-alpha-28",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aaronbassett/newrelic-netlify-plugin"
+          },
+          {
+            "name": "log4js-node-newrelic",
+            "description": "An appender for log4js-node which sends errors to NewRelic",
+            "version": "0.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/log4js-node-newrelic"
+          },
+          {
+            "name": "react-newrelic-agent",
+            "description": "A React integration SDK for New Relic monitoring, simplifying setup and customization.",
+            "version": "1.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-newrelic-agent"
+          },
+          {
+            "name": "@cerwym/newrelic-webpack-plugin",
+            "description": "[![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier) [![Build Status](https://travis-ci.com/Cerwym/NewRelicWebpackPlugin.svg?branch=main)](https://travis-ci.com/Cerwym/NewRelicWebpac",
+            "version": "1.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@cerwym/newrelic-webpack-plugin"
+          },
+          {
+            "name": "@newrelic/nr-labs-components",
+            "description": "New Relic Labs components",
+            "version": "2.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@newrelic/nr-labs-components"
+          },
+          {
+            "name": "env-newrelic",
+            "description": "Load newrelic in a 12-factor environment with sane defaults.",
+            "version": "0.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/env-newrelic"
+          },
+          {
+            "name": "newrelic-forwarder-typescript",
+            "description": "logger forwarder para newrelic en typescript",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/newrelic-forwarder-typescript"
+          },
+          {
+            "name": "newrelic-config",
+            "description": "Newrelic configurator",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/newrelic-config"
+          },
+          {
+            "name": "newrelic-neo4j",
+            "description": "Metric reporter for NewRelic from Neo4j",
+            "version": "0.1.12",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/newrelic-neo4j"
+          },
+          {
+            "name": "@vrabbi/newrelic-dashboard-wrapper",
+            "description": "Welcome to the newrelic-dashboard-wrapper plugin!",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@vrabbi/newrelic-dashboard-wrapper"
+          },
+          {
+            "name": "newrelic-metrics",
+            "description": "A simple set of utilities for the newrelic metrics API",
+            "version": "0.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/newrelic-metrics"
+          },
+          {
+            "name": "newrelic-amqp-coffee",
+            "description": "A NewRelic instrumentation for amqp-coffee",
+            "version": "0.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/newrelic-amqp-coffee"
+          },
+          {
+            "name": "koa-router-newrelic-grouper",
+            "description": "middleware for Newrelic APM route grouping for apps using koa-router",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/koa-router-newrelic-grouper"
+          },
+          {
+            "name": "koa2-newrelic",
+            "description": "Koa middleware to allow Newrelic monitor Koa applications",
+            "version": "2.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/koa2-newrelic"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 20,
+        "packages": [
+          {
+            "name": "newrelic_rpm",
+            "version": "9.22.0",
+            "downloads": 168668353,
+            "url": "https://rubygems.org/gems/newrelic_rpm"
+          },
+          {
+            "name": "newrelic-redis",
+            "version": "2.0.2",
+            "downloads": 2053917,
+            "url": "https://rubygems.org/gems/newrelic-redis"
+          },
+          {
+            "name": "newrelic_plugin",
+            "version": "1.3.1",
+            "downloads": 1379480,
+            "url": "https://rubygems.org/gems/newrelic_plugin"
+          },
+          {
+            "name": "newrelic_moped",
+            "version": "1.0.1",
+            "downloads": 1098176,
+            "url": "https://rubygems.org/gems/newrelic_moped"
+          },
+          {
+            "name": "newrelic-grape",
+            "version": "2.1.0",
+            "downloads": 846419,
+            "url": "https://rubygems.org/gems/newrelic-grape"
+          },
+          {
+            "name": "newrelic-rake",
+            "version": "1.4.1",
+            "downloads": 548418,
+            "url": "https://rubygems.org/gems/newrelic-rake"
+          },
+          {
+            "name": "newrelic-infinite_tracing",
+            "version": "9.22.0",
+            "downloads": 2471515,
+            "url": "https://rubygems.org/gems/newrelic-infinite_tracing"
+          },
+          {
+            "name": "newrelic_api",
+            "version": "1.2.4",
+            "downloads": 292875,
+            "url": "https://rubygems.org/gems/newrelic_api"
+          },
+          {
+            "name": "newrelic-middleware",
+            "version": "1.1.0",
+            "downloads": 234434,
+            "url": "https://rubygems.org/gems/newrelic-middleware"
+          },
+          {
+            "name": "newrelic-faraday",
+            "version": "0.7.2",
+            "downloads": 207360,
+            "url": "https://rubygems.org/gems/newrelic-faraday"
+          },
+          {
+            "name": "newrelic-typhoeus",
+            "version": "0.0.3",
+            "downloads": 178975,
+            "url": "https://rubygems.org/gems/newrelic-typhoeus"
+          },
+          {
+            "name": "newrelic-elasticsearch",
+            "version": "0.3.1",
+            "downloads": 115063,
+            "url": "https://rubygems.org/gems/newrelic-elasticsearch"
+          },
+          {
+            "name": "newrelic-dragonfly",
+            "version": "0.0.4",
+            "downloads": 107085,
+            "url": "https://rubygems.org/gems/newrelic-dragonfly"
+          },
+          {
+            "name": "newrelic-sidekiq-metrics",
+            "version": "1.6.2",
+            "downloads": 693516,
+            "url": "https://rubygems.org/gems/newrelic-sidekiq-metrics"
+          },
+          {
+            "name": "newrelic-sequel",
+            "version": "0.0.6",
+            "downloads": 86879,
+            "url": "https://rubygems.org/gems/newrelic-sequel"
+          },
+          {
+            "name": "fluent-plugin-newrelic",
+            "version": "1.2.3",
+            "downloads": 10978111,
+            "url": "https://rubygems.org/gems/fluent-plugin-newrelic"
+          },
+          {
+            "name": "newrelic-cql",
+            "version": "0.2.1",
+            "downloads": 82279,
+            "url": "https://rubygems.org/gems/newrelic-cql"
+          },
+          {
+            "name": "newrelic-aws",
+            "version": "0.0.6",
+            "downloads": 81238,
+            "url": "https://rubygems.org/gems/newrelic-aws"
+          },
+          {
+            "name": "capistrano-newrelic",
+            "version": "0.10.1",
+            "downloads": 640847,
+            "url": "https://rubygems.org/gems/capistrano-newrelic"
+          },
+          {
+            "name": "newrelic_mongodb",
+            "version": "0.1.2",
+            "downloads": 72627,
+            "url": "https://rubygems.org/gems/newrelic_mongodb"
+          }
+        ]
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 10,
+        "packages": [
+          {
+            "name": "newrelic",
+            "description": "Idiomatic Rust bindings to the New Relic C SDK.\n\nNote: versions 0.1.0 onwards of this crate are completely incompatible\nwith previous versions as they move away from the deprecated New Relic SDK\nto the newer New Relic C SDK. This has additional requirements: see\nhttps://docs.newrelic.com/docs/agents/c-sdk/get-started/introduction-c-sdk\nfor details.\n",
+            "version": "0.2.2",
+            "downloads": 22906,
+            "url": "https://crates.io/crates/newrelic"
+          },
+          {
+            "name": "tokio-newrelic",
+            "description": "It is an wrapper over the newrelic SDK.",
+            "version": "0.1.0",
+            "downloads": 1709,
+            "url": "https://crates.io/crates/tokio-newrelic"
+          },
+          {
+            "name": "metrics-exporter-newrelic",
+            "description": "Basic `metrics` exporter for use with NewRelic",
+            "version": "0.2.0",
+            "downloads": 4746,
+            "url": "https://crates.io/crates/metrics-exporter-newrelic"
+          },
+          {
+            "name": "easy_init_newrelic_opentelemetry",
+            "description": "A simple example of how to initialize a newrelic opentelemetry exporter",
+            "version": "0.3.0",
+            "downloads": 6781,
+            "url": "https://crates.io/crates/easy_init_newrelic_opentelemetry"
+          },
+          {
+            "name": "tracing-newrelic",
+            "description": "New Relic integration for tracing",
+            "version": "0.1.2",
+            "downloads": 7925,
+            "url": "https://crates.io/crates/tracing-newrelic"
+          },
+          {
+            "name": "newrelic-unofficial",
+            "description": "New Relic instrumentation in pure Rust",
+            "version": "0.1.3",
+            "downloads": 6813,
+            "url": "https://crates.io/crates/newrelic-unofficial"
+          },
+          {
+            "name": "azure_mgmt_newrelic",
+            "description": "generated REST API bindings",
+            "version": "0.21.0",
+            "downloads": 14693,
+            "url": "https://crates.io/crates/azure_mgmt_newrelic"
+          },
+          {
+            "name": "fastly-api",
+            "description": "Fastly API client",
+            "version": "11.0.0",
+            "downloads": 57064,
+            "url": "https://crates.io/crates/fastly-api"
+          },
+          {
+            "name": "newrelic-sdk",
+            "description": "Rust bindings for New Relic.",
+            "version": "0.0.3",
+            "downloads": 7289,
+            "url": "https://crates.io/crates/newrelic-sdk"
+          },
+          {
+            "name": "newrelic-sys",
+            "description": "FFI bindings for the New Relic C SDK.\n",
+            "version": "0.2.0",
+            "downloads": 26067,
+            "url": "https://crates.io/crates/newrelic-sys"
+          }
+        ]
+      },
+      "total_packages": 130,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:19:30.487838"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:30.487847",
+    "batch_network": {
+      "batch": "Winter 2018",
+      "total_batch_mates": 145,
+      "active_batch_mates": 84,
+      "batch_success_rate": 57.9,
+      "notable_batch_mates": [
+        {
+          "name": "Newfront",
+          "slug": "newfront-insurance",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "Modern insurance brokerage."
+        },
+        {
+          "name": "Mayhem",
+          "slug": "mayhem",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Mayhem is the easiest way to play with your gaming community."
+        },
+        {
+          "name": "Pulse",
+          "slug": "pulse-2",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "We're crowdsourced Gartner so IT executives can learn directly from\u2026"
+        },
+        {
+          "name": "Bear Flag Robotics",
+          "slug": "bear-flag-robotics",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Autonomous driving technology for farm tractors."
+        },
+        {
+          "name": "ClearBrain",
+          "slug": "clearbrain",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Causal Analytics for Growth Teams"
+        },
+        {
+          "name": "Sepsis Scout",
+          "slug": "sepsis-scout",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Wearables and AI to predict and prevent sepsis outside the hospital"
+        },
+        {
+          "name": "onederful",
+          "slug": "onederful",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Dental Insurance API"
+        },
+        {
+          "name": "Glimpse K12",
+          "slug": "glimpse-k12",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Glimpse eliminates ineffective spending in schools."
+        },
+        {
+          "name": "Squad",
+          "slug": "squad",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Squad is an app for live communities to have shared experiences\u2026"
+        },
+        {
+          "name": "NewCraft",
+          "slug": "newcraft",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Universal API for HR & Payroll"
+        }
+      ],
+      "batch_size": 146
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1969,
+      "direct_competitors": [
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "status": "Active",
+          "batch": "Winter 2012",
+          "one_liner": "High Performance Computing Built for the Cloud"
+        },
+        {
+          "name": "Marft",
+          "slug": "marft",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Marft creates embeddable machine learning models for application\u2026"
+        },
+        {
+          "name": "Pixelapse",
+          "slug": "pixelapse",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Github for designers. We automatically keep track of revisions of\u2026"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Palantir for sales people"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Smart search for the modern team."
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Authy is a Two-Factor Authentication platform for developers"
+        },
+        {
+          "name": "Flutter",
+          "slug": "flutter",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Flutter combined computer vision technology with the built-in webcams\u2026"
+        },
+        {
+          "name": "SolidStage",
+          "slug": "solidstage",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Sysadmin as a service. We make deploying, configuring, monitoring,\u2026"
+        },
+        {
+          "name": "Clutch",
+          "slug": "clutch",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "An easy to integrate library for native iOS applications designed to\u2026"
+        },
+        {
+          "name": "OneSignal",
+          "slug": "onesignal",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Engage customers through personalized omni-channel messaging"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "New York",
+      "location": "New York, NY, USA; Remote",
+      "companies_in_city": 523,
+      "active_in_city": 398,
+      "nearby_companies": [
+        {
+          "name": "The Muse",
+          "slug": "the-muse",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "HireArt",
+          "slug": "hireart",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Shoptiques",
+          "slug": "shoptiques",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Grouper",
+          "slug": "grouper",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "99dresses",
+          "slug": "99dresses",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Codecademy",
+          "slug": "codecademy",
+          "batch": "Summer 2011",
+          "industry": "Education",
+          "status": "Acquired"
+        },
+        {
+          "name": "Custora",
+          "slug": "custora",
+          "batch": "Winter 2011",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Recurse Center",
+          "slug": "recurse-center",
+          "batch": "Summer 2010",
+          "industry": "Education",
+          "status": "Active"
+        },
+        {
+          "name": "MessageParty",
+          "slug": "messageparty",
+          "batch": "Summer 2010",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Fabricly",
+          "slug": "fabricly",
+          "batch": "Winter 2010",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "RentHop",
+          "slug": "renthop",
+          "batch": "Summer 2009",
+          "industry": "Real Estate and Construction",
+          "status": "Active"
+        },
+        {
+          "name": "Youlicit",
+          "slug": "youlicit",
+          "batch": "Summer 2008",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "SocialPicks",
+          "slug": "socialpicks",
+          "batch": "Summer 2007",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Octopart",
+          "slug": "octopart",
+          "batch": "Winter 2007",
+          "industry": "Industrials",
+          "status": "Acquired"
+        },
+        {
+          "name": "OMGPop",
+          "slug": "omgpop",
+          "batch": "Summer 2006",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Canopy Labs",
+          "slug": "canopy-labs",
+          "batch": "Summer 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Fullstack Academy",
+          "slug": "fullstack-academy",
+          "batch": "Summer 2012",
+          "industry": "Education",
+          "status": "Acquired"
+        },
+        {
+          "name": "DataNitro",
+          "slug": "datanitro",
+          "batch": "Summer 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "SmartAsset",
+          "slug": "smartasset",
+          "batch": "Summer 2012",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "StyleUp",
+          "slug": "styleup",
+          "batch": "Winter 2013",
+          "industry": "Consumer",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Shogun",
+        "slug": "shogun",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Assembly",
+        "slug": "assembly-com",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "NewCraft",
+        "slug": "newcraft",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Draftbit",
+        "slug": "draftbit",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "EnvKey",
+        "slug": "envkey",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Haiku",
+        "slug": "haiku",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "miru",
+        "slug": "miru",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Storyline",
+        "slug": "storyline",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Pagedraw",
+        "slug": "pagedraw",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Voicery",
+        "slug": "voicery",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 3414,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:19:30.495175"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:30.495184",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:30.820762",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:30.919921",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 10,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:39:29.660300",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Remote development collaboration surge",
+        "DevOps toolchain consolidation",
+        "Real-time code review adoption"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "IDE integration depth and real-time collaboration workflow",
+      "differentiation": "In-IDE code review for uncommitted code without context switching",
+      "competitive_advantages": [
+        "Seamless IDE integration",
+        "Work-in-progress review capability"
+      ],
+      "competitive_vulnerabilities": [
+        "Large incumbents with resources",
+        "IDE vendor competition risk"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "low"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "10-person team scale",
+        "Acquisition outcome achieved"
+      ],
+      "growth_bottlenecks": [
+        "Developer adoption inertia",
+        "Enterprise sales cycles"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "low",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "GitHub/GitLab feature overlap",
+        "IDE vendor dependency",
+        "Developer workflow change resistance"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong product-market fit validation",
+        "Successful acquisition exit",
+        "Developer-focused solution"
+      ],
+      "concerns": [
+        "Competitive pressure from incumbents",
+        "Limited differentiation moat"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "GitHub",
+        "GitLab"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Leverage acquisition learnings",
+        "Scale integration partnerships"
+      ],
+      "expansion_opportunities": [
+        "Enterprise DevOps suite integration",
+        "AI-powered code review features"
+      ]
+    },
+    "tokens_used": {
+      "input": 710,
+      "output": 484,
+      "total": 1194,
+      "estimated_cost": 0.00939
+    }
+  },
+  "phase8_complete": true
+}

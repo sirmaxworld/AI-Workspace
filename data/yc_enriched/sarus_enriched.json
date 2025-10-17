@@ -1,0 +1,1391 @@
+{
+  "slug": "sarus",
+  "name": "Sarus",
+  "yc_id": 25353,
+  "batch": "Winter 2022",
+  "website": "https://www.sarus.tech",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T01:10:47.806933",
+    "website": "https://www.sarus.tech",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 2410.49,
+      "final_url": "https://www.sarus.tech/",
+      "redirected": true,
+      "checked_at": "2025-10-17T01:10:50.217432"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "sarus.tech",
+      "registrar": "Squarespace Domains II LLC",
+      "creation_date": "2019-12-04T20:32:09",
+      "expiration_date": "2025-12-04T23:59:59",
+      "domain_age_days": 2143,
+      "domain_age_years": 5.9,
+      "name_servers": [
+        "NS-CLOUD-E1.GOOGLEDOMAINS.COM",
+        "NS-CLOUD-E2.GOOGLEDOMAINS.COM",
+        "NS-CLOUD-E3.GOOGLEDOMAINS.COM",
+        "NS-CLOUD-E4.GOOGLEDOMAINS.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/Sarus_tech",
+      "linkedin": "https://www.linkedin.com/company/sarus-technologies/",
+      "github": "https://github.com/sarus-tech",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": true,
+      "x_frame_options": true,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 50,
+      "server": "cloudflare"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:31:13.918598",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:31:02.382112",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "Paris, France",
+      "coordinates": {
+        "latitude": 48.8566,
+        "longitude": 2.3522
+      },
+      "timezone": {
+        "timezone_id": "Europe/Paris",
+        "timezone_name": "Europe/Paris"
+      },
+      "retrieved_at": "2025-10-17T10:14:38.765080",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:31:02.382190",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/sarus-tech"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 100,
+        "packages": [
+          {
+            "name": "@anephenix/sarus",
+            "description": "A WebSocket JavaScript library",
+            "version": "0.7.12",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@anephenix/sarus"
+          },
+          {
+            "name": "@backstage-community/plugin-tech-radar",
+            "description": "A Backstage plugin that lets you display a Tech Radar for your organization",
+            "version": "1.11.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@backstage-community/plugin-tech-radar"
+          },
+          {
+            "name": "@osmonauts/lcd",
+            "description": "Telescope LCDClient helpers",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@osmonauts/lcd"
+          },
+          {
+            "name": "@backstage-community/plugin-tech-radar-common",
+            "description": "Common functionalities for the tech-radar plugins",
+            "version": "1.10.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@backstage-community/plugin-tech-radar-common"
+          },
+          {
+            "name": "@backstage-community/plugin-tech-insights-common",
+            "description": null,
+            "version": "0.7.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@backstage-community/plugin-tech-insights-common"
+          },
+          {
+            "name": "@backstage-community/plugin-tech-insights-node",
+            "description": null,
+            "version": "2.5.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@backstage-community/plugin-tech-insights-node"
+          },
+          {
+            "name": "@atlaskit/pragmatic-drag-and-drop",
+            "description": "The core package for Pragmatic drag and drop - enabling fast drag and drop for any experience on any tech stack",
+            "version": "1.7.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@atlaskit/pragmatic-drag-and-drop"
+          },
+          {
+            "name": "rush-audit-cache-plugin",
+            "description": "A diagnostic tool for rush build cache",
+            "version": "0.3.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rush-audit-cache-plugin"
+          },
+          {
+            "name": "@ibm-generative-ai/node-sdk",
+            "description": "IBM Generative AI Node.js SDK (Tech Preview)",
+            "version": "3.2.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ibm-generative-ai/node-sdk"
+          },
+          {
+            "name": "@backstage-community/plugin-tech-radar-backend",
+            "description": null,
+            "version": "1.10.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@backstage-community/plugin-tech-radar-backend"
+          },
+          {
+            "name": "leaflet-control-geocoder",
+            "description": "Extendable geocoder with builtin support for OpenStreetMap Nominatim, Bing, Google, Mapbox, MapQuest, What3Words, Photon, Pelias, HERE, Neutrino, Plus codes",
+            "version": "3.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/leaflet-control-geocoder"
+          },
+          {
+            "name": "@backstage-community/plugin-tech-insights-backend",
+            "description": null,
+            "version": "2.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@backstage-community/plugin-tech-insights-backend"
+          },
+          {
+            "name": "@backstage-community/plugin-tech-insights-backend-module-jsonfc",
+            "description": null,
+            "version": "0.6.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@backstage-community/plugin-tech-insights-backend-module-jsonfc"
+          },
+          {
+            "name": "@fusionauth/typescript-client",
+            "description": "A typescript implementation of the FusionAuth client.",
+            "version": "1.60.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@fusionauth/typescript-client"
+          },
+          {
+            "name": "@osmonauts/telescope",
+            "description": "A TypeScript Transpiler for Cosmos Protobufs",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@osmonauts/telescope"
+          },
+          {
+            "name": "@osmonauts/ast",
+            "description": "Cosmos TypeScript AST generation",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@osmonauts/ast"
+          },
+          {
+            "name": "@osmonauts/proto-parser",
+            "description": "A Parser for Cosmos Protobufs",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@osmonauts/proto-parser"
+          },
+          {
+            "name": "@bbbtech/storybook-formik",
+            "description": "A storybook addon that allows you to use components in your stories that rely on Formik context and see internal Formik state in a panel.",
+            "version": "4.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@bbbtech/storybook-formik"
+          },
+          {
+            "name": "@osmonauts/types",
+            "description": "Telescope types",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@osmonauts/types"
+          },
+          {
+            "name": "@backstage-community/plugin-tech-insights-react",
+            "description": "Web library for the tech-insights plugin",
+            "version": "1.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@backstage-community/plugin-tech-insights-react"
+          },
+          {
+            "name": "jest-when",
+            "description": "An extension lib for jest",
+            "version": "3.7.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/jest-when"
+          },
+          {
+            "name": "textlint-rule-spellcheck-tech-word",
+            "description": "textlint rule: spell check technical word for japanese.",
+            "version": "5.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/textlint-rule-spellcheck-tech-word"
+          },
+          {
+            "name": "rush-init-project-plugin",
+            "description": "Rush plugin for initialize project in monorepo",
+            "version": "0.11.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rush-init-project-plugin"
+          },
+          {
+            "name": "@symbiotejs/symbiote",
+            "description": "Symbiote.js - close-to-platform frontend library for building super-powered web components",
+            "version": "2.3.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@symbiotejs/symbiote"
+          },
+          {
+            "name": "videojs-flash",
+            "description": "The official Flash tech package for Video.js.",
+            "version": "2.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/videojs-flash"
+          },
+          {
+            "name": "serverless-domain-manager",
+            "description": "Serverless plugin for managing custom domains with API Gateways.",
+            "version": "8.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/serverless-domain-manager"
+          },
+          {
+            "name": "@ton/blueprint",
+            "description": "Framework for development of TON smart contracts",
+            "version": "0.41.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ton/blueprint"
+          },
+          {
+            "name": "@gluestack-ui/themed",
+            "description": "A universal themed components for React Native, Next.js & React",
+            "version": "1.1.73",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@gluestack-ui/themed"
+          },
+          {
+            "name": "@backstage-community/plugin-tech-insights",
+            "description": null,
+            "version": "0.6.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@backstage-community/plugin-tech-insights"
+          },
+          {
+            "name": "cupertino-pane",
+            "description": "Cupertino Panes is multi-functional modals, cards & panes with touch technologies.",
+            "version": "1.5.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/cupertino-pane"
+          },
+          {
+            "name": "@opentf/obj-diff",
+            "description": "The Fast, Accurate, JavaScript Objects Diffing & Patching Library.",
+            "version": "0.12.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@opentf/obj-diff"
+          },
+          {
+            "name": "@opentf/std",
+            "description": "An Extensive JavaScript Standard Library.",
+            "version": "0.13.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@opentf/std"
+          },
+          {
+            "name": "snyk-delta",
+            "description": "Prevent feature for CLI tests",
+            "version": "1.12.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/snyk-delta"
+          },
+          {
+            "name": "@groww-tech/ella",
+            "description": "Ella is a utility-belt library for JavaScript that provides general purpose methods used in day to day programming.",
+            "version": "0.3.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@groww-tech/ella"
+          },
+          {
+            "name": "@osmonauts/utils",
+            "description": "Utils for Osmosis",
+            "version": "1.18.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@osmonauts/utils"
+          },
+          {
+            "name": "nodesi",
+            "description": "ESI: the good parts in node.js",
+            "version": "2.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/nodesi"
+          },
+          {
+            "name": "npaw-plugin",
+            "description": "NPAW's Plugin",
+            "version": "7.3.17",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/npaw-plugin"
+          },
+          {
+            "name": "@croct/sdk",
+            "description": "Croct SDK for JavaScript.",
+            "version": "0.18.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@croct/sdk"
+          },
+          {
+            "name": "tech-spec",
+            "description": "[![npm version](https://badge.fury.io/js/tech-spec.svg)](https://badge.fury.io/js/tech-spec) ![CI](https://github.com/Voldemat/tech-spec/actions/workflows/packages.js.yaml/badge.svg) [![codecov](https://codecov.io/gh/Voldemat/tech-spec/branch/main/graph/b",
+            "version": "1.0.58",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/tech-spec"
+          },
+          {
+            "name": "@fontsource/share-tech-mono",
+            "description": "Self-host the Share Tech Mono font in a neatly bundled NPM package.",
+            "version": "5.2.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@fontsource/share-tech-mono"
+          },
+          {
+            "name": "@jfstech/icons-react",
+            "description": "<p align=\"center\">     <a href=\"https://jfstech.uk\" target=\"_blank\">     <picture>       <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/JFS-Tech/icons/HEAD/.github/logo-dark.svg\">       <source media=\"(prefers-color",
+            "version": "0.2.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@jfstech/icons-react"
+          },
+          {
+            "name": "snyk-filter",
+            "description": "Module to consume json output from Snyk CLI for advanced filtering and results display",
+            "version": "1.3.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/snyk-filter"
+          },
+          {
+            "name": "localstorage-slim",
+            "description": "An ultra slim localstorage wrapper with optional support for ttl and encryption",
+            "version": "2.7.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/localstorage-slim"
+          },
+          {
+            "name": "@scroll-tech/contracts",
+            "description": "A library for interacting with Scroll contracts.",
+            "version": "3.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@scroll-tech/contracts"
+          },
+          {
+            "name": "@opentf/cli-pbar",
+            "description": "The Customizable CLI Progress Bars.",
+            "version": "0.7.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@opentf/cli-pbar"
+          },
+          {
+            "name": "@empathyco/x-adapter",
+            "description": "A utils library to create a client for any API",
+            "version": "8.1.0-alpha.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@empathyco/x-adapter"
+          },
+          {
+            "name": "tech-stack-icons",
+            "description": "A Typesafe React component for rendering over **395+ original SVG icons** for the most-used design & development tools, frameworks, and AI services.",
+            "version": "3.3.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/tech-stack-icons"
+          },
+          {
+            "name": "@croct/json",
+            "description": "Strong JSON typing for TypeScript.",
+            "version": "2.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@croct/json"
+          },
+          {
+            "name": "@me-foundation/magicdrop",
+            "description": "MagicDrop is a collection of EVM minting protocols that enable the multi stage minting, per stage WL management, per stage supply limit, and crossmint support.",
+            "version": "0.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@me-foundation/magicdrop"
+          },
+          {
+            "name": "m2m-components",
+            "description": "Document: https://github.com/matsuri-tech/m2m-components/discussions/78",
+            "version": "7.1.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/m2m-components"
+          },
+          {
+            "name": "@cosmos-kit/xdefi-extension",
+            "description": "cosmos-kit wallet connector",
+            "version": "2.13.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@cosmos-kit/xdefi-extension"
+          },
+          {
+            "name": "vue-ray",
+            "description": "Debug Vue code with Ray to fix problems faster",
+            "version": "2.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/vue-ray"
+          },
+          {
+            "name": "@cosmos-kit/xdefi",
+            "description": "cosmos-kit wallet connector",
+            "version": "2.12.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@cosmos-kit/xdefi"
+          },
+          {
+            "name": "@croct/content",
+            "description": "Dynamically generated content module.",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@croct/content"
+          },
+          {
+            "name": "direct-vuex",
+            "description": "Use and implement your Vuex store with TypeScript types. Compatible with the Vue 3 composition API.",
+            "version": "0.12.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/direct-vuex"
+          },
+          {
+            "name": "@spotify/backstage-plugin-soundcheck-backend-module-techinsights",
+            "description": "Soundcheck 3rd party integration with Tech Insights",
+            "version": "0.6.12",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@spotify/backstage-plugin-soundcheck-backend-module-techinsights"
+          },
+          {
+            "name": "@croct/plug-react",
+            "description": "React components and hooks to plug your React applications into Croct.",
+            "version": "0.12.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@croct/plug-react"
+          },
+          {
+            "name": "agentkeepalive",
+            "description": "Missing keepalive http.Agent",
+            "version": "4.6.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/agentkeepalive"
+          },
+          {
+            "name": "@small-tech/syswide-cas",
+            "description": "Fork of syswide-cas by a now-defunct company called Capriza. Enable node to use system wide certificate authorities in conjunction with the bundled root CAs.",
+            "version": "6.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@small-tech/syswide-cas"
+          },
+          {
+            "name": "bem-tools-create",
+            "description": "bem create command",
+            "version": "2.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/bem-tools-create"
+          },
+          {
+            "name": "@jupyter/web-components",
+            "description": "A component library for building extensions in Jupyter frontends.",
+            "version": "0.17.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@jupyter/web-components"
+          },
+          {
+            "name": "videojs-swf",
+            "description": "The Flash-fallback video player for video.js (http://videojs.com)",
+            "version": "5.4.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/videojs-swf"
+          },
+          {
+            "name": "storybook-formik",
+            "description": "A storybook addon that allows you to use components in your stories that rely on Formik context and see internal Formik state in a panel.",
+            "version": "2.4.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/storybook-formik"
+          },
+          {
+            "name": "@opentf/cli-styles",
+            "description": "Style your CLI text using ANSI escape sequences.",
+            "version": "0.15.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@opentf/cli-styles"
+          },
+          {
+            "name": "@pulumi/policy",
+            "description": "A framework for writing policy as code",
+            "version": "1.18.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@pulumi/policy"
+          },
+          {
+            "name": "@jupyter/react-components",
+            "description": "A component library for building extensions in Jupyter frontends.",
+            "version": "0.17.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@jupyter/react-components"
+          },
+          {
+            "name": "@douyinfe/semi-theme-default",
+            "description": "semi-theme-default",
+            "version": "2.87.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@douyinfe/semi-theme-default"
+          },
+          {
+            "name": "@groww-tech/stylelint-config",
+            "description": "Standard Stylelint config adopted in Groww. Customized as per requirement and preferences of devs in Groww.",
+            "version": "2.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@groww-tech/stylelint-config"
+          },
+          {
+            "name": "@groww-tech/mint-css",
+            "description": "A CSS library that provides classes, tokens, variables, fonts and other essential stylings governed under MINT design system, used by Groww",
+            "version": "0.3.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@groww-tech/mint-css"
+          },
+          {
+            "name": "@groww-tech/eslint-config",
+            "description": "Standard Eslint config adopted in Groww. Customized as per requirement and preferences of devs in Groww.",
+            "version": "1.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@groww-tech/eslint-config"
+          },
+          {
+            "name": "@backstage-community/plugin-tech-insights-maturity",
+            "description": null,
+            "version": "0.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@backstage-community/plugin-tech-insights-maturity"
+          },
+          {
+            "name": "@backstage-community/plugin-tech-insights-maturity-common",
+            "description": "Common functionalities for the tech-insights-maturity plugin",
+            "version": "0.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@backstage-community/plugin-tech-insights-maturity-common"
+          },
+          {
+            "name": "i-tech-shared-components",
+            "description": "A library of Angular Material-based components designed for seamless integration and scalability.",
+            "version": "1.4.20",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/i-tech-shared-components"
+          },
+          {
+            "name": "appirio-tech-ng-ui-components",
+            "description": "[![GitHub version](https://badge.fury.io/gh/appirio-tech%2Fng-ui-components.svg)](http://badge.fury.io/gh/appirio-tech%2Fng-ui-components) [![Build Status](https://travis-ci.org/appirio-tech/ng-ui-components.svg?branch=master)](https://travis-ci.org/appir",
+            "version": "2.2.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/appirio-tech-ng-ui-components"
+          },
+          {
+            "name": "@solidgate/react-sdk",
+            "description": "Solidgate react sdk loader",
+            "version": "1.20.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@solidgate/react-sdk"
+          },
+          {
+            "name": "react-big-schedule",
+            "description": "React Big Schedule  is a powerful and intuitive scheduler and resource planning solution built with React. Seamlessly integrate this modern browser-compatible component into your applications to effectively manage time, appointments, and resources. With d",
+            "version": "5.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-big-schedule"
+          },
+          {
+            "name": "@subql/x-cosmology-telescope",
+            "description": "A TypeScript Transpiler for Cosmos Protobufs",
+            "version": "1.4.14",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@subql/x-cosmology-telescope"
+          },
+          {
+            "name": "@croct/plug",
+            "description": "A fully-featured devkit for building natively personalized applications.",
+            "version": "0.18.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@croct/plug"
+          },
+          {
+            "name": "ogateway.io",
+            "description": "complete payment activities for ogateway.io platform",
+            "version": "0.0.34",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ogateway.io"
+          },
+          {
+            "name": "@groww-tech/encryption",
+            "description": "Encryption service as name suggests provides encryption, decryption facility with all major algorithms in trend.",
+            "version": "1.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@groww-tech/encryption"
+          },
+          {
+            "name": "buble-jsx-only",
+            "description": "Bubl\u00e9, but just JSX.",
+            "version": "0.21.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/buble-jsx-only"
+          },
+          {
+            "name": "@prohst-tech/nest-pg-boss",
+            "description": "Use pg-boss in your NestJS app",
+            "version": "0.5.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@prohst-tech/nest-pg-boss"
+          },
+          {
+            "name": "@empathyco/x-adapter-platform",
+            "description": "A search client for the Empathy Platform API",
+            "version": "1.1.0-alpha.37",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@empathyco/x-adapter-platform"
+          },
+          {
+            "name": "npaw-plugin-adapters",
+            "description": "NPAW's Plugin Adapters",
+            "version": "7.3.17",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/npaw-plugin-adapters"
+          },
+          {
+            "name": "grunt-zip",
+            "description": "Zip and unzip files via a grunt plugin",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/grunt-zip"
+          },
+          {
+            "name": "@groww-tech/analytics",
+            "description": "Analytics service exposes methods to send events to 3rd party analytics tools like Webengage and Gtm.",
+            "version": "1.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@groww-tech/analytics"
+          },
+          {
+            "name": "@groww-tech/react-charts",
+            "description": "React charts library tailored as per Groww needs",
+            "version": "0.2.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@groww-tech/react-charts"
+          },
+          {
+            "name": "@groww-tech/web-storage",
+            "description": "Web Storage is a service used that exposes methods to get full control over storage mechanisms available via bucketing.",
+            "version": "0.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@groww-tech/web-storage"
+          },
+          {
+            "name": "@agoric/cosmic-proto",
+            "description": "Protobuf stubs for the Agoric cosmos-sdk module",
+            "version": "0.5.0-u22.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@agoric/cosmic-proto"
+          },
+          {
+            "name": "@groww-tech/eslint-plugin-internal",
+            "description": "ESLint Plugin with customized rules as per requirement and preferences of devs in Groww.",
+            "version": "1.0.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@groww-tech/eslint-plugin-internal"
+          },
+          {
+            "name": "@justifi/webcomponents",
+            "description": "JustiFi Web Components",
+            "version": "6.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@justifi/webcomponents"
+          },
+          {
+            "name": "@storybook/design-system",
+            "description": "Storybook design system",
+            "version": "7.15.19",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@storybook/design-system"
+          },
+          {
+            "name": "@airporting/tech-app",
+            "description": "\ud83e\udd16 Tech app front-end",
+            "version": "0.0.18",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@airporting/tech-app"
+          },
+          {
+            "name": "serverless-vpc-discovery",
+            "description": "Serverless Plugin to modify VPC values",
+            "version": "6.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/serverless-vpc-discovery"
+          },
+          {
+            "name": "tech-generalist-ui-components",
+            "description": "UI Components created by Jay Grissom (TechGeneralist)",
+            "version": "0.1.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/tech-generalist-ui-components"
+          },
+          {
+            "name": "ts-matches",
+            "description": "We want to bring in some pattern matching into the typescript land. We want to be able to type guard a whole bunch of conditions and get the type back.",
+            "version": "6.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ts-matches"
+          },
+          {
+            "name": "@habx/apollo-multi-endpoint-link",
+            "description": "Apollo link which add an api directive to fetch data from multi endpoints",
+            "version": "2.9.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@habx/apollo-multi-endpoint-link"
+          },
+          {
+            "name": "@antares-tech/eslint-config",
+            "description": "Antares Tech Eslint configuration",
+            "version": "0.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@antares-tech/eslint-config"
+          },
+          {
+            "name": "@groww-tech/monitoring",
+            "description": "A monitoring CLI to spin up prometheus server",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@groww-tech/monitoring"
+          },
+          {
+            "name": "@solidgate/client-sdk-loader",
+            "description": "Solidgate client sdk loader",
+            "version": "1.20.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@solidgate/client-sdk-loader"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 100,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:31:03.850581"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:31:03.850590",
+    "batch_network": {
+      "batch": "Winter 2022",
+      "total_batch_mates": 399,
+      "active_batch_mates": 341,
+      "batch_success_rate": 85.5,
+      "notable_batch_mates": [
+        {
+          "name": "Alfie",
+          "slug": "alfie",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Democratizing access to precision weight loss medications "
+        },
+        {
+          "name": "Proper",
+          "slug": "proper",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Reconciliation and financial operations platform"
+        },
+        {
+          "name": "HomeRoom",
+          "slug": "homeroom",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "We Rent Your Property by the Room.  You earn 50% more Rent."
+        },
+        {
+          "name": "Onyx Private",
+          "slug": "onyx-private",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A modern and more accessible private bank for the new generation "
+        },
+        {
+          "name": "JumpWire",
+          "slug": "jumpwire",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Dynamic access controls for all data and databases"
+        },
+        {
+          "name": "BharatX",
+          "slug": "bharatx",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Enable Buy-Now-Pay-Later in a White-Labelled Manner"
+        },
+        {
+          "name": "Stackshine",
+          "slug": "stackshine",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Automating all IT operations"
+        },
+        {
+          "name": "Speechly",
+          "slug": "speechly",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Natural Language Understanding API for Speech that runs on device"
+        },
+        {
+          "name": "Requestly",
+          "slug": "requestly",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Open-Source Postman alternative"
+        },
+        {
+          "name": "Tola",
+          "slug": "tola",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The simple, fast and free tool for businesses to pay and get paid"
+        }
+      ],
+      "batch_size": 400
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Analytics"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1969,
+      "direct_competitors": [
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "status": "Public",
+          "batch": "Winter 2012",
+          "one_liner": "Digital Analytics Platform"
+        },
+        {
+          "name": "Freshplum",
+          "slug": "freshplum",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Analytics with action"
+        },
+        {
+          "name": "Segment",
+          "slug": "segment",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Software and APIs to collect, clean, and control customer data."
+        },
+        {
+          "name": "Pagelever",
+          "slug": "pagelever",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Facebook analytics. Acquired by Unified in January 2013. \r\n"
+        },
+        {
+          "name": "Custora",
+          "slug": "custora",
+          "status": "Acquired",
+          "batch": "Winter 2011",
+          "one_liner": "Custora is a predictive analytics platform for e-commerce marketing\u2026"
+        },
+        {
+          "name": "Chartio",
+          "slug": "chartio",
+          "status": "Acquired",
+          "batch": "Summer 2010",
+          "one_liner": "Chartio is changing how companies work by building the best\u2026"
+        },
+        {
+          "name": "Data Marketplace",
+          "slug": "data-marketplace",
+          "status": "Inactive",
+          "batch": "Winter 2010",
+          "one_liner": ""
+        },
+        {
+          "name": "Mixpanel",
+          "slug": "mixpanel",
+          "status": "Active",
+          "batch": "Summer 2009",
+          "one_liner": "Mixpanel is event analytics for builders that need answers."
+        },
+        {
+          "name": "Poll Everywhere",
+          "slug": "poll-everywhere",
+          "status": "Active",
+          "batch": "Summer 2008",
+          "one_liner": "Interactive meetings and presentations"
+        },
+        {
+          "name": "Infogami",
+          "slug": "infogami",
+          "status": "Inactive",
+          "batch": "Summer 2005",
+          "one_liner": ""
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Paris",
+      "location": "Paris, \u00cele-de-France, France",
+      "companies_in_city": 55,
+      "active_in_city": 37,
+      "nearby_companies": [
+        {
+          "name": "Motionlead",
+          "slug": "motionlead",
+          "batch": "Winter 2014",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Hublo",
+          "slug": "hublo",
+          "batch": "Summer 2014",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Afrostream",
+          "slug": "afrostream",
+          "batch": "Summer 2015",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Whyd",
+          "slug": "whyd",
+          "batch": "Summer 2016",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Bulldozair",
+          "slug": "bulldozair",
+          "batch": "Summer 2016",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Request Network",
+          "slug": "request-network",
+          "batch": "Winter 2017",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Anasen",
+          "slug": "anasen",
+          "batch": "Winter 2017",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Airthium",
+          "slug": "airthium",
+          "batch": "Summer 2017",
+          "industry": "Industrials",
+          "status": "Active"
+        },
+        {
+          "name": "Goosebump",
+          "slug": "goosebump",
+          "batch": "Summer 2017",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Station",
+          "slug": "station",
+          "batch": "Winter 2018",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Mojo",
+          "slug": "mojo",
+          "batch": "Winter 2018",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Dashblock",
+          "slug": "dashblock",
+          "batch": "Summer 2019",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "OpenReplay",
+          "slug": "asayer",
+          "batch": "Summer 2019",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Data Mechanics",
+          "slug": "data-mechanics",
+          "batch": "Summer 2019",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Multis",
+          "slug": "multis",
+          "batch": "Summer 2019",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Photoroom",
+          "slug": "photoroom",
+          "batch": "Summer 2020",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Riot",
+          "slug": "riot",
+          "batch": "Winter 2020",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Jitter",
+          "slug": "jitter",
+          "batch": "Winter 2020",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Mailwarm",
+          "slug": "mailwarm",
+          "batch": "Summer 2020",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "OneKey",
+          "slug": "onekey",
+          "batch": "Summer 2020",
+          "industry": "Fintech",
+          "status": "Inactive"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "GrowthBook",
+        "slug": "growthbook",
+        "batch": "Winter 2022",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Redbird",
+        "slug": "redbird",
+        "batch": "Winter 2022",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "PromptLoop",
+        "slug": "promptloop",
+        "batch": "Winter 2022",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "HypaHub",
+        "slug": "hypahub",
+        "batch": "Winter 2022",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Elementary",
+        "slug": "elementary",
+        "batch": "Winter 2022",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Armilla AI",
+        "slug": "armilla-ai",
+        "batch": "Winter 2022",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Siftly",
+        "slug": "siftly",
+        "batch": "Winter 2022",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Cotera",
+        "slug": "cotera",
+        "batch": "Winter 2022",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Livedocs",
+        "slug": "livedocs",
+        "batch": "Winter 2022",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "SmartHelio",
+        "slug": "smarthelio",
+        "batch": "Winter 2022",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 3200,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:31:03.862047"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:31:03.862056",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:31:04.218996",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:31:04.335067",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 16,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:42:09.317284",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "medium",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increasing data privacy regulations (GDPR, CCPA)",
+        "Growing demand for AI/ML applications",
+        "Rising awareness of differential privacy techniques"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Technology (differential privacy implementation), early mover advantage in a complex space.",
+      "differentiation": "Focus on differential privacy deployed natively within data infrastructures, allowing work on data without direct access.",
+      "competitive_advantages": [
+        "Strong privacy guarantees",
+        "Seamless integration with existing data workflows"
+      ],
+      "competitive_vulnerabilities": [
+        "Complexity of differential privacy implementation",
+        "Potential performance overhead compared to non-private methods"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "Adoption by enterprises with sensitive data",
+        "Partnerships with data infrastructure providers"
+      ],
+      "growth_bottlenecks": [
+        "Educating the market on differential privacy",
+        "Attracting and retaining talent in a niche field"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Adoption rate of differential privacy",
+        "Emergence of competing privacy-enhancing technologies",
+        "Misinterpretation or misuse of privacy guarantees"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong technical solution to a growing problem",
+        "Addresses a critical need for enterprises",
+        "Acquisition validates market demand"
+      ],
+      "concerns": [
+        "Complexity of the technology",
+        "Potential for performance overhead"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Privitar",
+        "Immuta"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on ease of use and integration",
+        "Continue educating the market on differential privacy"
+      ],
+      "expansion_opportunities": [
+        "Expand to new data infrastructure platforms",
+        "Develop industry-specific solutions"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 695,
+      "completion": 608,
+      "total": 1303,
+      "estimated_cost": 0.000235
+    }
+  },
+  "phase8_complete": true
+}

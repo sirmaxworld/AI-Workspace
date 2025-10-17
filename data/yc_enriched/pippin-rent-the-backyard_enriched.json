@@ -1,0 +1,661 @@
+{
+  "slug": "pippin-rent-the-backyard",
+  "name": "Pippin / Rent the Backyard",
+  "yc_id": 11929,
+  "batch": "Summer 2019",
+  "website": "http://rentthebackyard.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:44:54.314461",
+    "website": "http://rentthebackyard.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 403,
+      "response_time_ms": 2331.19,
+      "final_url": "https://rentthebackyard.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:44:56.645678"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "rentthebackyard.com",
+      "registrar": "Cloudflare, Inc.",
+      "creation_date": "2019-06-11T05:35:17",
+      "expiration_date": "2034-06-11T05:35:17",
+      "domain_age_days": 2319,
+      "domain_age_years": 6.3,
+      "name_servers": [
+        "ANITA.NS.CLOUDFLARE.COM",
+        "RODRIGO.NS.CLOUDFLARE.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": false,
+      "content_security_policy": false,
+      "x_frame_options": true,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": true,
+      "security_score": 33,
+      "server": "cloudflare"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:21:07.754617",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:20:58.428026",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "Oakland, CA, USA",
+      "coordinates": {
+        "latitude": 37.8044,
+        "longitude": -122.2712
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:14:20.286759",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:20:58.428046",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:20:58.428048",
+    "batch_network": {
+      "batch": "Summer 2019",
+      "total_batch_mates": 175,
+      "active_batch_mates": 114,
+      "batch_success_rate": 65.1,
+      "notable_batch_mates": [
+        {
+          "name": "Together Software",
+          "slug": "together-software",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Learn from the experts at your company. "
+        },
+        {
+          "name": "PopSQL",
+          "slug": "popsql",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "SQL editor for teams"
+        },
+        {
+          "name": "Cuboh",
+          "slug": "cuboh",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "We help restaurants manage their online orders."
+        },
+        {
+          "name": "Palifer",
+          "slug": "palifer",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Predictive maintenance models for trains and heavy industry"
+        },
+        {
+          "name": "Symplex",
+          "slug": "symplex",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Applied Reinforcement Learning Research Laboratory"
+        },
+        {
+          "name": "Kraftful",
+          "slug": "kraftful",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Copilot for product teams"
+        },
+        {
+          "name": "Odeko",
+          "slug": "odeko",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "Our operations software makes it easier to run--and grow--your cafe"
+        },
+        {
+          "name": "Bayes",
+          "slug": "bayes",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": ""
+        },
+        {
+          "name": "Voyage Biomedical",
+          "slug": "voyage-biomedical",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Using cooling to end brain damage during stroke."
+        },
+        {
+          "name": "Intersect Labs",
+          "slug": "intersect-labs",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Collaborative data noteboook for business teams"
+        }
+      ],
+      "batch_size": 176
+    },
+    "industry_network": {
+      "industries": [
+        "Real Estate and Construction",
+        "Housing and Real Estate"
+      ],
+      "total_industry_peers": 147,
+      "active_industry_peers": 95,
+      "direct_competitors": [
+        {
+          "name": "42Floors",
+          "slug": "42floors",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "We make it easy to search for office space."
+        },
+        {
+          "name": "MyVR",
+          "slug": "myvr",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "The open platform for the vacation rental industry."
+        },
+        {
+          "name": "Rentobo",
+          "slug": "rentobo",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "The easiest way to find a tenant.\r\n\r\nRentobo is a tool that makes it\u2026"
+        },
+        {
+          "name": "Zeus",
+          "slug": "zeus",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Tech-enabled property manager focused on corporate rentals; Acquired\u2026"
+        },
+        {
+          "name": "You Got Listings",
+          "slug": "you-got-listings-inc",
+          "status": "Active",
+          "batch": "Winter 2011",
+          "one_liner": "All-in-one apartment Marketing Platform for brokerages and landlords."
+        },
+        {
+          "name": "PadMapper",
+          "slug": "padmapper",
+          "status": "Acquired",
+          "batch": "Summer 2010",
+          "one_liner": "Map-based apartment search."
+        },
+        {
+          "name": "Movity",
+          "slug": "movity",
+          "status": "Acquired",
+          "batch": "Winter 2010",
+          "one_liner": "Real estate data visualization.  Sold to Trulia Dec\u2026"
+        },
+        {
+          "name": "RentHop",
+          "slug": "renthop",
+          "status": "Active",
+          "batch": "Summer 2009",
+          "one_liner": "Apartment rental marketplace"
+        },
+        {
+          "name": "Wattvision",
+          "slug": "wattvision",
+          "status": "Inactive",
+          "batch": "Winter 2009",
+          "one_liner": "Sensors and software for energy tracking. Like 'fitbit' for your\u2026"
+        },
+        {
+          "name": "Spaces Life",
+          "slug": "spaces-life",
+          "status": "Inactive",
+          "batch": "Winter 2009",
+          "one_liner": ""
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Oakland",
+      "location": "Oakland, CA, USA",
+      "companies_in_city": 38,
+      "active_in_city": 24,
+      "nearby_companies": [
+        {
+          "name": "Fivetran",
+          "slug": "fivetran",
+          "batch": "Winter 2013",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Chargehound",
+          "slug": "chargehound",
+          "batch": "Winter 2014",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Edyn",
+          "slug": "edyn",
+          "batch": "Winter 2014",
+          "industry": "Industrials",
+          "status": "Inactive"
+        },
+        {
+          "name": "Final",
+          "slug": "final",
+          "batch": "Winter 2015",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "The Human Utility",
+          "slug": "the-human-utility",
+          "batch": "Winter 2015",
+          "industry": "Unspecified",
+          "status": "Active"
+        },
+        {
+          "name": "Teleport",
+          "slug": "teleport",
+          "batch": "Summer 2015",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "SourceDNA",
+          "slug": "sourcedna",
+          "batch": "Summer 2015",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Shotput",
+          "slug": "shotput",
+          "batch": "Summer 2015",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Patchwork Security",
+          "slug": "patchwork-security",
+          "batch": "Winter 2016",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Hingeto",
+          "slug": "hingeto",
+          "batch": "Winter 2016",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Perlara",
+          "slug": "perlara",
+          "batch": "Winter 2016",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Emote",
+          "slug": "emote",
+          "batch": "Summer 2016",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Suiteness",
+          "slug": "suiteness",
+          "batch": "Summer 2016",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Elemeno Health",
+          "slug": "elemeno-health",
+          "batch": "Summer 2016",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "UtilityScore (formerly Pando)",
+          "slug": "utilityscore",
+          "batch": "Summer 2016",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "boxouse",
+          "slug": "boxouse",
+          "batch": "Winter 2017",
+          "industry": "Real Estate and Construction",
+          "status": "Inactive"
+        },
+        {
+          "name": "Rev Genomics",
+          "slug": "rev-genomics",
+          "batch": "Summer 2017",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Mighty Buildings",
+          "slug": "mighty-buildings",
+          "batch": "Winter 2018",
+          "industry": "Real Estate and Construction",
+          "status": "Active"
+        },
+        {
+          "name": "Promise",
+          "slug": "promise",
+          "batch": "Winter 2018",
+          "industry": "Government",
+          "status": "Active"
+        },
+        {
+          "name": "tEQuitable",
+          "slug": "tequitable",
+          "batch": "Winter 2018",
+          "industry": "B2B",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Hutsy",
+        "slug": "hutsy",
+        "batch": "Summer 2019",
+        "industry": "Real Estate and Construction",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Obie",
+        "slug": "obie",
+        "batch": "Summer 2019",
+        "industry": "Real Estate and Construction",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "UpEquity",
+        "slug": "upequity",
+        "batch": "Summer 2019",
+        "industry": "Real Estate and Construction",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Green Canopy NODE",
+        "slug": "green-canopy-node",
+        "batch": "Summer 2019",
+        "industry": "Real Estate and Construction",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Mudafy",
+        "slug": "mudafy",
+        "batch": "Summer 2019",
+        "industry": "Real Estate and Construction",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "boxouse",
+        "slug": "boxouse",
+        "batch": "Winter 2017",
+        "industry": "Real Estate and Construction",
+        "status": "Inactive",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Mighty Buildings",
+        "slug": "mighty-buildings",
+        "batch": "Winter 2018",
+        "industry": "Real Estate and Construction",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Elpha",
+        "slug": "elpha",
+        "batch": "Summer 2019",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "BuildStream",
+        "slug": "buildstream",
+        "batch": "Summer 2019",
+        "industry": "Real Estate and Construction",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "AudioFocus",
+        "slug": "audiofocus",
+        "batch": "Summer 2019",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 360,
+      "network_density_score": 54.4,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:20:58.433223"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:20:58.433232",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:20:58.766095",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:20:58.926376",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 45,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:42:02.712820",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "mature",
+      "key_trends": [
+        "Housing affordability crisis",
+        "Labor shortage in construction",
+        "Automation and robotics adoption in manufacturing"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Proprietary automation technology and manufacturing processes for homebuilding",
+      "differentiation": "End-to-end autonomous factory approach vs traditional fragmented construction",
+      "competitive_advantages": [
+        "First-mover in autonomous homebuilding",
+        "Potential for significant cost reduction"
+      ],
+      "competitive_vulnerabilities": [
+        "High capital requirements",
+        "Regulatory barriers in construction industry"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "hardware",
+      "scalability": "medium",
+      "capital_intensity": "high"
+    },
+    "growth_assessment": {
+      "growth_stage": "pre-seed",
+      "growth_indicators": [
+        "Large addressable market",
+        "Clear problem-solution fit"
+      ],
+      "growth_bottlenecks": [
+        "Technology development complexity",
+        "Regulatory approval processes"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "high",
+      "execution_risk": "high",
+      "overall_risk_score": 8,
+      "key_risks": [
+        "Complex multi-disciplinary automation challenge",
+        "Heavy regulatory environment",
+        "Long development cycles"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Massive market opportunity",
+        "Clear industry pain points",
+        "Potential for transformative impact"
+      ],
+      "concerns": [
+        "Company is inactive",
+        "Extremely complex technical challenge",
+        "High capital requirements"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Factory OS",
+        "Blokable"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Investigate reasons for inactive status",
+        "Assess IP and technology assets"
+      ],
+      "expansion_opportunities": [
+        "Modular construction components",
+        "Construction robotics licensing"
+      ]
+    },
+    "tokens_used": {
+      "input": 762,
+      "output": 494,
+      "total": 1256,
+      "estimated_cost": 0.009696
+    }
+  },
+  "phase8_complete": true
+}

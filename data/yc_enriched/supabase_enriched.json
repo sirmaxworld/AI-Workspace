@@ -1,0 +1,1500 @@
+{
+  "slug": "supabase",
+  "name": "Supabase",
+  "yc_id": 22091,
+  "batch": "Summer 2020",
+  "website": "https://supabase.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:56:53.621847",
+    "website": "https://supabase.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 2074.19,
+      "final_url": "https://supabase.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:56:55.696067"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "supabase.com",
+      "registrar": "Amazon Registrar, Inc.",
+      "creation_date": "2017-09-24T07:23:11",
+      "expiration_date": "2026-09-24T07:23:11",
+      "domain_age_days": 2944,
+      "domain_age_years": 8.1,
+      "name_servers": [
+        "CHRISTINA.NS.CLOUDFLARE.COM",
+        "NEIL.NS.CLOUDFLARE.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/supabase",
+      "linkedin": null,
+      "github": "https://github.com/supabase/supabase/blob/master/CONTRIBUTING.md",
+      "facebook": null,
+      "instagram": null,
+      "youtube": "https://youtube.com/c/supabase"
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": true,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 33,
+      "server": "Vercel"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:25:43.479961",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:25:32.682231",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "San Francisco, CA, USA",
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:14:18.656822",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:25:32.682332",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/supabase"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 100,
+        "packages": [
+          {
+            "name": "@supabase/supabase-js",
+            "description": "Isomorphic Javascript client for Supabase",
+            "version": "2.75.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@supabase/supabase-js"
+          },
+          {
+            "name": "supabase",
+            "description": "Supabase CLI",
+            "version": "2.51.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/supabase"
+          },
+          {
+            "name": "@supabase/storage-js",
+            "description": "Isomorphic storage client for Supabase.",
+            "version": "2.75.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@supabase/storage-js"
+          },
+          {
+            "name": "@supabase/auth-js",
+            "description": "Official client library for Supabase Auth",
+            "version": "2.75.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@supabase/auth-js"
+          },
+          {
+            "name": "@supabase/functions-js",
+            "description": "JS Client library to interact with Supabase Functions.",
+            "version": "2.75.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@supabase/functions-js"
+          },
+          {
+            "name": "@supabase/ssr",
+            "description": "Use the Supabase JavaScript library in popular server-side rendering (SSR) frameworks.",
+            "version": "0.7.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@supabase/ssr"
+          },
+          {
+            "name": "@supabase/gotrue-js",
+            "description": "Official client library for Supabase Auth",
+            "version": "2.75.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@supabase/gotrue-js"
+          },
+          {
+            "name": "@nuxtjs/supabase",
+            "description": "Supabase module for Nuxt",
+            "version": "2.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@nuxtjs/supabase"
+          },
+          {
+            "name": "@supabase/auth-ui-react",
+            "description": "Supabase Auth UI is a collection of pre built UI components that work seamlessly with @supabase/auth-helpers.",
+            "version": "0.4.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@supabase/auth-ui-react"
+          },
+          {
+            "name": "@auth/supabase-adapter",
+            "description": "Supabase adapter for Auth.js",
+            "version": "1.11.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@auth/supabase-adapter"
+          },
+          {
+            "name": "@supabase/sentry-js-integration",
+            "description": "Supabase integration for Sentry JavaScript SDK",
+            "version": "0.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@supabase/sentry-js-integration"
+          },
+          {
+            "name": "@supabase/mcp-server-supabase",
+            "description": "MCP server for interacting with Supabase",
+            "version": "0.5.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@supabase/mcp-server-supabase"
+          },
+          {
+            "name": "react-supabase",
+            "description": "React Hooks library for Supabase",
+            "version": "0.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-supabase"
+          },
+          {
+            "name": "@directus/storage-driver-supabase",
+            "description": "Supabase file storage abstraction for `@directus/storage`",
+            "version": "3.0.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@directus/storage-driver-supabase"
+          },
+          {
+            "name": "@supabase/ui",
+            "description": "Supabase UI is a React UI library.",
+            "version": "0.36.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@supabase/ui"
+          },
+          {
+            "name": "@supabase/shared-types",
+            "description": "Shared Types for Supabase",
+            "version": "0.1.82",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@supabase/shared-types"
+          },
+          {
+            "name": "@next-auth/supabase-adapter",
+            "description": "Supabase adapter for next-auth.",
+            "version": "0.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@next-auth/supabase-adapter"
+          },
+          {
+            "name": "kysely-supabase",
+            "description": "Kysely type translators for Supabase",
+            "version": "0.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/kysely-supabase"
+          },
+          {
+            "name": "@refinedev/supabase",
+            "description": "Supabase integration for Refine, utilizing Supabase's backend-as-a-service.",
+            "version": "6.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@refinedev/supabase"
+          },
+          {
+            "name": "@supabase/auth-ui-svelte",
+            "description": "Supabase Auth UI is a collection of pre built UI components that work seamlessly with @supabase/auth-helpers.",
+            "version": "0.2.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@supabase/auth-ui-svelte"
+          },
+          {
+            "name": "supabase-mcp",
+            "description": "MCP server for Supabase CRUD operations",
+            "version": "1.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/supabase-mcp"
+          },
+          {
+            "name": "nestjs-supabase-js",
+            "description": "NestJS Supabase integration",
+            "version": "1.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/nestjs-supabase-js"
+          },
+          {
+            "name": "@supabase-cache-helpers/postgrest-react-query",
+            "description": "A collection of React Query utilities for working with Supabase.",
+            "version": "1.13.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@supabase-cache-helpers/postgrest-react-query"
+          },
+          {
+            "name": "ra-supabase-language-english",
+            "description": "English translations for [ra-supabase](https://www.npmjs.com/package/ra-supabase).",
+            "version": "3.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ra-supabase-language-english"
+          },
+          {
+            "name": "@voltagent/supabase",
+            "description": "VoltAgent Supabase - Supabase Memory provider integration for VoltAgent",
+            "version": "1.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@voltagent/supabase"
+          },
+          {
+            "name": "nestjs-supabase-auth",
+            "description": "NestJS Passport Strategy for Supabase Auth",
+            "version": "1.0.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/nestjs-supabase-auth"
+          },
+          {
+            "name": "@supabase-cache-helpers/postgrest-swr",
+            "description": "A collection of SWR utilities for working with Supabase.",
+            "version": "2.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@supabase-cache-helpers/postgrest-swr"
+          },
+          {
+            "name": "supabase-management-js",
+            "description": "Convenience wrapper for the Supabase Management API",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/supabase-management-js"
+          },
+          {
+            "name": "supabase-to-zod",
+            "description": "Generate Zod schemas (v3) from Typescript types generated by the Supabase CLI.",
+            "version": "1.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/supabase-to-zod"
+          },
+          {
+            "name": "@supabase/sql-to-rest",
+            "description": "[![Tests](https://github.com/supabase-community/sql-to-rest/actions/workflows/tests.yml/badge.svg)](https://github.com/supabase-community/sql-to-rest/actions?query=branch%3Amain) [![Package](https://img.shields.io/npm/v/@supabase/sql-to-rest)](https://www",
+            "version": "0.1.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@supabase/sql-to-rest"
+          },
+          {
+            "name": "@pipedream/supabase",
+            "description": "Pipedream Supabase Components",
+            "version": "0.3.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@pipedream/supabase"
+          },
+          {
+            "name": "@mastra/auth-supabase",
+            "description": "Mastra Supabase Auth integration",
+            "version": "0.10.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mastra/auth-supabase"
+          },
+          {
+            "name": "@dyad-sh/supabase-management-js",
+            "description": "Convenience wrapper for the Supabase Management API",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@dyad-sh/supabase-management-js"
+          },
+          {
+            "name": "@supabase-cache-helpers/storage-swr",
+            "description": "A collection of SWR utilities for working with Supabase.",
+            "version": "1.1.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@supabase-cache-helpers/storage-swr"
+          },
+          {
+            "name": "@supabase-cache-helpers/postgrest-core",
+            "description": "A collection of cache utilities for working with the Supabase REST API. It is not meant to be used standalone.",
+            "version": "0.12.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@supabase-cache-helpers/postgrest-core"
+          },
+          {
+            "name": "@saas-ui/supabase",
+            "description": "Saas UI Supabase Auth integration",
+            "version": "2.4.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@saas-ui/supabase"
+          },
+          {
+            "name": "y-supabase",
+            "description": "Sync Yjs over supabase",
+            "version": "0.0.4-7-alpha",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/y-supabase"
+          },
+          {
+            "name": "@supabase/realtime-js",
+            "description": "Listen to realtime updates to your PostgreSQL database",
+            "version": "2.75.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@supabase/realtime-js"
+          },
+          {
+            "name": "shared-supabase-mcp-minimal",
+            "description": "XBRL Financial Data MCP Server for Supabase with Claude Desktop compatibility",
+            "version": "8.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/shared-supabase-mcp-minimal"
+          },
+          {
+            "name": "@supabase-cache-helpers/postgrest-server",
+            "description": "A collection of server-side caching utilities for working with Supabase.",
+            "version": "0.2.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@supabase-cache-helpers/postgrest-server"
+          },
+          {
+            "name": "@supabase-cache-helpers/storage-react-query",
+            "description": "A collection of React Query utilities for working with Supabase.",
+            "version": "1.3.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@supabase-cache-helpers/storage-react-query"
+          },
+          {
+            "name": "ra-supabase",
+            "description": "This package integrates [Supabase](https://supabase.io/) with [react-admin](https://marmelab.com/react-admin). It provides a dataProvider, an authProvider, specialized hooks and components to get the most out of Supabase in your react-admin application.",
+            "version": "3.5.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ra-supabase"
+          },
+          {
+            "name": "better-supabase-types",
+            "description": "A CLI tool to add exports for your supabase tables",
+            "version": "2.7.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/better-supabase-types"
+          },
+          {
+            "name": "@supabase/postgrest-js",
+            "description": "Isomorphic PostgREST client",
+            "version": "2.75.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@supabase/postgrest-js"
+          },
+          {
+            "name": "use-supabase",
+            "description": "This is a simple zero dependencies package that gives you access to your Supabase client using a React hook!",
+            "version": "2.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/use-supabase"
+          },
+          {
+            "name": "nuxt-supabase-team-auth",
+            "description": "Drop-in Nuxt 3 module for team-based authentication with Supabase",
+            "version": "0.6.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/nuxt-supabase-team-auth"
+          },
+          {
+            "name": "@fleetworks/supabase-auth-ui-react",
+            "description": "Supabase Auth UI is a collection of pre built UI components that work seamlessly with @supabase/auth-helpers.",
+            "version": "0.4.8-fw-rc",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@fleetworks/supabase-auth-ui-react"
+          },
+          {
+            "name": "ra-supabase-core",
+            "description": "This package provide a dataProvider, an authProvider and hooks to integrate [Supabase](https://supabase.io/) with [ra-core](https://marmelab.com/ra-core/).",
+            "version": "3.5.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ra-supabase-core"
+          },
+          {
+            "name": "supazod",
+            "description": "Generate Zod schemas from Supabase CLI generated types",
+            "version": "4.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/supazod"
+          },
+          {
+            "name": "@mux/supabase",
+            "description": "CLI tool to initialize Mux Sync Engine with Supabase",
+            "version": "0.0.21",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mux/supabase"
+          },
+          {
+            "name": "supabase-wechat-stable-v2",
+            "description": "wechat Javascript client for Supabase",
+            "version": "2.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/supabase-wechat-stable-v2"
+          },
+          {
+            "name": "@llamaindex/supabase",
+            "description": "Supabase Storage for LlamaIndex",
+            "version": "0.1.23",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@llamaindex/supabase"
+          },
+          {
+            "name": "@grammyjs/storage-supabase",
+            "description": "Supabase database storage",
+            "version": "2.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@grammyjs/storage-supabase"
+          },
+          {
+            "name": "fastify-supabase",
+            "description": "Supabase client initialization and encapsulation in fastify framework",
+            "version": "1.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/fastify-supabase"
+          },
+          {
+            "name": "plasmic-supabase",
+            "description": "Code components to use Supabase as a backend for a Plasmic app",
+            "version": "0.5.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/plasmic-supabase"
+          },
+          {
+            "name": "@supabase-cache-helpers/storage-core",
+            "description": "A collection of cache utilities for working with the Supabase Storage API. It is not meant to be used standalone.",
+            "version": "0.1.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@supabase-cache-helpers/storage-core"
+          },
+          {
+            "name": "strapi-provider-upload-supabase",
+            "description": "Supabase storage provider for Strapi upload plugin",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/strapi-provider-upload-supabase"
+          },
+          {
+            "name": "@skroyc/langgraph-supabase-checkpointer",
+            "description": "LangGraphJS checkpoint saver implementation for Supabase with UUID thread_id and Supabase Storage support",
+            "version": "2.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@skroyc/langgraph-supabase-checkpointer"
+          },
+          {
+            "name": "@supabase/grid",
+            "description": "A react component to display your Postgres table data. Used in Supabase Dashboard app.",
+            "version": "2.6.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@supabase/grid"
+          },
+          {
+            "name": "@akson/cortex-supabase",
+            "description": "Comprehensive Supabase package with Auth, Storage, Database, and Realtime functionality",
+            "version": "3.2.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@akson/cortex-supabase"
+          },
+          {
+            "name": "supabase-auth-helpers-qwik",
+            "description": "A collection of framework specific Auth utilities for working with Supabase.",
+            "version": "0.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/supabase-auth-helpers-qwik"
+          },
+          {
+            "name": "supabase-error-translator-js",
+            "description": "A comprehensive Supabase error code translator supporting 9 languages with ISO language codes",
+            "version": "3.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/supabase-error-translator-js"
+          },
+          {
+            "name": "@cloudinnhq/data-loader-supabase-nextjs",
+            "description": "A lightweight data loader for Supabase with Next.js integration.",
+            "version": "1.2.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@cloudinnhq/data-loader-supabase-nextjs"
+          },
+          {
+            "name": "solobase-js",
+            "description": "A 100% drop-in replacement for the Supabase JavaScript client. Self-hosted Supabase alternative with complete API compatibility.",
+            "version": "1.0.22",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/solobase-js"
+          },
+          {
+            "name": "nestjs-supabase",
+            "description": "NestJS Passport Strategy for Supabase Auth",
+            "version": "2.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/nestjs-supabase"
+          },
+          {
+            "name": "ionic-react-supabase-login",
+            "description": "Modal login component for Ionic React Framework and Supabase Authentication",
+            "version": "1.0.46",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ionic-react-supabase-login"
+          },
+          {
+            "name": "vue-supabase",
+            "description": "A small wrapper for integrating supabase to Vuejs",
+            "version": "2.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/vue-supabase"
+          },
+          {
+            "name": "@r-delfino/mux-sync-supabase",
+            "description": "CLI tool to initialize Mux Sync Engine with Supabase",
+            "version": "0.0.20",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@r-delfino/mux-sync-supabase"
+          },
+          {
+            "name": "@floatingpixels/supabase-nuxt",
+            "description": "Supabase module for Nuxt",
+            "version": "0.5.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@floatingpixels/supabase-nuxt"
+          },
+          {
+            "name": "@joshuarileydev/supabase-mcp-server",
+            "description": "An MCP server for using the Supabase API",
+            "version": "0.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@joshuarileydev/supabase-mcp-server"
+          },
+          {
+            "name": "supabase-wechat-js",
+            "description": "wechat Javascript client for Supabase",
+            "version": "0.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/supabase-wechat-js"
+          },
+          {
+            "name": "supabase-dataobject-core",
+            "description": "Core library for creating reactive data objects from Supabase tables and views",
+            "version": "1.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/supabase-dataobject-core"
+          },
+          {
+            "name": "@dill-pixel/storage-adapter-supabase",
+            "description": "Supabase Storage Adapter",
+            "version": "6.2.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@dill-pixel/storage-adapter-supabase"
+          },
+          {
+            "name": "@ubiquity-os/ubiquity-os-logger",
+            "description": "Ubiquity logging module with Supabase support.",
+            "version": "1.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ubiquity-os/ubiquity-os-logger"
+          },
+          {
+            "name": "@al-hamoud/authx",
+            "description": "Auth toolkit: Firebase JWKS verify + Supabase user ensure for Next.js Edge runtime",
+            "version": "1.4.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@al-hamoud/authx"
+          },
+          {
+            "name": "@xouteiro/auth_npm",
+            "description": "Authentication package for Supabase",
+            "version": "1.0.19",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@xouteiro/auth_npm"
+          },
+          {
+            "name": "ra-supabase-ui-materialui",
+            "description": "This package provides components to integrate [Supabase](https://supabase.io/) with [react-admin](https://marmelab.com/react-admin) when using its default UI ([ra-ui-materialui](https://github.com/marmelab/react-admin/tree/master/packages/ra-ui-materialui",
+            "version": "3.5.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ra-supabase-ui-materialui"
+          },
+          {
+            "name": "@aliyun-supabase/mcp-server-supabase",
+            "description": "MCP server for interacting with Supabase",
+            "version": "1.2.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aliyun-supabase/mcp-server-supabase"
+          },
+          {
+            "name": "ra-supabase-language-french",
+            "description": "French translations for [ra-supabase](https://www.npmjs.com/package/ra-supabase).",
+            "version": "3.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ra-supabase-language-french"
+          },
+          {
+            "name": "supabase-typed-query",
+            "description": "Type-safe query builder and entity pattern for Supabase with TypeScript",
+            "version": "0.1.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/supabase-typed-query"
+          },
+          {
+            "name": "@recogito/annotorious-supabase",
+            "description": "Annotorious storage plugin for Recogito's Supabase backend",
+            "version": "1.3.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@recogito/annotorious-supabase"
+          },
+          {
+            "name": "nuxt-supabase",
+            "description": "A supa simple Nuxt Module for Supabase",
+            "version": "2.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/nuxt-supabase"
+          },
+          {
+            "name": "management-supabase",
+            "description": "Management of Supabase easy",
+            "version": "1.2.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/management-supabase"
+          },
+          {
+            "name": "@supabase/auth-ui-solid",
+            "description": "Supabase Auth UI is a collection of pre built UI components that work seamlessly with @supabase/auth-helpers.",
+            "version": "0.3.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@supabase/auth-ui-solid"
+          },
+          {
+            "name": "bknd",
+            "description": "Lightweight Firebase/Supabase alternative built to run anywhere \u2014 incl. Next.js, React Router, Astro, Cloudflare, Bun, Node, AWS Lambda & more.",
+            "version": "0.18.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/bknd"
+          },
+          {
+            "name": "supawright",
+            "description": "Supawright is a Playwright test harness for E2E testing with Supabase.",
+            "version": "0.4.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/supawright"
+          },
+          {
+            "name": "@supabase-kit/react",
+            "description": "> Hooks by management data from supabase and fetch data by react.",
+            "version": "1.9.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@supabase-kit/react"
+          },
+          {
+            "name": "@momsfriendlydevco/supabase-reactive",
+            "description": "Supabase plugin for reactive read/write against local objects",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@momsfriendlydevco/supabase-reactive"
+          },
+          {
+            "name": "@sst-provider/supabase",
+            "description": "A Pulumi provider dynamically bridged from supabase.",
+            "version": "1.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sst-provider/supabase"
+          },
+          {
+            "name": "svelte-supabase-auth",
+            "description": "A comprehensive, configurable, Svelte-based authentication UI component library for Supabase applications.",
+            "version": "0.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/svelte-supabase-auth"
+          },
+          {
+            "name": "@psteinroe/fastify-supabase",
+            "description": "A Fastify plugin to use authenticated Supabase clients in your API.",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@psteinroe/fastify-supabase"
+          },
+          {
+            "name": "@data-loom/storage-js",
+            "description": "Dataloom service, modified from supabase/storage-js",
+            "version": "0.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@data-loom/storage-js"
+          },
+          {
+            "name": "@supabase-kit/supa-sync-serve",
+            "description": "A CLI tool for comparing and migrating Supabase database schemas",
+            "version": "1.1.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@supabase-kit/supa-sync-serve"
+          },
+          {
+            "name": "nestjs-supabase-webhooks",
+            "description": "NestJS module for Supabase Database Webhooks",
+            "version": "1.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/nestjs-supabase-webhooks"
+          },
+          {
+            "name": "supabase-edge-kit",
+            "description": "A lightweight, type-safe toolkit for building robust Supabase Edge Functions with built-in authentication, validation, error handling, and timeout protection",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/supabase-edge-kit"
+          },
+          {
+            "name": "@phongjimmy/supabase-js",
+            "description": "Isomorphic Javascript client for Supabase",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@phongjimmy/supabase-js"
+          },
+          {
+            "name": "@supabase/mcp-utils",
+            "description": "MCP utilities",
+            "version": "0.2.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@supabase/mcp-utils"
+          },
+          {
+            "name": "@andyrmitchell/supabase-workflow",
+            "description": "Helpers for a Supabase project",
+            "version": "0.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@andyrmitchell/supabase-workflow"
+          },
+          {
+            "name": "supa-quest",
+            "description": "Supabase helper",
+            "version": "1.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/supa-quest"
+          },
+          {
+            "name": "@t1mmen/srtd",
+            "description": "Supabase Repeatable Template Definitions (srtd): \ud83e\ude84 Live-reloading SQL templates for Supabase DX. Make your database changes reviewable and migrations maintainable! \ud83d\ude80",
+            "version": "0.4.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@t1mmen/srtd"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 5,
+        "packages": [
+          {
+            "name": "supabase",
+            "version": "0.1.0",
+            "downloads": 10299,
+            "url": "https://rubygems.org/gems/supabase"
+          },
+          {
+            "name": "supabase_api",
+            "version": "0.3.0",
+            "downloads": 2853,
+            "url": "https://rubygems.org/gems/supabase_api"
+          },
+          {
+            "name": "supafunc",
+            "version": "0.1.0",
+            "downloads": 611,
+            "url": "https://rubygems.org/gems/supafunc"
+          },
+          {
+            "name": "all-dat-base",
+            "version": "0.1.0",
+            "downloads": 191,
+            "url": "https://rubygems.org/gems/all-dat-base"
+          },
+          {
+            "name": "book_reading_tracker_gem",
+            "version": "0.1.3",
+            "downloads": 512,
+            "url": "https://rubygems.org/gems/book_reading_tracker_gem"
+          }
+        ]
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 10,
+        "packages": [
+          {
+            "name": "supabase",
+            "description": "Placeholder for supabase.io",
+            "version": "0.0.0",
+            "downloads": 2167,
+            "url": "https://crates.io/crates/supabase"
+          },
+          {
+            "name": "supabase_rs",
+            "description": "Lightweight Rust client for Supabase REST and GraphQL",
+            "version": "0.4.16",
+            "downloads": 33796,
+            "url": "https://crates.io/crates/supabase_rs"
+          },
+          {
+            "name": "supabase-rust-gftd",
+            "description": "Rust client for Supabase",
+            "version": "0.3.0",
+            "downloads": 3150,
+            "url": "https://crates.io/crates/supabase-rust-gftd"
+          },
+          {
+            "name": "gg-supabase",
+            "description": "\u26a1\ufe0f A lightweight, async Rust client mirroring the official supabase-js API (database, auth, realtime, storage).",
+            "version": "0.1.0",
+            "downloads": 485,
+            "url": "https://crates.io/crates/gg-supabase"
+          },
+          {
+            "name": "supabase-storage",
+            "description": "\ud83e\udd80 client library to interact with supabase storage \ud83e\udd80\n",
+            "version": "0.1.1",
+            "downloads": 5139,
+            "url": "https://crates.io/crates/supabase-storage"
+          },
+          {
+            "name": "supabase-rust-postgrest",
+            "description": "PostgreSQL REST client for Supabase",
+            "version": "0.4.0",
+            "downloads": 3451,
+            "url": "https://crates.io/crates/supabase-rust-postgrest"
+          },
+          {
+            "name": "supabase-jwt",
+            "description": "A lightweight, framework-agnostic library for validating Supabase Auth JWTs using a cached JWKS.",
+            "version": "0.1.1",
+            "downloads": 760,
+            "url": "https://crates.io/crates/supabase-jwt"
+          },
+          {
+            "name": "supabase-auth",
+            "description": "Supabase Auth implementation following the official client libraries.",
+            "version": "0.10.13",
+            "downloads": 23341,
+            "url": "https://crates.io/crates/supabase-auth"
+          },
+          {
+            "name": "supabase-lib-rs",
+            "description": "A comprehensive, production-ready Rust client library for Supabase with full cross-platform support (native + WASM)",
+            "version": "0.5.3",
+            "downloads": 4140,
+            "url": "https://crates.io/crates/supabase-lib-rs"
+          },
+          {
+            "name": "rp-supabase-realtime",
+            "description": "Supabase Realtime client with Auth and subscription capabilities\n",
+            "version": "0.3.0",
+            "downloads": 5094,
+            "url": "https://crates.io/crates/rp-supabase-realtime"
+          }
+        ]
+      },
+      "total_packages": 115,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:25:34.189593"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:25:34.189601",
+    "batch_network": {
+      "batch": "Summer 2020",
+      "total_batch_mates": 207,
+      "active_batch_mates": 130,
+      "batch_success_rate": 62.8,
+      "notable_batch_mates": [
+        {
+          "name": "Ladder",
+          "slug": "ladder",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Labor Marketplace for Construction"
+        },
+        {
+          "name": "Fig",
+          "slug": "fig",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Fig adds visual apps, shortcuts, and autocomplete to your terminal."
+        },
+        {
+          "name": "Altro",
+          "slug": "altro",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Build Credit With Your Subscriptions"
+        },
+        {
+          "name": "Jemi",
+          "slug": "jemi",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Jemi helps people build beautiful websites and stores."
+        },
+        {
+          "name": "LSK Technologies",
+          "slug": "lsk-technologies",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A diagnostic lab in a box"
+        },
+        {
+          "name": "Command AI",
+          "slug": "command-ai",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "AI-powered user assistance platform"
+        },
+        {
+          "name": "Bandit ML",
+          "slug": "bandit-ml",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Bandit ML builds machine learning tools for e-commerce companies."
+        },
+        {
+          "name": "Momence",
+          "slug": "momence",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Scheduling and payments for experiences"
+        },
+        {
+          "name": "Gather",
+          "slug": "gather",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Project management software for People Operations"
+        },
+        {
+          "name": "Finmark",
+          "slug": "finmark",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Financial planning software for startups"
+        }
+      ],
+      "batch_size": 208
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Amiato",
+          "slug": "amiato",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "The BI bridge for unstructured data. We automatically bridge the gap\u2026"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Simple multiplayer game servers."
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Backlift allows front-end only developers to build entire websites\u2026"
+        },
+        {
+          "name": "Documents.Me",
+          "slug": "documents-me",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Client-side encryption for your devices and the cloud."
+        },
+        {
+          "name": "Apollo",
+          "slug": "apollo",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Apollo helps engineering teams accelerate delivery"
+        },
+        {
+          "name": "Proxino",
+          "slug": "proxino",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Javascript proxy."
+        },
+        {
+          "name": "PhoneSys",
+          "slug": "phonesys",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "The Phone System for Sales Teams."
+        },
+        {
+          "name": "Cryptoseal",
+          "slug": "cryptoseal",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Server key management, VPN as a Service, Privacy VPN.  Sold to\u2026"
+        },
+        {
+          "name": "Citus Data",
+          "slug": "citus-data",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Real-time. Big data. PostgreSQL"
+        },
+        {
+          "name": "Realm",
+          "slug": "realm",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Better data structures = no DB."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "San Francisco",
+      "location": "San Francisco, CA, USA; Remote",
+      "companies_in_city": 2007,
+      "active_in_city": 1339,
+      "nearby_companies": [
+        {
+          "name": "42Floors",
+          "slug": "42floors",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "PlanGrid",
+          "slug": "plangrid",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "MyVR",
+          "slug": "myvr",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Couple",
+          "slug": "couple",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HackPad",
+          "slug": "hackpad",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Gusto",
+          "slug": "gusto",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "FamilyLeaf",
+          "slug": "familyleaf",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Chute",
+          "slug": "chute",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Make School",
+          "slug": "make-school",
+          "batch": "Winter 2012",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Exec",
+          "slug": "exec",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Public"
+        },
+        {
+          "name": "LendUp",
+          "slug": "lendup",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tilt",
+          "slug": "tilt",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fond",
+          "slug": "fond",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Reploy",
+        "slug": "reploy",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Metamanagement",
+        "slug": "metamanagement",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Aquarium Learning",
+        "slug": "aquarium-learning",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Mozart Data",
+        "slug": "mozart-data",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Unfaze AI",
+        "slug": "unfaze-ai",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Porter",
+        "slug": "porter",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Openbase",
+        "slug": "openbase",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Fig",
+        "slug": "fig",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Response",
+        "slug": "response",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Recurrency",
+        "slug": "recurrency",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 4960,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:25:34.199755"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:25:34.199759",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:25:34.524191",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:25:34.625358",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 120,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:39.873613",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increasing adoption of cloud-native architectures",
+        "Growing demand for developer-friendly tools",
+        "Rise of serverless and edge computing"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Open-source ecosystem, strong community, and ease of use create a significant barrier to entry.",
+      "differentiation": "Open-source alternative to Firebase with a focus on Postgres and a comprehensive suite of tools.",
+      "competitive_advantages": [
+        "Open-source and community-driven",
+        "Postgres-centric approach appeals to many developers"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on Postgres may limit appeal to some developers",
+        "Competition from established players like Firebase and AWS"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "Rapid user adoption and community growth",
+        "Increasing number of integrations and partnerships"
+      ],
+      "growth_bottlenecks": [
+        "Scaling infrastructure to meet growing demand",
+        "Maintaining a strong open-source community"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "low",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Security vulnerabilities in open-source code",
+        "Competition from well-funded incumbents",
+        "Maintaining developer trust and community engagement"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong product-market fit",
+        "Large and growing market opportunity",
+        "Passionate and talented team"
+      ],
+      "concerns": [
+        "Competition from established players",
+        "Reliance on open-source community"
+      ],
+      "exit_potential": "IPO/acquisition",
+      "comparable_companies": [
+        "Firebase",
+        "PlanetScale"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Expand enterprise sales and support",
+        "Continue to invest in community building and open-source contributions"
+      ],
+      "expansion_opportunities": [
+        "Offer managed services for other databases",
+        "Develop new features and integrations to attract more developers"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 700,
+      "completion": 627,
+      "total": 1327,
+      "estimated_cost": 0.000241
+    }
+  },
+  "phase8_complete": true
+}

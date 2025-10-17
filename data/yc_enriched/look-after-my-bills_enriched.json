@@ -1,0 +1,534 @@
+{
+  "slug": "look-after-my-bills",
+  "name": "Look After My Bills",
+  "yc_id": 1874,
+  "batch": "Winter 2018",
+  "website": "http://www.lookaftermybills.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:42:02.645373",
+    "website": "http://www.lookaftermybills.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 410,
+      "response_time_ms": 3246.06,
+      "final_url": "https://lookaftermybills.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:42:05.891442"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "lookaftermybills.com",
+      "registrar": "Lexsynergy Limited",
+      "creation_date": "2016-08-02T12:25:42",
+      "expiration_date": "2026-08-02T12:25:42",
+      "domain_age_days": 3362,
+      "domain_age_years": 9.2,
+      "name_servers": [
+        "NS-1346.AWSDNS-40.ORG",
+        "NS-1788.AWSDNS-31.CO.UK",
+        "NS-308.AWSDNS-38.COM",
+        "NS-689.AWSDNS-22.NET"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": false,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 0,
+      "server": "gunicorn"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:20:22.706747",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:20:03.210439",
+    "place_data": {
+      "status": "success",
+      "method": "nominatim",
+      "formatted_address": "England, United Kingdom",
+      "coordinates": {
+        "latitude": 52.5310214,
+        "longitude": -1.2649062
+      },
+      "place_types": [
+        "administrative"
+      ],
+      "retrieved_at": "2025-10-17T10:20:04.558493"
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:20:04.559040",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:20:04.559044",
+    "batch_network": {
+      "batch": "Winter 2018",
+      "total_batch_mates": 145,
+      "active_batch_mates": 84,
+      "batch_success_rate": 57.9,
+      "notable_batch_mates": [
+        {
+          "name": "Newfront",
+          "slug": "newfront-insurance",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "Modern insurance brokerage."
+        },
+        {
+          "name": "Mayhem",
+          "slug": "mayhem",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Mayhem is the easiest way to play with your gaming community."
+        },
+        {
+          "name": "Pulse",
+          "slug": "pulse-2",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "We're crowdsourced Gartner so IT executives can learn directly from\u2026"
+        },
+        {
+          "name": "Bear Flag Robotics",
+          "slug": "bear-flag-robotics",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Autonomous driving technology for farm tractors."
+        },
+        {
+          "name": "ClearBrain",
+          "slug": "clearbrain",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Causal Analytics for Growth Teams"
+        },
+        {
+          "name": "Sepsis Scout",
+          "slug": "sepsis-scout",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Wearables and AI to predict and prevent sepsis outside the hospital"
+        },
+        {
+          "name": "onederful",
+          "slug": "onederful",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Dental Insurance API"
+        },
+        {
+          "name": "CodeStream",
+          "slug": "codestream",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "CodeStream is a Developer Collaboration Platform designed to\u2026"
+        },
+        {
+          "name": "Glimpse K12",
+          "slug": "glimpse-k12",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Glimpse eliminates ineffective spending in schools."
+        },
+        {
+          "name": "Squad",
+          "slug": "squad",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Squad is an app for live communities to have shared experiences\u2026"
+        }
+      ],
+      "batch_size": 146
+    },
+    "industry_network": {
+      "industries": [
+        "Fintech",
+        "Consumer Finance"
+      ],
+      "total_industry_peers": 597,
+      "active_industry_peers": 448,
+      "direct_competitors": [
+        {
+          "name": "Tilt",
+          "slug": "tilt",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Mobile crowdfunding: The easiest way to collect, fundraise, and sell\u2026"
+        },
+        {
+          "name": "Debteye",
+          "slug": "debteye",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Automate credit counseling."
+        },
+        {
+          "name": "GoCardless",
+          "slug": "gocardless",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "We\u2019re building the world\u2019s bank payment network."
+        },
+        {
+          "name": "MarketBrief",
+          "slug": "marketbrief",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Generate stories from SEC filings."
+        },
+        {
+          "name": "Leaky",
+          "slug": "leaky",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Online auto and business insurance. (Acquired 2013)"
+        },
+        {
+          "name": "Balanced",
+          "slug": "balanced",
+          "status": "Inactive",
+          "batch": "Winter 2011",
+          "one_liner": "Payments for Marketplaces"
+        },
+        {
+          "name": "FutureAdvisor",
+          "slug": "futureadvisor",
+          "status": "Acquired",
+          "batch": "Summer 2010",
+          "one_liner": "The online financial management service for everyone."
+        },
+        {
+          "name": "Ready For Zero",
+          "slug": "ready-for-zero",
+          "status": "Inactive",
+          "batch": "Summer 2010",
+          "one_liner": "Personal debt and credit management. Acquired by Avant in 2015."
+        },
+        {
+          "name": "Buxfer",
+          "slug": "buxfer",
+          "status": "Active",
+          "batch": "Winter 2007",
+          "one_liner": "Buxfer helps you make better spending decisions by making it easy to\u2026"
+        },
+        {
+          "name": "TextPayMe",
+          "slug": "textpayme",
+          "status": "Acquired",
+          "batch": "Summer 2005",
+          "one_liner": ""
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "England",
+      "location": "England, United Kingdom",
+      "companies_in_city": 2,
+      "active_in_city": 0,
+      "nearby_companies": [
+        {
+          "name": "Songkick",
+          "slug": "songkick",
+          "batch": "Summer 2007",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Thread",
+          "slug": "thread",
+          "batch": "Summer 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        }
+      ],
+      "ecosystem_density": "low"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Delphia",
+        "slug": "delphia",
+        "batch": "Winter 2018",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Newfront",
+        "slug": "newfront-insurance",
+        "batch": "Winter 2018",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "CoinTracker",
+        "slug": "cointracker",
+        "batch": "Winter 2018",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Flinto",
+        "slug": "flinto",
+        "batch": "Winter 2018",
+        "industry": "Fintech",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Treasury Prime",
+        "slug": "treasury-prime",
+        "batch": "Winter 2018",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "SafetyWing",
+        "slug": "safetywing",
+        "batch": "Winter 2018",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Aspire",
+        "slug": "aspire",
+        "batch": "Winter 2018",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Groww",
+        "slug": "groww",
+        "batch": "Winter 2018",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Ben",
+        "slug": "ben",
+        "batch": "Winter 2018",
+        "industry": "Fintech",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "ErudiFi",
+        "slug": "erudifi",
+        "batch": "Winter 2018",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 744,
+      "network_density_score": 69.4,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": false,
+      "calculated_at": "2025-10-17T10:20:04.564078"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:20:04.564085",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:20:04.882012",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:20:04.982715",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 2,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:45:41.593896",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Energy market deregulation expanding globally",
+        "Consumer demand for automated financial optimization",
+        "Regulatory push for switching transparency"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Automation technology and switching algorithms with regulatory relationships",
+      "differentiation": "Fully automated annual switching vs manual comparison sites",
+      "competitive_advantages": [
+        "First-mover in automated switching",
+        "Regulatory compliance expertise"
+      ],
+      "competitive_vulnerabilities": [
+        "Low switching barriers for competitors",
+        "Dependent on energy supplier partnerships"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "Commission-based marketplace",
+      "scalability": "high",
+      "capital_intensity": "low"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "Successful acquisition outcome",
+        "9+ year domain age showing persistence"
+      ],
+      "growth_bottlenecks": [
+        "Small team size limiting execution speed",
+        "Regulatory complexity in new markets"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Regulatory changes affecting switching",
+        "Energy supplier partnership dependencies",
+        "Customer acquisition costs in competitive market"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Large addressable market",
+        "Clear value proposition for consumers",
+        "Successful exit validates model"
+      ],
+      "concerns": [
+        "Small team execution capacity",
+        "Commission-dependent revenue model"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Uswitch",
+        "MoneySuperMarket"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Scale customer acquisition",
+        "Expand to additional utility categories"
+      ],
+      "expansion_opportunities": [
+        "International market expansion",
+        "Additional bill categories (insurance, broadband)"
+      ]
+    },
+    "tokens_used": {
+      "input": 663,
+      "output": 497,
+      "total": 1160,
+      "estimated_cost": 0.009444
+    }
+  },
+  "phase8_complete": true
+}

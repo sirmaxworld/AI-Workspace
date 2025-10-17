@@ -1,0 +1,1392 @@
+{
+  "slug": "webiny",
+  "name": "Webiny",
+  "yc_id": 22533,
+  "batch": "Winter 2021",
+  "website": "https://www.webiny.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:57:54.442976",
+    "website": "https://www.webiny.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 2539.34,
+      "final_url": "https://www.webiny.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:57:56.982325"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "webiny.com",
+      "registrar": "GoDaddy.com, LLC",
+      "creation_date": "2010-05-18T20:49:45",
+      "expiration_date": "2026-05-18T20:49:45",
+      "domain_age_days": 5630,
+      "domain_age_years": 15.4,
+      "name_servers": [
+        "KIM.NS.CLOUDFLARE.COM",
+        "SETH.NS.CLOUDFLARE.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/WebinyCMS",
+      "linkedin": null,
+      "github": "https://github.com/webiny/webiny-js",
+      "facebook": null,
+      "instagram": null,
+      "youtube": "https://www.youtube.com/c/webiny"
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 16,
+      "server": "AmazonS3"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:26:01.781482",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:25:52.562375",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "London, UK",
+      "coordinates": {
+        "latitude": 51.5074,
+        "longitude": -0.1278
+      },
+      "timezone": {
+        "timezone_id": "Europe/London",
+        "timezone_name": "Europe/London"
+      },
+      "retrieved_at": "2025-10-17T10:15:07.714653",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:25:52.562470",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/webiny"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 100,
+        "packages": [
+          {
+            "name": "@webiny/app-page-builder",
+            "description": "[![](https://img.shields.io/npm/dw/@webiny/app-page-builder.svg)](https://www.npmjs.com/package/@webiny/app-page-builder)  [![](https://img.shields.io/npm/v/@webiny/app-page-builder.svg)](https://www.npmjs.com/package/@webiny/app-page-builder) [![code sty",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/app-page-builder"
+          },
+          {
+            "name": "@webiny/lexical-nodes",
+            "description": "[![](https://img.shields.io/npm/dw/@webiny/lexical-nodes.svg)](https://www.npmjs.com/package/@webiny/llexical-lexical-nodes) [![](https://img.shields.io/npm/v/@webiny/lexical-nodes.svg)](https://www.npmjs.com/package/@webiny/lexical-nodes) [![code style: ",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/lexical-nodes"
+          },
+          {
+            "name": "@webiny/lexical-theme",
+            "description": "[![](https://img.shields.io/npm/dw/@webiny/lexical-theme.svg)](https://www.npmjs.com/package/@webiny/llexical-lexical-theme) [![](https://img.shields.io/npm/v/@webiny/lexical-theme.svg)](https://www.npmjs.com/package/@webiny/lexical-theme) [![code style: ",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/lexical-theme"
+          },
+          {
+            "name": "@webiny/lexical-converter",
+            "description": "[![](https://img.shields.io/npm/dw/@webiny/lexical-converter.svg)](https://www.npmjs.com/package/@webiny/llexical-lexical-converter) [![](https://img.shields.io/npm/v/@webiny/lexical-converter.svg)](https://www.npmjs.com/package/@webiny/lexical-converter)",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/lexical-converter"
+          },
+          {
+            "name": "@webiny/lexical-editor",
+            "description": "[![](https://img.shields.io/npm/dw/@webiny/app-page-builder.svg)](https://www.npmjs.com/package/@webiny/lexical-editor)  [![](https://img.shields.io/npm/v/@webiny/app-page-builder.svg)](https://www.npmjs.com/package/@webiny/lexical-editor) [![code style: ",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/lexical-editor"
+          },
+          {
+            "name": "@webiny/i18n",
+            "description": "[![](https://img.shields.io/npm/dw/@webiny/i18n.svg)](https://www.npmjs.com/package/@webiny/i18n)  [![](https://img.shields.io/npm/v/@webiny/i18n.svg)](https://www.npmjs.com/package/@webiny/i18n) [![code style: prettier](https://img.shields.io/badge/code_",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/i18n"
+          },
+          {
+            "name": "@webiny/cli",
+            "description": "A tool to bootstrap a Webiny project.",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/cli"
+          },
+          {
+            "name": "@webiny/api-headless-cms",
+            "description": "GraphQL API for Webiny Headless CMS.",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/api-headless-cms"
+          },
+          {
+            "name": "@webiny/wcp",
+            "description": "A set of Webiny Control Panel (WCP)-related utilities.",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/wcp"
+          },
+          {
+            "name": "@webiny/project-utils",
+            "description": "A collection of utilities for Webiny project.",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/project-utils"
+          },
+          {
+            "name": "@webiny/react-rich-text-renderer",
+            "description": "[![](https://img.shields.io/npm/dw/@webiny/react-rich-text-renderer.svg)](https://www.npmjs.com/package/@webiny/react-rich-text-renderer) [![](https://img.shields.io/npm/v/@webiny/react-rich-text-renderer.svg)](https://www.npmjs.com/package/@webiny/react-",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/react-rich-text-renderer"
+          },
+          {
+            "name": "@webiny/lexical-editor-actions",
+            "description": "[![](https://img.shields.io/npm/dw/@webiny/lexical-editor-actions.svg)](https://www.npmjs.com/package/@webiny/lexical-editor)  [![](https://img.shields.io/npm/v/@webiny/lexical-editor-actions.svg)](https://www.npmjs.com/package/@webiny/lexical-editor) [![",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/lexical-editor-actions"
+          },
+          {
+            "name": "@webiny/api-page-builder",
+            "description": "The API for the Webiny Page Builder (webiny-app-page-builder) app.",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/api-page-builder"
+          },
+          {
+            "name": "@webiny/i18n-react",
+            "description": "A simple webiny-i18n processor, recommended for React apps.",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/i18n-react"
+          },
+          {
+            "name": "@webiny/app-security",
+            "description": "[![](https://img.shields.io/npm/dw/@webiny/app-security.svg)](https://www.npmjs.com/package/@webiny/app-security)  [![](https://img.shields.io/npm/v/@webiny/app-security.svg)](https://www.npmjs.com/package/@webiny/app-security) [![code style: prettier](ht",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/app-security"
+          },
+          {
+            "name": "@webiny/app-headless-cms",
+            "description": "[![](https://img.shields.io/npm/dw/@webiny/app-headless-cms.svg)](https://www.npmjs.com/package/@webiny/app-headless-cms) [![](https://img.shields.io/npm/v/@webiny/app-headless-cms.svg)](https://www.npmjs.com/package/@webiny/app-headless-cms) [![code styl",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/app-headless-cms"
+          },
+          {
+            "name": "@webiny/app-mailer",
+            "description": "[![](https://img.shields.io/npm/dw/@webiny/app-mailer.svg)](https://www.npmjs.com/package/@webiny/app-mailer) [![](https://img.shields.io/npm/v/@webiny/app-mailer.svg)](https://www.npmjs.com/package/@webiny/app-mailer) [![code style: prettier](https://img",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/app-mailer"
+          },
+          {
+            "name": "@webiny/app-apw",
+            "description": "[![](https://img.shields.io/npm/dw/@webiny/app-apw.svg)](https://www.npmjs.com/package/@webiny/app-apw) [![](https://img.shields.io/npm/v/@webiny/app-apw.svg)](https://www.npmjs.com/package/@webiny/app-apw) [![code style: prettier](https://img.shields.io/",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/app-apw"
+          },
+          {
+            "name": "@webiny/api-security",
+            "description": "Security layer for the Webiny GraphQL API.",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/api-security"
+          },
+          {
+            "name": "@webiny/app-i18n",
+            "description": "[![](https://img.shields.io/npm/dw/@webiny/app-i18n.svg)](https://www.npmjs.com/package/@webiny/app-i18n)  [![](https://img.shields.io/npm/v/@webiny/app-i18n.svg)](https://www.npmjs.com/package/@webiny/app-i18n) [![code style: prettier](https://img.shield",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/app-i18n"
+          },
+          {
+            "name": "@webiny/app-headless-cms-common",
+            "description": "[![](https://img.shields.io/npm/dw/@webiny/app-headless-cms-common.svg)](https://www.npmjs.com/package/@webiny/app-headless-cms-common) [![](https://img.shields.io/npm/v/@webiny/app-headless-cms-common.svg)](https://www.npmjs.com/package/@webiny/app-headl",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/app-headless-cms-common"
+          },
+          {
+            "name": "@webiny/app-security-access-management",
+            "description": "[![](https://img.shields.io/npm/dw/@webiny/app-security.svg)](https://www.npmjs.com/package/@webiny/app-security)  [![](https://img.shields.io/npm/v/@webiny/app-security.svg)](https://www.npmjs.com/package/@webiny/app-security) [![code style: prettier](ht",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/app-security-access-management"
+          },
+          {
+            "name": "@webiny/app-utils",
+            "description": "[![](https://img.shields.io/npm/dw/@webiny/app-utils.svg)](https://www.npmjs.com/package/@webiny/app-utils) [![](https://img.shields.io/npm/v/@webiny/app-utils.svg)](https://www.npmjs.com/package/@webiny/app-utils) [![code style: prettier](https://img.shi",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/app-utils"
+          },
+          {
+            "name": "@webiny/app-tenancy",
+            "description": "[![](https://img.shields.io/npm/dw/@webiny/app-security-tenancy.svg)](https://www.npmjs.com/package/@webiny/app-security-tenancy) [![](https://img.shields.io/npm/v/@webiny/app-security-tenancy.svg)](https://www.npmjs.com/package/@webiny/app-security-tenan",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/app-tenancy"
+          },
+          {
+            "name": "@webiny/handler-db",
+            "description": "Webiny API plugin that provides a db driver for DynamoDB.",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/handler-db"
+          },
+          {
+            "name": "@webiny/api-wcp",
+            "description": "A set of backend Webiny Control Panel (WCP)-related features.",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/api-wcp"
+          },
+          {
+            "name": "@webiny/api-form-builder",
+            "description": "[![](https://img.shields.io/npm/dw/@webiny/api-form-builder.svg)](https://www.npmjs.com/package/@webiny/api-form-builder)  [![](https://img.shields.io/npm/v/@webiny/api-form-builder.svg)](https://www.npmjs.com/package/@webiny/api-form-builder) [![code sty",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/api-form-builder"
+          },
+          {
+            "name": "@webiny/app-form-builder",
+            "description": "[![](https://img.shields.io/npm/dw/@webiny/app-form-builder.svg)](https://www.npmjs.com/package/@webiny/app-form-builder)  [![](https://img.shields.io/npm/v/@webiny/app-form-builder.svg)](https://www.npmjs.com/package/@webiny/app-form-builder) [![code sty",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/app-form-builder"
+          },
+          {
+            "name": "@webiny/api-i18n",
+            "description": "The API for the Webiny I18N app.",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/api-i18n"
+          },
+          {
+            "name": "@webiny/app",
+            "description": "The base package for building Webiny and React powered web apps.",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/app"
+          },
+          {
+            "name": "@webiny/api-file-manager",
+            "description": "The API for Webiny Admin's File Manager module.",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/api-file-manager"
+          },
+          {
+            "name": "@webiny/app-file-manager",
+            "description": "[![](https://img.shields.io/npm/dw/@webiny/app-file-manager.svg)](https://www.npmjs.com/package/@webiny/app-file-manager)  [![](https://img.shields.io/npm/v/@webiny/app-file-manager.svg)](https://www.npmjs.com/package/@webiny/app-file-manager) [![code sty",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/app-file-manager"
+          },
+          {
+            "name": "@webiny/app-websockets",
+            "description": "[![](https://img.shields.io/npm/dw/@webiny/app-websockets.svg)](https://www.npmjs.com/package/@webiny/app-websockets)  [![](https://img.shields.io/npm/v/@webiny/app-websockets.svg)](https://www.npmjs.com/package/@webiny/app-websockets) [![code style: pret",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/app-websockets"
+          },
+          {
+            "name": "@webiny/system-requirements",
+            "description": "Contains utilities for checking system requirements for Webiny projects",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/system-requirements"
+          },
+          {
+            "name": "@webiny/db-dynamodb",
+            "description": "A DynamoDB driver for the @webiny/db database client.",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/db-dynamodb"
+          },
+          {
+            "name": "@webiny/theme",
+            "description": "A small package that provides Webiny Page Builder theme-related types and utilities.",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/theme"
+          },
+          {
+            "name": "@webiny/app-record-locking",
+            "description": "[![](https://img.shields.io/npm/dw/@webiny/app-record-locking.svg)](https://www.npmjs.com/package/@webiny/app-record-locking)  [![](https://img.shields.io/npm/v/@webiny/app-record-locking.svg)](https://www.npmjs.com/package/@webiny/app-record-locking) [![",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/app-record-locking"
+          },
+          {
+            "name": "@webiny/react-router",
+            "description": "A wrapper around react-router-dom to add Webiny related features.",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/react-router"
+          },
+          {
+            "name": "@webiny/app-serverless-cms",
+            "description": "[![](https://img.shields.io/npm/dw/@webiny/app-i18n.svg)](https://www.npmjs.com/package/@webiny/app-i18n)  [![](https://img.shields.io/npm/v/@webiny/app-i18n.svg)](https://www.npmjs.com/package/@webiny/app-i18n) [![code style: prettier](https://img.shield",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/app-serverless-cms"
+          },
+          {
+            "name": "@webiny/api-headless-cms-bulk-actions",
+            "description": "Webiny Headless CMS bulk actions",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/api-headless-cms-bulk-actions"
+          },
+          {
+            "name": "@webiny/app-wcp",
+            "description": "A set of frontend Webiny Control Panel (WCP)-related utilities.",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/app-wcp"
+          },
+          {
+            "name": "@webiny/app-i18n-content",
+            "description": "[![](https://img.shields.io/npm/dw/@webiny/app-i18n-content.svg)](https://www.npmjs.com/package/@webiny/app-i18n-content)  [![](https://img.shields.io/npm/v/@webiny/app-i18n-content.svg)](https://www.npmjs.com/package/@webiny/app-i18n-content) [![code sty",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/app-i18n-content"
+          },
+          {
+            "name": "@webiny/api-i18n-ddb",
+            "description": "The DynamodDB storage operations Webiny I18N app.",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/api-i18n-ddb"
+          },
+          {
+            "name": "@webiny/api-apw",
+            "description": "GraphQL API for Webiny Advanced Publishing Workflow.",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/api-apw"
+          },
+          {
+            "name": "@webiny/app-dynamic-pages",
+            "description": "[![](https://img.shields.io/npm/dw/@webiny/app-dynamic-pages.svg)](https://www.npmjs.com/package/@webiny/app-dynamic-pages) [![](https://img.shields.io/npm/v/@webiny/app-dynamic-pages.svg)](https://www.npmjs.com/package/@webiny/app-dynamic-pages) [![code ",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/app-dynamic-pages"
+          },
+          {
+            "name": "@webiny/app-tenant-manager",
+            "description": "[![](https://img.shields.io/npm/dw/@webiny/app-tenant-manager.svg)](https://www.npmjs.com/package/@webiny/app-tenant-manager)  [![](https://img.shields.io/npm/v/@webiny/app-tenant-manager.svg)](https://www.npmjs.com/package/@webiny/app-tenant-manager) [![",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/app-tenant-manager"
+          },
+          {
+            "name": "@webiny/cli-plugin-scaffold-graphql-service",
+            "description": "Generate Webiny GraphQL service",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/cli-plugin-scaffold-graphql-service"
+          },
+          {
+            "name": "@webiny/api-authentication",
+            "description": "A thin authentication layer for custom apps developed using Webiny.",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/api-authentication"
+          },
+          {
+            "name": "@webiny/api-form-builder-so-ddb",
+            "description": "[![](https://img.shields.io/npm/dw/@webiny/api-form-builder-so-ddb.svg)](https://www.npmjs.com/package/@webiny/api-form-builder-so-ddb)  [![](https://img.shields.io/npm/v/@webiny/api-form-builder-so-ddb.svg)](https://www.npmjs.com/package/@webiny/api-form",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/api-form-builder-so-ddb"
+          },
+          {
+            "name": "webiny-app-cms",
+            "description": "[![](https://img.shields.io/npm/dw/webiny-app-cms.svg)](https://www.npmjs.com/package/webiny-app-cms)  [![](https://img.shields.io/npm/v/webiny-app-cms.svg)](https://www.npmjs.com/package/webiny-app-cms) [![code style: prettier](https://img.shields.io/bad",
+            "version": "1.15.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/webiny-app-cms"
+          },
+          {
+            "name": "@webiny/cli-plugin-deploy-pulumi",
+            "description": "A tool to bootstrap a Webiny project.",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/cli-plugin-deploy-pulumi"
+          },
+          {
+            "name": "@webiny/app-admin",
+            "description": "A collection of plugins that together form a complete admin interface, customizable and extensible with Webiny apps and plugins.",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/app-admin"
+          },
+          {
+            "name": "@webiny/app-admin-rmwc",
+            "description": "[![](https://img.shields.io/npm/dw/@webiny/app-admin-rmwc.svg)](https://www.npmjs.com/package/@webiny/app-admin-rmwc)  [![](https://img.shields.io/npm/v/@webiny/app-admin-rmwc.svg)](https://www.npmjs.com/package/@webiny/app-admin-rmwc) [![code style: pret",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/app-admin-rmwc"
+          },
+          {
+            "name": "@webiny/app-theme",
+            "description": "A small package that provides Webiny Page Builder theme-related types and utilities.",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/app-theme"
+          },
+          {
+            "name": "@webiny/cli-plugin-scaffold",
+            "description": "A tool to bootstrap a Webiny project.",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/cli-plugin-scaffold"
+          },
+          {
+            "name": "@webiny/cli-plugin-extensions",
+            "description": "A tool to bootstrap a Webiny project.",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/cli-plugin-extensions"
+          },
+          {
+            "name": "@webiny/handler-client",
+            "description": "A package that contains plugins for developing Webiny API in the AWS cloud.",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/handler-client"
+          },
+          {
+            "name": "@webiny/api-form-builder-so-ddb-es",
+            "description": "[![](https://img.shields.io/npm/dw/@webiny/api-form-builder-so-ddb-es.svg)](https://www.npmjs.com/package/@webiny/api-form-builder-so-ddb-es)  [![](https://img.shields.io/npm/v/@webiny/api-form-builder-so-ddb-es.svg)](https://www.npmjs.com/package/@webiny",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/api-form-builder-so-ddb-es"
+          },
+          {
+            "name": "@webiny/pulumi-aws",
+            "description": "A set of Pulumi apps that deploy Webiny CMS into Amazon Web Services (AWS).",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/pulumi-aws"
+          },
+          {
+            "name": "@webiny/cli-plugin-scaffold-admin-app-module",
+            "description": "Generate Webiny GraphQL Admin app module",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/cli-plugin-scaffold-admin-app-module"
+          },
+          {
+            "name": "@webiny/api-headless-cms-es-tasks",
+            "description": "Elasticsearch Background tasks for Webiny Headless CMS",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/api-headless-cms-es-tasks"
+          },
+          {
+            "name": "@webiny/aws-layers",
+            "description": "A utility to streamline usage of Webiny layers",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/aws-layers"
+          },
+          {
+            "name": "@webiny/api-headless-cms-import-export",
+            "description": "Import / Export for Webiny Headless CMS",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/api-headless-cms-import-export"
+          },
+          {
+            "name": "@webiny/api-headless-cms-tasks",
+            "description": "Background tasks for Webiny Headless CMS",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/api-headless-cms-tasks"
+          },
+          {
+            "name": "@webiny/handler-logs",
+            "description": "A package that contains plugins for developing Webiny API in the AWS cloud.",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/handler-logs"
+          },
+          {
+            "name": "create-webiny-project",
+            "description": "Webiny project bootstrap tool.",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/create-webiny-project"
+          },
+          {
+            "name": "@webiny/api-page-builder-so-ddb",
+            "description": "The DynamoDB storage operations Webiny Page Builder API.",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/api-page-builder-so-ddb"
+          },
+          {
+            "name": "@webiny/feature-flags",
+            "description": "A small library that provides a simple way to define and read feature flags in a Webiny project.",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/feature-flags"
+          },
+          {
+            "name": "@webiny/cwp-template-aws",
+            "description": "This is an initial template for creating your `Create Webiny Project` application.",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/cwp-template-aws"
+          },
+          {
+            "name": "@webiny/app-website",
+            "description": "A set of frontend Webiny Control Panel (WCP)-related utilities.",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/app-website"
+          },
+          {
+            "name": "@webiny/react-rich-text-lexical-renderer",
+            "description": "[![](https://img.shields.io/npm/dw/@webiny/react-rich-textlexical-renderer.svg)](https://www.npmjs.com/package/@webiny/react-rich-text-lexical-renderer) [![](https://img.shields.io/npm/v/@webiny/react-rich-text-lexical-renderer.svg)](https://www.npmjs.com",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/react-rich-text-lexical-renderer"
+          },
+          {
+            "name": "@webiny/api-file-manager-s3",
+            "description": "File storage S3 plugin for the @webiny/api-file-manager.",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/api-file-manager-s3"
+          },
+          {
+            "name": "@webiny/api-headless-cms-tasks-ddb-es",
+            "description": "Background tasks for Webiny Headless CMS - DDB+ES",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/api-headless-cms-tasks-ddb-es"
+          },
+          {
+            "name": "@webiny/app-theme-manager",
+            "description": "[![](https://img.shields.io/npm/dw/@webiny/app-theme-manager.svg)](https://www.npmjs.com/package/@webiny/app-theme-manager) [![](https://img.shields.io/npm/v/@webiny/app-theme-manager.svg)](https://www.npmjs.com/package/@webiny/app-theme-manager) [![code ",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/app-theme-manager"
+          },
+          {
+            "name": "@webiny/api-page-builder-import-export",
+            "description": "The API for the import export feature of the Webiny Page Builder app.",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/api-page-builder-import-export"
+          },
+          {
+            "name": "@webiny/api-page-builder-so-ddb-es",
+            "description": "The DynamoDB + Elasticsearch storage operations Webiny Page Builder API.",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/api-page-builder-so-ddb-es"
+          },
+          {
+            "name": "@webiny/app-file-manager-s3",
+            "description": "App File storage S3 plugin for the @webiny/app-file-manager client.",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/app-file-manager-s3"
+          },
+          {
+            "name": "@webiny/api-apw-scheduler-so-ddb",
+            "description": "The DynamoDB storage operations for scheduler action feature in the Webiny APW API.",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/api-apw-scheduler-so-ddb"
+          },
+          {
+            "name": "webiny-install",
+            "description": "A small package for easy installation of Webiny apps and integrations.",
+            "version": "1.15.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/webiny-install"
+          },
+          {
+            "name": "webiny-i18n",
+            "description": "[![](https://img.shields.io/npm/dw/webiny-i18n.svg)](https://www.npmjs.com/package/webiny-i18n)  [![](https://img.shields.io/npm/v/webiny-i18n.svg)](https://www.npmjs.com/package/webiny-i18n) [![code style: prettier](https://img.shields.io/badge/code_styl",
+            "version": "1.15.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/webiny-i18n"
+          },
+          {
+            "name": "wts-client",
+            "description": "Webiny Telemetry Service (WTS) client library.",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/wts-client"
+          },
+          {
+            "name": "webiny-file-storage-s3",
+            "description": "AWS S3 file-system storage driver for webiny-file-storage library",
+            "version": "1.13.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/webiny-file-storage-s3"
+          },
+          {
+            "name": "@webiny/api-page-builder-import-export-so-ddb",
+            "description": "The DynamoDB storage operations for import export feature in the Webiny Page Builder API.",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/api-page-builder-import-export-so-ddb"
+          },
+          {
+            "name": "webiny-i18n-react",
+            "description": "A simple webiny-i18n processor, recommended for React apps.",
+            "version": "1.15.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/webiny-i18n-react"
+          },
+          {
+            "name": "@webiny/app-headless-cms-scheduler",
+            "description": "[![](https://img.shields.io/npm/dw/@webiny/app-headless-cms-scheduler.svg)](https://www.npmjs.com/package/@webiny/app-headless-cms-scheduler) [![](https://img.shields.io/npm/v/@webiny/app-headless-cms-scheduler.svg)](https://www.npmjs.com/package/@webiny/",
+            "version": "0.0.0-unstable.e53eceafb5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/app-headless-cms-scheduler"
+          },
+          {
+            "name": "@webiny/handler-http",
+            "description": "A package that contains plugins for developing Webiny API in the AWS cloud.",
+            "version": "5.33.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/handler-http"
+          },
+          {
+            "name": "@webiny/website-builder-sdk",
+            "description": "An integration SDK for Webiny Website Builder.",
+            "version": "0.0.0-unstable.e53eceafb5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/website-builder-sdk"
+          },
+          {
+            "name": "@webiny/api-headless-cms-scheduler",
+            "description": "Schedule for Webiny Headless CMS",
+            "version": "0.0.0-unstable.e53eceafb5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/api-headless-cms-scheduler"
+          },
+          {
+            "name": "@webiny/website-builder-nextjs",
+            "description": "A Next.js integration SDK for Webiny Website Builder.",
+            "version": "6.0.0-alpha.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/website-builder-nextjs"
+          },
+          {
+            "name": "@webiny/app-admin-ui",
+            "description": "[![](https://img.shields.io/npm/dw/@webiny/app-admin-ui.svg)](https://www.npmjs.com/package/@webiny/app-admin-ui)  [![](https://img.shields.io/npm/v/@webiny/app-admin-ui.svg)](https://www.npmjs.com/package/@webiny/app-admin-ui) [![code style: prettier](ht",
+            "version": "6.0.0-alpha.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/app-admin-ui"
+          },
+          {
+            "name": "@webiny/graphql",
+            "description": "[![](https://img.shields.io/npm/dw/@webiny/graphql.svg)](https://www.npmjs.com/package/@webiny/graphql)  [![](https://img.shields.io/npm/v/@webiny/graphql.svg)](https://www.npmjs.com/package/@webiny/graphql) [![code style: prettier](https://img.shields.io",
+            "version": "4.14.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/graphql"
+          },
+          {
+            "name": "@webiny/serverless-cms-aws",
+            "description": "A set of project apps that together form Webiny CMS, deployed into Amazon Web Services (AWS).",
+            "version": "5.43.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/serverless-cms-aws"
+          },
+          {
+            "name": "@webiny/website-builder-react",
+            "description": "A React frontend integration SDK for Webiny Website Builder.",
+            "version": "6.0.0-alpha.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/website-builder-react"
+          },
+          {
+            "name": "@webiny/api-admin-users-cognito",
+            "description": "This package was deprecated with the 5.38.0 release of Webiny.",
+            "version": "5.39.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/api-admin-users-cognito"
+          },
+          {
+            "name": "@webiny/app-template",
+            "description": "Package for building Webiny app templates.",
+            "version": "4.14.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/app-template"
+          },
+          {
+            "name": "@webiny/api-admin-users-cognito-so-ddb",
+            "description": "This package was deprecated with the 5.38.0 release of Webiny.",
+            "version": "5.39.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/api-admin-users-cognito-so-ddb"
+          },
+          {
+            "name": "@webiny/app-security-tenancy",
+            "description": "[![](https://img.shields.io/npm/dw/@webiny/app-security-tenancy.svg)](https://www.npmjs.com/package/@webiny/app-security-tenancy) [![](https://img.shields.io/npm/v/@webiny/app-security-tenancy.svg)](https://www.npmjs.com/package/@webiny/app-security-tenan",
+            "version": "5.8.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/app-security-tenancy"
+          },
+          {
+            "name": "@webiny/app-template-admin",
+            "description": "Package for building Webiny app templates.",
+            "version": "4.14.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/app-template-admin"
+          },
+          {
+            "name": "@webiny/cli-plugin-scaffold-react-app",
+            "description": "Generate Webiny GraphQL Admin app module",
+            "version": "5.42.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/cli-plugin-scaffold-react-app"
+          },
+          {
+            "name": "@webiny/handler-args",
+            "description": "A package that contains plugins for developing Webiny API in the AWS cloud.",
+            "version": "5.33.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@webiny/handler-args"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 100,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:25:53.893664"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:25:53.893671",
+    "batch_network": {
+      "batch": "Winter 2021",
+      "total_batch_mates": 335,
+      "active_batch_mates": 244,
+      "batch_success_rate": 72.8,
+      "notable_batch_mates": [
+        {
+          "name": "Stacksi",
+          "slug": "stacksi",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Automated Answers to Security Questionnaires"
+        },
+        {
+          "name": "Furmacy",
+          "slug": "furmacy",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Digital e-prescribing software for veterinarians."
+        },
+        {
+          "name": "Fountain9",
+          "slug": "fountain9",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Helping food brands and retailers reduce food wastage"
+        },
+        {
+          "name": "Zepto",
+          "slug": "zepto",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "10-Minute Grocery Delivery in India"
+        },
+        {
+          "name": "Segments.ai",
+          "slug": "segments-ai",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Build better computer vision models by building better datasets"
+        },
+        {
+          "name": "PingPong",
+          "slug": "pingpong",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Video messaging app for remote teams."
+        },
+        {
+          "name": "ClipDrop",
+          "slug": "clipdrop",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Turn regular mobile photos into professional product visuals"
+        },
+        {
+          "name": "Avenue",
+          "slug": "avenue",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Observability platform for operations teams"
+        },
+        {
+          "name": "Flok",
+          "slug": "flok",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "End to end company retreat planning"
+        },
+        {
+          "name": "HyperGlue",
+          "slug": "hyperglue",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Business intelligence on text"
+        }
+      ],
+      "batch_size": 336
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "status": "Active",
+          "batch": "Winter 2012",
+          "one_liner": "High Performance Computing Built for the Cloud"
+        },
+        {
+          "name": "Marft",
+          "slug": "marft",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Marft creates embeddable machine learning models for application\u2026"
+        },
+        {
+          "name": "Pixelapse",
+          "slug": "pixelapse",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Github for designers. We automatically keep track of revisions of\u2026"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Palantir for sales people"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Smart search for the modern team."
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Authy is a Two-Factor Authentication platform for developers"
+        },
+        {
+          "name": "Flutter",
+          "slug": "flutter",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Flutter combined computer vision technology with the built-in webcams\u2026"
+        },
+        {
+          "name": "SolidStage",
+          "slug": "solidstage",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Sysadmin as a service. We make deploying, configuring, monitoring,\u2026"
+        },
+        {
+          "name": "Clutch",
+          "slug": "clutch",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "An easy to integrate library for native iOS applications designed to\u2026"
+        },
+        {
+          "name": "OneSignal",
+          "slug": "onesignal",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Engage customers through personalized omni-channel messaging"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "London",
+      "location": "London, England, United Kingdom; Remote",
+      "companies_in_city": 133,
+      "active_in_city": 104,
+      "nearby_companies": [
+        {
+          "name": "CircuitHub",
+          "slug": "circuithub",
+          "batch": "Winter 2012",
+          "industry": "Industrials",
+          "status": "Active"
+        },
+        {
+          "name": "GoCardless",
+          "slug": "gocardless",
+          "batch": "Summer 2011",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Lanyrd",
+          "slug": "lanyrd",
+          "batch": "Winter 2011",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Post.fm",
+          "slug": "post-fm",
+          "batch": "Summer 2010",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Infogami",
+          "slug": "infogami",
+          "batch": "Summer 2005",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "GoScale",
+          "slug": "goscale",
+          "batch": "Summer 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Shoobs",
+          "slug": "shoobs",
+          "batch": "Winter 2014",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Hyperpad",
+          "slug": "hyperpad",
+          "batch": "Summer 2014",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Permutive",
+          "slug": "permutive",
+          "batch": "Summer 2014",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "SalesSift",
+          "slug": "salessift",
+          "batch": "Summer 2014",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "GiveMeTap",
+          "slug": "givemetap",
+          "batch": "Winter 2015",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Tab",
+          "slug": "tab",
+          "batch": "Winter 2015",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Heroic Labs",
+          "slug": "heroic-labs",
+          "batch": "Summer 2015",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Sphere Secure Workspace",
+          "slug": "sphere-secure-workspace",
+          "batch": "Summer 2015",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "80,000 Hours",
+          "slug": "80-000-hours",
+          "batch": "Summer 2015",
+          "industry": "Unspecified",
+          "status": "Active"
+        },
+        {
+          "name": "SmartSite",
+          "slug": "smartsite",
+          "batch": "Summer 2016",
+          "industry": "Real Estate and Construction",
+          "status": "Inactive"
+        },
+        {
+          "name": "Shipamax",
+          "slug": "shipamax",
+          "batch": "Winter 2017",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fat Llama",
+          "slug": "fat-llama",
+          "batch": "Summer 2017",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Entocycle",
+          "slug": "entocycle",
+          "batch": "Summer 2017",
+          "industry": "Industrials",
+          "status": "Active"
+        },
+        {
+          "name": "Opearlo",
+          "slug": "opearlo",
+          "batch": "Summer 2017",
+          "industry": "Consumer",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Terra API",
+        "slug": "terra-api",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Runway",
+        "slug": "runway",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "authzed",
+        "slug": "authzed",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Humaans",
+        "slug": "humaans",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Taloflow",
+        "slug": "taloflow",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "SBX Robotics",
+        "slug": "sbx-robotics",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Pensil",
+        "slug": "pensil",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Triplit",
+        "slug": "triplit",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Clay",
+        "slug": "clay",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Axiom.ai",
+        "slug": "axiom-ai",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 3214,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:25:53.903896"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:25:53.903900",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:25:54.237450",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:25:54.357634",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 6,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:52.511346",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Serverless adoption",
+        "Low-code/No-code platforms",
+        "Open-source software"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Open-source community, first-mover advantage in serverless framework space.",
+      "differentiation": "Focus on providing a complete serverless application development framework, not just individual components.",
+      "competitive_advantages": [
+        "Developer-friendly experience",
+        "Extensible architecture"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on community contributions",
+        "Potential lock-in to Webiny's ecosystem"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "seed",
+      "growth_indicators": [
+        "Community growth",
+        "Number of active projects using Webiny"
+      ],
+      "growth_bottlenecks": [
+        "Developer adoption rate",
+        "Competition from larger cloud providers"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Adoption of serverless architectures slower than anticipated",
+        "Competition from established players",
+        "Maintaining open-source community engagement"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong team",
+        "First-mover advantage",
+        "Growing market"
+      ],
+      "concerns": [
+        "Reliance on open-source community",
+        "Monetization strategy"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Serverless Inc.",
+        "Netlify"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on enterprise adoption",
+        "Develop premium features for monetization"
+      ],
+      "expansion_opportunities": [
+        "Integrate with other cloud services",
+        "Expand into adjacent markets like edge computing"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 700,
+      "completion": 484,
+      "total": 1184,
+      "estimated_cost": 0.000198
+    }
+  },
+  "phase8_complete": true
+}

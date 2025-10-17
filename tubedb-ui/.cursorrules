@@ -1,0 +1,52 @@
+# TubeDB UI Development Rules
+
+## Project Context
+This is an internal Quality Assurance dashboard for video transcript analysis.
+- Framework: Next.js 14 (App Router)
+- Styling: Tailwind CSS + shadcn/ui
+- Animation: Framer Motion
+- Language: TypeScript (strict mode)
+
+## Design System
+- Dark theme: bg-slate-900, surface-slate-800
+- Primary gradient: from-blue-600 to-cyan-500
+- Glass effect: backdrop-blur-md with alpha transparency
+- Icons: Lucide React only
+- Fonts: System fonts (no custom fonts)
+
+## Data Source
+Read from: /Users/yourox/AI-Workspace/data/transcripts/batch_20251015_193743.json
+Structure: Array of video objects with transcript segments and QC verification
+
+## Component Patterns
+- Use server components by default
+- Client components only when needed (use 'use client')
+- All components are functional (no classes)
+- Props are TypeScript interfaces
+- Use composition over props drilling
+
+## File Organization
+- One component per file
+- Co-locate types with components
+- Group by feature, not type
+- Max 200 lines per file
+
+## Code Style
+- Use const for all declarations
+- Destructure props
+- Early returns for guards
+- Meaningful variable names
+- Comments only when necessary
+
+## Reference Documentation
+- Complete Guide: /Users/yourox/AI-Workspace/tubedb-ui/CURSOR_BUILD_GUIDE.md
+- Specs: /Users/yourox/AI-Workspace/tubedb-ui/docs/UI_IMPLEMENTATION_PLAN.md
+- Mockups: /Users/yourox/AI-Workspace/tubedb-ui/docs/UI_VISUAL_MOCKUPS.md
+- Design: /Users/yourox/AI-Workspace/tubedb-ui/docs/UI_DESIGN_COMPARISON.md
+
+## Do NOT
+- Add authentication
+- Create backend APIs (read files directly for now)
+- Use external CSS files (Tailwind only)
+- Install extra animation libraries (Framer Motion only)
+- Overcomplicate - keep it simple

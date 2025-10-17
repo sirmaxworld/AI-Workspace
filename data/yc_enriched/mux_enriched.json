@@ -1,0 +1,1125 @@
+{
+  "slug": "mux",
+  "name": "Mux",
+  "yc_id": 972,
+  "batch": "Winter 2016",
+  "website": "http://mux.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:36:27.412269",
+    "website": "http://mux.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 592.78,
+      "final_url": "https://www.mux.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:36:28.005073"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "mux.com",
+      "registrar": "Amazon Registrar, Inc.",
+      "creation_date": "1998-04-18T04:00:00",
+      "expiration_date": "2026-04-17T04:00:00",
+      "domain_age_days": 10043,
+      "domain_age_years": 27.5,
+      "name_servers": [
+        "NS-1247.AWSDNS-27.ORG",
+        "NS-132.AWSDNS-16.COM",
+        "NS-1600.AWSDNS-08.CO.UK",
+        "NS-808.AWSDNS-37.NET"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/muxhq",
+      "linkedin": "https://www.linkedin.com/company/mux/",
+      "github": "https://www.github.com/muxinc/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": "https://www.youtube.com/channel/UCGaddSlVSK83POSytkL21rQ"
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 16,
+      "server": "Vercel"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:16:34.278515",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:16:22.642157",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "San Francisco, CA, USA",
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:12:40.434017",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:22.642209",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/muxinc"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 60,
+        "packages": [
+          {
+            "name": "media-tracks",
+            "description": "Polyfill audio and video tracks with renditions.",
+            "version": "0.3.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/media-tracks"
+          },
+          {
+            "name": "media-chrome",
+            "description": "Custom elements (web components) for making audio and video player controls that look great in your website or app.",
+            "version": "4.14.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/media-chrome"
+          },
+          {
+            "name": "custom-media-element",
+            "description": "A custom element for extending the native media elements (<audio> or <video>)",
+            "version": "1.4.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/custom-media-element"
+          },
+          {
+            "name": "@mux/mux-node",
+            "description": "The official TypeScript library for the Mux API",
+            "version": "12.8.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mux/mux-node"
+          },
+          {
+            "name": "@mux/mux-player",
+            "description": "An open source Mux player web component that Just Works\u2122",
+            "version": "3.6.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mux/mux-player"
+          },
+          {
+            "name": "@mux/mux-player-react",
+            "description": "An open source Mux player for React that Just Works\u2122",
+            "version": "3.6.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mux/mux-player-react"
+          },
+          {
+            "name": "@mux/upchunk",
+            "description": "Dead simple chunked file uploads using Fetch",
+            "version": "3.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mux/upchunk"
+          },
+          {
+            "name": "@mux/mux-uploader",
+            "description": "An uploader elements to be used with Mux Direct Uploads",
+            "version": "1.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mux/mux-uploader"
+          },
+          {
+            "name": "@mux/mux-uploader-react",
+            "description": "An uploader element for React that handles Mux Direct Uploads and a visual progress bar for you",
+            "version": "1.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mux/mux-uploader-react"
+          },
+          {
+            "name": "react-player",
+            "description": "A React component for playing a variety of URLs, including file paths, Mux, YouTube, Vimeo, and Wistia",
+            "version": "3.3.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-player"
+          },
+          {
+            "name": "castable-video",
+            "description": "Cast your video element to the big screen with ease!",
+            "version": "1.1.11",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/castable-video"
+          },
+          {
+            "name": "cloudflare-video-element",
+            "description": "A custom element for the Cloudflare player with an API that matches the `<video>` API",
+            "version": "1.3.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/cloudflare-video-element"
+          },
+          {
+            "name": "hls-video-element",
+            "description": "Custom element (web component) for playing video using the HTTP Live Streaming (HLS) format. Uses HLS.js.",
+            "version": "1.5.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/hls-video-element"
+          },
+          {
+            "name": "dash-video-element",
+            "description": "Custom element for playing video using the DASH format. Uses dash.js.",
+            "version": "0.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/dash-video-element"
+          },
+          {
+            "name": "twitch-video-element",
+            "description": "A custom element for the Twitch player with an API that matches the `<video>` API",
+            "version": "0.1.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/twitch-video-element"
+          },
+          {
+            "name": "spotify-audio-element",
+            "description": "A custom element for the Spotify player with an API that aims to match the `<audio>` API",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/spotify-audio-element"
+          },
+          {
+            "name": "tiktok-video-element",
+            "description": "Custom element (web component) for the TikTok player.",
+            "version": "0.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/tiktok-video-element"
+          },
+          {
+            "name": "vimeo-video-element",
+            "description": "A custom element for the Vimeo player with an API that matches the `<video>` API",
+            "version": "1.6.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/vimeo-video-element"
+          },
+          {
+            "name": "wistia-video-element",
+            "description": "A custom element for the Wistia player with an API that matches the `<video>` API",
+            "version": "1.3.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/wistia-video-element"
+          },
+          {
+            "name": "youtube-video-element",
+            "description": "Custom element (web component) for the YouTube player.",
+            "version": "1.6.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/youtube-video-element"
+          },
+          {
+            "name": "@mux/blurhash",
+            "description": "A server-side package for node that uses [woltapp/blurhash](https://github.com/woltapp/blurhash) and [sharp](https://www.npmjs.com/package/sharp) to make placeholders for Mux videos. Works nicely with [Mux Player](https://docs.mux.com/guides/video/mux-pla",
+            "version": "0.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mux/blurhash"
+          },
+          {
+            "name": "@mux/mux-player-astro",
+            "description": "An open source Mux player for Astro that Just Works\u2122",
+            "version": "3.6.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mux/mux-player-astro"
+          },
+          {
+            "name": "playerx",
+            "description": "Playerx",
+            "version": "1.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/playerx"
+          },
+          {
+            "name": "@sjohnsonaz/mux-node",
+            "description": "Mux API wrapper",
+            "version": "2.8.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sjohnsonaz/mux-node"
+          },
+          {
+            "name": "jwplayer-video-element",
+            "description": "A custom element for the JW player with an API that matches the `<video>` API",
+            "version": "1.3.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/jwplayer-video-element"
+          },
+          {
+            "name": "media-offset",
+            "description": "Configures a media element to lock playback to a defined segment of the media.",
+            "version": "0.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/media-offset"
+          },
+          {
+            "name": "strapi-plugin-mux-video-uploader",
+            "description": "This plugin allows you to upload your content to Mux and use it with Strapi.",
+            "version": "3.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/strapi-plugin-mux-video-uploader"
+          },
+          {
+            "name": "@luwes/youtube-video-element",
+            "description": "Custom element (web component) for YouTube.",
+            "version": "0.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@luwes/youtube-video-element"
+          },
+          {
+            "name": "videojs-video-element",
+            "description": "A custom element for Video.js with an API that matches the `<video>` API",
+            "version": "1.4.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/videojs-video-element"
+          },
+          {
+            "name": "@class101/mux-react-native-video-sdk",
+            "description": "Mux analytics plugin for react-native-video",
+            "version": "0.5.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@class101/mux-react-native-video-sdk"
+          },
+          {
+            "name": "media-group",
+            "description": "Resurrection of mediagroup / MediaController (renamed) which can be used to sync and control multiple audio / video elements.",
+            "version": "0.1.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/media-group"
+          },
+          {
+            "name": "muxinc-issue-nine-zero-eight",
+            "description": "repo to reproduce mux issue #908",
+            "version": "2.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/muxinc-issue-nine-zero-eight"
+          },
+          {
+            "name": "@mux/cli",
+            "description": "Your friendly neighborhood Mux CLI tool!",
+            "version": "0.8.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mux/cli"
+          },
+          {
+            "name": "@luwes/dash-video-element",
+            "description": "Custom element for playing video using the DASH format. Uses dash.js.",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@luwes/dash-video-element"
+          },
+          {
+            "name": "@luwes/hls-video-element",
+            "description": "Custom element for playing video using the HTTP Live Streaming (HLS) format. Uses hls.js.",
+            "version": "1.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@luwes/hls-video-element"
+          },
+          {
+            "name": "@mux/mux-uploader-astro",
+            "description": "An open source Mux uploader for Astro that Just Works\u2122",
+            "version": "1.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mux/mux-uploader-astro"
+          },
+          {
+            "name": "shaka-video-element",
+            "description": "Custom element (web component) for Shaka Player",
+            "version": "0.6.20",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/shaka-video-element"
+          },
+          {
+            "name": "react-forked-player",
+            "description": "A React component for playing a variety of URLs, including file paths, YouTube, Facebook, Twitch, SoundCloud, Streamable, Vimeo, Wistia and DailyMotion",
+            "version": "1.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-forked-player"
+          },
+          {
+            "name": "@capgo/capacitor-mux-player",
+            "description": "Native Mux Player SDK to play video on IOS and Android",
+            "version": "7.0.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@capgo/capacitor-mux-player"
+          },
+          {
+            "name": "@fsdk/upchunk",
+            "description": "Dead simple chunked file uploads using Fetch",
+            "version": "2.4.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@fsdk/upchunk"
+          },
+          {
+            "name": "template-extensions",
+            "description": "An umbrella of low-level JavaScript API's to process templates and HTML",
+            "version": "0.7.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/template-extensions"
+          },
+          {
+            "name": "@codebayu/mux-data-expo-av",
+            "description": "Mux analytics plugin for expo-av",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@codebayu/mux-data-expo-av"
+          },
+          {
+            "name": "media-theme-neo",
+            "description": "The Neo theme for Media Chrome",
+            "version": "0.1.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/media-theme-neo"
+          },
+          {
+            "name": "@happylinks/upchunk",
+            "description": "Dead simple chunked file uploads using Fetch",
+            "version": "1.0.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@happylinks/upchunk"
+          },
+          {
+            "name": "selectlist-polyfill",
+            "description": "Polyfill for the selectlist element",
+            "version": "0.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/selectlist-polyfill"
+          },
+          {
+            "name": "@annoto/mux-player",
+            "description": "An open source Mux player web component that Just Works\u2122",
+            "version": "3.2.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@annoto/mux-player"
+          },
+          {
+            "name": "nestjs-mux",
+            "description": "Mux module for NestJS.",
+            "version": "1.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/nestjs-mux"
+          },
+          {
+            "name": "mpegts-video-element",
+            "description": "MPEG2-TS Video Web Component",
+            "version": "0.2.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/mpegts-video-element"
+          },
+          {
+            "name": "upchunk-fetch",
+            "description": "Chunked file uploads using a replaceable fetch function",
+            "version": "0.1.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/upchunk-fetch"
+          },
+          {
+            "name": "selectmenu-polyfill",
+            "description": "Polyfill for the selectmenu element",
+            "version": "0.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/selectmenu-polyfill"
+          },
+          {
+            "name": "brightcove-video-element",
+            "description": "A custom element for Brightcove Player (Video.js) with an API that matches the <video> API.",
+            "version": "0.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/brightcove-video-element"
+          },
+          {
+            "name": "idx-player",
+            "description": "A React component for playing a variety of URLs, including file paths, YouTube, Facebook, Twitch, SoundCloud, Streamable, Vimeo, Wistia and DailyMotion",
+            "version": "2.17.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/idx-player"
+          },
+          {
+            "name": "@harambe-tv/react-player",
+            "description": "A React component for playing a variety of URLs, including file paths, YouTube, Facebook, Twitch, SoundCloud, Streamable, Vimeo, Wistia and DailyMotion",
+            "version": "2.16.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@harambe-tv/react-player"
+          },
+          {
+            "name": "@dvdslns/react-player",
+            "description": "A React component for playing a variety of URLs, including file paths, YouTube, Facebook, Twitch, SoundCloud, Streamable, Vimeo, Wistia and DailyMotion",
+            "version": "2.16.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@dvdslns/react-player"
+          },
+          {
+            "name": "strapi-plugin-mux-uploader",
+            "description": "This plugin allows you to upload your content to Mux and use it with Strapi.",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/strapi-plugin-mux-uploader"
+          },
+          {
+            "name": "strapi-plugin-video-uploader",
+            "description": "This plugin allows you to upload your content to Mux and use it with Strapi.",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/strapi-plugin-video-uploader"
+          },
+          {
+            "name": "plugin-mux-video-uploader",
+            "description": "This plugin allows you to upload your content to Mux and use it with Strapi.",
+            "version": "3.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/plugin-mux-video-uploader"
+          },
+          {
+            "name": "@xkelxmc/react-player",
+            "description": "A React component for playing a variety of URLs, including file paths, Mux, YouTube, Vimeo, and Wistia",
+            "version": "3.0.0-beta.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@xkelxmc/react-player"
+          },
+          {
+            "name": "strapi-mux-video-uploader-managed",
+            "description": "This plugin allows you to upload your content to Mux and use it with Strapi.",
+            "version": "2.7.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/strapi-mux-video-uploader-managed"
+          },
+          {
+            "name": "responsive-video-element",
+            "description": "A responsive video element with rendition switching, lazy loading and autopause.",
+            "version": "0.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/responsive-video-element"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 60,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:16:23.844371"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:23.844378",
+    "batch_network": {
+      "batch": "Winter 2016",
+      "total_batch_mates": 121,
+      "active_batch_mates": 58,
+      "batch_success_rate": 47.9,
+      "notable_batch_mates": [
+        {
+          "name": "Stilt",
+          "slug": "stilt",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Financial products for immigrants (acquired by JG Wentworth)"
+        },
+        {
+          "name": "Embark Trucks",
+          "slug": "embark-trucks",
+          "status": "Public",
+          "top_company": false,
+          "one_liner": "Self-driving semi trucks."
+        },
+        {
+          "name": "Loop Genomics",
+          "slug": "loop-genomics",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Novel long-read DNA sequencing technology"
+        },
+        {
+          "name": "Able Health",
+          "slug": "able-health",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Able Health gets doctors paid more for higher quality care"
+        },
+        {
+          "name": "Truebill",
+          "slug": "truebill",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Live your best financial life"
+        },
+        {
+          "name": "LendEDU",
+          "slug": "lendedu",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "LendEDU is a marketplace for consumer financial products."
+        },
+        {
+          "name": "Luminist Labs",
+          "slug": "luminist-labs",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Diagnostic platform for early detection of liver disease"
+        },
+        {
+          "name": "MineralSoft",
+          "slug": "mineralsoft",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Data management platform for oil & gas assets"
+        },
+        {
+          "name": "Pulpix",
+          "slug": "pulpix",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Binge-watching technology for video platforms. "
+        },
+        {
+          "name": "Paystack",
+          "slug": "paystack",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Modern payments infrastructure for Africa"
+        }
+      ],
+      "batch_size": 122
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Amiato",
+          "slug": "amiato",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "The BI bridge for unstructured data. We automatically bridge the gap\u2026"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Simple multiplayer game servers."
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Backlift allows front-end only developers to build entire websites\u2026"
+        },
+        {
+          "name": "Documents.Me",
+          "slug": "documents-me",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Client-side encryption for your devices and the cloud."
+        },
+        {
+          "name": "Apollo",
+          "slug": "apollo",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Apollo helps engineering teams accelerate delivery"
+        },
+        {
+          "name": "Proxino",
+          "slug": "proxino",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Javascript proxy."
+        },
+        {
+          "name": "PhoneSys",
+          "slug": "phonesys",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "The Phone System for Sales Teams."
+        },
+        {
+          "name": "Cryptoseal",
+          "slug": "cryptoseal",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Server key management, VPN as a Service, Privacy VPN.  Sold to\u2026"
+        },
+        {
+          "name": "Citus Data",
+          "slug": "citus-data",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Real-time. Big data. PostgreSQL"
+        },
+        {
+          "name": "Realm",
+          "slug": "realm",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Better data structures = no DB."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "San Francisco",
+      "location": "San Francisco, CA, USA",
+      "companies_in_city": 2007,
+      "active_in_city": 1339,
+      "nearby_companies": [
+        {
+          "name": "42Floors",
+          "slug": "42floors",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "PlanGrid",
+          "slug": "plangrid",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "MyVR",
+          "slug": "myvr",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Couple",
+          "slug": "couple",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HackPad",
+          "slug": "hackpad",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Gusto",
+          "slug": "gusto",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "FamilyLeaf",
+          "slug": "familyleaf",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Chute",
+          "slug": "chute",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Make School",
+          "slug": "make-school",
+          "batch": "Winter 2012",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Exec",
+          "slug": "exec",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Public"
+        },
+        {
+          "name": "LendUp",
+          "slug": "lendup",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tilt",
+          "slug": "tilt",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fond",
+          "slug": "fond",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Lattice",
+        "slug": "lattice",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Compgun",
+        "slug": "compgun",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Deepgram",
+        "slug": "deepgram",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Chatfuel",
+        "slug": "chatfuel",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "GetAccept",
+        "slug": "getaccept",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Daily",
+        "slug": "daily",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "UpLabs",
+        "slug": "uplabs",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Copia",
+        "slug": "copia",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "PocketSuite",
+        "slug": "pocketsuite",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Revl",
+        "slug": "revl",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 4874,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:16:23.875463"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:23.875518",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:24.196950",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:24.318453",
+    "basic_info": {
+      "is_hiring": true,
+      "team_size": 95,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:38:57.940416",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Explosive growth in video content consumption",
+        "Shift to API-first infrastructure",
+        "Demand for real-time video analytics and optimization"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Technical expertise in video optimization combined with data-driven insights and developer-friendly APIs",
+      "differentiation": "Self-optimizing video technology that automatically handles encoding, delivery, and device optimization",
+      "competitive_advantages": [
+        "Deep video engineering expertise",
+        "Data-driven optimization algorithms",
+        "Developer-first API design"
+      ],
+      "competitive_vulnerabilities": [
+        "Competition from cloud giants (AWS, Google)",
+        "Potential commoditization of video infrastructure"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "95 person team size indicates significant traction",
+        "Dual product offering shows market expansion",
+        "8+ years of operation with active status"
+      ],
+      "growth_bottlenecks": [
+        "Sales cycle complexity for enterprise customers",
+        "Need for continuous R&D investment in video technology"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "low",
+      "technology_risk": "medium",
+      "execution_risk": "low",
+      "overall_risk_score": 3,
+      "key_risks": [
+        "Big tech competition with deeper pockets",
+        "Rapid technology changes in video codecs",
+        "Customer concentration risk"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong technical team with video expertise",
+        "Developer-friendly product in growing market",
+        "Dual revenue streams from video and analytics"
+      ],
+      "concerns": [
+        "Intense competition from cloud providers",
+        "High R&D requirements to stay competitive"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Twilio",
+        "Cloudflare",
+        "Fastly"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Expand international presence",
+        "Develop vertical-specific solutions"
+      ],
+      "expansion_opportunities": [
+        "Live streaming and interactive video features",
+        "AI-powered video content analysis",
+        "Edge computing optimization"
+      ]
+    },
+    "tokens_used": {
+      "input": 737,
+      "output": 568,
+      "total": 1305,
+      "estimated_cost": 0.010731
+    }
+  },
+  "phase8_complete": true
+}

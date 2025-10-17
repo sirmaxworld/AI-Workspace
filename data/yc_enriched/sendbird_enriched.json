@@ -1,0 +1,1322 @@
+{
+  "slug": "sendbird",
+  "name": "Sendbird",
+  "yc_id": 1079,
+  "batch": "Winter 2016",
+  "website": "https://sendbird.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:37:17.777534",
+    "website": "https://sendbird.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 206.91,
+      "final_url": "https://sendbird.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:37:17.984469"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "sendbird.com",
+      "registrar": "GoDaddy.com, LLC",
+      "creation_date": "2013-08-04T22:16:33",
+      "expiration_date": "2026-08-04T22:16:33",
+      "domain_age_days": 4456,
+      "domain_age_years": 12.2,
+      "name_servers": [
+        "NS-1064.AWSDNS-05.ORG",
+        "NS-139.AWSDNS-17.COM",
+        "NS-1692.AWSDNS-19.CO.UK",
+        "NS-568.AWSDNS-07.NET"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/sendbird",
+      "linkedin": "https://www.linkedin.com/company/sendbird",
+      "github": "https://github.com/sendbird",
+      "facebook": "https://www.facebook.com/sendbird",
+      "instagram": null,
+      "youtube": "https://www.youtube.com/sendbird"
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 16,
+      "server": "Netlify"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:17:11.884156",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:16:57.479871",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "San Mateo, CA, USA",
+      "coordinates": {
+        "latitude": 37.563,
+        "longitude": -122.3255
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:14:42.570997",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:57.479908",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/sendbird"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 88,
+        "packages": [
+          {
+            "name": "@sendbird/chat",
+            "description": "Sendbird SDK for JavaScript",
+            "version": "4.20.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sendbird/chat"
+          },
+          {
+            "name": "sendbird",
+            "description": "Sendbird JavaScript SDK",
+            "version": "3.1.33",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sendbird"
+          },
+          {
+            "name": "@sendbird/uikit-react",
+            "description": "Sendbird UIKit for React: A feature-rich and customizable chat UI kit with messaging, channel management, and user authentication.",
+            "version": "3.17.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sendbird/uikit-react"
+          },
+          {
+            "name": "sendbird-calls",
+            "description": "SendBird Calls JavaScript SDK",
+            "version": "1.10.20",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sendbird-calls"
+          },
+          {
+            "name": "sendbird-uikit",
+            "description": "React based UI kit for sendbird",
+            "version": "2.7.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sendbird-uikit"
+          },
+          {
+            "name": "sendbird-desk",
+            "description": "SendBird Desk SDK for JavaScript",
+            "version": "1.1.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sendbird-desk"
+          },
+          {
+            "name": "sendbird-platform-sdk-typescript",
+            "description": "OpenAPI client for sendbird-platform-sdk-typescript",
+            "version": "0.0.18",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sendbird-platform-sdk-typescript"
+          },
+          {
+            "name": "@sendbird/uikit-chat-hooks",
+            "description": "A set of React hooks for integrating Sendbird chat functionality into your React app.",
+            "version": "3.11.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sendbird/uikit-chat-hooks"
+          },
+          {
+            "name": "@sendbird/uikit-utils",
+            "description": "A collection of utility functions and constants for building chat UI components with Sendbird UIKit.",
+            "version": "3.11.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sendbird/uikit-utils"
+          },
+          {
+            "name": "@sendbird/uikit-react-native",
+            "description": "Sendbird UIKit for React Native: A feature-rich and customizable chat UI kit with messaging, channel management, and user authentication.",
+            "version": "3.11.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sendbird/uikit-react-native"
+          },
+          {
+            "name": "@gathertown/sendbird-platform-sdk-typescript",
+            "description": "OpenAPI client for sendbird-platform-sdk-typescript",
+            "version": "0.0.17",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@gathertown/sendbird-platform-sdk-typescript"
+          },
+          {
+            "name": "@sendbird/chat-ai-widget",
+            "description": "Sendbird Chat AI Widget,\n Detailed documentation can be found at https://github.com/sendbird/chat-ai-widget#readme",
+            "version": "1.9.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sendbird/chat-ai-widget"
+          },
+          {
+            "name": "@sendbird/ai-agent-messenger-react",
+            "description": "Sendbird AI Agent Messenger for React",
+            "version": "1.6.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sendbird/ai-agent-messenger-react"
+          },
+          {
+            "name": "@sendbird/sendbird-platform-sdk-typescript",
+            "description": "OpenAPI client for sendbird-platform-sdk-typescript",
+            "version": "2.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sendbird/sendbird-platform-sdk-typescript"
+          },
+          {
+            "name": "@gathertown/sendbird-uikit-react",
+            "description": "Sendbird UIKit for React: A feature-rich and customizable chat UI kit with messaging, channel management, and user authentication.",
+            "version": "1.1.12",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@gathertown/sendbird-uikit-react"
+          },
+          {
+            "name": "sendbird-uikit-eano",
+            "description": "React based UI kit for sendbird",
+            "version": "2.6.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sendbird-uikit-eano"
+          },
+          {
+            "name": "@wearesweet/sendbird-uikit-react",
+            "description": "Fork of Sendbird UIKit for React to implement additional functionality for We Are Sweet projects",
+            "version": "3.14.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@wearesweet/sendbird-uikit-react"
+          },
+          {
+            "name": "edoctor-sendbird-calls",
+            "description": "edoctor-sendbird-calls",
+            "version": "1.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/edoctor-sendbird-calls"
+          },
+          {
+            "name": "@sendbird/live",
+            "description": "Sendbird Live API turns a client app into a live streaming platform where users can broadcast themselves in real-time to their followers.",
+            "version": "1.2.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sendbird/live"
+          },
+          {
+            "name": "sendbird-syncmanager",
+            "description": "SendBird data sync manager for JavaScript",
+            "version": "1.1.30",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sendbird-syncmanager"
+          },
+          {
+            "name": "@sendbird/calls-react-native",
+            "description": "Sendbird Calls SDK for React Native: Empower React Native apps with seamless audio, video, and group calling. Build interactive communication easily.",
+            "version": "1.1.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sendbird/calls-react-native"
+          },
+          {
+            "name": "sendbird-await",
+            "description": "Sendbird await module for Platform API.",
+            "version": "1.0.14",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sendbird-await"
+          },
+          {
+            "name": "sendbird-utils",
+            "description": "SendBird utils",
+            "version": "0.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sendbird-utils"
+          },
+          {
+            "name": "@gathertown/uikit-react-native",
+            "description": "Sendbird UIKit for React Native: A feature-rich and customizable chat UI kit with messaging, channel management, and user authentication.",
+            "version": "0.0.14",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@gathertown/uikit-react-native"
+          },
+          {
+            "name": "sendbird-nodejs",
+            "description": "Thin wrapper around SendBird Server REST API v3",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sendbird-nodejs"
+          },
+          {
+            "name": "@sendbird/uikit-message-template",
+            "description": null,
+            "version": "0.0.18",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sendbird/uikit-message-template"
+          },
+          {
+            "name": "@gathertown/uikit-utils",
+            "description": "A collection of utility functions and constants for building chat UI components with Sendbird UIKit.",
+            "version": "0.0.14",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@gathertown/uikit-utils"
+          },
+          {
+            "name": "@gathertown/uikit-chat-hooks",
+            "description": "A set of React hooks for integrating Sendbird chat functionality into your React app.",
+            "version": "0.0.14",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@gathertown/uikit-chat-hooks"
+          },
+          {
+            "name": "@sendbird/react-uikit-message-template-view",
+            "description": null,
+            "version": "0.0.18",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sendbird/react-uikit-message-template-view"
+          },
+          {
+            "name": "@damaera/sendbird-uikit",
+            "description": "React based UI kit for sendbird",
+            "version": "1.1.4-d3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@damaera/sendbird-uikit"
+          },
+          {
+            "name": "@sendbird/uikit-tools",
+            "description": null,
+            "version": "0.0.18",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sendbird/uikit-tools"
+          },
+          {
+            "name": "amelia-sendbird-desk-agent",
+            "description": "Unofficial Desk Agent SDK for Sendbird",
+            "version": "0.0.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/amelia-sendbird-desk-agent"
+          },
+          {
+            "name": "chat-widget-sendbird",
+            "description": "A professional chat widget built with SendBird UI Kit and React",
+            "version": "1.8.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/chat-widget-sendbird"
+          },
+          {
+            "name": "sb-platform-sdk-ts",
+            "description": "OpenAPI client for sendbird-platform-sdk-typescript",
+            "version": "0.0.17",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sb-platform-sdk-ts"
+          },
+          {
+            "name": "@jbento/nativescript-sendbird",
+            "description": "Integration of native Sendbird sdk and UiKit for Nativescript",
+            "version": "1.0.33",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@jbento/nativescript-sendbird"
+          },
+          {
+            "name": "cordova-plugin-customfcmreceiver",
+            "description": "Cordova plugin for Sendbird background/foregound custom messages",
+            "version": "0.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/cordova-plugin-customfcmreceiver"
+          },
+          {
+            "name": "@sendbird/uikit-react-native-foundation",
+            "description": "A foundational UI kit for building chat-enabled React Native apps.",
+            "version": "3.11.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sendbird/uikit-react-native-foundation"
+          },
+          {
+            "name": "sendbird-platform-sdk",
+            "description": "Server side JavaScript SDK for Sendbirds Platform API",
+            "version": "0.0.16",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sendbird-platform-sdk"
+          },
+          {
+            "name": "@withmehealth/sendbird-uikit",
+            "description": "React based UI kit for sendbird",
+            "version": "2.4.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@withmehealth/sendbird-uikit"
+          },
+          {
+            "name": "rn-sendbird-call",
+            "description": "Native modules video and audio calls using Sendbird Native SDK",
+            "version": "1.1.21",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rn-sendbird-call"
+          },
+          {
+            "name": "sendbird-videochat",
+            "description": "SendBird VideoChat for JavaScript",
+            "version": "0.9.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sendbird-videochat"
+          },
+          {
+            "name": "bushwick-sendbird-uikit",
+            "description": "React based UI kit for sendbird",
+            "version": "2.7.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/bushwick-sendbird-uikit"
+          },
+          {
+            "name": "onshift-chat-widget",
+            "description": "A chat widget based on and utilizing SendBird.",
+            "version": "0.8.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/onshift-chat-widget"
+          },
+          {
+            "name": "@sendbird/live-uikit-react",
+            "description": "Sendbird Live UIKit for React allows you to create customizable views and execute essential live functions",
+            "version": "1.0.0-beta.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sendbird/live-uikit-react"
+          },
+          {
+            "name": "@special-project/sendbird-nodejs",
+            "description": "Thin wrapper around SendBird Server REST API v3",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@special-project/sendbird-nodejs"
+          },
+          {
+            "name": "@sendbird/react-native-scrollview-enhancer",
+            "description": "A utility package enabling onStartReached & maintainVisibleContentPosition in pre-0.72 react-native ScrollView.",
+            "version": "0.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sendbird/react-native-scrollview-enhancer"
+          },
+          {
+            "name": "fd-sendbird-uikit",
+            "description": "React based UI kit for sendbird",
+            "version": "2.7.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/fd-sendbird-uikit"
+          },
+          {
+            "name": "@sendbird/sendbird-platform-sdk-javascript",
+            "description": "Server side JavaScript SDK for Sendbirds Platform API",
+            "version": "2.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sendbird/sendbird-platform-sdk-javascript"
+          },
+          {
+            "name": "autfugiat",
+            "description": "Sendbird SDK for JavaScript",
+            "version": "1.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/autfugiat"
+          },
+          {
+            "name": "@sendbird/react-native-push-extension",
+            "description": "Push Notifications extension for React-Native",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sendbird/react-native-push-extension"
+          },
+          {
+            "name": "laudantiumculpa",
+            "description": "Sendbird SDK for JavaScript",
+            "version": "1.15.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/laudantiumculpa"
+          },
+          {
+            "name": "sendbird-node",
+            "description": "const { SendBird } = require('sendbird-node');",
+            "version": "2.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sendbird-node"
+          },
+          {
+            "name": "@platohq/nestjs-sendbird",
+            "description": "Sendbird integration for NestJS",
+            "version": "0.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@platohq/nestjs-sendbird"
+          },
+          {
+            "name": "sendbird-uikit-srs",
+            "description": "A customized version of React based UI kit for sendbird",
+            "version": "2.2.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sendbird-uikit-srs"
+          },
+          {
+            "name": "ipsamconsequatur",
+            "description": "Sendbird SDK for JavaScript",
+            "version": "1.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ipsamconsequatur"
+          },
+          {
+            "name": "@beaconworks/sendbird-uikit-react",
+            "description": "Sendbird UIKit for React: A feature-rich and customizable chat UI kit with messaging, channel management, and user authentication.",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@beaconworks/sendbird-uikit-react"
+          },
+          {
+            "name": "@gathertown/uikit-react-native-foundation",
+            "description": "A foundational UI kit for building chat-enabled React Native apps.",
+            "version": "0.0.14",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@gathertown/uikit-react-native-foundation"
+          },
+          {
+            "name": "@aluixgather/uikit-utils",
+            "description": "A collection of utility functions and constants for building chat UI components with Sendbird UIKit.",
+            "version": "0.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aluixgather/uikit-utils"
+          },
+          {
+            "name": "sendbird-helpers",
+            "description": "SendBird helpers",
+            "version": "0.1.33",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sendbird-helpers"
+          },
+          {
+            "name": "@aluixgather/uikit-chat-hooks",
+            "description": "A set of React hooks for integrating Sendbird chat functionality into your React app.",
+            "version": "0.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aluixgather/uikit-chat-hooks"
+          },
+          {
+            "name": "@pipedream/sendbird_ai_chabot",
+            "description": "Pipedream Sendbird AI chabot Components",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@pipedream/sendbird_ai_chabot"
+          },
+          {
+            "name": "@pipedream/sendbird",
+            "description": "Pipedream Sendbird Components",
+            "version": "0.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@pipedream/sendbird"
+          },
+          {
+            "name": "@aluixgather/uikit-react-native",
+            "description": "Sendbird UIKit for React Native: A feature-rich and customizable chat UI kit with messaging, channel management, and user authentication.",
+            "version": "0.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aluixgather/uikit-react-native"
+          },
+          {
+            "name": "sendbird-platform-api",
+            "description": "Thin wrapper around SendBird Server REST API v3",
+            "version": "1.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sendbird-platform-api"
+          },
+          {
+            "name": "@ffras4vnpm/facere-ex-labore",
+            "description": "[![Platform React](https://img.shields.io/badge/Platform-React-orange.svg)](https://reactjs.org) [![Language TypeScript](https://img.shields.io/badge/Language-TypeScript-orange.svg)](https://www.typescriptlang.org/)",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ffras4vnpm/facere-ex-labore"
+          },
+          {
+            "name": "csm-commlib-model",
+            "description": "Client library for communication with Communication Providers like Twilio, SendBird, AWS Connect etc.",
+            "version": "0.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/csm-commlib-model"
+          },
+          {
+            "name": "pawsh-utils",
+            "description": "Pawsh Basic Util Functions and Libraries",
+            "version": "5.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/pawsh-utils"
+          },
+          {
+            "name": "pawsh-basic-utils",
+            "description": "Pawsh Basic Util Functions",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/pawsh-basic-utils"
+          },
+          {
+            "name": "cordova-plugin-sbfcmreceiver",
+            "description": "Cordova plugin for Sendbird background/foregound custom messages",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/cordova-plugin-sbfcmreceiver"
+          },
+          {
+            "name": "capacitor-sendbird-calls",
+            "description": "Sendbird Calls Capacitor Plugin",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/capacitor-sendbird-calls"
+          },
+          {
+            "name": "yalliyalli-messenger",
+            "description": "Official messenger for Yalliyalli platform",
+            "version": "1.1.63",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/yalliyalli-messenger"
+          },
+          {
+            "name": "custom-sendbird-uikit-react",
+            "description": "React based UI kit for sendbird. Users are not allow to create new channel. Forked from sendbird-uikit-src",
+            "version": "2.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/custom-sendbird-uikit-react"
+          },
+          {
+            "name": "expeditacumque",
+            "description": "SendBird JavaScript SDK",
+            "version": "1.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expeditacumque"
+          },
+          {
+            "name": "jickl-react-chat",
+            "description": "Chat component for Jickl",
+            "version": "5.1.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/jickl-react-chat"
+          },
+          {
+            "name": "@aluixgather/uikit-react-native-foundation",
+            "description": "A foundational UI kit for building chat-enabled React Native apps.",
+            "version": "0.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aluixgather/uikit-react-native-foundation"
+          },
+          {
+            "name": "@aluixgather/uikit-testing-tools",
+            "description": "UIKit testing tools",
+            "version": "0.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aluixgather/uikit-testing-tools"
+          },
+          {
+            "name": "cordova-plugin-sendbirdfcmreceiver",
+            "description": "Cordova plugin for Sendbird background/foregound custom messages",
+            "version": "0.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/cordova-plugin-sendbirdfcmreceiver"
+          },
+          {
+            "name": "cordova-plugin-sendbird",
+            "description": null,
+            "version": "0.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/cordova-plugin-sendbird"
+          },
+          {
+            "name": "pawsh-booking-flow-utils",
+            "description": "Pawsh Booking Flow Util Functions and Libraries",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/pawsh-booking-flow-utils"
+          },
+          {
+            "name": "@longnn/calls-react-native",
+            "description": "ReactNative Calls SDK",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@longnn/calls-react-native"
+          },
+          {
+            "name": "pawsh-debug",
+            "description": "Pawsh Debug Functions",
+            "version": "1.0.1-alpha.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/pawsh-debug"
+          },
+          {
+            "name": "hisoft-calls-react-native",
+            "description": "ReactNative Calls SDK",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/hisoft-calls-react-native"
+          },
+          {
+            "name": "sendbird-react-native-touch-reload",
+            "description": "this is mem",
+            "version": "6.6.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sendbird-react-native-touch-reload"
+          },
+          {
+            "name": "@tylerhammer/notifications-template-preview-react-native",
+            "description": "## Usage",
+            "version": "1.0.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@tylerhammer/notifications-template-preview-react-native"
+          },
+          {
+            "name": "tripin.syshin.sendbird",
+            "description": null,
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/tripin.syshin.sendbird"
+          },
+          {
+            "name": "openim-h5-sdk",
+            "description": "OpenIM H5 SDK for Vue 3",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/openim-h5-sdk"
+          },
+          {
+            "name": "sendbird-uikit-src",
+            "description": "React based UI kit for sendbird",
+            "version": "2.2.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sendbird-uikit-src"
+          },
+          {
+            "name": "react-native-sendbird-calls",
+            "description": "TODO",
+            "version": "1.0.0-beta7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-native-sendbird-calls"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 2,
+        "packages": [
+          {
+            "name": "sendbird",
+            "version": "0.0.4",
+            "downloads": 252659,
+            "url": "https://rubygems.org/gems/sendbird"
+          },
+          {
+            "name": "talkbird",
+            "version": "0.0.5",
+            "downloads": 8246,
+            "url": "https://rubygems.org/gems/talkbird"
+          }
+        ]
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 90,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:16:58.932703"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:58.932709",
+    "batch_network": {
+      "batch": "Winter 2016",
+      "total_batch_mates": 121,
+      "active_batch_mates": 58,
+      "batch_success_rate": 47.9,
+      "notable_batch_mates": [
+        {
+          "name": "Stilt",
+          "slug": "stilt",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Financial products for immigrants (acquired by JG Wentworth)"
+        },
+        {
+          "name": "Embark Trucks",
+          "slug": "embark-trucks",
+          "status": "Public",
+          "top_company": false,
+          "one_liner": "Self-driving semi trucks."
+        },
+        {
+          "name": "Loop Genomics",
+          "slug": "loop-genomics",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Novel long-read DNA sequencing technology"
+        },
+        {
+          "name": "Able Health",
+          "slug": "able-health",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Able Health gets doctors paid more for higher quality care"
+        },
+        {
+          "name": "Truebill",
+          "slug": "truebill",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Live your best financial life"
+        },
+        {
+          "name": "LendEDU",
+          "slug": "lendedu",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "LendEDU is a marketplace for consumer financial products."
+        },
+        {
+          "name": "Luminist Labs",
+          "slug": "luminist-labs",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Diagnostic platform for early detection of liver disease"
+        },
+        {
+          "name": "MineralSoft",
+          "slug": "mineralsoft",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Data management platform for oil & gas assets"
+        },
+        {
+          "name": "Pulpix",
+          "slug": "pulpix",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Binge-watching technology for video platforms. "
+        },
+        {
+          "name": "Paystack",
+          "slug": "paystack",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Modern payments infrastructure for Africa"
+        }
+      ],
+      "batch_size": 122
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "status": "Active",
+          "batch": "Winter 2012",
+          "one_liner": "High Performance Computing Built for the Cloud"
+        },
+        {
+          "name": "Marft",
+          "slug": "marft",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Marft creates embeddable machine learning models for application\u2026"
+        },
+        {
+          "name": "Pixelapse",
+          "slug": "pixelapse",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Github for designers. We automatically keep track of revisions of\u2026"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Palantir for sales people"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Smart search for the modern team."
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Authy is a Two-Factor Authentication platform for developers"
+        },
+        {
+          "name": "Flutter",
+          "slug": "flutter",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Flutter combined computer vision technology with the built-in webcams\u2026"
+        },
+        {
+          "name": "SolidStage",
+          "slug": "solidstage",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Sysadmin as a service. We make deploying, configuring, monitoring,\u2026"
+        },
+        {
+          "name": "Clutch",
+          "slug": "clutch",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "An easy to integrate library for native iOS applications designed to\u2026"
+        },
+        {
+          "name": "OneSignal",
+          "slug": "onesignal",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Engage customers through personalized omni-channel messaging"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "San Mateo",
+      "location": "San Mateo, CA, USA",
+      "companies_in_city": 34,
+      "active_in_city": 16,
+      "nearby_companies": [
+        {
+          "name": "OneSignal",
+          "slug": "onesignal",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Compose",
+          "slug": "compose",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Meta",
+          "slug": "meta",
+          "batch": "Summer 2013",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "PersistIQ",
+          "slug": "persistiq",
+          "batch": "Summer 2014",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Neptune.io",
+          "slug": "neptune-io",
+          "batch": "Summer 2014",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Women.com",
+          "slug": "women-com",
+          "batch": "Summer 2014",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Bagaveev Corporation",
+          "slug": "bagaveev-corporation",
+          "batch": "Winter 2015",
+          "industry": "Industrials",
+          "status": "Inactive"
+        },
+        {
+          "name": "Automate Ads",
+          "slug": "automate-ads",
+          "batch": "Winter 2015",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Second Measure",
+          "slug": "second-measure",
+          "batch": "Summer 2015",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Maderight",
+          "slug": "maderight",
+          "batch": "Summer 2015",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Yardbook",
+          "slug": "yardbook",
+          "batch": "Winter 2016",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Netomi",
+          "slug": "netomi",
+          "batch": "Winter 2016",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Selfycart",
+          "slug": "selfycart",
+          "batch": "Summer 2016",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Farmstead",
+          "slug": "farmstead",
+          "batch": "Summer 2016",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Armory",
+          "slug": "armory",
+          "batch": "Winter 2017",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Veryfi, Inc.",
+          "slug": "veryfi-inc",
+          "batch": "Winter 2017",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Truepill",
+          "slug": "truepill",
+          "batch": "Summer 2017",
+          "industry": "Healthcare",
+          "status": "Acquired"
+        },
+        {
+          "name": "Meru Health",
+          "slug": "meru-health",
+          "batch": "Summer 2018",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "ZeroStorefront",
+          "slug": "zerostorefront",
+          "batch": "Winter 2019",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Tailornova/Couturme",
+          "slug": "tailornova-couturme",
+          "batch": "Winter 2019",
+          "industry": "B2B",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Deepgram",
+        "slug": "deepgram",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Yardbook",
+        "slug": "yardbook",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Chatfuel",
+        "slug": "chatfuel",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Mio",
+        "slug": "mio",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "UpLabs",
+        "slug": "uplabs",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Netomi",
+        "slug": "netomi",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Instabug",
+        "slug": "instabug",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Quilt Data",
+        "slug": "quilt-data",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Real Artists",
+        "slug": "real-artists",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Pathmind",
+        "slug": "pathmind",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 2901,
+      "network_density_score": 71.0,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:16:58.942336"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:58.942341",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:59.264146",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:59.375042",
+    "basic_info": {
+      "is_hiring": true,
+      "team_size": 300,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:42:11.656599",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increased adoption of AI in customer service",
+        "Growing demand for personalized customer experiences",
+        "Expansion of conversational AI platforms"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Established customer base and platform with significant data on conversations.",
+      "differentiation": "Focus on AI agents that 'delight' customers, implying a higher level of engagement and satisfaction.",
+      "competitive_advantages": [
+        "Large customer base (300M+ users)",
+        "Experience in powering conversations for major brands"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on AI technology which is rapidly evolving",
+        "Potential for commoditization of AI-powered customer service solutions"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "Expansion into new industries and use cases",
+        "Increased adoption of AI agent features"
+      ],
+      "growth_bottlenecks": [
+        "Competition from larger tech companies",
+        "Integration challenges with existing customer systems"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "AI accuracy and bias",
+        "Data privacy and security concerns",
+        "Changing customer expectations"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong market position in a growing market",
+        "Experienced team and established customer base",
+        "Focus on AI-driven customer engagement"
+      ],
+      "concerns": [
+        "Competitive landscape",
+        "Dependence on AI advancements"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Intercom",
+        "Gainsight"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on building deeper integrations with existing CRM and support platforms",
+        "Expand AI agent capabilities to handle more complex customer interactions"
+      ],
+      "expansion_opportunities": [
+        "Develop industry-specific AI agent solutions",
+        "Explore partnerships with other AI and technology providers"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 723,
+      "completion": 618,
+      "total": 1341,
+      "estimated_cost": 0.00024
+    }
+  },
+  "phase8_complete": true
+}

@@ -1,0 +1,1034 @@
+{
+  "slug": "draftbit",
+  "name": "Draftbit",
+  "yc_id": 1784,
+  "batch": "Winter 2018",
+  "website": "https://draftbit.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:41:04.847311",
+    "website": "https://draftbit.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 782.97,
+      "final_url": "https://draftbit.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:41:05.630285"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "draftbit.com",
+      "registrar": "Gandi SAS",
+      "creation_date": "2017-03-10T19:09:45",
+      "expiration_date": "2026-03-10T19:09:45",
+      "domain_age_days": 3142,
+      "domain_age_years": 8.6,
+      "name_servers": [
+        "DEMI.NS.CLOUDFLARE.COM",
+        "SKIP.NS.CLOUDFLARE.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://x.com/draftbit",
+      "linkedin": null,
+      "github": "https://github.com/draftbit",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": true,
+      "x_frame_options": true,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 50,
+      "server": "Unknown"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:19:48.859794",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:19:35.635799",
+    "place_data": {
+      "status": "not_found",
+      "query": "Chicago, IL, USA; Remote",
+      "methods_tried": [
+        "static_db",
+        "nominatim",
+        "geonames"
+      ]
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:35.901867",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/draftbit"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 50,
+        "packages": [
+          {
+            "name": "@draftbit/native",
+            "description": "Draftbit UI Components that Depend on Native Components",
+            "version": "53.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@draftbit/native"
+          },
+          {
+            "name": "@draftbit/ui",
+            "description": "Draftbit UI Library",
+            "version": "53.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@draftbit/ui"
+          },
+          {
+            "name": "@draftbit/web",
+            "description": "Draftbit UI Library",
+            "version": "40.29.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@draftbit/web"
+          },
+          {
+            "name": "@draftbit/typography",
+            "description": "Typography components for Draftbit",
+            "version": "0.1.31",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@draftbit/typography"
+          },
+          {
+            "name": "@draftbit/core",
+            "description": "Core (non-native) Components",
+            "version": "53.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@draftbit/core"
+          },
+          {
+            "name": "@draftbit/charts",
+            "description": "Chart components for Draftbit",
+            "version": "0.10.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@draftbit/charts"
+          },
+          {
+            "name": "@draftbit/layout",
+            "description": "Draftbit UI Library",
+            "version": "40.27.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@draftbit/layout"
+          },
+          {
+            "name": "@draftbit/maps",
+            "description": "Map Components",
+            "version": "53.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@draftbit/maps"
+          },
+          {
+            "name": "@draftbit/theme",
+            "description": "Draftbit's themeing system",
+            "version": "53.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@draftbit/theme"
+          },
+          {
+            "name": "@draftbit/types",
+            "description": "Shared constants and types between native and core components",
+            "version": "50.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@draftbit/types"
+          },
+          {
+            "name": "@draftbit/navigation",
+            "description": "Navigation components for Draftbit",
+            "version": "0.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@draftbit/navigation"
+          },
+          {
+            "name": "@draftbit/web-maps",
+            "description": "Web Map Components",
+            "version": "48.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@draftbit/web-maps"
+          },
+          {
+            "name": "@dicebear/personas",
+            "description": "Avatar style for DiceBear",
+            "version": "9.2.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@dicebear/personas"
+          },
+          {
+            "name": "@fancydevpro/draftbit-ui",
+            "description": "Draftbit UI Library",
+            "version": "39.7.1-patch-types-fix-3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@fancydevpro/draftbit-ui"
+          },
+          {
+            "name": "@samstowers/draftbit-ui",
+            "description": "Draftbit UI Library",
+            "version": "39.7.1-patch-date-picker-3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@samstowers/draftbit-ui"
+          },
+          {
+            "name": "twitter-lite",
+            "description": "Tiny, full-featured client/server REST/stream library for the Twitter API",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/twitter-lite"
+          },
+          {
+            "name": "@draftbit/react-theme-provider",
+            "description": "Theme provider for react and react-naitve applications",
+            "version": "2.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@draftbit/react-theme-provider"
+          },
+          {
+            "name": "@draftbit/airtable-graphql",
+            "description": "Deploy a GraphQL server for an airtable base",
+            "version": "2.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@draftbit/airtable-graphql"
+          },
+          {
+            "name": "@draftbit/variable-json",
+            "description": "This defines a superset of JSON, with the addition of \"variables\" which appear between curly braces (e.g. `{{someVariable}}`). The format of the variables can be customized by the user, although by default it will parse an alphanuxmeric identifier which c",
+            "version": "1.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@draftbit/variable-json"
+          },
+          {
+            "name": "expo-crypto-polyfills",
+            "description": "Polyfills needed to build crypto apps on Expo without ejecting",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo-crypto-polyfills"
+          },
+          {
+            "name": "@draftbit/graphql_ppx_re",
+            "description": "GraphQL PPX rewriter for Bucklescript/ReasonML",
+            "version": "0.8.0-3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@draftbit/graphql_ppx_re"
+          },
+          {
+            "name": "briicks-draftbit-icon",
+            "description": "An icon pack for Briicks React Native project",
+            "version": "0.1.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/briicks-draftbit-icon"
+          },
+          {
+            "name": "@draftbit/webview",
+            "description": "Wrapper around react-native-webview",
+            "version": "46.0.1-d67679.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@draftbit/webview"
+          },
+          {
+            "name": "@draftbit/hapi-airtable-authentication-plugin",
+            "description": "Plugin to add JWT-based authentication to a Hapi server using Airtable as a data store",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@draftbit/hapi-airtable-authentication-plugin"
+          },
+          {
+            "name": "@draftbit/re-font-awesome",
+            "description": "## Usage",
+            "version": "1.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@draftbit/re-font-awesome"
+          },
+          {
+            "name": "@draftbit/react-nav-auth-flow",
+            "description": "Auth Flow for React Navigation",
+            "version": "0.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@draftbit/react-nav-auth-flow"
+          },
+          {
+            "name": "twitter-lite-older-crypto",
+            "description": "Tiny, full-featured client/server REST/stream library for the Twitter API",
+            "version": "0.15.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/twitter-lite-older-crypto"
+          },
+          {
+            "name": "@slorber/twitter-lite",
+            "description": "Tiny, full-featured client/server REST/stream library for the Twitter API",
+            "version": "1.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@slorber/twitter-lite"
+          },
+          {
+            "name": "stellarsolvers-twitter-lite",
+            "description": "Tiny, full-featured client/server REST/stream library for the Twitter API",
+            "version": "0.14.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/stellarsolvers-twitter-lite"
+          },
+          {
+            "name": "@draftbit/iframe-element-picker",
+            "description": "A library that facilitates element picking on a web app and provides a communication channel for a parent to get the picked element through a cross-origin iframe.",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@draftbit/iframe-element-picker"
+          },
+          {
+            "name": "@draftbit/hapi-airtable-sms-authentication-plugin",
+            "description": "Plugin to add Twilio SMS authentication to a Hapi server using Airtable as a data store",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@draftbit/hapi-airtable-sms-authentication-plugin"
+          },
+          {
+            "name": "@draftbit/re-font-awesome-pro",
+            "description": "## Usage",
+            "version": "0.2.0-0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@draftbit/re-font-awesome-pro"
+          },
+          {
+            "name": "twitter-lite-v2",
+            "description": "Tiny, full-featured client/server REST/stream library for the Twitter API",
+            "version": "0.14.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/twitter-lite-v2"
+          },
+          {
+            "name": "@draftbit/react-native-progress",
+            "description": "Progress indicators and spinners for React Native using ReactART",
+            "version": "3.6.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@draftbit/react-native-progress"
+          },
+          {
+            "name": "@draftbit/auth-schema-link",
+            "description": null,
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@draftbit/auth-schema-link"
+          },
+          {
+            "name": "@draftbit/babel-plugin-inject-jsx-source",
+            "description": "A babel plugin that injects the source information into the attributes of the JSX element. This is to be used in order to find the location of the element in the source code from the DOM tree.",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@draftbit/babel-plugin-inject-jsx-source"
+          },
+          {
+            "name": "@draftbit/application-asset-generator",
+            "description": "A tool to quickly generate mobile app assets",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@draftbit/application-asset-generator"
+          },
+          {
+            "name": "@draftbit/studios-utils",
+            "description": null,
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@draftbit/studios-utils"
+          },
+          {
+            "name": "@draftbit/cypress-image-snapshot",
+            "description": "Cypress bindings for jest-image-snapshot.",
+            "version": "5.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@draftbit/cypress-image-snapshot"
+          },
+          {
+            "name": "@sefa-draftbit/react-native-esp-idf-provisioning",
+            "description": "Android and iOS wrapper for ESP IDF provisioning",
+            "version": "0.4.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sefa-draftbit/react-native-esp-idf-provisioning"
+          },
+          {
+            "name": "@rescript-bindings/expo",
+            "description": "Rescript bindings for Expo",
+            "version": "40.3.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@rescript-bindings/expo"
+          },
+          {
+            "name": "@draftbit/rn-image-uploader",
+            "description": null,
+            "version": "0.2.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@draftbit/rn-image-uploader"
+          },
+          {
+            "name": "mdptwitterlite",
+            "description": "Temp library for TwitterLite",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/mdptwitterlite"
+          },
+          {
+            "name": "@kossnocorp/twitter-lite",
+            "description": "Tiny, full-featured client/server REST/stream library for the Twitter API",
+            "version": "0.15.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@kossnocorp/twitter-lite"
+          },
+          {
+            "name": "nestjs-twitter-lite",
+            "description": "A mailer module for Nest framework (node.js) using twitter-lite",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/nestjs-twitter-lite"
+          },
+          {
+            "name": "@paulxuca/twitter-lite",
+            "description": "Tiny, full-featured client/server REST/stream library for the Twitter API",
+            "version": "0.9.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@paulxuca/twitter-lite"
+          },
+          {
+            "name": "hexagram-twitter-lite",
+            "description": "Tiny, full-featured client/server REST/stream library for the Twitter API",
+            "version": "1.1.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/hexagram-twitter-lite"
+          },
+          {
+            "name": "@team11ingsw/twitter-lite",
+            "description": "Tiny, full-featured client/server REST/stream library for the Twitter API",
+            "version": "1.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@team11ingsw/twitter-lite"
+          },
+          {
+            "name": "react-native-twitter-lite",
+            "description": "Tiny, full-featured client/server REST/stream library for the Twitter API",
+            "version": "0.14.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-native-twitter-lite"
+          },
+          {
+            "name": "twitter-media-upload",
+            "description": "fix to media upload",
+            "version": "0.14.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/twitter-media-upload"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 50,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:19:37.176337"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:37.176342",
+    "batch_network": {
+      "batch": "Winter 2018",
+      "total_batch_mates": 145,
+      "active_batch_mates": 83,
+      "batch_success_rate": 57.2,
+      "notable_batch_mates": [
+        {
+          "name": "Newfront",
+          "slug": "newfront-insurance",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "Modern insurance brokerage."
+        },
+        {
+          "name": "Mayhem",
+          "slug": "mayhem",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Mayhem is the easiest way to play with your gaming community."
+        },
+        {
+          "name": "Pulse",
+          "slug": "pulse-2",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "We're crowdsourced Gartner so IT executives can learn directly from\u2026"
+        },
+        {
+          "name": "Bear Flag Robotics",
+          "slug": "bear-flag-robotics",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Autonomous driving technology for farm tractors."
+        },
+        {
+          "name": "ClearBrain",
+          "slug": "clearbrain",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Causal Analytics for Growth Teams"
+        },
+        {
+          "name": "Sepsis Scout",
+          "slug": "sepsis-scout",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Wearables and AI to predict and prevent sepsis outside the hospital"
+        },
+        {
+          "name": "onederful",
+          "slug": "onederful",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Dental Insurance API"
+        },
+        {
+          "name": "CodeStream",
+          "slug": "codestream",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "CodeStream is a Developer Collaboration Platform designed to\u2026"
+        },
+        {
+          "name": "Glimpse K12",
+          "slug": "glimpse-k12",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Glimpse eliminates ineffective spending in schools."
+        },
+        {
+          "name": "Squad",
+          "slug": "squad",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Squad is an app for live communities to have shared experiences\u2026"
+        }
+      ],
+      "batch_size": 146
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "status": "Active",
+          "batch": "Winter 2012",
+          "one_liner": "High Performance Computing Built for the Cloud"
+        },
+        {
+          "name": "Marft",
+          "slug": "marft",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Marft creates embeddable machine learning models for application\u2026"
+        },
+        {
+          "name": "Pixelapse",
+          "slug": "pixelapse",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Github for designers. We automatically keep track of revisions of\u2026"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Palantir for sales people"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Smart search for the modern team."
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Authy is a Two-Factor Authentication platform for developers"
+        },
+        {
+          "name": "Flutter",
+          "slug": "flutter",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Flutter combined computer vision technology with the built-in webcams\u2026"
+        },
+        {
+          "name": "SolidStage",
+          "slug": "solidstage",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Sysadmin as a service. We make deploying, configuring, monitoring,\u2026"
+        },
+        {
+          "name": "Clutch",
+          "slug": "clutch",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "An easy to integrate library for native iOS applications designed to\u2026"
+        },
+        {
+          "name": "OneSignal",
+          "slug": "onesignal",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Engage customers through personalized omni-channel messaging"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Chicago",
+      "location": "Chicago, IL, USA; Remote",
+      "companies_in_city": 26,
+      "active_in_city": 13,
+      "nearby_companies": [
+        {
+          "name": "Aisle50",
+          "slug": "aisle50",
+          "batch": "Summer 2011",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Debteye",
+          "slug": "debteye",
+          "batch": "Summer 2011",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Draft",
+          "slug": "draft",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tutorspree",
+          "slug": "tutorspree",
+          "batch": "Winter 2011",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "Inkling",
+          "slug": "inkling",
+          "batch": "Winter 2006",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "CodeNow",
+          "slug": "codenow",
+          "batch": "Winter 2014",
+          "industry": "Unspecified",
+          "status": "Active"
+        },
+        {
+          "name": "ShipBob",
+          "slug": "shipbob",
+          "batch": "Summer 2014",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Popular Pays",
+          "slug": "popular-pays",
+          "batch": "Winter 2015",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Bluecrew",
+          "slug": "bluecrew",
+          "batch": "Summer 2015",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Tovala",
+          "slug": "tovala",
+          "batch": "Winter 2016",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "mRelief",
+          "slug": "mrelief",
+          "batch": "Winter 2016",
+          "industry": "Unspecified",
+          "status": "Active"
+        },
+        {
+          "name": "TRAC",
+          "slug": "trac",
+          "batch": "Winter 2016",
+          "industry": "Healthcare",
+          "status": "Inactive"
+        },
+        {
+          "name": "Airfordable",
+          "slug": "airfordable",
+          "batch": "Summer 2016",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "HappiLabs",
+          "slug": "happilabs",
+          "batch": "Summer 2018",
+          "industry": "Healthcare",
+          "status": "Acquired"
+        },
+        {
+          "name": "Preflight",
+          "slug": "preflight",
+          "batch": "Winter 2019",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Obie",
+          "slug": "obie",
+          "batch": "Summer 2019",
+          "industry": "Real Estate and Construction",
+          "status": "Active"
+        },
+        {
+          "name": "TaxProper",
+          "slug": "taxproper",
+          "batch": "Summer 2019",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Protobase",
+          "slug": "protobase",
+          "batch": "Winter 2020",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Fly.io",
+          "slug": "fly-io",
+          "batch": "Winter 2020",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Synapticure",
+          "slug": "synapticure",
+          "batch": "Summer 2020",
+          "industry": "Healthcare",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Shogun",
+        "slug": "shogun",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "CodeStream",
+        "slug": "codestream",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "NewCraft",
+        "slug": "newcraft",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "EnvKey",
+        "slug": "envkey",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Haiku",
+        "slug": "haiku",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "miru",
+        "slug": "miru",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Storyline",
+        "slug": "storyline",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Pagedraw",
+        "slug": "pagedraw",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Voicery",
+        "slug": "voicery",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Iambiq Technologies",
+        "slug": "iambiq-technologies",
+        "batch": "Winter 2018",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 2917,
+      "network_density_score": 74.2,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:19:37.192772"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:37.192781",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:37.539226",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:19:37.654462",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 10,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:49.208294",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increased demand for mobile apps across industries",
+        "Rise of citizen developers and low-code/no-code platforms",
+        "Growing need for rapid mobile app development"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "First-mover advantage in visual mobile app development, strong community, potentially proprietary technology.",
+      "differentiation": "Focus on generating clean, production-ready source code, empowering developers with control and flexibility.",
+      "competitive_advantages": [
+        "Visual development environment lowers entry barrier",
+        "Source code generation allows for customization and avoids vendor lock-in"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on third-party libraries and frameworks",
+        "Potential performance limitations compared to native development"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "series-a",
+      "growth_indicators": [
+        "Increasing user base and app deployments",
+        "Growing community and marketplace of components",
+        "Positive user reviews and testimonials"
+      ],
+      "growth_bottlenecks": [
+        "Complexity of the platform for non-technical users",
+        "Competition from established low-code/no-code platforms"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Maintaining platform compatibility with evolving mobile OS versions",
+        "Attracting and retaining skilled engineers",
+        "Ensuring the quality and performance of generated code"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong team with experience in mobile development",
+        "Large and growing market for mobile app development",
+        "Differentiated product with source code generation"
+      ],
+      "concerns": [
+        "Competition from established players",
+        "Potential limitations of visual development approach"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Adalo",
+        "Bubble"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on improving the user experience and onboarding process",
+        "Expand the platform's capabilities with new components and integrations"
+      ],
+      "expansion_opportunities": [
+        "Target specific industry verticals with tailored solutions",
+        "Develop a marketplace for reusable components and templates"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 706,
+      "completion": 661,
+      "total": 1367,
+      "estimated_cost": 0.000251
+    }
+  },
+  "phase8_complete": true
+}

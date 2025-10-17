@@ -1,0 +1,148 @@
+{
+  "slug": "peerdb",
+  "name": "PeerDB",
+  "yc_id": 28659,
+  "batch": "Summer 2023",
+  "website": "https://peerdb.io/",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T01:23:45.755746",
+    "website": "https://peerdb.io/",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 4825.29,
+      "final_url": "https://www.peerdb.io/",
+      "redirected": true,
+      "checked_at": "2025-10-17T01:23:50.581048"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "peerdb.io",
+      "registrar": "https://www.101domain.com/",
+      "creation_date": "2021-05-02T15:12:04",
+      "expiration_date": "2026-05-02T15:12:04",
+      "domain_age_days": 1628,
+      "domain_age_years": 4.5,
+      "name_servers": [
+        "eric.ns.cloudflare.com",
+        "pam.ns.cloudflare.com"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/PeerDBInc",
+      "linkedin": "https://www.linkedin.com/company/peerdb/",
+      "github": "https://github.com/PeerDB-io/peerdb",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 16,
+      "server": "Unknown"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:39:17.736823",
+  "phase1_complete": true,
+  "phase2_complete": false,
+  "phase3_complete": false,
+  "phase4_complete": false,
+  "phase5_complete": false,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:42.950012",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "medium",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increasing adoption of data warehouses",
+        "Demand for real-time data streaming",
+        "Shift towards cloud-based data solutions"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Potentially technology-based due to performance (10x faster), but needs further validation. Switching costs for existing ETL solutions could be a barrier.",
+      "differentiation": "Focus on Postgres and performance (10x faster)",
+      "competitive_advantages": [
+        "Performance (10x faster)",
+        "Native Postgres support"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on Postgres ecosystem",
+        "Potential competition from larger, more established ETL vendors"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "low"
+    },
+    "growth_assessment": {
+      "growth_stage": "seed",
+      "growth_indicators": [
+        "Customer acquisition rate",
+        "Data volume processed"
+      ],
+      "growth_bottlenecks": [
+        "Sales and marketing",
+        "Integration with new data warehouses/queues"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Competition from established players",
+        "Maintaining performance advantage",
+        "Evolving data landscape"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong performance claims",
+        "Focus on a popular database (Postgres)",
+        "Clear value proposition"
+      ],
+      "concerns": [
+        "Limited information available (acquired quickly)",
+        "Sustainability of the performance advantage"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Fivetran",
+        "Airbyte"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on customer acquisition and retention",
+        "Expand integrations with other data platforms"
+      ],
+      "expansion_opportunities": [
+        "Offer managed service",
+        "Support more databases"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 724,
+      "completion": 585,
+      "total": 1309,
+      "estimated_cost": 0.00023
+    }
+  },
+  "phase8_complete": true
+}

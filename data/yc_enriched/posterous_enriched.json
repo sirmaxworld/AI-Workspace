@@ -1,0 +1,604 @@
+{
+  "slug": "posterous",
+  "name": "Posterous",
+  "yc_id": 281,
+  "batch": "Summer 2008",
+  "website": "http://posterous.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:31:01.733205",
+    "website": "http://posterous.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 404,
+      "response_time_ms": 322.42,
+      "final_url": "http://posterous.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:31:02.055649"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "posterous.com",
+      "registrar": "NameCheap, Inc.",
+      "creation_date": "2007-12-24T02:35:08",
+      "expiration_date": "2025-12-24T02:35:08",
+      "domain_age_days": 6506,
+      "domain_age_years": 17.8,
+      "name_servers": [
+        "DNS1.REGISTRAR-SERVERS.COM",
+        "DNS2.REGISTRAR-SERVERS.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": false,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 0,
+      "server": "heroku-router"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:13:12.620217",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:57:15.961804",
+    "place_data": {
+      "status": "not_found",
+      "query": "San Francisco, CA, USA"
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:57:16.066219",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:57:16.066231",
+    "batch_network": {
+      "batch": "Summer 2008",
+      "total_batch_mates": 21,
+      "active_batch_mates": 1,
+      "batch_success_rate": 4.8,
+      "notable_batch_mates": [
+        {
+          "name": "Cloudant",
+          "slug": "cloudant",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "NoSQL Database-aaS.  Acquired by IBM in 2014.  Now IBM Cloud Data\u2026"
+        },
+        {
+          "name": "JustSpotted",
+          "slug": "justspotted",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Acquired by Google in 2011"
+        },
+        {
+          "name": "BackType",
+          "slug": "backtype",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "BackType was an analytics company acquired by Twitter in 2011"
+        }
+      ],
+      "batch_size": 22
+    },
+    "industry_network": {
+      "industries": [
+        "Consumer",
+        "Social"
+      ],
+      "total_industry_peers": 852,
+      "active_industry_peers": 408,
+      "direct_competitors": [
+        {
+          "name": "Couple",
+          "slug": "couple",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "App that connects two phones and creates a private\r\ntimeline to share\u2026"
+        },
+        {
+          "name": "FamilyLeaf",
+          "slug": "familyleaf",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Help families stay in touch"
+        },
+        {
+          "name": "Zipio",
+          "slug": "zipio",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Deal search service"
+        },
+        {
+          "name": "Talkray (TiKL)",
+          "slug": "talkray-tikl",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Instantly talk or text to one or a group of friends at once with the\u2026"
+        },
+        {
+          "name": "Everyme",
+          "slug": "everyme",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "The #1 private social network"
+        },
+        {
+          "name": "Vapor",
+          "slug": "vapor",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "In-video advertising."
+        },
+        {
+          "name": "GlassMap",
+          "slug": "glassmap",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Location sharing. Acquired by Groupon in 2013."
+        },
+        {
+          "name": "Hungry Labs",
+          "slug": "hungry-labs",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Now part of Snaplayer."
+        },
+        {
+          "name": "Assembled",
+          "slug": "assembled",
+          "status": "Inactive",
+          "batch": "Winter 2011",
+          "one_liner": "Pivoted to TenXList, a professional network of top college engineers."
+        },
+        {
+          "name": "Convore",
+          "slug": "convore",
+          "status": "Inactive",
+          "batch": "Winter 2011",
+          "one_liner": "Hosted IRC and so much more."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "San Francisco",
+      "location": "San Francisco, CA, USA",
+      "companies_in_city": 2007,
+      "active_in_city": 1340,
+      "nearby_companies": [
+        {
+          "name": "42Floors",
+          "slug": "42floors",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "PlanGrid",
+          "slug": "plangrid",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "MyVR",
+          "slug": "myvr",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Couple",
+          "slug": "couple",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HackPad",
+          "slug": "hackpad",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Gusto",
+          "slug": "gusto",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "FamilyLeaf",
+          "slug": "familyleaf",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Chute",
+          "slug": "chute",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Make School",
+          "slug": "make-school",
+          "batch": "Winter 2012",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Exec",
+          "slug": "exec",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Public"
+        },
+        {
+          "name": "LendUp",
+          "slug": "lendup",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tilt",
+          "slug": "tilt",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fond",
+          "slug": "fond",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Picwing",
+        "slug": "picwing",
+        "batch": "Summer 2008",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "OhLife",
+        "slug": "ohlife",
+        "batch": "Summer 2008",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Treehouse",
+        "slug": "treehouse",
+        "batch": "Summer 2008",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Slinkset",
+        "slug": "slinkset",
+        "batch": "Summer 2008",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Couple",
+        "slug": "couple",
+        "batch": "Winter 2012",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "FamilyLeaf",
+        "slug": "familyleaf",
+        "batch": "Winter 2012",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "GlassMap",
+        "slug": "glassmap",
+        "batch": "Summer 2011",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Convore",
+        "slug": "convore",
+        "batch": "Winter 2011",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Fanvibe",
+        "slug": "fanvibe",
+        "batch": "Summer 2010",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Fridge",
+        "slug": "fridge",
+        "batch": "Summer 2010",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 2880,
+      "network_density_score": 84.2,
+      "has_strong_batch_network": false,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T09:57:16.076074"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:57:16.076086",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:57:16.400999",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:57:16.515488",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 11,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:40:47.076991",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Social media explosion",
+        "Mobile content creation surge",
+        "Simplified publishing demand"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Simplicity-first user experience with email-based publishing workflow",
+      "differentiation": "Email-to-blog publishing eliminates technical barriers for content creation",
+      "competitive_advantages": [
+        "Ultra-low friction onboarding",
+        "Cross-platform sharing integration"
+      ],
+      "competitive_vulnerabilities": [
+        "Limited monetization features",
+        "Dependence on email infrastructure"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "Freemium/advertising",
+      "scalability": "high",
+      "capital_intensity": "low"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "15M monthly users",
+        "Strong viral coefficient from sharing"
+      ],
+      "growth_bottlenecks": [
+        "User retention challenges",
+        "Monetization conversion rates"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "high",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 7,
+      "key_risks": [
+        "Platform competition from Facebook/Twitter",
+        "Blogging market consolidation",
+        "Mobile-first shift challenges"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Massive user base",
+        "Proven product-market fit",
+        "Strong team execution"
+      ],
+      "concerns": [
+        "Revenue model unclear",
+        "Intense platform competition"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Tumblr",
+        "WordPress",
+        "Blogger"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Accelerate mobile app development",
+        "Implement premium subscription tiers"
+      ],
+      "expansion_opportunities": [
+        "Enterprise team collaboration",
+        "E-commerce integration for creators"
+      ]
+    },
+    "tokens_used": {
+      "input": 707,
+      "output": 492,
+      "total": 1199,
+      "estimated_cost": 0.009501
+    }
+  },
+  "phase8_complete": true
+}

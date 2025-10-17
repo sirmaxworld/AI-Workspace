@@ -1,0 +1,758 @@
+{
+  "catalog_metadata": {
+    "name": "Content Sources Catalog",
+    "version": "1.0.0",
+    "created_date": "2025-10-16",
+    "description": "Comprehensive catalog of influential websites across multiple domains for content extraction and knowledge base building",
+    "total_sources": 76,
+    "all_paywall_free": true
+  },
+  "categories": {
+    "ai_tools_and_news": {
+      "category_name": "AI Tools & News",
+      "description": "Latest AI developments, tools, releases, and industry news",
+      "priority": "high",
+      "update_frequency": "daily",
+      "sources": [
+        {
+          "name": "Hacker News (YCombinator)",
+          "url": "https://news.ycombinator.com",
+          "type": "news_aggregator",
+          "primary_content": "tech_news",
+          "has_rss": true,
+          "has_api": true,
+          "extraction_method": "api",
+          "notes": "Community-driven tech news. HN API available at https://github.com/HackerNews/API",
+          "priority": "critical"
+        },
+        {
+          "name": "TechCrunch AI",
+          "url": "https://techcrunch.com/category/artificial-intelligence/",
+          "type": "news_blog",
+          "primary_content": "ai_news",
+          "has_rss": true,
+          "extraction_method": "rss",
+          "notes": "Leading tech journalism covering AI developments"
+        },
+        {
+          "name": "MarkTechPost",
+          "url": "https://www.marktechpost.com",
+          "type": "blog",
+          "primary_content": "ai_news",
+          "has_rss": true,
+          "extraction_method": "scraping",
+          "notes": "Bite-sized AI news, model releases, technical breakdowns"
+        },
+        {
+          "name": "OpenTools AI News",
+          "url": "https://opentools.ai/news",
+          "type": "news_aggregator",
+          "primary_content": "ai_tools",
+          "extraction_method": "scraping",
+          "notes": "Daily updated AI news and insights"
+        },
+        {
+          "name": "The Rundown AI",
+          "url": "https://www.therundown.ai",
+          "type": "newsletter",
+          "primary_content": "ai_news",
+          "has_rss": false,
+          "extraction_method": "newsletter_archive",
+          "notes": "1.75M+ readers, quick trending news"
+        },
+        {
+          "name": "MIT Technology Review",
+          "url": "https://www.technologyreview.com",
+          "type": "magazine",
+          "primary_content": "tech_analysis",
+          "has_rss": true,
+          "extraction_method": "rss",
+          "notes": "In-depth AI analysis from MIT"
+        },
+        {
+          "name": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog",
+          "type": "blog",
+          "primary_content": "ai_tutorials",
+          "has_rss": true,
+          "extraction_method": "rss",
+          "notes": "Open-source NLP community hub with tutorials"
+        },
+        {
+          "name": "AI News",
+          "url": "https://www.artificialintelligence-news.com",
+          "type": "news_blog",
+          "primary_content": "ai_news",
+          "has_rss": true,
+          "extraction_method": "rss",
+          "notes": "AI market trends and insights"
+        },
+        {
+          "name": "Times of AI",
+          "url": "https://www.timesofai.com",
+          "type": "news_blog",
+          "primary_content": "ai_news",
+          "has_rss": true,
+          "extraction_method": "rss",
+          "notes": "AI, ML, and cybersecurity news"
+        },
+        {
+          "name": "Google AI Blog",
+          "url": "https://blog.google/technology/ai/",
+          "type": "corporate_blog",
+          "primary_content": "ai_research",
+          "has_rss": true,
+          "extraction_method": "rss",
+          "notes": "Direct updates from Google's AI research"
+        }
+      ]
+    },
+    "business_trends_and_publications": {
+      "category_name": "Business Trends & Publications",
+      "description": "Business news, trends, entrepreneurship, and market analysis",
+      "priority": "high",
+      "update_frequency": "daily",
+      "sources": [
+        {
+          "name": "Small Business Trends",
+          "url": "https://smallbiztrends.com",
+          "type": "blog",
+          "primary_content": "sme_news",
+          "has_rss": true,
+          "extraction_method": "rss",
+          "notes": "Award-winning SME publication, completely free"
+        },
+        {
+          "name": "Inc.com",
+          "url": "https://www.inc.com",
+          "type": "magazine",
+          "primary_content": "business_news",
+          "has_rss": true,
+          "extraction_method": "scraping",
+          "notes": "Extensive free online resources, startup ecosystem coverage"
+        },
+        {
+          "name": "Forbes",
+          "url": "https://www.forbes.com",
+          "type": "magazine",
+          "primary_content": "business_news",
+          "has_rss": true,
+          "extraction_method": "scraping",
+          "notes": "Mix of free articles on wealth, entrepreneurship, billionaires"
+        },
+        {
+          "name": "Fast Company",
+          "url": "https://www.fastcompany.com",
+          "type": "magazine",
+          "primary_content": "innovation",
+          "has_rss": true,
+          "extraction_method": "rss",
+          "notes": "Technology, leadership, creativity for 20-30 year olds"
+        },
+        {
+          "name": "Bloomberg Businessweek",
+          "url": "https://www.bloomberg.com/businessweek",
+          "type": "magazine",
+          "primary_content": "finance",
+          "has_rss": false,
+          "extraction_method": "scraping",
+          "notes": "Finance, economics, global strategy (limited free access)"
+        },
+        {
+          "name": "McKinsey Quarterly",
+          "url": "https://www.mckinsey.com/quarterly",
+          "type": "journal",
+          "primary_content": "consulting",
+          "has_rss": false,
+          "extraction_method": "scraping",
+          "notes": "Free management consulting insights"
+        },
+        {
+          "name": "Knowledge @ Wharton",
+          "url": "https://knowledge.wharton.upenn.edu",
+          "type": "academic",
+          "primary_content": "business_research",
+          "has_rss": true,
+          "extraction_method": "rss",
+          "notes": "Free Wharton Business School content"
+        },
+        {
+          "name": "Entrepreneur",
+          "url": "https://www.entrepreneur.com",
+          "type": "magazine",
+          "primary_content": "entrepreneurship",
+          "has_rss": true,
+          "extraction_method": "rss",
+          "notes": "Go-to for entrepreneurs and business leaders"
+        },
+        {
+          "name": "Reuters Business",
+          "url": "https://www.reuters.com/business",
+          "type": "news",
+          "primary_content": "business_news",
+          "has_rss": true,
+          "extraction_method": "rss",
+          "notes": "Wide breadth of business and economics coverage"
+        },
+        {
+          "name": "CEOWORLD Magazine",
+          "url": "https://ceoworld.biz",
+          "type": "magazine",
+          "primary_content": "executive_news",
+          "has_rss": false,
+          "extraction_method": "scraping",
+          "notes": "News for CEOs and senior executives"
+        }
+      ]
+    },
+    "meditation_and_manifestation": {
+      "category_name": "Meditation & Manifestation",
+      "description": "Meditation practices, manifestation techniques, mindfulness content",
+      "priority": "medium",
+      "update_frequency": "weekly",
+      "sources": [
+        {
+          "name": "Insight Timer",
+          "url": "https://insighttimer.com",
+          "type": "platform",
+          "primary_content": "meditation_guides",
+          "has_api": true,
+          "extraction_method": "api",
+          "notes": "100,000+ free guided meditations, largest free library"
+        },
+        {
+          "name": "Wildmind",
+          "url": "https://www.wildmind.org",
+          "type": "education",
+          "primary_content": "meditation_courses",
+          "has_rss": true,
+          "extraction_method": "scraping",
+          "notes": "Free online meditation center with courses"
+        },
+        {
+          "name": "About Meditation",
+          "url": "https://about-meditation.com",
+          "type": "blog",
+          "primary_content": "meditation_guides",
+          "extraction_method": "scraping",
+          "notes": "Free beginner's course and guided meditations"
+        },
+        {
+          "name": "Manifest Lovers",
+          "url": "https://www.manifestlovers.com/blog",
+          "type": "blog",
+          "primary_content": "manifestation",
+          "has_rss": true,
+          "extraction_method": "rss",
+          "notes": "Psychology + Law of Attraction practices"
+        },
+        {
+          "name": "The Millennial Grind Manifestation",
+          "url": "https://millennial-grind.com",
+          "type": "blog",
+          "primary_content": "manifestation",
+          "has_rss": true,
+          "extraction_method": "rss",
+          "notes": "Top manifestation meditation videos"
+        },
+        {
+          "name": "Mind Movies Blog",
+          "url": "https://www.mindmovies.com/blog.php",
+          "type": "blog",
+          "primary_content": "law_of_attraction",
+          "extraction_method": "scraping",
+          "notes": "Weekly Law of Attraction content"
+        },
+        {
+          "name": "Big Manifestation",
+          "url": "https://bigmanifestation.com/free",
+          "type": "resource_hub",
+          "primary_content": "manifestation_resources",
+          "extraction_method": "scraping",
+          "notes": "Free manifestation guides and resources"
+        },
+        {
+          "name": "Tara Brach",
+          "url": "https://www.tarabrach.com",
+          "type": "podcast",
+          "primary_content": "meditation_podcasts",
+          "has_rss": true,
+          "extraction_method": "rss",
+          "notes": "Free meditation podcasts, Western Buddhism perspective"
+        },
+        {
+          "name": "Dr. Amiett Kumar",
+          "url": "https://amiettkumar.com",
+          "type": "educator",
+          "primary_content": "manifestation_courses",
+          "extraction_method": "youtube",
+          "notes": "YouTube channels with 3.21M+ subscribers on manifestation"
+        },
+        {
+          "name": "Declutter The Mind",
+          "url": "https://declutterthemind.com/blog",
+          "type": "blog",
+          "primary_content": "mindfulness",
+          "has_rss": true,
+          "extraction_method": "rss",
+          "notes": "Meditation, mindfulness, and self-improvement"
+        }
+      ]
+    },
+    "quantum_physics": {
+      "category_name": "Quantum Physics",
+      "description": "Quantum physics education, courses, and research resources",
+      "priority": "medium",
+      "update_frequency": "weekly",
+      "sources": [
+        {
+          "name": "MIT OpenCourseWare - Quantum Physics",
+          "url": "https://ocw.mit.edu",
+          "type": "educational",
+          "primary_content": "courses",
+          "has_api": false,
+          "extraction_method": "scraping",
+          "notes": "Complete free MIT courses with materials"
+        },
+        {
+          "name": "Coursera Quantum Physics",
+          "url": "https://www.coursera.org/courses?query=quantum+physics",
+          "type": "mooc",
+          "primary_content": "courses",
+          "has_api": true,
+          "extraction_method": "api",
+          "notes": "Free audit option for university courses"
+        },
+        {
+          "name": "edX Quantum Mechanics",
+          "url": "https://www.edx.org/learn/quantum-physics-mechanics",
+          "type": "mooc",
+          "primary_content": "courses",
+          "has_api": true,
+          "extraction_method": "api",
+          "notes": "Free courses from top universities"
+        },
+        {
+          "name": "Stanford Online - Quantum Mechanics",
+          "url": "https://online.stanford.edu",
+          "type": "educational",
+          "primary_content": "courses",
+          "extraction_method": "scraping",
+          "notes": "Accessible to science/engineering backgrounds"
+        },
+        {
+          "name": "PBS LearningMedia - Quantum Physics",
+          "url": "https://www.pbslearningmedia.org",
+          "type": "educational",
+          "primary_content": "interactive_resources",
+          "extraction_method": "scraping",
+          "notes": "Free interactive educational resources"
+        },
+        {
+          "name": "Class Central Quantum",
+          "url": "https://www.classcentral.com/subject/quantum-physics",
+          "type": "aggregator",
+          "primary_content": "course_aggregation",
+          "extraction_method": "scraping",
+          "notes": "1800+ free courses aggregated"
+        },
+        {
+          "name": "Learn QM at Georgia Tech",
+          "url": "https://learnqm.gatech.edu",
+          "type": "educational",
+          "primary_content": "interactive_tools",
+          "extraction_method": "scraping",
+          "notes": "Interactive visualizations and games"
+        },
+        {
+          "name": "Udemy Free Quantum Courses",
+          "url": "https://www.udemy.com",
+          "type": "mooc",
+          "primary_content": "courses",
+          "extraction_method": "api",
+          "notes": "Free introductory quantum mechanics courses"
+        },
+        {
+          "name": "ComPADRE Digital Library",
+          "url": "https://www.compadre.org",
+          "type": "library",
+          "primary_content": "resources",
+          "extraction_method": "scraping",
+          "notes": "Open source quantum education resources"
+        },
+        {
+          "name": "YouTube Physics Channels",
+          "url": "https://www.youtube.com",
+          "type": "video",
+          "primary_content": "lectures",
+          "has_api": true,
+          "extraction_method": "youtube_api",
+          "notes": "Various free lectures (MIT, Stanford, 3Blue1Brown)"
+        }
+      ]
+    },
+    "humor_and_comedy": {
+      "category_name": "Humor & Comedy Standup",
+      "description": "Comedy content, standup specials, humor websites",
+      "priority": "low",
+      "update_frequency": "weekly",
+      "sources": [
+        {
+          "name": "YouTube Comedy Channels",
+          "url": "https://www.youtube.com",
+          "type": "video",
+          "primary_content": "standup_specials",
+          "has_api": true,
+          "extraction_method": "youtube_api",
+          "notes": "Largest free repository of standup specials"
+        },
+        {
+          "name": "Tubi Comedy",
+          "url": "https://tubitv.com/category/stand_up_comedy",
+          "type": "streaming",
+          "primary_content": "comedy_shows",
+          "extraction_method": "scraping",
+          "notes": "Free streaming standup movies and TV shows"
+        },
+        {
+          "name": "Cracked",
+          "url": "https://www.cracked.com",
+          "type": "blog",
+          "primary_content": "comedy_articles",
+          "has_rss": true,
+          "extraction_method": "rss",
+          "notes": "Funny videos, articles, comedy content (50 years of humor)"
+        },
+        {
+          "name": "Dead-Frog Comedy Database",
+          "url": "https://www.dead-frog.com/comedians",
+          "type": "database",
+          "primary_content": "comedian_profiles",
+          "extraction_method": "scraping",
+          "notes": "550+ comedian profiles with videos"
+        },
+        {
+          "name": "9GAG",
+          "url": "https://9gag.com",
+          "type": "social",
+          "primary_content": "memes",
+          "has_api": false,
+          "extraction_method": "scraping",
+          "notes": "GIFs, memes, and viral comedy content"
+        },
+        {
+          "name": "Reddit r/Jokes",
+          "url": "https://www.reddit.com/r/jokes",
+          "type": "forum",
+          "primary_content": "jokes",
+          "has_api": true,
+          "extraction_method": "reddit_api",
+          "notes": "26M+ subscribers, constant new content"
+        },
+        {
+          "name": "The Onion",
+          "url": "https://www.theonion.com",
+          "type": "satire",
+          "primary_content": "satirical_news",
+          "has_rss": true,
+          "extraction_method": "rss",
+          "notes": "Satirical news and comedy videos"
+        },
+        {
+          "name": "Vimeo Comedy",
+          "url": "https://vimeo.com/categories/comedy",
+          "type": "video",
+          "primary_content": "comedy_videos",
+          "has_api": true,
+          "extraction_method": "api",
+          "notes": "Original comedy videos and short films"
+        },
+        {
+          "name": "Comedy Central Standup",
+          "url": "https://www.cc.com",
+          "type": "streaming",
+          "primary_content": "standup_clips",
+          "extraction_method": "scraping",
+          "notes": "Free clips and comedy content"
+        },
+        {
+          "name": "Funny or Die",
+          "url": "https://www.funnyordie.com",
+          "type": "video",
+          "primary_content": "comedy_videos",
+          "extraction_method": "scraping",
+          "notes": "User-generated comedy and celebrity content"
+        }
+      ]
+    },
+    "sme_content": {
+      "category_name": "SME (Small & Medium Enterprise)",
+      "description": "Small and medium business resources, strategies, and news",
+      "priority": "high",
+      "update_frequency": "daily",
+      "sources": [
+        {
+          "name": "Small Business Trends",
+          "url": "https://smallbiztrends.com",
+          "type": "blog",
+          "primary_content": "sme_news",
+          "has_rss": true,
+          "extraction_method": "rss",
+          "notes": "Award-winning, most popular independent SME publication"
+        },
+        {
+          "name": "Business Matters",
+          "url": "https://bmmagazine.co.uk",
+          "type": "magazine",
+          "primary_content": "uk_sme",
+          "has_rss": true,
+          "extraction_method": "rss",
+          "notes": "UK's largest business magazine for entrepreneurs and SMEs"
+        },
+        {
+          "name": "SME Web",
+          "url": "https://www.smeweb.com",
+          "type": "news",
+          "primary_content": "sme_news",
+          "has_rss": true,
+          "extraction_method": "rss",
+          "notes": "UK-focused SME coverage with trends, case studies"
+        },
+        {
+          "name": "Real Business",
+          "url": "https://realbusiness.co.uk",
+          "type": "magazine",
+          "primary_content": "uk_entrepreneurship",
+          "has_rss": true,
+          "extraction_method": "rss",
+          "notes": "Cornerstone for UK entrepreneurship since 1997"
+        },
+        {
+          "name": "My Business (Australia)",
+          "url": "https://mybusiness.com.au",
+          "type": "platform",
+          "primary_content": "australian_sme",
+          "has_rss": false,
+          "extraction_method": "scraping",
+          "notes": "Australia's pre-eminent digital platform for SME owners"
+        },
+        {
+          "name": "Noobpreneur",
+          "url": "https://www.noobpreneur.com",
+          "type": "blog",
+          "primary_content": "small_business",
+          "has_rss": true,
+          "extraction_method": "rss",
+          "notes": "Small business tips, trends, and industry insights"
+        },
+        {
+          "name": "Sage Business Blog",
+          "url": "https://www.sage.com/blog",
+          "type": "corporate_blog",
+          "primary_content": "business_software",
+          "has_rss": true,
+          "extraction_method": "rss",
+          "notes": "Business management advice from accounting to CRM"
+        },
+        {
+          "name": "ISME (Ireland)",
+          "url": "https://isme.ie",
+          "type": "association",
+          "primary_content": "irish_sme",
+          "has_rss": true,
+          "extraction_method": "rss",
+          "notes": "Irish Small and Medium Enterprises Association (10,500+ members)"
+        },
+        {
+          "name": "Zee Business Small Business",
+          "url": "https://www.zeebiz.com/small-business",
+          "type": "news",
+          "primary_content": "indian_sme",
+          "has_rss": false,
+          "extraction_method": "scraping",
+          "notes": "Latest news for SMEs and startups in India"
+        },
+        {
+          "name": "SME Strategy",
+          "url": "https://smestrategy.net",
+          "type": "consulting",
+          "primary_content": "strategy",
+          "extraction_method": "scraping",
+          "notes": "Strategic planning and management frameworks for SMEs"
+        }
+      ]
+    },
+    "marketing_and_sales": {
+      "category_name": "Marketing & Sales",
+      "description": "Marketing strategies, sales techniques, digital marketing, and growth tactics",
+      "priority": "high",
+      "update_frequency": "daily",
+      "sources": [
+        {
+          "name": "HubSpot Blog",
+          "url": "https://blog.hubspot.com",
+          "type": "corporate_blog",
+          "primary_content": "inbound_marketing",
+          "has_rss": true,
+          "extraction_method": "rss",
+          "domain_authority": 93,
+          "notes": "Leading CRM platform with daily marketing/sales content"
+        },
+        {
+          "name": "Neil Patel Blog",
+          "url": "https://neilpatel.com/blog",
+          "type": "blog",
+          "primary_content": "digital_marketing",
+          "has_rss": true,
+          "extraction_method": "rss",
+          "notes": "Digital marketing legend with actionable SEO/marketing guides"
+        },
+        {
+          "name": "Marketing Profs",
+          "url": "https://www.marketingprofs.com",
+          "type": "education",
+          "primary_content": "marketing_training",
+          "has_rss": true,
+          "extraction_method": "rss",
+          "domain_authority": 81,
+          "notes": "Practical marketing training and free resources"
+        },
+        {
+          "name": "Social Media Examiner",
+          "url": "https://www.socialmediaexaminer.com",
+          "type": "blog",
+          "primary_content": "social_media",
+          "has_rss": true,
+          "extraction_method": "rss",
+          "domain_authority": 80,
+          "notes": "Millions of marketers rely on this for social media marketing"
+        },
+        {
+          "name": "Search Engine Journal",
+          "url": "https://www.searchenginejournal.com",
+          "type": "blog",
+          "primary_content": "seo",
+          "has_rss": true,
+          "extraction_method": "rss",
+          "notes": "Latest SEO news and how-to guides"
+        },
+        {
+          "name": "Copyblogger",
+          "url": "https://copyblogger.com",
+          "type": "blog",
+          "primary_content": "copywriting",
+          "has_rss": true,
+          "extraction_method": "rss",
+          "notes": "Content marketing and copywriting authority"
+        },
+        {
+          "name": "Content Marketing Institute",
+          "url": "https://contentmarketinginstitute.com",
+          "type": "education",
+          "primary_content": "content_marketing",
+          "has_rss": true,
+          "extraction_method": "rss",
+          "notes": "Training and research for over a decade"
+        },
+        {
+          "name": "Moz Blog",
+          "url": "https://moz.com/blog",
+          "type": "corporate_blog",
+          "primary_content": "seo",
+          "has_rss": true,
+          "extraction_method": "rss",
+          "notes": "SEO software company with comprehensive SEO learning"
+        },
+        {
+          "name": "Buffer Resources",
+          "url": "https://buffer.com/resources",
+          "type": "resource_hub",
+          "primary_content": "social_media",
+          "has_rss": true,
+          "extraction_method": "rss",
+          "domain_authority": 90,
+          "notes": "Social media tools, analytics, and strategies"
+        },
+        {
+          "name": "Seth Godin's Blog",
+          "url": "https://seths.blog",
+          "type": "blog",
+          "primary_content": "marketing_philosophy",
+          "has_rss": true,
+          "extraction_method": "rss",
+          "notes": "Daily marketing wisdom from best-selling author"
+        },
+        {
+          "name": "LinkedIn Sales Blog",
+          "url": "https://www.linkedin.com/business/sales/blog",
+          "type": "corporate_blog",
+          "primary_content": "sales_strategies",
+          "has_rss": false,
+          "extraction_method": "scraping",
+          "notes": "Best resource for sales professionals"
+        },
+        {
+          "name": "Gong Blog",
+          "url": "https://www.gong.io/blog",
+          "type": "corporate_blog",
+          "primary_content": "sales_intelligence",
+          "extraction_method": "scraping",
+          "notes": "Data-driven sales insights and tactics"
+        },
+        {
+          "name": "Sales Hacker",
+          "url": "https://www.saleshacker.com",
+          "type": "blog",
+          "primary_content": "modern_sales",
+          "has_rss": true,
+          "extraction_method": "rss",
+          "notes": "Modern sales techniques and strategies"
+        },
+        {
+          "name": "The Sales Blog by Anthony Iannarino",
+          "url": "https://www.thesalesblog.com",
+          "type": "blog",
+          "primary_content": "b2b_sales",
+          "has_rss": true,
+          "extraction_method": "rss",
+          "notes": "Daily B2B sales coaching (10+ years)"
+        },
+        {
+          "name": "Heinz Marketing",
+          "url": "https://www.heinzmarketing.com/blog",
+          "type": "blog",
+          "primary_content": "b2b_marketing",
+          "has_rss": true,
+          "extraction_method": "rss",
+          "notes": "B2B sales and marketing combined"
+        },
+        {
+          "name": "Predictable Revenue",
+          "url": "https://predictablerevenue.com/blog",
+          "type": "blog",
+          "primary_content": "sales_development",
+          "has_rss": true,
+          "extraction_method": "rss",
+          "domain_authority": 44,
+          "notes": "B2B outbound and inbound sales strategies"
+        }
+      ]
+    }
+  },
+  "extraction_todo_list": {
+    "status": "pending",
+    "total_sources": 76,
+    "completed": 0,
+    "in_progress": 0,
+    "priority_order": [
+      "ai_tools_and_news",
+      "business_trends_and_publications",
+      "sme_content",
+      "marketing_and_sales",
+      "meditation_and_manifestation",
+      "quantum_physics",
+      "humor_and_comedy"
+    ],
+    "extraction_notes": "All sources verified as paywall-free. Prioritize RSS feeds and API-based sources for easier extraction."
+  }
+}

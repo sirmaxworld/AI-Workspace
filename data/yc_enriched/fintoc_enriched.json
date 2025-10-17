@@ -1,0 +1,1346 @@
+{
+  "slug": "fintoc",
+  "name": "Fintoc",
+  "yc_id": 22836,
+  "batch": "Winter 2021",
+  "website": "https://fintoc.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:59:47.867407",
+    "website": "https://fintoc.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 1943.33,
+      "final_url": "https://fintoc.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:59:49.810752"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "fintoc.com",
+      "registrar": "GoDaddy.com, LLC",
+      "creation_date": "2020-03-09T18:13:22",
+      "expiration_date": "2027-03-09T18:13:22",
+      "domain_age_days": 2047,
+      "domain_age_years": 5.6,
+      "name_servers": [
+        "ANGELA.NS.CLOUDFLARE.COM",
+        "SIMON.NS.CLOUDFLARE.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": "https://www.linkedin.com/company/fintoc",
+      "github": "https://github.com/fintoc-com",
+      "facebook": null,
+      "instagram": "https://www.instagram.com/fintoc/",
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": true,
+      "x_frame_options": true,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 50,
+      "server": "cloudflare"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:26:51.710419",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:26:40.343020",
+    "place_data": {
+      "status": "success",
+      "method": "nominatim",
+      "formatted_address": "Santiago, Provincia de Santiago, Regi\u00f3n Metropolitana de Santiago, 8320000, Chile",
+      "coordinates": {
+        "latitude": -33.4377756,
+        "longitude": -70.6504502
+      },
+      "place_types": [
+        "city"
+      ],
+      "retrieved_at": "2025-10-17T10:20:41.779768",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:26:40.343084",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/fintoc-com"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 100,
+        "packages": [
+          {
+            "name": "@fintoc/fintoc-js",
+            "description": "Use the Fintoc widget as an ES module.",
+            "version": "1.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@fintoc/fintoc-js"
+          },
+          {
+            "name": "fintoc",
+            "description": "The official Node client for the Fintoc API.",
+            "version": "1.8.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/fintoc"
+          },
+          {
+            "name": "@fintoc/fintoc-react-native",
+            "description": "<h1 align=\"center\">Fintoc React Native</h1>",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@fintoc/fintoc-react-native"
+          },
+          {
+            "name": "@jsonjoy.com/json-pack",
+            "description": "High-performance JSON serialization library",
+            "version": "1.21.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@jsonjoy.com/json-pack"
+          },
+          {
+            "name": "onecolor",
+            "description": "Javascript color object with implicit color space conversions. Supports RGB, HSV, HSL and CMYK with alpha channel.",
+            "version": "4.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/onecolor"
+          },
+          {
+            "name": "match-url-wildcard",
+            "description": "Module to match url by pattern with wildcard",
+            "version": "0.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/match-url-wildcard"
+          },
+          {
+            "name": "rfc2047",
+            "description": "Encode and decode rfc2047 (MIME encoded words)",
+            "version": "4.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rfc2047"
+          },
+          {
+            "name": "@auth0/auth0-spa-js",
+            "description": "Auth0 SDK for Single Page Applications using Authorization Code Grant Flow with PKCE",
+            "version": "2.6.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@auth0/auth0-spa-js"
+          },
+          {
+            "name": "@chromatic-com/playwright",
+            "description": "Chromatic Visual Regression Testing for Playwright",
+            "version": "0.12.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@chromatic-com/playwright"
+          },
+          {
+            "name": "eckles",
+            "description": "\ud83d\udcaf PEM-to-JWK and JWK-to-PEM (and SSH) for ECDSA keys in a lightweight, zero-dependency library focused on perfect universal compatibility.",
+            "version": "1.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/eckles"
+          },
+          {
+            "name": "teepee",
+            "description": "Generic HTTP client",
+            "version": "3.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/teepee"
+          },
+          {
+            "name": "@auth0/nextjs-auth0",
+            "description": "Auth0 Next.js SDK",
+            "version": "4.10.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@auth0/nextjs-auth0"
+          },
+          {
+            "name": "@auth0/auth0-react",
+            "description": "Auth0 SDK for React Single Page Applications (SPA)",
+            "version": "2.7.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@auth0/auth0-react"
+          },
+          {
+            "name": "jwt-decode",
+            "description": "Decode JWT tokens, mostly useful for browser applications.",
+            "version": "4.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/jwt-decode"
+          },
+          {
+            "name": "jwks-rsa",
+            "description": "Library to retrieve RSA public keys from a JWKS endpoint",
+            "version": "3.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/jwks-rsa"
+          },
+          {
+            "name": "auth0-js",
+            "description": "Auth0 headless browser sdk",
+            "version": "9.29.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/auth0-js"
+          },
+          {
+            "name": "@reown/appkit-scaffold-ui",
+            "description": "The full stack toolkit to build onchain app UX.",
+            "version": "1.8.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@reown/appkit-scaffold-ui"
+          },
+          {
+            "name": "react-truncate",
+            "description": "React component for truncating multi-line spans and adding an ellipsis",
+            "version": "2.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-truncate"
+          },
+          {
+            "name": "@reown/appkit-common",
+            "description": "The full stack toolkit to build onchain app UX.",
+            "version": "1.8.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@reown/appkit-common"
+          },
+          {
+            "name": "@reown/appkit-ui",
+            "description": "The full stack toolkit to build onchain app UX.",
+            "version": "1.8.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@reown/appkit-ui"
+          },
+          {
+            "name": "@reown/appkit-utils",
+            "description": "The full stack toolkit to build onchain app UX.",
+            "version": "1.8.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@reown/appkit-utils"
+          },
+          {
+            "name": "@reown/appkit-wallet",
+            "description": "The full stack toolkit to build onchain app UX.",
+            "version": "1.8.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@reown/appkit-wallet"
+          },
+          {
+            "name": "@reown/appkit",
+            "description": "The full stack toolkit to build onchain app UX.",
+            "version": "1.8.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@reown/appkit"
+          },
+          {
+            "name": "@reown/appkit-polyfills",
+            "description": "The full stack toolkit to build onchain app UX.",
+            "version": "1.8.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@reown/appkit-polyfills"
+          },
+          {
+            "name": "@reown/appkit-controllers",
+            "description": "The full stack toolkit to build onchain app UX.",
+            "version": "1.8.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@reown/appkit-controllers"
+          },
+          {
+            "name": "typeid-js",
+            "description": "Official implementation of the TypeID specification in TypeScript. TypeIDs are type-safe, K-sortable, and globally unique identifiers inspired by Stripe IDs",
+            "version": "1.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/typeid-js"
+          },
+          {
+            "name": "passport-auth0",
+            "description": "Auth0 platform authentication strategy for Passport.js",
+            "version": "1.4.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/passport-auth0"
+          },
+          {
+            "name": "lean-qr",
+            "description": "minimal QR code generation",
+            "version": "2.6.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/lean-qr"
+          },
+          {
+            "name": "public-google-sheets-parser",
+            "description": "Get JSONArray from public google sheets with using only spreadsheetId",
+            "version": "1.5.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/public-google-sheets-parser"
+          },
+          {
+            "name": "@auth0/auth0-angular",
+            "description": "Auth0 SDK for Angular Single Page Applications (SPA)",
+            "version": "2.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@auth0/auth0-angular"
+          },
+          {
+            "name": "authenticator",
+            "description": "Two- / Multi- Factor Authenication (2FA / MFA) for node.js",
+            "version": "1.1.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/authenticator"
+          },
+          {
+            "name": "vuejs-paginate-next",
+            "description": "A simple Vue3 pagination component.",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/vuejs-paginate-next"
+          },
+          {
+            "name": "greedy-interval-packer",
+            "description": "Pack integer intervals using a greedy algorithm",
+            "version": "1.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/greedy-interval-packer"
+          },
+          {
+            "name": "@howiefh/ant-path-matcher",
+            "description": "Ant Path Matcher",
+            "version": "0.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@howiefh/ant-path-matcher"
+          },
+          {
+            "name": "atob",
+            "description": "atob for Node.JS and Linux / Mac / Windows CLI (it's a one-liner)",
+            "version": "2.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/atob"
+          },
+          {
+            "name": "express-openid-connect",
+            "description": "Express middleware to protect web applications using OpenID Connect.",
+            "version": "2.19.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/express-openid-connect"
+          },
+          {
+            "name": "babel-plugin-transform-typescript-metadata",
+            "description": "Babel plugin to emit decorator metadata like typescript compiler",
+            "version": "0.3.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/babel-plugin-transform-typescript-metadata"
+          },
+          {
+            "name": "auth0",
+            "description": "Auth0 Node.js SDK for the Management API v2.",
+            "version": "5.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/auth0"
+          },
+          {
+            "name": "@chromatic-com/cypress",
+            "description": "Chromatic Visual Regression Testing for Cypress",
+            "version": "0.11.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@chromatic-com/cypress"
+          },
+          {
+            "name": "passport-jwt",
+            "description": "Passport authentication strategy using JSON Web Tokens",
+            "version": "4.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/passport-jwt"
+          },
+          {
+            "name": "one-validation",
+            "description": "Regexp based validation collection for common internet validation tasks",
+            "version": "2.2.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/one-validation"
+          },
+          {
+            "name": "@prismicio/slice-simulator-com",
+            "description": "Preview and develop Prismic slices fast with minimal configuration",
+            "version": "0.4.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@prismicio/slice-simulator-com"
+          },
+          {
+            "name": "@types/btoa",
+            "description": "TypeScript definitions for btoa",
+            "version": "1.2.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@types/btoa"
+          },
+          {
+            "name": "@reown/appkit-siwx",
+            "description": "The chain agnostic tool to enable authentication for AppKit applications.",
+            "version": "1.8.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@reown/appkit-siwx"
+          },
+          {
+            "name": "@deriv-com/ui",
+            "description": "<img alt=\"NPM Version\" src=\"https://img.shields.io/npm/v/@deriv-com/ui\"> <img alt=\"NPM Downloads\" src=\"https://img.shields.io/npm/dw/@deriv-com/ui\"> <img src=\"https://img.shields.io/badge/license-MIT-blue.svg\" alt=\"@deriv-com/ui is released under the MIT ",
+            "version": "1.37.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@deriv-com/ui"
+          },
+          {
+            "name": "dnserrors",
+            "description": "Maps dns errors to DnsError objects subclassing httperrors.",
+            "version": "2.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/dnserrors"
+          },
+          {
+            "name": "rasha",
+            "description": "\ud83d\udcaf PEM-to-JWK and JWK-to-PEM for RSA keys in a lightweight, zero-dependency library focused on perfect universal compatibility.",
+            "version": "1.2.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rasha"
+          },
+          {
+            "name": "@reown/appkit-adapter-wagmi",
+            "description": "The full stack toolkit to build onchain app UX.",
+            "version": "1.8.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@reown/appkit-adapter-wagmi"
+          },
+          {
+            "name": "btoa",
+            "description": "btoa for Node.JS (it's a one-liner)",
+            "version": "1.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/btoa"
+          },
+          {
+            "name": "@types/atob",
+            "description": "TypeScript definitions for atob",
+            "version": "2.1.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@types/atob"
+          },
+          {
+            "name": "@mrmgomes/boleto-utils",
+            "description": "Biblioteca com fun\u00e7\u00f5es \u00fateis para a valida\u00e7\u00e3o de todos os tipos de boleto",
+            "version": "1.3.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mrmgomes/boleto-utils"
+          },
+          {
+            "name": "beanbag",
+            "description": "Generic CouchDB driver built upon the teepee module",
+            "version": "5.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/beanbag"
+          },
+          {
+            "name": "n8n-nodes-notificame-hub",
+            "description": "A NotificaMe Hub automatiza a comunica\u00e7\u00e3o em m\u00faltiplos canais, oferecendo solu\u00e7\u00f5es integradas e escal\u00e1veis.",
+            "version": "0.3.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/n8n-nodes-notificame-hub"
+          },
+          {
+            "name": "dom-storage",
+            "description": "W3C DOM Storage (localStorage and sessionStorage) for node.js",
+            "version": "2.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/dom-storage"
+          },
+          {
+            "name": "@deriv-com/quill-ui",
+            "description": "![NPM Version](https://img.shields.io/npm/v/@deriv-com/quill-ui) ![NPM Downloads](https://img.shields.io/npm/dw/@deriv-com/quill-ui) ![License](https://img.shields.io/badge/license-MIT-blue.svg \"This package is released under the MIT license.\") [![Coverag",
+            "version": "1.24.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@deriv-com/quill-ui"
+          },
+          {
+            "name": "@auth0/auth0-vue",
+            "description": "Auth0 SDK for Vue Applications using Authorization Code Grant Flow with PKCE",
+            "version": "2.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@auth0/auth0-vue"
+          },
+          {
+            "name": "@deriv-com/utils",
+            "description": "A utility library for Deriv web apps.",
+            "version": "0.0.50",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@deriv-com/utils"
+          },
+          {
+            "name": "@auth0/angular-jwt",
+            "description": "JSON Web Token helper library for Angular",
+            "version": "5.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@auth0/angular-jwt"
+          },
+          {
+            "name": "magnet-uri",
+            "description": "Parse a magnet URI and return an object of keys/values",
+            "version": "7.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/magnet-uri"
+          },
+          {
+            "name": "ant-path-matcher",
+            "description": "An implementation for Ant-style path patterns",
+            "version": "0.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ant-path-matcher"
+          },
+          {
+            "name": "@mapbox/geojson-rewind",
+            "description": "enforce winding order for geojson",
+            "version": "0.5.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mapbox/geojson-rewind"
+          },
+          {
+            "name": "@lodev09/react-native-true-sheet",
+            "description": "The true native bottom sheet experience for your React Native Apps.",
+            "version": "2.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@lodev09/react-native-true-sheet"
+          },
+          {
+            "name": "localforage-driver-commons",
+            "description": "common localforage driver ops",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/localforage-driver-commons"
+          },
+          {
+            "name": "@upstash/context7-mcp",
+            "description": "MCP server for Context7",
+            "version": "1.0.21",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@upstash/context7-mcp"
+          },
+          {
+            "name": "seedsui-react",
+            "description": "seedsui-react React component",
+            "version": "6.2.27",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/seedsui-react"
+          },
+          {
+            "name": "@deriv-com/auth-client",
+            "description": "[![Coverage Status](https://coveralls.io/repos/github/deriv-com/auth-client/badge.svg?branch=master)](https://coveralls.io/github/deriv-com/auth-client?branch=master) [![Coveralls](https://github.com/deriv-com/auth-client/actions/workflows/coveralls.yml/b",
+            "version": "1.5.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@deriv-com/auth-client"
+          },
+          {
+            "name": "qtip2",
+            "description": "Introducing... qTip2. The second generation of the advanced qTip plugin for the ever popular jQuery framework.",
+            "version": "3.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/qtip2"
+          },
+          {
+            "name": "@po-ui/ng-templates",
+            "description": "PO UI - Templates",
+            "version": "19.31.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@po-ui/ng-templates"
+          },
+          {
+            "name": "@hint/hint-no-protocol-relative-urls",
+            "description": "hint that that checks if protocol relative URLs are used",
+            "version": "3.1.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@hint/hint-no-protocol-relative-urls"
+          },
+          {
+            "name": "react-show-more",
+            "description": "React component for truncating multi-line spans and adding an ellipsis",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-show-more"
+          },
+          {
+            "name": "slippers-ui",
+            "description": "GitLab Marketing Design System",
+            "version": "3.1.49",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/slippers-ui"
+          },
+          {
+            "name": "@reown/appkit-adapter-solana",
+            "description": "The full stack toolkit to build onchain app UX.",
+            "version": "1.8.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@reown/appkit-adapter-solana"
+          },
+          {
+            "name": "idtoken-verifier",
+            "description": "A lightweight library to decode and verify RS JWT meant for the browser.",
+            "version": "2.2.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/idtoken-verifier"
+          },
+          {
+            "name": "react-native-in-app-review",
+            "description": "react native in app review, to rate on Play store, App Store, Generally, the in-app review flow (see figure 1 for play store, figure 2 for ios) can be triggered at any time throughout the user journey of your app. During the flow, the user has the ability",
+            "version": "4.4.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-native-in-app-review"
+          },
+          {
+            "name": "weixin-js-sdk",
+            "description": "\u5fae\u4fe1\u5b98\u65b9 js-sdk npm \u5b89\u88c5\u7248\uff0c\u652f\u6301 typescript",
+            "version": "1.6.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/weixin-js-sdk"
+          },
+          {
+            "name": "purify",
+            "description": "Validator functions for many types of input, intended for use with express",
+            "version": "3.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/purify"
+          },
+          {
+            "name": "com-darryncampbell-cordova-plugin-intent",
+            "description": "General purpose intent shim layer for cordova appliations on Android.  Handles various techniques for sending and receiving intents.",
+            "version": "2.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/com-darryncampbell-cordova-plugin-intent"
+          },
+          {
+            "name": "express-oauth2-jwt-bearer",
+            "description": "Authentication middleware for Express.js that validates JWT bearer access tokens.",
+            "version": "1.7.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/express-oauth2-jwt-bearer"
+          },
+          {
+            "name": "@ctrl/magnet-link",
+            "description": "Parse a magnet URI into an object",
+            "version": "4.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ctrl/magnet-link"
+          },
+          {
+            "name": "@types/rfc2047",
+            "description": "TypeScript definitions for rfc2047",
+            "version": "2.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@types/rfc2047"
+          },
+          {
+            "name": "serialize-query-params",
+            "description": "A library for simplifying encoding and decoding URL query parameters.",
+            "version": "2.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/serialize-query-params"
+          },
+          {
+            "name": "@gravatar-com/hovercards",
+            "description": "Add profile hovercards to Gravatar images.",
+            "version": "0.15.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@gravatar-com/hovercards"
+          },
+          {
+            "name": "insection",
+            "description": "A data structure for storing number intervals",
+            "version": "1.2.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/insection"
+          },
+          {
+            "name": "auth0-lock",
+            "description": "Auth0 Lock",
+            "version": "14.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/auth0-lock"
+          },
+          {
+            "name": "@types/auth0-lock",
+            "description": "TypeScript definitions for auth0-lock",
+            "version": "11.27.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@types/auth0-lock"
+          },
+          {
+            "name": "oconf",
+            "description": "Configuration",
+            "version": "5.7.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/oconf"
+          },
+          {
+            "name": "@auth0/auth0-acul-js",
+            "description": "The Auth0 ACUL JS SDK enables you to work with Advanced Customization for Universal Login.",
+            "version": "0.1.0-beta.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@auth0/auth0-acul-js"
+          },
+          {
+            "name": "iterm2-version",
+            "description": "Get the iTerm2 version",
+            "version": "5.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/iterm2-version"
+          },
+          {
+            "name": "@lumigo/node-core",
+            "description": "Lumigo core node sdk",
+            "version": "1.17.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@lumigo/node-core"
+          },
+          {
+            "name": "@endemolshinegroup/cosmiconfig-typescript-loader",
+            "description": "A TypeScript loader for Cosmiconfig",
+            "version": "3.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@endemolshinegroup/cosmiconfig-typescript-loader"
+          },
+          {
+            "name": "bitcoincom-link",
+            "description": "A JS package for blockchain connected applications to interact with 3rd party wallets. The package will serve as a multi-provider interface for applications, with the first wallet provider being the Badger Chrome extension. In the near future, support wil",
+            "version": "0.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/bitcoincom-link"
+          },
+          {
+            "name": "line-awesome",
+            "description": "Line Awesome by Icon8. A drop-in replacement for Font Awesome.",
+            "version": "1.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/line-awesome"
+          },
+          {
+            "name": "@reown/appkit-core",
+            "description": "The full stack toolkit to build onchain app UX.",
+            "version": "1.8.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@reown/appkit-core"
+          },
+          {
+            "name": "@reown/appkit-siwe",
+            "description": "The full stack toolkit to build onchain app UX.",
+            "version": "1.8.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@reown/appkit-siwe"
+          },
+          {
+            "name": "vindi-ds-components",
+            "description": "Projeto de componentes da Vindi",
+            "version": "3.15.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/vindi-ds-components"
+          },
+          {
+            "name": "@interopio/core",
+            "description": "IOConnect core library",
+            "version": "6.7.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@interopio/core"
+          },
+          {
+            "name": "@reown/appkit-adapter-bitcoin",
+            "description": "The full stack toolkit to build onchain app UX.",
+            "version": "1.8.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@reown/appkit-adapter-bitcoin"
+          },
+          {
+            "name": "@reown/appkit-adapter-ethers",
+            "description": "The full stack toolkit to build onchain app UX.",
+            "version": "1.8.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@reown/appkit-adapter-ethers"
+          },
+          {
+            "name": "@zilliz/milvus2-sdk-node",
+            "description": "[![typescript](https://badges.aleen42.com/src/typescript.svg)](https://badges.aleen42.com/src/typescript.svg) [![version](https://img.shields.io/npm/v/@zilliz/milvus2-sdk-node?color=bright-green)](https://github.com/zilliztech/attu/releases) [![downloads]",
+            "version": "2.6.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@zilliz/milvus2-sdk-node"
+          },
+          {
+            "name": "@envelop/auth0",
+            "description": "This plugin validates an JWT token created by [Auth0](https://auth0.com/), and injects the Auth0 user properties into your GraphQL context. With this plugin, you can implement authentication and authorization in a simple way.",
+            "version": "8.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@envelop/auth0"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 100,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:26:41.812985"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:26:41.812992",
+    "batch_network": {
+      "batch": "Winter 2021",
+      "total_batch_mates": 335,
+      "active_batch_mates": 244,
+      "batch_success_rate": 72.8,
+      "notable_batch_mates": [
+        {
+          "name": "Stacksi",
+          "slug": "stacksi",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Automated Answers to Security Questionnaires"
+        },
+        {
+          "name": "Furmacy",
+          "slug": "furmacy",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Digital e-prescribing software for veterinarians."
+        },
+        {
+          "name": "Fountain9",
+          "slug": "fountain9",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Helping food brands and retailers reduce food wastage"
+        },
+        {
+          "name": "Zepto",
+          "slug": "zepto",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "10-Minute Grocery Delivery in India"
+        },
+        {
+          "name": "Segments.ai",
+          "slug": "segments-ai",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Build better computer vision models by building better datasets"
+        },
+        {
+          "name": "PingPong",
+          "slug": "pingpong",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Video messaging app for remote teams."
+        },
+        {
+          "name": "ClipDrop",
+          "slug": "clipdrop",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Turn regular mobile photos into professional product visuals"
+        },
+        {
+          "name": "Avenue",
+          "slug": "avenue",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Observability platform for operations teams"
+        },
+        {
+          "name": "Flok",
+          "slug": "flok",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "End to end company retreat planning"
+        },
+        {
+          "name": "HyperGlue",
+          "slug": "hyperglue",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Business intelligence on text"
+        }
+      ],
+      "batch_size": 336
+    },
+    "industry_network": {
+      "industries": [
+        "Fintech",
+        "Payments"
+      ],
+      "total_industry_peers": 597,
+      "active_industry_peers": 447,
+      "direct_competitors": [
+        {
+          "name": "SlidePay",
+          "slug": "slidepay",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Banking and Payment Platform APIs. Exited October 2014."
+        },
+        {
+          "name": "Sendwave",
+          "slug": "sendwave",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Instant, no fee international remittances."
+        },
+        {
+          "name": "Tremendous",
+          "slug": "tremendous",
+          "status": "Active",
+          "batch": "Winter 2011",
+          "one_liner": "How businesses send money to people at scale. Fast, free, global."
+        },
+        {
+          "name": "WePay",
+          "slug": "wepay",
+          "status": "Acquired",
+          "batch": "Summer 2009",
+          "one_liner": "Payments for platform businesses."
+        },
+        {
+          "name": "Tipjoy",
+          "slug": "tipjoy",
+          "status": "Inactive",
+          "batch": "Winter 2008",
+          "one_liner": "social micropayments"
+        },
+        {
+          "name": "Billforward",
+          "slug": "billforward",
+          "status": "Active",
+          "batch": "Summer 2014",
+          "one_liner": "Subscription billing, rate plan management and analytics as a\u2026"
+        },
+        {
+          "name": "Kash",
+          "slug": "kash",
+          "status": "Acquired",
+          "batch": "Summer 2014",
+          "one_liner": "We are fixing how money works."
+        },
+        {
+          "name": "Apto Payments",
+          "slug": "apto-payments",
+          "status": "Acquired",
+          "batch": "Summer 2014",
+          "one_liner": "API platform for partners to issue branded debit and credit cards to\u2026"
+        },
+        {
+          "name": "Final",
+          "slug": "final",
+          "status": "Acquired",
+          "batch": "Winter 2015",
+          "one_liner": "A credit card that drastically reduces payment fraud and gives\u2026"
+        },
+        {
+          "name": "Razorpay",
+          "slug": "razorpay",
+          "status": "Active",
+          "batch": "Winter 2015",
+          "one_liner": "India's only full-stack financial solutions company for businesses."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Santiago",
+      "location": "Santiago, Santiago Metropolitan Region, Chile",
+      "companies_in_city": 14,
+      "active_in_city": 14,
+      "nearby_companies": [
+        {
+          "name": "Fintual",
+          "slug": "fintual",
+          "batch": "Summer 2018",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Houm",
+          "slug": "houm",
+          "batch": "Winter 2021",
+          "industry": "Real Estate and Construction",
+          "status": "Active"
+        },
+        {
+          "name": "AgendaPro",
+          "slug": "agendapro",
+          "batch": "Winter 2021",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Poliglota",
+          "slug": "poliglota",
+          "batch": "Winter 2021",
+          "industry": "Education",
+          "status": "Active"
+        },
+        {
+          "name": "Instacrops",
+          "slug": "instacrops",
+          "batch": "Summer 2021",
+          "industry": "Industrials",
+          "status": "Active"
+        },
+        {
+          "name": "RendaloMaq",
+          "slug": "rendalomaq",
+          "batch": "Summer 2021",
+          "industry": "Real Estate and Construction",
+          "status": "Active"
+        },
+        {
+          "name": "Cero",
+          "slug": "cero",
+          "batch": "Summer 2021",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Encuadrado",
+          "slug": "encuadrado",
+          "batch": "Summer 2021",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Examedi",
+          "slug": "examedi",
+          "batch": "Summer 2021",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Chipax",
+          "slug": "chipax",
+          "batch": "Summer 2021",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Lenk",
+          "slug": "lenk",
+          "batch": "Winter 2022",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Cardda",
+          "slug": "cardda",
+          "batch": "Winter 2022",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Plutto",
+          "slug": "plutto",
+          "batch": "Summer 2022",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "RUUF",
+          "slug": "ruuf",
+          "batch": "Winter 2023",
+          "industry": "Consumer",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "low"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Atrato",
+        "slug": "atrato",
+        "batch": "Winter 2021",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "JoinSub",
+        "slug": "joinsub",
+        "batch": "Winter 2021",
+        "industry": "Fintech",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Lendflow",
+        "slug": "lendflow",
+        "batch": "Winter 2021",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Kodo",
+        "slug": "kodo",
+        "batch": "Winter 2021",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Udhaar App",
+        "slug": "udhaar-app",
+        "batch": "Winter 2021",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Striga",
+        "slug": "striga",
+        "batch": "Winter 2021",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Pagaloop",
+        "slug": "pagaloop",
+        "batch": "Winter 2021",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Cheqout",
+        "slug": "cheqout",
+        "batch": "Winter 2021",
+        "industry": "Fintech",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "HUBUC",
+        "slug": "hubuc",
+        "batch": "Winter 2021",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Flux",
+        "slug": "flux-2",
+        "batch": "Winter 2021",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 946,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": false,
+      "calculated_at": "2025-10-17T10:26:41.818277"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:26:41.818282",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:26:42.141602",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:26:42.306287",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 60,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "gpt-4o",
+    "enriched_at": "2025-10-17T11:35:45.163258",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "large",
+      "market_stage": "growing",
+      "key_trends": [
+        "increased digital payments",
+        "regulatory support for fintech",
+        "rising smartphone penetration"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "network effects through partnerships with banks and financial institutions",
+      "differentiation": "focus on seamless cross-border account-to-account payments",
+      "competitive_advantages": [
+        "strong regional focus",
+        "regulatory compliance"
+      ],
+      "competitive_vulnerabilities": [
+        "competition from larger fintechs",
+        "dependence on banking infrastructure"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "transaction fees",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "series-a",
+      "growth_indicators": [
+        "expansion into new markets",
+        "increasing transaction volume"
+      ],
+      "growth_bottlenecks": [
+        "regulatory challenges",
+        "scaling technology infrastructure"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 3,
+      "key_risks": [
+        "regulatory changes",
+        "cybersecurity threats",
+        "competition from global players"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "strong market demand",
+        "experienced team",
+        "strategic partnerships"
+      ],
+      "concerns": [
+        "regulatory hurdles",
+        "competitive pressure"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Stripe",
+        "Wise"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "strengthen regulatory compliance",
+        "enhance cybersecurity measures"
+      ],
+      "expansion_opportunities": [
+        "enter other Latin American markets",
+        "develop additional financial services"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 597,
+      "completion": 405,
+      "total": 1002,
+      "estimated_cost": 0.005543
+    }
+  },
+  "phase8_complete": true
+}

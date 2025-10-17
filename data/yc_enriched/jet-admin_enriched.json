@@ -1,0 +1,1401 @@
+{
+  "slug": "jet-admin",
+  "name": "Jet Admin",
+  "yc_id": 13673,
+  "batch": "Winter 2020",
+  "website": "https://jetadmin.io",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:54:42.632263",
+    "website": "https://jetadmin.io",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 5774.22,
+      "final_url": "https://www.jetadmin.io/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:54:48.406496"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "jetadmin.io",
+      "registrar": "Gandi SAS",
+      "creation_date": "2018-08-03T07:24:11",
+      "expiration_date": "2026-08-03T07:24:11",
+      "domain_age_days": 2631,
+      "domain_age_years": 7.2,
+      "name_servers": [
+        "ns-373.awsdns-46.com",
+        "ns-1281.awsdns-32.org",
+        "ns-2040.awsdns-63.co.uk",
+        "ns-939.awsdns-53.net"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/Jet_Admin",
+      "linkedin": "https://www.linkedin.com/company/jet-admin/",
+      "github": "https://github.com/jet-admin/jet-bridge",
+      "facebook": "https://www.facebook.com/jetadmin.io/",
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 16,
+      "server": "nginx/1.14.0 (Ubuntu)"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:24:51.792486",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:24:41.715386",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "San Francisco, CA, USA",
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:12:40.434017",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:41.715416",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/jet-admin"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 100,
+        "packages": [
+          {
+            "name": "@oracle/oraclejet-core-pack",
+            "description": "JET core components fully implemented in VDOM",
+            "version": "19.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@oracle/oraclejet-core-pack"
+          },
+          {
+            "name": "jet-logger",
+            "description": "A super quick, easy to setup logging tool for NodeJS/TypeScript.",
+            "version": "2.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/jet-logger"
+          },
+          {
+            "name": "@oracle/oraclejet",
+            "description": "Oracle JavaScript Extension Toolkit (JET) empowers developers by providing a modular open source toolkit based on modern JavaScript, CSS3 and HTML5 design and development principles.",
+            "version": "19.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@oracle/oraclejet"
+          },
+          {
+            "name": "combos",
+            "description": "Generate all possible permutations of an object's key-value pairs",
+            "version": "0.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/combos"
+          },
+          {
+            "name": "firebase-admin",
+            "description": "Firebase admin SDK for Node.js",
+            "version": "13.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/firebase-admin"
+          },
+          {
+            "name": "jet-validators",
+            "description": "A list common typescript validator-functions and some useful utilities to go with them.",
+            "version": "1.4.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/jet-validators"
+          },
+          {
+            "name": "webix-jet",
+            "description": "Webix Jet micro-framework",
+            "version": "3.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/webix-jet"
+          },
+          {
+            "name": "custom-element-jet-brains-integration",
+            "description": "Tools for integrating web components/custom elements into JetBrains IDEs",
+            "version": "1.7.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/custom-element-jet-brains-integration"
+          },
+          {
+            "name": "@oracle/ojet-cli",
+            "description": "Oracle JET Command Line Interface",
+            "version": "19.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@oracle/ojet-cli"
+          },
+          {
+            "name": "@oracle/oraclejet-templates",
+            "description": "Templates for Oracle JET web and mobile applications",
+            "version": "19.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@oracle/oraclejet-templates"
+          },
+          {
+            "name": "@google-cloud/run",
+            "description": "Cloud Run Admin API",
+            "version": "3.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/run"
+          },
+          {
+            "name": "react-admin",
+            "description": "A frontend Framework for building admin applications on top of REST services, using ES6, React and Material UI",
+            "version": "5.12.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-admin"
+          },
+          {
+            "name": "@strapi/admin",
+            "description": "Strapi Admin",
+            "version": "5.28.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@strapi/admin"
+          },
+          {
+            "name": "colormap",
+            "description": "Great looking color maps",
+            "version": "2.3.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/colormap"
+          },
+          {
+            "name": "@oracle/wrc-jet-pack",
+            "description": "Oracle JavaScript Extension Toolkit (JET) Pack containing JET Composite and JET Resource components from the WebLogic Remote Console project.",
+            "version": "2.4.18",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@oracle/wrc-jet-pack"
+          },
+          {
+            "name": "ra-language-english",
+            "description": "English messages for react-admin, the frontend framework for building admin applications on top of REST/GraphQL services",
+            "version": "5.12.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ra-language-english"
+          },
+          {
+            "name": "jet",
+            "description": "Jet lets you test your React Native Module APIs in JS mock free and native testing code free - ideal for testing React Native modules e2e.",
+            "version": "0.9.0-dev.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/jet"
+          },
+          {
+            "name": "ra-core",
+            "description": "Core components of react-admin, a frontend Framework for building admin applications on top of REST services, using ES6, React",
+            "version": "5.12.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ra-core"
+          },
+          {
+            "name": "@shopify/admin-api-client",
+            "description": "Shopify Admin API Client - A lightweight JS client to interact with Shopify's Admin API",
+            "version": "1.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@shopify/admin-api-client"
+          },
+          {
+            "name": "@keycloak/keycloak-admin-client",
+            "description": "A client to interact with Keycloak's Administration API",
+            "version": "26.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@keycloak/keycloak-admin-client"
+          },
+          {
+            "name": "@s3pweb/keycloak-admin-client-cjs",
+            "description": "Keycloak Admin Client compiled in CommonJS.",
+            "version": "26.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@s3pweb/keycloak-admin-client-cjs"
+          },
+          {
+            "name": "mdb-reader",
+            "description": "JavaScript library to read data from Access databases",
+            "version": "3.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/mdb-reader"
+          },
+          {
+            "name": "ra-i18n-polyglot",
+            "description": "Polyglot i18n provider for react-admin",
+            "version": "5.12.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ra-i18n-polyglot"
+          },
+          {
+            "name": "ra-ui-materialui",
+            "description": "UI Components for react-admin with Material UI",
+            "version": "5.12.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ra-ui-materialui"
+          },
+          {
+            "name": "node-red-admin",
+            "description": "The Node-RED admin command line interface",
+            "version": "4.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/node-red-admin"
+          },
+          {
+            "name": "jet-sw-generator",
+            "description": "jet service worker generator",
+            "version": "1.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/jet-sw-generator"
+          },
+          {
+            "name": "@oracle/oraclejet-webdriver",
+            "description": "Oracle JET WebDriverJS WebElements",
+            "version": "19.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@oracle/oraclejet-webdriver"
+          },
+          {
+            "name": "ra-data-simple-rest",
+            "description": "Simple REST data provider for react-admin",
+            "version": "5.12.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ra-data-simple-rest"
+          },
+          {
+            "name": "jet-ui",
+            "description": "JetBrains style Vue UI components",
+            "version": "0.1.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/jet-ui"
+          },
+          {
+            "name": "@google-cloud/appengine-admin",
+            "description": "Appengine client for Node.js",
+            "version": "4.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/appengine-admin"
+          },
+          {
+            "name": "jet-schema",
+            "description": "Simple, typescript-first schema validation tool",
+            "version": "1.4.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/jet-schema"
+          },
+          {
+            "name": "@shopify/shopify-api",
+            "description": "Shopify API Library for Node - accelerate development with support for authentication, graphql proxy, webhooks",
+            "version": "12.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@shopify/shopify-api"
+          },
+          {
+            "name": "@aws-sdk/client-sso-admin",
+            "description": "AWS SDK for JavaScript Sso Admin Client for Node.js, Browser and React Native",
+            "version": "3.911.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@aws-sdk/client-sso-admin"
+          },
+          {
+            "name": "@googleapis/admin",
+            "description": "admin",
+            "version": "29.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@googleapis/admin"
+          },
+          {
+            "name": "node-jet",
+            "description": "Jet Realtime Message Bus for the Web. Daemon and Peer implementation.",
+            "version": "3.1.0-pre3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/node-jet"
+          },
+          {
+            "name": "admin-lte",
+            "description": "Responsive open source admin dashboard and control panel.",
+            "version": "4.0.0-rc3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/admin-lte"
+          },
+          {
+            "name": "@medusajs/admin-shared",
+            "description": "Shared code for Medusa admin packages.",
+            "version": "2.10.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@medusajs/admin-shared"
+          },
+          {
+            "name": "@google-cloud/sql",
+            "description": "Sql client for Node.js",
+            "version": "0.21.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/sql"
+          },
+          {
+            "name": "@mocks-server/admin-api-paths",
+            "description": "Api paths of @mocks-server/plugin-admin-api",
+            "version": "5.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mocks-server/admin-api-paths"
+          },
+          {
+            "name": "jet-restate",
+            "description": "Reactive state for Webix Jet apps",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/jet-restate"
+          },
+          {
+            "name": "dynamodb-admin",
+            "description": "GUI for DynamoDB. Useful for local development.",
+            "version": "5.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/dynamodb-admin"
+          },
+          {
+            "name": "@medusajs/admin-sdk",
+            "description": "SDK for building extension for the Medusa admin dashboard.",
+            "version": "2.10.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@medusajs/admin-sdk"
+          },
+          {
+            "name": "jet-env",
+            "description": "Simple, TypeScript zero-dependency environment validation/initialization tool.",
+            "version": "1.1.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/jet-env"
+          },
+          {
+            "name": "@medusajs/admin-vite-plugin",
+            "description": null,
+            "version": "2.10.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@medusajs/admin-vite-plugin"
+          },
+          {
+            "name": "is-admin",
+            "description": "Check if the process is running as administrator on Windows",
+            "version": "4.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/is-admin"
+          },
+          {
+            "name": "@shopware-ag/meteor-admin-sdk",
+            "description": "The Meteor SDK for the Shopware Administration.",
+            "version": "6.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@shopware-ag/meteor-admin-sdk"
+          },
+          {
+            "name": "@medusajs/admin-bundler",
+            "description": "Bundler for the Medusa admin dashboard.",
+            "version": "2.10.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@medusajs/admin-bundler"
+          },
+          {
+            "name": "@activeadmin/activeadmin",
+            "description": "The administration framework for Ruby on Rails.",
+            "version": "3.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@activeadmin/activeadmin"
+          },
+          {
+            "name": "jet-template-unpacker",
+            "description": "Simply load .html templates, and then unpacking the templates binding {{ data }} values from a given javascript object.",
+            "version": "0.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/jet-template-unpacker"
+          },
+          {
+            "name": "@wordpress/e2e-test-utils-playwright",
+            "description": "End-To-End (E2E) test utils for WordPress.",
+            "version": "1.32.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@wordpress/e2e-test-utils-playwright"
+          },
+          {
+            "name": "@oracle/oraclejet-audit",
+            "description": "JET AUDIT FRAMEWORK",
+            "version": "19.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@oracle/oraclejet-audit"
+          },
+          {
+            "name": "@mocks-server/plugin-admin-api",
+            "description": "Mocks Server plugin providing an administration REST API",
+            "version": "4.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mocks-server/plugin-admin-api"
+          },
+          {
+            "name": "startbootstrap-sb-admin-2",
+            "description": "An open source Bootstrap 4 admin theme.",
+            "version": "4.1.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/startbootstrap-sb-admin-2"
+          },
+          {
+            "name": "jet-js-cli",
+            "description": "Jet-js framework cli tool",
+            "version": "1.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/jet-js-cli"
+          },
+          {
+            "name": "@wordpress/base-styles",
+            "description": "Base SCSS utilities and variables for WordPress.",
+            "version": "6.8.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@wordpress/base-styles"
+          },
+          {
+            "name": "admin",
+            "description": "Drop-in Node.js admin endpoint to help you analyze production issues.",
+            "version": "1.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/admin"
+          },
+          {
+            "name": "@strapi/content-manager",
+            "description": "A powerful UI to easily manage your data.",
+            "version": "5.28.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@strapi/content-manager"
+          },
+          {
+            "name": "ra-data-json-server",
+            "description": "JSON Server data provider for react-admin",
+            "version": "5.12.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ra-data-json-server"
+          },
+          {
+            "name": "jet-paths",
+            "description": "Preprend strings in an object with the value from a base-key.",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/jet-paths"
+          },
+          {
+            "name": "@payloadcms/admin-bar",
+            "description": "An admin bar for React apps using Payload",
+            "version": "3.60.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@payloadcms/admin-bar"
+          },
+          {
+            "name": "@oracle/oraclejet-tooling",
+            "description": "Programmatic API to build and serve Oracle JET web and mobile applications",
+            "version": "19.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@oracle/oraclejet-tooling"
+          },
+          {
+            "name": "intersection-observer-admin",
+            "description": "Intersection Observer Admin for better performance",
+            "version": "0.3.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/intersection-observer-admin"
+          },
+          {
+            "name": "ra-language-french",
+            "description": "French messages for react-admin, the frontend framework for building admin applications on top of REST/GraphQL services",
+            "version": "5.12.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ra-language-french"
+          },
+          {
+            "name": "forest-express-sequelize",
+            "description": "Official Express/Sequelize Liana for Forest",
+            "version": "9.6.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/forest-express-sequelize"
+          },
+          {
+            "name": "element-plus",
+            "description": "A Component Library for Vue 3",
+            "version": "2.11.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/element-plus"
+          },
+          {
+            "name": "@socket.io/admin-ui",
+            "description": "Admin UI for Socket.IO",
+            "version": "0.5.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@socket.io/admin-ui"
+          },
+          {
+            "name": "@payloadcms/plugin-form-builder",
+            "description": "Form builder plugin for Payload CMS",
+            "version": "3.60.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@payloadcms/plugin-form-builder"
+          },
+          {
+            "name": "@tryghost/admin-api",
+            "description": "JavaScript Client Library for the Ghost [Admin API](https://ghost.org/docs/admin-api/)",
+            "version": "1.14.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@tryghost/admin-api"
+          },
+          {
+            "name": "@strapi/plugin-content-manager",
+            "description": "A powerful UI to easily manage your data.",
+            "version": "4.25.23",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@strapi/plugin-content-manager"
+          },
+          {
+            "name": "@google-analytics/admin",
+            "description": "Admin client for Node.js",
+            "version": "9.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-analytics/admin"
+          },
+          {
+            "name": "combinate",
+            "description": "Type safe combinatorics utility for getting all combinations.",
+            "version": "1.1.11",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/combinate"
+          },
+          {
+            "name": "@comet/admin-icons",
+            "description": "A collection of icons for Comet Admin",
+            "version": "8.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@comet/admin-icons"
+          },
+          {
+            "name": "@magic-sdk/admin",
+            "description": "Magic Authentication Admin JavaScript SDK.",
+            "version": "2.8.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@magic-sdk/admin"
+          },
+          {
+            "name": "payload-admin-bar",
+            "description": "An admin bar for React apps using Payload CMS",
+            "version": "1.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/payload-admin-bar"
+          },
+          {
+            "name": "@mocks-server/admin-api-client",
+            "description": "Client of @mocks-server/plugin-admin-api",
+            "version": "7.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mocks-server/admin-api-client"
+          },
+          {
+            "name": "node-match-path",
+            "description": "Dependency-free request URI matcher",
+            "version": "0.6.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/node-match-path"
+          },
+          {
+            "name": "@jet-lab/e2e-react-adapter",
+            "description": "Adapter for Solana end-to-end tests. Injects a programmatic wallet in you dapp.",
+            "version": "0.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@jet-lab/e2e-react-adapter"
+          },
+          {
+            "name": "@api-platform/admin",
+            "description": "Automatic administration interface for Hydra-enabled APIs.",
+            "version": "4.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@api-platform/admin"
+          },
+          {
+            "name": "ep_adminpads2",
+            "description": "Etherpad plugin to list and delete pads in /admin.",
+            "version": "2.1.110",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ep_adminpads2"
+          },
+          {
+            "name": "jet-vermillion-generator",
+            "description": "Generates codes to unlock Jet Vermillion in F-Zero Maximum Velocity",
+            "version": "0.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/jet-vermillion-generator"
+          },
+          {
+            "name": "@strapi/email",
+            "description": "Easily configure your Strapi application to send emails.",
+            "version": "5.28.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@strapi/email"
+          },
+          {
+            "name": "react-admin-json-view",
+            "description": "JSON field and input for react-admin.",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-admin-json-view"
+          },
+          {
+            "name": "ch-admin-api-client-typescript",
+            "description": "Openapi generated typescript-axios client for CloudHospital admin",
+            "version": "5.79.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ch-admin-api-client-typescript"
+          },
+          {
+            "name": "@jet-pie/react",
+            "description": "This package implements the PIE design system for React. You can [see it in action here](https://react.pie.design/).",
+            "version": "6.3.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@jet-pie/react"
+          },
+          {
+            "name": "jetlag",
+            "description": "a framework with focus in progressive web apps development",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/jetlag"
+          },
+          {
+            "name": "@shopware-ag/jest-preset-sw6-admin",
+            "description": "Jest Test preset for Shopware 6 administration unit tests",
+            "version": "6.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@shopware-ag/jest-preset-sw6-admin"
+          },
+          {
+            "name": "@vendure/admin-ui-plugin",
+            "description": "`npm install @vendure/admin-ui-plugin`",
+            "version": "3.4.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@vendure/admin-ui-plugin"
+          },
+          {
+            "name": "@strapi/strapi",
+            "description": "An open source headless CMS solution to create and manage your own API. It provides a powerful dashboard and features to make your life easier. Databases supported: MySQL, MariaDB, PostgreSQL, SQLite",
+            "version": "5.28.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@strapi/strapi"
+          },
+          {
+            "name": "ra-data-fakerest",
+            "description": "JSON Server data provider for react-admin",
+            "version": "5.12.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ra-data-fakerest"
+          },
+          {
+            "name": "react-admin-import-csv",
+            "description": "CSV import button for react-admin",
+            "version": "4.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-admin-import-csv"
+          },
+          {
+            "name": "@oracle/oraclejet-icu-l10n",
+            "description": "JET ICU Message Format Parser",
+            "version": "19.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@oracle/oraclejet-icu-l10n"
+          },
+          {
+            "name": "ep_adminpads3",
+            "description": "Etherpad plugin to search, view sorted lists and delete pads in /admin.",
+            "version": "3.0.22",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ep_adminpads3"
+          },
+          {
+            "name": "@medusajs/admin-ui",
+            "description": "<p align=\"center\">   <a href=\"https://www.medusajs.com\">     <img alt=\"Medusa\" src=\"https://user-images.githubusercontent.com/7554214/153162406-bf8fd16f-aa98-4604-b87b-e13ab4baf604.png\" width=\"100\" />   </a> </p> <h1 align=\"center\">   @medusajs/admin-ui <",
+            "version": "2.1.18",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@medusajs/admin-ui"
+          },
+          {
+            "name": "jet-gyp",
+            "description": "Jet Streaming Framework(Node.js) native addon build tool",
+            "version": "7.1.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/jet-gyp"
+          },
+          {
+            "name": "react-easy-router",
+            "description": "The simplest way to add routing to your React app",
+            "version": "2.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-easy-router"
+          },
+          {
+            "name": "@azure/keyvault-common",
+            "description": "Common internal functionality for all of the Azure Key Vault clients in the Azure SDK for JavaScript",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@azure/keyvault-common"
+          },
+          {
+            "name": "@vtex/admin-ui",
+            "description": "> VTEX admin component library",
+            "version": "0.138.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@vtex/admin-ui"
+          },
+          {
+            "name": "jet-plan-ui",
+            "description": "Jet plan UI \u57fa\u4e8e Vue3 \u5f00\u53d1\u7684 UI \u7ec4\u4ef6\u5e93",
+            "version": "4.3.10--alpha",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/jet-plan-ui"
+          },
+          {
+            "name": "ldap-authentication",
+            "description": "A simple async nodejs library for LDAP user authentication",
+            "version": "3.3.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ldap-authentication"
+          },
+          {
+            "name": "adminjs",
+            "description": "Admin panel for apps written in node.js",
+            "version": "7.8.17",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/adminjs"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 100,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:24:43.214000"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:43.214038",
+    "batch_network": {
+      "batch": "Winter 2020",
+      "total_batch_mates": 228,
+      "active_batch_mates": 148,
+      "batch_success_rate": 64.9,
+      "notable_batch_mates": [
+        {
+          "name": "Zaraz",
+          "slug": "zaraz",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A third-party manager, built for speed. "
+        },
+        {
+          "name": "Phonic",
+          "slug": "phonic",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The best way to collect and analyze voice and video feedback"
+        },
+        {
+          "name": "Okay",
+          "slug": "okay",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Dashboards and actionable insights for high-performing engineering\u2026"
+        },
+        {
+          "name": "Volumetric",
+          "slug": "volumetric",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Volumetric builds living multicellular tissues with a focus on the\u2026"
+        },
+        {
+          "name": "Hoss",
+          "slug": "hoss",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The developer experience platform"
+        },
+        {
+          "name": "FitnessAI",
+          "slug": "fitnessai",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "App offering AI powered workout plans with anytime access to coaches"
+        },
+        {
+          "name": "Flowdash",
+          "slug": "flowdash",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Quickly build internal tools for your ops team's manual workflows"
+        },
+        {
+          "name": "Dashworks",
+          "slug": "dashworks",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Your team's intelligent start page."
+        },
+        {
+          "name": "Eternal",
+          "slug": "zelos",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Own the best moments in streaming"
+        },
+        {
+          "name": "Glimpse",
+          "slug": "glimpse",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A social video chat."
+        }
+      ],
+      "batch_size": 229
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "status": "Active",
+          "batch": "Winter 2012",
+          "one_liner": "High Performance Computing Built for the Cloud"
+        },
+        {
+          "name": "Marft",
+          "slug": "marft",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Marft creates embeddable machine learning models for application\u2026"
+        },
+        {
+          "name": "Pixelapse",
+          "slug": "pixelapse",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Github for designers. We automatically keep track of revisions of\u2026"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Palantir for sales people"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Smart search for the modern team."
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Authy is a Two-Factor Authentication platform for developers"
+        },
+        {
+          "name": "Flutter",
+          "slug": "flutter",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Flutter combined computer vision technology with the built-in webcams\u2026"
+        },
+        {
+          "name": "SolidStage",
+          "slug": "solidstage",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Sysadmin as a service. We make deploying, configuring, monitoring,\u2026"
+        },
+        {
+          "name": "Clutch",
+          "slug": "clutch",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "An easy to integrate library for native iOS applications designed to\u2026"
+        },
+        {
+          "name": "OneSignal",
+          "slug": "onesignal",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Engage customers through personalized omni-channel messaging"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "San Francisco",
+      "location": "San Francisco, CA, USA",
+      "companies_in_city": 2007,
+      "active_in_city": 1339,
+      "nearby_companies": [
+        {
+          "name": "42Floors",
+          "slug": "42floors",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "PlanGrid",
+          "slug": "plangrid",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "MyVR",
+          "slug": "myvr",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Couple",
+          "slug": "couple",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HackPad",
+          "slug": "hackpad",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Gusto",
+          "slug": "gusto",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "FamilyLeaf",
+          "slug": "familyleaf",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Chute",
+          "slug": "chute",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Make School",
+          "slug": "make-school",
+          "batch": "Winter 2012",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Exec",
+          "slug": "exec",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Public"
+        },
+        {
+          "name": "LendUp",
+          "slug": "lendup",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tilt",
+          "slug": "tilt",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fond",
+          "slug": "fond",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Zaraz",
+        "slug": "zaraz",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Flowdash",
+        "slug": "flowdash",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Glisten AI",
+        "slug": "glisten-ai",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Ditto",
+        "slug": "ditto",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "DeepSource",
+        "slug": "deepsource",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Zumo Labs",
+        "slug": "zumo-labs",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Recall.ai",
+        "slug": "recall-ai",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Chaos Genius",
+        "slug": "chaos-genius",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Finlens",
+        "slug": "finlens",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Motion",
+        "slug": "motion",
+        "batch": "Winter 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 4981,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:24:43.243907"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:43.243916",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:43.583987",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:43.747471",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 8,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:50.068165",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Citizen development",
+        "Digital transformation",
+        "Low-code/No-code adoption"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Ease of use and speed of development leading to network effects within organizations.",
+      "differentiation": "Focus on complex business applications with multi-page flows and data source integrations.",
+      "competitive_advantages": [
+        "Rapid application development",
+        "Integration capabilities"
+      ],
+      "competitive_vulnerabilities": [
+        "Potential lock-in to platform",
+        "Performance limitations with complex applications"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "series-a",
+      "growth_indicators": [
+        "Customer acquisition rate",
+        "Expansion revenue"
+      ],
+      "growth_bottlenecks": [
+        "Sales cycle length",
+        "Integration complexity"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Competition from larger players",
+        "Maintaining platform stability",
+        "Security vulnerabilities"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong product-market fit",
+        "Experienced team",
+        "Large addressable market"
+      ],
+      "concerns": [
+        "Customer acquisition cost",
+        "Long-term platform lock-in"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Retool",
+        "Outsystems"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on enterprise sales",
+        "Expand integration ecosystem"
+      ],
+      "expansion_opportunities": [
+        "Vertical-specific solutions",
+        "AI-powered automation"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 700,
+      "completion": 452,
+      "total": 1152,
+      "estimated_cost": 0.000188
+    }
+  },
+  "phase8_complete": true
+}

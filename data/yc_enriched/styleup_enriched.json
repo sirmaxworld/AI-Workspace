@@ -1,0 +1,661 @@
+{
+  "slug": "styleup",
+  "name": "StyleUp",
+  "yc_id": 470,
+  "batch": "Winter 2013",
+  "website": "http://thestyleup.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:32:50.123163",
+    "website": "http://thestyleup.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 1098.71,
+      "final_url": "https://thestyleup.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:32:51.221889"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "thestyleup.com",
+      "registrar": "NameCheap, Inc.",
+      "creation_date": "2012-03-22T15:05:58",
+      "expiration_date": "2026-03-22T15:05:58",
+      "domain_age_days": 4956,
+      "domain_age_years": 13.6,
+      "name_servers": [
+        "DNS1.REGISTRAR-SERVERS.COM",
+        "DNS2.REGISTRAR-SERVERS.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/styleupblog",
+      "linkedin": null,
+      "github": null,
+      "facebook": "https://www.facebook.com/styleupblog",
+      "instagram": "https://www.instagram.com/thestyleupwebsite/",
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": true,
+      "x_content_type_options": true,
+      "x_xss_protection": true,
+      "referrer_policy": true,
+      "security_score": 83,
+      "server": "nginx"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:13:50.314558",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:05:33.749604",
+    "place_data": {
+      "status": "success",
+      "method": "nominatim",
+      "formatted_address": "City of New York, New York, United States",
+      "coordinates": {
+        "latitude": 40.7127281,
+        "longitude": -74.0060152
+      },
+      "place_types": [
+        "administrative"
+      ],
+      "retrieved_at": "2025-10-17T10:03:25.058915",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:05:33.749629",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:05:33.749633",
+    "batch_network": {
+      "batch": "Winter 2013",
+      "total_batch_mates": 45,
+      "active_batch_mates": 17,
+      "batch_success_rate": 37.8,
+      "notable_batch_mates": [
+        {
+          "name": "Screenhero",
+          "slug": "screenhero",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Collaborative Screen Sharing \u2014\u00a0you each get your own mouse, and\u2026"
+        },
+        {
+          "name": "Scuba",
+          "slug": "interana",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Analytics for impatient people."
+        },
+        {
+          "name": "North",
+          "slug": "north",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Wearable computing hardware: biosignal gesture recognition"
+        },
+        {
+          "name": "VaycayHero",
+          "slug": "vaycayhero",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "VaycayHero is a marketplace of professionally managed vacation\u2026"
+        },
+        {
+          "name": "Fivetran",
+          "slug": "fivetran",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "The leader in automated data movement"
+        },
+        {
+          "name": "GrepData",
+          "slug": "grepdata",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Big Data Analytics"
+        },
+        {
+          "name": "Bitnami",
+          "slug": "bitnami",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The App Store for Server Software"
+        },
+        {
+          "name": "Meldium",
+          "slug": "meldium",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Simple password & identity management for teams. Acquired by LogMeIn\u2026"
+        },
+        {
+          "name": "Heap",
+          "slug": "heap",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Captures user interactions with no code to generate analytics."
+        },
+        {
+          "name": "MedXT",
+          "slug": "medxt",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Radiology in the cloud.  X-rays, CAT scans, MRI's, and\u2026"
+        }
+      ],
+      "batch_size": 46
+    },
+    "industry_network": {
+      "industries": [
+        "Consumer",
+        "Apparel and Cosmetics"
+      ],
+      "total_industry_peers": 852,
+      "active_industry_peers": 407,
+      "direct_competitors": [
+        {
+          "name": "Shoptiques",
+          "slug": "shoptiques",
+          "status": "Active",
+          "batch": "Winter 2012",
+          "one_liner": "Shoptiques.com lets you shop the world's best local boutiques online."
+        },
+        {
+          "name": "99dresses",
+          "slug": "99dresses",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "We're creating every women's fantasy by combining the unwanted\u2026"
+        },
+        {
+          "name": "Inporia",
+          "slug": "inporia",
+          "status": "Inactive",
+          "batch": "Winter 2011",
+          "one_liner": "Fashion shopping email list."
+        },
+        {
+          "name": "GOAT Group",
+          "slug": "goat-group",
+          "status": "Active",
+          "batch": "Winter 2011",
+          "one_liner": "Platform for the greatest products from the past, present and future."
+        },
+        {
+          "name": "Shoutfit",
+          "slug": "shoutfit",
+          "status": "Inactive",
+          "batch": "Summer 2006",
+          "one_liner": ""
+        },
+        {
+          "name": "Vastrm",
+          "slug": "vastrm",
+          "status": "Active",
+          "batch": "Summer 2012",
+          "one_liner": "Mass customized active apparel. We are building a full turn key\u2026"
+        },
+        {
+          "name": "Lollipuff",
+          "slug": "lollipuff",
+          "status": "Active",
+          "batch": "Winter 2013",
+          "one_liner": "Online Auctions for Authentic (Women's) Designer Goods"
+        },
+        {
+          "name": "Teespring",
+          "slug": "teespring",
+          "status": "Acquired",
+          "batch": "Winter 2013",
+          "one_liner": "IMPORTANT: The original YC founders are no longer involved with this\u2026"
+        },
+        {
+          "name": "Glio",
+          "slug": "glio",
+          "status": "Inactive",
+          "batch": "Summer 2013",
+          "one_liner": "Amazon Marketplace for Latin America"
+        },
+        {
+          "name": "Le Tote",
+          "slug": "le-tote",
+          "status": "Inactive",
+          "batch": "Summer 2013",
+          "one_liner": "Subscription service for women's apparel & accessories. "
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "New York",
+      "location": "New York, NY, USA",
+      "companies_in_city": 523,
+      "active_in_city": 397,
+      "nearby_companies": [
+        {
+          "name": "The Muse",
+          "slug": "the-muse",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "HireArt",
+          "slug": "hireart",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Shoptiques",
+          "slug": "shoptiques",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Grouper",
+          "slug": "grouper",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "99dresses",
+          "slug": "99dresses",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Codecademy",
+          "slug": "codecademy",
+          "batch": "Summer 2011",
+          "industry": "Education",
+          "status": "Acquired"
+        },
+        {
+          "name": "Custora",
+          "slug": "custora",
+          "batch": "Winter 2011",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Recurse Center",
+          "slug": "recurse-center",
+          "batch": "Summer 2010",
+          "industry": "Education",
+          "status": "Active"
+        },
+        {
+          "name": "MessageParty",
+          "slug": "messageparty",
+          "batch": "Summer 2010",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Fabricly",
+          "slug": "fabricly",
+          "batch": "Winter 2010",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "RentHop",
+          "slug": "renthop",
+          "batch": "Summer 2009",
+          "industry": "Real Estate and Construction",
+          "status": "Active"
+        },
+        {
+          "name": "Youlicit",
+          "slug": "youlicit",
+          "batch": "Summer 2008",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "SocialPicks",
+          "slug": "socialpicks",
+          "batch": "Summer 2007",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Octopart",
+          "slug": "octopart",
+          "batch": "Winter 2007",
+          "industry": "Industrials",
+          "status": "Acquired"
+        },
+        {
+          "name": "OMGPop",
+          "slug": "omgpop",
+          "batch": "Summer 2006",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Canopy Labs",
+          "slug": "canopy-labs",
+          "batch": "Summer 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Fullstack Academy",
+          "slug": "fullstack-academy",
+          "batch": "Summer 2012",
+          "industry": "Education",
+          "status": "Acquired"
+        },
+        {
+          "name": "DataNitro",
+          "slug": "datanitro",
+          "batch": "Summer 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "SmartAsset",
+          "slug": "smartasset",
+          "batch": "Summer 2012",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Lawdingo",
+          "slug": "lawdingo",
+          "batch": "Winter 2013",
+          "industry": "Consumer",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Lawdingo",
+        "slug": "lawdingo",
+        "batch": "Winter 2013",
+        "industry": "Consumer",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Lollipuff",
+        "slug": "lollipuff",
+        "batch": "Winter 2013",
+        "industry": "Consumer",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Goldbelly",
+        "slug": "goldbelly",
+        "batch": "Winter 2013",
+        "industry": "Consumer",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Teespring",
+        "slug": "teespring",
+        "batch": "Winter 2013",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Shoptiques",
+        "slug": "shoptiques",
+        "batch": "Winter 2012",
+        "industry": "Consumer",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "99dresses",
+        "slug": "99dresses",
+        "batch": "Winter 2012",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Style Lend",
+        "slug": "style-lend",
+        "batch": "Winter 2014",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Scentbird",
+        "slug": "scentbird",
+        "batch": "Summer 2015",
+        "industry": "Consumer",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Vive",
+        "slug": "vive",
+        "batch": "Summer 2015",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Function of Beauty",
+        "slug": "function-of-beauty",
+        "batch": "Winter 2016",
+        "industry": "Consumer",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 1420,
+      "network_density_score": 89.0,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:05:33.775612"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:05:33.775618",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:05:34.094369",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:05:34.187668",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 10,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:45:41.017523",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "mature",
+      "key_trends": [
+        "AI-powered personalization",
+        "sustainable fashion consciousness",
+        "mobile-first shopping experiences"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Data network effects from user feedback and styling preferences creating personalized recommendation engine",
+      "differentiation": "Weather-integrated daily styling advice with personalized curation",
+      "competitive_advantages": [
+        "Weather integration for practical styling",
+        "Daily engagement model"
+      ],
+      "competitive_vulnerabilities": [
+        "Large tech companies with more data",
+        "Fashion retailers with direct inventory access"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "marketplace",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "mature",
+      "growth_indicators": [
+        "10-person team suggests established operations",
+        "13.6-year domain age shows longevity"
+      ],
+      "growth_bottlenecks": [
+        "User acquisition costs in crowded fashion space",
+        "Inventory partnerships and fulfillment complexity"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Competition from Amazon/Google fashion AI",
+        "Seasonal demand fluctuations",
+        "Fashion trend prediction accuracy"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Proven longevity in competitive market",
+        "Practical weather integration differentiator",
+        "Strong user feedback loop for ML improvement"
+      ],
+      "concerns": [
+        "Late-stage entry against well-funded competitors",
+        "Monetization challenges in recommendation space"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Stitch Fix",
+        "Trunk Club"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on mobile app engagement metrics",
+        "Develop exclusive brand partnerships"
+      ],
+      "expansion_opportunities": [
+        "Corporate styling services",
+        "International weather-based styling markets"
+      ]
+    },
+    "tokens_used": {
+      "input": 713,
+      "output": 518,
+      "total": 1231,
+      "estimated_cost": 0.009909
+    }
+  },
+  "phase8_complete": true
+}

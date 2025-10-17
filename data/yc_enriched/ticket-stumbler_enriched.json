@@ -1,0 +1,598 @@
+{
+  "slug": "ticket-stumbler",
+  "name": "Ticket Stumbler",
+  "yc_id": 296,
+  "batch": "Summer 2008",
+  "website": "http://ticketstumbler.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:31:08.074814",
+    "website": "http://ticketstumbler.com",
+    "website_status": {
+      "reachable": false,
+      "error": "connection_error"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "ticketstumbler.com",
+      "registrar": "Name.com, Inc.",
+      "creation_date": "2007-08-23T00:44:03",
+      "expiration_date": "2026-08-23T00:44:03",
+      "domain_age_days": 6629,
+      "domain_age_years": 18.1,
+      "name_servers": [
+        "NS1.LINODE.COM",
+        "NS2.LINODE.COM",
+        "NS3.LINODE.COM",
+        "NS4.LINODE.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "error": "HTTPConnectionPool(host='ticketstumbler.com', port=80): Max retries exceeded with url: / (Caused by "
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:13:15.678780",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:58:02.049424",
+    "place_data": {
+      "status": "not_found",
+      "query": "Boston, MA, USA"
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:58:02.164701",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:58:02.164714",
+    "batch_network": {
+      "batch": "Summer 2008",
+      "total_batch_mates": 21,
+      "active_batch_mates": 1,
+      "batch_success_rate": 4.8,
+      "notable_batch_mates": [
+        {
+          "name": "Posterous",
+          "slug": "posterous",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Dead simple blogs by email"
+        },
+        {
+          "name": "Cloudant",
+          "slug": "cloudant",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "NoSQL Database-aaS.  Acquired by IBM in 2014.  Now IBM Cloud Data\u2026"
+        },
+        {
+          "name": "JustSpotted",
+          "slug": "justspotted",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Acquired by Google in 2011"
+        },
+        {
+          "name": "BackType",
+          "slug": "backtype",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "BackType was an analytics company acquired by Twitter in 2011"
+        }
+      ],
+      "batch_size": 22
+    },
+    "industry_network": {
+      "industries": [
+        "Consumer",
+        "Travel, Leisure and Tourism"
+      ],
+      "total_industry_peers": 852,
+      "active_industry_peers": 408,
+      "direct_competitors": [
+        {
+          "name": "Hipmunk",
+          "slug": "hipmunk",
+          "status": "Acquired",
+          "batch": "Summer 2010",
+          "one_liner": "Hipmunk takes the agony out of searching for flights, accommodations,\u2026"
+        },
+        {
+          "name": "Flightcaster",
+          "slug": "flightcaster",
+          "status": "Acquired",
+          "batch": "Summer 2009",
+          "one_liner": ""
+        },
+        {
+          "name": "Airbnb",
+          "slug": "airbnb",
+          "status": "Public",
+          "batch": "Winter 2009",
+          "one_liner": "Book accommodations around the world."
+        },
+        {
+          "name": "Songkick",
+          "slug": "songkick",
+          "status": "Acquired",
+          "batch": "Summer 2007",
+          "one_liner": ""
+        },
+        {
+          "name": "Vayable",
+          "slug": "vayable",
+          "status": "Acquired",
+          "batch": "Summer 2012",
+          "one_liner": "We're building a marketplace for unique travel experiences (it's\u2026"
+        },
+        {
+          "name": "GetGoing",
+          "slug": "getgoing",
+          "status": "Inactive",
+          "batch": "Summer 2012",
+          "one_liner": "We are building a \"transparent opaque\" airfare and hotel booking site\u2026"
+        },
+        {
+          "name": "VaycayHero",
+          "slug": "vaycayhero",
+          "status": "Acquired",
+          "batch": "Winter 2013",
+          "one_liner": "VaycayHero is a marketplace of professionally managed vacation\u2026"
+        },
+        {
+          "name": "FlightCar",
+          "slug": "flightcar",
+          "status": "Inactive",
+          "batch": "Winter 2013",
+          "one_liner": "FlightCar is the Airbnb of Car Rentals at Airports.\r\nWe allow people\u2026"
+        },
+        {
+          "name": "AirHelp",
+          "slug": "airhelp",
+          "status": "Active",
+          "batch": "Winter 2014",
+          "one_liner": "AirHelp helps air passengers get compensation for delayed, cancelled\u2026"
+        },
+        {
+          "name": "Shoobs",
+          "slug": "shoobs",
+          "status": "Active",
+          "batch": "Winter 2014",
+          "one_liner": "We help you find and book tickets to great entertainment events that\u2026"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Boston",
+      "location": "Boston, MA, USA",
+      "companies_in_city": 60,
+      "active_in_city": 40,
+      "nearby_companies": [
+        {
+          "name": "Sendwave",
+          "slug": "sendwave",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Embedly",
+          "slug": "embedly",
+          "batch": "Winter 2010",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Cloudant",
+          "slug": "cloudant",
+          "batch": "Summer 2008",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Eivod",
+          "slug": "eivod",
+          "batch": "Summer 2007",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Zanbazaar",
+          "slug": "zanbazaar",
+          "batch": "Summer 2006",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Panorama Education",
+          "slug": "panorama-education",
+          "batch": "Summer 2013",
+          "industry": "Education",
+          "status": "Active"
+        },
+        {
+          "name": "Ginkgo Bioworks",
+          "slug": "ginkgo-bioworks",
+          "batch": "Summer 2014",
+          "industry": "Healthcare",
+          "status": "Public"
+        },
+        {
+          "name": "Moltin",
+          "slug": "moltin",
+          "batch": "Winter 2015",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Pretty Instant",
+          "slug": "pretty-instant",
+          "batch": "Winter 2015",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Airmada",
+          "slug": "airmada",
+          "batch": "Summer 2015",
+          "industry": "Industrials",
+          "status": "Inactive"
+        },
+        {
+          "name": "TetraScience",
+          "slug": "tetrascience",
+          "batch": "Summer 2015",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Ubiq",
+          "slug": "ubiq",
+          "batch": "Summer 2016",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Sandbox Banking",
+          "slug": "sandbox-banking",
+          "batch": "Winter 2017",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Tolemi",
+          "slug": "tolemi",
+          "batch": "Winter 2017",
+          "industry": "Real Estate and Construction",
+          "status": "Active"
+        },
+        {
+          "name": "Helix Nanotechnologies",
+          "slug": "helix-nanotechnologies",
+          "batch": "Winter 2017",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Hunter2",
+          "slug": "hunter2",
+          "batch": "Winter 2018",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Medumo",
+          "slug": "medumo",
+          "batch": "Winter 2018",
+          "industry": "Healthcare",
+          "status": "Acquired"
+        },
+        {
+          "name": "Apprentice Health",
+          "slug": "apprentice-health",
+          "batch": "Summer 2018",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Impactive (formerly Outvote)",
+          "slug": "impactive",
+          "batch": "Summer 2018",
+          "industry": "Government",
+          "status": "Acquired"
+        },
+        {
+          "name": "Alpha Vantage",
+          "slug": "alpha-vantage",
+          "batch": "Summer 2018",
+          "industry": "Fintech",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Posterous",
+        "slug": "posterous",
+        "batch": "Summer 2008",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "OhLife",
+        "slug": "ohlife",
+        "batch": "Summer 2008",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Cloudant",
+        "slug": "cloudant",
+        "batch": "Summer 2008",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Anyvite",
+        "slug": "anyvite",
+        "batch": "Summer 2008",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "JustSpotted",
+        "slug": "justspotted",
+        "batch": "Summer 2008",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Picwing",
+        "slug": "picwing",
+        "batch": "Summer 2008",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Precognate",
+        "slug": "precognate",
+        "batch": "Summer 2008",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Youlicit",
+        "slug": "youlicit",
+        "batch": "Summer 2008",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Claimspotting",
+        "slug": "claimspotting",
+        "batch": "Summer 2008",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Popcuts",
+        "slug": "popcuts",
+        "batch": "Summer 2008",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 933,
+      "network_density_score": 56.2,
+      "has_strong_batch_network": false,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T09:58:02.173064"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:58:02.173075",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:58:02.510635",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T09:58:02.613814",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 2,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "gpt-4o",
+    "enriched_at": "2025-10-17T11:36:05.924086",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "large",
+      "market_stage": "mature",
+      "key_trends": [
+        "increased mobile ticket purchasing",
+        "growth of dynamic pricing",
+        "rise of blockchain for ticket authenticity"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "network effects from aggregating multiple ticket sources",
+      "differentiation": "comprehensive comparison across numerous brokers",
+      "competitive_advantages": [
+        "broad ticket listing coverage",
+        "user-friendly comparison interface"
+      ],
+      "competitive_vulnerabilities": [
+        "dependence on third-party ticket data",
+        "high competition from established players"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "marketplace",
+      "scalability": "medium",
+      "capital_intensity": "low"
+    },
+    "growth_assessment": {
+      "growth_stage": "inactive",
+      "growth_indicators": [
+        "past user engagement",
+        "expansion of ticket market"
+      ],
+      "growth_bottlenecks": [
+        "lack of differentiation from competitors",
+        "limited team size"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "high",
+      "overall_risk_score": 4,
+      "key_risks": [
+        "high competition",
+        "reliance on third-party data",
+        "scalability challenges"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "broad ticket aggregation",
+        "simple user interface",
+        "potential for partnerships"
+      ],
+      "concerns": [
+        "inactive status",
+        "strong competition"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "StubHub",
+        "SeatGeek"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "explore reactivation with a focus on niche markets",
+        "consider partnerships with event organizers"
+      ],
+      "expansion_opportunities": [
+        "integration of blockchain for ticket authenticity",
+        "expansion into international markets"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 642,
+      "completion": 479,
+      "total": 1121,
+      "estimated_cost": 0.006395
+    }
+  },
+  "phase8_complete": true
+}

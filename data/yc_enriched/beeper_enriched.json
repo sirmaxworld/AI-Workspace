@@ -1,0 +1,1066 @@
+{
+  "slug": "beeper",
+  "name": "Beeper",
+  "yc_id": 23939,
+  "batch": "Summer 2021",
+  "website": "https://beeper.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T01:03:47.458027",
+    "website": "https://beeper.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 3265.42,
+      "final_url": "https://www.beeper.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T01:03:50.723456"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "beeper.com",
+      "registrar": "MarkMonitor, Inc.",
+      "creation_date": "1998-03-05T05:00:00",
+      "expiration_date": "2026-03-04T05:00:00",
+      "domain_age_days": 10087,
+      "domain_age_years": 27.6,
+      "name_servers": [
+        "RUTH.NS.CLOUDFLARE.COM",
+        "TADEO.NS.CLOUDFLARE.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://x.com/beeper",
+      "linkedin": "https://www.linkedin.com/company/beeperhq",
+      "github": "https://github.com/beeper",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 16,
+      "server": "cloudflare"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:28:26.485279",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:28:14.245093",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "Palo Alto, CA, USA",
+      "coordinates": {
+        "latitude": 37.4419,
+        "longitude": -122.143
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:14:40.079679",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:28:14.245212",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/beeper"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 46,
+        "packages": [
+          {
+            "name": "beeper",
+            "description": "Make your terminal beep",
+            "version": "3.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/beeper"
+          },
+          {
+            "name": "@beeper/desktop-api",
+            "description": "The official TypeScript library for the Beeper Desktop API",
+            "version": "4.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@beeper/desktop-api"
+          },
+          {
+            "name": "@beeper/desktop-mcp",
+            "description": "The official MCP Server for the Beeper Desktop API",
+            "version": "4.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@beeper/desktop-mcp"
+          },
+          {
+            "name": "@drop-in/beeper",
+            "description": "Your beeper",
+            "version": "0.0.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@drop-in/beeper"
+          },
+          {
+            "name": "@beeper/mcp-remote",
+            "description": "stdio support for Beeper Desktop's Streamable HTTP MCP server",
+            "version": "0.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@beeper/mcp-remote"
+          },
+          {
+            "name": "rpscript-api-beeper",
+            "description": "RPScript API for beeper",
+            "version": "0.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rpscript-api-beeper"
+          },
+          {
+            "name": "beep-duck",
+            "description": "beeper module",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/beep-duck"
+          },
+          {
+            "name": "beep-sid",
+            "description": "beeper module",
+            "version": "2.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/beep-sid"
+          },
+          {
+            "name": "@typecasting/rpscript-api-beeper",
+            "description": "RPScript API for beeper",
+            "version": "0.1.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@typecasting/rpscript-api-beeper"
+          },
+          {
+            "name": "@wbe/beeper",
+            "description": "Beeper simple class pub/sub pattern implementation. It implements an internal state management witch track and expose the last dispatch state.",
+            "version": "0.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@wbe/beeper"
+          },
+          {
+            "name": "@beeper/matrix-widget-toolkit-react",
+            "description": "A simplified layer on top of @matrix-widget-toolkit/api to use it in a React based widget.",
+            "version": "1.0.11",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@beeper/matrix-widget-toolkit-react"
+          },
+          {
+            "name": "@timestep-ai/timestep",
+            "description": "A CLI tool built with Ink and React",
+            "version": "2025.9.271506",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@timestep-ai/timestep"
+          },
+          {
+            "name": "@beeper/matrix-widget-toolkit-api",
+            "description": "A simplified layer on top of matrix-widget-api to use build widgets.",
+            "version": "3.3.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@beeper/matrix-widget-toolkit-api"
+          },
+          {
+            "name": "@beeper/matrix-widget-toolkit-mui",
+            "description": "A customized material-ui theme that matches the style of the Element Matrix client",
+            "version": "1.2.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@beeper/matrix-widget-toolkit-mui"
+          },
+          {
+            "name": "beep-satya",
+            "description": "beeper module",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/beep-satya"
+          },
+          {
+            "name": "whiterose",
+            "description": "Time beeper for paranoids",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/whiterose"
+          },
+          {
+            "name": "cb-dts-beeper",
+            "description": "TypeScripts declaration file for beeper",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/cb-dts-beeper"
+          },
+          {
+            "name": "@heartbeep/beeper",
+            "description": "Modern JavaScript SDK for Heartbeep event tracking - beep beep!",
+            "version": "0.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@heartbeep/beeper"
+          },
+          {
+            "name": "homebridge-mrcool-smartlight",
+            "description": "Homebridge plugin for local control of MrCool HVAC via SmartLight SLWF-01 Pro (REST + SSE).",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/homebridge-mrcool-smartlight"
+          },
+          {
+            "name": "beepz",
+            "description": "Debugging beeper to save looking at the console log",
+            "version": "0.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/beepz"
+          },
+          {
+            "name": "beep-siddharth",
+            "description": "beeper module",
+            "version": "2.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/beep-siddharth"
+          },
+          {
+            "name": "beep-aniket",
+            "description": "This is a beeper module",
+            "version": "2.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/beep-aniket"
+          },
+          {
+            "name": "@mu-cabin/ai-beeper",
+            "description": "AI utility functions for frontend applications",
+            "version": "1.0.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mu-cabin/ai-beeper"
+          },
+          {
+            "name": "slice-file",
+            "description": "stream file slices by line number indexes",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/slice-file"
+          },
+          {
+            "name": "@beeper/matrix-widget-toolkit-testing",
+            "description": "Testing support for @matrix-widget-toolkit/api.",
+            "version": "2.3.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@beeper/matrix-widget-toolkit-testing"
+          },
+          {
+            "name": "@beeper/matrix-widget-api",
+            "description": "Matrix Widget API SDK",
+            "version": "1.5.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@beeper/matrix-widget-api"
+          },
+          {
+            "name": "@drop-in/new",
+            "description": "A SvelteKit Svelte 5 PocketBase Starter Kit with a CLI",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@drop-in/new"
+          },
+          {
+            "name": "browser-thermal-printer",
+            "description": "Print on Epson and Star thermal printers in a browser",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/browser-thermal-printer"
+          },
+          {
+            "name": "@rekarel/cli",
+            "description": "CLI tool for karel",
+            "version": "2.3.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@rekarel/cli"
+          },
+          {
+            "name": "theia",
+            "description": "Finds all npm modules in your directory and detects packages that are missing from your package.json",
+            "version": "2.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/theia"
+          },
+          {
+            "name": "@adatechnology/react-native-android-getnet-pos",
+            "description": "react-native module to work getnet-pos by react-native module",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@adatechnology/react-native-android-getnet-pos"
+          },
+          {
+            "name": "@seokju.me/browser-thermal-printer",
+            "description": "Print on Epson and Star thermal printers in a browser",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@seokju.me/browser-thermal-printer"
+          },
+          {
+            "name": "beepee",
+            "description": "beeping module for trying out npm modules",
+            "version": "2.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/beepee"
+          },
+          {
+            "name": "fc64js",
+            "description": "fc64js is a small browser based fantasy console",
+            "version": "0.0.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/fc64js"
+          },
+          {
+            "name": "gulp-md5plus",
+            "description": "md5 the static file and change the names in the quoted html ",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/gulp-md5plus"
+          },
+          {
+            "name": "sindresorhus.js",
+            "description": "Words cannot possibly describe this",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sindresorhus.js"
+          },
+          {
+            "name": "morse-beep",
+            "description": "A simple text to Morse Code player for the modern web",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/morse-beep"
+          },
+          {
+            "name": "@xch/beepbeep",
+            "description": "Make a console beep noise in Node.js",
+            "version": "1.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@xch/beepbeep"
+          },
+          {
+            "name": "@husky-dev/msp",
+            "description": "MSP protocol implementation for Node.js",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@husky-dev/msp"
+          },
+          {
+            "name": "codehskarel-tester",
+            "description": "Test karel submissions from codehs using [jskarel](https://github.com/freeuni-digital-technologies/jskarel)",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/codehskarel-tester"
+          },
+          {
+            "name": "beep-browser",
+            "description": "An utility to play sounds on the browser",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/beep-browser"
+          },
+          {
+            "name": "@nimbox/js-logger-api",
+            "description": "Generic JS logging interface",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@nimbox/js-logger-api"
+          },
+          {
+            "name": "network-pocket",
+            "description": "This is cli tool for sniffing your network and monitor to rx and tx packages from network.",
+            "version": "1.1.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/network-pocket"
+          },
+          {
+            "name": "slice-file-ml",
+            "description": "stream file slices by line number indexes",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/slice-file-ml"
+          },
+          {
+            "name": "jsspeccy",
+            "description": "a ZX Spectrum emulator in the browser",
+            "version": "3.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/jsspeccy"
+          },
+          {
+            "name": "nexgo-webview-sdk",
+            "description": "TypeScript SDK for Nexgo device APIs (Printer, Scanner, Pinpad, Beeper)",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/nexgo-webview-sdk"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 2,
+        "packages": [
+          {
+            "name": "beeper",
+            "version": "0.1.0",
+            "downloads": 16278,
+            "url": "https://rubygems.org/gems/beeper"
+          },
+          {
+            "name": "karel",
+            "version": "0.1.0",
+            "downloads": 5045,
+            "url": "https://rubygems.org/gems/karel"
+          }
+        ]
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 6,
+        "packages": [
+          {
+            "name": "pc-beeper",
+            "description": "The most primitive audio device available on PC-compatible systems with characteristic 'beeps' and 'squeaks'",
+            "version": "0.1.1",
+            "downloads": 2993,
+            "url": "https://crates.io/crates/pc-beeper"
+          },
+          {
+            "name": "midi-beeper",
+            "description": "A small tool to help create simple melodies from MIDI files",
+            "version": "0.1.2",
+            "downloads": 2960,
+            "url": "https://crates.io/crates/midi-beeper"
+          },
+          {
+            "name": "buplib",
+            "description": "A small beeper / buzzer socket wrapper library",
+            "version": "3.3.0",
+            "downloads": 10339,
+            "url": "https://crates.io/crates/buplib"
+          },
+          {
+            "name": "mayday",
+            "description": "A multi-messaging-sevice aggregator into an all-in-one application (android's app beeper-like)",
+            "version": "0.1.0",
+            "downloads": 293,
+            "url": "https://crates.io/crates/mayday"
+          },
+          {
+            "name": "calliope-mini",
+            "description": "Board support crate for the Calliope mini",
+            "version": "0.3.0",
+            "downloads": 3868,
+            "url": "https://crates.io/crates/calliope-mini"
+          },
+          {
+            "name": "rustzx",
+            "description": "ZX Spectrum emulator",
+            "version": "0.16.0",
+            "downloads": 6521,
+            "url": "https://crates.io/crates/rustzx"
+          }
+        ]
+      },
+      "total_packages": 54,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:28:15.541210"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:28:15.541216",
+    "batch_network": {
+      "batch": "Summer 2021",
+      "total_batch_mates": 390,
+      "active_batch_mates": 317,
+      "batch_success_rate": 81.3,
+      "notable_batch_mates": [
+        {
+          "name": "Hyper",
+          "slug": "hyper",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Sell memberships to your Discord server"
+        },
+        {
+          "name": "Level",
+          "slug": "level",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Fast and simple fintech financing"
+        },
+        {
+          "name": "Goodkind",
+          "slug": "goodkind",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Student communications platform for higher education"
+        },
+        {
+          "name": "Sleek",
+          "slug": "sleek",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "1-click checkout from every store on the internet + cashback rewards."
+        },
+        {
+          "name": "MadEats",
+          "slug": "madeats",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Online delivery-only restaurant group in the Philippines"
+        },
+        {
+          "name": "Maroo",
+          "slug": "maroo",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Business management platform for creatives"
+        },
+        {
+          "name": "Tarsal",
+          "slug": "tarsal",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Data pipeline for your security data lake."
+        },
+        {
+          "name": "Hilos",
+          "slug": "quid",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Close and activate your customers on WhatsApp"
+        },
+        {
+          "name": "Keyri",
+          "slug": "keyri",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Secure fraud prevention and authentication platform for developers"
+        },
+        {
+          "name": "Sproutfi",
+          "slug": "sproutfi",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Latin Americas' first investing social network.  Learn. Share. Invest."
+        }
+      ],
+      "batch_size": 391
+    },
+    "industry_network": {
+      "industries": [
+        "Consumer"
+      ],
+      "total_industry_peers": 852,
+      "active_industry_peers": 408,
+      "direct_competitors": [
+        {
+          "name": "Mixed Media Labs",
+          "slug": "mixed-media-labs",
+          "status": "Inactive",
+          "batch": "Winter 2010",
+          "one_liner": ""
+        },
+        {
+          "name": "Grid",
+          "slug": "binary-thumb",
+          "status": "Inactive",
+          "batch": "Summer 2012",
+          "one_liner": ""
+        },
+        {
+          "name": "Shopagram",
+          "slug": "shopagram",
+          "status": "Inactive",
+          "batch": "Winter 2014",
+          "one_liner": "Next Generation Home Shopping Network"
+        },
+        {
+          "name": "MixerBox",
+          "slug": "mixerbox",
+          "status": "Active",
+          "batch": "Winter 2014",
+          "one_liner": "AI Super-Apps to Live Easier | The anything anytime superapps\u2026"
+        },
+        {
+          "name": "Vote.org",
+          "slug": "vote-org",
+          "status": "Active",
+          "batch": "Summer 2016",
+          "one_liner": ""
+        },
+        {
+          "name": "Xberts",
+          "slug": "xberts",
+          "status": "Inactive",
+          "batch": "Summer 2016",
+          "one_liner": "Xberts.com is a cross-border marketplace for Chinese hardware\u2026"
+        },
+        {
+          "name": "The Essential",
+          "slug": "the-essential",
+          "status": "Active",
+          "batch": "Winter 2017",
+          "one_liner": "E-commerce 2.0"
+        },
+        {
+          "name": "Rally Tennis",
+          "slug": "zestful",
+          "status": "Inactive",
+          "batch": "Winter 2017",
+          "one_liner": "Join tennis league and play competitively with people nearby"
+        },
+        {
+          "name": "Leon & George",
+          "slug": "leon-and-george",
+          "status": "Active",
+          "batch": "Summer 2017",
+          "one_liner": "Buying and owning indoor potted plants made easy."
+        },
+        {
+          "name": "Proven Group",
+          "slug": "proven-group",
+          "status": "Active",
+          "batch": "Winter 2018",
+          "one_liner": "PROVEN is using AI, data and personalization to disrupt CPG"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Palo Alto",
+      "location": "Palo Alto, CA, USA; Remote",
+      "companies_in_city": 93,
+      "active_in_city": 41,
+      "nearby_companies": [
+        {
+          "name": "Hipmob",
+          "slug": "hipmob",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Amiato",
+          "slug": "amiato",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Pixelapse",
+          "slug": "pixelapse",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "LVL6",
+          "slug": "lvl6",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "GiveSpark",
+          "slug": "givespark",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Proxino",
+          "slug": "proxino",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Science Exchange",
+          "slug": "science-exchange",
+          "batch": "Summer 2011",
+          "industry": "Healthcare",
+          "status": "Acquired"
+        },
+        {
+          "name": "Clerky",
+          "slug": "clerky",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Assembled",
+          "slug": "assembled",
+          "batch": "Winter 2011",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Pebble",
+          "slug": "pebble",
+          "batch": "Winter 2011",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Insight Data Science",
+          "slug": "insight-data-science",
+          "batch": "Winter 2011",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "AeroFS",
+          "slug": "aerofs",
+          "batch": "Summer 2010",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Etacts",
+          "slug": "etacts",
+          "batch": "Winter 2010",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Lockitron",
+          "slug": "lockitron",
+          "batch": "Summer 2009",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "GraffitiGeo",
+          "slug": "graffitigeo",
+          "batch": "Summer 2009",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Snipd",
+          "slug": "snipd",
+          "batch": "Summer 2008",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Machine Zone",
+          "slug": "machine-zone",
+          "batch": "Winter 2008",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fuzzwich",
+          "slug": "fuzzwich",
+          "batch": "Summer 2007",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Jumpchat",
+          "slug": "jumpchat",
+          "batch": "Summer 2006",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Pixate",
+          "slug": "pixate",
+          "batch": "Summer 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Hyper",
+        "slug": "hyper",
+        "batch": "Summer 2021",
+        "industry": "Fintech",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Yummy",
+        "slug": "yummy-inc",
+        "batch": "Summer 2021",
+        "industry": "Consumer",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Stipop",
+        "slug": "stipop",
+        "batch": "Summer 2021",
+        "industry": "Consumer",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Gobillion",
+        "slug": "gobillion",
+        "batch": "Summer 2021",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "SolarMente",
+        "slug": "solarmente",
+        "batch": "Summer 2021",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Atmana",
+        "slug": "atmana",
+        "batch": "Summer 2021",
+        "industry": "Consumer",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "BoldVoice",
+        "slug": "boldvoice",
+        "batch": "Summer 2021",
+        "industry": "Consumer",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Nino Foods",
+        "slug": "nino-foods",
+        "batch": "Summer 2021",
+        "industry": "Consumer",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "MadEats",
+        "slug": "madeats",
+        "batch": "Summer 2021",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "SnapCalorie",
+        "slug": "snapcalorie",
+        "batch": "Summer 2021",
+        "industry": "Consumer",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 1335,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:28:15.550908"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:28:15.550913",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:28:15.880432",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:28:15.996010",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 16,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:42:17.404623",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "medium",
+      "market_stage": "growing",
+      "key_trends": [
+        "Messaging app fragmentation",
+        "Demand for unified communication platforms",
+        "Increased focus on privacy and security"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Network effects (as more users join, the value increases), multi-protocol integration",
+      "differentiation": "Unified chat experience across 15+ networks, advanced features like unified search.",
+      "competitive_advantages": [
+        "Comprehensive platform support",
+        "User-friendly interface"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on reverse engineering proprietary protocols",
+        "Dependence on third-party APIs"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "User adoption rate",
+        "Number of connected networks"
+      ],
+      "growth_bottlenecks": [
+        "Maintaining compatibility with evolving chat protocols",
+        "User acquisition costs"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "high",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Protocol changes breaking compatibility",
+        "Security vulnerabilities",
+        "Competition from native apps"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Addresses a clear user pain point",
+        "Strong product vision",
+        "First-mover advantage in unified messaging"
+      ],
+      "concerns": [
+        "Long-term sustainability of reverse engineering approach",
+        "Monetization challenges in a competitive market"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Franz",
+        "Rambox"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on security and privacy enhancements",
+        "Expand platform support to more niche networks"
+      ],
+      "expansion_opportunities": [
+        "Integrate productivity tools",
+        "Offer enterprise solutions"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 727,
+      "completion": 577,
+      "total": 1304,
+      "estimated_cost": 0.000228
+    }
+  },
+  "phase8_complete": true
+}

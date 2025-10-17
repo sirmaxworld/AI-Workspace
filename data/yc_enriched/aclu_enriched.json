@@ -1,0 +1,658 @@
+{
+  "slug": "aclu",
+  "name": "ACLU",
+  "yc_id": 1575,
+  "batch": "Winter 2017",
+  "website": "https://www.aclu.org/",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:39:20.569051",
+    "website": "https://www.aclu.org/",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 231.5,
+      "final_url": "https://www.aclu.org/",
+      "redirected": false,
+      "checked_at": "2025-10-17T00:39:20.800572"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "aclu.org",
+      "registrar": "Cloudflare, Inc.",
+      "creation_date": "1991-07-01T04:00:00",
+      "expiration_date": "2026-06-30T04:00:00",
+      "domain_age_days": 12526,
+      "domain_age_years": 34.3,
+      "name_servers": [
+        "apollo.ns.cloudflare.com",
+        "katelyn.ns.cloudflare.com"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": true,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 33,
+      "server": "Unknown"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:18:36.923590",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:18:27.869077",
+    "place_data": {
+      "status": "success",
+      "method": "nominatim",
+      "formatted_address": "City of New York, New York, United States",
+      "coordinates": {
+        "latitude": 40.7127281,
+        "longitude": -74.0060152
+      },
+      "place_types": [
+        "administrative"
+      ],
+      "retrieved_at": "2025-10-17T10:12:57.698487",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:18:27.869121",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:18:27.869124",
+    "batch_network": {
+      "batch": "Winter 2017",
+      "total_batch_mates": 115,
+      "active_batch_mates": 55,
+      "batch_success_rate": 47.8,
+      "notable_batch_mates": [
+        {
+          "name": "Clear Genetics",
+          "slug": "clear-genetics",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Clear Genetics is scaling delivery of Genomic services"
+        },
+        {
+          "name": "Scribe",
+          "slug": "scribe",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Scribe is an AI based Sales Development Representative that you can\u2026"
+        },
+        {
+          "name": "Loop Support",
+          "slug": "loop-support",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Predict job applicant performance for entry-level support roles"
+        },
+        {
+          "name": "Rippling",
+          "slug": "rippling",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "One place to run all your HR, IT, and Finance. Globally."
+        },
+        {
+          "name": "lvl5",
+          "slug": "lvl5",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "HD maps for self-driving cars."
+        },
+        {
+          "name": "Arthena",
+          "slug": "arthena",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Quantitative Investment in Art Assets "
+        },
+        {
+          "name": "Shipamax",
+          "slug": "shipamax",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Simple, end-to-end automation for logistics orgs"
+        },
+        {
+          "name": "Volansi",
+          "slug": "volansi",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Autonomous VTOL delivery solutions."
+        },
+        {
+          "name": "Soomgo",
+          "slug": "soomgo",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Local services marketplace that connects providers with new customers"
+        },
+        {
+          "name": "Scaphold.io",
+          "slug": "scaphold-io",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The Universal API"
+        }
+      ],
+      "batch_size": 116
+    },
+    "industry_network": {
+      "industries": [
+        "Unspecified"
+      ],
+      "total_industry_peers": 17,
+      "active_industry_peers": 16,
+      "direct_competitors": [
+        {
+          "name": "CodeNow",
+          "slug": "codenow",
+          "status": "Active",
+          "batch": "Winter 2014",
+          "one_liner": "Our mission is to diversify the talent pipeline of students who\u2026"
+        },
+        {
+          "name": "One Degree",
+          "slug": "one-degree",
+          "status": "Active",
+          "batch": "Winter 2014",
+          "one_liner": "One Degree is a nonprofit organization that makes it easy for\u2026"
+        },
+        {
+          "name": "OpenCurriculum",
+          "slug": "opencurriculum",
+          "status": "Active",
+          "batch": "Winter 2014",
+          "one_liner": "Helping K-12 teachers and school administrators build awesome\u2026"
+        },
+        {
+          "name": "Immunity Project",
+          "slug": "immunity-project",
+          "status": "Active",
+          "batch": "Winter 2014",
+          "one_liner": "The free HIV vaccine."
+        },
+        {
+          "name": "Bayes Impact",
+          "slug": "bayes-impact",
+          "status": "Active",
+          "batch": "Summer 2014",
+          "one_liner": "Tech nonprofit building the future of public services."
+        },
+        {
+          "name": "Democracy Earth",
+          "slug": "democracy-earth",
+          "status": "Active",
+          "batch": "Winter 2015",
+          "one_liner": "Censorship resistant democracies. "
+        },
+        {
+          "name": "The Human Utility",
+          "slug": "the-human-utility",
+          "status": "Active",
+          "batch": "Winter 2015",
+          "one_liner": "The Human Utility seeks to eliminate water service disconnections for\u2026"
+        },
+        {
+          "name": "SIRUM",
+          "slug": "sirum",
+          "status": "Active",
+          "batch": "Winter 2015",
+          "one_liner": "SIRUM is a \u201cmatch.com\u201d for unused medicine. We connect institutional\u2026"
+        },
+        {
+          "name": "Leaders In Tech (formerly InnerSpace)",
+          "slug": "leaders-in-tech",
+          "status": "Active",
+          "batch": "Summer 2015",
+          "one_liner": "Helping founders improve themselves, their companies, and the world."
+        },
+        {
+          "name": "80,000 Hours",
+          "slug": "80-000-hours",
+          "status": "Active",
+          "batch": "Summer 2015",
+          "one_liner": "An online guide that tells talented graduates how to maximise the\u2026"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "New York",
+      "location": "New York, NY, USA",
+      "companies_in_city": 523,
+      "active_in_city": 397,
+      "nearby_companies": [
+        {
+          "name": "The Muse",
+          "slug": "the-muse",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "HireArt",
+          "slug": "hireart",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Shoptiques",
+          "slug": "shoptiques",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Grouper",
+          "slug": "grouper",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "99dresses",
+          "slug": "99dresses",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Codecademy",
+          "slug": "codecademy",
+          "batch": "Summer 2011",
+          "industry": "Education",
+          "status": "Acquired"
+        },
+        {
+          "name": "Custora",
+          "slug": "custora",
+          "batch": "Winter 2011",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Recurse Center",
+          "slug": "recurse-center",
+          "batch": "Summer 2010",
+          "industry": "Education",
+          "status": "Active"
+        },
+        {
+          "name": "MessageParty",
+          "slug": "messageparty",
+          "batch": "Summer 2010",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Fabricly",
+          "slug": "fabricly",
+          "batch": "Winter 2010",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "RentHop",
+          "slug": "renthop",
+          "batch": "Summer 2009",
+          "industry": "Real Estate and Construction",
+          "status": "Active"
+        },
+        {
+          "name": "Youlicit",
+          "slug": "youlicit",
+          "batch": "Summer 2008",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "SocialPicks",
+          "slug": "socialpicks",
+          "batch": "Summer 2007",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Octopart",
+          "slug": "octopart",
+          "batch": "Winter 2007",
+          "industry": "Industrials",
+          "status": "Acquired"
+        },
+        {
+          "name": "OMGPop",
+          "slug": "omgpop",
+          "batch": "Summer 2006",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Canopy Labs",
+          "slug": "canopy-labs",
+          "batch": "Summer 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Fullstack Academy",
+          "slug": "fullstack-academy",
+          "batch": "Summer 2012",
+          "industry": "Education",
+          "status": "Acquired"
+        },
+        {
+          "name": "DataNitro",
+          "slug": "datanitro",
+          "batch": "Summer 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "SmartAsset",
+          "slug": "smartasset",
+          "batch": "Summer 2012",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "StyleUp",
+          "slug": "styleup",
+          "batch": "Winter 2013",
+          "industry": "Consumer",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Voiceops",
+        "slug": "voiceops",
+        "batch": "Winter 2017",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Riley",
+        "slug": "riley",
+        "batch": "Winter 2017",
+        "industry": "Real Estate and Construction",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Arthena",
+        "slug": "arthena",
+        "batch": "Winter 2017",
+        "industry": "Fintech",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Extern",
+        "slug": "extern",
+        "batch": "Winter 2017",
+        "industry": "Consumer",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "REZI",
+        "slug": "rezi",
+        "batch": "Winter 2017",
+        "industry": "Real Estate and Construction",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Zinc Platform",
+        "slug": "zinc-platform",
+        "batch": "Winter 2017",
+        "industry": "Fintech",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "VanGo",
+        "slug": "vango",
+        "batch": "Winter 2017",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "RankScience",
+        "slug": "rankscience",
+        "batch": "Winter 2017",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Mednet",
+        "slug": "mednet",
+        "batch": "Winter 2017",
+        "industry": "Healthcare",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Bulk MRO Industrial Supply",
+        "slug": "bulk-mro-industrial-supply",
+        "batch": "Winter 2017",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 655,
+      "network_density_score": 64.4,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": false,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:18:27.892928"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:18:27.892934",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:18:28.222359",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:18:28.308800",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 501,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:38:57.044954",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "mature",
+      "key_trends": [
+        "Increasing political polarization driving demand for civil rights advocacy",
+        "Digital privacy and surveillance concerns expanding legal battlegrounds",
+        "Growing corporate social responsibility creating partnership opportunities"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Brand recognition, legal expertise, and 100+ year institutional trust built through landmark cases",
+      "differentiation": "Nonpartisan approach with bipartisan support defending constitutional rights across political spectrum",
+      "competitive_advantages": [
+        "Unmatched brand recognition and public trust",
+        "Extensive legal precedent and Supreme Court case history"
+      ],
+      "competitive_vulnerabilities": [
+        "Political perception shifts could impact donor base",
+        "Newer digital-native advocacy organizations with different engagement models"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "Nonprofit donation-based",
+      "scalability": "medium",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "mature",
+      "growth_indicators": [
+        "500,000+ member base",
+        "6,000 annual court cases handled"
+      ],
+      "growth_bottlenecks": [
+        "Nonprofit funding constraints",
+        "Limited ability to scale legal expertise rapidly"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "low",
+      "overall_risk_score": 3,
+      "key_risks": [
+        "Political climate changes affecting donor sentiment",
+        "Competition from specialized single-issue advocacy groups",
+        "Potential government funding restrictions"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Century-long track record and institutional credibility",
+        "Diversified legal portfolio across multiple civil rights areas",
+        "Strong financial sustainability through broad donor base"
+      ],
+      "concerns": [
+        "Limited growth potential due to nonprofit structure",
+        "Potential political backlash affecting operations"
+      ],
+      "exit_potential": "N/A - nonprofit organization",
+      "comparable_companies": [
+        "Electronic Frontier Foundation",
+        "Southern Poverty Law Center"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Expand digital advocacy and online engagement platforms",
+        "Develop corporate partnership programs for civil rights initiatives"
+      ],
+      "expansion_opportunities": [
+        "International civil rights consulting",
+        "Legal technology tools for other advocacy organizations"
+      ]
+    },
+    "tokens_used": {
+      "input": 735,
+      "output": 572,
+      "total": 1307,
+      "estimated_cost": 0.010785
+    }
+  },
+  "phase8_complete": true
+}

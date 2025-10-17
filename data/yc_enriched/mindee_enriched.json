@@ -1,0 +1,866 @@
+{
+  "slug": "mindee",
+  "name": "Mindee",
+  "yc_id": 22855,
+  "batch": "Winter 2021",
+  "website": "https://mindee.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:59:59.090198",
+    "website": "https://mindee.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 4813.53,
+      "final_url": "https://www.mindee.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T01:00:03.903734"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "mindee.com",
+      "registrar": "Amazon Registrar, Inc.",
+      "creation_date": "2005-01-20T19:27:31",
+      "expiration_date": "2026-01-20T19:27:31",
+      "domain_age_days": 7574,
+      "domain_age_years": 20.7,
+      "name_servers": [
+        "NS-1114.AWSDNS-11.ORG",
+        "NS-1907.AWSDNS-46.CO.UK",
+        "NS-416.AWSDNS-52.COM",
+        "NS-930.AWSDNS-52.NET"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": "https://www.linkedin.com/company/mindee/",
+      "github": "https://github.com/mindee",
+      "facebook": null,
+      "instagram": null,
+      "youtube": "https://www.youtube.com/@mindeeapi"
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": true,
+      "x_frame_options": true,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 50,
+      "server": "Unknown"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:26:56.187469",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:26:42.711072",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "Paris, France",
+      "coordinates": {
+        "latitude": 48.8566,
+        "longitude": 2.3522
+      },
+      "timezone": {
+        "timezone_id": "Europe/Paris",
+        "timezone_name": "Europe/Paris"
+      },
+      "retrieved_at": "2025-10-17T10:26:42.711150"
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:26:42.711177",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/mindee"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 20,
+        "packages": [
+          {
+            "name": "mindee",
+            "description": "Mindee Client Library for Node.js",
+            "version": "4.32.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/mindee"
+          },
+          {
+            "name": "react-mindee-js",
+            "description": "Front-End Computer Vision SDK for React",
+            "version": "1.6.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-mindee-js"
+          },
+          {
+            "name": "rivalz-znode-cli",
+            "description": "This project is a Node.js application that uses various libraries and frameworks such as `axios`, `ioredis`, `node-machine-id`, `commander`, `ethers`, `croner`, and `mindee`.",
+            "version": "1.7.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rivalz-znode-cli"
+          },
+          {
+            "name": "@pipedream/mindee",
+            "description": "Pipedream Mindee Components",
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@pipedream/mindee"
+          },
+          {
+            "name": "@activepieces/piece-mindee",
+            "description": "This library was generated with [Nx](https://nx.dev).",
+            "version": "0.1.12",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@activepieces/piece-mindee"
+          },
+          {
+            "name": "@kumologica/kumologica-contrib-mindee",
+            "description": "Node that connects with Mindee platform for OCR based scanning of documents",
+            "version": "0.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@kumologica/kumologica-contrib-mindee"
+          },
+          {
+            "name": "mendix-doctr-js",
+            "description": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE) ![Build Status](https://github.com/mindee/doctr-tfjs-demo/workflows/builds/badge.svg)",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/mendix-doctr-js"
+          },
+          {
+            "name": "@dev2324r/react-mindee-js",
+            "description": "Front-End Computer Vision SDK for React",
+            "version": "1.7.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@dev2324r/react-mindee-js"
+          },
+          {
+            "name": "@flowie-app/ocr-extractor",
+            "description": "Ocr extractor for React",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@flowie-app/ocr-extractor"
+          },
+          {
+            "name": "vue-mindee-js",
+            "description": "Computer Vision SDK for Vue",
+            "version": "1.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/vue-mindee-js"
+          },
+          {
+            "name": "@mindee/web-elements",
+            "description": "UI components & utils for Mindee front-end ecosystems - \u00a9 Mindee 2020 - All rights reserved",
+            "version": "2.3.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mindee/web-elements"
+          },
+          {
+            "name": "znode-test",
+            "description": "This project is a Node.js application that uses various libraries and frameworks such as `axios`, `ioredis`, `node-machine-id`, `commander`, `ethers`, `croner`, and `mindee`.",
+            "version": "1.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/znode-test"
+          },
+          {
+            "name": "@activeboxes/piece-mindee",
+            "description": "This library was generated with [Nx](https://nx.dev).",
+            "version": "0.1.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@activeboxes/piece-mindee"
+          },
+          {
+            "name": "@chikistudio/block-mindee",
+            "description": "This library was generated with [Nx](https://nx.dev).",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@chikistudio/block-mindee"
+          },
+          {
+            "name": "mindee-js",
+            "description": "Front-End Computer Vision SDK",
+            "version": "1.0.0-rc.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/mindee-js"
+          },
+          {
+            "name": "@botanicastudios/piece-mindee",
+            "description": "This library was generated with [Nx](https://nx.dev).",
+            "version": "0.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@botanicastudios/piece-mindee"
+          },
+          {
+            "name": "@autohive/cell-mindee",
+            "description": "This library was generated with [Nx](https://nx.dev).",
+            "version": "0.1.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@autohive/cell-mindee"
+          },
+          {
+            "name": "@digitranslab/piece-mindee",
+            "description": "This library was generated with [Nx](https://nx.dev).",
+            "version": "0.1.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@digitranslab/piece-mindee"
+          },
+          {
+            "name": "n8n-nodes-doctr",
+            "description": "Extract text from images using docTR OCR in n8n workflows",
+            "version": "0.1.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/n8n-nodes-doctr"
+          },
+          {
+            "name": "@taskmagic/piece-mindee",
+            "description": "This library was generated with [Nx](https://nx.dev).",
+            "version": "10.1.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@taskmagic/piece-mindee"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 2,
+        "packages": [
+          {
+            "name": "mindee",
+            "version": "4.7.2",
+            "downloads": 185782,
+            "url": "https://rubygems.org/gems/mindee"
+          },
+          {
+            "name": "origamindee",
+            "version": "4.0.2",
+            "downloads": 431641,
+            "url": "https://rubygems.org/gems/origamindee"
+          }
+        ]
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 2,
+        "packages": [
+          {
+            "name": "remindee-bot",
+            "description": "Reminder bot for Telegram without bullshit",
+            "version": "0.3.3",
+            "downloads": 31741,
+            "url": "https://crates.io/crates/remindee-bot"
+          },
+          {
+            "name": "remindee-parser",
+            "description": "Natural language reminder parser for remindee-bot",
+            "version": "0.1.0",
+            "downloads": 406,
+            "url": "https://crates.io/crates/remindee-parser"
+          }
+        ]
+      },
+      "total_packages": 24,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:26:44.133197"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:26:44.133225",
+    "batch_network": {
+      "batch": "Winter 2021",
+      "total_batch_mates": 335,
+      "active_batch_mates": 244,
+      "batch_success_rate": 72.8,
+      "notable_batch_mates": [
+        {
+          "name": "Stacksi",
+          "slug": "stacksi",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Automated Answers to Security Questionnaires"
+        },
+        {
+          "name": "Furmacy",
+          "slug": "furmacy",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Digital e-prescribing software for veterinarians."
+        },
+        {
+          "name": "Fountain9",
+          "slug": "fountain9",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Helping food brands and retailers reduce food wastage"
+        },
+        {
+          "name": "Zepto",
+          "slug": "zepto",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "10-Minute Grocery Delivery in India"
+        },
+        {
+          "name": "Segments.ai",
+          "slug": "segments-ai",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Build better computer vision models by building better datasets"
+        },
+        {
+          "name": "PingPong",
+          "slug": "pingpong",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Video messaging app for remote teams."
+        },
+        {
+          "name": "ClipDrop",
+          "slug": "clipdrop",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Turn regular mobile photos into professional product visuals"
+        },
+        {
+          "name": "Avenue",
+          "slug": "avenue",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Observability platform for operations teams"
+        },
+        {
+          "name": "Flok",
+          "slug": "flok",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "End to end company retreat planning"
+        },
+        {
+          "name": "HyperGlue",
+          "slug": "hyperglue",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Business intelligence on text"
+        }
+      ],
+      "batch_size": 336
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "status": "Active",
+          "batch": "Winter 2012",
+          "one_liner": "High Performance Computing Built for the Cloud"
+        },
+        {
+          "name": "Marft",
+          "slug": "marft",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Marft creates embeddable machine learning models for application\u2026"
+        },
+        {
+          "name": "Pixelapse",
+          "slug": "pixelapse",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Github for designers. We automatically keep track of revisions of\u2026"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Palantir for sales people"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Smart search for the modern team."
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Authy is a Two-Factor Authentication platform for developers"
+        },
+        {
+          "name": "Flutter",
+          "slug": "flutter",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Flutter combined computer vision technology with the built-in webcams\u2026"
+        },
+        {
+          "name": "SolidStage",
+          "slug": "solidstage",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Sysadmin as a service. We make deploying, configuring, monitoring,\u2026"
+        },
+        {
+          "name": "Clutch",
+          "slug": "clutch",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "An easy to integrate library for native iOS applications designed to\u2026"
+        },
+        {
+          "name": "OneSignal",
+          "slug": "onesignal",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Engage customers through personalized omni-channel messaging"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Paris",
+      "location": "Paris, \u00cele-de-France, France; San Francisco, CA, USA; London, England, United Kingdom",
+      "companies_in_city": 55,
+      "active_in_city": 36,
+      "nearby_companies": [
+        {
+          "name": "Motionlead",
+          "slug": "motionlead",
+          "batch": "Winter 2014",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Hublo",
+          "slug": "hublo",
+          "batch": "Summer 2014",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Afrostream",
+          "slug": "afrostream",
+          "batch": "Summer 2015",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Whyd",
+          "slug": "whyd",
+          "batch": "Summer 2016",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Bulldozair",
+          "slug": "bulldozair",
+          "batch": "Summer 2016",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Request Network",
+          "slug": "request-network",
+          "batch": "Winter 2017",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Anasen",
+          "slug": "anasen",
+          "batch": "Winter 2017",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Airthium",
+          "slug": "airthium",
+          "batch": "Summer 2017",
+          "industry": "Industrials",
+          "status": "Active"
+        },
+        {
+          "name": "Goosebump",
+          "slug": "goosebump",
+          "batch": "Summer 2017",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Station",
+          "slug": "station",
+          "batch": "Winter 2018",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Mojo",
+          "slug": "mojo",
+          "batch": "Winter 2018",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Dashblock",
+          "slug": "dashblock",
+          "batch": "Summer 2019",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "OpenReplay",
+          "slug": "asayer",
+          "batch": "Summer 2019",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Data Mechanics",
+          "slug": "data-mechanics",
+          "batch": "Summer 2019",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Multis",
+          "slug": "multis",
+          "batch": "Summer 2019",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Photoroom",
+          "slug": "photoroom",
+          "batch": "Summer 2020",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Riot",
+          "slug": "riot",
+          "batch": "Winter 2020",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Jitter",
+          "slug": "jitter",
+          "batch": "Winter 2020",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Mailwarm",
+          "slug": "mailwarm",
+          "batch": "Summer 2020",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "OneKey",
+          "slug": "onekey",
+          "batch": "Summer 2020",
+          "industry": "Fintech",
+          "status": "Inactive"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Axolo",
+        "slug": "axolo",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Webiny",
+        "slug": "webiny",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Runway",
+        "slug": "runway",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "authzed",
+        "slug": "authzed",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Taloflow",
+        "slug": "taloflow",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "SBX Robotics",
+        "slug": "sbx-robotics",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Pensil",
+        "slug": "pensil",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Triplit",
+        "slug": "triplit",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Clay",
+        "slug": "clay",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Segments.ai",
+        "slug": "segments-ai",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 3136,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:26:44.175179"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:26:44.175196",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:26:44.584149",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:26:44.719610",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 60,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:12.985681",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "AI-powered automation",
+        "Digital transformation",
+        "Rise of no-code/low-code platforms"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Technology (AI/ML expertise), first-mover advantage in specific document types, data network effects as models improve with more data.",
+      "differentiation": "Universal self-service platform for training custom document understanding models, combined with a pre-built document understanding API catalog.",
+      "competitive_advantages": [
+        "Ease of use for developers",
+        "Customizable models",
+        "Focus on document understanding specifically"
+      ],
+      "competitive_vulnerabilities": [
+        "Competition from larger AI platforms (Google, AWS, Azure)",
+        "Reliance on open-source AI advancements",
+        "Potential for commoditization of document understanding APIs"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "series-a",
+      "growth_indicators": [
+        "API usage growth",
+        "Number of paying customers",
+        "Expansion of document types supported"
+      ],
+      "growth_bottlenecks": [
+        "Sales and marketing effectiveness",
+        "Integration complexity for enterprise clients",
+        "AI talent acquisition"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "low",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Competition from larger players",
+        "Rapid advancements in AI",
+        "Data privacy and security concerns"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong founding team",
+        "Large and growing market",
+        "Differentiated product offering"
+      ],
+      "concerns": [
+        "Ability to compete with larger AI platforms",
+        "Scalability of customer support",
+        "Maintaining technological advantage"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Rossum.ai",
+        "UiPath"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on enterprise sales",
+        "Expand document type coverage",
+        "Build stronger integrations with existing platforms"
+      ],
+      "expansion_opportunities": [
+        "Vertical-specific solutions",
+        "Partnerships with RPA vendors",
+        "Geographic expansion"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 706,
+      "completion": 550,
+      "total": 1256,
+      "estimated_cost": 0.000218
+    }
+  },
+  "phase8_complete": true
+}

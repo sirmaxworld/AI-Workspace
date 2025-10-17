@@ -1,0 +1,661 @@
+{
+  "slug": "mason",
+  "name": "Mason",
+  "yc_id": 991,
+  "batch": "Winter 2016",
+  "website": "http://www.bymason.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:36:36.338332",
+    "website": "http://www.bymason.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 401.42,
+      "final_url": "https://www.bymason.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:36:36.739772"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "bymason.com",
+      "registrar": "GoDaddy.com, LLC",
+      "creation_date": "2014-05-30T14:27:37",
+      "expiration_date": "2026-05-30T14:27:37",
+      "domain_age_days": 4157,
+      "domain_age_years": 11.4,
+      "name_servers": [
+        "NS1.DNSIMPLE.COM",
+        "NS2.DNSIMPLE.COM",
+        "NS3.DNSIMPLE.COM",
+        "NS4.DNSIMPLE.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": "https://www.linkedin.com/company/mason-america/",
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 16,
+      "server": "Unknown"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:16:37.281177",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:16:26.608463",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "Seattle, WA, USA",
+      "coordinates": {
+        "latitude": 47.6062,
+        "longitude": -122.3321
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:15:15.688532",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:26.608497",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:26.608500",
+    "batch_network": {
+      "batch": "Winter 2016",
+      "total_batch_mates": 121,
+      "active_batch_mates": 58,
+      "batch_success_rate": 47.9,
+      "notable_batch_mates": [
+        {
+          "name": "Stilt",
+          "slug": "stilt",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Financial products for immigrants (acquired by JG Wentworth)"
+        },
+        {
+          "name": "Embark Trucks",
+          "slug": "embark-trucks",
+          "status": "Public",
+          "top_company": false,
+          "one_liner": "Self-driving semi trucks."
+        },
+        {
+          "name": "Loop Genomics",
+          "slug": "loop-genomics",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Novel long-read DNA sequencing technology"
+        },
+        {
+          "name": "Able Health",
+          "slug": "able-health",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Able Health gets doctors paid more for higher quality care"
+        },
+        {
+          "name": "Truebill",
+          "slug": "truebill",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Live your best financial life"
+        },
+        {
+          "name": "LendEDU",
+          "slug": "lendedu",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "LendEDU is a marketplace for consumer financial products."
+        },
+        {
+          "name": "Luminist Labs",
+          "slug": "luminist-labs",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Diagnostic platform for early detection of liver disease"
+        },
+        {
+          "name": "MineralSoft",
+          "slug": "mineralsoft",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Data management platform for oil & gas assets"
+        },
+        {
+          "name": "Pulpix",
+          "slug": "pulpix",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Binge-watching technology for video platforms. "
+        },
+        {
+          "name": "Paystack",
+          "slug": "paystack",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Modern payments infrastructure for Africa"
+        }
+      ],
+      "batch_size": 122
+    },
+    "industry_network": {
+      "industries": [
+        "B2B"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "MixRank",
+          "slug": "mixrank",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Data products for sales, marketing, finance, recruiting, and more."
+        },
+        {
+          "name": "Memamp",
+          "slug": "memamp",
+          "status": "Inactive",
+          "batch": "Summer 2005",
+          "one_liner": ""
+        },
+        {
+          "name": "Submittable",
+          "slug": "submittable",
+          "status": "Active",
+          "batch": "Summer 2012",
+          "one_liner": "The best way to launch, manage and measure social impact programs"
+        },
+        {
+          "name": "Benchling",
+          "slug": "benchling",
+          "status": "Active",
+          "batch": "Summer 2012",
+          "one_liner": "Unlocking the power of biotech with modern software for modern science"
+        },
+        {
+          "name": "Asseta",
+          "slug": "asseta",
+          "status": "Active",
+          "batch": "Summer 2013",
+          "one_liner": "Marketplace for industrial spare parts and capital equipment."
+        },
+        {
+          "name": "TrueVault",
+          "slug": "truevault",
+          "status": "Active",
+          "batch": "Winter 2014",
+          "one_liner": "We make Privacy Software for SMBs."
+        },
+        {
+          "name": "Magic",
+          "slug": "magic",
+          "status": "Active",
+          "batch": "Winter 2015",
+          "one_liner": "Extremely talented assistants for busy people"
+        },
+        {
+          "name": "Bus.com",
+          "slug": "bus-com",
+          "status": "Inactive",
+          "batch": "Winter 2016",
+          "one_liner": "The easiest way to charter a bus in North America."
+        },
+        {
+          "name": "Livement",
+          "slug": "livement",
+          "status": "Active",
+          "batch": "Summer 2016",
+          "one_liner": "Livement makes selling tickets for events easy and safe for organizers"
+        },
+        {
+          "name": "Instrumentl",
+          "slug": "instrumentl",
+          "status": "Active",
+          "batch": "Summer 2016",
+          "one_liner": "Instrumentl automates grant discovery and management for nonprofits."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Seattle",
+      "location": "Seattle, WA, USA",
+      "companies_in_city": 51,
+      "active_in_city": 32,
+      "nearby_companies": [
+        {
+          "name": "Habit Labs",
+          "slug": "habit-labs",
+          "batch": "Summer 2010",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "RescueTime",
+          "slug": "rescuetime",
+          "batch": "Winter 2008",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Jamglue",
+          "slug": "jamglue",
+          "batch": "Summer 2006",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "TomoGuides",
+          "slug": "tomoguides",
+          "batch": "Summer 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Booktrope",
+          "slug": "booktrope",
+          "batch": "Winter 2015",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Shift Labs",
+          "slug": "shift-labs",
+          "batch": "Winter 2015",
+          "industry": "Healthcare",
+          "status": "Acquired"
+        },
+        {
+          "name": "Deako",
+          "slug": "deako",
+          "batch": "Winter 2016",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Poppy",
+          "slug": "poppy",
+          "batch": "Winter 2016",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "BloomAPI",
+          "slug": "bloomapi",
+          "batch": "Winter 2017",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Sigma Genetics",
+          "slug": "sigma-genetics",
+          "batch": "Winter 2017",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Dropleaf",
+          "slug": "dropleaf",
+          "batch": "Summer 2017",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Worklytics",
+          "slug": "worklytics",
+          "batch": "Winter 2018",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Rebellyous Foods",
+          "slug": "rebellyous-foods",
+          "batch": "Summer 2018",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "The Buttermilk Company",
+          "slug": "the-buttermilk-company",
+          "batch": "Summer 2018",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Shelf Engine",
+          "slug": "shelf-engine",
+          "batch": "Summer 2018",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Bottomless",
+          "slug": "bottomless",
+          "batch": "Winter 2019",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Datamode",
+          "slug": "datamode",
+          "batch": "Winter 2019",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Latchel",
+          "slug": "latchel",
+          "batch": "Winter 2019",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Spiral Genetics",
+          "slug": "spiral-genetics",
+          "batch": "Winter 2019",
+          "industry": "Healthcare",
+          "status": "Inactive"
+        },
+        {
+          "name": "LunaSec",
+          "slug": "lunasec",
+          "batch": "Summer 2019",
+          "industry": "B2B",
+          "status": "Inactive"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Mux",
+        "slug": "mux",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Lattice",
+        "slug": "lattice",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Compgun",
+        "slug": "compgun",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Deepgram",
+        "slug": "deepgram",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Stealth Worker",
+        "slug": "stealth-worker",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Yardbook",
+        "slug": "yardbook",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Chatfuel",
+        "slug": "chatfuel",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "GetAccept",
+        "slug": "getaccept",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Daily",
+        "slug": "daily",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Mio",
+        "slug": "mio",
+        "batch": "Winter 2016",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 2918,
+      "network_density_score": 74.4,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:16:26.615612"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:26.615618",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:26.948014",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:16:27.039272",
+    "basic_info": {
+      "is_hiring": true,
+      "team_size": 65,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:42:09.055959",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increasing adoption of IoT devices",
+        "Growing demand for customized hardware solutions",
+        "Edge computing and decentralized processing"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Integrated hardware and software platform, strong ecosystem lock-in.",
+      "differentiation": "Fully managed infrastructure for smart device development, deployment, and scaling.",
+      "competitive_advantages": [
+        "Faster time-to-market for customers",
+        "Reduced development costs"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on specific hardware components",
+        "Potential for vendor lock-in for customers"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "Increasing customer base",
+        "Expansion into new verticals"
+      ],
+      "growth_bottlenecks": [
+        "Scaling sales and marketing efforts",
+        "Managing supply chain complexities"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Competition from larger players",
+        "Rapid technological advancements",
+        "Economic downturn affecting hardware spending"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong value proposition for smart device companies",
+        "Experienced team",
+        "Large and growing market"
+      ],
+      "concerns": [
+        "High customer acquisition costs",
+        "Dependence on hardware partners"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Particle",
+        "Balena"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on specific verticals to demonstrate success",
+        "Expand partnerships with hardware manufacturers"
+      ],
+      "expansion_opportunities": [
+        "Develop a marketplace for pre-built smart device solutions",
+        "Offer consulting services for IoT strategy"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 719,
+      "completion": 577,
+      "total": 1296,
+      "estimated_cost": 0.000227
+    }
+  },
+  "phase8_complete": true
+}

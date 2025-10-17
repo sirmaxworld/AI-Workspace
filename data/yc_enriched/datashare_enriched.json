@@ -1,0 +1,146 @@
+{
+  "slug": "datashare",
+  "name": "DataShare",
+  "yc_id": 28829,
+  "batch": "Summer 2023",
+  "website": "http://datashare.co/",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T01:24:28.155338",
+    "website": "http://datashare.co/",
+    "website_status": {
+      "reachable": false,
+      "error": "connection_error"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "datashare.co",
+      "registrar": "NAMECHEAP INC",
+      "creation_date": "2023-03-21T17:01:59",
+      "expiration_date": "2026-03-21T23:59:59",
+      "domain_age_days": 940,
+      "domain_age_years": 2.6,
+      "name_servers": [
+        "NS-482.AWSDNS-60.COM",
+        "NS-1310.AWSDNS-35.ORG",
+        "NS-1747.AWSDNS-26.CO.UK",
+        "NS-1018.AWSDNS-63.NET"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "error": "HTTPConnectionPool(host='datashare.co', port=80): Max retries exceeded with url: / (Caused by NameRe"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:39:18.032063",
+  "phase1_complete": true,
+  "phase2_complete": false,
+  "phase3_complete": false,
+  "phase4_complete": false,
+  "phase5_complete": false,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:57.174258",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "medium",
+      "market_stage": "growing",
+      "key_trends": [
+        "Embedded analytics adoption",
+        "Rise of data democratization",
+        "Increasing demand for self-service BI"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Potential for strong data network effects if they can aggregate diverse data sources and provide unique insights. Also first-mover advantage in a niche.",
+      "differentiation": "Focus on ease of embedding and developer-centric approach with minimal code implementation.",
+      "competitive_advantages": [
+        "Ease of integration",
+        "Developer-friendly",
+        "Backed by enterprise-grade data warehouse"
+      ],
+      "competitive_vulnerabilities": [
+        "Competition from established BI vendors",
+        "Reliance on underlying data warehouse infrastructure",
+        "Single founder risk"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "seed",
+      "growth_indicators": [
+        "Number of active integrations",
+        "Customer acquisition rate",
+        "API usage"
+      ],
+      "growth_bottlenecks": [
+        "Sales cycle length",
+        "Integration complexity with diverse data sources",
+        "Building trust with enterprise clients"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "high",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Competition from larger players",
+        "Data security and privacy concerns",
+        "Scalability of the data warehouse"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong value proposition for developers",
+        "Large addressable market",
+        "Potential for rapid growth"
+      ],
+      "concerns": [
+        "Single founder",
+        "Competition",
+        "Market education required"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Looker (Google Cloud)",
+        "Chartio (Atlassian)"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on acquiring early adopters",
+        "Build a strong developer community",
+        "Develop pre-built integrations with popular platforms"
+      ],
+      "expansion_opportunities": [
+        "Expand to new data sources",
+        "Offer white-labeling options",
+        "Develop industry-specific dashboards"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 692,
+      "completion": 536,
+      "total": 1228,
+      "estimated_cost": 0.000213
+    }
+  },
+  "phase8_complete": true
+}

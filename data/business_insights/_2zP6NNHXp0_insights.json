@@ -1,0 +1,251 @@
+{
+  "market_intelligence": {
+    "target_markets": [
+      {
+        "market_description": "Excel power users and professionals who build financial models",
+        "demographics": [
+          "professionals",
+          "financial analysts",
+          "business users"
+        ],
+        "pain_points": [
+          "spending hours building DCF models",
+          "tedious data cleaning",
+          "complex macro programming",
+          "fear of breaking existing spreadsheets"
+        ],
+        "market_size_indicators": "40-year dominance of Microsoft Excel mentioned, suggesting massive established market"
+      },
+      {
+        "market_description": "Non-Excel experts who want to become proficient",
+        "demographics": [
+          "business professionals",
+          "entrepreneurs",
+          "analysts"
+        ],
+        "pain_points": [
+          "overwhelming complexity of Excel",
+          "not knowing how to use macros",
+          "fear of manipulating existing spreadsheets"
+        ],
+        "market_size_indicators": "Second major user archetype identified by the company"
+      }
+    ],
+    "problems_validated": [
+      {
+        "problem": "Building financial models like DCFs takes half a day to a whole day",
+        "severity": "High - described as 'hated' work that's tedious",
+        "current_solutions": "Manual Excel work, macros, traditional spreadsheet tools",
+        "market_gap": "No AI-powered solution that can do 90% of the work automatically"
+      }
+    ]
+  },
+  "products_tools": [
+    {
+      "name": "Shortcut AI",
+      "category": "ai-tool",
+      "use_case": "AI-powered spreadsheet tool that automates financial modeling and data analysis",
+      "sentiment": "highly positive/recommended",
+      "pricing": "not mentioned",
+      "metrics": "not specified"
+    },
+    {
+      "name": "Microsoft Excel",
+      "category": "saas",
+      "use_case": "Traditional spreadsheet software for financial modeling",
+      "sentiment": "negative - described as tedious and overwhelming",
+      "pricing": "not mentioned",
+      "metrics": "40-year market dominance mentioned"
+    },
+    {
+      "name": "Google Sheets",
+      "category": "saas",
+      "use_case": "Cloud-based spreadsheet software",
+      "sentiment": "neutral - mentioned as compatible with Shortcut",
+      "pricing": "not mentioned",
+      "metrics": "not specified"
+    },
+    {
+      "name": "ideabrowser.com",
+      "category": "saas",
+      "use_case": "Daily startup idea generation service using AI agents",
+      "sentiment": "positive/recommended",
+      "pricing": "free plan available, paid plans for more features",
+      "metrics": "not specified"
+    }
+  ],
+  "business_strategies": [
+    {
+      "strategy_type": "product positioning",
+      "strategy": "Position as 'Excel if it was built in the future' - familiar but enhanced",
+      "implementation": "Recreate Excel functionality while adding AI automation",
+      "expected_results": "Users can do 90% less manual work",
+      "case_study": "DCF model that takes half day manually completed in 10 minutes"
+    },
+    {
+      "strategy_type": "monetization",
+      "strategy": "Daily subscription model for startup ideas with AI agent support",
+      "implementation": "Free tier with daily ideas, paid plans for more features and AI chat",
+      "expected_results": "Recurring revenue from idea generation service",
+      "case_study": "ideabrowser.com implementation"
+    }
+  ],
+  "problems_solutions": [
+    {
+      "problem": "Building complex financial models like DCFs takes too long",
+      "category": "business",
+      "solution": "AI agent that can pull 10K data and build projections automatically",
+      "steps": [
+        "Upload existing Excel file",
+        "Ask AI to update with new data",
+        "Specify data sources and projection timeline",
+        "Let AI complete the work in 10 minutes"
+      ],
+      "tools_needed": [
+        "Shortcut AI",
+        "Access to financial data"
+      ],
+      "difficulty": "beginner",
+      "time_estimate": "10 minutes vs half day to full day manually"
+    },
+    {
+      "problem": "Users are not good at prompting AI for spreadsheet tasks",
+      "category": "technical",
+      "solution": "Clarifying questions UI that helps users provide better prompts",
+      "steps": [
+        "AI presents clarifying questions",
+        "User selects from options",
+        "AI uses refined input for better results"
+      ],
+      "tools_needed": [
+        "Shortcut AI interface"
+      ],
+      "difficulty": "beginner",
+      "time_estimate": "not specified"
+    }
+  ],
+  "startup_ideas": [
+    {
+      "idea": "AI-powered trend analysis for startup idea generation",
+      "target_market": "Entrepreneurs and startup founders",
+      "problem_solved": "Difficulty identifying market opportunities and startup ideas",
+      "business_model": "Freemium - free daily ideas, paid plans for more features",
+      "validation": "Uses AI agents to search for market demand signals",
+      "investment_needed": "not mentioned"
+    }
+  ],
+  "mistakes_to_avoid": [
+    {
+      "mistake": "Building AI tools that require expert prompting skills",
+      "consequences": "Users struggle to get value from the product",
+      "prevention": "Build clarifying questions and context-aware interfaces",
+      "example": "Shortcut AI's clarifying questions UI that helps non-expert users"
+    }
+  ],
+  "growth_tactics": [
+    {
+      "channel": "content",
+      "tactic": "Live product demonstrations and podcast appearances",
+      "steps": [
+        "Conduct live demos",
+        "Show real-time problem solving",
+        "Appear on relevant podcasts"
+      ],
+      "cost_estimate": "not mentioned",
+      "results_expected": "User engagement and product understanding"
+    }
+  ],
+  "ai_workflows": [
+    {
+      "workflow_name": "Automated Financial Model Building",
+      "tools_used": [
+        "Shortcut AI",
+        "10K financial data",
+        "Excel templates"
+      ],
+      "steps": [
+        "Upload existing DCF template",
+        "Specify company and data range",
+        "Request forward projections",
+        "AI pulls data and builds model",
+        "Review completed model in 10 minutes"
+      ],
+      "automation_level": "fully-automated",
+      "use_case": "Building complex financial models like DCFs"
+    },
+    {
+      "workflow_name": "P&L Projection Creation",
+      "tools_used": [
+        "Shortcut AI",
+        "Revenue and expense data"
+      ],
+      "steps": [
+        "Input historical financial data",
+        "Specify projection timeline",
+        "Choose growth assumptions",
+        "AI builds income statement with projections"
+      ],
+      "automation_level": "semi-automated",
+      "use_case": "Creating financial projections for data rooms"
+    }
+  ],
+  "metrics_kpis": [],
+  "trends_signals": [
+    {
+      "trend": "Era of the idea guy according to Sam Altman",
+      "category": "technology",
+      "stage": "growing",
+      "opportunity": "AI tools enabling non-technical people to execute complex tasks"
+    },
+    {
+      "trend": "AI agents replacing manual spreadsheet work",
+      "category": "technology",
+      "stage": "early",
+      "opportunity": "Massive productivity gains in financial modeling and data analysis"
+    }
+  ],
+  "actionable_quotes": [
+    {
+      "quote": "It's not as like a co-pilot for one or two steps. It's like it will do 90% of your entire job and then you get to do other things as that happens",
+      "context": "Describing Shortcut AI's capability vs traditional AI assistants",
+      "category": "strategy",
+      "actionability": "Build AI tools that handle entire workflows, not just individual tasks"
+    },
+    {
+      "quote": "Sam Alman, the co-founder of OpenAI, just said that it is the era of the idea guy, and he is not wrong",
+      "context": "Discussing current opportunities for entrepreneurs",
+      "category": "mindset",
+      "actionability": "Focus on identifying good ideas and use AI tools to execute them"
+    },
+    {
+      "quote": "The best way to to really use it is to send it off and probably just come back in about 10 minutes",
+      "context": "How to use Shortcut AI for complex financial modeling",
+      "category": "tactical",
+      "actionability": "Design AI workflows that work asynchronously for complex tasks"
+    }
+  ],
+  "key_statistics": [
+    {
+      "statistic": "Microsoft Excel has 40-year market dominance",
+      "context": "Discussing the established spreadsheet software market",
+      "source_reliability": "claimed"
+    },
+    {
+      "statistic": "DCF models can take half a day to a whole day to build manually",
+      "context": "Comparing manual vs AI-assisted financial modeling time",
+      "source_reliability": "claimed"
+    },
+    {
+      "statistic": "AI can reduce financial modeling work by 90%",
+      "context": "Shortcut AI's value proposition for automating spreadsheet work",
+      "source_reliability": "claimed"
+    }
+  ],
+  "meta": {
+    "video_id": "_2zP6NNHXp0",
+    "title": "The end of Microsoft Excel's 40-Year Dominance? (Shortcut AI is INSANE)",
+    "extracted_at": "2025-10-15T21:57:43.021024",
+    "model": "claude-sonnet-4-20250514",
+    "transcript_length": 42892
+  }
+}

@@ -1,0 +1,1391 @@
+{
+  "slug": "shuttle",
+  "name": "Shuttle",
+  "yc_id": 21794,
+  "batch": "Summer 2020",
+  "website": "https://www.shuttle.dev",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:55:04.497657",
+    "website": "https://www.shuttle.dev",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 802.99,
+      "final_url": "https://www.shuttle.dev/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:55:05.300655"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "shuttle.dev",
+      "registrar": null,
+      "creation_date": null,
+      "expiration_date": null,
+      "domain_age_days": null,
+      "domain_age_years": null,
+      "name_servers": []
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/shuttle_dev",
+      "linkedin": "https://www.linkedin.com/company/shuttle-yc",
+      "github": "https://github.com/shuttle-hq/shuttle",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": true,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 33,
+      "server": "Vercel"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:25:03.473306",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:24:52.982060",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "London, UK",
+      "coordinates": {
+        "latitude": 51.5074,
+        "longitude": -0.1278
+      },
+      "timezone": {
+        "timezone_id": "Europe/London",
+        "timezone_name": "Europe/London"
+      },
+      "retrieved_at": "2025-10-17T10:14:19.264834",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:52.982088",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/shuttle-hq"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 100,
+        "packages": [
+          {
+            "name": "alias-hq",
+            "description": "The end-to-end solution for configuring, refactoring, maintaining and using path aliases",
+            "version": "6.2.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/alias-hq"
+          },
+          {
+            "name": "@shuttle-lib/core",
+            "description": "NPM package to interact with the Shuttle devices",
+            "version": "0.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@shuttle-lib/core"
+          },
+          {
+            "name": "shuttle-webhid",
+            "description": "An npm module for interfacing with the Contour Shuttle devices in Node.js",
+            "version": "0.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/shuttle-webhid"
+          },
+          {
+            "name": "superjson",
+            "description": "<p align=\"center\">   <img alt=\"superjson\" src=\"./docs/superjson-banner.png\" width=\"800\" /> </p>",
+            "version": "2.2.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/superjson"
+          },
+          {
+            "name": "@sketch-hq/sketch-file-format-ts",
+            "description": "TypeScript types for the Sketch File Format",
+            "version": "6.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sketch-hq/sketch-file-format-ts"
+          },
+          {
+            "name": "shuttle-node",
+            "description": "An npm module for interfacing with the Contour Shuttle devices in Node.js",
+            "version": "0.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/shuttle-node"
+          },
+          {
+            "name": "@silk-hq/components",
+            "description": "UI Components by Silk",
+            "version": "0.9.12",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@silk-hq/components"
+          },
+          {
+            "name": "@tensor-hq/tensor-common",
+            "description": "Common utility methods used by Tensor.",
+            "version": "8.3.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@tensor-hq/tensor-common"
+          },
+          {
+            "name": "prolific.shuttle",
+            "description": "The log shuttle that makes a program Prolific-enabled.",
+            "version": "27.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/prolific.shuttle"
+          },
+          {
+            "name": "@tensor-hq/tensor-tests-common",
+            "description": "Common TEST utility methods used by Tensor.",
+            "version": "0.6.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@tensor-hq/tensor-tests-common"
+          },
+          {
+            "name": "sandworm",
+            "description": "Beautiful Visualizations For Your App's Dependencies \ud83e\udeb1",
+            "version": "1.18.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sandworm"
+          },
+          {
+            "name": "@liam-hq/erd-core",
+            "description": "\u26a0\ufe0f **WARNING**: This package is an internal dependency of @liam-hq/cli. Direct use is not recommended and the API is subject to change without notice.",
+            "version": "0.6.14",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@liam-hq/erd-core"
+          },
+          {
+            "name": "@liam-hq/ui",
+            "description": "\u26a0\ufe0f **WARNING**: This package is an internal dependency of @liam-hq/cli. Direct use is not recommended and the API is subject to change without notice.",
+            "version": "0.0.23",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@liam-hq/ui"
+          },
+          {
+            "name": "@delphi-labs/shuttle",
+            "description": "Shuttle is open-source npm package designed to turn wallet connections into a plug-and-play Lego brick for Cosmos Dapps.",
+            "version": "4.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@delphi-labs/shuttle"
+          },
+          {
+            "name": "videojs-shuttle-controls",
+            "description": "Adds shuttle controls(JKL controls) to video.js",
+            "version": "1.2.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/videojs-shuttle-controls"
+          },
+          {
+            "name": "@signiant/media-shuttle-sdk",
+            "description": "The SDK for supporting file transfer to and from Media Shuttle",
+            "version": "1.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@signiant/media-shuttle-sdk"
+          },
+          {
+            "name": "@sketch-hq/sketch-web-renderer",
+            "description": "Sketch Web Renderer",
+            "version": "14.6.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sketch-hq/sketch-web-renderer"
+          },
+          {
+            "name": "matrix-js-sdk",
+            "description": "Matrix Client-Server SDK for Javascript",
+            "version": "38.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/matrix-js-sdk"
+          },
+          {
+            "name": "react-accessible-shuttle",
+            "description": "A tiny, zero dependency, shuttle (a.k.a list shuttle, dual listbox, etc.) implementation in React using hooks.",
+            "version": "0.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-accessible-shuttle"
+          },
+          {
+            "name": "@form8ion/shuttle",
+            "description": "A utility for moving a repository from one account to another",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@form8ion/shuttle"
+          },
+          {
+            "name": "@farcaster/shuttle",
+            "description": "Package to help move data from a hub to a database.",
+            "version": "0.9.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@farcaster/shuttle"
+          },
+          {
+            "name": "@liam-hq/schema",
+            "description": "\u26a0\ufe0f **WARNING**: This package is an internal dependency of @liam-hq/cli. Direct use is not recommended and the API is subject to change without notice.",
+            "version": "0.6.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@liam-hq/schema"
+          },
+          {
+            "name": "@delphi-labs/shuttle-react",
+            "description": "Shuttle is open-source npm package designed to turn wallet connections into a plug-and-play Lego brick for Cosmos Dapps.",
+            "version": "4.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@delphi-labs/shuttle-react"
+          },
+          {
+            "name": "@signiant/media-shuttle-sdk-base",
+            "description": "The base parent sdk behind other media shuttle sdks (e.g. media-shuttle-sdk)",
+            "version": "2.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@signiant/media-shuttle-sdk-base"
+          },
+          {
+            "name": "@element-hq/element-web-module-api",
+            "description": "Module API surface for element-web",
+            "version": "1.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@element-hq/element-web-module-api"
+          },
+          {
+            "name": "esbuild-jest2",
+            "description": "Jest plugin to use esbuild for transformation",
+            "version": "0.6.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/esbuild-jest2"
+          },
+          {
+            "name": "rrweb-player",
+            "description": "rrweb's replayer UI",
+            "version": "1.0.0-alpha.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rrweb-player"
+          },
+          {
+            "name": "@element-hq/element-web-playwright-common",
+            "description": "Set of Playwright & testcontainers utilities to make it easier to write tests for Element Web, Element Web Modules & Element Desktop.",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@element-hq/element-web-playwright-common"
+          },
+          {
+            "name": "@avo-hq/marksmith",
+            "description": "GitHub-style markdown editor for Ruby and Rails",
+            "version": "0.4.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@avo-hq/marksmith"
+          },
+          {
+            "name": "@epilot/esbuild-jest",
+            "description": "Jest plugin to use esbuild for transformation",
+            "version": "0.5.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@epilot/esbuild-jest"
+          },
+          {
+            "name": "@vector-im/matrix-wysiwyg",
+            "description": "Wysiwyg composer for Element Web using React",
+            "version": "2.40.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@vector-im/matrix-wysiwyg"
+          },
+          {
+            "name": "@sash/shuttle",
+            "description": "RabbitMQ RPC for internal needs.",
+            "version": "1.0.24",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sash/shuttle"
+          },
+          {
+            "name": "@sandworm/audit",
+            "description": "Security & License Compliance For Your App's Dependencies \ud83e\udeb1",
+            "version": "1.56.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sandworm/audit"
+          },
+          {
+            "name": "stimulus-confetti",
+            "description": "The easiest way to add confetti to your StimulusJS app.",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/stimulus-confetti"
+          },
+          {
+            "name": "@sketch-hq/sketch-reference-files",
+            "description": "A store of automatically generated Sketch file JSON organised by document version and Sketch feature",
+            "version": "2.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sketch-hq/sketch-reference-files"
+          },
+          {
+            "name": "@saberhq/sail",
+            "description": "Account caching and batched loading for React-based Solana applications.",
+            "version": "4.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@saberhq/sail"
+          },
+          {
+            "name": "@bolt-liquidity-hq/core",
+            "description": "Typescript library with common helpers, utilities and types for all the Bolt clients.",
+            "version": "0.1.0-beta.17",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@bolt-liquidity-hq/core"
+          },
+          {
+            "name": "vite-plugin-tdoc",
+            "description": "Transform markdown into anything for vite plugin",
+            "version": "2.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/vite-plugin-tdoc"
+          },
+          {
+            "name": "@tensor-oss/tcomp-sdk",
+            "description": "Anchor/JS SDK for interacting with TCOMP.",
+            "version": "6.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@tensor-oss/tcomp-sdk"
+          },
+          {
+            "name": "@hotfusion/hq",
+            "description": "Cloud Manager Application(CMA)",
+            "version": "152.0.11",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@hotfusion/hq"
+          },
+          {
+            "name": "@portal-hq/web",
+            "description": "Portal MPC Support for Web",
+            "version": "3.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@portal-hq/web"
+          },
+          {
+            "name": "@liam-hq/cli",
+            "description": "Command-line tool designed to generate a web application that displays ER diagrams. See https://liambx.com/docs/cli",
+            "version": "0.7.20",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@liam-hq/cli"
+          },
+          {
+            "name": "@appshuttle.io/turing",
+            "description": "Code Generation Library used in Shuttle",
+            "version": "0.0.22",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@appshuttle.io/turing"
+          },
+          {
+            "name": "redux-shuttle",
+            "description": "A tool for bundling reducers, action types and actions when using redux, aesthetic toppings fro your redux meal.",
+            "version": "0.3.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/redux-shuttle"
+          },
+          {
+            "name": "@flybondi/ramda-land",
+            "description": "A collection of reusable functions for ramda",
+            "version": "5.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@flybondi/ramda-land"
+          },
+          {
+            "name": "@sentry-internal/rrweb-player",
+            "description": "rrweb's replayer UI",
+            "version": "2.38.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sentry-internal/rrweb-player"
+          },
+          {
+            "name": "@half0wl/superjson",
+            "description": "fork of superjson with cjs support",
+            "version": "2.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@half0wl/superjson"
+          },
+          {
+            "name": "@codeverse/react-shuttle",
+            "description": "Configuration and scripts for Create React App.",
+            "version": "2.1.0-beta.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@codeverse/react-shuttle"
+          },
+          {
+            "name": "shuttle",
+            "description": "A massively-distributable, service-oriented architecture with all the flexibility of Node.",
+            "version": "0.6.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/shuttle"
+          },
+          {
+            "name": "@portal-hq/core",
+            "description": "Portal MPC Support for React Native",
+            "version": "4.1.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@portal-hq/core"
+          },
+          {
+            "name": "@ngxi/streamline-stickies-color",
+            "description": "Icon set Stickies color icons for Angular applications",
+            "version": "0.12.33",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ngxi/streamline-stickies-color"
+          },
+          {
+            "name": "@bolt-liquidity-hq/cosmwasm-client",
+            "description": "Typescript SDK to interact with Bolt Liquidity on CosmWasm based blockchains.",
+            "version": "0.1.0-beta.17",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@bolt-liquidity-hq/cosmwasm-client"
+          },
+          {
+            "name": "@ngxi/streamline-logos",
+            "description": "Icon set Logos free icons for Angular applications",
+            "version": "0.12.33",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ngxi/streamline-logos"
+          },
+          {
+            "name": "@portal-hq/keychain",
+            "description": "The `@portal-hq/keychain` package contains a storage adapter intended for use with the `@portal-hq/core` package.",
+            "version": "4.1.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@portal-hq/keychain"
+          },
+          {
+            "name": "@portal-hq/passkey-storage",
+            "description": "Portal's Passkey storage adapter",
+            "version": "4.1.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@portal-hq/passkey-storage"
+          },
+          {
+            "name": "@openobserve/rrweb-player",
+            "description": "rrweb's replayer UI",
+            "version": "0.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@openobserve/rrweb-player"
+          },
+          {
+            "name": "@ngxi/streamline-freehand",
+            "description": "Icon set Freehand free icons for Angular applications",
+            "version": "0.12.33",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ngxi/streamline-freehand"
+          },
+          {
+            "name": "@ngxi/streamline-color",
+            "description": "Icon set Streamline color for Angular applications",
+            "version": "0.12.33",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ngxi/streamline-color"
+          },
+          {
+            "name": "@mixpanel/rrweb-player",
+            "description": "rrweb's replayer UI",
+            "version": "2.0.0-alpha.18.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mixpanel/rrweb-player"
+          },
+          {
+            "name": "superjson-cjs",
+            "description": "<p align=\"center\">\r   <img alt=\"superjson\" src=\"./docs/superjson-banner.png\" width=\"800\" />\r </p>",
+            "version": "2.2.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/superjson-cjs"
+          },
+          {
+            "name": "@ngxi/streamline-sharp-color",
+            "description": "Icon set Sharp color icons for Angular applications",
+            "version": "0.12.33",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ngxi/streamline-sharp-color"
+          },
+          {
+            "name": "@adsignal/videojs-shuttle-controls",
+            "description": "Adds shuttle controls(JKL controls) to video.js",
+            "version": "1.2.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@adsignal/videojs-shuttle-controls"
+          },
+          {
+            "name": "@saberhq/saber-periphery",
+            "description": "TypeScript SDK for Saber Periphery",
+            "version": "1.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@saberhq/saber-periphery"
+          },
+          {
+            "name": "@traf/nx",
+            "description": "A cli tool that wraps `@traf/core` to be used with Nx.",
+            "version": "0.0.30",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@traf/nx"
+          },
+          {
+            "name": "@ngxi/streamline-sharp",
+            "description": "Icon set Sharp free icons for Angular applications",
+            "version": "0.12.33",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ngxi/streamline-sharp"
+          },
+          {
+            "name": "@amplitude/rrweb-player",
+            "description": "rrweb's replayer UI",
+            "version": "2.0.0-alpha.33",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@amplitude/rrweb-player"
+          },
+          {
+            "name": "cashramp",
+            "description": "Cashramp API NodeJS SDK",
+            "version": "0.0.11",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/cashramp"
+          },
+          {
+            "name": "@arcium-hq/client",
+            "description": "Client SDK for interacting with encrypted Solana programs",
+            "version": "0.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@arcium-hq/client"
+          },
+          {
+            "name": "@portal-hq/injected-provider",
+            "description": "When making changes to the injected provider, be sure to run the bundle script and update the PortalSwift and portal-android repos.",
+            "version": "4.1.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@portal-hq/injected-provider"
+          },
+          {
+            "name": "@ngxi/streamline-kameleon-color",
+            "description": "Icon set Kameleon color icons for Angular applications",
+            "version": "0.12.33",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ngxi/streamline-kameleon-color"
+          },
+          {
+            "name": "@ngxi/streamline-plump-color",
+            "description": "Icon set Plump color icons for Angular applications",
+            "version": "0.12.33",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ngxi/streamline-plump-color"
+          },
+          {
+            "name": "@ngxi/streamline-ultimate-color",
+            "description": "Icon set Ultimate color icons for Angular applications",
+            "version": "0.12.33",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ngxi/streamline-ultimate-color"
+          },
+          {
+            "name": "shuttle-control-usb",
+            "description": "NodeJS Interface for Contour ShuttleXpress, ShuttlePro V1, and ShuttlePro V2",
+            "version": "1.5.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/shuttle-control-usb"
+          },
+          {
+            "name": "@ngxi/streamline",
+            "description": "Icon set Streamline for Angular applications",
+            "version": "0.12.33",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ngxi/streamline"
+          },
+          {
+            "name": "@saberhq/chai-solana",
+            "description": "Solana Chai helpers",
+            "version": "3.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@saberhq/chai-solana"
+          },
+          {
+            "name": "@portal-hq/icloud-storage",
+            "description": "Portal's iCloud storage adapter",
+            "version": "4.1.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@portal-hq/icloud-storage"
+          },
+          {
+            "name": "@ngxi/covid",
+            "description": "Icon set Covid Icons for Angular applications",
+            "version": "0.12.33",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ngxi/covid"
+          },
+          {
+            "name": "@ngxi/streamline-flex",
+            "description": "Icon set Flex free icons for Angular applications",
+            "version": "0.12.33",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ngxi/streamline-flex"
+          },
+          {
+            "name": "@ngxi/guidance",
+            "description": "Icon set Guidance for Angular applications",
+            "version": "0.12.33",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ngxi/guidance"
+          },
+          {
+            "name": "@ngxi/streamline-emojis",
+            "description": "Icon set Streamline Emojis for Angular applications",
+            "version": "0.12.33",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ngxi/streamline-emojis"
+          },
+          {
+            "name": "@ngxi/streamline-cyber",
+            "description": "Icon set Cyber free icons for Angular applications",
+            "version": "0.12.33",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ngxi/streamline-cyber"
+          },
+          {
+            "name": "@ngxi/streamline-ultimate",
+            "description": "Icon set Ultimate free icons for Angular applications",
+            "version": "0.12.33",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ngxi/streamline-ultimate"
+          },
+          {
+            "name": "@ngxi/streamline-block",
+            "description": "Icon set Streamline Block for Angular applications",
+            "version": "0.12.33",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ngxi/streamline-block"
+          },
+          {
+            "name": "@ngxi/streamline-flex-color",
+            "description": "Icon set Flex color icons for Angular applications",
+            "version": "0.12.33",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ngxi/streamline-flex-color"
+          },
+          {
+            "name": "@ngxi/streamline-freehand-color",
+            "description": "Icon set Freehand color icons for Angular applications",
+            "version": "0.12.33",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ngxi/streamline-freehand-color"
+          },
+          {
+            "name": "@portal-hq/gdrive-storage",
+            "description": "Portal's Google Sign-in and Google Drive API integration.",
+            "version": "4.1.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@portal-hq/gdrive-storage"
+          },
+          {
+            "name": "@sketch-hq/sketch-file-format",
+            "description": "JSON Schemas for Sketch files",
+            "version": "6.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sketch-hq/sketch-file-format"
+          },
+          {
+            "name": "@ngxi/streamline-pixel",
+            "description": "Icon set Pixel free icons for Angular applications",
+            "version": "0.12.33",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ngxi/streamline-pixel"
+          },
+          {
+            "name": "@ngxi/streamline-cyber-color",
+            "description": "Icon set Cyber color icons for Angular applications",
+            "version": "0.12.33",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ngxi/streamline-cyber-color"
+          },
+          {
+            "name": "@mezh-hq/react-seat-toolkit",
+            "description": "React UI library to design and render seat layouts",
+            "version": "3.3.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mezh-hq/react-seat-toolkit"
+          },
+          {
+            "name": "@ngxi/streamline-plump",
+            "description": "Icon set Plump free icons for Angular applications",
+            "version": "0.12.33",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ngxi/streamline-plump"
+          },
+          {
+            "name": "@hoseki-inc/superjson",
+            "description": "<p align=\"center\">   <img alt=\"superjson\" src=\"./docs/superjson-banner.png\" width=\"800\" /> </p>",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@hoseki-inc/superjson"
+          },
+          {
+            "name": "sensible-api",
+            "description": "Javascript SDK for Sensible, the developer-first platform for extracting structured data from documents so that you can build document-automation features into your SaaS products",
+            "version": "0.0.12",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sensible-api"
+          },
+          {
+            "name": "synvert-core",
+            "description": "write javascript code to rewrite javascript code",
+            "version": "2.19.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/synvert-core"
+          },
+          {
+            "name": "@100pay-hq/100pay.js",
+            "description": "100Pay.js is the official Nodejs API wrapper SDK that lets you easily verify crypto payments, run bulk payout, transfer assets and many more.",
+            "version": "1.4.12",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@100pay-hq/100pay.js"
+          },
+          {
+            "name": "redux-saga-shuttle",
+            "description": "A saga plugin for redux-shuttle",
+            "version": "0.2.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/redux-saga-shuttle"
+          },
+          {
+            "name": "@appshuttle.io/bell",
+            "description": "Device and Emulator Library used in Shuttle",
+            "version": "0.0.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@appshuttle.io/bell"
+          },
+          {
+            "name": "shuttle-vue3",
+            "description": "These components are for developing Shuttle based web applications. You are welcome to use them and assist in extending the framework.",
+            "version": "0.0.82",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/shuttle-vue3"
+          },
+          {
+            "name": "react-native-react-query-devtools",
+            "description": "React Query Dev Tools for React Native",
+            "version": "1.5.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-native-react-query-devtools"
+          },
+          {
+            "name": "@embeddable.com/vanilla-components",
+            "description": "Hello and welcome to our Embeddable components **starter pack** built just for you by the Embeddable team \u2764\ufe0f We wish to thank you for using our platform and welcome any feedback.",
+            "version": "1.1.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@embeddable.com/vanilla-components"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 100,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:24:54.732278"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:54.732286",
+    "batch_network": {
+      "batch": "Summer 2020",
+      "total_batch_mates": 207,
+      "active_batch_mates": 130,
+      "batch_success_rate": 62.8,
+      "notable_batch_mates": [
+        {
+          "name": "Ladder",
+          "slug": "ladder",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Labor Marketplace for Construction"
+        },
+        {
+          "name": "Fig",
+          "slug": "fig",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Fig adds visual apps, shortcuts, and autocomplete to your terminal."
+        },
+        {
+          "name": "Altro",
+          "slug": "altro",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Build Credit With Your Subscriptions"
+        },
+        {
+          "name": "Jemi",
+          "slug": "jemi",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Jemi helps people build beautiful websites and stores."
+        },
+        {
+          "name": "LSK Technologies",
+          "slug": "lsk-technologies",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A diagnostic lab in a box"
+        },
+        {
+          "name": "Command AI",
+          "slug": "command-ai",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "AI-powered user assistance platform"
+        },
+        {
+          "name": "Bandit ML",
+          "slug": "bandit-ml",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Bandit ML builds machine learning tools for e-commerce companies."
+        },
+        {
+          "name": "Momence",
+          "slug": "momence",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Scheduling and payments for experiences"
+        },
+        {
+          "name": "Gather",
+          "slug": "gather",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Project management software for People Operations"
+        },
+        {
+          "name": "Finmark",
+          "slug": "finmark",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Financial planning software for startups"
+        }
+      ],
+      "batch_size": 208
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Amiato",
+          "slug": "amiato",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "The BI bridge for unstructured data. We automatically bridge the gap\u2026"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Simple multiplayer game servers."
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Backlift allows front-end only developers to build entire websites\u2026"
+        },
+        {
+          "name": "Documents.Me",
+          "slug": "documents-me",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Client-side encryption for your devices and the cloud."
+        },
+        {
+          "name": "Apollo",
+          "slug": "apollo",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Apollo helps engineering teams accelerate delivery"
+        },
+        {
+          "name": "Proxino",
+          "slug": "proxino",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "Javascript proxy."
+        },
+        {
+          "name": "PhoneSys",
+          "slug": "phonesys",
+          "status": "Inactive",
+          "batch": "Summer 2011",
+          "one_liner": "The Phone System for Sales Teams."
+        },
+        {
+          "name": "Cryptoseal",
+          "slug": "cryptoseal",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Server key management, VPN as a Service, Privacy VPN.  Sold to\u2026"
+        },
+        {
+          "name": "Citus Data",
+          "slug": "citus-data",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Real-time. Big data. PostgreSQL"
+        },
+        {
+          "name": "Realm",
+          "slug": "realm",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Better data structures = no DB."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "London",
+      "location": "London, England, United Kingdom",
+      "companies_in_city": 133,
+      "active_in_city": 104,
+      "nearby_companies": [
+        {
+          "name": "CircuitHub",
+          "slug": "circuithub",
+          "batch": "Winter 2012",
+          "industry": "Industrials",
+          "status": "Active"
+        },
+        {
+          "name": "GoCardless",
+          "slug": "gocardless",
+          "batch": "Summer 2011",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Lanyrd",
+          "slug": "lanyrd",
+          "batch": "Winter 2011",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Post.fm",
+          "slug": "post-fm",
+          "batch": "Summer 2010",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Infogami",
+          "slug": "infogami",
+          "batch": "Summer 2005",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "GoScale",
+          "slug": "goscale",
+          "batch": "Summer 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Shoobs",
+          "slug": "shoobs",
+          "batch": "Winter 2014",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Hyperpad",
+          "slug": "hyperpad",
+          "batch": "Summer 2014",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Permutive",
+          "slug": "permutive",
+          "batch": "Summer 2014",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "SalesSift",
+          "slug": "salessift",
+          "batch": "Summer 2014",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "GiveMeTap",
+          "slug": "givemetap",
+          "batch": "Winter 2015",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Tab",
+          "slug": "tab",
+          "batch": "Winter 2015",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Heroic Labs",
+          "slug": "heroic-labs",
+          "batch": "Summer 2015",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Sphere Secure Workspace",
+          "slug": "sphere-secure-workspace",
+          "batch": "Summer 2015",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "80,000 Hours",
+          "slug": "80-000-hours",
+          "batch": "Summer 2015",
+          "industry": "Unspecified",
+          "status": "Active"
+        },
+        {
+          "name": "SmartSite",
+          "slug": "smartsite",
+          "batch": "Summer 2016",
+          "industry": "Real Estate and Construction",
+          "status": "Inactive"
+        },
+        {
+          "name": "Shipamax",
+          "slug": "shipamax",
+          "batch": "Winter 2017",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fat Llama",
+          "slug": "fat-llama",
+          "batch": "Summer 2017",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Entocycle",
+          "slug": "entocycle",
+          "batch": "Summer 2017",
+          "industry": "Industrials",
+          "status": "Active"
+        },
+        {
+          "name": "Opearlo",
+          "slug": "opearlo",
+          "batch": "Summer 2017",
+          "industry": "Consumer",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "QuestDB",
+        "slug": "questdb",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Porter",
+        "slug": "porter",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Reploy",
+        "slug": "reploy",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Metamanagement",
+        "slug": "metamanagement",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Lightdash",
+        "slug": "hubble",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Hypermile",
+        "slug": "hypermile",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Atomized",
+        "slug": "atomized",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Speedscale",
+        "slug": "speedscale",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Seal",
+        "slug": "seal-2",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "KeyDB",
+        "slug": "keydb",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 3086,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:24:54.741620"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:54.741625",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:55.091117",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:55.203349",
+    "basic_info": {
+      "is_hiring": true,
+      "team_size": 12,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:44:23.900568",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "AI-assisted development acceleration",
+        "Developer productivity tools adoption",
+        "Cloud-native infrastructure shift"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Developer experience optimization and open source community engagement",
+      "differentiation": "Focus on AI-powered development workflows with Cursor/Copilot integration",
+      "competitive_advantages": [
+        "Open source community trust",
+        "AI development workflow specialization"
+      ],
+      "competitive_vulnerabilities": [
+        "Large cloud providers entering space",
+        "Limited enterprise features compared to AWS/GCP"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "series-a",
+      "growth_indicators": [
+        "Strong developer community adoption",
+        "4+ years of market validation since YC"
+      ],
+      "growth_bottlenecks": [
+        "Enterprise sales capability",
+        "Competing with hyperscaler marketing budgets"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "AWS/GCP competitive response",
+        "AI development tools commoditization",
+        "Developer tool market saturation"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong timing with AI development boom",
+        "Open source credibility",
+        "Developer-first approach"
+      ],
+      "concerns": [
+        "Intense competition from cloud giants",
+        "Monetization of developer tools challenging"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Vercel",
+        "Railway",
+        "Render"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Expand enterprise features",
+        "Build strategic partnerships with AI tool providers"
+      ],
+      "expansion_opportunities": [
+        "Enterprise developer teams",
+        "Multi-cloud deployment capabilities"
+      ]
+    },
+    "tokens_used": {
+      "input": 722,
+      "output": 505,
+      "total": 1227,
+      "estimated_cost": 0.009741
+    }
+  },
+  "phase8_complete": true
+}

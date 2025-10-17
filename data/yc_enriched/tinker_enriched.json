@@ -1,0 +1,572 @@
+{
+  "slug": "tinker",
+  "name": "Tinker",
+  "yc_id": 716,
+  "batch": "Summer 2014",
+  "website": "http://www.tinkercorp.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:34:30.082745",
+    "website": "http://www.tinkercorp.com",
+    "website_status": {
+      "reachable": false,
+      "error": "connection_error"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "tinkercorp.com",
+      "registrar": "NameCheap, Inc.",
+      "creation_date": "2024-08-26T06:18:27",
+      "expiration_date": "2025-08-26T06:18:27",
+      "domain_age_days": 416,
+      "domain_age_years": 1.1,
+      "name_servers": [
+        "DNS101.REGISTRAR-SERVERS.COM",
+        "DNS102.REGISTRAR-SERVERS.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "error": "HTTPConnectionPool(host='www.tinkercorp.com', port=80): Max retries exceeded with url: / (Caused by "
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:15:02.043711",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:14:51.100414",
+    "place_data": {
+      "status": "success",
+      "method": "nominatim",
+      "formatted_address": "Waterloo, Region of Waterloo, Southwestern Ontario, Ontario, Canada",
+      "coordinates": {
+        "latitude": 43.4652699,
+        "longitude": -80.5222961
+      },
+      "place_types": [
+        "administrative"
+      ],
+      "retrieved_at": "2025-10-17T10:14:42.909465",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:14:51.100437",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:14:51.100440",
+    "batch_network": {
+      "batch": "Summer 2014",
+      "total_batch_mates": 77,
+      "active_batch_mates": 24,
+      "batch_success_rate": 31.2,
+      "notable_batch_mates": [
+        {
+          "name": "Zip Phone",
+          "slug": "zip-phone",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Whatsapp for voice"
+        },
+        {
+          "name": "Parenthoods",
+          "slug": "parenthoods",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Communities for expecting and new parents. "
+        },
+        {
+          "name": "Bitaccess",
+          "slug": "bitaccess",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "We make bitcoin simple. "
+        },
+        {
+          "name": "Carlypso",
+          "slug": "carlypso",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Used car marketplace"
+        },
+        {
+          "name": "Checkr",
+          "slug": "checkr",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "People infrastructure for the future of work"
+        },
+        {
+          "name": "Clara Labs",
+          "slug": "clara-labs",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Clara is a human-in-the-loop assistant that helps automate repetitive\u2026"
+        },
+        {
+          "name": "Craft Coffee",
+          "slug": "craft-coffee",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Better coffee for less money"
+        },
+        {
+          "name": "PersistIQ",
+          "slug": "persistiq",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "PersistIQ is a free email automation platform to send a small batch\u2026"
+        },
+        {
+          "name": "GovPredict",
+          "slug": "govpredict",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The system of record for government affairs."
+        },
+        {
+          "name": "Blockspring",
+          "slug": "blockspring",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Automate data collection for spreadsheets and productivity tools."
+        }
+      ],
+      "batch_size": 78
+    },
+    "industry_network": {
+      "industries": [
+        "Fintech",
+        "Asset Management"
+      ],
+      "total_industry_peers": 597,
+      "active_industry_peers": 448,
+      "direct_competitors": [
+        {
+          "name": "TrustEgg",
+          "slug": "trustegg",
+          "status": "Inactive",
+          "batch": "Winter 2011",
+          "one_liner": "Trust funds."
+        },
+        {
+          "name": "FundersClub",
+          "slug": "fundersclub",
+          "status": "Active",
+          "batch": "Summer 2012",
+          "one_liner": "Online VC"
+        },
+        {
+          "name": "Wefunder",
+          "slug": "wefunder",
+          "status": "Active",
+          "batch": "Winter 2013",
+          "one_liner": "We're Robinhood for pre-IPO startups. Everyone can invest $100."
+        },
+        {
+          "name": "HoverChat",
+          "slug": "hoverchat",
+          "status": "Inactive",
+          "batch": "Winter 2014",
+          "one_liner": "Message without interrupting what you're doing"
+        },
+        {
+          "name": "Theorem",
+          "slug": "theorem",
+          "status": "Acquired",
+          "batch": "Winter 2014",
+          "one_liner": "The mission of Theorem is to make credit safe and available. We use\u2026"
+        },
+        {
+          "name": "Sliced Investing",
+          "slug": "sliced-investing",
+          "status": "Acquired",
+          "batch": "Summer 2014",
+          "one_liner": "Crowdfunding for hedge funds"
+        },
+        {
+          "name": "Instavest",
+          "slug": "instavest",
+          "status": "Inactive",
+          "batch": "Winter 2015",
+          "one_liner": ""
+        },
+        {
+          "name": "Vest",
+          "slug": "vest",
+          "status": "Acquired",
+          "batch": "Winter 2015",
+          "one_liner": "Bringing wider access to financial derivatives. "
+        },
+        {
+          "name": "AlphaFlow",
+          "slug": "alphaflow",
+          "status": "Inactive",
+          "batch": "Winter 2016",
+          "one_liner": "AlphaFlow is a technology-driven investment manager."
+        },
+        {
+          "name": "Algoriz",
+          "slug": "algoriz",
+          "status": "Inactive",
+          "batch": "Winter 2016",
+          "one_liner": "Algoriz is an AI based algorithmic trading platform that enables you\u2026"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Waterloo",
+      "location": "Waterloo, ON, Canada",
+      "companies_in_city": 9,
+      "active_in_city": 5,
+      "nearby_companies": [
+        {
+          "name": "BufferBox",
+          "slug": "bufferbox",
+          "batch": "Summer 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Alchemy",
+          "slug": "alchemy",
+          "batch": "Summer 2014",
+          "industry": "Industrials",
+          "status": "Active"
+        },
+        {
+          "name": "Avro Life Science",
+          "slug": "avro-life-science",
+          "batch": "Winter 2018",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Penta Medical",
+          "slug": "penta-medical",
+          "batch": "Summer 2018",
+          "industry": "Healthcare",
+          "status": "Inactive"
+        },
+        {
+          "name": "Intelline",
+          "slug": "intelline",
+          "batch": "Winter 2019",
+          "industry": "Industrials",
+          "status": "Active"
+        },
+        {
+          "name": "AuroraQ",
+          "slug": "auroraq",
+          "batch": "Winter 2019",
+          "industry": "Industrials",
+          "status": "Inactive"
+        },
+        {
+          "name": "Zergo",
+          "slug": "zergo",
+          "batch": "Summer 2019",
+          "industry": "Healthcare",
+          "status": "Inactive"
+        },
+        {
+          "name": "Deep Meditate",
+          "slug": "deep-meditate",
+          "batch": "Winter 2020",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Hyperbeam",
+          "slug": "hyperbeam",
+          "batch": "Winter 2022",
+          "industry": "B2B",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "low"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Sliced Investing",
+        "slug": "sliced-investing",
+        "batch": "Summer 2014",
+        "industry": "Fintech",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Billforward",
+        "slug": "billforward",
+        "batch": "Summer 2014",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Bitaccess",
+        "slug": "bitaccess",
+        "batch": "Summer 2014",
+        "industry": "Fintech",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Clear",
+        "slug": "cleartax",
+        "batch": "Summer 2014",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Owners Circle",
+        "slug": "owners-circle",
+        "batch": "Summer 2014",
+        "industry": "Fintech",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Kash",
+        "slug": "kash",
+        "batch": "Summer 2014",
+        "industry": "Fintech",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Alchemy",
+        "slug": "alchemy",
+        "batch": "Summer 2014",
+        "industry": "Industrials",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Cheddar",
+        "slug": "cheddar",
+        "batch": "Summer 2014",
+        "industry": "Fintech",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "SFOX",
+        "slug": "sfox",
+        "batch": "Summer 2014",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Apto Payments",
+        "slug": "apto-payments",
+        "batch": "Summer 2014",
+        "industry": "Fintech",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 683,
+      "network_density_score": 57.2,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": false,
+      "calculated_at": "2025-10-17T10:14:51.106377"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:14:51.106380",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:14:51.454461",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:14:51.593386",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": null,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:31.605234",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "medium",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increased institutional investment in crypto",
+        "Growing demand for liquidity in digital asset markets",
+        "Proliferation of new digital assets and exchanges"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Early mover advantage, established relationships with exchanges",
+      "differentiation": "Focus on regulated exchanges, significant market share at peak",
+      "competitive_advantages": [
+        "Early access to market data",
+        "Sophisticated trading algorithms"
+      ],
+      "competitive_vulnerabilities": [
+        "Dependence on exchange relationships",
+        "Vulnerability to regulatory changes"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "Market making (spread capture)",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "inactive",
+      "growth_indicators": [
+        "Past trading volume",
+        "Exchange relationships"
+      ],
+      "growth_bottlenecks": [
+        "Regulatory hurdles",
+        "Competition from larger market makers"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "high",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 7,
+      "key_risks": [
+        "Volatility in cryptocurrency markets",
+        "Changes in exchange regulations",
+        "Increased competition from larger players"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Early mover advantage",
+        "Proven ability to generate volume",
+        "Deep understanding of cryptocurrency markets"
+      ],
+      "concerns": [
+        "Inactive status",
+        "Intense competition",
+        "Regulatory uncertainty"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Jump Trading",
+        "DRW Cumberland"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Re-evaluate market conditions and regulatory landscape",
+        "Explore partnerships with exchanges or institutional investors"
+      ],
+      "expansion_opportunities": [
+        "Expand into new digital assets",
+        "Offer market making services to smaller exchanges"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 655,
+      "completion": 573,
+      "total": 1228,
+      "estimated_cost": 0.000221
+    }
+  },
+  "phase8_complete": true
+}

@@ -1,0 +1,801 @@
+{
+  "slug": "hubble",
+  "name": "Lightdash",
+  "yc_id": 21782,
+  "batch": "Summer 2020",
+  "website": "http://lightdash.com/",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:54:57.843615",
+    "website": "http://lightdash.com/",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 3485.6,
+      "final_url": "https://www.lightdash.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:55:01.329236"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "lightdash.com",
+      "registrar": "Squarespace Domains II LLC",
+      "creation_date": "2015-01-20T00:05:40",
+      "expiration_date": "2031-01-20T00:05:40",
+      "domain_age_days": 3923,
+      "domain_age_years": 10.7,
+      "name_servers": [
+        "NS-CLOUD-D1.GOOGLEDOMAINS.COM",
+        "NS-CLOUD-D2.GOOGLEDOMAINS.COM",
+        "NS-CLOUD-D3.GOOGLEDOMAINS.COM",
+        "NS-CLOUD-D4.GOOGLEDOMAINS.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://x.com/lightdash_devs",
+      "linkedin": "https://www.linkedin.com/company/lightdash/",
+      "github": "https://github.com/lightdash/lightdash",
+      "facebook": null,
+      "instagram": null,
+      "youtube": "https://www.youtube.com/channel/UCgVZeT_aqyW8ky4x-4xP_uA"
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": true,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 33,
+      "server": "Framer/56b5dd6"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:25:02.652093",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:24:51.144508",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "London, UK",
+      "coordinates": {
+        "latitude": 51.5074,
+        "longitude": -0.1278
+      },
+      "timezone": {
+        "timezone_id": "Europe/London",
+        "timezone_name": "Europe/London"
+      },
+      "retrieved_at": "2025-10-17T10:15:07.714653",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:51.144625",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/lightdash"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 14,
+        "packages": [
+          {
+            "name": "@lightdash/cli",
+            "description": "Lightdash CLI tool",
+            "version": "0.2091.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@lightdash/cli"
+          },
+          {
+            "name": "@lightdash/warehouses",
+            "description": "Warehouse connectors for Lightdash",
+            "version": "0.2091.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@lightdash/warehouses"
+          },
+          {
+            "name": "lightdash-client-typescript-fetch",
+            "description": "TypeScript client for Lightdash API generated using openapi-fetch",
+            "version": "0.0.4-202510130900",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/lightdash-client-typescript-fetch"
+          },
+          {
+            "name": "@lightdash/common",
+            "description": null,
+            "version": "0.2091.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@lightdash/common"
+          },
+          {
+            "name": "@lightdash/sdk",
+            "description": null,
+            "version": "0.2091.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@lightdash/sdk"
+          },
+          {
+            "name": "lightdash-mcp-server",
+            "description": "A MCP(Model Context Protocol) server that accesses to lightdash( https://www.lightdash.com/ )",
+            "version": "0.0.12",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/lightdash-mcp-server"
+          },
+          {
+            "name": "@shukun/bi-warehouses",
+            "description": "Warehouse connectors for Lightdash",
+            "version": "0.1034.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@shukun/bi-warehouses"
+          },
+          {
+            "name": "irakli-ld-cli",
+            "description": "Lightdash CLI tool",
+            "version": "0.1456.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/irakli-ld-cli"
+          },
+          {
+            "name": "@lightdash/databricks-sql",
+            "description": "Driver for connection to Databricks SQL via Thrift API.",
+            "version": "0.1.8-beta.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@lightdash/databricks-sql"
+          },
+          {
+            "name": "@shukun/bi-cli",
+            "description": "Lightdash CLI tool",
+            "version": "0.1034.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@shukun/bi-cli"
+          },
+          {
+            "name": "irakli-ld-warehouses",
+            "description": "Warehouse connectors for Lightdash",
+            "version": "0.1456.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/irakli-ld-warehouses"
+          },
+          {
+            "name": "@mseep/lightdash-mcp-server",
+            "description": "A MCP(Model Context Protocol) server that accesses to lightdash( https://www.lightdash.com/ )",
+            "version": "0.0.11",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mseep/lightdash-mcp-server"
+          },
+          {
+            "name": "delphi-node-sdk",
+            "description": "A NodeJS SDK for the Delphi API",
+            "version": "0.1.22",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/delphi-node-sdk"
+          },
+          {
+            "name": "notion-export-mcp-server",
+            "description": "A MCP(Model Context Protocol) server that accesses to Notion unofficial export API",
+            "version": "0.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/notion-export-mcp-server"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 14,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:24:52.519116"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:52.519119",
+    "batch_network": {
+      "batch": "Summer 2020",
+      "total_batch_mates": 207,
+      "active_batch_mates": 130,
+      "batch_success_rate": 62.8,
+      "notable_batch_mates": [
+        {
+          "name": "Ladder",
+          "slug": "ladder",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Labor Marketplace for Construction"
+        },
+        {
+          "name": "Fig",
+          "slug": "fig",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Fig adds visual apps, shortcuts, and autocomplete to your terminal."
+        },
+        {
+          "name": "Altro",
+          "slug": "altro",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Build Credit With Your Subscriptions"
+        },
+        {
+          "name": "Jemi",
+          "slug": "jemi",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Jemi helps people build beautiful websites and stores."
+        },
+        {
+          "name": "LSK Technologies",
+          "slug": "lsk-technologies",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "A diagnostic lab in a box"
+        },
+        {
+          "name": "Command AI",
+          "slug": "command-ai",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "AI-powered user assistance platform"
+        },
+        {
+          "name": "Bandit ML",
+          "slug": "bandit-ml",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Bandit ML builds machine learning tools for e-commerce companies."
+        },
+        {
+          "name": "Momence",
+          "slug": "momence",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Scheduling and payments for experiences"
+        },
+        {
+          "name": "Gather",
+          "slug": "gather",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Project management software for People Operations"
+        },
+        {
+          "name": "Finmark",
+          "slug": "finmark",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Financial planning software for startups"
+        }
+      ],
+      "batch_size": 208
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Analytics"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "status": "Public",
+          "batch": "Winter 2012",
+          "one_liner": "Digital Analytics Platform"
+        },
+        {
+          "name": "Freshplum",
+          "slug": "freshplum",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Analytics with action"
+        },
+        {
+          "name": "Segment",
+          "slug": "segment",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Software and APIs to collect, clean, and control customer data."
+        },
+        {
+          "name": "Pagelever",
+          "slug": "pagelever",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Facebook analytics. Acquired by Unified in January 2013. \r\n"
+        },
+        {
+          "name": "Custora",
+          "slug": "custora",
+          "status": "Acquired",
+          "batch": "Winter 2011",
+          "one_liner": "Custora is a predictive analytics platform for e-commerce marketing\u2026"
+        },
+        {
+          "name": "Chartio",
+          "slug": "chartio",
+          "status": "Acquired",
+          "batch": "Summer 2010",
+          "one_liner": "Chartio is changing how companies work by building the best\u2026"
+        },
+        {
+          "name": "Data Marketplace",
+          "slug": "data-marketplace",
+          "status": "Inactive",
+          "batch": "Winter 2010",
+          "one_liner": ""
+        },
+        {
+          "name": "Mixpanel",
+          "slug": "mixpanel",
+          "status": "Active",
+          "batch": "Summer 2009",
+          "one_liner": "Mixpanel is event analytics for builders that need answers."
+        },
+        {
+          "name": "Poll Everywhere",
+          "slug": "poll-everywhere",
+          "status": "Active",
+          "batch": "Summer 2008",
+          "one_liner": "Interactive meetings and presentations"
+        },
+        {
+          "name": "Infogami",
+          "slug": "infogami",
+          "status": "Inactive",
+          "batch": "Summer 2005",
+          "one_liner": ""
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "London",
+      "location": "London, England, United Kingdom; Remote",
+      "companies_in_city": 133,
+      "active_in_city": 104,
+      "nearby_companies": [
+        {
+          "name": "CircuitHub",
+          "slug": "circuithub",
+          "batch": "Winter 2012",
+          "industry": "Industrials",
+          "status": "Active"
+        },
+        {
+          "name": "GoCardless",
+          "slug": "gocardless",
+          "batch": "Summer 2011",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Lanyrd",
+          "slug": "lanyrd",
+          "batch": "Winter 2011",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Post.fm",
+          "slug": "post-fm",
+          "batch": "Summer 2010",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Infogami",
+          "slug": "infogami",
+          "batch": "Summer 2005",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "GoScale",
+          "slug": "goscale",
+          "batch": "Summer 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Shoobs",
+          "slug": "shoobs",
+          "batch": "Winter 2014",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Hyperpad",
+          "slug": "hyperpad",
+          "batch": "Summer 2014",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Permutive",
+          "slug": "permutive",
+          "batch": "Summer 2014",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "SalesSift",
+          "slug": "salessift",
+          "batch": "Summer 2014",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "GiveMeTap",
+          "slug": "givemetap",
+          "batch": "Winter 2015",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Tab",
+          "slug": "tab",
+          "batch": "Winter 2015",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Heroic Labs",
+          "slug": "heroic-labs",
+          "batch": "Summer 2015",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Sphere Secure Workspace",
+          "slug": "sphere-secure-workspace",
+          "batch": "Summer 2015",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "80,000 Hours",
+          "slug": "80-000-hours",
+          "batch": "Summer 2015",
+          "industry": "Unspecified",
+          "status": "Active"
+        },
+        {
+          "name": "SmartSite",
+          "slug": "smartsite",
+          "batch": "Summer 2016",
+          "industry": "Real Estate and Construction",
+          "status": "Inactive"
+        },
+        {
+          "name": "Shipamax",
+          "slug": "shipamax",
+          "batch": "Winter 2017",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fat Llama",
+          "slug": "fat-llama",
+          "batch": "Summer 2017",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Entocycle",
+          "slug": "entocycle",
+          "batch": "Summer 2017",
+          "industry": "Industrials",
+          "status": "Active"
+        },
+        {
+          "name": "Opearlo",
+          "slug": "opearlo",
+          "batch": "Summer 2017",
+          "industry": "Consumer",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Basedash",
+        "slug": "basedash",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Jitsu",
+        "slug": "jitsu",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Datafold",
+        "slug": "datafold",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Shuttle",
+        "slug": "shuttle",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "QuestDB",
+        "slug": "questdb",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Hypermile",
+        "slug": "hypermile",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Seal",
+        "slug": "seal-2",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Stacker",
+        "slug": "stacker",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Tydo",
+        "slug": "polyops",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Mito",
+        "slug": "mito",
+        "batch": "Summer 2020",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 3086,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:24:52.525474"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:52.525477",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:52.846549",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:24:52.986028",
+    "basic_info": {
+      "is_hiring": true,
+      "team_size": 9,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:42:28.545951",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Democratization of data analytics",
+        "Rise of the modern data stack",
+        "Increasing adoption of open-source solutions"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Open-source community, dbt integration",
+      "differentiation": "Open-source, built for the modern data stack, focuses on collaboration and accessibility.",
+      "competitive_advantages": [
+        "Lower cost of entry",
+        "Community-driven development",
+        "Tight integration with dbt"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on community contributions",
+        "Potential for feature gaps compared to established players",
+        "Need to educate users on open-source benefits"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "series-a",
+      "growth_indicators": [
+        "Community engagement",
+        "Adoption within dbt user base",
+        "Number of active users"
+      ],
+      "growth_bottlenecks": [
+        "Sales and marketing to enterprise clients",
+        "Scaling the open-source community",
+        "Maintaining product velocity"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Competition from established BI vendors",
+        "Sustaining open-source community engagement",
+        "Monetization challenges"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong alignment with modern data stack trends",
+        "Open-source advantage",
+        "Potential to disrupt the BI market"
+      ],
+      "concerns": [
+        "Monetization strategy needs refinement",
+        "Reliance on dbt ecosystem",
+        "Competition from well-funded incumbents"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Metabase",
+        "Superset"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on enterprise sales",
+        "Expand dbt integration",
+        "Build a robust partner ecosystem"
+      ],
+      "expansion_opportunities": [
+        "Offer premium support and consulting services",
+        "Develop advanced analytics features",
+        "Expand to other data transformation tools"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 646,
+      "completion": 545,
+      "total": 1191,
+      "estimated_cost": 0.000212
+    }
+  },
+  "phase8_complete": true
+}

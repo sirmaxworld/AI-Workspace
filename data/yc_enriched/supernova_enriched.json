@@ -1,0 +1,1248 @@
+{
+  "slug": "supernova",
+  "name": "Supernova",
+  "yc_id": 12037,
+  "batch": "Winter 2019",
+  "website": "https://supernova.io",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:46:10.045746",
+    "website": "https://supernova.io",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 1098.64,
+      "final_url": "https://www.supernova.io/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:46:11.144393"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "supernova.io",
+      "registrar": "Name.com, Inc.",
+      "creation_date": "2016-12-04T00:30:01",
+      "expiration_date": "2025-12-04T00:30:13",
+      "domain_age_days": 3239,
+      "domain_age_years": 8.9,
+      "name_servers": [
+        "ns-1951.awsdns-51.co.uk",
+        "ns-1520.awsdns-62.org",
+        "ns-921.awsdns-51.net",
+        "ns-63.awsdns-07.com"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/supernova_io",
+      "linkedin": "https://www.linkedin.com/company/supernova-io/",
+      "github": "https://github.com/Supernova-Studio/",
+      "facebook": null,
+      "instagram": null,
+      "youtube": "https://www.youtube.com/c/Supernova-io"
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": true,
+      "x_frame_options": true,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 50,
+      "server": "Unknown"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:21:42.740764",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:21:27.002185",
+    "place_data": {
+      "status": "success",
+      "method": "nominatim",
+      "formatted_address": "Praha, obvod Praha 4, Hlavn\u00ed m\u011bsto Praha, Praha, \u010cesko",
+      "coordinates": {
+        "latitude": 50.0596288,
+        "longitude": 14.4464593
+      },
+      "place_types": [
+        "administrative"
+      ],
+      "retrieved_at": "2025-10-17T10:21:29.200618"
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:21:29.203611",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/Supernova-Studio"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 100,
+        "packages": [
+          {
+            "name": "@supernova-studio/pulsar-language",
+            "description": "Templating language for Supernova DSM",
+            "version": "2.7.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@supernova-studio/pulsar-language"
+          },
+          {
+            "name": "@supernova-studio/pulsar-core",
+            "description": "Export Engine for Supernova DSM",
+            "version": "2.7.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@supernova-studio/pulsar-core"
+          },
+          {
+            "name": "@supernova-studio/client",
+            "description": "Supernova Data Models",
+            "version": "1.46.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@supernova-studio/client"
+          },
+          {
+            "name": "@supernova-studio/model",
+            "description": "Supernova Data Models",
+            "version": "1.46.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@supernova-studio/model"
+          },
+          {
+            "name": "@supernovaio/supernova-sdk",
+            "description": "Supernova.io Developer SDK",
+            "version": "1.9.53",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@supernovaio/supernova-sdk"
+          },
+          {
+            "name": "@supernovaio/sdk",
+            "description": "Supernova.io SDK",
+            "version": "2.2.45",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@supernovaio/sdk"
+          },
+          {
+            "name": "@supernova-studio/supernova-sdk-beta",
+            "description": "Supernova.io SDK",
+            "version": "2.1.15",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@supernova-studio/supernova-sdk-beta"
+          },
+          {
+            "name": "@supernovaio/cli",
+            "description": "Supernova.io Command Line Interface",
+            "version": "2.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@supernovaio/cli"
+          },
+          {
+            "name": "@supernova-studio/export-helpers",
+            "description": "Supernova.io Exporter Helpers",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@supernova-studio/export-helpers"
+          },
+          {
+            "name": "@supernovaio/sdk-exporters",
+            "description": "Supernova.io Exporter SDK",
+            "version": "2.2.45",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@supernovaio/sdk-exporters"
+          },
+          {
+            "name": "@supernova-studio/simple-parse-github-url",
+            "description": "Simplified version of https://github.com/jonschlinkert/parse-github-url",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@supernova-studio/simple-parse-github-url"
+          },
+          {
+            "name": "@supernova-studio/supernova-sdk-next",
+            "description": "Supernova.io Developer SDK",
+            "version": "2.0.23",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@supernova-studio/supernova-sdk-next"
+          },
+          {
+            "name": "@supernova-studio/pulsar-next",
+            "description": "Supernova.io Export Engine",
+            "version": "2.0.25",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@supernova-studio/pulsar-next"
+          },
+          {
+            "name": "@supernovaio/export-helpers",
+            "description": "Supernova.io Export Helpers and Utilities",
+            "version": "1.0.31",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@supernovaio/export-helpers"
+          },
+          {
+            "name": "@supernova-studio/pulsar-language-beta",
+            "description": "Templating language for Supernova DSM",
+            "version": "0.1.24",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@supernova-studio/pulsar-language-beta"
+          },
+          {
+            "name": "@supernova-studio/pulsar-core-beta",
+            "description": "Export Engine for Supernova DSM",
+            "version": "0.1.24",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@supernova-studio/pulsar-core-beta"
+          },
+          {
+            "name": "@sap-devx/app-studio-toolkit-types",
+            "description": "The SAP Business Application Studio Toolkit VSCode Extension's API type signatures",
+            "version": "2.8.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap-devx/app-studio-toolkit-types"
+          },
+          {
+            "name": "@sap/bas-sdk",
+            "description": "SDK for SAP Business Application Studio",
+            "version": "3.12.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap/bas-sdk"
+          },
+          {
+            "name": "is-subset",
+            "description": "Check if an object is contained within another one",
+            "version": "0.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/is-subset"
+          },
+          {
+            "name": "appium-uiautomator2-driver",
+            "description": "UiAutomator2 integration for Appium",
+            "version": "5.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/appium-uiautomator2-driver"
+          },
+          {
+            "name": "@apollo/utils.usagereporting",
+            "description": "Generate a signature for Apollo usage reporting",
+            "version": "2.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@apollo/utils.usagereporting"
+          },
+          {
+            "name": "@microsoft/dev-tunnels-management",
+            "description": "Tunnels library for Visual Studio tools",
+            "version": "1.3.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@microsoft/dev-tunnels-management"
+          },
+          {
+            "name": "next-sanity",
+            "description": "Sanity.io toolkit for Next.js",
+            "version": "11.5.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/next-sanity"
+          },
+          {
+            "name": "@google/genai",
+            "description": "[![NPM Downloads](https://img.shields.io/npm/dw/%40google%2Fgenai)](https://www.npmjs.com/package/@google/genai) [![Node Current](https://img.shields.io/node/v/%40google%2Fgenai)](https://www.npmjs.com/package/@google/genai)",
+            "version": "1.25.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google/genai"
+          },
+          {
+            "name": "@apify/ui-library",
+            "description": "React UI library used by apify.com",
+            "version": "1.100.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@apify/ui-library"
+          },
+          {
+            "name": "array-from",
+            "description": "A ponyfill for the ES 2015 (ES6) `Array.from()`.",
+            "version": "2.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/array-from"
+          },
+          {
+            "name": "@microsoft/dev-tunnels-contracts",
+            "description": "Tunnels library for Visual Studio tools",
+            "version": "1.3.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@microsoft/dev-tunnels-contracts"
+          },
+          {
+            "name": "xstate",
+            "description": "Finite State Machines and Statecharts for the Modern Web.",
+            "version": "5.23.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/xstate"
+          },
+          {
+            "name": "@sanity/eslint-config-studio",
+            "description": "The ESLint configuration that ships with new Sanity Studio projects. Designed to be relatively unobtrusive to help find bugs instead enforce opinions.",
+            "version": "5.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sanity/eslint-config-studio"
+          },
+          {
+            "name": "@tokens-studio/sd-transforms",
+            "description": "Custom transforms for Style-Dictionary, to work with Design Tokens that are exported from Tokens Studio",
+            "version": "2.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@tokens-studio/sd-transforms"
+          },
+          {
+            "name": "@remotion/studio",
+            "description": "APIs for interacting with the Remotion Studio",
+            "version": "4.0.363",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@remotion/studio"
+          },
+          {
+            "name": "@tokens-studio/types",
+            "description": "![NPM version badge](https://img.shields.io/npm/v/@tokens-studio/types) ![License badge](https://img.shields.io/github/license/tokens-studio/types)",
+            "version": "0.5.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@tokens-studio/types"
+          },
+          {
+            "name": "@vscode/emmet-helper",
+            "description": "Helper to use emmet modules in Visual Studio Code",
+            "version": "2.11.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@vscode/emmet-helper"
+          },
+          {
+            "name": "@vscode/vsce-sign",
+            "description": "Visual Studio Code extension package signing and verification module",
+            "version": "2.0.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@vscode/vsce-sign"
+          },
+          {
+            "name": "@drizzle-team/studio",
+            "description": "If you're looking for a Drizzle Studio NPM package to install into your product - you're in the right place! <br>",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@drizzle-team/studio"
+          },
+          {
+            "name": "@remotion/studio-shared",
+            "description": "Internal package for shared objects between the Studio backend and frontend",
+            "version": "4.0.363",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@remotion/studio-shared"
+          },
+          {
+            "name": "@sap/hana-database-explorer",
+            "description": "SAP HANA Database Explorer for Visual Studio Code package",
+            "version": "1.34.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap/hana-database-explorer"
+          },
+          {
+            "name": "@remotion/studio-server",
+            "description": "Run a Remotion Studio with a server backend",
+            "version": "4.0.363",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@remotion/studio-server"
+          },
+          {
+            "name": "@biomejs/biome",
+            "description": "Biome is a toolchain for the web: formatter, linter and more",
+            "version": "2.2.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@biomejs/biome"
+          },
+          {
+            "name": "@lmc-eu/spirit-design-tokens",
+            "description": "Design tokens for Spirit Design System",
+            "version": "3.7.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@lmc-eu/spirit-design-tokens"
+          },
+          {
+            "name": "@sap/vscode-cds",
+            "description": "SAP CDS language support as npm library.",
+            "version": "9.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap/vscode-cds"
+          },
+          {
+            "name": "@microsoft/dev-tunnels-connections",
+            "description": "Tunnels library for Visual Studio tools",
+            "version": "1.3.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@microsoft/dev-tunnels-connections"
+          },
+          {
+            "name": "@sap/hana-project-explorer",
+            "description": "Allows you to deploy SAP HANA database modules and artifacts and manage database connections",
+            "version": "1.33.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap/hana-project-explorer"
+          },
+          {
+            "name": "azurite",
+            "description": "An open source Azure Storage API compatible server",
+            "version": "3.35.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/azurite"
+          },
+          {
+            "name": "appcenter",
+            "description": "Node module that contains common functionality needed to appcenter-* modules",
+            "version": "5.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/appcenter"
+          },
+          {
+            "name": "@adaline/google",
+            "description": "Adaline Google",
+            "version": "1.9.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@adaline/google"
+          },
+          {
+            "name": "@sap/hana-theme-vscode",
+            "description": "SAP HANA VS Code theme package",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap/hana-theme-vscode"
+          },
+          {
+            "name": "sanity-plugin-media",
+            "description": "This version of `sanity-plugin-media` is for Sanity Studio V3.",
+            "version": "4.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sanity-plugin-media"
+          },
+          {
+            "name": "@sapse/business-application-studio-extension-management",
+            "description": "Command Line Interface for SAP Business Application Studio Extension Management",
+            "version": "1.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sapse/business-application-studio-extension-management"
+          },
+          {
+            "name": "@superannotate/supernova",
+            "description": "Supernova is an open source design system developed by [SuperAnnotate](https://superannotate.com).\\ This library contains a rich set of native Angular UI components developed using Supernova Design System.",
+            "version": "0.1.46",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@superannotate/supernova"
+          },
+          {
+            "name": "@codetrix-studio/capacitor-google-auth",
+            "description": "Google Auth plugin for capacitor.",
+            "version": "3.4.0-rc.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@codetrix-studio/capacitor-google-auth"
+          },
+          {
+            "name": "@kusto/language-service",
+            "description": "Azure Data Explorer (a.k.a Kusto) language service for javascript (legacy code)",
+            "version": "0.0.285",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@kusto/language-service"
+          },
+          {
+            "name": "@langchain/google-common",
+            "description": "Core types and classes for Google services.",
+            "version": "0.2.18",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@langchain/google-common"
+          },
+          {
+            "name": "@sap/generator-adaptation-project",
+            "description": "Adaptation project allows you to create an app variant for an existing SAP Fiori elements-based or SAPUI5 freestyle application, without changing the original application.",
+            "version": "1.1.74",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap/generator-adaptation-project"
+          },
+          {
+            "name": "@automattic/color-studio",
+            "description": "The color palette for Automattic products.",
+            "version": "4.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@automattic/color-studio"
+          },
+          {
+            "name": "@sap/hana-xs-tools",
+            "description": "Allows you to perform operations for the SAP HANA XS Advanced runtime",
+            "version": "1.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap/hana-xs-tools"
+          },
+          {
+            "name": "testcafe",
+            "description": "Automated browser testing for the modern web development stack.",
+            "version": "3.7.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/testcafe"
+          },
+          {
+            "name": "sanity",
+            "description": "Sanity is a real-time content infrastructure with a scalable, hosted backend featuring a Graph Oriented Query Language (GROQ), asset pipelines and fast edge caches",
+            "version": "4.10.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/sanity"
+          },
+          {
+            "name": "env-editor",
+            "description": "Get metadata on the default editor or a specific editor",
+            "version": "1.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/env-editor"
+          },
+          {
+            "name": "@asyncapi/studio",
+            "description": "One place that allows you to develop an AsyncAPI document, validate it, convert it to the latest version, preview the documentation and visualize the events flow.",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@asyncapi/studio"
+          },
+          {
+            "name": "appcenter-analytics",
+            "description": "React Native plugin for AppCenter Analytics",
+            "version": "5.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/appcenter-analytics"
+          },
+          {
+            "name": "vscode-extension-tester",
+            "description": "ExTester is a package that is designed to help you run UI tests for your Visual Studio Code extensions using selenium-webdriver.",
+            "version": "8.19.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/vscode-extension-tester"
+          },
+          {
+            "name": "@sanity/studio-secrets",
+            "description": "React hooks and UI for reading and managing secrets in a Sanity Studio. This is a good pattern for keeping configuration secret. Instead of using environment variables which would be bundled with the Studio source (it is an SPA), we store secret informati",
+            "version": "3.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sanity/studio-secrets"
+          },
+          {
+            "name": "@sanity/initial-value-templates",
+            "description": "Build templates for initial values",
+            "version": "2.36.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sanity/initial-value-templates"
+          },
+          {
+            "name": "@sanity/structure",
+            "description": "Build a navigation structure programatically",
+            "version": "2.36.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sanity/structure"
+          },
+          {
+            "name": "appcenter-crashes",
+            "description": "React Native plugin for AppCenter Crashes",
+            "version": "5.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/appcenter-crashes"
+          },
+          {
+            "name": "prisma",
+            "description": "Prisma is an open-source database toolkit. It includes a JavaScript/TypeScript ORM for Node.js, migrations and a modern GUI to view and edit the data in your database. You can use Prisma in new projects or add it to an existing one.",
+            "version": "6.17.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/prisma"
+          },
+          {
+            "name": "@sanity/react-hooks",
+            "description": "Officially supported Sanity Studio API building blocks",
+            "version": "2.36.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sanity/react-hooks"
+          },
+          {
+            "name": "expo-drizzle-studio-plugin",
+            "description": "Expo DevTools Plugin for Drizzle Studio",
+            "version": "0.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo-drizzle-studio-plugin"
+          },
+          {
+            "name": "@sap/hana-performance-tools",
+            "description": "SAP HANA SQL Analyzer for Visual Studio Code",
+            "version": "1.8.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap/hana-performance-tools"
+          },
+          {
+            "name": "@sanity/transaction-collator",
+            "description": "Collate events from a series of transactions",
+            "version": "2.36.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sanity/transaction-collator"
+          },
+          {
+            "name": "@sanity/base",
+            "description": "Sanity plugin containing the base components and roles for a Sanity configuration",
+            "version": "2.36.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sanity/base"
+          },
+          {
+            "name": "@siteed/expo-audio-studio",
+            "description": "Comprehensive audio processing library for React Native and Expo with recording, analysis, visualization, and streaming capabilities across iOS, Android, and web",
+            "version": "2.18.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@siteed/expo-audio-studio"
+          },
+          {
+            "name": "@apollo/sandbox",
+            "description": "This repo hosts the source for Apollo Studio's Embeddable Sandbox",
+            "version": "2.7.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@apollo/sandbox"
+          },
+          {
+            "name": "@activatortube/supernova-sdk",
+            "description": "Client SDK for SuperNova",
+            "version": "2.1.11",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@activatortube/supernova-sdk"
+          },
+          {
+            "name": "@supernovaio/cli-next",
+            "description": "Supernova.io Command Line Interface",
+            "version": "2.3.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@supernovaio/cli-next"
+          },
+          {
+            "name": "@sap-devx/feature-toggle-node",
+            "description": "[![CircleCI](https://circleci.com/gh/SAP/feature-toggle-node.svg?style=svg)](https://circleci.com/gh/SAP/feature-toggle-node) [![Coverage Status](https://coveralls.io/repos/github/SAP/feature-toggle-node/badge.svg?branch=master)](https://coveralls.io/gith",
+            "version": "2.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sap-devx/feature-toggle-node"
+          },
+          {
+            "name": "@sanity/field",
+            "description": "Diff utilities and preview components",
+            "version": "2.36.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sanity/field"
+          },
+          {
+            "name": "cordova-android",
+            "description": "cordova-android release",
+            "version": "14.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/cordova-android"
+          },
+          {
+            "name": "markdown-table-prettify",
+            "description": "Transforms markdown tables to be more readable.",
+            "version": "3.7.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/markdown-table-prettify"
+          },
+          {
+            "name": "expo",
+            "description": "The Expo SDK",
+            "version": "54.0.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/expo"
+          },
+          {
+            "name": "@diffusion-studio/ffmpeg-js",
+            "description": "FFmpeg.js - Use FFmpeg in the browser powered by WebAssembly",
+            "version": "0.2.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@diffusion-studio/ffmpeg-js"
+          },
+          {
+            "name": "botkit-studio-sdk",
+            "description": "An SDK for integrating Botkit Studio's trigger and script management APIs into a bot",
+            "version": "1.0.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/botkit-studio-sdk"
+          },
+          {
+            "name": "@finos/legend-application-studio",
+            "description": "Legend Studio application core",
+            "version": "28.19.51",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@finos/legend-application-studio"
+          },
+          {
+            "name": "@sanity/desk-tool",
+            "description": "Tool for managing all sorts of content in a structured manner",
+            "version": "2.36.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sanity/desk-tool"
+          },
+          {
+            "name": "@sanity/resolver",
+            "description": "Resolves parts and plugins from a Sanity configuration",
+            "version": "2.36.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sanity/resolver"
+          },
+          {
+            "name": "@sanity/webpack-loader",
+            "description": "Plugin loader for Sanity. Resolves parts based on a declared Sanity manifest and provides infrastructure for loading the required plugins.",
+            "version": "2.36.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sanity/webpack-loader"
+          },
+          {
+            "name": "@sanity/core",
+            "description": "Sanity core bundle, containing required packages for the development and build process",
+            "version": "2.36.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sanity/core"
+          },
+          {
+            "name": "@sanity/visual-editing",
+            "description": "[![npm stat](https://img.shields.io/npm/dm/@sanity/visual-editing.svg?style=flat-square)](https://npm-stat.com/charts.html?package=@sanity/visual-editing) [![npm version](https://img.shields.io/npm/v/@sanity/visual-editing.svg?style=flat-square)](https://",
+            "version": "3.2.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sanity/visual-editing"
+          },
+          {
+            "name": "@sanity/plugin-loader",
+            "description": "Monkey-patches node's require algorithm to allow requiring of Sanity parts",
+            "version": "2.36.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sanity/plugin-loader"
+          },
+          {
+            "name": "@magento/peregrine",
+            "description": "The core runtime of Magento PWA",
+            "version": "15.6.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@magento/peregrine"
+          },
+          {
+            "name": "@sanity/production-preview",
+            "description": "Production preview",
+            "version": "2.35.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sanity/production-preview"
+          },
+          {
+            "name": "@jsreport/jsreport-studio",
+            "description": "jsreport templates editor and designer",
+            "version": "4.3.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@jsreport/jsreport-studio"
+          },
+          {
+            "name": "@gravitee/ui-policy-studio-angular",
+            "description": "Gravitee.io - UI Policy Studio Angular",
+            "version": "15.13.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@gravitee/ui-policy-studio-angular"
+          },
+          {
+            "name": "code-push",
+            "description": "Management SDK for the CodePush service",
+            "version": "4.2.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/code-push"
+          },
+          {
+            "name": "@edx/studio-frontend",
+            "description": "The frontend for the Open edX platform",
+            "version": "2.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@edx/studio-frontend"
+          },
+          {
+            "name": "@grapesjs/studio-sdk",
+            "description": "![GrapesJS Studio SDK editor](https://grapesjs.com/docs/studio-banner.jpg)",
+            "version": "1.0.56",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@grapesjs/studio-sdk"
+          },
+          {
+            "name": "@magento/babel-preset-peregrine",
+            "description": "Babel configuration common to progressive web projects build with Peregrine",
+            "version": "1.3.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@magento/babel-preset-peregrine"
+          },
+          {
+            "name": "@sanity/plugin-kit",
+            "description": "Enhanced Sanity.io plugin development experience",
+            "version": "4.0.19",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sanity/plugin-kit"
+          },
+          {
+            "name": "@jsreport/jsreport-studio-theme-dark",
+            "description": "dark theme for jsreport studio",
+            "version": "4.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@jsreport/jsreport-studio-theme-dark"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 100,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:21:30.734863"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:21:30.734898",
+    "batch_network": {
+      "batch": "Winter 2019",
+      "total_batch_mates": 194,
+      "active_batch_mates": 124,
+      "batch_success_rate": 63.9,
+      "notable_batch_mates": [
+        {
+          "name": "Searchlight",
+          "slug": "searchlight",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Talent AI improving quality of hire"
+        },
+        {
+          "name": "Fuzzbuzz",
+          "slug": "fuzzbuzz",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Fuzzing as a Service"
+        },
+        {
+          "name": "ZeroStorefront",
+          "slug": "zerostorefront",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "#1 Data platform for restaurants. Acquired by Thanx"
+        },
+        {
+          "name": "Geosite",
+          "slug": "geosite",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Geosite is an enterprise SaaS platform for spatial data."
+        },
+        {
+          "name": "Insight",
+          "slug": "insight",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The first extensible browser for iOS"
+        },
+        {
+          "name": "InterPrime",
+          "slug": "interprime",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Safe & Secure Cash Management for Businesses"
+        },
+        {
+          "name": "Preflight",
+          "slug": "preflight",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "No-code Web Apps testing for everyone"
+        },
+        {
+          "name": "Windsor",
+          "slug": "windsor",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "AI Powered Personalized Videos"
+        },
+        {
+          "name": "Ascen",
+          "slug": "ascen",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "EOR for the staffing industry"
+        },
+        {
+          "name": "Convex",
+          "slug": "convex",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Software for the commercial services industry. "
+        }
+      ],
+      "batch_size": 195
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "status": "Active",
+          "batch": "Winter 2012",
+          "one_liner": "High Performance Computing Built for the Cloud"
+        },
+        {
+          "name": "Marft",
+          "slug": "marft",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Marft creates embeddable machine learning models for application\u2026"
+        },
+        {
+          "name": "Pixelapse",
+          "slug": "pixelapse",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Github for designers. We automatically keep track of revisions of\u2026"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Palantir for sales people"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Smart search for the modern team."
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Authy is a Two-Factor Authentication platform for developers"
+        },
+        {
+          "name": "Flutter",
+          "slug": "flutter",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Flutter combined computer vision technology with the built-in webcams\u2026"
+        },
+        {
+          "name": "SolidStage",
+          "slug": "solidstage",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Sysadmin as a service. We make deploying, configuring, monitoring,\u2026"
+        },
+        {
+          "name": "Clutch",
+          "slug": "clutch",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "An easy to integrate library for native iOS applications designed to\u2026"
+        },
+        {
+          "name": "OneSignal",
+          "slug": "onesignal",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Engage customers through personalized omni-channel messaging"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Prague",
+      "location": "Prague, Prague, Czechia",
+      "companies_in_city": 0,
+      "active_in_city": 0,
+      "nearby_companies": [],
+      "ecosystem_density": "low"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "JuziBot",
+        "slug": "juzibot",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Ultralight",
+        "slug": "ultralight",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "DevFlight",
+        "slug": "devflight",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Preflight",
+        "slug": "preflight",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Basilica",
+        "slug": "basilica",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Evo.Do",
+        "slug": "evo-do",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Bensen",
+        "slug": "bensen",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Elph",
+        "slug": "elph",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Mobot",
+        "slug": "mobot",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Doppler",
+        "slug": "doppler",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 2940,
+      "network_density_score": 78.8,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": false,
+      "calculated_at": "2025-10-17T10:21:30.769535"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:21:30.769547",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:21:31.143994",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:21:31.297208",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 20,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:42:02.377407",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "medium",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increased adoption of design systems",
+        "Growing demand for low-code/no-code solutions",
+        "Emphasis on design-developer collaboration"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Technology (design-to-code transformation engine)",
+      "differentiation": "Automated code generation from design systems for any coding stack.",
+      "competitive_advantages": [
+        "Strong focus on design-developer workflow",
+        "Platform-agnostic code generation"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on design tool integrations",
+        "Complexity of supporting all coding stacks"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "series-a",
+      "growth_indicators": [
+        "Adoption rate among design teams",
+        "Number of supported coding stacks"
+      ],
+      "growth_bottlenecks": [
+        "Integration complexity with various design tools",
+        "Educating the market on the benefits of design-to-code automation"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Competition from established players",
+        "Maintaining compatibility with evolving design tools",
+        "Achieving widespread developer adoption"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Addresses a clear pain point in design-developer collaboration",
+        "Potential to significantly accelerate product development",
+        "Strong technology foundation"
+      ],
+      "concerns": [
+        "Market education required for design-to-code automation",
+        "Dependency on third-party design tools"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Abstract",
+        "Zeplin"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on key design tool integrations",
+        "Build a strong community of developers and designers"
+      ],
+      "expansion_opportunities": [
+        "Expand support for more coding stacks",
+        "Develop enterprise features for larger organizations"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 698,
+      "completion": 608,
+      "total": 1306,
+      "estimated_cost": 0.000235
+    }
+  },
+  "phase8_complete": true
+}

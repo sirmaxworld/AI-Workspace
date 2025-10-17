@@ -1,0 +1,200 @@
+{
+  "market_intelligence": {
+    "target_markets": [
+      {
+        "market_description": "People with health concerns who need quick medical guidance",
+        "demographics": [
+          "General population",
+          "Uninsured individuals",
+          "People in areas with limited healthcare access"
+        ],
+        "pain_points": [
+          "Uncertainty about whether skin marks/symptoms require doctor visit",
+          "Fear of waiting too long for medical attention",
+          "Limited access to primary care doctors",
+          "Healthcare system delays"
+        ],
+        "market_size_indicators": "Millions of Canadians don't have access to primary doctors, US has many uninsured people"
+      }
+    ],
+    "problems_validated": [
+      {
+        "problem": "People get skin marks, rashes, or symptoms and don't know if they should see a doctor immediately or wait",
+        "severity": "High - can be life-threatening (skin cancer example provided)",
+        "current_solutions": "Going to ChatGPT for medical advice, waiting it out, or going to doctor immediately",
+        "market_gap": "No dedicated AI app for quick medical triage with photo analysis"
+      }
+    ]
+  },
+  "products_tools": [
+    {
+      "name": "Cal AI",
+      "category": "ai-tool",
+      "use_case": "AI calorie tracking app from pictures",
+      "sentiment": "positive",
+      "pricing": "not mentioned",
+      "metrics": "over $1 million per month in revenue"
+    },
+    {
+      "name": "ChatGPT",
+      "category": "ai-tool",
+      "use_case": "Medical diagnosis and health questions",
+      "sentiment": "positive",
+      "pricing": "not mentioned",
+      "metrics": "Studies show it's beating doctors in many areas"
+    },
+    {
+      "name": "Upwork",
+      "category": "service",
+      "use_case": "Hiring designers for app development",
+      "sentiment": "recommended",
+      "pricing": "not mentioned",
+      "metrics": "not mentioned"
+    }
+  ],
+  "business_strategies": [
+    {
+      "strategy_type": "product",
+      "strategy": "Create user investment through history/logging features",
+      "implementation": "Build a feed-like history showing previous scans, chats, and symptom quizzes",
+      "expected_results": "Users stick with your app even when competitors emerge because their data is already there",
+      "case_study": "Cal AI uses this approach with food logging history"
+    },
+    {
+      "strategy_type": "operations",
+      "strategy": "Do UX design yourself first, then hire designers to make it prettier",
+      "implementation": "Create basic sketches and wireframes, then outsource visual design on platforms like Upwork",
+      "expected_results": "Faster iteration and cost-effective design process",
+      "case_study": "Zach's approach for building apps quickly"
+    }
+  ],
+  "problems_solutions": [
+    {
+      "problem": "Building an AI medical app quickly",
+      "category": "product",
+      "solution": "Focus on three core features: photo diagnosis, symptoms quiz, and chatbot",
+      "steps": [
+        "Design basic UX with navigation",
+        "Add history/logging feature",
+        "Implement photo analysis using GPT technology",
+        "Create symptoms quiz with percentage likelihood",
+        "Add general medical chatbot"
+      ],
+      "tools_needed": [
+        "GPT technology",
+        "Mobile app development platform",
+        "Design tools"
+      ],
+      "difficulty": "intermediate",
+      "time_estimate": "less than a month to launch"
+    }
+  ],
+  "startup_ideas": [
+    {
+      "idea": "Dr AI - AI-powered medical triage app",
+      "target_market": "People with health concerns, especially uninsured or those with limited healthcare access",
+      "problem_solved": "Helps people determine if symptoms require immediate medical attention or can wait",
+      "business_model": "Not specified in transcript",
+      "validation": "Friend's skin cancer story, widespread use of ChatGPT for medical questions",
+      "investment_needed": "Not mentioned"
+    }
+  ],
+  "mistakes_to_avoid": [
+    {
+      "mistake": "Not including proper medical disclaimers",
+      "consequences": "Legal issues and user safety concerns",
+      "prevention": "Heavily disclaim that AI diagnosis is not 100% accurate",
+      "example": "Zach emphasizes the need for disclaimers throughout the discussion"
+    }
+  ],
+  "growth_tactics": [],
+  "ai_workflows": [
+    {
+      "workflow_name": "AI Medical Photo Analysis",
+      "tools_used": [
+        "GPT technology",
+        "Image recognition"
+      ],
+      "steps": [
+        "User takes photo of skin condition",
+        "AI analyzes image",
+        "Provides diagnosis suggestions",
+        "Recommends whether to see doctor or wait"
+      ],
+      "automation_level": "fully-automated",
+      "use_case": "Quick medical triage for skin conditions"
+    },
+    {
+      "workflow_name": "AI Symptoms Assessment",
+      "tools_used": [
+        "ChatGPT/AI chatbot"
+      ],
+      "steps": [
+        "User inputs symptoms",
+        "AI processes symptom combination",
+        "Returns ranked possibilities with percentage likelihood",
+        "Provides medical guidance"
+      ],
+      "automation_level": "fully-automated",
+      "use_case": "Medical symptom analysis and triage"
+    }
+  ],
+  "metrics_kpis": [],
+  "trends_signals": [
+    {
+      "trend": "AI outperforming doctors in medical diagnosis",
+      "category": "technology",
+      "stage": "growing",
+      "opportunity": "AI-powered healthcare apps becoming more viable and trusted"
+    },
+    {
+      "trend": "People using ChatGPT for medical advice",
+      "category": "consumer-behavior",
+      "stage": "mainstream",
+      "opportunity": "Dedicated medical AI apps can capture this existing behavior"
+    }
+  ],
+  "actionable_quotes": [
+    {
+      "quote": "I really think it is the future of healthcare",
+      "context": "Discussing ChatGPT's medical diagnostic capabilities",
+      "category": "strategy",
+      "actionability": "Invest in AI healthcare solutions now while the market is emerging"
+    },
+    {
+      "quote": "The goal of this app isn't to tell you do you have something or do you not it's to tell you is it safe to just wait it out or should you go see a doctor right away",
+      "context": "Defining the core value proposition of Dr AI",
+      "category": "strategy",
+      "actionability": "Focus on triage rather than diagnosis to reduce liability and provide clear value"
+    },
+    {
+      "quote": "You could build very quickly and get it up and running launch it and have everything a full business running in less than a month",
+      "context": "Describing the Dr AI app development timeline",
+      "category": "tactical",
+      "actionability": "Prioritize speed to market with AI apps using existing GPT technology"
+    }
+  ],
+  "key_statistics": [
+    {
+      "statistic": "Over $1 million a month in revenue",
+      "context": "Cal AI app performance by 17-year-old founder",
+      "source_reliability": "claimed"
+    },
+    {
+      "statistic": "Millions of Canadians don't have access to primary doctors",
+      "context": "Healthcare accessibility problem validation",
+      "source_reliability": "claimed"
+    }
+  ],
+  "comment_insights": [],
+  "top_validated_comments": [],
+  "comment_derived_trends": [],
+  "meta": {
+    "video_id": "ZNIoIX0O-20",
+    "title": "Unknown Title",
+    "extracted_at": "2025-10-17T03:03:24.204856",
+    "model": "claude-sonnet-4-20250514",
+    "transcript_length": 58138,
+    "processing_time_seconds": 31.366590976715088
+  }
+}

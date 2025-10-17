@@ -1,0 +1,605 @@
+{
+  "slug": "ixiplay",
+  "name": "Ixiplay",
+  "yc_id": 569,
+  "batch": "Summer 2013",
+  "website": "http://",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:33:22.061596",
+    "website": "http://",
+    "website_status": {
+      "reachable": false,
+      "error": "Invalid URL 'http://': No host supplied"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "",
+      "error": "Whois command returned no output"
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "error": "Invalid URL 'http://': No host supplied"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:14:09.878049",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:07:14.016870",
+    "place_data": {
+      "status": "success",
+      "method": "nominatim",
+      "formatted_address": "Sunnyvale, Santa Clara County, California, United States",
+      "coordinates": {
+        "latitude": 37.3688301,
+        "longitude": -122.036349
+      },
+      "place_types": [
+        "administrative"
+      ],
+      "retrieved_at": "2025-10-17T10:05:44.726474",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:07:14.016895",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:07:14.016898",
+    "batch_network": {
+      "batch": "Summer 2013",
+      "total_batch_mates": 51,
+      "active_batch_mates": 10,
+      "batch_success_rate": 19.6,
+      "notable_batch_mates": [
+        {
+          "name": "URX",
+          "slug": "urx",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Mobile ads that users like. Acquired by Pinterest in May 2016."
+        },
+        {
+          "name": "Apptimize",
+          "slug": "apptimize",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Apptimize lets mobile teams innovate faster to create an amazing user\u2026"
+        },
+        {
+          "name": "Standard Treasury",
+          "slug": "standard-treasury",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Banking APIs; acquired by Silicon Valley Bank in August 2015"
+        },
+        {
+          "name": "BloomThat",
+          "slug": "bloomthat",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Uber for Flowers."
+        },
+        {
+          "name": "Hackermeter",
+          "slug": "hackermeter",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Replacing resume screening with code challenges."
+        },
+        {
+          "name": "CoreOS",
+          "slug": "coreos",
+          "status": "Acquired",
+          "top_company": true,
+          "one_liner": "Open source tools of modern distributed systems."
+        },
+        {
+          "name": "DoorDash",
+          "slug": "doordash",
+          "status": "Public",
+          "top_company": true,
+          "one_liner": "Restaurant delivery."
+        },
+        {
+          "name": "SimpleLegal",
+          "slug": "simplelegal",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Legal Operations for corporate legal teams."
+        },
+        {
+          "name": "SpoonRocket",
+          "slug": "spoonrocket",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Meals Delivered in 10 Minutes"
+        },
+        {
+          "name": "Casetext",
+          "slug": "casetext",
+          "status": "Acquired",
+          "top_company": null,
+          "one_liner": "We make the world's laws free and understandable. "
+        }
+      ],
+      "batch_size": 52
+    },
+    "industry_network": {
+      "industries": [
+        "Consumer",
+        "Consumer Electronics"
+      ],
+      "total_industry_peers": 852,
+      "active_industry_peers": 408,
+      "direct_competitors": [
+        {
+          "name": "Automatic",
+          "slug": "automatic",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "Automatic connects your car to the rest of your digital life."
+        },
+        {
+          "name": "Pebble",
+          "slug": "pebble",
+          "status": "Acquired",
+          "batch": "Winter 2011",
+          "one_liner": "Watch that helps you get shit done and limit the mayhem of\u2026"
+        },
+        {
+          "name": "Leftronic",
+          "slug": "leftronic",
+          "status": "Acquired",
+          "batch": "Summer 2010",
+          "one_liner": "Business dashboards"
+        },
+        {
+          "name": "Lockitron",
+          "slug": "lockitron",
+          "status": "Acquired",
+          "batch": "Summer 2009",
+          "one_liner": "Lockitron makes electronic locks you can control locally from your\u2026"
+        },
+        {
+          "name": "Wakemate",
+          "slug": "wakemate",
+          "status": "Inactive",
+          "batch": "Summer 2009",
+          "one_liner": ""
+        },
+        {
+          "name": "Boosted",
+          "slug": "boosted",
+          "status": "Acquired",
+          "batch": "Summer 2012",
+          "one_liner": "Simple, fun, and fast electric vehicles."
+        },
+        {
+          "name": "Coco Controller",
+          "slug": "coco-controller",
+          "status": "Inactive",
+          "batch": "Summer 2012",
+          "one_liner": "We're building a tactile gaming controller for mobile phones."
+        },
+        {
+          "name": "Graft Concepts",
+          "slug": "graft-concepts",
+          "status": "Inactive",
+          "batch": "Summer 2013",
+          "one_liner": "Graft Concepts makes unique iPhone cases and other mobile accessories"
+        },
+        {
+          "name": "Senic",
+          "slug": "senic",
+          "status": "Acquired",
+          "batch": "Summer 2013",
+          "one_liner": "Simple Controls for Sonos, Philips Hue and other Smart Home products"
+        },
+        {
+          "name": "Lumoid",
+          "slug": "lumoid",
+          "status": "Acquired",
+          "batch": "Summer 2013",
+          "one_liner": "We are a try before you buy service for consumer electronics. "
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Sunnyvale",
+      "location": "Sunnyvale, CA, USA",
+      "companies_in_city": 15,
+      "active_in_city": 9,
+      "nearby_companies": [
+        {
+          "name": "Matterport",
+          "slug": "matterport",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Public"
+        },
+        {
+          "name": "Talkray (TiKL)",
+          "slug": "talkray-tikl",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "Trainzen",
+          "slug": "trainzen",
+          "batch": "Winter 2013",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "VizeraLabs",
+          "slug": "vizeralabs",
+          "batch": "Summer 2014",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Escher Reality",
+          "slug": "escher-reality",
+          "batch": "Summer 2017",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Cairns Health",
+          "slug": "cairns-health",
+          "batch": "Summer 2017",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Percept.AI",
+          "slug": "percept-ai",
+          "batch": "Summer 2017",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "ArchForm",
+          "slug": "archform",
+          "batch": "Winter 2018",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Swif.ai",
+          "slug": "swif-ai",
+          "batch": "Summer 2020",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Cloudanix",
+          "slug": "cloudanix",
+          "batch": "Summer 2021",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "OneStopKitchen",
+          "slug": "onestopkitchen",
+          "batch": "Summer 2021",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Careerist",
+          "slug": "careerist",
+          "batch": "Summer 2021",
+          "industry": "Education",
+          "status": "Active"
+        },
+        {
+          "name": "HypaHub",
+          "slug": "hypahub",
+          "batch": "Winter 2022",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Logital AI (Teclada)",
+          "slug": "logital-ai-teclada",
+          "batch": "Winter 2023",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Epsilla",
+          "slug": "epsilla",
+          "batch": "Summer 2023",
+          "industry": "B2B",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "low"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Graft Concepts",
+        "slug": "graft-concepts",
+        "batch": "Summer 2013",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Senic",
+        "slug": "senic",
+        "batch": "Summer 2013",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Lumoid",
+        "slug": "lumoid",
+        "batch": "Summer 2013",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "FanHero",
+        "slug": "fanhero",
+        "batch": "Summer 2013",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "BloomThat",
+        "slug": "bloomthat",
+        "batch": "Summer 2013",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "DoorDash",
+        "slug": "doordash",
+        "batch": "Summer 2013",
+        "industry": "Consumer",
+        "status": "Public",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Glio",
+        "slug": "glio",
+        "batch": "Summer 2013",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "SpoonRocket",
+        "slug": "spoonrocket",
+        "batch": "Summer 2013",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Layer By Layer",
+        "slug": "layer-by-layer",
+        "batch": "Summer 2013",
+        "industry": "Consumer",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Le Tote",
+        "slug": "le-tote",
+        "batch": "Summer 2013",
+        "industry": "Consumer",
+        "status": "Inactive",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 918,
+      "network_density_score": 53.2,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": false,
+      "calculated_at": "2025-10-17T10:07:14.022109"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:07:14.022112",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:07:14.349153",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:07:14.451657",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 2,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:46:52.979504",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Educational technology integration",
+        "Interactive AI companions",
+        "Programmable toys for STEM learning"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Android-based platform with customizable IP licensing potential",
+      "differentiation": "Hackable robot with emotion recognition and customizable character skins",
+      "competitive_advantages": [
+        "Open Android platform",
+        "IP licensing flexibility"
+      ],
+      "competitive_vulnerabilities": [
+        "High hardware costs",
+        "Complex manufacturing requirements"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "hardware",
+      "scalability": "medium",
+      "capital_intensity": "high"
+    },
+    "growth_assessment": {
+      "growth_stage": "pre-seed",
+      "growth_indicators": [
+        "Platform approach",
+        "App store ecosystem"
+      ],
+      "growth_bottlenecks": [
+        "Manufacturing scale",
+        "High price point at $299"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "high",
+      "execution_risk": "high",
+      "overall_risk_score": 8,
+      "key_risks": [
+        "Hardware manufacturing complexity",
+        "High capital requirements",
+        "Consumer adoption at premium price"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Platform approach with IP licensing",
+        "Educational market opportunity",
+        "Interactive AI integration"
+      ],
+      "concerns": [
+        "Inactive status indicates execution challenges",
+        "High manufacturing costs"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Sphero",
+        "Wonder Workshop"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Reduce manufacturing costs",
+        "Validate market demand at lower price points"
+      ],
+      "expansion_opportunities": [
+        "Educational institution partnerships",
+        "Licensing deals with entertainment companies"
+      ]
+    },
+    "tokens_used": {
+      "input": 725,
+      "output": 464,
+      "total": 1189,
+      "estimated_cost": 0.009135
+    }
+  },
+  "phase8_complete": true
+}

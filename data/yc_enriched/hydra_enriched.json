@@ -1,0 +1,152 @@
+{
+  "slug": "hydra",
+  "name": "Hydra",
+  "yc_id": 25738,
+  "batch": "Winter 2022",
+  "website": "https://hydra.so",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T01:13:43.463042",
+    "website": "https://hydra.so",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 5113.69,
+      "final_url": "https://www.hydra.so/",
+      "redirected": true,
+      "checked_at": "2025-10-17T01:13:48.576750"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "hydra.so",
+      "registrar": "NAMECHEAP INC",
+      "creation_date": "2022-11-30T19:00:53",
+      "expiration_date": "2025-11-30T19:00:53",
+      "domain_age_days": 1051,
+      "domain_age_years": 2.9,
+      "name_servers": [
+        "ns-580.awsdns-08.net",
+        "ns-1300.awsdns-34.org",
+        "ns-230.awsdns-28.com",
+        "ns-1555.awsdns-02.co.uk"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/hydradatabase",
+      "linkedin": "https://www.linkedin.com/company/hydradatabase",
+      "github": "https://github.com/duckdb/pg_duckdb",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": true,
+      "x_frame_options": true,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 50,
+      "server": "Unknown"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:38:55.924228",
+  "phase1_complete": true,
+  "phase2_complete": false,
+  "phase3_complete": false,
+  "phase4_complete": false,
+  "phase5_complete": false,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:48.995095",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Serverless adoption",
+        "Real-time analytics demand",
+        "Postgres popularity"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Technology (performance, autoscale) and integration with Postgres",
+      "differentiation": "Serverless analytics directly on Postgres, simplifying the data stack.",
+      "competitive_advantages": [
+        "Ease of use for Postgres users",
+        "Scalability and cost efficiency"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on Postgres ecosystem",
+        "Potential lock-in to their specific implementation"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "seed",
+      "growth_indicators": [
+        "Customer acquisition rate",
+        "Data volume processed"
+      ],
+      "growth_bottlenecks": [
+        "Sales cycle length",
+        "Awareness among target audience"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Competition from established players",
+        "Adoption challenges",
+        "Security vulnerabilities"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong value proposition for Postgres users",
+        "Scalable architecture",
+        "Experienced team"
+      ],
+      "concerns": [
+        "Market adoption speed",
+        "Competitive landscape",
+        "Dependence on Postgres"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "TimescaleDB",
+        "ClickHouse"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on customer acquisition and retention",
+        "Expand integration with Postgres extensions",
+        "Build a strong community"
+      ],
+      "expansion_opportunities": [
+        "Offer managed Postgres service",
+        "Develop pre-built analytics dashboards"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 672,
+      "completion": 468,
+      "total": 1140,
+      "estimated_cost": 0.000191
+    }
+  },
+  "phase8_complete": true
+}

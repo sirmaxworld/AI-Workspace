@@ -1,0 +1,743 @@
+{
+  "slug": "infracost",
+  "name": "Infracost",
+  "yc_id": 23280,
+  "batch": "Winter 2021",
+  "website": "https://infracost.io",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T01:02:00.256108",
+    "website": "https://infracost.io",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 3903.28,
+      "final_url": "https://www.infracost.io/",
+      "redirected": true,
+      "checked_at": "2025-10-17T01:02:04.159417"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "infracost.io",
+      "registrar": "Key-Systems GmbH",
+      "creation_date": "2020-07-15T08:00:11",
+      "expiration_date": "2026-07-15T08:00:11",
+      "domain_age_days": 1919,
+      "domain_age_years": 5.3,
+      "name_servers": [
+        "ns-483.awsdns-60.com",
+        "ns-1260.awsdns-29.org",
+        "ns-1615.awsdns-09.co.uk",
+        "ns-935.awsdns-52.net"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://twitter.com/infracost",
+      "linkedin": "https://www.linkedin.com/company/infracost/",
+      "github": "https://github.com/infracost/infracost",
+      "facebook": null,
+      "instagram": null,
+      "youtube": "https://www.youtube.com/channel/UCyqe8Ln5l7WcdLpRF-8UV8w"
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": true,
+      "x_content_type_options": true,
+      "x_xss_protection": true,
+      "referrer_policy": true,
+      "security_score": 83,
+      "server": "nginx"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:27:42.528292",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:27:28.066155",
+    "place_data": {
+      "status": "success",
+      "method": "nominatim",
+      "formatted_address": "Remote, Coos County, Oregon, United States",
+      "coordinates": {
+        "latitude": 43.0059455,
+        "longitude": -123.8925908
+      },
+      "place_types": [
+        "hamlet"
+      ],
+      "retrieved_at": "2025-10-17T10:18:39.619180",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:27:28.066175",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/infracost"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 6,
+        "packages": [
+          {
+            "name": "@veecode-platform/backstage-plugin-infracost-common",
+            "description": "Common functionalities for the infracost plugin",
+            "version": "0.1.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@veecode-platform/backstage-plugin-infracost-common"
+          },
+          {
+            "name": "@veecode-platform/backstage-plugin-infracost-backend",
+            "description": null,
+            "version": "0.4.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@veecode-platform/backstage-plugin-infracost-backend"
+          },
+          {
+            "name": "@veecode-platform/backstage-plugin-infracost",
+            "description": null,
+            "version": "0.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@veecode-platform/backstage-plugin-infracost"
+          },
+          {
+            "name": "@infracost/compost",
+            "description": "Compost is for tools that run in CI pipelines and want to post results as pull request/commit comments.",
+            "version": "0.0.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@infracost/compost"
+          },
+          {
+            "name": "r3x-infra",
+            "description": "**r3x-infra** is the control repository r3x. The GitOps control repository for r3x can be found at https://gitlab.com/xbuzz1/r3x-gitops.",
+            "version": "0.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/r3x-infra"
+          },
+          {
+            "name": "@veecode-platform/backstage-plugin-infracost-dynamic",
+            "description": null,
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@veecode-platform/backstage-plugin-infracost-dynamic"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 1,
+        "packages": [
+          {
+            "name": "terraspace_hooks",
+            "version": "0.4.0",
+            "downloads": 2896,
+            "url": "https://rubygems.org/gems/terraspace_hooks"
+          }
+        ]
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 7,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:27:29.695815"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:27:29.695820",
+    "batch_network": {
+      "batch": "Winter 2021",
+      "total_batch_mates": 335,
+      "active_batch_mates": 244,
+      "batch_success_rate": 72.8,
+      "notable_batch_mates": [
+        {
+          "name": "Stacksi",
+          "slug": "stacksi",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Automated Answers to Security Questionnaires"
+        },
+        {
+          "name": "Furmacy",
+          "slug": "furmacy",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Digital e-prescribing software for veterinarians."
+        },
+        {
+          "name": "Fountain9",
+          "slug": "fountain9",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Helping food brands and retailers reduce food wastage"
+        },
+        {
+          "name": "Zepto",
+          "slug": "zepto",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "10-Minute Grocery Delivery in India"
+        },
+        {
+          "name": "Segments.ai",
+          "slug": "segments-ai",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Build better computer vision models by building better datasets"
+        },
+        {
+          "name": "PingPong",
+          "slug": "pingpong",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Video messaging app for remote teams."
+        },
+        {
+          "name": "ClipDrop",
+          "slug": "clipdrop",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Turn regular mobile photos into professional product visuals"
+        },
+        {
+          "name": "Avenue",
+          "slug": "avenue",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Observability platform for operations teams"
+        },
+        {
+          "name": "Flok",
+          "slug": "flok",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "End to end company retreat planning"
+        },
+        {
+          "name": "HyperGlue",
+          "slug": "hyperglue",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Business intelligence on text"
+        }
+      ],
+      "batch_size": 336
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "status": "Active",
+          "batch": "Winter 2012",
+          "one_liner": "High Performance Computing Built for the Cloud"
+        },
+        {
+          "name": "Marft",
+          "slug": "marft",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Marft creates embeddable machine learning models for application\u2026"
+        },
+        {
+          "name": "Pixelapse",
+          "slug": "pixelapse",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Github for designers. We automatically keep track of revisions of\u2026"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Palantir for sales people"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Smart search for the modern team."
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Authy is a Two-Factor Authentication platform for developers"
+        },
+        {
+          "name": "Flutter",
+          "slug": "flutter",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Flutter combined computer vision technology with the built-in webcams\u2026"
+        },
+        {
+          "name": "SolidStage",
+          "slug": "solidstage",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Sysadmin as a service. We make deploying, configuring, monitoring,\u2026"
+        },
+        {
+          "name": "Clutch",
+          "slug": "clutch",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "An easy to integrate library for native iOS applications designed to\u2026"
+        },
+        {
+          "name": "OneSignal",
+          "slug": "onesignal",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Engage customers through personalized omni-channel messaging"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Remote",
+      "location": "Remote",
+      "companies_in_city": 84,
+      "active_in_city": 71,
+      "nearby_companies": [
+        {
+          "name": "Streak",
+          "slug": "streak",
+          "batch": "Summer 2011",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "You Got Listings",
+          "slug": "you-got-listings-inc",
+          "batch": "Winter 2011",
+          "industry": "Real Estate and Construction",
+          "status": "Active"
+        },
+        {
+          "name": "Tremendous",
+          "slug": "tremendous",
+          "batch": "Winter 2011",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Close",
+          "slug": "close",
+          "batch": "Winter 2011",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Tuxebo",
+          "slug": "tuxebo",
+          "batch": "Summer 2009",
+          "industry": "Real Estate and Construction",
+          "status": "Inactive"
+        },
+        {
+          "name": "Claimspotting",
+          "slug": "claimspotting",
+          "batch": "Summer 2008",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "AirHelp",
+          "slug": "airhelp",
+          "batch": "Winter 2014",
+          "industry": "Consumer",
+          "status": "Active"
+        },
+        {
+          "name": "Emailio",
+          "slug": "emailio",
+          "batch": "Winter 2014",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "CareRev",
+          "slug": "carerev",
+          "batch": "Summer 2016",
+          "industry": "Healthcare",
+          "status": "Active"
+        },
+        {
+          "name": "Nimble",
+          "slug": "nimble",
+          "batch": "Summer 2017",
+          "industry": "Education",
+          "status": "Active"
+        },
+        {
+          "name": "NewCraft",
+          "slug": "newcraft",
+          "batch": "Winter 2018",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Visly",
+          "slug": "visly",
+          "batch": "Winter 2019",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Doppler",
+          "slug": "doppler",
+          "batch": "Winter 2019",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "PlayAbly",
+          "slug": "playably",
+          "batch": "Summer 2019",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Microverse",
+          "slug": "microverse",
+          "batch": "Summer 2019",
+          "industry": "Education",
+          "status": "Active"
+        },
+        {
+          "name": "Daedalus",
+          "slug": "daedalus",
+          "batch": "Winter 2020",
+          "industry": "Industrials",
+          "status": "Active"
+        },
+        {
+          "name": "Brevy",
+          "slug": "brevy",
+          "batch": "Summer 2020",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Gaiia",
+          "slug": "gaiia",
+          "batch": "Winter 2021",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Hapi",
+          "slug": "hapi",
+          "batch": "Winter 2021",
+          "industry": "Fintech",
+          "status": "Active"
+        },
+        {
+          "name": "Observa",
+          "slug": "observa",
+          "batch": "Winter 2021",
+          "industry": "B2B",
+          "status": "Inactive"
+        }
+      ],
+      "ecosystem_density": "medium"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Triplit",
+        "slug": "triplit",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Clay",
+        "slug": "clay",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Authologic",
+        "slug": "authologic",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Webiny",
+        "slug": "webiny",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Runway",
+        "slug": "runway",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Gaiia",
+        "slug": "gaiia",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "authzed",
+        "slug": "authzed",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Taloflow",
+        "slug": "taloflow",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "SBX Robotics",
+        "slug": "sbx-robotics",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Pensil",
+        "slug": "pensil",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 3165,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:27:29.702528"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:27:29.702533",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:27:30.015991",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:27:30.103465",
+    "basic_info": {
+      "is_hiring": true,
+      "team_size": 20,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:12.734700",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increasing cloud adoption and spend",
+        "Growing FinOps awareness and adoption",
+        "Shift-left security and cost management"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "First-mover advantage in shift-left FinOps, integrations with CI/CD pipelines, policy packs",
+      "differentiation": "Focus on infrastructure-as-code (IaC) cost visibility and policy enforcement within the engineering workflow.",
+      "competitive_advantages": [
+        "Early mover in a growing market",
+        "Deep integration with developer workflows"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on IaC adoption",
+        "Potential for larger cloud providers to build similar functionality"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "series-a",
+      "growth_indicators": [
+        "Increasing customer base",
+        "Expansion of policy packs and integrations"
+      ],
+      "growth_bottlenecks": [
+        "Sales cycle length",
+        "Adoption of FinOps practices by organizations"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Competition from cloud providers",
+        "Slow FinOps adoption",
+        "Integration challenges with diverse CI/CD pipelines"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong value proposition for cost-conscious cloud users",
+        "Integration into developer workflows",
+        "Proactive approach to FinOps"
+      ],
+      "concerns": [
+        "Market education required for FinOps adoption",
+        "Potential for feature parity from larger players"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "CloudZero",
+        "CAST AI"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Expand integrations with more CI/CD tools and IaC providers",
+        "Develop enterprise features for larger organizations"
+      ],
+      "expansion_opportunities": [
+        "Offer consulting services for FinOps implementation",
+        "Expand policy packs to cover more cloud services and best practices"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 717,
+      "completion": 624,
+      "total": 1341,
+      "estimated_cost": 0.000241
+    }
+  },
+  "phase8_complete": true
+}

@@ -1,0 +1,149 @@
+{
+  "slug": "texel-ai",
+  "name": "Texel.ai",
+  "yc_id": 28180,
+  "batch": "Winter 2023",
+  "website": "https://texel.ai",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T01:23:16.705976",
+    "website": "https://texel.ai",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 2561.42,
+      "final_url": "https://texel.ai/",
+      "redirected": true,
+      "checked_at": "2025-10-17T01:23:19.267405"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "texel.ai",
+      "registrar": "Porkbun LLC",
+      "creation_date": "2022-12-26T17:37:11",
+      "expiration_date": "2026-12-26T17:37:11",
+      "domain_age_days": 1025,
+      "domain_age_years": 2.8,
+      "name_servers": [
+        "terry.ns.cloudflare.com",
+        "gracie.ns.cloudflare.com"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": false,
+      "content_security_policy": false,
+      "x_frame_options": true,
+      "x_content_type_options": true,
+      "x_xss_protection": false,
+      "referrer_policy": true,
+      "security_score": 50,
+      "server": "istio-envoy"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:40:43.101665",
+  "phase1_complete": true,
+  "phase2_complete": false,
+  "phase3_complete": false,
+  "phase4_complete": false,
+  "phase5_complete": false,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:42:06.930092",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "medium",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increasing demand for AI inference at the edge",
+        "Growing complexity of AI models",
+        "Rising adoption of specialized hardware (GPUs, TPUs)"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Technology: Specialized hardware abstraction and optimization",
+      "differentiation": "Focus on hardware-accelerated APIs for AI pipelines, abstracting away hardware complexity.",
+      "competitive_advantages": [
+        "Ease of use for developers",
+        "Performance gains (10x faster)"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on specific hardware vendors (NVIDIA, Google)",
+        "Potential competition from cloud providers offering similar services"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "seed",
+      "growth_indicators": [
+        "Number of API calls",
+        "Customer acquisition rate"
+      ],
+      "growth_bottlenecks": [
+        "Developer adoption",
+        "Integration with existing AI frameworks"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Competition from larger players",
+        "Hardware compatibility issues",
+        "Lack of developer awareness"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Addresses a clear pain point (AI pipeline performance)",
+        "Strong value proposition (10x faster)",
+        "Potential to become a key infrastructure layer for AI applications"
+      ],
+      "concerns": [
+        "Dependency on specific hardware",
+        "Go-to-market strategy and developer adoption"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "OctoML",
+        "Run.ai"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on developer onboarding and documentation",
+        "Expand hardware support",
+        "Build partnerships with AI framework providers"
+      ],
+      "expansion_opportunities": [
+        "Offer pre-trained models optimized for specific hardware",
+        "Develop a marketplace for hardware-accelerated AI components"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 663,
+      "completion": 521,
+      "total": 1184,
+      "estimated_cost": 0.000206
+    }
+  },
+  "phase8_complete": true
+}

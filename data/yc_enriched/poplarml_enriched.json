@@ -1,0 +1,139 @@
+{
+  "slug": "poplarml",
+  "name": "PoplarML",
+  "yc_id": 27821,
+  "batch": "Winter 2023",
+  "website": "http://poplarml.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T01:20:45.639153",
+    "website": "http://poplarml.com",
+    "website_status": {
+      "reachable": false,
+      "error": "ssl_error"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "poplarml.com",
+      "registrar": "Squarespace Domains II LLC",
+      "creation_date": "2022-11-02T23:18:00",
+      "expiration_date": "2025-11-02T23:18:00",
+      "domain_age_days": 1079,
+      "domain_age_years": 3.0,
+      "name_servers": [
+        "NS-1150.AWSDNS-15.ORG",
+        "NS-118.AWSDNS-14.COM",
+        "NS-1890.AWSDNS-44.CO.UK",
+        "NS-667.AWSDNS-19.NET"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "error": "HTTPSConnectionPool(host='poplarml.com', port=443): Max retries exceeded with url: / (Caused by SSLE"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:39:20.615669",
+  "phase1_complete": true,
+  "phase2_complete": false,
+  "phase3_complete": false,
+  "phase4_complete": false,
+  "phase5_complete": false,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:45.891500",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "medium",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increased adoption of ML in enterprises",
+        "Demand for simplified ML deployment",
+        "Growing need for GPU-accelerated ML"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Ease of use and speed of deployment could create a switching cost moat.",
+      "differentiation": "One-command deployment simplifies a complex process.",
+      "competitive_advantages": [
+        "Ease of use",
+        "Rapid deployment"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on cloud providers",
+        "Potential lock-in to specific ML frameworks"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "seed",
+      "growth_indicators": [
+        "Number of deployments",
+        "API call volume"
+      ],
+      "growth_bottlenecks": [
+        "Customer acquisition",
+        "Integration with diverse ML frameworks"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Competition from established players",
+        "Dependence on open-source ML libraries",
+        "Security vulnerabilities in deployment pipeline"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Simple value proposition",
+        "Addresses a clear pain point",
+        "Leverages growing ML market"
+      ],
+      "concerns": [
+        "Competitive landscape",
+        "Long-term defensibility"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Seldon",
+        "BentoML"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on specific ML use cases",
+        "Build integrations with popular ML frameworks"
+      ],
+      "expansion_opportunities": [
+        "Offer managed GPU infrastructure",
+        "Develop enterprise features (e.g., RBAC, auditing)"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 637,
+      "completion": 479,
+      "total": 1116,
+      "estimated_cost": 0.000191
+    }
+  },
+  "phase8_complete": true
+}

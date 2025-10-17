@@ -1,0 +1,1401 @@
+{
+  "slug": "openlayer",
+  "name": "Openlayer",
+  "yc_id": 23781,
+  "batch": "Summer 2021",
+  "website": "https://openlayer.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T01:03:35.493111",
+    "website": "https://openlayer.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 2388.4,
+      "final_url": "https://www.openlayer.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T01:03:37.881517"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "openlayer.com",
+      "registrar": "NameCheap, Inc.",
+      "creation_date": "2006-04-21T07:10:50",
+      "expiration_date": "2026-04-21T07:10:50",
+      "domain_age_days": 7118,
+      "domain_age_years": 19.5,
+      "name_servers": [
+        "NS-1469.AWSDNS-55.ORG",
+        "NS-1653.AWSDNS-14.CO.UK",
+        "NS-456.AWSDNS-57.COM",
+        "NS-791.AWSDNS-34.NET"
+      ]
+    },
+    "social_links": {
+      "twitter": "https://x.com/openlayerco",
+      "linkedin": "https://www.linkedin.com/company/openlayerco",
+      "github": "https://github.com/openlayer-ai/templates/tree/main",
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 16,
+      "server": "Vercel"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:28:18.285158",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:28:06.948563",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "San Francisco, CA, USA",
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:12:40.434017",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:28:06.948588",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/openlayer-ai"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 100,
+        "packages": [
+          {
+            "name": "openlayer",
+            "description": "The official TypeScript library for the Openlayer API",
+            "version": "0.18.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/openlayer"
+          },
+          {
+            "name": "nanoid",
+            "description": "A tiny (118 bytes), secure URL-friendly unique string ID generator",
+            "version": "5.1.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/nanoid"
+          },
+          {
+            "name": "ai",
+            "description": "AI SDK by Vercel - The AI Toolkit for TypeScript and JavaScript",
+            "version": "5.0.76",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ai"
+          },
+          {
+            "name": "@ai-sdk/provider-utils",
+            "description": null,
+            "version": "3.0.12",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ai-sdk/provider-utils"
+          },
+          {
+            "name": "@ai-sdk/react",
+            "description": "[React](https://react.dev/) UI components for the [AI SDK](https://ai-sdk.dev/docs):",
+            "version": "2.0.76",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ai-sdk/react"
+          },
+          {
+            "name": "@ai-sdk/provider",
+            "description": null,
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ai-sdk/provider"
+          },
+          {
+            "name": "@google/genai",
+            "description": "[![NPM Downloads](https://img.shields.io/npm/dw/%40google%2Fgenai)](https://www.npmjs.com/package/@google/genai) [![Node Current](https://img.shields.io/node/v/%40google%2Fgenai)](https://www.npmjs.com/package/@google/genai)",
+            "version": "1.25.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google/genai"
+          },
+          {
+            "name": "@ai-sdk/google",
+            "description": "The **[Google Generative AI provider](https://ai-sdk.dev/providers/ai-sdk-providers/google-generative-ai)** for the [AI SDK](https://ai-sdk.dev/docs) contains language model support for the [Google Generative AI](https://ai.google/discover/generativeai/) ",
+            "version": "2.0.23",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ai-sdk/google"
+          },
+          {
+            "name": "@ai-sdk/openai",
+            "description": "The **[OpenAI provider](https://ai-sdk.dev/providers/ai-sdk-providers/openai)** for the [AI SDK](https://ai-sdk.dev/docs) contains language model support for the OpenAI chat and completion APIs and embedding model support for the OpenAI embeddings API.",
+            "version": "2.0.52",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ai-sdk/openai"
+          },
+          {
+            "name": "@ai-sdk/gateway",
+            "description": "The Gateway provider for the [AI SDK](https://ai-sdk.dev/docs) allows the use of a wide variety of AI models and providers.",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ai-sdk/gateway"
+          },
+          {
+            "name": "@ai-sdk/ui-utils",
+            "description": "Important: this is an internal API. Expect breaking changes.",
+            "version": "1.2.11",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ai-sdk/ui-utils"
+          },
+          {
+            "name": "@ai-sdk/anthropic",
+            "description": "The **[Anthropic provider](https://ai-sdk.dev/providers/ai-sdk-providers/anthropic)** for the [AI SDK](https://ai-sdk.dev/docs) contains language model support for the [Anthropic Messages API](https://docs.anthropic.com/claude/reference/messages_post).",
+            "version": "2.0.31",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ai-sdk/anthropic"
+          },
+          {
+            "name": "my-openlayer",
+            "description": "my-openlayer \u662f\u4e00\u4e2a\u57fa\u4e8e [OpenLayers](https://openlayers.org/) \u7684\u73b0\u4ee3\u5730\u56fe\u7ec4\u4ef6\u5e93\uff0c\u4e13\u4e3a Web GIS \u5e94\u7528\u5f00\u53d1\u8005\u8bbe\u8ba1\u3002\u63d0\u4f9b\u5b8c\u6574\u7684 TypeScript \u652f\u6301\u3001\u6a21\u5757\u5316\u7684\u7c7b\u578b\u5b9a\u4e49\u3001\u5f3a\u5927\u7684\u9519\u8bef\u5904\u7406\u548c\u4e8b\u4ef6\u7ba1\u7406\u7cfb\u7edf\uff0c\u652f\u6301\u5929\u5730\u56fe\u5e95\u56fe\u52a0\u8f7d\u3001\u8981\u7d20\u7ed8\u5236\u3001\u56fe\u5c42\u7ba1\u7406\u3001\u4e8b\u4ef6\u76d1\u542c\u7b49\u4e30\u5bcc\u529f\u80fd\uff0c\u6781\u5927\u63d0\u5347\u5730\u56fe\u5f00\u53d1\u6548\u7387\u3002\u652f\u6301 TypeScript\uff0c\u5177\u5907\u5b8c\u6574\u7684\u7c7b\u578b\u5b9a\u4e49\u548c\u6a21\u5757\u5316\u8bbe\u8ba1\u3002",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/my-openlayer"
+          },
+          {
+            "name": "@firebase/ai",
+            "description": "The Firebase AI SDK",
+            "version": "2.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@firebase/ai"
+          },
+          {
+            "name": "@ai-sdk/vue",
+            "description": "[Vue.js](https://vuejs.org/) UI components for the [AI SDK](https://ai-sdk.dev/docs):",
+            "version": "2.0.76",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ai-sdk/vue"
+          },
+          {
+            "name": "inquirer",
+            "description": "A collection of common interactive command line user interfaces.",
+            "version": "12.10.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/inquirer"
+          },
+          {
+            "name": "@ai-sdk/solid",
+            "description": "> **Warning** `@ai-sdk/solid` has been deprecated and will be removed in AI SDK 5",
+            "version": "1.2.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ai-sdk/solid"
+          },
+          {
+            "name": "@google/generative-ai",
+            "description": "Google AI JavaScript SDK",
+            "version": "0.24.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google/generative-ai"
+          },
+          {
+            "name": "@ai-sdk/svelte",
+            "description": "[Svelte](https://svelte.dev/) UI components for the [AI SDK](https://ai-sdk.dev/docs):",
+            "version": "3.0.76",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ai-sdk/svelte"
+          },
+          {
+            "name": "telecom-mas-agent",
+            "description": "A conversational AI-driven telecom multi-agent system for managing call balances, push notifications, marketing, targeting, and sales.",
+            "version": "1.0.8",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/telecom-mas-agent"
+          },
+          {
+            "name": "@inquirer/expand",
+            "description": "Inquirer checkbox prompt",
+            "version": "4.0.21",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@inquirer/expand"
+          },
+          {
+            "name": "@google-cloud/vertexai",
+            "description": "Vertex Generative AI client for Node.js",
+            "version": "1.10.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/vertexai"
+          },
+          {
+            "name": "@openrouter/ai-sdk-provider",
+            "description": "The [OpenRouter](https://openrouter.ai/) provider for the [Vercel AI SDK](https://sdk.vercel.ai/docs) gives access to over 300 large language models on the OpenRouter chat and completion APIs.",
+            "version": "1.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@openrouter/ai-sdk-provider"
+          },
+          {
+            "name": "@ai-sdk/openai-compatible",
+            "description": "This package provides a foundation for implementing providers that expose an OpenAI-compatible API.",
+            "version": "1.0.22",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ai-sdk/openai-compatible"
+          },
+          {
+            "name": "@ai-sdk/azure",
+            "description": "The **[Azure provider](https://ai-sdk.dev/providers/ai-sdk-providers/azure)** for the [AI SDK](https://ai-sdk.dev/docs) contains language model support for the Azure OpenAI API.",
+            "version": "2.0.53",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ai-sdk/azure"
+          },
+          {
+            "name": "@inquirer/select",
+            "description": "Inquirer select/list prompt",
+            "version": "4.4.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@inquirer/select"
+          },
+          {
+            "name": "@inquirer/prompts",
+            "description": "Inquirer prompts, combined in a single package",
+            "version": "7.9.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@inquirer/prompts"
+          },
+          {
+            "name": "@inquirer/confirm",
+            "description": "Inquirer confirm prompt",
+            "version": "5.1.19",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@inquirer/confirm"
+          },
+          {
+            "name": "zod-to-json-schema",
+            "description": "Converts Zod schemas to Json Schemas",
+            "version": "3.24.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/zod-to-json-schema"
+          },
+          {
+            "name": "@inquirer/input",
+            "description": "Inquirer input text prompt",
+            "version": "4.2.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@inquirer/input"
+          },
+          {
+            "name": "@ai-sdk/mistral",
+            "description": "The **[Mistral provider](https://ai-sdk.dev/providers/ai-sdk-providers/mistral)** for the [AI SDK](https://ai-sdk.dev/docs) contains language model support for the Mistral chat API.",
+            "version": "2.0.19",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ai-sdk/mistral"
+          },
+          {
+            "name": "@ai-sdk/google-vertex",
+            "description": "The **[Google Vertex provider](https://ai-sdk.dev/providers/ai-sdk-providers/google-vertex)** for the [AI SDK](https://ai-sdk.dev/docs) contains language model support for the [Google Vertex AI](https://cloud.google.com/vertex-ai) APIs.",
+            "version": "3.0.47",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ai-sdk/google-vertex"
+          },
+          {
+            "name": "@ai-sdk/xai",
+            "description": "The **[xAI Grok provider](https://ai-sdk.dev/providers/ai-sdk-providers/xai)** for the [AI SDK](https://ai-sdk.dev/docs) contains language model support for the xAI chat and completion APIs.",
+            "version": "2.0.26",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ai-sdk/xai"
+          },
+          {
+            "name": "@inquirer/checkbox",
+            "description": "Inquirer checkbox prompt",
+            "version": "4.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@inquirer/checkbox"
+          },
+          {
+            "name": "@inquirer/password",
+            "description": "Inquirer password prompt",
+            "version": "4.0.21",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@inquirer/password"
+          },
+          {
+            "name": "@inquirer/core",
+            "description": "Core Inquirer prompt API",
+            "version": "10.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@inquirer/core"
+          },
+          {
+            "name": "@ai-sdk/perplexity",
+            "description": "The **[Perplexity provider](https://ai-sdk.dev/providers/ai-sdk-providers/perplexity)** for the [AI SDK](https://ai-sdk.dev/docs) contains language model support for Perplexity's Sonar API - a powerful answer engine with real-time web search capabilities.",
+            "version": "2.0.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ai-sdk/perplexity"
+          },
+          {
+            "name": "@langchain/google-common",
+            "description": "Core types and classes for Google services.",
+            "version": "0.2.18",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@langchain/google-common"
+          },
+          {
+            "name": "@inquirer/rawlist",
+            "description": "Inquirer rawlist prompt",
+            "version": "4.1.9",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@inquirer/rawlist"
+          },
+          {
+            "name": "@browserstack/ai-sdk-node",
+            "description": "Browserstack integrations",
+            "version": "1.5.17",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@browserstack/ai-sdk-node"
+          },
+          {
+            "name": "@vercel/detect-agent",
+            "description": "Detect if code is running in an AI agent or automated development environment",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@vercel/detect-agent"
+          },
+          {
+            "name": "@ai-sdk/amazon-bedrock",
+            "description": "The **[Amazon Bedrock provider](https://ai-sdk.dev/providers/ai-sdk-providers/amazon-bedrock)** for the [AI SDK](https://ai-sdk.dev/docs) contains language model support for the Amazon Bedrock [converse API](https://docs.aws.amazon.com/bedrock/latest/APIR",
+            "version": "3.0.41",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ai-sdk/amazon-bedrock"
+          },
+          {
+            "name": "@ai-sdk/deepseek",
+            "description": "The **[DeepSeek provider](https://ai-sdk.dev/providers/ai-sdk-providers/deepseek)** for the [AI SDK](https://ai-sdk.dev/docs) contains language model support for the [DeepSeek](https://www.deepseek.com) platform.",
+            "version": "1.0.23",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ai-sdk/deepseek"
+          },
+          {
+            "name": "@ai-sdk/groq",
+            "description": "The **[Groq provider](https://ai-sdk.dev/providers/ai-sdk-providers/groq)** for the [AI SDK](https://ai-sdk.dev/docs) contains language model support for the Groq chat and completion APIs, transcription support, and browser search tool.",
+            "version": "2.0.24",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ai-sdk/groq"
+          },
+          {
+            "name": "@anthropic-ai/sdk",
+            "description": "The official TypeScript library for the Anthropic API",
+            "version": "0.67.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@anthropic-ai/sdk"
+          },
+          {
+            "name": "genkit",
+            "description": "Genkit AI framework",
+            "version": "1.21.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/genkit"
+          },
+          {
+            "name": "@inquirer/external-editor",
+            "description": "Edit a string with the users preferred text editor using $VISUAL or $ENVIRONMENT",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@inquirer/external-editor"
+          },
+          {
+            "name": "@ai-sdk/togetherai",
+            "description": "The **[Together.ai provider](https://ai-sdk.dev/providers/ai-sdk-providers/togetherai)** for the [AI SDK](https://ai-sdk.dev/docs) contains language model support for the [Together.ai](https://together.ai) platform.",
+            "version": "1.0.23",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ai-sdk/togetherai"
+          },
+          {
+            "name": "node-releases",
+            "description": "Node.js releases data",
+            "version": "2.0.25",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/node-releases"
+          },
+          {
+            "name": "@mastra/core",
+            "description": "Mastra is a framework for building AI-powered applications and agents with a modern TypeScript stack.",
+            "version": "0.21.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mastra/core"
+          },
+          {
+            "name": "ollama-ai-provider",
+            "description": "Vercel AI Provider for running LLMs locally using Ollama",
+            "version": "1.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ollama-ai-provider"
+          },
+          {
+            "name": "@inquirer/editor",
+            "description": "Inquirer multiline editor prompt",
+            "version": "4.2.21",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@inquirer/editor"
+          },
+          {
+            "name": "@inquirer/number",
+            "description": "Inquirer number prompt",
+            "version": "3.0.21",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@inquirer/number"
+          },
+          {
+            "name": "@inquirer/search",
+            "description": "Inquirer search prompt",
+            "version": "3.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@inquirer/search"
+          },
+          {
+            "name": "@promptbook/utils",
+            "description": "Promptbook: Turn your company's scattered knowledge into AI ready books",
+            "version": "0.103.0-2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@promptbook/utils"
+          },
+          {
+            "name": "@getzep/zep-cloud",
+            "description": "Zep: Fast, scalable building blocks for production LLM apps",
+            "version": "3.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@getzep/zep-cloud"
+          },
+          {
+            "name": "@n8n_io/ai-assistant-sdk",
+            "description": "n8n AI assistant SDK",
+            "version": "1.17.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@n8n_io/ai-assistant-sdk"
+          },
+          {
+            "name": "@inngest/ai",
+            "description": "AI adapter package for Inngest, providing type-safe interfaces to various AI providers including OpenAI, Anthropic, Gemini, Grok, and Azure OpenAI.",
+            "version": "0.1.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@inngest/ai"
+          },
+          {
+            "name": "@getzep/zep-js",
+            "description": "Zep: Fast, scalable building blocks for production LLM apps",
+            "version": "2.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@getzep/zep-js"
+          },
+          {
+            "name": "@ai-sdk/rsc",
+            "description": "[React Server Components](https://react.dev/reference/rsc/server-components) for the [AI SDK](https://ai-sdk.dev/docs):",
+            "version": "1.0.76",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ai-sdk/rsc"
+          },
+          {
+            "name": "@ibm-generative-ai/node-sdk",
+            "description": "IBM Generative AI Node.js SDK (Tech Preview)",
+            "version": "3.2.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ibm-generative-ai/node-sdk"
+          },
+          {
+            "name": "@ckeditor/ckeditor5-ai",
+            "description": "AI features for CKEditor 5.",
+            "version": "47.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ckeditor/ckeditor5-ai"
+          },
+          {
+            "name": "@google-cloud/aiplatform",
+            "description": "Vertex AI client for Node.js",
+            "version": "5.9.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/aiplatform"
+          },
+          {
+            "name": "@adaline/together-ai",
+            "description": "Adaline Together AI",
+            "version": "1.5.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@adaline/together-ai"
+          },
+          {
+            "name": "@inquirer/ansi",
+            "description": "A lightweight package providing ANSI escape sequences for terminal cursor manipulation and screen clearing.",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@inquirer/ansi"
+          },
+          {
+            "name": "@azure-rest/ai-document-intelligence",
+            "description": "Document Intelligence Rest Client",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@azure-rest/ai-document-intelligence"
+          },
+          {
+            "name": "@anthropic-ai/claude-code",
+            "description": "Use Claude, Anthropic's AI assistant, right from your terminal. Claude can understand your codebase, edit files, run terminal commands, and handle entire workflows for you.",
+            "version": "2.0.21",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@anthropic-ai/claude-code"
+          },
+          {
+            "name": "portkey-ai",
+            "description": "Node client library for the Portkey API",
+            "version": "3.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/portkey-ai"
+          },
+          {
+            "name": "@azure/ai-agents",
+            "description": "Azure AI Agents client library.",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@azure/ai-agents"
+          },
+          {
+            "name": "@ai-sdk/cerebras",
+            "description": "The **Cerebras provider** for the [AI SDK](https://ai-sdk.dev/docs) contains language model support for [Cerebras](https://cerebras.ai), offering high-speed AI model inference powered by Cerebras Wafer-Scale Engines and CS-3 systems.",
+            "version": "1.0.25",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ai-sdk/cerebras"
+          },
+          {
+            "name": "@google-cloud/documentai",
+            "description": "Document AI client for Node.js",
+            "version": "9.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-cloud/documentai"
+          },
+          {
+            "name": "@ai-sdk/fireworks",
+            "description": "The **[Fireworks provider](https://ai-sdk.dev/providers/ai-sdk-providers/fireworks)** for the [AI SDK](https://ai-sdk.dev/docs) contains language model and image model support for the [Fireworks](https://fireworks.ai) platform.",
+            "version": "1.0.23",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ai-sdk/fireworks"
+          },
+          {
+            "name": "@azure/ai-form-recognizer",
+            "description": "An isomorphic client library for the Azure Document Intelligence service.",
+            "version": "5.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@azure/ai-form-recognizer"
+          },
+          {
+            "name": "@ai-sdk/cohere",
+            "description": "The **[Cohere provider](https://ai-sdk.dev/providers/ai-sdk-providers/cohere)** for the [AI SDK](https://ai-sdk.dev/docs) contains language model support for the Cohere API.",
+            "version": "2.0.14",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ai-sdk/cohere"
+          },
+          {
+            "name": "cohere-ai",
+            "description": "![](banner.png)",
+            "version": "7.19.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/cohere-ai"
+          },
+          {
+            "name": "@azure/search-documents",
+            "description": "Azure client library to use Cognitive Search for node.js and browser.",
+            "version": "12.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@azure/search-documents"
+          },
+          {
+            "name": "serverless",
+            "description": "[![Serverless Framework AWS Lambda AWS DynamoDB AWS API Gateway](https://github.com/serverless/serverless/assets/2752551/66a8c6a9-bc4a-4116-b139-90c12963337e)](https://serverless.com)",
+            "version": "4.21.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/serverless"
+          },
+          {
+            "name": "@sanity/assist",
+            "description": "You create the instructions; Sanity AI Assist does the rest.",
+            "version": "5.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sanity/assist"
+          },
+          {
+            "name": "ai-sdk-provider-gemini-cli",
+            "description": "Community AI SDK provider for Google Gemini using the official CLI/SDK",
+            "version": "1.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ai-sdk-provider-gemini-cli"
+          },
+          {
+            "name": "size-limit",
+            "description": "CLI tool for Size Limit",
+            "version": "11.2.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/size-limit"
+          },
+          {
+            "name": "ai-sdk-provider-claude-code",
+            "description": "AI SDK v5 provider for Claude via Claude Agent SDK (use Pro/Max subscription)",
+            "version": "2.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/ai-sdk-provider-claude-code"
+          },
+          {
+            "name": "@genkit-ai/google-genai",
+            "description": "Genkit AI framework plugin for Google AI & Vertex APIs, including Gemini APIs.",
+            "version": "1.21.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@genkit-ai/google-genai"
+          },
+          {
+            "name": "z-ai-web-dev-sdk",
+            "description": "SDK for Z AI Web Dev",
+            "version": "0.0.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/z-ai-web-dev-sdk"
+          },
+          {
+            "name": "@anthropic-ai/mcpb",
+            "description": "Tools for building MCP Bundles",
+            "version": "1.1.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@anthropic-ai/mcpb"
+          },
+          {
+            "name": "mastra",
+            "description": "cli for mastra",
+            "version": "0.17.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/mastra"
+          },
+          {
+            "name": "@azure-rest/ai-content-safety",
+            "description": "ContentSafety Service",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@azure-rest/ai-content-safety"
+          },
+          {
+            "name": "@adaline/google",
+            "description": "Adaline Google",
+            "version": "1.9.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@adaline/google"
+          },
+          {
+            "name": "task-master-ai",
+            "description": "A task management system for ambitious AI-driven development that doesn't overwhelm and confuse Cursor.",
+            "version": "0.29.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/task-master-ai"
+          },
+          {
+            "name": "langchain",
+            "description": "Typescript bindings for langchain",
+            "version": "0.3.36",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/langchain"
+          },
+          {
+            "name": "@kontent-ai/core-sdk",
+            "description": "Core package with shared / common functionality for Kontent.ai SDKs",
+            "version": "11.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@kontent-ai/core-sdk"
+          },
+          {
+            "name": "@iflow-ai/iflow-cli",
+            "description": "![iFlow CLI Screenshot](./assets/iflow-cli.jpg)",
+            "version": "0.3.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@iflow-ai/iflow-cli"
+          },
+          {
+            "name": "@microsoft/applicationinsights-web",
+            "description": "Microsoft Application Insights JavaScript SDK - Web",
+            "version": "3.3.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@microsoft/applicationinsights-web"
+          },
+          {
+            "name": "@azure/ai-projects",
+            "description": "Azure AI Projects client library.",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@azure/ai-projects"
+          },
+          {
+            "name": "@firebase/vertexai-preview",
+            "description": "A Firebase SDK for VertexAI (preview)",
+            "version": "0.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@firebase/vertexai-preview"
+          },
+          {
+            "name": "@google-ai/generativelanguage",
+            "description": "Generative Language API client for Node.js",
+            "version": "3.5.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@google-ai/generativelanguage"
+          },
+          {
+            "name": "@assistant-ui/react-ai-sdk",
+            "description": "Vercel AI SDK integration for `@assistant-ui/react`.",
+            "version": "1.1.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@assistant-ui/react-ai-sdk"
+          },
+          {
+            "name": "vue-openlayer-slmap1",
+            "description": "openlayer\u901a\u8fc7vue\u8fdb\u884c\u5c01",
+            "version": "5.8.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/vue-openlayer-slmap1"
+          },
+          {
+            "name": "@ai-sdk/vercel",
+            "description": "The **[Vercel provider](https://ai-sdk.dev/providers/ai-sdk-providers/vercel)** for the [AI SDK](https://ai-sdk.dev/docs) gives you access to the v0 API, designed for building modern web applications. The `v0-1.0-md` model supports text and image inputs, ",
+            "version": "1.0.23",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ai-sdk/vercel"
+          },
+          {
+            "name": "@ai-sdk/deepinfra",
+            "description": "The **[DeepInfra provider](https://ai-sdk.dev/providers/ai-sdk-providers/deepinfra)** for the [AI SDK](https://ai-sdk.dev/docs) contains language model support for the DeepInfra API, giving you access to models like Llama 3, Mixtral, and other state-of-th",
+            "version": "1.0.23",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ai-sdk/deepinfra"
+          },
+          {
+            "name": "@effect/ai",
+            "description": "Effect modules for working with AI apis",
+            "version": "0.31.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@effect/ai"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 100,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:28:08.258149"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:28:08.258159",
+    "batch_network": {
+      "batch": "Summer 2021",
+      "total_batch_mates": 390,
+      "active_batch_mates": 316,
+      "batch_success_rate": 81.0,
+      "notable_batch_mates": [
+        {
+          "name": "Hyper",
+          "slug": "hyper",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Sell memberships to your Discord server"
+        },
+        {
+          "name": "Beeper",
+          "slug": "beeper",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "One chat app to rule them all"
+        },
+        {
+          "name": "Level",
+          "slug": "level",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Fast and simple fintech financing"
+        },
+        {
+          "name": "Goodkind",
+          "slug": "goodkind",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Student communications platform for higher education"
+        },
+        {
+          "name": "Sleek",
+          "slug": "sleek",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "1-click checkout from every store on the internet + cashback rewards."
+        },
+        {
+          "name": "MadEats",
+          "slug": "madeats",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Online delivery-only restaurant group in the Philippines"
+        },
+        {
+          "name": "Maroo",
+          "slug": "maroo",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Business management platform for creatives"
+        },
+        {
+          "name": "Tarsal",
+          "slug": "tarsal",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Data pipeline for your security data lake."
+        },
+        {
+          "name": "Hilos",
+          "slug": "quid",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Close and activate your customers on WhatsApp"
+        },
+        {
+          "name": "Keyri",
+          "slug": "keyri",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Secure fraud prevention and authentication platform for developers"
+        }
+      ],
+      "batch_size": 391
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "status": "Active",
+          "batch": "Winter 2012",
+          "one_liner": "High Performance Computing Built for the Cloud"
+        },
+        {
+          "name": "Marft",
+          "slug": "marft",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Marft creates embeddable machine learning models for application\u2026"
+        },
+        {
+          "name": "Pixelapse",
+          "slug": "pixelapse",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Github for designers. We automatically keep track of revisions of\u2026"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Palantir for sales people"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Smart search for the modern team."
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Authy is a Two-Factor Authentication platform for developers"
+        },
+        {
+          "name": "Flutter",
+          "slug": "flutter",
+          "status": "Acquired",
+          "batch": "Winter 2012",
+          "one_liner": "Flutter combined computer vision technology with the built-in webcams\u2026"
+        },
+        {
+          "name": "SolidStage",
+          "slug": "solidstage",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Sysadmin as a service. We make deploying, configuring, monitoring,\u2026"
+        },
+        {
+          "name": "Clutch",
+          "slug": "clutch",
+          "status": "Acquired",
+          "batch": "Summer 2011",
+          "one_liner": "An easy to integrate library for native iOS applications designed to\u2026"
+        },
+        {
+          "name": "OneSignal",
+          "slug": "onesignal",
+          "status": "Active",
+          "batch": "Summer 2011",
+          "one_liner": "Engage customers through personalized omni-channel messaging"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "San Francisco",
+      "location": "San Francisco, CA, USA",
+      "companies_in_city": 2007,
+      "active_in_city": 1339,
+      "nearby_companies": [
+        {
+          "name": "42Floors",
+          "slug": "42floors",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "PlanGrid",
+          "slug": "plangrid",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "MyVR",
+          "slug": "myvr",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Couple",
+          "slug": "couple",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HackPad",
+          "slug": "hackpad",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Gusto",
+          "slug": "gusto",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "FamilyLeaf",
+          "slug": "familyleaf",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Chute",
+          "slug": "chute",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Make School",
+          "slug": "make-school",
+          "batch": "Winter 2012",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Exec",
+          "slug": "exec",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Public"
+        },
+        {
+          "name": "LendUp",
+          "slug": "lendup",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tilt",
+          "slug": "tilt",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fond",
+          "slug": "fond",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Replo",
+        "slug": "replo",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Affogato AI",
+        "slug": "affogato-ai",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "MobileBoost",
+        "slug": "mobileboost",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "testRigor",
+        "slug": "testrigor",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "WarpBuild",
+        "slug": "warpbuild",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Mach9",
+        "slug": "mach9",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Dime",
+        "slug": "dime",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Squire.ai",
+        "slug": "squire-ai",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Bytebot",
+        "slug": "bytebot",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Aviator",
+        "slug": "aviator",
+        "batch": "Summer 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 5143,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:28:08.266615"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:28:08.266624",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:28:08.587253",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:28:08.811147",
+    "basic_info": {
+      "is_hiring": true,
+      "team_size": 13,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:42:19.703901",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "large",
+      "market_stage": "emerging",
+      "key_trends": [
+        "Increased AI adoption across industries",
+        "Growing regulatory scrutiny of AI systems",
+        "Demand for explainable and responsible AI"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Early mover advantage in a nascent market, potential for strong network effects as more AI applications are governed by the platform.",
+      "differentiation": "Focus on AI governance as a core offering, rather than a feature.",
+      "competitive_advantages": [
+        "Specialized platform for AI governance",
+        "Strong focus on regulatory compliance"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on AI adoption rates",
+        "Potential for larger players to enter the market"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "seed",
+      "growth_indicators": [
+        "Customer acquisition rate",
+        "Platform usage metrics"
+      ],
+      "growth_bottlenecks": [
+        "Market education",
+        "Sales cycle length"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Slow AI adoption",
+        "Emergence of competing standards",
+        "Inability to adapt to evolving regulations"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong team with relevant expertise",
+        "First-mover advantage",
+        "Addresses a critical need in the AI ecosystem"
+      ],
+      "concerns": [
+        "Market is still nascent",
+        "Competition from established players"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Weights & Biases",
+        "Fiddler AI"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on building a strong brand and community",
+        "Develop strategic partnerships with AI platform providers"
+      ],
+      "expansion_opportunities": [
+        "Expand into new AI verticals",
+        "Offer advanced analytics and reporting capabilities"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 619,
+      "completion": 593,
+      "total": 1212,
+      "estimated_cost": 0.000224
+    }
+  },
+  "phase8_complete": true
+}

@@ -1,0 +1,525 @@
+{
+  "slug": "herald",
+  "name": "Herald",
+  "yc_id": 11982,
+  "batch": "Winter 2019",
+  "website": "https://www.heraldhq.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:45:32.073352",
+    "website": "https://www.heraldhq.com",
+    "website_status": {
+      "reachable": false,
+      "error": "ssl_error"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "heraldhq.com",
+      "registrar": "Domain Science Kutatasi Szolgaltato",
+      "creation_date": "2025-02-19T19:38:12",
+      "expiration_date": "2026-02-19T19:38:12",
+      "domain_age_days": 239,
+      "domain_age_years": 0.7,
+      "name_servers": [
+        "NS1.DNS-REDIRECT.COM",
+        "NS2.DNS-REDIRECT.COM"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "error": "HTTPSConnectionPool(host='www.heraldhq.com', port=443): Max retries exceeded with url: / (Caused by "
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:21:28.352842",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:21:15.101967",
+    "place_data": {
+      "status": "not_found",
+      "query": "Dublin, CA, USA; Remote",
+      "methods_tried": [
+        "static_db",
+        "nominatim",
+        "geonames"
+      ]
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:21:15.926118",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:21:15.926131",
+    "batch_network": {
+      "batch": "Winter 2019",
+      "total_batch_mates": 194,
+      "active_batch_mates": 125,
+      "batch_success_rate": 64.4,
+      "notable_batch_mates": [
+        {
+          "name": "Searchlight",
+          "slug": "searchlight",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Talent AI improving quality of hire"
+        },
+        {
+          "name": "Fuzzbuzz",
+          "slug": "fuzzbuzz",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Fuzzing as a Service"
+        },
+        {
+          "name": "ZeroStorefront",
+          "slug": "zerostorefront",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "#1 Data platform for restaurants. Acquired by Thanx"
+        },
+        {
+          "name": "Geosite",
+          "slug": "geosite",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Geosite is an enterprise SaaS platform for spatial data."
+        },
+        {
+          "name": "Insight",
+          "slug": "insight",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "The first extensible browser for iOS"
+        },
+        {
+          "name": "InterPrime",
+          "slug": "interprime",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Safe & Secure Cash Management for Businesses"
+        },
+        {
+          "name": "Preflight",
+          "slug": "preflight",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "No-code Web Apps testing for everyone"
+        },
+        {
+          "name": "Windsor",
+          "slug": "windsor",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "AI Powered Personalized Videos"
+        },
+        {
+          "name": "Ascen",
+          "slug": "ascen",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "EOR for the staffing industry"
+        },
+        {
+          "name": "Convex",
+          "slug": "convex",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Software for the commercial services industry. "
+        }
+      ],
+      "batch_size": 195
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Office Management"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1969,
+      "direct_competitors": [
+        {
+          "name": "Zerocater",
+          "slug": "zerocater",
+          "status": "Active",
+          "batch": "Winter 2011",
+          "one_liner": "Zerocater is revolutionizing how companies feed their employees"
+        },
+        {
+          "name": "Venuetastic",
+          "slug": "venuetastic",
+          "status": "Inactive",
+          "batch": "Winter 2011",
+          "one_liner": "Venue marketplace."
+        },
+        {
+          "name": "Yumbin",
+          "slug": "yumbin",
+          "status": "Inactive",
+          "batch": "Winter 2014",
+          "one_liner": "App replaces office vending."
+        },
+        {
+          "name": "PiinPoint",
+          "slug": "piinpoint",
+          "status": "Active",
+          "batch": "Winter 2014",
+          "one_liner": "PiinPoint helps businesses find the best locations for growth"
+        },
+        {
+          "name": "MerryMint",
+          "slug": "merrymint",
+          "status": "Inactive",
+          "batch": "Winter 2014",
+          "one_liner": "Virtual activities for remote teams"
+        },
+        {
+          "name": "Weave",
+          "slug": "weave",
+          "status": "Public",
+          "batch": "Winter 2014",
+          "one_liner": "Customer communication and payments platform."
+        },
+        {
+          "name": "Zesty",
+          "slug": "zesty",
+          "status": "Acquired",
+          "batch": "Winter 2014",
+          "one_liner": "Zesty serves delicious, healthy meals from the best local restaurants\u2026"
+        },
+        {
+          "name": "Bannerman",
+          "slug": "bannerman",
+          "status": "Inactive",
+          "batch": "Summer 2014",
+          "one_liner": "Security Guard Company Marketplace"
+        },
+        {
+          "name": "Doblet",
+          "slug": "doblet",
+          "status": "Inactive",
+          "batch": "Summer 2014",
+          "one_liner": "Doblet solves the phone battery problem.  We're building the first\u2026"
+        },
+        {
+          "name": "Replenish",
+          "slug": "replenish",
+          "status": "Acquired",
+          "batch": "Summer 2014",
+          "one_liner": "Keurig machine for smoothies."
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "Dublin",
+      "location": "Dublin, CA, USA; Remote",
+      "companies_in_city": 3,
+      "active_in_city": 2,
+      "nearby_companies": [
+        {
+          "name": "Newslabs",
+          "slug": "newslabs",
+          "batch": "Winter 2010",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Noloco",
+          "slug": "noloco",
+          "batch": "Summer 2021",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "SigmanticAI",
+          "slug": "sigmanticai",
+          "batch": "Summer 2025",
+          "industry": "B2B",
+          "status": "Active"
+        }
+      ],
+      "ecosystem_density": "low"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Portal Entryways",
+        "slug": "portal-entryways",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Searchlight",
+        "slug": "searchlight",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "JuziBot",
+        "slug": "juzibot",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Overview",
+        "slug": "overview",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Fuzzbuzz",
+        "slug": "fuzzbuzz",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Flockjay",
+        "slug": "flockjay",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "ZeroStorefront",
+        "slug": "zerostorefront",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Geosite",
+        "slug": "geosite",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "AllSome Fulfillment",
+        "slug": "allsome-fulfillment",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "InterPrime",
+        "slug": "interprime",
+        "batch": "Winter 2019",
+        "industry": "B2B",
+        "status": "Acquired",
+        "similarity_score": 6,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 2943,
+      "network_density_score": 79.4,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": false,
+      "calculated_at": "2025-10-17T10:21:15.946836"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:21:15.946845",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:21:16.606458",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:21:17.155137",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 2,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "claude-sonnet-4-20250514",
+    "enriched_at": "2025-10-17T11:44:23.496712",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Customer experience becoming key differentiator",
+        "Data-driven product development",
+        "Integration of customer feedback across touchpoints"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Integration breadth across multiple feedback channels and analytical engine for feedback qualification",
+      "differentiation": "Focus on collaborative workflow between product and customer teams with rigorous feedback quantification",
+      "competitive_advantages": [
+        "Multi-channel feedback aggregation",
+        "Business goal-oriented analytics"
+      ],
+      "competitive_vulnerabilities": [
+        "Established players with deeper integrations",
+        "Limited network effects compared to platform solutions"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "low"
+    },
+    "growth_assessment": {
+      "growth_stage": "seed",
+      "growth_indicators": [
+        "Y Combinator validation",
+        "Clear product-market fit hypothesis"
+      ],
+      "growth_bottlenecks": [
+        "Small team size",
+        "Competitive market with established players"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "high",
+      "overall_risk_score": 7,
+      "key_risks": [
+        "Company currently inactive",
+        "Crowded customer feedback market",
+        "Small team for complex integrations"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Y Combinator pedigree",
+        "Clear value proposition",
+        "Growing market demand"
+      ],
+      "concerns": [
+        "Inactive status",
+        "Competitive landscape",
+        "Limited team resources"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Zendesk",
+        "UserVoice"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Investigate reasons for inactive status",
+        "Assess potential for revival or pivot"
+      ],
+      "expansion_opportunities": [
+        "AI-powered feedback analysis",
+        "Predictive customer churn modeling"
+      ]
+    },
+    "tokens_used": {
+      "input": 730,
+      "output": 509,
+      "total": 1239,
+      "estimated_cost": 0.009825
+    }
+  },
+  "phase8_complete": true
+}

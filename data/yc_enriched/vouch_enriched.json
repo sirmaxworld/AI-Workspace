@@ -1,0 +1,666 @@
+{
+  "slug": "vouch",
+  "name": "Vouch",
+  "yc_id": 12504,
+  "batch": "Summer 2019",
+  "website": "http://vouch.us",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T00:48:11.095944",
+    "website": "http://vouch.us",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 5544.32,
+      "final_url": "https://www.vouch.us/",
+      "redirected": true,
+      "checked_at": "2025-10-17T00:48:16.640275"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "vouch.us",
+      "registrar": "GoDaddy.com, LLC",
+      "creation_date": "2015-01-13T21:29:50",
+      "expiration_date": "2026-01-12T23:59:59",
+      "domain_age_days": 3929,
+      "domain_age_years": 10.8,
+      "name_servers": [
+        "ns-1363.awsdns-42.org",
+        "ns-324.awsdns-40.com",
+        "ns-1705.awsdns-21.co.uk",
+        "ns-573.awsdns-07.net"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": true,
+      "x_frame_options": true,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 50,
+      "server": "Unknown"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:22:22.962017",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:22:13.945708",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "San Francisco, CA, USA",
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:12:40.434017",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:22:13.945732",
+    "status": "no_github_link"
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:22:13.945735",
+    "batch_network": {
+      "batch": "Summer 2019",
+      "total_batch_mates": 175,
+      "active_batch_mates": 113,
+      "batch_success_rate": 64.6,
+      "notable_batch_mates": [
+        {
+          "name": "Together Software",
+          "slug": "together-software",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Learn from the experts at your company. "
+        },
+        {
+          "name": "PopSQL",
+          "slug": "popsql",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "SQL editor for teams"
+        },
+        {
+          "name": "Cuboh",
+          "slug": "cuboh",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "We help restaurants manage their online orders."
+        },
+        {
+          "name": "Palifer",
+          "slug": "palifer",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Predictive maintenance models for trains and heavy industry"
+        },
+        {
+          "name": "Symplex",
+          "slug": "symplex",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Applied Reinforcement Learning Research Laboratory"
+        },
+        {
+          "name": "Kraftful",
+          "slug": "kraftful",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Copilot for product teams"
+        },
+        {
+          "name": "Odeko",
+          "slug": "odeko",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "Our operations software makes it easier to run--and grow--your cafe"
+        },
+        {
+          "name": "Bayes",
+          "slug": "bayes",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": ""
+        },
+        {
+          "name": "Voyage Biomedical",
+          "slug": "voyage-biomedical",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Using cooling to end brain damage during stroke."
+        },
+        {
+          "name": "Intersect Labs",
+          "slug": "intersect-labs",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Collaborative data noteboook for business teams"
+        }
+      ],
+      "batch_size": 176
+    },
+    "industry_network": {
+      "industries": [
+        "Fintech",
+        "Insurance"
+      ],
+      "total_industry_peers": 597,
+      "active_industry_peers": 447,
+      "direct_competitors": [
+        {
+          "name": "WorldCover",
+          "slug": "worldcover",
+          "status": "Inactive",
+          "batch": "Winter 2016",
+          "one_liner": "Funding platform for global insurance, starting with crop insurance\u2026"
+        },
+        {
+          "name": "Cover",
+          "slug": "cover",
+          "status": "Inactive",
+          "batch": "Winter 2016",
+          "one_liner": "The mobile-first insurance platform that makes insurance easy."
+        },
+        {
+          "name": "Ledger Investing",
+          "slug": "ledger-investing",
+          "status": "Active",
+          "batch": "Winter 2017",
+          "one_liner": "Marketplace for insurance securitization."
+        },
+        {
+          "name": "Zinc Platform",
+          "slug": "zinc-platform",
+          "status": "Inactive",
+          "batch": "Winter 2017",
+          "one_liner": "Insurance Distribution Infrastructure"
+        },
+        {
+          "name": "Jerry",
+          "slug": "jerry-inc",
+          "status": "Active",
+          "batch": "Summer 2017",
+          "one_liner": "Jerry makes it really easy to save time and money on car expenses. "
+        },
+        {
+          "name": "SafeButler",
+          "slug": "safebutler",
+          "status": "Active",
+          "batch": "Summer 2017",
+          "one_liner": "Your chief servant for shopping insurance"
+        },
+        {
+          "name": "Surematics",
+          "slug": "surematics",
+          "status": "Acquired",
+          "batch": "Summer 2017",
+          "one_liner": "We help commercial insurance brokers structure complicated\u2026"
+        },
+        {
+          "name": "Newfront",
+          "slug": "newfront-insurance",
+          "status": "Active",
+          "batch": "Winter 2018",
+          "one_liner": "Modern insurance brokerage."
+        },
+        {
+          "name": "Goodcover",
+          "slug": "goodcover",
+          "status": "Active",
+          "batch": "Summer 2017",
+          "one_liner": "Digital Co-op Renters Insurance = half the price, better coverage."
+        },
+        {
+          "name": "SafetyWing",
+          "slug": "safetywing",
+          "status": "Active",
+          "batch": "Winter 2018",
+          "one_liner": "Health insurance for remote teams"
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "San Francisco",
+      "location": "San Francisco, CA, USA",
+      "companies_in_city": 2007,
+      "active_in_city": 1339,
+      "nearby_companies": [
+        {
+          "name": "42Floors",
+          "slug": "42floors",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "PlanGrid",
+          "slug": "plangrid",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "MyVR",
+          "slug": "myvr",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Couple",
+          "slug": "couple",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HackPad",
+          "slug": "hackpad",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Gusto",
+          "slug": "gusto",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "FamilyLeaf",
+          "slug": "familyleaf",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Chute",
+          "slug": "chute",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Make School",
+          "slug": "make-school",
+          "batch": "Winter 2012",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Exec",
+          "slug": "exec",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Public"
+        },
+        {
+          "name": "LendUp",
+          "slug": "lendup",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tilt",
+          "slug": "tilt",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fond",
+          "slug": "fond",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "Soteris",
+        "slug": "soteris",
+        "batch": "Summer 2019",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 10,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Zeal",
+        "slug": "zeal",
+        "batch": "Summer 2019",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Compound",
+        "slug": "compound",
+        "batch": "Summer 2019",
+        "industry": "Fintech",
+        "status": "Acquired",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Blair",
+        "slug": "blair",
+        "batch": "Summer 2019",
+        "industry": "Fintech",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Covela",
+        "slug": "covela",
+        "batch": "Summer 2019",
+        "industry": "Fintech",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Cover",
+        "slug": "cover",
+        "batch": "Winter 2016",
+        "industry": "Fintech",
+        "status": "Inactive",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Surematics",
+        "slug": "surematics",
+        "batch": "Summer 2017",
+        "industry": "Fintech",
+        "status": "Acquired",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Newfront",
+        "slug": "newfront-insurance",
+        "batch": "Winter 2018",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Goodcover",
+        "slug": "goodcover",
+        "batch": "Summer 2017",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "SafetyWing",
+        "slug": "safetywing",
+        "batch": "Winter 2018",
+        "industry": "Fintech",
+        "status": "Active",
+        "similarity_score": 7,
+        "similarity_reasons": [
+          "shared_industries:2",
+          "same_city",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 2779,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:22:13.953684"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:22:13.953689",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:22:14.304390",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:22:14.397597",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 190,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:23.546606",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "mature",
+      "key_trends": [
+        "Increased demand for tailored insurance solutions for startups",
+        "Digital transformation of insurance processes",
+        "Growing awareness of emerging risks (cybersecurity, etc.)"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Technology platform, focus on a specific niche (startups), brand recognition within the startup ecosystem.",
+      "differentiation": "Technology-first insurance company specifically designed for high-growth startups.",
+      "competitive_advantages": [
+        "Deep understanding of startup needs",
+        "Faster and more responsive service compared to traditional insurers"
+      ],
+      "competitive_vulnerabilities": [
+        "Reliance on maintaining technological advantage",
+        "Potential for larger, established insurers to copy their model"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "Insurance premiums",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "Customer acquisition rate",
+        "Policy renewal rate"
+      ],
+      "growth_bottlenecks": [
+        "Regulatory hurdles in different states",
+        "Competition from established insurance companies"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Underwriting risk (accurately assessing startup risk)",
+        "Regulatory changes impacting insurance",
+        "Economic downturn affecting startups"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong market position in a growing niche",
+        "Experienced team with deep understanding of startups",
+        "Technology-driven approach providing a competitive edge"
+      ],
+      "concerns": [
+        "High competition in the insurance industry",
+        "Potential for adverse selection (attracting riskier startups)"
+      ],
+      "exit_potential": "IPO/acquisition",
+      "comparable_companies": [
+        "Next Insurance",
+        "Embroker"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Expand product offerings to cover more startup needs",
+        "Strengthen partnerships with venture capital firms and startup accelerators"
+      ],
+      "expansion_opportunities": [
+        "Geographic expansion to new markets",
+        "Developing insurance products for specific startup verticals (e.g., biotech, AI)"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 730,
+      "completion": 632,
+      "total": 1362,
+      "estimated_cost": 0.000244
+    }
+  },
+  "phase8_complete": true
+}

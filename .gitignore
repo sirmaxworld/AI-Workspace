@@ -1,0 +1,67 @@
+# Environment variables and API keys
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+credentials.json
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.next/
+out/
+build/
+dist/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Databases (keep structure, exclude data)
+data/*.db
+data/*.sqlite
+data/chroma/
+data/qdrant/
+data/ai_sessions/sessions/*.db
+data/coding_history/*.db
+
+# Transcripts and large data files
+data/transcripts/
+data/insights/
+*.json.gz
+
+# Logs
+logs/*.log
+logs/*.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+
+# MCP server configs with sensitive data
+mcp_servers/*config*.json
+# Nested git repositories
+bi-hub-frontend/
+
+# Archives and backups
+archive/
+backups/

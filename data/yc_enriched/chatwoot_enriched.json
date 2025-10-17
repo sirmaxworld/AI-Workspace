@@ -1,0 +1,1197 @@
+{
+  "slug": "chatwoot",
+  "name": "Chatwoot",
+  "yc_id": 23279,
+  "batch": "Winter 2021",
+  "website": "https://www.chatwoot.com",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T01:01:58.767853",
+    "website": "https://www.chatwoot.com",
+    "website_status": {
+      "reachable": true,
+      "status_code": 200,
+      "response_time_ms": 2343.63,
+      "final_url": "https://www.chatwoot.com/",
+      "redirected": true,
+      "checked_at": "2025-10-17T01:02:01.111489"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "chatwoot.com",
+      "registrar": "GoDaddy.com, LLC",
+      "creation_date": "2016-10-19T06:49:22",
+      "expiration_date": "2028-10-19T06:49:22",
+      "domain_age_days": 3284,
+      "domain_age_years": 9.0,
+      "name_servers": [
+        "NS-1068.AWSDNS-05.ORG",
+        "NS-1755.AWSDNS-27.CO.UK",
+        "NS-199.AWSDNS-24.COM",
+        "NS-535.AWSDNS-02.NET"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": "https://www.linkedin.com/company/chatwoot",
+      "github": "https://www.github.com/chatwoot",
+      "facebook": "https://facebook.com/chatwootapp",
+      "instagram": "https://www.instagram.com/chatwoot/",
+      "youtube": "https://www.youtube.com/chatwoot"
+    },
+    "security_headers": {
+      "strict_transport_security": true,
+      "content_security_policy": false,
+      "x_frame_options": false,
+      "x_content_type_options": false,
+      "x_xss_protection": false,
+      "referrer_policy": false,
+      "security_score": 16,
+      "server": "Netlify"
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:27:39.480733",
+  "phase1_complete": true,
+  "phase2_complete": true,
+  "phase3_complete": true,
+  "phase4_complete": true,
+  "phase5_complete": true,
+  "geographic_data": {
+    "geographic_enrichment_version": "2.0.0",
+    "enriched_at": "2025-10-17T10:27:27.812385",
+    "place_data": {
+      "status": "success",
+      "method": "static_db",
+      "formatted_address": "San Francisco, CA, USA",
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      },
+      "timezone": {
+        "timezone_id": "America/Los_Angeles",
+        "timezone_name": "America/Los_Angeles"
+      },
+      "retrieved_at": "2025-10-17T10:14:18.656822",
+      "from_cache": true
+    }
+  },
+  "github_data": {
+    "github_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:27:27.812405",
+    "organization": {
+      "status": "error",
+      "error": "401 Client Error: Unauthorized for url: https://api.github.com/orgs/chatwoot"
+    },
+    "packages": {
+      "npm": {
+        "status": "success",
+        "package_count": 70,
+        "packages": [
+          {
+            "name": "@devlikeapro/n8n-nodes-chatwoot",
+            "description": "n8n node to connect with ChatWoot",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@devlikeapro/n8n-nodes-chatwoot"
+          },
+          {
+            "name": "@chatwoot/utils",
+            "description": "Chatwoot utils",
+            "version": "0.0.51",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@chatwoot/utils"
+          },
+          {
+            "name": "n8n-nodes-chatwoot",
+            "description": "This is an n8n community node. It lets you use ChatWoot in your n8n workflows.",
+            "version": "0.1.40",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/n8n-nodes-chatwoot"
+          },
+          {
+            "name": "@productdevbook/chatwoot",
+            "description": "Chatwoot Vue or Nuxt library.",
+            "version": "2.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@productdevbook/chatwoot"
+          },
+          {
+            "name": "@figuro/chatwoot-sdk",
+            "description": "SDK for JS/Typescript for Chatwoot.",
+            "version": "1.1.17",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@figuro/chatwoot-sdk"
+          },
+          {
+            "name": "@chatwoot/react-native-widget",
+            "description": "React Native widget for Chatwoot",
+            "version": "0.0.21",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@chatwoot/react-native-widget"
+          },
+          {
+            "name": "@chatwoot/prosemirror-schema",
+            "description": "Schema setup for using prosemirror in chatwoot. Based on \ud83d\udc49 https://github.com/ProseMirror/prosemirror-example-setup/",
+            "version": "1.2.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@chatwoot/prosemirror-schema"
+          },
+          {
+            "name": "@pixelinfinito/n8n-nodes-chatwoot",
+            "description": "n8n community node for Chatwoot API integration",
+            "version": "0.3.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@pixelinfinito/n8n-nodes-chatwoot"
+          },
+          {
+            "name": "@warcraft14115/n8n-nodes-chatwoot",
+            "description": "n8n node to connect with ChatWoot",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@warcraft14115/n8n-nodes-chatwoot"
+          },
+          {
+            "name": "@machengji/chatwoot-sdk",
+            "description": "SDK for JS/Typescript for Chatwoot.",
+            "version": "1.0.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@machengji/chatwoot-sdk"
+          },
+          {
+            "name": "@chatwoot/docusaurus-plugin",
+            "description": "Chatwoot plugin for docusaurus",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@chatwoot/docusaurus-plugin"
+          },
+          {
+            "name": "n8n-nodes-megaapi-chatwoot",
+            "description": "n8n community node package for integrating MegaAPI (WhatsApp service) with Chatwoot for customer support automation",
+            "version": "0.1.11",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/n8n-nodes-megaapi-chatwoot"
+          },
+          {
+            "name": "chatwoot-client-node-js",
+            "description": "TypeScript client for the Chatwoot API",
+            "version": "1.0.14",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/chatwoot-client-node-js"
+          },
+          {
+            "name": "chatwoot-react",
+            "description": "Chatwoot widget for React and NextJS.",
+            "version": "0.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/chatwoot-react"
+          },
+          {
+            "name": "chatwoot-react-ui",
+            "description": "A reusable React chat UI component library for Chatwoot integration",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/chatwoot-react-ui"
+          },
+          {
+            "name": "chatwoot-sdk",
+            "description": "TypeScript SDK for Chatwoot API, generated by OpenAPI Generator Typescript-fetch",
+            "version": "4.5.2-v1.3.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/chatwoot-sdk"
+          },
+          {
+            "name": "@sufficit/n8n-nodes-chatwoot",
+            "description": "This is an n8n community node. It lets you use ChatWoot in your n8n workflows.",
+            "version": "0.1.39",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sufficit/n8n-nodes-chatwoot"
+          },
+          {
+            "name": "@machengji/chat-ui-react",
+            "description": "A reusable React chat UI component library for Chatwoot integration",
+            "version": "1.1.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@machengji/chat-ui-react"
+          },
+          {
+            "name": "@jrvidotti/chatwoot-sdk",
+            "description": "SDK for JS/Typescript for Chatwoot.",
+            "version": "1.6.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@jrvidotti/chatwoot-sdk"
+          },
+          {
+            "name": "@otterlyspace/use-chatwoot",
+            "description": "A React hook for integrating with Chatwoot, a customer support platform.",
+            "version": "1.2.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@otterlyspace/use-chatwoot"
+          },
+          {
+            "name": "@chatwoot/agent-react-components",
+            "description": "React components for Chatwoot messaging interface with Vue Web Components",
+            "version": "4.6.0-dev.2b933f0166",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@chatwoot/agent-react-components"
+          },
+          {
+            "name": "@samuellokii/n8n-nodes-chatwoot",
+            "description": "n8n node to connect with ChatWoot",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@samuellokii/n8n-nodes-chatwoot"
+          },
+          {
+            "name": "gatsby-plugin-chatwoot",
+            "description": "Gatsby plugin to add Chatwoot to your website",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/gatsby-plugin-chatwoot"
+          },
+          {
+            "name": "@warcraft14115/chatwoot-sdk",
+            "description": "SDK for JS/Typescript for Chatwoot.",
+            "version": "0.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@warcraft14115/chatwoot-sdk"
+          },
+          {
+            "name": "@hoory/react-native-widget",
+            "description": "React Native widget for Chatwoot",
+            "version": "0.0.14",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@hoory/react-native-widget"
+          },
+          {
+            "name": "@alirehman7141/chatwoot-react-native-widget",
+            "description": "React Native widget for Chatwoot",
+            "version": "0.1.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@alirehman7141/chatwoot-react-native-widget"
+          },
+          {
+            "name": "@stacklabdigital/chatwoot-mcp",
+            "description": "Servidor MCP para interagir com a API do Chatwoot",
+            "version": "1.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@stacklabdigital/chatwoot-mcp"
+          },
+          {
+            "name": "@hoory/docusaurus-plugin",
+            "description": "Chatwoot plugin for docusaurus",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@hoory/docusaurus-plugin"
+          },
+          {
+            "name": "n8n-nodes-kanban-chatwoot",
+            "description": "Community node n8n para integra\u00e7\u00e3o entre Kanban e Chatwoot.",
+            "version": "0.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/n8n-nodes-kanban-chatwoot"
+          },
+          {
+            "name": "@ragaeeb/gatsby-plugin-chatwoot",
+            "description": "Gatsby plugin to add Chatwoot to your website",
+            "version": "1.1.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@ragaeeb/gatsby-plugin-chatwoot"
+          },
+          {
+            "name": "@chatwoot/ninja-keys",
+            "description": "Ninja Keys",
+            "version": "1.2.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@chatwoot/ninja-keys"
+          },
+          {
+            "name": "@wsapichat/n8n-nodes-wsapi-chatwoot",
+            "description": "n8n community node to bridge Chatwoot API Channel with your WSAPI Instance. Trigger for Chatwoot callbacks + action to upsert messages into Chatwoot and Update Labels and Attributes.",
+            "version": "0.9.5",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@wsapichat/n8n-nodes-wsapi-chatwoot"
+          },
+          {
+            "name": "@africasokoni/react-native-widget",
+            "description": "React Native widget for Chatwoot",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@africasokoni/react-native-widget"
+          },
+          {
+            "name": "@sandstreamdev/chatwoot",
+            "description": "<p align=\"center\">   <img src=\"https://s3.us-west-2.amazonaws.com/gh-assets.chatwoot.com/brand.svg\" alt=\"Woot-logo\" width=\"240\" />",
+            "version": "1.13.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sandstreamdev/chatwoot"
+          },
+          {
+            "name": "@clyent/chatwoot-webhook-validator",
+            "description": "HMAC validation library for Chatwoot webhooks",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@clyent/chatwoot-webhook-validator"
+          },
+          {
+            "name": "@jrvidotti/chatwoot-sdk-2",
+            "description": "SDK for JS/Typescript for Chatwoot.",
+            "version": "1.5.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@jrvidotti/chatwoot-sdk-2"
+          },
+          {
+            "name": "n8n-nodes-chatwoot-fernandoff",
+            "description": "n8n node to connect with ChatWoot",
+            "version": "1.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/n8n-nodes-chatwoot-fernandoff"
+          },
+          {
+            "name": "@muhzi/utils",
+            "description": "Common utils chatwoot.",
+            "version": "0.0.10",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@muhzi/utils"
+          },
+          {
+            "name": "@alfabit/chatwoot",
+            "description": null,
+            "version": "0.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@alfabit/chatwoot"
+          },
+          {
+            "name": "@fazlyddeen/chat-desk",
+            "description": "A custom chat widget integrated to Chatwoot",
+            "version": "1.1.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@fazlyddeen/chat-desk"
+          },
+          {
+            "name": "@xyd-js/plugin-chatwoot",
+            "description": null,
+            "version": "0.0.0-build-e4644f3-20251015210712",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@xyd-js/plugin-chatwoot"
+          },
+          {
+            "name": "@salla.sa/ui-merchant-salla-chat",
+            "description": "A React component library using Tailwind CSS and Vite for merchant services",
+            "version": "0.10.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@salla.sa/ui-merchant-salla-chat"
+          },
+          {
+            "name": "@hoory/prosemirror-schema",
+            "description": "Schema setup for using prosemirror in chatwoot. Based on \ud83d\udc49 https://github.com/ProseMirror/prosemirror-example-setup/",
+            "version": "1.0.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@hoory/prosemirror-schema"
+          },
+          {
+            "name": "@chatwoot/captain",
+            "description": "This template should help get you started developing with Vue 3 in Vite.",
+            "version": "0.0.3-alpha.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@chatwoot/captain"
+          },
+          {
+            "name": "react-live-chat-loader",
+            "description": "Implement live chat in your react app without taking a performance hit.",
+            "version": "2.11.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/react-live-chat-loader"
+          },
+          {
+            "name": "@chatwoot/markdown-to-txt",
+            "description": "Convert markdown to plain text",
+            "version": "2.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@chatwoot/markdown-to-txt"
+          },
+          {
+            "name": "evolution-manager",
+            "description": "Evolution Manager is an open-source interface for managing the Evolution API, simplifying the creation and administration of API instances with advanced features and diverse integrations.",
+            "version": "0.4.13",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/evolution-manager"
+          },
+          {
+            "name": "@chatwoot/business-hours",
+            "description": "Compute business hours like a pro",
+            "version": "0.0.3",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@chatwoot/business-hours"
+          },
+          {
+            "name": "@munirajg/n8n-nodes-chatwoot",
+            "description": "n8n node to connect with ChatWoot modified",
+            "version": "1.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@munirajg/n8n-nodes-chatwoot"
+          },
+          {
+            "name": "@digiliza/prosemirror-schema",
+            "description": "Schema setup for using prosemirror in digiliza. Based on \ud83d\udc49 https://github.com/ProseMirror/prosemirror-example-setup/",
+            "version": "1.2.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@digiliza/prosemirror-schema"
+          },
+          {
+            "name": "@mesbox/prosemirror-schema",
+            "description": "Schema setup for using prosemirror in mesbox. Based on \ud83d\udc49 https://github.com/ProseMirror/prosemirror-example-setup/",
+            "version": "1.0.20",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mesbox/prosemirror-schema"
+          },
+          {
+            "name": "chatwoot-react-sdk",
+            "description": "\u672c\u9879\u76ee\u73b0\u5df2\u79fb\u9664 ConnectyCube \u96c6\u6210\uff0c\u6539\u4e3a\u4f7f\u7528\u5185\u5b58 Mock \u670d\u52a1\uff0c\u4ec5\u4fdd\u7559 UI \u4ee5\u4fbf\u6f14\u793a\u3002",
+            "version": "0.10.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/chatwoot-react-sdk"
+          },
+          {
+            "name": "n8n-nodes-megaapi",
+            "description": "N8N Community Node for MegaAPI WhatsApp automation - Complete WhatsApp integration with messaging, groups, media, and more",
+            "version": "1.2.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/n8n-nodes-megaapi"
+          },
+          {
+            "name": "@mrmenezesdev/chatwoot-client",
+            "description": "Node.js bindings for Chatwoot APIs",
+            "version": "0.0.4",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@mrmenezesdev/chatwoot-client"
+          },
+          {
+            "name": "@scmmishra/woot-react-dev",
+            "description": "React components for Chatwoot messaging interface with Vue Web Components",
+            "version": "4.2.0-dev.c66f8600ec",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@scmmishra/woot-react-dev"
+          },
+          {
+            "name": "@durrtagnan/chatwoot-react-native-widget",
+            "description": "Fork of React Native widget for Chatwoot",
+            "version": "0.0.19",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@durrtagnan/chatwoot-react-native-widget"
+          },
+          {
+            "name": "@nedomas/react-live-chat-loader",
+            "description": "Implement live chat in your react app without taking a performance hit.",
+            "version": "2.9.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@nedomas/react-live-chat-loader"
+          },
+          {
+            "name": "@sandstreamdev/prosemirror-schema",
+            "description": "Schema setup for using prosemirror in chatwoot. Based on \ud83d\udc49 https://github.com/ProseMirror/prosemirror-example-setup/",
+            "version": "1.0.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@sandstreamdev/prosemirror-schema"
+          },
+          {
+            "name": "@nisham/test-cw1",
+            "description": "<h1> chatwoot-react-native-widget (Work in progress) </h1>",
+            "version": "0.0.19",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@nisham/test-cw1"
+          },
+          {
+            "name": "tb-react-live-chat-loader",
+            "description": "Implement live chat in your react app without taking a performance hit.",
+            "version": "2.7.6",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/tb-react-live-chat-loader"
+          },
+          {
+            "name": "n8n-nodes-evolution-api-v2",
+            "description": "N8N Community Node for Evolution API v2",
+            "version": "1.1.11",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/n8n-nodes-evolution-api-v2"
+          },
+          {
+            "name": "@bot-whatsapp-extensions/chatwoot",
+            "description": null,
+            "version": "0.0.1",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@bot-whatsapp-extensions/chatwoot"
+          },
+          {
+            "name": "n8n-nodes-evolution-api-v2-eng",
+            "description": "N8N Community Node for Evolution API v2 - ENG",
+            "version": "1.0.2",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/n8n-nodes-evolution-api-v2-eng"
+          },
+          {
+            "name": "gatsby-plugin-hoory",
+            "description": "Gatsby plugin to add Hoory to your website",
+            "version": "1.1.0",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/gatsby-plugin-hoory"
+          },
+          {
+            "name": "@seamicloud/utils",
+            "description": "SeaMiCloud utils",
+            "version": "0.0.25",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@seamicloud/utils"
+          },
+          {
+            "name": "evolution-manager-gtech",
+            "description": "Evolution Manager is an open-source interface for managing the Evolution API, simplifying the creation and administration of API instances with advanced features and diverse integrations.",
+            "version": "0.4.15",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/evolution-manager-gtech"
+          },
+          {
+            "name": "evolution-managerx",
+            "description": "Evolution Manager is an open-source interface for managing the Evolution API, simplifying the creation and administration of API instances with advanced features and diverse integrations.",
+            "version": "0.4.14",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/evolution-managerx"
+          },
+          {
+            "name": "wasync-manager",
+            "description": "Wasync Manager is an open-source interface for managing the Wasync API, simplifying the creation and administration of API instances with advanced features and diverse integrations.",
+            "version": "0.4.14",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/wasync-manager"
+          },
+          {
+            "name": "rckmendes_control",
+            "description": "Evolution Manager is an open-source interface for managing the Evolution API, simplifying the creation and administration of API instances with advanced features and diverse integrations.",
+            "version": "0.4.1-3.mendes-sac-24-04",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/rckmendes_control"
+          },
+          {
+            "name": "@seamicloud/prosemirror-schema",
+            "description": "Schema setup for using prosemirror in seamicloud. Based on \ud83d\udc49 https://github.com/ProseMirror/prosemirror-example-setup/",
+            "version": "1.0.7",
+            "downloads": 1,
+            "url": "https://www.npmjs.com/package/@seamicloud/prosemirror-schema"
+          }
+        ]
+      },
+      "pypi": {
+        "status": "checked",
+        "has_packages": false,
+        "note": "PyPI checked via search (detailed scraping not implemented)"
+      },
+      "rubygems": {
+        "status": "success",
+        "package_count": 1,
+        "packages": [
+          {
+            "name": "gupshup-rb",
+            "version": "0.2.1",
+            "downloads": 7365,
+            "url": "https://rubygems.org/gems/gupshup-rb"
+          }
+        ]
+      },
+      "crates_io": {
+        "status": "success",
+        "package_count": 0,
+        "packages": []
+      },
+      "total_packages": 71,
+      "has_packages": true,
+      "checked_at": "2025-10-17T10:27:28.990050"
+    }
+  },
+  "network_data": {
+    "network_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:27:28.990056",
+    "batch_network": {
+      "batch": "Winter 2021",
+      "total_batch_mates": 335,
+      "active_batch_mates": 244,
+      "batch_success_rate": 72.8,
+      "notable_batch_mates": [
+        {
+          "name": "Stacksi",
+          "slug": "stacksi",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Automated Answers to Security Questionnaires"
+        },
+        {
+          "name": "Furmacy",
+          "slug": "furmacy",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Digital e-prescribing software for veterinarians."
+        },
+        {
+          "name": "Fountain9",
+          "slug": "fountain9",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Helping food brands and retailers reduce food wastage"
+        },
+        {
+          "name": "Zepto",
+          "slug": "zepto",
+          "status": "Active",
+          "top_company": true,
+          "one_liner": "10-Minute Grocery Delivery in India"
+        },
+        {
+          "name": "Segments.ai",
+          "slug": "segments-ai",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Build better computer vision models by building better datasets"
+        },
+        {
+          "name": "PingPong",
+          "slug": "pingpong",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Video messaging app for remote teams."
+        },
+        {
+          "name": "ClipDrop",
+          "slug": "clipdrop",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Turn regular mobile photos into professional product visuals"
+        },
+        {
+          "name": "Avenue",
+          "slug": "avenue",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Observability platform for operations teams"
+        },
+        {
+          "name": "Flok",
+          "slug": "flok",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "End to end company retreat planning"
+        },
+        {
+          "name": "HyperGlue",
+          "slug": "hyperglue",
+          "status": "Acquired",
+          "top_company": false,
+          "one_liner": "Business intelligence on text"
+        }
+      ],
+      "batch_size": 336
+    },
+    "industry_network": {
+      "industries": [
+        "B2B",
+        "Operations"
+      ],
+      "total_industry_peers": 2746,
+      "active_industry_peers": 1968,
+      "direct_competitors": [
+        {
+          "name": "Hipmob",
+          "slug": "hipmob",
+          "status": "Inactive",
+          "batch": "Winter 2012",
+          "one_liner": "Customer communication for iOS and Android developers - an in-app\u2026"
+        },
+        {
+          "name": "LaunchHear",
+          "slug": "launchhear",
+          "status": "Inactive",
+          "batch": "Winter 2010",
+          "one_liner": "LaunchHear was a startup attempting to make PR scale in the same way\u2026"
+        },
+        {
+          "name": "Upwave",
+          "slug": "upwave",
+          "status": "Active",
+          "batch": "Summer 2012",
+          "one_liner": "Marketing analytics for the world's biggest brand marketers"
+        },
+        {
+          "name": "Natero",
+          "slug": "natero",
+          "status": "Acquired",
+          "batch": "Summer 2012",
+          "one_liner": "Data-driven customer success platform for B2B SaaS."
+        },
+        {
+          "name": "Profig",
+          "slug": "profig",
+          "status": "Inactive",
+          "batch": "Summer 2012",
+          "one_liner": "The phone system for businesses. Manage everything from your company\u2026"
+        },
+        {
+          "name": "Flightfox",
+          "slug": "flightfox",
+          "status": "Active",
+          "batch": "Summer 2012",
+          "one_liner": "A platform to plan, book and manage global and group travel."
+        },
+        {
+          "name": "Kalibrr",
+          "slug": "kalibrr",
+          "status": "Acquired",
+          "batch": "Winter 2013",
+          "one_liner": "Kalibrr connects SEAsian talent to your local & global jobs."
+        },
+        {
+          "name": "Unbabel",
+          "slug": "unbabel",
+          "status": "Acquired",
+          "batch": "Winter 2014",
+          "one_liner": "AI-powered Language Operations platform"
+        },
+        {
+          "name": "Confident LIMS",
+          "slug": "confident-lims",
+          "status": "Active",
+          "batch": "Summer 2015",
+          "one_liner": "Laboratory Information Management System (LIMS) serving\u2026"
+        },
+        {
+          "name": "HiOperator",
+          "slug": "hioperator",
+          "status": "Active",
+          "batch": "Summer 2016",
+          "one_liner": "Customer support as a service. "
+        }
+      ],
+      "competitor_count": 10
+    },
+    "geographic_network": {
+      "city": "San Francisco",
+      "location": "San Francisco, CA, USA; Remote",
+      "companies_in_city": 2007,
+      "active_in_city": 1339,
+      "nearby_companies": [
+        {
+          "name": "42Floors",
+          "slug": "42floors",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "PlanGrid",
+          "slug": "plangrid",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "MyVR",
+          "slug": "myvr",
+          "batch": "Winter 2012",
+          "industry": "Real Estate and Construction",
+          "status": "Acquired"
+        },
+        {
+          "name": "Couple",
+          "slug": "couple",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Inactive"
+        },
+        {
+          "name": "HackPad",
+          "slug": "hackpad",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Rescale",
+          "slug": "rescale",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "Gusto",
+          "slug": "gusto",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Active"
+        },
+        {
+          "name": "FamilyLeaf",
+          "slug": "familyleaf",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Minefold",
+          "slug": "minefold",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Chute",
+          "slug": "chute",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Make School",
+          "slug": "make-school",
+          "batch": "Winter 2012",
+          "industry": "Education",
+          "status": "Inactive"
+        },
+        {
+          "name": "Zillabyte",
+          "slug": "zillabyte",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Exec",
+          "slug": "exec",
+          "batch": "Winter 2012",
+          "industry": "Consumer",
+          "status": "Acquired"
+        },
+        {
+          "name": "Amplitude",
+          "slug": "amplitude",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Public"
+        },
+        {
+          "name": "LendUp",
+          "slug": "lendup",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Inactive"
+        },
+        {
+          "name": "Tilt",
+          "slug": "tilt",
+          "batch": "Winter 2012",
+          "industry": "Fintech",
+          "status": "Acquired"
+        },
+        {
+          "name": "Brace",
+          "slug": "brace",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Inactive"
+        },
+        {
+          "name": "Swiftype",
+          "slug": "swiftype",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Authy",
+          "slug": "authy",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        },
+        {
+          "name": "Fond",
+          "slug": "fond",
+          "batch": "Winter 2012",
+          "industry": "B2B",
+          "status": "Acquired"
+        }
+      ],
+      "ecosystem_density": "high"
+    },
+    "tech_network": {
+      "status": "no_tech_data"
+    },
+    "similar_companies": [
+      {
+        "name": "cloud humans",
+        "slug": "cloud-humans",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "The Third Place",
+        "slug": "the-third-place",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Gaiia",
+        "slug": "gaiia",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Spokn",
+        "slug": "spokn",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "SigNoz",
+        "slug": "signoz",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "arnata",
+        "slug": "arnata",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "SlashAuth",
+        "slug": "slashauth",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Inactive",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Bluelight",
+        "slug": "bluelight",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Tupelo",
+        "slug": "tupelo",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:1",
+          "same_city",
+          "same_tech"
+        ]
+      },
+      {
+        "name": "Axiom.ai",
+        "slug": "axiom-ai",
+        "batch": "Winter 2021",
+        "industry": "B2B",
+        "status": "Active",
+        "similarity_score": 8,
+        "similarity_reasons": [
+          "same_batch",
+          "shared_industries:2",
+          "same_tech"
+        ]
+      }
+    ],
+    "network_metrics": {
+      "total_yc_connections": 5088,
+      "network_density_score": 100,
+      "has_strong_batch_network": true,
+      "has_strong_industry_network": true,
+      "has_strong_geo_network": true,
+      "calculated_at": "2025-10-17T10:27:28.996833"
+    }
+  },
+  "patent_data": {
+    "patent_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:27:28.996838",
+    "patents": {
+      "status": "api_error",
+      "error": "HTTP 410",
+      "patent_count": 0
+    }
+  },
+  "reviews_data": {
+    "reviews_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:27:29.316052",
+    "producthunt": {
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "g2": {
+      "status": "not_implemented",
+      "note": "G2 scraping requires Selenium + anti-bot bypass"
+    }
+  },
+  "phase6_complete": true,
+  "hiring_data": {
+    "hiring_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T10:27:29.392822",
+    "basic_info": {
+      "is_hiring": false,
+      "team_size": 9,
+      "note": "Full job scraping not implemented - placeholder"
+    }
+  },
+  "phase7_complete": true,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:26.893229",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "AI-powered customer service",
+        "Omnichannel communication",
+        "Open source solutions"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Open-source community, self-hosting option provides data control and customization",
+      "differentiation": "Open-source, self-hostable, AI-powered customer support platform",
+      "competitive_advantages": [
+        "Lower cost of ownership (especially with self-hosting)",
+        "Greater customization and control",
+        "Strong community support"
+      ],
+      "competitive_vulnerabilities": [
+        "May require more technical expertise to set up and maintain",
+        "Reliance on community contributions for certain features"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "series-a",
+      "growth_indicators": [
+        "Increasing adoption of open-source solutions",
+        "Growing demand for AI-powered customer support",
+        "Expansion of integrations with other platforms"
+      ],
+      "growth_bottlenecks": [
+        "Competition from established players",
+        "Maintaining community engagement",
+        "Scaling support infrastructure"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "low",
+      "execution_risk": "medium",
+      "overall_risk_score": 6,
+      "key_risks": [
+        "Competition from well-funded incumbents",
+        "Maintaining a vibrant open-source community",
+        "Security vulnerabilities inherent in self-hosted solutions"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Strong value proposition for businesses seeking control and customization",
+        "Growing market for open-source solutions",
+        "AI-powered features enhance efficiency"
+      ],
+      "concerns": [
+        "Reliance on community for development",
+        "Potential for fragmentation of the open-source ecosystem"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "Zendesk",
+        "Intercom"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Focus on building a strong ecosystem around the platform",
+        "Expand AI capabilities to further differentiate from competitors"
+      ],
+      "expansion_opportunities": [
+        "Develop integrations with other popular business tools",
+        "Offer premium support and consulting services"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 704,
+      "completion": 546,
+      "total": 1250,
+      "estimated_cost": 0.000217
+    }
+  },
+  "phase8_complete": true
+}

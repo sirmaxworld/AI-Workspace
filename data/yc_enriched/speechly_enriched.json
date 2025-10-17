@@ -1,0 +1,143 @@
+{
+  "slug": "speechly",
+  "name": "Speechly",
+  "yc_id": 25617,
+  "batch": "Winter 2022",
+  "website": "https://www.speechly.com/",
+  "web_data": {
+    "web_enrichment_version": "1.0.0",
+    "enriched_at": "2025-10-17T01:12:30.985025",
+    "website": "https://www.speechly.com/",
+    "website_status": {
+      "reachable": false,
+      "error": "ssl_error"
+    },
+    "ssl_security": {
+      "disabled": true,
+      "reason": "certificate_verification_failed"
+    },
+    "domain_info": {
+      "domain": "speechly.com",
+      "registrar": "MarkMonitor, Inc.",
+      "creation_date": "2012-09-30T18:32:33",
+      "expiration_date": "2028-09-30T18:32:33",
+      "domain_age_days": 4764,
+      "domain_age_years": 13.0,
+      "name_servers": [
+        "DNS1.P03.NSONE.NET",
+        "DNS2.P03.NSONE.NET",
+        "DNS3.P03.NSONE.NET",
+        "DNS4.P03.NSONE.NET",
+        "NS01.RBXINFRA.NET",
+        "NS02.RBXINFRA.NET",
+        "NS03.RBXINFRA.NET",
+        "NS04.RBXINFRA.NET"
+      ]
+    },
+    "social_links": {
+      "twitter": null,
+      "linkedin": null,
+      "github": null,
+      "facebook": null,
+      "instagram": null,
+      "youtube": null
+    },
+    "security_headers": {
+      "error": "HTTPSConnectionPool(host='www.speechly.com', port=443): Max retries exceeded with url: / (Caused by "
+    }
+  },
+  "enrichment_version": "1.0.0",
+  "enriched_at": "2025-10-17T10:39:34.860206",
+  "phase1_complete": true,
+  "phase2_complete": false,
+  "phase3_complete": false,
+  "phase4_complete": false,
+  "phase5_complete": false,
+  "ai_insights": {
+    "ai_insights_version": "1.0.0",
+    "model_used": "google/gemini-2.0-flash-001",
+    "enriched_at": "2025-10-17T12:41:52.563340",
+    "status": "success",
+    "market_analysis": {
+      "market_size": "very large",
+      "market_stage": "growing",
+      "key_trends": [
+        "Increased demand for real-time speech analysis",
+        "Growing adoption of edge computing",
+        "Advancements in AI and machine learning for speech recognition"
+      ]
+    },
+    "competitive_positioning": {
+      "competitive_moat": "Technology (on-device processing, accuracy) and first-mover advantage.",
+      "differentiation": "On-device NLU enables real-time, cost-effective, and privacy-focused speech understanding.",
+      "competitive_advantages": [
+        "Lower latency due to on-device processing",
+        "Reduced data transfer costs"
+      ],
+      "competitive_vulnerabilities": [
+        "Potential limitations in model complexity compared to cloud-based solutions",
+        "Dependency on device processing power"
+      ]
+    },
+    "business_model": {
+      "revenue_model": "SaaS",
+      "scalability": "high",
+      "capital_intensity": "medium"
+    },
+    "growth_assessment": {
+      "growth_stage": "growth",
+      "growth_indicators": [
+        "Adoption by applications requiring real-time speech analysis",
+        "Partnerships with device manufacturers"
+      ],
+      "growth_bottlenecks": [
+        "Integration complexity with various platforms",
+        "Maintaining accuracy across diverse accents and languages"
+      ]
+    },
+    "risk_analysis": {
+      "market_risk": "medium",
+      "technology_risk": "medium",
+      "execution_risk": "low",
+      "overall_risk_score": 4,
+      "key_risks": [
+        "Competition from larger cloud providers",
+        "Evolving speech recognition technology",
+        "Data privacy regulations"
+      ]
+    },
+    "investment_thesis": {
+      "strengths": [
+        "Unique on-device processing capability",
+        "Real-time performance",
+        "Cost-effectiveness"
+      ],
+      "concerns": [
+        "Reliance on device capabilities",
+        "Potential for cloud-based solutions to catch up"
+      ],
+      "exit_potential": "acquisition",
+      "comparable_companies": [
+        "AssemblyAI",
+        "Deepgram"
+      ]
+    },
+    "recommendations": {
+      "next_steps": [
+        "Expand language support",
+        "Develop SDKs for more platforms"
+      ],
+      "expansion_opportunities": [
+        "Integrate with IoT devices",
+        "Offer industry-specific solutions (e.g., healthcare, automotive)"
+      ]
+    },
+    "tokens_used": {
+      "prompt": 687,
+      "completion": 613,
+      "total": 1300,
+      "estimated_cost": 0.000235
+    }
+  },
+  "phase8_complete": true
+}
