@@ -1,0 +1,320 @@
+{
+  "market_intelligence": {
+    "target_markets": [
+      {
+        "market_description": "Non-technical entrepreneurs and builders who want to create applications without coding",
+        "demographics": [
+          "entrepreneurs",
+          "startup founders",
+          "non-technical builders"
+        ],
+        "pain_points": [
+          "overwhelmed by too many AI coding tool options",
+          "paralysis of analysis on which tool to invest time into",
+          "difficulty choosing the right tool for their technical skill level"
+        ],
+        "market_size_indicators": "Multiple tools competing in space, high engagement on comparison content"
+      },
+      {
+        "market_description": "Technical developers looking to accelerate development with AI",
+        "demographics": [
+          "software developers",
+          "technical professionals",
+          "senior tech devs"
+        ],
+        "pain_points": [
+          "need to understand nuances and strengths/weaknesses of different AI coding tools",
+          "want to build production-level applications efficiently"
+        ],
+        "market_size_indicators": "Senior developers actively comparing and using multiple tools"
+      }
+    ],
+    "problems_validated": [
+      {
+        "problem": "Tool selection paralysis in AI coding space",
+        "severity": "High - causing month-long research cycles and brain numbness",
+        "current_solutions": "Watching multiple YouTube videos, reading tweet threads, trial and error",
+        "market_gap": "Lack of unbiased, comprehensive comparison content"
+      },
+      {
+        "problem": "AI coding tools not ready for production applications",
+        "severity": "High - prevents real product launches",
+        "current_solutions": "Using tools for prototypes only, extensive debugging and pain",
+        "market_gap": "No tool is 100% production-ready yet"
+      }
+    ]
+  },
+  "products_tools": [
+    {
+      "name": "Bolt",
+      "category": "ai-tool",
+      "use_case": "AI coding for semi-technical users, good for uploading projects from other tools",
+      "sentiment": "positive",
+      "pricing": "has daily free tiers that can be maxed out",
+      "metrics": "not mentioned"
+    },
+    {
+      "name": "Lovable",
+      "category": "ai-tool",
+      "use_case": "No-code AI tool for non-technical users, excellent UI building",
+      "sentiment": "highly positive",
+      "pricing": "not specified",
+      "metrics": "not mentioned"
+    },
+    {
+      "name": "Cursor",
+      "category": "ai-tool",
+      "use_case": "Technical AI coding tool for developers, maximum control",
+      "sentiment": "positive but challenging",
+      "pricing": "paid tiers available",
+      "metrics": "not mentioned"
+    },
+    {
+      "name": "Replit",
+      "category": "ai-tool",
+      "use_case": "AI coding with file creation control, good for production apps",
+      "sentiment": "positive",
+      "pricing": "has free tiers",
+      "metrics": "not mentioned"
+    },
+    {
+      "name": "v0",
+      "category": "ai-tool",
+      "use_case": "AI coding with code access and tweaking capabilities",
+      "sentiment": "neutral",
+      "pricing": "not specified",
+      "metrics": "not mentioned"
+    },
+    {
+      "name": "Tempo Labs",
+      "category": "ai-tool",
+      "use_case": "Figma-like AI coding tool, good for production apps",
+      "sentiment": "positive",
+      "pricing": "not specified",
+      "metrics": "not mentioned"
+    },
+    {
+      "name": "Onlook",
+      "category": "ai-tool",
+      "use_case": "AI tool for technical people who need design help, landing pages",
+      "sentiment": "positive",
+      "pricing": "not specified",
+      "metrics": "not mentioned"
+    },
+    {
+      "name": "WindSurf",
+      "category": "ai-tool",
+      "use_case": "Technical AI coding tool for developers",
+      "sentiment": "neutral",
+      "pricing": "not specified",
+      "metrics": "not mentioned"
+    }
+  ],
+  "business_strategies": [
+    {
+      "strategy_type": "operations",
+      "strategy": "Invest time in learning AI coding tools now to be first in line when they reach production quality",
+      "implementation": "Play with tools, build mini projects, understand how they work",
+      "expected_results": "Competitive advantage when tools mature",
+      "case_study": "not provided"
+    },
+    {
+      "strategy_type": "operations",
+      "strategy": "Hybrid approach: Build UI in Lovable then upload to Bolt for additional functionality",
+      "implementation": "Use Lovable for design, export project, upload to Bolt for enhancements",
+      "expected_results": "High-quality results combining strengths of both tools",
+      "case_study": "User comment validation of this approach"
+    }
+  ],
+  "problems_solutions": [
+    {
+      "problem": "Choosing the right AI coding tool based on technical skill level",
+      "category": "technical",
+      "solution": "Map tools on control vs technical skill spectrum",
+      "steps": [
+        "Assess your technical level",
+        "Determine desired level of control",
+        "Choose tool that matches both factors"
+      ],
+      "tools_needed": [
+        "Control spectrum: Lovable->Bolt/v0->Replit->Tempo/Onlook->Cursor/WindSurf"
+      ],
+      "difficulty": "beginner",
+      "time_estimate": "not mentioned"
+    },
+    {
+      "problem": "Non-technical users struggling with advanced AI coding tools",
+      "category": "technical",
+      "solution": "Start with no-code tools like Lovable, Bolt, v0, Replit",
+      "steps": [
+        "Avoid Cursor and WindSurf initially",
+        "Use left side of control spectrum",
+        "Expect simpler experience"
+      ],
+      "tools_needed": [
+        "Lovable",
+        "Bolt",
+        "v0",
+        "Replit"
+      ],
+      "difficulty": "beginner",
+      "time_estimate": "not mentioned"
+    }
+  ],
+  "startup_ideas": [],
+  "mistakes_to_avoid": [
+    {
+      "mistake": "Non-technical users jumping straight to advanced tools like Cursor or WindSurf",
+      "consequences": "Lot of pain, blocks, debugging, extensive reading and learning required",
+      "prevention": "Start with simpler tools on the left side of the control spectrum",
+      "example": "User spent 120 hours in 2 weeks with Cursor as complete novice"
+    },
+    {
+      "mistake": "Expecting AI coding tools to be 100% production-ready",
+      "consequences": "Disappointment and roadblocks when building real products",
+      "prevention": "Understand current limitations, expect headaches and debugging",
+      "example": "None of the tools are at 100% production level yet"
+    }
+  ],
+  "growth_tactics": [],
+  "ai_workflows": [
+    {
+      "workflow_name": "Hybrid UI to Full App Development",
+      "tools_used": [
+        "Lovable",
+        "Bolt"
+      ],
+      "steps": [
+        "Build UI in Lovable until satisfied with appearance",
+        "Upload full project to Bolt",
+        "Connect additional functionality in Bolt"
+      ],
+      "automation_level": "semi-automated",
+      "use_case": "Getting high-quality results by combining tool strengths"
+    }
+  ],
+  "metrics_kpis": [],
+  "trends_signals": [
+    {
+      "trend": "AI coding tools rapidly evolving but not yet production-ready",
+      "category": "technology",
+      "stage": "growing",
+      "opportunity": "Early adopters who learn tools now will have advantage when they mature"
+    },
+    {
+      "trend": "Tool selection paralysis in AI coding space",
+      "category": "market",
+      "stage": "mainstream",
+      "opportunity": "Content and services helping with tool selection and comparison"
+    }
+  ],
+  "actionable_quotes": [
+    {
+      "quote": "investing in knowing how these tools work playing with them building many projects and is is an asset because once these tools get to that point you'll be the first in line to know how to get these things to production",
+      "context": "Discussion about current limitations of AI coding tools",
+      "category": "strategy",
+      "actionability": "Start learning and experimenting with AI coding tools now"
+    },
+    {
+      "quote": "none of them are at 100% there but there are some that are very close",
+      "context": "Discussing production-readiness of AI coding tools",
+      "category": "tactical",
+      "actionability": "Set realistic expectations and choose tools closest to production-ready"
+    }
+  ],
+  "key_statistics": [
+    {
+      "statistic": "120 hours in last 2 weeks to build core features with Cursor as complete novice",
+      "context": "User experience learning Cursor from scratch",
+      "source_reliability": "claimed"
+    }
+  ],
+  "comment_insights": [
+    {
+      "type": "validation",
+      "insight": "Senior developers confirm the video analysis is accurate and valuable",
+      "evidence": "We're senior tech devs who've been taking Cursor, Bolt, Replit, comparing nuances, strengths, weaknesses and this vid is super spot on",
+      "engagement": 111,
+      "author": "@@PurposemakerLabs",
+      "relevance": "Validates the credibility and accuracy of the tool comparison"
+    },
+    {
+      "type": "use_case",
+      "insight": "Hybrid workflow approach is being successfully used by practitioners",
+      "evidence": "I tried all of them, and honestly the best way to get a high-quality result is to build the UI in Lovable until you're happy with how it looks. Then just upload the full project to Bolt",
+      "engagement": 128,
+      "author": "@@mouzarimusic",
+      "relevance": "Reveals successful workflow combining multiple tools"
+    },
+    {
+      "type": "problem",
+      "insight": "Analysis paralysis is a major pain point in this market",
+      "evidence": "Overwhelmed at how fast the apps keep coming out and paralysis of analysis is setting in on which one to invest time into",
+      "engagement": 116,
+      "author": "@@Nicole.Finateri",
+      "relevance": "Confirms market need for clear tool comparison and guidance"
+    }
+  ],
+  "top_validated_comments": [
+    {
+      "comment": "Complete novice using Cursor, took me 120 hours in last 2 weeks to get the core features build. Ton of principles, headaches and iterations further, I can say, use Cursor, but prepare your documentation",
+      "likes": 148,
+      "author": "@@cryptian8730",
+      "insight_type": "pain_point",
+      "business_value": "Shows the learning curve and time investment required for non-technical users with advanced tools"
+    },
+    {
+      "comment": "I tried all of them, and honestly the best way to get a high-quality result is to build the UI in Lovable until you're happy with how it looks. Then just upload the full project to Bolt, connect your",
+      "likes": 128,
+      "author": "@@mouzarimusic",
+      "insight_type": "use_case",
+      "business_value": "Reveals successful hybrid workflow that could be packaged as a methodology or course"
+    },
+    {
+      "comment": "Literally the video I've been waiting for. Overwhelmed at how fast the apps keep coming out and paralysis of analysis is setting in on which one to invest time into.",
+      "likes": 116,
+      "author": "@@Nicole.Finateri",
+      "insight_type": "market_validation",
+      "business_value": "Confirms strong market demand for tool comparison and decision-making content"
+    }
+  ],
+  "comment_derived_trends": [
+    {
+      "trend": "Non-technical users successfully using advanced tools with significant time investment",
+      "supporting_comments": [
+        "Complete novice using Cursor, took me 120 hours",
+        "I've never written code, I tried out Lovable yesterday and was blown away"
+      ],
+      "frequency": "3-4 comments",
+      "business_implication": "Market for training and support services for non-technical users learning AI coding tools"
+    },
+    {
+      "trend": "High demand for unbiased tool comparison content",
+      "supporting_comments": [
+        "Literally the video I've been waiting for",
+        "This is by far the best video I've seen on YouTube about these new AI coding platforms",
+        "One of the BEST overview videos about AI coders on YouTube"
+      ],
+      "frequency": "5+ comments",
+      "business_implication": "Content creators focusing on tool comparisons and tutorials have strong audience demand"
+    },
+    {
+      "trend": "Users experimenting with multiple tools to find optimal workflows",
+      "supporting_comments": [
+        "I tried all of them",
+        "For a month, I tried to build the same simple app with the same prompt on a few different platforms",
+        "I maxed out on all of them"
+      ],
+      "frequency": "3-4 comments",
+      "business_implication": "Opportunity for services that help optimize tool selection and workflows for specific use cases"
+    }
+  ],
+  "meta": {
+    "video_id": "Ojk51mNOUow",
+    "title": "I ranked every AI Coder: Bolt vs. Cursor vs. Replit vs Lovable",
+    "extracted_at": "2025-10-17T16:54:09.781317",
+    "model": "openrouter/anthropic/claude-sonnet-4",
+    "transcript_length": 21346,
+    "processing_time_seconds": 67.2779393196106
+  }
+}
